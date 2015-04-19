@@ -68,24 +68,3 @@ graphStatDF.to_csv('GraphStatistics.txt')
 # Make some graphs
 gf.plotGraphStats(graphStatArray)
 
-#%%
-
-# To identify the most highly connected metabolites we will:
-curDir = 'TBhypometabat3838' #smallest
-#curDir - 'TBhypometabat3815' #largest
-myGraph = nx.read_adjlist(curDir+'/'+curDir+'AdjList.txt', delimiter='\t', 
-                              create_using=nx.Graph())
-myCent = nx.degree_centrality(myGraph)
-
-import operator
-myCentSorted = sorted(myCent.items(), key=operator.itemgetter(1), reverse=True)
-myRank = np.linspace(1,len(myCentSorted), len(myCentSorted))
-
-# Plot the data
-pyplot.scatter(myRank, myCentSorted)
-# Not plotting properly b/c myCentSorted is a list of lists. How do I extract
-# the second column to plot it?
-
-
-# Loop over all graphs. For each node, check if node has already been found. If
-# it has a higher connectivity, then update the hash.
