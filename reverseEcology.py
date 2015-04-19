@@ -21,7 +21,8 @@ import pandas
 import sbmlFunctions
 
 # Retrieve listing of model subdirectories
-dirList = filter(os.path.isdir, os.listdir(os.getcwd()))
+
+dirList = filter(os.path.isdir, glob.glob('*'))
 numSubDir = len(dirList)
 
 #%%
