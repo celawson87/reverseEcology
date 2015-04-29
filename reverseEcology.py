@@ -12,6 +12,7 @@
 #%%
 # Import python packages
 import cobra
+import glob
 import networkx as nx
 import numpy as np
 import os
@@ -37,7 +38,7 @@ for curDir in dirList:
     model.description = curDir;
 # Read model statistics
     modelStatArray[count:] = sf.getModelStats(model)
-    sbmlFunctions.adjacencyListFromModel(model)
+    sf.adjacencyListFromModel(model)
     count = count + 1
 
 # Write model statistics to file
@@ -46,25 +47,31 @@ modelStatDF = pandas.DataFrame(modelStatArray, columns=colLabels, index=dirList)
 modelStatDF.to_csv('ModelStatistics.txt')
 
 #%%
-# Import adjacencylists as graphs. Retrieve graph statistics.
+# Import adjacencylists as graphs.
 graphStatArray = np.empty([numSubDir, 4], dtype = int)
 
 count = 0
+myGraphList = []
+myDiGraphList = []
 for curDir in dirList:
     print 'Processing directory', count+1, 'of', numSubDir, ':', curDir
 # Construct adjacency list and convert to graph object
     myGraph = nx.read_adjlist(curDir+'/'+curDir+'AdjList.txt', delimiter='\t', 
                               create_using=nx.Graph())
-    myDiGraph = nx.read_adjlist(curDir+'/'+curDir+'AdjList.txt', delimiter='\t', 
-                              create_using=nx.DiGraph())
+    myDiGraph =   nx.read_adjlist(curDir+'/'+curDir+'AdjList.txt', delimiter='\t', 
+                              create_using=nx.DiGraph())                            
+    myGraphList.append(myGraph)
+    myDiGraphList.append(myDiGraph)
 # Read graph statistics                       
     graphStatArray[count:] = gf.getGraphStats(myGraph)
     count = count + 1
 
+#%%
+# Retrieve statistics on undirected graphs.
+
 colLabels = ['Nodes', 'Edges', 'TotalComponents', 'Size of Largest']
-graphStatDF = pandas.DataFrame(graphStatArray, columns=colLabels, index=dirList) 
+graphStatDF = pandas.DataFrame(graphStatArray, columns=colLabels, index=dirList)
 graphStatDF.to_csv('GraphStatistics.txt')
 
 # Make some graphs
 gf.plotGraphStats(graphStatArray)
-
