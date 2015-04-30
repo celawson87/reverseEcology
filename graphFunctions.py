@@ -24,14 +24,16 @@ def getGraphStats(graph):
     return statRow
     
 def plotGraphStats(graphStatArray):
-    myWeight = np.ones_like(graphStatArray[:,0]) / float(len(graphStatArray[:,0]))
+    myWeight = np.ones_like(graphStatArray[:,0]) / 
+                            float(len(graphStatArray[:,0]))
     pyplot.figure(1)
     pyplot.hist(graphStatArray[:,0], weights=myWeight)
     pyplot.xlabel('Total Nodes')
     pyplot.ylabel('Fraction of Graphs')
 
 # Histogram of number of components
-    myWeight = np.ones_like(graphStatArray[:,2]) / float(len(graphStatArray[:,2]))
+    myWeight = np.ones_like(graphStatArray[:,2]) / 
+                            float(len(graphStatArray[:,2]))
     pyplot.figure(2)
     pyplot.hist(graphStatArray[:,2], weights=myWeight)
     pyplot.xlabel('Number of Components')
