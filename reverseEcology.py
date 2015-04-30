@@ -12,11 +12,9 @@
 #%%
 # Import python packages
 import cobra
-import glob
+import os, glob
 import networkx as nx
 import numpy as np
-import os
-import pandas
 from matplotlib import pyplot
 
 # Import additional functions which are found in relevant scripts
@@ -28,29 +26,34 @@ dirList = filter(os.path.isdir, glob.glob('*'))
 numSubDir = len(dirList)
 
 #%%
-# Convert SBML model files to adjacencyLists. Retreive model statistics.
+# Convert SBML model files to adjacency lists. Retreive model statistics.
 modelStatArray = np.empty([numSubDir, 3], dtype = int)
 
 count = 0
+myFile = open('ModelStatistics.txt', 'w')
+myFile.write('Model,Genes,Metabolites,Reactions\n')
+
 for curDir in dirList:
     print 'Processing directory', count+1, 'of', numSubDir, ':', curDir
     model = cobra.io.read_sbml_model(curDir+'/'+curDir+'Balanced.xml')
     model.description = curDir;
 # Read model statistics
     modelStatArray[count:] = sf.getModelStats(model)
+    myFile.write('%s,%i,%i,%i\n' % (curDir, modelStatArray[count,0], 
+                                    modelStatArray[count,1], modelStatArray[count, 2] ) )
     sf.adjacencyListFromModel(model)
     count = count + 1
-
-# Write model statistics to file
-colLabels = ['Genes', 'Metabolites', 'Reactions']
-modelStatDF = pandas.DataFrame(modelStatArray, columns=colLabels, index=dirList) 
-modelStatDF.to_csv('ModelStatistics.txt')
+myFile.close()
 
 #%%
-# Import adjacencylists as graphs.
+# Import adjacency lists as graphs. Retrieve graph statistics.
+
 graphStatArray = np.empty([numSubDir, 4], dtype = int)
 
 count = 0
+myFile = open('GraphStatistics.txt', 'w')
+myFile.write('Model,Nodes,Edges,Total Components,Size of Largest\n')
+
 myGraphList = []
 myDiGraphList = []
 for curDir in dirList:
@@ -64,14 +67,8 @@ for curDir in dirList:
     myDiGraphList.append(myDiGraph)
 # Read graph statistics                       
     graphStatArray[count:] = gf.getGraphStats(myGraph)
+    myFile.write('%s,%i,%i,%i,%i\n' % (curDir, graphStatArray[count,0], 
+                                       graphStatArray[count,1], graphStatArray[count, 2], 
+                                        graphStatArray[count, 3] ) )
     count = count + 1
-
-#%%
-# Retrieve statistics on undirected graphs.
-
-colLabels = ['Nodes', 'Edges', 'TotalComponents', 'Size of Largest']
-graphStatDF = pandas.DataFrame(graphStatArray, columns=colLabels, index=dirList)
-graphStatDF.to_csv('GraphStatistics.txt')
-
-# Make some graphs
-gf.plotGraphStats(graphStatArray)
+myFile.close()
