@@ -51,7 +51,6 @@ modelFile.close()
 
 #%%
 # Import adjacency lists as graphs. Retrieve graph statistics.
-
 graphStatArray = np.empty([numSubDir, 4], dtype = int)
 
 count = 0
@@ -77,3 +76,9 @@ for curDir in dirList:
                                        graphStatArray[count, 3] ) )
     count = count + 1
 graphFile.close()
+
+#%%
+# Identify the most highly-connected metabolites
+myPct = 0.01
+removeMetabs = gf.findTopMetab(myPct, graphList)
+    
