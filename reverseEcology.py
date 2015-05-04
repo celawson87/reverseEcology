@@ -35,7 +35,7 @@ modelFile = open('ModelStatistics.txt', 'w')
 modelFile.write('Model,Genes,Metabolites,Reactions\n')
 
 count = 0
-print 'Converting SBML file to Adjacency List\n'
+print 'Converting SBML file to Adjacency List'
 for curDir in dirList:
     print 'Processing directory', count+1, 'of', numSubDir, ':', curDir
     model = cobra.io.read_sbml_model(curDir+'/'+curDir+'Balanced.xml')
@@ -66,7 +66,7 @@ graphList = []
 diGraphList = []
 
 count = 0
-print 'Computing Graph Statistics\n'
+print 'Computing Graph Statistics'
 for curDir in dirList:
     print 'Processing directory', count+1, 'of', numSubDir, ':', curDir
 # Read in adjacency list and convert to graph object
@@ -92,6 +92,7 @@ for curDir in dirList:
 graphFile.close()
 diGraphFile.close()
 
+
 #%%
 # Reduce each graph to its largest component and write to file
 # From the undirected graph, identify the nodes belonging to each component.
@@ -113,6 +114,7 @@ reducedDiGraphList = []
 
 print 'Reducing to Largest Component'
 count = 0
+
 for curDir in dirList:
     print 'Processing directory', count+1, 'of', numSubDir, ':', curDir
     myGraph = nx.read_adjlist(curDir+'/'+curDir+'AdjList.txt',
@@ -145,7 +147,17 @@ for curDir in dirList:
 # Write the graph as an adjancecy list
     nx.write_adjlist(myDiGraph, curDir+'/'+curDir+'RedAdjList.txt')
 
+# Compute seed sets and write to file
+    myConComp = list(nx.strongly_connected_components(myDiGraph))
+    seedSets = open(curDir+'/'+curDir+'SeedSets.txt', 'w')
+    for item in myConComp:
+        seedSets.write("%s\n" % item)
+    seedSets.close()
+
     count = count + 1
 
 reducedGraphFile.close()
 reducedDiGraphFile.close()
+
+# Plot statistics
+gf.plotDiGraphStats(reducedDiGraphStatArray)

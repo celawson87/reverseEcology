@@ -60,6 +60,30 @@ def plotGraphStats(graphStatArray):
     
     return
     
+def plotDiGraphStats(diGraphStatArray):
+    myWeight = np.ones_like(diGraphStatArray[:,0]) / float(len(diGraphStatArray[:,0]))
+    pyplot.figure(1)
+    pyplot.hist(diGraphStatArray[:,0], weights=myWeight)
+    pyplot.xlabel('Total Nodes')
+    pyplot.ylabel('Fraction of Graphs')
+
+# Histogram of number of components
+    myWeight = np.ones_like(diGraphStatArray[:,2]) / float(len(diGraphStatArray[:,2]))
+    pyplot.figure(2)
+    pyplot.hist(diGraphStatArray[:,2], weights=myWeight)
+    pyplot.xlabel('Number of Seed Sets')
+    pyplot.ylabel('Fraction of Genomes')
+
+# Histogram of largest component size
+    myWeight = np.ones_like(diGraphStatArray[:,3]) / float(len(diGraphStatArray[:,3]))
+    pyplot.figure(3)
+    pyplot.hist(diGraphStatArray[:,3], weights=myWeight)
+    pyplot.xlabel('Number of Compounds in Largest Seed Set')
+    pyplot.ylabel('Fraction of Genomes')
+    
+# Histogram of seed set sizes
+    
+    return
     
 def findTopMetab(myPct, graphList):
 
