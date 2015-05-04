@@ -25,6 +25,16 @@ def getGraphStats(graph):
     statRow[2] = len(myConCompList)
     statRow[3] = len(myConCompList[0])
     return statRow
+
+def getDiGraphStats(diGraph):
+    statRow = [0]*4
+    statRow[0] = diGraph.number_of_nodes()
+    statRow[1] = diGraph.number_of_edges()
+    myConComp = nx.strongly_connected_components(diGraph)
+    myConCompList = sorted(myConComp, key = len, reverse=True)
+    statRow[2] = len(myConCompList)
+    statRow[3] = len(myConCompList[0])
+    return statRow
     
 def plotGraphStats(graphStatArray):
     myWeight = np.ones_like(graphStatArray[:,0]) / float(len(graphStatArray[:,0]))
