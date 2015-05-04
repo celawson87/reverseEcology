@@ -12,6 +12,7 @@
 #%%
 # Import python packages
 import cobra
+import itertools
 import os, glob
 import networkx as nx
 import numpy as np
@@ -30,10 +31,11 @@ numSubDir = len(dirList)
 # Convert SBML model files to adjacency lists. Retreive model statistics.
 modelStatArray = np.empty([numSubDir, 3], dtype = int)
 
-count = 0
 modelFile = open('ModelStatistics.txt', 'w')
 modelFile.write('Model,Genes,Metabolites,Reactions\n')
 
+count = 0
+print 'Converting SBML file to Adjacency List\n'
 for curDir in dirList:
     print 'Processing directory', count+1, 'of', numSubDir, ':', curDir
     model = cobra.io.read_sbml_model(curDir+'/'+curDir+'Balanced.xml')
@@ -54,7 +56,6 @@ modelFile.close()
 graphStatArray = np.empty([numSubDir, 4], dtype = int)
 diGraphStatArray = np.empty([numSubDir, 4], dtype = int)
 
-count = 0
 graphFile = open('GraphStatistics.txt', 'w')
 graphFile.write('Model,Nodes,Edges,Total Components,Size of Largest\n')
 
@@ -63,6 +64,9 @@ diGraphFile.write('Model,Nodes,Edges,Total Components,Size of Largest\n')
 
 graphList = []
 diGraphList = []
+
+count = 0
+print 'Computing Graph Statistics\n'
 for curDir in dirList:
     print 'Processing directory', count+1, 'of', numSubDir, ':', curDir
 # Read in adjacency list and convert to graph object
@@ -87,3 +91,61 @@ for curDir in dirList:
     count = count + 1
 graphFile.close()
 diGraphFile.close()
+
+#%%
+# Reduce each graph to its largest component and write to file
+# From the undirected graph, identify the nodes belonging to each component.
+# Aggregate the remaining nodes and remove them from both the graph and the
+# digraph.
+# Write the diGraph to file as an adjacency list.
+
+reducedGraphStatArray = np.empty([numSubDir, 4], dtype = int)
+reducedDiGraphStatArray = np.empty([numSubDir, 4], dtype = int)
+
+reducedGraphFile = open('ReducedGraphStatistics.txt', 'w')
+reducedGraphFile.write('Model,Nodes,Edges,Total Components,Size of Largest\n')
+
+reducedDiGraphFile = open('ReducedDiGraphStatistics.txt', 'w')
+reducedDiGraphFile.write('Model,Nodes,Edges,Total Components,Size of Largest\n')
+
+reducedGraphList = []
+reducedDiGraphList = []
+
+print 'Reducing to Largest Component'
+count = 0
+for curDir in dirList:
+    print 'Processing directory', count+1, 'of', numSubDir, ':', curDir
+    myGraph = nx.read_adjlist(curDir+'/'+curDir+'AdjList.txt',
+                              delimiter='\t', create_using=nx.Graph())
+    myDiGraph = nx.read_adjlist(curDir+'/'+curDir+'AdjList.txt',
+                                delimiter='\t', create_using=nx.DiGraph())                            
+    
+    subGraphs = sorted(nx.connected_components(myGraph), key = len, reverse=True)
+    removeNodes = list(itertools.chain(*subGraphs[1:len(subGraphs)]))
+#    print removeNodes
+    
+    myGraph.remove_nodes_from(removeNodes)
+    myDiGraph.remove_nodes_from(removeNodes)
+   
+    reducedGraphList.append(myGraph)
+    reducedDiGraphList.append(myDiGraph)
+
+# Read graph statistics                       
+    reducedGraphStatArray[count:] = gf.getGraphStats(myGraph)
+    reducedGraphFile.write('%s,%i,%i,%i,%i\n' % (curDir, reducedGraphStatArray[count,0], 
+                                       reducedGraphStatArray[count,1], 
+                                       reducedGraphStatArray[count, 2],
+                                       reducedGraphStatArray[count, 3] ) )
+    reducedDiGraphStatArray[count:] = gf.getDiGraphStats(myDiGraph)
+    reducedDiGraphFile.write('%s,%i,%i,%i,%i\n' % (curDir, reducedDiGraphStatArray[count,0], 
+                                       reducedDiGraphStatArray[count,1], 
+                                       reducedDiGraphStatArray[count, 2],
+                                       reducedDiGraphStatArray[count, 3] ) )
+
+# Write the graph as an adjancecy list
+    nx.write_adjlist(myDiGraph, curDir+'/'+curDir+'RedAdjList.txt')
+
+    count = count + 1
+
+reducedGraphFile.close()
+reducedDiGraphFile.close()
