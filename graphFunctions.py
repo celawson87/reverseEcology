@@ -37,6 +37,7 @@ def getDiGraphStats(diGraph):
     return statRow
     
 def plotGraphStats(graphStatArray):
+# Histogram of number of nodes
     myWeight = np.ones_like(graphStatArray[:,0]) / float(len(graphStatArray[:,0]))
     pyplot.figure(1)
     pyplot.hist(graphStatArray[:,0], weights=myWeight)
@@ -61,6 +62,7 @@ def plotGraphStats(graphStatArray):
     return
     
 def plotDiGraphStats(diGraphStatArray):
+# Histogram of number of nodes
     myWeight = np.ones_like(diGraphStatArray[:,0]) / float(len(diGraphStatArray[:,0]))
     pyplot.figure(1)
     pyplot.hist(diGraphStatArray[:,0], weights=myWeight)
@@ -81,7 +83,31 @@ def plotDiGraphStats(diGraphStatArray):
     pyplot.xlabel('Number of Compounds in Largest Seed Set')
     pyplot.ylabel('Fraction of Genomes')
     
-# Histogram of seed set sizes
+    return
+
+def plotSeedStats(seedSetList):
+# Histogram of total number of seed sets
+    myNumSeedSets = []
+    mySizeOfSeedSets = []
+    
+    for setOfSeedSets in seedSetList:
+        myNumSeedSets.append(len(setOfSeedSets))
+        for seedSet in setOfSeedSets:
+            mySizeOfSeedSets.append(len(seedSet))
+        
+    myWeight = np.ones_like(myNumSeedSets) / float(len(myNumSeedSets))
+    pyplot.figure(1)
+    pyplot.hist(myNumSeedSets, weights=myWeight)
+    pyplot.xlabel('Number of Seed Sets')
+    pyplot.ylabel('Fraction of Graphs')
+ 
+# Histogram of size of individual seed sets
+        
+    myWeight = np.ones_like(mySizeOfSeedSets) / float(len(mySizeOfSeedSets))
+    pyplot.figure(2)
+    pyplot.hist(mySizeOfSeedSets, weights=myWeight)
+    pyplot.xlabel('Metabolites in Seed Set')
+    pyplot.ylabel('Fraction of Seed Sets')
     
     return
     

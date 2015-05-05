@@ -111,6 +111,7 @@ reducedDiGraphFile.write('Model,Nodes,Edges,Total Components,Size of Largest\n')
 
 reducedGraphList = []
 reducedDiGraphList = []
+seedSetList = []
 
 print 'Reducing to Largest Component'
 count = 0
@@ -155,7 +156,9 @@ for curDir in dirList:
         inDeg = myCondensation.in_degree(node)
         if inDeg == 0:
             mySeeds.append(mySCCList[node])
-        
+    
+    seedSetList.append(mySeeds)
+    
     seedSets = open(curDir+'/'+curDir+'SeedSets.txt', 'w')
     for item in mySeeds:
         seedSets.write("%s\n" % item)
@@ -165,3 +168,5 @@ for curDir in dirList:
 
 reducedGraphFile.close()
 reducedDiGraphFile.close()
+
+gf.plotSeedStats(seedSetList)
