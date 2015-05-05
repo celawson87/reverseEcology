@@ -148,9 +148,16 @@ for curDir in dirList:
     nx.write_adjlist(myDiGraph, curDir+'/'+curDir+'RedAdjList.txt')
 
 # Compute seed sets and write to file
-    myConComp = list(nx.strongly_connected_components(myDiGraph))
+    mySCCList = list(nx.strongly_connected_components_recursive(myDiGraph))
+    myCondensation = nx.condensation(myDiGraph)
+    mySeeds = []    
+    for node in myCondensation.nodes():
+        inDeg = myCondensation.in_degree(node)
+        if inDeg == 0:
+            mySeeds.append(mySCCList[node])
+        
     seedSets = open(curDir+'/'+curDir+'SeedSets.txt', 'w')
-    for item in myConComp:
+    for item in mySeeds:
         seedSets.write("%s\n" % item)
     seedSets.close()
 
@@ -158,6 +165,3 @@ for curDir in dirList:
 
 reducedGraphFile.close()
 reducedDiGraphFile.close()
-
-# Plot statistics
-gf.plotDiGraphStats(reducedDiGraphStatArray)
