@@ -85,7 +85,7 @@ def plotDiGraphStats(diGraphStatArray):
     
     return
 
-def plotSeedStats(seedSetList):
+def plotSeedStats(seedSetList, reducedGraphStatArray, modelStatArray):
 # Histogram of total number of seed sets
     myNumSeedSets = []
     mySizeOfSeedSets = []
@@ -108,6 +108,16 @@ def plotSeedStats(seedSetList):
     pyplot.hist(mySizeOfSeedSets, weights=myWeight)
     pyplot.xlabel('Metabolites in Seed Set')
     pyplot.ylabel('Fraction of Seed Sets')
+    
+    pyplot.figure(3)
+    pyplot.scatter(reducedGraphStatArray[:,0], myNumSeedSets)
+    pyplot.xlabel('Total Number of Metabolites')
+    pyplot.ylabel('Number of Seed Sets')
+    
+    pyplot.figure(4)
+    pyplot.scatter(modelStatArray[:,2], myNumSeedSets)
+    pyplot.xlabel('Total Number of Reactions')
+    pyplot.ylabel('Number of Seed Sets')
     
     return
     

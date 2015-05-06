@@ -169,4 +169,4 @@ for curDir in dirList:
 reducedGraphFile.close()
 reducedDiGraphFile.close()
 
-gf.plotSeedStats(seedSetList)
+gf.plotSeedStats(seedSetList, reducedGraphStatArray, modelStatArray)
