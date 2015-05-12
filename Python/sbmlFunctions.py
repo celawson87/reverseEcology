@@ -16,9 +16,10 @@ def getModelStats(model):
     statRow[2] = len(model.reactions)
     return statRow
     
-def adjacencyListFromModel(model):
+def adjacencyListFromModel(model, processedDataDir):
 # Establish a file to write the adjancey list to
-    myFile = open(model.description+'/'+model.description+'AdjList.txt', 'w')
+    myFile = open('../'+processedDataDir+'/'+model.description+'/'+model.description+'AdjList.txt', 'w')
+
 # For each reaction, loop over the reactants. For each reactant, loop over the 
 # reaction products and construct the adjacency list for the reactant. If a 
 # reaction is reversible, repeat the process in reverse.

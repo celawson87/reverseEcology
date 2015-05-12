@@ -22,8 +22,16 @@ from matplotlib import pyplot
 import sbmlFunctions as sf
 import graphFunctions as gf
 
+# Define data directories
+processedDataDir = 'ProcessedModelFiles'
+summaryStatsDir = 'DataSummaries'
+
+dirList =[]
 # Retrieve listing of model subdirectories
-dirList = filter(os.path.isdir, glob.glob('*'))
+for item in os.listdir('../'+processedDataDir):
+    if not item.startswith('.'):
+        dirList.append(item)
+
 numSubDir = len(dirList)
 
 
@@ -31,22 +39,22 @@ numSubDir = len(dirList)
 # Convert SBML model files to adjacency lists. Retreive model statistics.
 modelStatArray = np.empty([numSubDir, 3], dtype = int)
 
-modelFile = open('ModelStatistics.txt', 'w')
+modelFile = open('../'+summaryStatsDir+'/'+'ModelStatistics.txt', 'w')
 modelFile.write('Model,Genes,Metabolites,Reactions\n')
 
 count = 0
 print 'Converting SBML file to Adjacency List'
 for curDir in dirList:
     print 'Processing directory', count+1, 'of', numSubDir, ':', curDir
-    model = cobra.io.read_sbml_model(curDir+'/'+curDir+'Balanced.xml')
+    model = cobra.io.read_sbml_model('../'+processedDataDir+'/'+curDir+'/'+curDir+'Balanced.xml')
     model.description = curDir;
 # Read model statistics
     modelStatArray[count:] = sf.getModelStats(model)
-    modelFile.write('%s,%i,%i,%i\n' % (curDir, modelStatArray[count,0], 
+    modelFile.write('%s,%i,%i,%i\n' % ('../'+processedDataDir+'/'+curDir, modelStatArray[count,0], 
                                     modelStatArray[count,1], 
                                     modelStatArray[count, 2] ) )
 # Create adjacency list and write to file
-    sf.adjacencyListFromModel(model)
+    sf.adjacencyListFromModel(model, processedDataDir)
     count = count + 1
 modelFile.close()
 
@@ -56,10 +64,10 @@ modelFile.close()
 graphStatArray = np.empty([numSubDir, 4], dtype = int)
 diGraphStatArray = np.empty([numSubDir, 4], dtype = int)
 
-graphFile = open('GraphStatistics.txt', 'w')
+graphFile = open('../'+summaryStatsDir+'/'+'GraphStatistics.txt', 'w')
 graphFile.write('Model,Nodes,Edges,Total Components,Size of Largest\n')
 
-diGraphFile = open('DiGraphStatistics.txt', 'w')
+diGraphFile = open('../'+summaryStatsDir+'/'+'DiGraphStatistics.txt', 'w')
 diGraphFile.write('Model,Nodes,Edges,Total Components,Size of Largest\n')
 
 graphList = []
@@ -70,9 +78,9 @@ print 'Computing Graph Statistics'
 for curDir in dirList:
     print 'Processing directory', count+1, 'of', numSubDir, ':', curDir
 # Read in adjacency list and convert to graph object
-    myGraph = nx.read_adjlist(curDir+'/'+curDir+'AdjList.txt',
+    myGraph = nx.read_adjlist('../'+processedDataDir+'/'+curDir+'/'+curDir+'AdjList.txt',
                               delimiter='\t', create_using=nx.Graph())
-    myDiGraph = nx.read_adjlist(curDir+'/'+curDir+'AdjList.txt',
+    myDiGraph = nx.read_adjlist('../'+processedDataDir+'/'+curDir+'/'+curDir+'AdjList.txt',
                                 delimiter='\t', create_using=nx.DiGraph())                            
     graphList.append(myGraph)
     diGraphList.append(myDiGraph)
@@ -92,6 +100,7 @@ for curDir in dirList:
 graphFile.close()
 diGraphFile.close()
 
+gf.plotGraphStats(graphStatArray)
 
 #%%
 # Reduce each graph to its largest component and write to file
@@ -103,10 +112,10 @@ diGraphFile.close()
 reducedGraphStatArray = np.empty([numSubDir, 4], dtype = int)
 reducedDiGraphStatArray = np.empty([numSubDir, 4], dtype = int)
 
-reducedGraphFile = open('ReducedGraphStatistics.txt', 'w')
+reducedGraphFile = open('../'+summaryStatsDir+'/'+'ReducedGraphStatistics.txt', 'w')
 reducedGraphFile.write('Model,Nodes,Edges,Total Components,Size of Largest\n')
 
-reducedDiGraphFile = open('ReducedDiGraphStatistics.txt', 'w')
+reducedDiGraphFile = open('../'+summaryStatsDir+'/'+'ReducedDiGraphStatistics.txt', 'w')
 reducedDiGraphFile.write('Model,Nodes,Edges,Total Components,Size of Largest\n')
 
 reducedGraphList = []
@@ -118,9 +127,9 @@ count = 0
 
 for curDir in dirList:
     print 'Processing directory', count+1, 'of', numSubDir, ':', curDir
-    myGraph = nx.read_adjlist(curDir+'/'+curDir+'AdjList.txt',
+    myGraph = nx.read_adjlist('../'+processedDataDir+'/'+curDir+'/'+curDir+'AdjList.txt',
                               delimiter='\t', create_using=nx.Graph())
-    myDiGraph = nx.read_adjlist(curDir+'/'+curDir+'AdjList.txt',
+    myDiGraph = nx.read_adjlist('../'+processedDataDir+'/'+curDir+'/'+curDir+'AdjList.txt',
                                 delimiter='\t', create_using=nx.DiGraph())                            
     
     subGraphs = sorted(nx.connected_components(myGraph), key = len, reverse=True)
@@ -146,7 +155,7 @@ for curDir in dirList:
                                        reducedDiGraphStatArray[count, 3] ) )
 
 # Write the graph as an adjancecy list
-    nx.write_adjlist(myDiGraph, curDir+'/'+curDir+'RedAdjList.txt')
+    nx.write_adjlist(myDiGraph, '../'+processedDataDir+'/'+curDir+'/'+curDir+'RedAdjList.txt')
 
 # Compute seed sets and write to file
     mySCCList = list(nx.strongly_connected_components_recursive(myDiGraph))
@@ -159,7 +168,7 @@ for curDir in dirList:
     
     seedSetList.append(mySeeds)
     
-    seedSets = open(curDir+'/'+curDir+'SeedSets.txt', 'w')
+    seedSets = open('../'+processedDataDir+'/'+curDir+'/'+curDir+'SeedSets.txt', 'w')
     for item in mySeeds:
         seedSets.write("%s\n" % item)
     seedSets.close()
