@@ -1,4 +1,4 @@
-function [results] = modelProcessorFunction(pathStr)
+function [results] = modelProcessorFunction(pathStr, dataDir, rawModelDir, processedModelDir);
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % AddFormulas.m
@@ -28,16 +28,16 @@ function [results] = modelProcessorFunction(pathStr)
 results = zeros(4,1);
 % Read in model from SBML
 fprintf('Reading in the model ... \n');
-model = readCbModel(pathStr);
+model = readCbModel(strcat('../',rawModelDir,'/',pathStr));
 
 %%% Import the subSystem data from SEED
-fileID = fopen('table.tsv');
+fileID = fopen(strcat('../',dataDir,'/','table.tsv'));
 mySeed = textscan(fileID, repmat('%q', 1, 7) , 'delimiter', '\t', 'CollectOutput', true);
 fclose(fileID);
 mySeed = mySeed{1,1};
 
 %%% Import free energy data
-fileID = fopen('ModelSEED-reactions-db.csv');
+fileID = fopen(strcat('../',dataDir,'/','ModelSEED-reactions-db.csv'));
 dGData = textscan(fileID, repmat('%q', 1, 9) , 'delimiter', ',', 'CollectOutput', true);
 fclose(fileID);
 dGData = dGData{1,1};
@@ -48,7 +48,7 @@ dGData = dGData{1,1};
 % We don't know how long a priori the metabolite list will be, so import
 % the entire column and truncate.
 fprintf('Importing charges ... \n');
-model.metFormulas = importCharges(strcat(pathStr,'.txt'), 16, length(model.mets)+15);
+model.metFormulas = importCharges(strcat('../',rawModelDir,'/',pathStr,'.txt'), 16, length(model.mets)+15);
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -190,13 +190,22 @@ model.rxns = regexprep(model.rxns, '_[a-z]\d', '');
 model.rxnNames = regexprep(model.rxnNames, '\s[a-z]\d', '');
 % metNames
 model.metNames = regexprep(model.metNames, '_[a-z]\d', '');
-writeCbModel(model, 'sbml', strcat(pathStr,'Balanced.xml'));
+
+% pathStr contains both the folder and file name. Split along '/' to
+% identify the relevant dir.
+splitStr = regexp(pathStr, '/', 'split');
+dir = splitStr(1);
+if ~exist(strcat('../',processedModelDir,'/',dir{1,1}), 'dir')
+  mkdir(strcat('../',processedModelDir,'/',dir{1,1}));
+end
+
+writeCbModel(model, 'sbml', strcat('../',processedModelDir,'/',pathStr,'Balanced.xml'));
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Read in again, to ensure unused genes are removed
 fprintf('Eliminating unused genes ... \n');
-model = readCbModel(strcat(pathStr,'Balanced.xml'));
+model = readCbModel(strcat('../',processedModelDir,'/',pathStr,'Balanced.xml'));
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -210,4 +219,4 @@ null = size(model.rxns); results(3,1) = null(1);
 % Perform final write to file
 fprintf('Performing final write ... \n');
 
-writeCbModel(model, 'sbml', strcat(pathStr,'Balanced.xml'));
+writeCbModel(model, 'sbml', strcat('../',processedModelDir,'/',pathStr,'Balanced.xml'));
