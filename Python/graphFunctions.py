@@ -9,13 +9,26 @@
 # Set of functions for manipulating SBML files
 ################################################################################
 
+# This module contains functions for working with networkx graph objects.
+
+# Import Python packages.
+# The packages 'networkx', 'numpy', and 'matplotlib' may not be 
+# included with your Python distribution. They can be installed using pip. For
+# more information, visit:
+# networkx: http://networkx.github.io/, used to perform graph analyses form which
+# seed sets and scopes are computed
+# numpy: http://www.numpy.org/, adds support for matrices and arrays
+# matplotlib: http://matplotlib.org/, used for plotting
 import math
 import networkx as nx
 import numpy as np
 from matplotlib import pyplot
 from collections import Counter
 
-
+# Function to retrieve statistics about a graph
+# Input: network object of a graph
+# Output: array with four integer columns, containing the number of nodes 
+# (metabolites), edges, total components, and size of the largest component.
 def getGraphStats(graph):
     statRow = [0]*4
     statRow[0] = graph.number_of_nodes()
@@ -26,6 +39,10 @@ def getGraphStats(graph):
     statRow[3] = len(myConCompList[0])
     return statRow
 
+# Function to retrieve statistics about a digraph
+# Input: network object of a digraph
+# Output: array with four integer columns, containing the number of nodes 
+# (metabolites), edges, total components, and size of the largest component.
 def getDiGraphStats(diGraph):
     statRow = [0]*4
     statRow[0] = diGraph.number_of_nodes()
@@ -35,7 +52,16 @@ def getDiGraphStats(diGraph):
     statRow[2] = len(myConCompList)
     statRow[3] = len(myConCompList[0])
     return statRow
-    
+
+# Plot summary statistics of a collection of graph objects. The function plots
+# historams of:
+#   graph size (number of nodes)
+#   total number of components
+#   size of largest compmonent, as fraction of total nodes
+# Input: array containing one row for each graph object. Array columns 
+# correspond to: the number of nodes (metabolites), edges, total components, 
+# and size of the largest component.
+# Output: collection of plots
 def plotGraphStats(graphStatArray):
 # Histogram of number of nodes
     myWeight = np.ones_like(graphStatArray[:,0]) / float(len(graphStatArray[:,0]))
@@ -60,7 +86,16 @@ def plotGraphStats(graphStatArray):
     pyplot.ylabel('Fraction of Graphs')
     
     return
-    
+
+# Plot summary statistics of a collection of digraph objects. The function plots
+# historams of:
+#   digraph size (number of nodes)
+#   total number of components
+#   size of largest compmonent, as fraction of total nodes
+# Input: array containing one row for each digraph object. Array columns 
+# correspond to: the number of nodes (metabolites), edges, total components, 
+# and size of the largest component.
+# Output: collection of plots
 def plotDiGraphStats(diGraphStatArray):
 # Histogram of number of nodes
     myWeight = np.ones_like(diGraphStatArray[:,0]) / float(len(diGraphStatArray[:,0]))
@@ -85,6 +120,21 @@ def plotDiGraphStats(diGraphStatArray):
     
     return
 
+# Plot summary statistics of a collection of seed sets. The function plots
+# historams of:
+#   digraph size (number of nodes)
+#   total number of components
+#   size of largest compmonent, as fraction of total nodes
+# Inputs:
+#  seedSetList: "List of lists" of seed metabolites. Each element is a list of nodes belonging
+#   to an SCC which is also a seed set.
+#  reducedGraphStatArray: array containing one row for each graph object. Array 
+#   columns correspond to: the number of nodes (metabolites), edges, total 
+#   components, and size of the largest component.
+#  modelStatArray: array containing one row for each original SBML file/model. 
+#    Array columns correspond to:  the number of genes, metabolites, and reactions
+#    in the SBML file. 
+# Output: collection of plots
 def plotSeedStats(seedSetList, reducedGraphStatArray, modelStatArray):
 # Histogram of total number of seed sets
     myNumSeedSets = []
@@ -102,13 +152,14 @@ def plotSeedStats(seedSetList, reducedGraphStatArray, modelStatArray):
     pyplot.ylabel('Fraction of Graphs')
  
 # Histogram of size of individual seed sets
-        
     myWeight = np.ones_like(mySizeOfSeedSets) / float(len(mySizeOfSeedSets))
     pyplot.figure(2)
     pyplot.hist(mySizeOfSeedSets, weights=myWeight)
     pyplot.xlabel('Metabolites in Seed Set')
     pyplot.ylabel('Fraction of Seed Sets')
-    
+
+# Scatter plots of seed sets ize compared to model size, as measured by
+# metabolites or reactions
     pyplot.figure(3)
     pyplot.scatter(reducedGraphStatArray[:,0], myNumSeedSets)
     pyplot.xlabel('Total Number of Metabolites')
@@ -120,43 +171,3 @@ def plotSeedStats(seedSetList, reducedGraphStatArray, modelStatArray):
     pyplot.ylabel('Number of Seed Sets')
     
     return
-    
-def findTopMetab(myPct, graphList):
-
-    aggNodeCount = Counter()
-    for graph in graphList:
-        aggNodeCount = aggNodeCount + Counter(nx.degree(graph))
-    
-    aggNodeList = aggNodeCount.most_common()
-    # Indices for splitting metabolites into two sets.
-    totalNodes = len(aggNodeCount)
-    pctIndex = int(math.ceil(totalNodes*myPct))
-    
-    # Plot the number of edges associated with each metabolite
-    x = np.linspace(1, totalNodes, totalNodes)
-    y = zip(*aggNodeList)[1]
-    x0 = x[0:pctIndex-1]
-    x1 = x[pctIndex:totalNodes]
-    y0 = y[0:pctIndex-1]
-    y1 = y[pctIndex:totalNodes]
-    
-    pyplot.loglog(x0, y0, marker='.', color='red', linestyle='none')
-    pyplot.loglog(x1, y1, marker='.', color='black', linestyle='none')
-    pyplot.xlim(0, len(x))
-    pyplot.ylim(0, max(y))
-    pyplot.xlabel('Metabolite Rank')
-    pyplot.ylabel('Number of Edges')
-    
-    # Return a list of the most-connected metabolites
-    metabFile = open('connectedMetabs.txt', 'w')
-    metabFile.write('Metabolite, Edges\n')
-    
-    removeMetabs = []
-    for count in range(pctIndex):
-        metabFile.write('%s,%i\n' % (aggNodeList[count][0], 
-                                     aggNodeList[count][1] ) )
-        removeMetabs.append(aggNodeList[count][0])
-                                 
-    metabFile.close()
-
-    return removeMetabs
