@@ -86,12 +86,15 @@ modelFile.write('Model,Genes,Metabolites,Reactions\n')
 # is converted to an adjacency list and written to file.
 count = 0
 print 'Converting SBML file to Adjacency List'
+
 for curDir in dirList:
 # Read in SBML file    
     print 'Processing directory', count+1, 'of', numSubDir, ':', curDir
     model = cobra.io.read_sbml_model('../'+processedDataDir+'/'+curDir+'/'+curDir+'Balanced.xml')
+
 # Update description field
     model.description = curDir;
+
 # Read model statistics by invoking sbmlFunctions.getModelStats
     modelStatArray[count:] = sf.getModelStats(model)
     modelFile.write('%s,%i,%i,%i\n' % ('../'+processedDataDir+'/'+curDir, modelStatArray[count,0], 
@@ -100,6 +103,8 @@ for curDir in dirList:
 # Create adjacency list and write to file
     sf.adjacencyListFromModel(model, processedDataDir)
     count = count + 1
+
+# Close files containing summary data
 modelFile.close()
 
 
@@ -134,23 +139,29 @@ diGraphList = []
 # statistics to file.
 count = 0
 print 'Computing Graph Statistics'
+
 for curDir in dirList:
     print 'Processing directory', count+1, 'of', numSubDir, ':', curDir
+
 # Read in adjacency list and convert to graph object
     myGraph = nx.read_adjlist('../'+processedDataDir+'/'+curDir+'/'+curDir+'AdjList.txt',
                               delimiter='\t', create_using=nx.Graph())
+
 # Read in adjacency list and convert to digraph object
     myDiGraph = nx.read_adjlist('../'+processedDataDir+'/'+curDir+'/'+curDir+'AdjList.txt',
                                 delimiter='\t', create_using=nx.DiGraph())                            
+
 # Append to the appropriate list
     graphList.append(myGraph)
     diGraphList.append(myDiGraph)
+
 # Read model statistics by invoking graphFunctions.getGraphStats
     graphStatArray[count:] = gf.getGraphStats(myGraph)
     graphFile.write('%s,%i,%i,%i,%i\n' % (curDir, graphStatArray[count,0], 
                                        graphStatArray[count,1], 
                                        graphStatArray[count, 2],
                                        graphStatArray[count, 3] ) )
+
 # Read model statistics by invoking graphFunctions.getDiGraphStats
     diGraphStatArray[count:] = gf.getDiGraphStats(myDiGraph)
     diGraphFile.write('%s,%i,%i,%i,%i\n' % (curDir, diGraphStatArray[count,0], 
@@ -159,6 +170,8 @@ for curDir in dirList:
                                        diGraphStatArray[count, 3] ) )
 
     count = count + 1
+
+# Close files containing summary data
 graphFile.close()
 diGraphFile.close()
 
@@ -170,26 +183,11 @@ gf.plotGraphStats(graphStatArray)
 
 #%%
 
-# Computation of seed sets.
-# This cell does a number of important things. First, it reduces the network
-# to just its largest component. The results of the previous code indicate
-# the largest component contains at least 97% of the metabolites in the cell.
-# I believe we can safely discard the remainder. These nodes are also 
-# discarded from the digraph.
+# Reduction to largest component.
 
-# Second, compute the strongly connected components (SCCs) of the reduced 
-# digraph. An SCC is a group of nodes, such that from each node there exists
-# a path to all other nodes in the component. SCCs are candidates for seed
-# sets.
-
-# Third, SCCs are evaluated to see if they are seed sets: any SCC with no 
-# outgoing edges is a seed set. This is done by converting the digraph to its 
-# condensation (a new graph) in which each SCC is represented as a single
-# node. 
-
-# Fourth, seed sets are written to file and summary statistics are computed
-# for each seed set. Additional statistics on the reduced graph and digraph
-# are also computed.
+# The results of the previous code cell indicate the largest component 
+# contains at least 97% of the metabolites in the cell. I believe we can 
+# safely discard the remainder. These nodes are also discarded from the digraph.
 
 # Create arrays to store summary statistics. Each array has four integer
 # columns, for different properties of the graph: number of nodes (metabolites),
@@ -204,24 +202,24 @@ reducedGraphFile.write('Model,Nodes,Edges,Total Components,Size of Largest\n')
 reducedDiGraphFile = open('../'+summaryStatsDir+'/'+'ReducedDiGraphStatistics.txt', 'w')
 reducedDiGraphFile.write('Model,Nodes,Edges,Total Components,Size of Largest\n')
 
-# Create lists to store the graph and digraph objects, and seed sets
-# seedSetList is a list of lists. Each outer list contains all the seed sets
-# for that graph.
+# Create lists to store the graph and digraph objects
 reducedGraphList = []
 reducedDiGraphList = []
-seedSetList = []
 
-# # Iterate over the list of genome directories. For each graph, identify its
+# Iterate over the list of genome directories. For each graph, identify its
 # largest component and identify the nodes belonging to each component.
 # Aggregate the remaining nodes and remove them from both the graph and the
 # digraph. Write the graph and diGraph to file as an adjacency list.
 count = 0
 print 'Reducing to Largest Component'
+
 for curDir in dirList:
     print 'Processing directory', count+1, 'of', numSubDir, ':', curDir
+
 # Read in adjacency list and convert to graph object
     myGraph = nx.read_adjlist('../'+processedDataDir+'/'+curDir+'/'+curDir+'AdjList.txt',
                               delimiter='\t', create_using=nx.Graph())
+
 # Read in adjacency list and convert to digraph object
     myDiGraph = nx.read_adjlist('../'+processedDataDir+'/'+curDir+'/'+curDir+'AdjList.txt',
                                 delimiter='\t', create_using=nx.DiGraph())                            
@@ -231,9 +229,11 @@ for curDir in dirList:
 # component (removeNodes).
     subGraphs = sorted(nx.connected_components(myGraph), key = len, reverse=True)
     removeNodes = list(itertools.chain(*subGraphs[1:len(subGraphs)]))
+
 # Remove these nodes from both the graph and digraph    
     myGraph.remove_nodes_from(removeNodes)
     myDiGraph.remove_nodes_from(removeNodes)
+
 # Append to the appropriate list
     reducedGraphList.append(myGraph)
     reducedDiGraphList.append(myDiGraph)
@@ -253,12 +253,58 @@ for curDir in dirList:
 # Create adjacency list for the reduced digraph and write to file
     nx.write_adjlist(myDiGraph, '../'+processedDataDir+'/'+curDir+'/'+curDir+'RedAdjList.txt')
 
+    count = count + 1
+
+# Close files containing summary data
+reducedGraphFile.close()
+reducedDiGraphFile.close()
+
+
+#%%
+
+# Computation of seed sets.
+
+# This code cell does a number of things. First, it computes the strongly 
+# connected components (SCCs) of the reduced digraph. An SCC is a group of
+#  nodes, such that from each node there exists a path to all other nodes in 
+# the component. SCCs are candidates for seed sets.
+
+# Second, SCCs are evaluated to see if they are seed sets: any SCC with no 
+# outgoing edges is a seed set. This is done by converting the digraph to its 
+# condensation (a new graph) in which each SCC is represented as a single
+# node. 
+
+# Third, seed sets are written to file and summary statistics are computed
+# for each seed set. Additional statistics on the reduced graph and digraph
+# are also computed.
+
+# Create lists to store seed sets
+# seedSetList is a list of lists. Each outer list contains all the seed sets
+# for that graph.
+seedSetList = []
+
+# Iterate over the list of genome directories. For each reduced digraph, 
+# identify its condensation (SCCs). For each node of the SCC, check if it
+# is a seed set by computing its in-degree. If yes, append the SCC (as a list
+# of nodes) to the list of seed sets. Then compute some summary statistics.
+count = 0
+print 'Computing Seed Sets'
+
+for curDir in dirList:
+    print 'Processing directory', count+1, 'of', numSubDir, ':', curDir
+
+# Read in adjacency list and convert to digraph object
+    myDiGraph = nx.read_adjlist('../'+processedDataDir+'/'+curDir+'/'+curDir+'AdjList.txt',
+                                delimiter='\t', create_using=nx.DiGraph())                            
+
 # Compute the list of SCCs for the digraph as well as its condensation
     mySCCList = list(nx.strongly_connected_components_recursive(myDiGraph))
     myCondensation = nx.condensation(myDiGraph)
+
 # "List of lists" of seed metabolites. Each element is a list of nodes belonging
 # to an SCC which is also a seed set.
     mySeeds = []    
+
 # For each node (SCC) of the condensation, examine each its in-degree. If the
 # in-degree is zero (only outgoing edges), the SCC is a seed set. Append the
 # SCC (as a list of nodes) to the list of seed sets.
@@ -276,9 +322,6 @@ for curDir in dirList:
     seedSets.close()
 
     count = count + 1
-
-reducedGraphFile.close()
-reducedDiGraphFile.close()
 
 # Plot summary statistics. The function plotSeedStats plots histograms of:
 #   number of seed sets
