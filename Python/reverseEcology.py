@@ -26,6 +26,7 @@
 #   numpy: http://www.numpy.org/, adds support for matrices and arrays
 #   matplotlib: http://matplotlib.org/, used for plotting
 import cobra
+import csv
 import itertools
 import os, glob
 import networkx as nx
@@ -317,8 +318,8 @@ for curDir in dirList:
 # Record seed metabolites for each graph. Each row of the output file contains
 # the metabolites belonging to a single seed set.
     seedSets = open('../'+processedDataDir+'/'+curDir+'/'+curDir+'SeedSets.txt', 'w')
-    for item in mySeeds:
-        seedSets.write("%s\n" % item)
+    writer = csv.writer(seedSets)
+    writer.writerows(mySeeds)
     seedSets.close()
 
     count = count + 1
