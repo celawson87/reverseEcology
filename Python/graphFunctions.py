@@ -156,16 +156,26 @@ def plotSeedStats(seedSetList, reducedGraphStatArray, modelStatArray):
     pyplot.figure(2)
     pyplot.hist(mySizeOfSeedSets, weights=myWeight)
     pyplot.xlabel('Metabolites in Seed Set')
+    pyplot.xlim(0, max(mySizeOfSeedSets))
+    pyplot.ylim(0, 1)
     pyplot.ylabel('Fraction of Seed Sets')
-
+    
+# Zoomed histogram of size of individual seed sets
+    pyplot.figure(3)
+    [n, bins, patches] = pyplot.hist(mySizeOfSeedSets, weights=myWeight)
+    pyplot.xlabel('Metabolites in Seed Set (Zoomed)')
+    pyplot.xlim(0, max(mySizeOfSeedSets))
+    pyplot.ylim(0, 1.1*n[1])
+    pyplot.ylabel('Fraction of Seed Sets (Zoomed)')
+    
 # Scatter plots of seed sets ize compared to model size, as measured by
 # metabolites or reactions
-    pyplot.figure(3)
+    pyplot.figure(4)
     pyplot.scatter(reducedGraphStatArray[:,0], myNumSeedSets)
     pyplot.xlabel('Total Number of Metabolites')
     pyplot.ylabel('Number of Seed Sets')
     
-    pyplot.figure(4)
+    pyplot.figure(5)
     pyplot.scatter(modelStatArray[:,2], myNumSeedSets)
     pyplot.xlabel('Total Number of Reactions')
     pyplot.ylabel('Number of Seed Sets')
