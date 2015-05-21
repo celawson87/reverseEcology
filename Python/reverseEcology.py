@@ -321,7 +321,18 @@ for curDir in dirList:
     writer = csv.writer(seedSets)
     writer.writerows(mySeeds)
     seedSets.close()
-
+    
+# Record weights for each seed metabolite. Each row of the output file contains
+# a metabolite and its weight (1 / size of the seed set).
+    seedWeights = open('../'+processedDataDir+'/'+curDir+'/'+curDir+'SeedWeights.txt', 'w')
+    for seed in mySeeds:
+        myWeight = 1 / float(len(seed))
+        for metab in seed:
+            seedWeights.write('%s,%f\n' % (metab, myWeight) )
+#    writer = csv.writer(seedWeights)
+#    writer.writerows(myWeights)
+    seedWeights.close()
+    
     count = count + 1
 
 # Plot summary statistics. The function plotSeedStats plots histograms of:
