@@ -141,7 +141,8 @@ pandas.DataFrame.to_csv(seedMatrixDF, '../'+summaryStatsDir+'/'+'seedMatrixWeigh
 # distance and UPGMA (average linkage) clustering. A second dendogram is
 # constructed based on metabolite weights across genomes. Then, the matrix
 # of seed weights is reordered to reflect the order of the dendograms and is
-# visualized.
+# visualized. Genome names are colored according to their lineage, with acI
+# sub-divided into acI-A and acI-B.
 
 # Import Python packages.
 from scipy import spatial
@@ -164,18 +165,18 @@ ax1 = fig.add_axes([0.05,0.9,0.8,0.05], frame_on=False)
 # Compute the linkage matrix
 Y = sch.linkage(seedMatrixT, method='complete', metric='euclidean')
 # Compute the dendogram
-Z1 = sch.dendrogram(Y, distance_sort='True')
+Z1 = sch.dendrogram(Y, distance_sort='True', color_threshold=0)
 # No tick marks along axes
 ax1.set_xticks([])
 ax1.set_yticks([])
 
 # Compute and plot dendogram for metabolites which will be beside the graph. 
 # Define the size of the dendogram
-ax2 = fig.add_axes([0,0.1,0.05,0.7], frame_on=False)
+ax2 = fig.add_axes([0,0.1,0.05,0.8], frame_on=False)
 # Compute the linkage matrix
 Y = sch.linkage(seedMatrix, method='average', metric='euclidean')
 # Compute the dendogram
-Z2 = sch.dendrogram(Y, orientation='right')
+Z2 = sch.dendrogram(Y, orientation='right', color_threshold=0)
 # No tick marks along axes
 ax2.set_xticks([])
 ax2.set_yticks([])
@@ -194,12 +195,21 @@ im = axmatrix.matshow(seedMatrix, aspect='auto', origin='lower')
 axmatrix.set_xticks([])
 axmatrix.set_yticks([])
 
+# Import coloration info to map to genome names. Rearrange to same order as
+# leaves of the dendogram and extract the 'Color' column as a list.
+# The file 'actinoColors.csv' will need to be updated for the specific samples.
+genomeColors = pandas.read_csv('../'+externalDataDir+'/'+'actinoColors.csv')
+genomeColors = genomeColors['Color'].tolist()
+#genomeColors = genomeColors[idx1]
+
 # Add genome names to the bottom axis
 axmatrix.set_xticks(range(len(seedMatrixT)))
 axmatrix.set_xticklabels([dirList[i] for i in idx1], minor=False)
 axmatrix.xaxis.set_label_position('bottom')
 axmatrix.xaxis.tick_bottom()
 pyplot.xticks(rotation=-90, fontsize=8)
+for xtick, color in zip(axmatrix.get_xticklabels(), genomeColors):
+    xtick.set_color(color)
 
 # Add metabolite names to the right axis
 axmatrix.set_yticks(range(len(seedMatrix)))
