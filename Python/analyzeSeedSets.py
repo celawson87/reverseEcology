@@ -138,9 +138,9 @@ pandas.DataFrame.to_csv(seedMatrixDF, '../'+summaryStatsDir+'/'+'seedMatrixWeigh
 
 # This code snippet creates a dendrogram of the seed sets. The genomes are
 # clustered based on weighted vectors of seed sets, using the euclidean
-# distance and UPGMA (average linkage) clustering. A second dendogram is
+# distance and UPGMA (average linkage) clustering. A second dendrogram is
 # constructed based on metabolite weights across genomes. Then, the matrix
-# of seed weights is reordered to reflect the order of the dendograms and is
+# of seed weights is reordered to reflect the order of the dendrograms and is
 # visualized. Genome names are colored according to their lineage, with acI
 # sub-divided into acI-A and acI-B.
 
@@ -156,27 +156,27 @@ import scipy.cluster.hierarchy as sch
 seedMatrix=DataFrame.as_matrix(seedMatrixDF.drop(['CommonName','Metabolite'], 1))
 seedMatrixT=np.transpose(DataFrame.as_matrix(seedMatrixDF.drop(['CommonName','Metabolite'], 1)))
 
-# Create a figure to display the seed weights and dendograms.
+# Create a figure to display the seed weights and dendrograms.
 fig = pyplot.figure(figsize=(7.5, 61))
 
-# Compute and plot dendogram for genomes, which will be above the graph.
-# Define the size of the dendogram
+# Compute and plot dendrogram for genomes, which will be above the graph.
+# Define the size of the dendrogram
 ax1 = fig.add_axes([0.05,0.9,0.8,0.05], frame_on=False)
 # Compute the linkage matrix
-Y = sch.linkage(seedMatrixT, method='complete', metric='euclidean')
-# Compute the dendogram
-Z1 = sch.dendrogram(Y, distance_sort='True', color_threshold=0)
+genomeLinkage = sch.linkage(seedMatrixT, method='complete', metric='euclidean')
+# Compute the dendrogram
+genomeClust = sch.dendrogram(genomeLinkage, distance_sort='True', color_threshold=0)
 # No tick marks along axes
 ax1.set_xticks([])
 ax1.set_yticks([])
 
-# Compute and plot dendogram for metabolites which will be beside the graph. 
-# Define the size of the dendogram
+# Compute and plot dendrogram for metabolites which will be beside the graph. 
+# Define the size of the dendrogram
 ax2 = fig.add_axes([0,0.1,0.05,0.8], frame_on=False)
 # Compute the linkage matrix
-Y = sch.linkage(seedMatrix, method='average', metric='euclidean')
-# Compute the dendogram
-Z2 = sch.dendrogram(Y, orientation='right', color_threshold=0)
+metabLinkage = sch.linkage(seedMatrix, method='average', metric='euclidean')
+# Compute the dendrogram
+metabClust = sch.dendrogram(metabLinkage, orientation='right', color_threshold=0)
 # No tick marks along axes
 ax2.set_xticks([])
 ax2.set_yticks([])
@@ -184,9 +184,9 @@ ax2.set_yticks([])
 # Plot the matrix of seed weights.
 # Define the size of the plot
 axmatrix = fig.add_axes([0.05,0.1,0.8,0.8])
-# Determine ordering of the dendograms and rearrange the weight matrix
-idx1 = Z1['leaves']
-idx2 = Z2['leaves']
+# Determine ordering of the dendrograms and rearrange the weight matrix
+idx1 = genomeClust['leaves']
+idx2 = metabClust['leaves']
 seedMatrix = seedMatrix[:,idx1]
 seedMatrix = seedMatrix[idx2,:]
 # Plot the weight matrix
@@ -196,11 +196,11 @@ axmatrix.set_xticks([])
 axmatrix.set_yticks([])
 
 # Import coloration info to map to genome names. Rearrange to same order as
-# leaves of the dendogram and extract the 'Color' column as a list.
+# leaves of the dendrogram and extract the 'Color' column as a list.
 # The file 'actinoColors.csv' will need to be updated for the specific samples.
 genomeColors = pandas.read_csv('../'+externalDataDir+'/'+'actinoColors.csv')
 genomeColors = genomeColors['Color'].tolist()
-#genomeColors = genomeColors[idx1]
+genomeColors = [ genomeColors[i] for i in idx1]
 
 # Add genome names to the bottom axis
 axmatrix.set_xticks(range(len(seedMatrixT)))
@@ -223,3 +223,32 @@ axcolor = fig.add_axes([0.97,0.9,0.03,0.05])
 pyplot.colorbar(im, cax=axcolor)
 fig.show()
 fig.savefig('../'+summaryStatsDir+'/'+'seedSetDendrogram.png')
+
+
+#%% Clustering - visualize dendrogam only
+
+# Create a figure to display the seed weights and dendrograms.
+fig = pyplot.figure(figsize=(7,2))
+
+# Compute and plot dendrogram for genomes, which will be above the graph.
+# Define the size of the dendrogram
+ax1 = fig.add_axes([0, 0, 1, 1], frame_on=False)
+# Compute the linkage matrix
+genomeLinkage = sch.linkage(seedMatrixT, method='complete', metric='euclidean')
+# Compute the dendrogram
+genomeClust = sch.dendrogram(genomeLinkage, distance_sort='True', color_threshold=0)
+# No tick marks along axes
+ax1.set_xticks([])
+ax1.set_yticks([])
+
+# Add genome names to the bottom axis
+ax2 = fig.add_axes([0, 0, 1, 0], frame_on=False)
+ax2.set_xticks([])
+ax2.set_yticks([])
+ax2.set_xticks(range(len(seedMatrixT)))
+ax2.set_xticklabels([dirList[i] for i in idx1], minor=False)
+ax2.xaxis.set_label_position('bottom')
+ax2.xaxis.tick_bottom()
+pyplot.xticks(rotation=-90, fontsize=8)
+for xtick, color in zip(ax2.get_xticklabels(), genomeColors):
+    xtick.set_color(color)
