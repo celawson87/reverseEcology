@@ -254,31 +254,46 @@ for xtick, color in zip(ax2.get_xticklabels(), genomeColors):
     xtick.set_color(color)
     
     
-#%% Computation of seed set metrics: metabolic competition
+#%% Reverse Ecology Metric: Metabolic Competition Index
 
-# Metabolic competition: For two organisms A and B, fraction of compounds in 
-# seed of A which are also in seed of B. Calculated as a normalized weighted
-# sum.
+# The metabolic competition index (MII) indicates the competitive potential 
+# between two organisms. For two organisms A and B, MII is calculated as the 
+# fraction of compounds in the seed set of A which are also in seed set of B,
+# and ranges from 0 to 1. Because seed compounds are associated with a weight,
+# this metric is calculated as a normalized weighted sum. Note that this 
+# metric is non-symmetric.
 
-# establish a matrix to store the results of the competition
+# This segment computes the MII between all pairs of genomes. A nested loop
+# is used to iterate all over all pairs of genomes, and a dataframe is used to
+# store the MII for each pair. First, the weighted seed sets for each genome
+# are read into dataframes. The overlap between sets is performed using an
+# inner join on the two seed sets. The inner join contains seed weights for
+# both genomes; weights from the first genome are used when computing the MII.
+# The MII is then computed as the ratio of two weighted sums: the seed set
+# overlap between A and B, and the seed set of A. After all pairwise scores 
+# are computed, the output is written to file.
+
+# Establish a matrix to store MII scores
 metabCompete = pd.DataFrame(np.zeros((numSubDir, numSubDir)), index=dirList, columns=dirList)
 
-# Use a nested loop to loop over all organism pairs.
+# Use a nested loop to loop over all genome pairs. outerDir coresponds to
+# organism A and innerDir to organism B
 for outerDir in dirList:
     for innerDir in dirList:
-# Read in the list of seed sets and their weights for the outer and inner
-# directories
+# Read in the list of seed sets and their weights for organisms A and B
         seedWeightOuter = pd.read_csv('../'+processedDataDir+'/'+outerDir+'/'+outerDir+'SeedWeights.txt', 
                                       header=None, names=['Metabolite', 'Outer Weight'])
         seedWeightInner = pd.read_csv('../'+processedDataDir+'/'+innerDir+'/'+innerDir+'SeedWeights.txt', 
                                       header=None, names=['Metabolite', 'Inner Weight'])
-# Compute the overlap
+# Compute the overlap between seed sets using an inner join
         overlapSeeds = pd.merge(seedWeightOuter, seedWeightInner, on='Metabolite')
-# Compute the weighted sum
+# Sum seed compound weights for the overlap between A and B
         upperSum = overlapSeeds.loc[:,'Outer Weight'].sum()
+# Sum seed compound weights for the seed set of A
         lowerSum = seedWeightOuter.loc[:,'Outer Weight'].sum()
-# Store the value
+# The MII is the ratio of these two values. Compute and store.
         metabCompete.loc[outerDir, innerDir] = upperSum / lowerSum
+
 # When loop complete, write to file
 metabCompete.to_csv('../'+summaryStatsDir+'/'+'MetabolicCompetitionScores.csv')   
 
@@ -286,7 +301,7 @@ metabCompete.to_csv('../'+summaryStatsDir+'/'+'MetabolicCompetitionScores.csv')
 #%% Clustering and Visualization: Metabolic Competition Scores
 
 # This code snippet creates a dendrogram of the metabolic competition scores.
-# The genomes are clustered  using the euclidean distance and UPGMA (average 
+# The genomes are clustered using the euclidean distance and UPGMA (average 
 # linkage) clustering. Because the scores are non-symmetric, each axis will
 # have separate clustering. Genome names are colored according to their 
 # lineage, with acI sub-divided into acI-A and acI-B.
@@ -367,33 +382,48 @@ fig.show()
 fig.savefig('../'+summaryStatsDir+'/'+'metabolicCompetition.png')
 
 
-#%% Computation of seed set metrics: metabolic complementarity
+#%% Reverse Ecology Metric: Metabolic Complementarity Index
 
-# Metabolic complementarity: Fraction of seed compounds of organism A that 
-# can be synthesized by the metabolic network of organism B and are not in 
-# organism B's seed set
+# The metabolic complementarity index (MCI) indicates the complementarity of
+# two organisms' niches. For two organisms A and B, MCI is calculated as the 
+# fraction of compounds in the seed set of A which are in the metabolic network
+# of B, but not in B's seed set. MCI can range from 0 to 1. Note that this 
+# metric is non-symmetric.
 
-# establish a matrix to store the results of the competition
+# This segment computes the MCI between all pairs of genomes. A nested loop
+# is used to iterate all over all pairs of genomes, and a dataframe is used to
+# store the MCI for each pair. First, the weighted seed sets for each genome
+# are read into dataframes. Then, the metabolic network of B is read in as a 
+# digraph and convert to a dataframe. The list of non-seed compounds for
+# organism B is computed from these two dataframes. Then, the overlap between 
+# A's seed compounds and B's non-seed compounds is performed using an inner 
+# join on the two seed sets. The MCI is then computed as the ratio of two
+# sizes: the size of A's seed set, and the size of the overlap with B's non-
+# seeds. After all pairwise scores are computed, the output is written to file.
+
+# Establish a matrix to store MCI scores
 metabComplement = pd.DataFrame(np.zeros((numSubDir, numSubDir)), index=dirList, columns=dirList)
 
-# Use a nested loop to loop over all organism pairs.
+# Use a nested loop to loop over all genome pairs. outerDir coresponds to
+# organism A and innerDir to organism B
 for outerDir in dirList:
     for innerDir in dirList:
-# Read in the list of seed compounds for the outer genome
+# Read in the list of seed sets and their weights for organisms A and B
         seedWeightOuter = pd.read_csv('../'+processedDataDir+'/'+outerDir+'/'+outerDir+'SeedWeights.txt', header=None, names=['Metabolite', 'Outer Weight'])
 # Read in the lists of seed compounds and all compounds for the inner genome
         seedWeightInner = pd.read_csv('../'+processedDataDir+'/'+innerDir+'/'+innerDir+'SeedWeights.txt', header=None, names=['Metabolite', 'Inner Weight'])
-        # Read in the graph and extract the list of nodes
-# This function reads in the network graph as an adjacency list and extracts the
-# list of nodes. This list is converted to a pandas Series, embedded in a dict,
-# and used to create a Pandas dataframe of the nodes.
+# Read in the metabolic network of B via its adjancency list representation and
+# converts it to a pandas Dataframe. First, the list of nodes is extracted from
+# the graph. The list is then converted to a pandas Series, embedded in a dict,
+# and used to create a dataframe of the nodes.
         allNodesInner = pd.DataFrame({'Metabolite' : pd.Series(nx.read_adjlist('../'+processedDataDir+'/'+innerDir+'/'+innerDir+'AdjList.txt',delimiter='\t', create_using=nx.DiGraph()).nodes())})
-# Compute the list of non-seed compounds for the inner genome. 
+# Compute the list of non-seed compounds for organisms B
         nonSeedsInner = allNodesInner[~allNodesInner.Metabolite.isin(seedWeightInner.Metabolite)]
-# Compute the overlap
+# Compute the overlap between A's seeds and B's non-seeds
         overlapSeeds = pd.merge(seedWeightOuter, nonSeedsInner, on='Metabolite')
-# Compute the sum and store the value
+# Compute the ratio of these two sets
         metabComplement.loc[outerDir, innerDir] = float(len(overlapSeeds)) / float(len(seedWeightOuter))
+
 # When loop complete, write to file
 metabComplement.to_csv('../'+summaryStatsDir+'/'+'MetabolicComplementarityScores.csv')
 
@@ -401,7 +431,7 @@ metabComplement.to_csv('../'+summaryStatsDir+'/'+'MetabolicComplementarityScores
 #%% Clustering and Visualization: Metabolic Complementarity Scores
 
 # This code snippet creates a dendrogram of the metabolic complementarity 
-# scores. The genomes are clustered  using the euclidean distance and UPGMA 
+# scores. The genomes are clustered using the euclidean distance and UPGMA 
 # (average linkage) clustering. Because the scores are non-symmetric, each 
 # axis will have separate clustering. Genome names are colored according to 
 # their lineage, with acI sub-divided into acI-A and acI-B.
