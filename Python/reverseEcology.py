@@ -30,8 +30,13 @@ import csv
 import itertools
 import os, glob
 import networkx as nx
+
+# Import scipy stack
 import numpy as np
-from matplotlib import pyplot
+import matplotlib as mpl
+import matplotlib.pyplot as plt
+import scipy
+import scipy.cluster.hierarchy as sch
 
 # Import Python modules 
 # These custom-written modules should have been included with the package
@@ -48,6 +53,7 @@ import graphFunctions as gf
 # summaryStatsDir: directory for storing summary statistics
 processedDataDir = 'ProcessedModelFiles'
 summaryStatsDir = 'DataSummaries'
+externalDataDir = 'ExternalData'
 
 # Retrieve list of genomes to process by examing the contents of 
 # 'processedDataDir', ignoring hidden folders. Subsequent computations are 
@@ -322,15 +328,41 @@ for curDir in dirList:
     writer.writerows(mySeeds)
     seedSets.close()
     
+# Update the list of seed metabolites: replace the Model SEED metabolite 
+# identifier with its common name. Note: The file metabMap.csv was created 
+# manually from the seed database, and should be updated to reflect the 
+# particulars of your data set. As above, record the seed metabolite for each
+# graph.
+
+# First read metabMap.csv in as a dictionary
+    with open('../'+externalDataDir+'/'+'metabMap.csv', mode='rU') as inFile:
+        reader = csv.reader(inFile)
+        namesDict = dict((rows[0],rows[1]) for rows in reader)
+        
+# For each compound in the set of seeds, use the dictionary to replace it with
+# its common name. Then write to file.
+    mySeedsNames = [[namesDict[metab] for metab in seed] for seed in mySeeds]    
+
+    seedSets = open('../'+processedDataDir+'/'+curDir+'/'+curDir+'SeedSetsWNames.txt', 'w')
+    writer = csv.writer(seedSets)
+    writer.writerows(mySeedsNames)
+    seedSets.close()
+    
 # Record weights for each seed metabolite. Each row of the output file contains
-# a metabolite and its weight (1 / size of the seed set).
+# a metabolite and its weight (1 / size of the seed set). Construct for seeds
+# using both IDs and names.
     seedWeights = open('../'+processedDataDir+'/'+curDir+'/'+curDir+'SeedWeights.txt', 'w')
     for seed in mySeeds:
         myWeight = 1 / float(len(seed))
         for metab in seed:
             seedWeights.write('%s,%f\n' % (metab, myWeight) )
-#    writer = csv.writer(seedWeights)
-#    writer.writerows(myWeights)
+    seedWeights.close()
+    
+    seedWeights = open('../'+processedDataDir+'/'+curDir+'/'+curDir+'SeedWeightsWNames.txt', 'w')
+    for seed in mySeedsNames:
+        myWeight = 1 / float(len(seed))
+        for metab in seed:
+            seedWeights.write('%s,%f\n' % (metab, myWeight) )
     seedWeights.close()
     
     count = count + 1
