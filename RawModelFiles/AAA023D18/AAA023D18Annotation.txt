@@ -1,0 +1,801 @@
+Attributes {
+	id:kb|g.236152
+	source:KBase
+	gene_subsystem_hash:HASH(0x3dc9be20)
+	source_id:kb|g.236152
+	geneAliasHash:HASH(0x235c2718)
+	scientific_name:SAG AAA023D18
+	domain:Bacteria
+	genetic_code:11
+	dna_size:753325
+	num_contigs:67
+	taxonomy:
+	gc_content:
+	complete:
+	contigset_ref:2603/139/3
+}
+features (id	type	function	genomeID	delimiter	comment	start	stop	direction	contig	roleList) {
+kb|g.236152.CDS.1	CDS		kb|g.236152	;	No annotated function	2687	2189	-	A023D18DRAFT_NODE-unique_1_len_155293.1	
+kb|g.236152.CDS.2	CDS	Lysyl-tRNA synthetase (class II) (EC 6.1.1.6)	kb|g.236152	none		4183	2686	-	A023D18DRAFT_NODE-unique_1_len_155293.1	Lysyl-tRNA synthetase (class II) (EC 6.1.1.6)
+kb|g.236152.CDS.3	CDS	Pantothenate kinase type III, CoaX-like (EC 2.7.1.33)	kb|g.236152	none		4996	4222	-	A023D18DRAFT_NODE-unique_1_len_155293.1	Pantothenate kinase type III, CoaX-like (EC 2.7.1.33)
+kb|g.236152.CDS.4	CDS	Quinolinate phosphoribosyltransferase [decarboxylating] (EC 2.4.2.19)	kb|g.236152	none		5868	4995	-	A023D18DRAFT_NODE-unique_1_len_155293.1	Quinolinate phosphoribosyltransferase [decarboxylating] (EC 2.4.2.19)
+kb|g.236152.CDS.5	CDS	L-aspartate oxidase (EC 1.4.3.16)	kb|g.236152	none		7470	5868	-	A023D18DRAFT_NODE-unique_1_len_155293.1	L-aspartate oxidase (EC 1.4.3.16)
+kb|g.236152.CDS.6	CDS	Pantoate--beta-alanine ligase (EC 6.3.2.1)	kb|g.236152	none		8255	7469	-	A023D18DRAFT_NODE-unique_1_len_155293.1	Pantoate--beta-alanine ligase (EC 6.3.2.1)
+kb|g.236152.CDS.7	CDS	2-amino-4-hydroxy-6-hydroxymethyldihydropteridine pyrophosphokinase (EC 2.7.6.3)	kb|g.236152	none		8750	8294	-	A023D18DRAFT_NODE-unique_1_len_155293.1	2-amino-4-hydroxy-6-hydroxymethyldihydropteridine pyrophosphokinase (EC 2.7.6.3)
+kb|g.236152.CDS.8	CDS		kb|g.236152	;	No annotated function	9103	8746	-	A023D18DRAFT_NODE-unique_1_len_155293.1	
+kb|g.236152.CDS.9	CDS	Dihydropteroate synthase (EC 2.5.1.15)	kb|g.236152	none		9879	9099	-	A023D18DRAFT_NODE-unique_1_len_155293.1	Dihydropteroate synthase (EC 2.5.1.15)
+kb|g.236152.CDS.10	CDS	GTP cyclohydrolase I (EC 3.5.4.16) type 1	kb|g.236152	none		10496	9899	-	A023D18DRAFT_NODE-unique_1_len_155293.1	GTP cyclohydrolase I (EC 3.5.4.16) type 1
+kb|g.236152.CDS.11	CDS	Cell division protein FtsH (EC 3.4.24.-)	kb|g.236152	none		12582	10512	-	A023D18DRAFT_NODE-unique_1_len_155293.1	Cell division protein FtsH (EC 3.4.24.-)
+kb|g.236152.CDS.12	CDS	Hypoxanthine-guanine phosphoribosyltransferase (EC 2.4.2.8)	kb|g.236152	none		13169	12617	-	A023D18DRAFT_NODE-unique_1_len_155293.1	Hypoxanthine-guanine phosphoribosyltransferase (EC 2.4.2.8)
+kb|g.236152.CDS.13	CDS	tRNA(Ile)-lysidine synthetase (EC 6.3.4.19)	kb|g.236152	none		14141	13181	-	A023D18DRAFT_NODE-unique_1_len_155293.1	tRNA(Ile)-lysidine synthetase (EC 6.3.4.19)
+kb|g.236152.CDS.14	CDS		kb|g.236152	;	No annotated function	15345	14151	-	A023D18DRAFT_NODE-unique_1_len_155293.1	
+kb|g.236152.CDS.15	CDS		kb|g.236152	;	No annotated function	16136	15344	-	A023D18DRAFT_NODE-unique_1_len_155293.1	
+kb|g.236152.CDS.16	CDS	ABC transporter, ATP-binding protein	kb|g.236152	none		17041	16135	-	A023D18DRAFT_NODE-unique_1_len_155293.1	ABC transporter, ATP-binding protein
+kb|g.236152.CDS.17	CDS		kb|g.236152	;	No annotated function	17924	17072	-	A023D18DRAFT_NODE-unique_1_len_155293.1	
+kb|g.236152.CDS.18	CDS	D-alanyl-D-alanine carboxypeptidase (EC 3.4.16.4)	kb|g.236152	none		19124	17960	-	A023D18DRAFT_NODE-unique_1_len_155293.1	D-alanyl-D-alanine carboxypeptidase (EC 3.4.16.4)
+kb|g.236152.CDS.19	CDS	Permease of the drug/metabolite transporter (DMT) superfamily	kb|g.236152	none		20011	19120	-	A023D18DRAFT_NODE-unique_1_len_155293.1	Permease of the drug/metabolite transporter (DMT) superfamily
+kb|g.236152.CDS.20	CDS	SpoU rRNA methylase family protein	kb|g.236152	none		20041	20695	+	A023D18DRAFT_NODE-unique_1_len_155293.1	SpoU rRNA methylase family protein
+kb|g.236152.CDS.21	CDS		kb|g.236152	;	No annotated function	21626	20690	-	A023D18DRAFT_NODE-unique_1_len_155293.1	
+kb|g.236152.CDS.22	CDS	Inosine-5'-monophosphate dehydrogenase (EC 1.1.1.205)	kb|g.236152	none		21861	23214	+	A023D18DRAFT_NODE-unique_1_len_155293.1	Inosine-5'-monophosphate dehydrogenase (EC 1.1.1.205)
+kb|g.236152.CDS.23	CDS	Cytosine/purine/uracil/thiamine/allantoin permease family protein	kb|g.236152	none		24631	23209	-	A023D18DRAFT_NODE-unique_1_len_155293.1	Cytosine/purine/uracil/thiamine/allantoin permease family protein
+kb|g.236152.CDS.24	CDS		kb|g.236152	;	No annotated function	25953	24654	-	A023D18DRAFT_NODE-unique_1_len_155293.1	
+kb|g.236152.CDS.25	CDS	Similar to CDP-glucose 4,6-dehydratase (EC 4.2.1.45)	kb|g.236152	none		27198	26106	-	A023D18DRAFT_NODE-unique_1_len_155293.1	Similar to CDP-glucose 4,6-dehydratase (EC 4.2.1.45)
+kb|g.236152.CDS.26	CDS	CDP-4-dehydro-6-deoxy-D-glucose 3-dehydratase (EC 4.2.1.-)	kb|g.236152	none		27220	28552	+	A023D18DRAFT_NODE-unique_1_len_155293.1	CDP-4-dehydro-6-deoxy-D-glucose 3-dehydratase (EC 4.2.1.-)
+kb|g.236152.CDS.27	CDS	Glucose-1-phosphate cytidylyltransferase (EC 2.7.7.33)	kb|g.236152	none		28548	29271	+	A023D18DRAFT_NODE-unique_1_len_155293.1	Glucose-1-phosphate cytidylyltransferase (EC 2.7.7.33)
+kb|g.236152.CDS.28	CDS		kb|g.236152	;	No annotated function	29970	29325	-	A023D18DRAFT_NODE-unique_1_len_155293.1	
+kb|g.236152.CDS.29	CDS	DNA polymerase III delta prime subunit (EC 2.7.7.7)	kb|g.236152	none		31161	30012	-	A023D18DRAFT_NODE-unique_1_len_155293.1	DNA polymerase III delta prime subunit (EC 2.7.7.7)
+kb|g.236152.CDS.30	CDS	Thymidylate kinase (EC 2.7.4.9)	kb|g.236152	none		33179	31160	-	A023D18DRAFT_NODE-unique_1_len_155293.1	Thymidylate kinase (EC 2.7.4.9)
+kb|g.236152.CDS.31	CDS	DNA topoisomerase I (EC 5.99.1.2)	kb|g.236152	none		35929	33208	-	A023D18DRAFT_NODE-unique_1_len_155293.1	DNA topoisomerase I (EC 5.99.1.2)
+kb|g.236152.CDS.32	CDS	Pyrophosphate-energized proton pump (EC 3.6.1.1)	kb|g.236152	none		38224	35968	-	A023D18DRAFT_NODE-unique_1_len_155293.1	Pyrophosphate-energized proton pump (EC 3.6.1.1)
+kb|g.236152.CDS.33	CDS		kb|g.236152	;	No annotated function	40231	38392	-	A023D18DRAFT_NODE-unique_1_len_155293.1	
+kb|g.236152.CDS.34	CDS	DedA protein	kb|g.236152	none		40369	40999	+	A023D18DRAFT_NODE-unique_1_len_155293.1	DedA protein
+kb|g.236152.CDS.35	CDS		kb|g.236152	;	No annotated function	40998	42108	+	A023D18DRAFT_NODE-unique_1_len_155293.1	
+kb|g.236152.CDS.36	CDS	UDP-glucose 4-epimerase (EC 5.1.3.2)	kb|g.236152	none		43055	42089	-	A023D18DRAFT_NODE-unique_1_len_155293.1	UDP-glucose 4-epimerase (EC 5.1.3.2)
+kb|g.236152.CDS.37	CDS	Orotate phosphoribosyltransferase (EC 2.4.2.10)	kb|g.236152	none		43588	43054	-	A023D18DRAFT_NODE-unique_1_len_155293.1	Orotate phosphoribosyltransferase (EC 2.4.2.10)
+kb|g.236152.CDS.38	CDS	HspR, transcriptional repressor of DnaK operon	kb|g.236152	none		43991	43613	-	A023D18DRAFT_NODE-unique_1_len_155293.1	HspR, transcriptional repressor of DnaK operon
+kb|g.236152.CDS.39	CDS	Chaperone protein DnaJ	kb|g.236152	none		44902	43987	-	A023D18DRAFT_NODE-unique_1_len_155293.1	Chaperone protein DnaJ
+kb|g.236152.CDS.40	CDS	Heat shock protein GrpE	kb|g.236152	none		45420	44916	-	A023D18DRAFT_NODE-unique_1_len_155293.1	Heat shock protein GrpE
+kb|g.236152.CDS.41	CDS	Chaperone protein DnaK	kb|g.236152	none		47249	45419	-	A023D18DRAFT_NODE-unique_1_len_155293.1	Chaperone protein DnaK
+kb|g.236152.CDS.42	CDS		kb|g.236152	;	No annotated function	47935	47398	-	A023D18DRAFT_NODE-unique_1_len_155293.1	
+kb|g.236152.CDS.43	CDS	Peptidyl-prolyl cis-trans isomerase (EC 5.2.1.8)	kb|g.236152	none		48461	47939	-	A023D18DRAFT_NODE-unique_1_len_155293.1	Peptidyl-prolyl cis-trans isomerase (EC 5.2.1.8)
+kb|g.236152.CDS.44	CDS		kb|g.236152	;	No annotated function	49378	48520	-	A023D18DRAFT_NODE-unique_1_len_155293.1	
+kb|g.236152.CDS.45	CDS		kb|g.236152	;	No annotated function	49417	50470	+	A023D18DRAFT_NODE-unique_1_len_155293.1	
+kb|g.236152.CDS.46	CDS	DNA gyrase subunit A (EC 5.99.1.3)	kb|g.236152	none		53203	50719	-	A023D18DRAFT_NODE-unique_1_len_155293.1	DNA gyrase subunit A (EC 5.99.1.3)
+kb|g.236152.CDS.47	CDS	DNA gyrase subunit B (EC 5.99.1.3)	kb|g.236152	none		55209	53214	-	A023D18DRAFT_NODE-unique_1_len_155293.1	DNA gyrase subunit B (EC 5.99.1.3)
+kb|g.236152.CDS.48	CDS	Zn-ribbon-containing, possibly RNA-binding protein and truncated derivatives	kb|g.236152	none		55812	55359	-	A023D18DRAFT_NODE-unique_1_len_155293.1	Zn-ribbon-containing, possibly RNA-binding protein and truncated derivatives
+kb|g.236152.CDS.49	CDS	DNA recombination and repair protein RecF	kb|g.236152	none		56897	55808	-	A023D18DRAFT_NODE-unique_1_len_155293.1	DNA recombination and repair protein RecF
+kb|g.236152.CDS.50	CDS	DNA polymerase III beta subunit (EC 2.7.7.7)	kb|g.236152	none		58043	56915	-	A023D18DRAFT_NODE-unique_1_len_155293.1	DNA polymerase III beta subunit (EC 2.7.7.7)
+kb|g.236152.CDS.51	CDS	Chromosomal replication initiator protein DnaA	kb|g.236152	none		59791	58369	-	A023D18DRAFT_NODE-unique_1_len_155293.1	Chromosomal replication initiator protein DnaA
+kb|g.236152.CDS.52	CDS	LSU ribosomal protein L34p	kb|g.236152	none		60098	60233	+	A023D18DRAFT_NODE-unique_1_len_155293.1	LSU ribosomal protein L34p
+kb|g.236152.CDS.53	CDS		kb|g.236152	;	No annotated function	60247	60598	+	A023D18DRAFT_NODE-unique_1_len_155293.1	
+kb|g.236152.CDS.54	CDS		kb|g.236152	;	No annotated function	60594	60840	+	A023D18DRAFT_NODE-unique_1_len_155293.1	
+kb|g.236152.CDS.55	CDS	Inner membrane protein translocase component YidC, long form	kb|g.236152	none		60884	61745	+	A023D18DRAFT_NODE-unique_1_len_155293.1	Inner membrane protein translocase component YidC, long form
+kb|g.236152.CDS.56	CDS	RNA-binding protein Jag	kb|g.236152	none		61798	62320	+	A023D18DRAFT_NODE-unique_1_len_155293.1	RNA-binding protein Jag
+kb|g.236152.CDS.57	CDS	rRNA small subunit 7-methylguanosine (m7G) methyltransferase GidB	kb|g.236152	none		62328	62925	+	A023D18DRAFT_NODE-unique_1_len_155293.1	rRNA small subunit 7-methylguanosine (m7G) methyltransferase GidB
+kb|g.236152.CDS.58	CDS	Chromosome (plasmid) partitioning protein ParA	kb|g.236152	none		62934	63855	+	A023D18DRAFT_NODE-unique_1_len_155293.1	Chromosome (plasmid) partitioning protein ParA
+kb|g.236152.CDS.59	CDS	Chromosome (plasmid) partitioning protein ParB	kb|g.236152	none		63859	64741	+	A023D18DRAFT_NODE-unique_1_len_155293.1	Chromosome (plasmid) partitioning protein ParB
+kb|g.236152.CDS.60	CDS	Aromatic-amino-acid aminotransferase (EC 2.6.1.57)	kb|g.236152	none		66020	64736	-	A023D18DRAFT_NODE-unique_1_len_155293.1	Aromatic-amino-acid aminotransferase (EC 2.6.1.57)
+kb|g.236152.CDS.61	CDS	N-acetylmuramoyl-L-alanine amidase (EC 3.5.1.28)	kb|g.236152	none		67187	66056	-	A023D18DRAFT_NODE-unique_1_len_155293.1	N-acetylmuramoyl-L-alanine amidase (EC 3.5.1.28)
+kb|g.236152.CDS.62	CDS	Thioredoxin	kb|g.236152	none		67539	67215	-	A023D18DRAFT_NODE-unique_1_len_155293.1	Thioredoxin
+kb|g.236152.CDS.63	CDS	Thioredoxin reductase (EC 1.8.1.9)	kb|g.236152	none		68517	67587	-	A023D18DRAFT_NODE-unique_1_len_155293.1	Thioredoxin reductase (EC 1.8.1.9)
+kb|g.236152.CDS.64	CDS		kb|g.236152	;	No annotated function	70119	68526	-	A023D18DRAFT_NODE-unique_1_len_155293.1	
+kb|g.236152.CDS.65	CDS		kb|g.236152	;	No annotated function	71231	70118	-	A023D18DRAFT_NODE-unique_1_len_155293.1	
+kb|g.236152.CDS.66	CDS		kb|g.236152	;	No annotated function	71818	71227	-	A023D18DRAFT_NODE-unique_1_len_155293.1	
+kb|g.236152.CDS.67	CDS	tRNA nucleotidyltransferase (EC 2.7.7.21) (EC 2.7.7.25)	kb|g.236152	none		71874	73308	+	A023D18DRAFT_NODE-unique_1_len_155293.1	tRNA nucleotidyltransferase (EC 2.7.7.21) (EC 2.7.7.25)
+kb|g.236152.CDS.68	CDS		kb|g.236152	;	No annotated function	74550	73281	-	A023D18DRAFT_NODE-unique_1_len_155293.1	
+kb|g.236152.CDS.69	CDS		kb|g.236152	;	No annotated function	74593	75007	+	A023D18DRAFT_NODE-unique_1_len_155293.1	
+kb|g.236152.CDS.70	CDS	Multimodular transpeptidase-transglycosylase (EC 2.4.1.129) (EC 3.4.-.-)	kb|g.236152	none		75022	76978	+	A023D18DRAFT_NODE-unique_1_len_155293.1	Multimodular transpeptidase-transglycosylase (EC 2.4.1.129) (EC 3.4.-.-)
+kb|g.236152.CDS.71	CDS		kb|g.236152	;	No annotated function	76981	78160	+	A023D18DRAFT_NODE-unique_1_len_155293.1	
+kb|g.236152.CDS.72	CDS	SSU ribosomal protein S6p	kb|g.236152	none		78240	78525	+	A023D18DRAFT_NODE-unique_1_len_155293.1	SSU ribosomal protein S6p
+kb|g.236152.CDS.73	CDS	Single-stranded DNA-binding protein	kb|g.236152	none		78583	79081	+	A023D18DRAFT_NODE-unique_1_len_155293.1	Single-stranded DNA-binding protein
+kb|g.236152.CDS.74	CDS	SSU ribosomal protein S18p @ SSU ribosomal protein S18p, zinc-dependent	kb|g.236152	none		79143	79437	+	A023D18DRAFT_NODE-unique_1_len_155293.1	SSU ribosomal protein S18p;SSU ribosomal protein S18p, zinc-dependent
+kb|g.236152.CDS.75	CDS	LSU ribosomal protein L9p	kb|g.236152	none		79449	79899	+	A023D18DRAFT_NODE-unique_1_len_155293.1	LSU ribosomal protein L9p
+kb|g.236152.CDS.76	CDS	Replicative DNA helicase (EC 3.6.1.-)	kb|g.236152	none		80226	81627	+	A023D18DRAFT_NODE-unique_1_len_155293.1	Replicative DNA helicase (EC 3.6.1.-)
+kb|g.236152.CDS.77	CDS	Carbonic anhydrase (EC 4.2.1.1)	kb|g.236152	none		82114	81622	-	A023D18DRAFT_NODE-unique_1_len_155293.1	Carbonic anhydrase (EC 4.2.1.1)
+kb|g.236152.CDS.78	CDS		kb|g.236152	;	No annotated function	83031	82110	-	A023D18DRAFT_NODE-unique_1_len_155293.1	
+kb|g.236152.CDS.79	CDS	3-methylmercaptopropionyl-CoA dehydrogenase (DmdC)	kb|g.236152	none		84898	83071	-	A023D18DRAFT_NODE-unique_1_len_155293.1	3-methylmercaptopropionyl-CoA dehydrogenase (DmdC)
+kb|g.236152.CDS.80	CDS		kb|g.236152	;	No annotated function	84991	85570	+	A023D18DRAFT_NODE-unique_1_len_155293.1	
+kb|g.236152.CDS.81	CDS	Osmosensitive K+ channel histidine kinase KdpD (EC 2.7.3.-)	kb|g.236152	none		87055	85573	-	A023D18DRAFT_NODE-unique_1_len_155293.1	Osmosensitive K+ channel histidine kinase KdpD (EC 2.7.3.-)
+kb|g.236152.CDS.82	CDS		kb|g.236152	;	No annotated function	87816	87072	-	A023D18DRAFT_NODE-unique_1_len_155293.1	
+kb|g.236152.CDS.83	CDS	Fe-S oxidoreductase	kb|g.236152	none		89951	87881	-	A023D18DRAFT_NODE-unique_1_len_155293.1	Fe-S oxidoreductase
+kb|g.236152.CDS.84	CDS		kb|g.236152	;	No annotated function	90299	90032	-	A023D18DRAFT_NODE-unique_1_len_155293.1	
+kb|g.236152.CDS.85	CDS	Anthranilate synthase, amidotransferase component (EC 4.1.3.27) @ Para-aminobenzoate synthase, amidotransferase component (EC 2.6.1.85)	kb|g.236152	none		90327	90978	+	A023D18DRAFT_NODE-unique_1_len_155293.1	Anthranilate synthase, amidotransferase component (EC 4.1.3.27);Para-aminobenzoate synthase, amidotransferase component (EC 2.6.1.85)
+kb|g.236152.CDS.86	CDS	Serine/threonine protein kinase PrkC, regulator of stationary phase	kb|g.236152	none		92518	90973	-	A023D18DRAFT_NODE-unique_1_len_155293.1	Serine/threonine protein kinase PrkC, regulator of stationary phase
+kb|g.236152.CDS.87	CDS	Protein serine/threonine phosphatase PrpC, regulation of stationary phase	kb|g.236152	none		93356	92510	-	A023D18DRAFT_NODE-unique_1_len_155293.1	Protein serine/threonine phosphatase PrpC, regulation of stationary phase
+kb|g.236152.CDS.88	CDS	Glycerophosphoryl diester phosphodiesterase (EC 3.1.4.46)	kb|g.236152	none		93339	94026	+	A023D18DRAFT_NODE-unique_1_len_155293.1	Glycerophosphoryl diester phosphodiesterase (EC 3.1.4.46)
+kb|g.236152.CDS.89	CDS	Prephenate dehydratase (EC 4.2.1.51)	kb|g.236152	none		94029	94860	+	A023D18DRAFT_NODE-unique_1_len_155293.1	Prephenate dehydratase (EC 4.2.1.51)
+kb|g.236152.CDS.90	CDS	Seryl-tRNA synthetase (EC 6.1.1.11)	kb|g.236152	none		94878	96141	+	A023D18DRAFT_NODE-unique_1_len_155293.1	Seryl-tRNA synthetase (EC 6.1.1.11)
+kb|g.236152.CDS.91	CDS		kb|g.236152	;	No annotated function	96137	96971	+	A023D18DRAFT_NODE-unique_1_len_155293.1	
+kb|g.236152.CDS.92	CDS		kb|g.236152	;	No annotated function	97196	97082	-	A023D18DRAFT_NODE-unique_1_len_155293.1	
+kb|g.236152.CDS.93	CDS	putative succinate dehydrogenase [membrane anchor subunit] (succinic dehydrogenase)	kb|g.236152	none		97190	98018	+	A023D18DRAFT_NODE-unique_1_len_155293.1	putative succinate dehydrogenase [membrane anchor subunit] (succinic dehydrogenase)
+kb|g.236152.CDS.94	CDS	Succinate dehydrogenase flavoprotein subunit (EC 1.3.99.1)	kb|g.236152	none		98031	99921	+	A023D18DRAFT_NODE-unique_1_len_155293.1	Succinate dehydrogenase flavoprotein subunit (EC 1.3.99.1)
+kb|g.236152.CDS.95	CDS	Succinate dehydrogenase iron-sulfur protein (EC 1.3.99.1)	kb|g.236152	none		99920	100682	+	A023D18DRAFT_NODE-unique_1_len_155293.1	Succinate dehydrogenase iron-sulfur protein (EC 1.3.99.1)
+kb|g.236152.CDS.96	CDS		kb|g.236152	;	No annotated function	100767	100932	+	A023D18DRAFT_NODE-unique_1_len_155293.1	
+kb|g.236152.CDS.97	CDS		kb|g.236152	;	No annotated function	100997	101420	+	A023D18DRAFT_NODE-unique_1_len_155293.1	
+kb|g.236152.CDS.98	CDS		kb|g.236152	;	No annotated function	101502	102837	+	A023D18DRAFT_NODE-unique_1_len_155293.1	
+kb|g.236152.CDS.99	CDS		kb|g.236152	;	No annotated function	102856	103873	+	A023D18DRAFT_NODE-unique_1_len_155293.1	
+kb|g.236152.CDS.100	CDS		kb|g.236152	;	No annotated function	104680	103936	-	A023D18DRAFT_NODE-unique_1_len_155293.1	
+kb|g.236152.CDS.101	CDS		kb|g.236152	;	No annotated function	104814	104661	-	A023D18DRAFT_NODE-unique_1_len_155293.1	
+kb|g.236152.CDS.102	CDS		kb|g.236152	;	No annotated function	105431	105137	-	A023D18DRAFT_NODE-unique_1_len_155293.1	
+kb|g.236152.CDS.103	CDS	Xaa-Pro aminopeptidase (EC 3.4.11.9)	kb|g.236152	none		106888	105427	-	A023D18DRAFT_NODE-unique_1_len_155293.1	Xaa-Pro aminopeptidase (EC 3.4.11.9)
+kb|g.236152.CDS.104	CDS	Ferredoxin--NADP(+) reductase, actinobacterial (eukaryote-like) type (EC 1.18.1.2)	kb|g.236152	none		107093	108401	+	A023D18DRAFT_NODE-unique_1_len_155293.1	Ferredoxin--NADP(+) reductase, actinobacterial (eukaryote-like) type (EC 1.18.1.2)
+kb|g.236152.CDS.105	CDS		kb|g.236152	;	No annotated function	108668	109424	+	A023D18DRAFT_NODE-unique_1_len_155293.1	
+kb|g.236152.CDS.106	CDS		kb|g.236152	;	No annotated function	110357	109424	-	A023D18DRAFT_NODE-unique_1_len_155293.1	
+kb|g.236152.CDS.107	CDS		kb|g.236152	;	No annotated function	110348	111488	+	A023D18DRAFT_NODE-unique_1_len_155293.1	
+kb|g.236152.CDS.108	CDS		kb|g.236152	;	No annotated function	111801	111675	-	A023D18DRAFT_NODE-unique_1_len_155293.1	
+kb|g.236152.CDS.109	CDS		kb|g.236152	;	No annotated function	111836	112682	+	A023D18DRAFT_NODE-unique_1_len_155293.1	
+kb|g.236152.CDS.110	CDS	DedA protein	kb|g.236152	none		113262	112656	-	A023D18DRAFT_NODE-unique_1_len_155293.1	DedA protein
+kb|g.236152.CDS.111	CDS	Uracil phosphoribosyltransferase (EC 2.4.2.9)	kb|g.236152	none		114000	113361	-	A023D18DRAFT_NODE-unique_1_len_155293.1	Uracil phosphoribosyltransferase (EC 2.4.2.9)
+kb|g.236152.CDS.112	CDS		kb|g.236152	;	No annotated function	114110	114569	+	A023D18DRAFT_NODE-unique_1_len_155293.1	
+kb|g.236152.CDS.113	CDS	tRNA-specific adenosine-34 deaminase (EC 3.5.4.-)	kb|g.236152	none		114586	115018	+	A023D18DRAFT_NODE-unique_1_len_155293.1	tRNA-specific adenosine-34 deaminase (EC 3.5.4.-)
+kb|g.236152.CDS.114	CDS	Amino acid permease	kb|g.236152	none		117368	115013	-	A023D18DRAFT_NODE-unique_1_len_155293.1	Amino acid permease
+kb|g.236152.CDS.115	CDS	Aldehyde dehydrogenase (EC 1.2.1.3)	kb|g.236152	none		117455	118892	+	A023D18DRAFT_NODE-unique_1_len_155293.1	Aldehyde dehydrogenase (EC 1.2.1.3)
+kb|g.236152.CDS.116	CDS	UDP-glucose 4-epimerase (EC 5.1.3.2)	kb|g.236152	none		119813	118892	-	A023D18DRAFT_NODE-unique_1_len_155293.1	UDP-glucose 4-epimerase (EC 5.1.3.2)
+kb|g.236152.CDS.117	CDS		kb|g.236152	;	No annotated function	121282	119860	-	A023D18DRAFT_NODE-unique_1_len_155293.1	
+kb|g.236152.CDS.118	CDS	DNA polymerase III subunits gamma and tau (EC 2.7.7.7)	kb|g.236152	none		121606	123259	+	A023D18DRAFT_NODE-unique_1_len_155293.1	DNA polymerase III subunits gamma and tau (EC 2.7.7.7)
+kb|g.236152.CDS.119	CDS	Recombination protein RecR	kb|g.236152	none		123281	123881	+	A023D18DRAFT_NODE-unique_1_len_155293.1	Recombination protein RecR
+kb|g.236152.CDS.120	CDS	Aspartokinase (EC 2.7.2.4)	kb|g.236152	none		123965	125237	+	A023D18DRAFT_NODE-unique_1_len_155293.1	Aspartokinase (EC 2.7.2.4)
+kb|g.236152.CDS.121	CDS	Aspartate-semialdehyde dehydrogenase (EC 1.2.1.11)	kb|g.236152	none		125233	126280	+	A023D18DRAFT_NODE-unique_1_len_155293.1	Aspartate-semialdehyde dehydrogenase (EC 1.2.1.11)
+kb|g.236152.CDS.122	CDS	GDP-L-fucose synthetase (EC 1.1.1.271)	kb|g.236152	none		126302	127214	+	A023D18DRAFT_NODE-unique_1_len_155293.1	GDP-L-fucose synthetase (EC 1.1.1.271)
+kb|g.236152.CDS.123	CDS	GDP-mannose 4,6-dehydratase (EC 4.2.1.47)	kb|g.236152	none		127222	128212	+	A023D18DRAFT_NODE-unique_1_len_155293.1	GDP-mannose 4,6-dehydratase (EC 4.2.1.47)
+kb|g.236152.CDS.124	CDS	putative secreted protein	kb|g.236152	none		129039	128220	-	A023D18DRAFT_NODE-unique_1_len_155293.1	putative secreted protein
+kb|g.236152.CDS.125	CDS	Transamidase GatB domain protein	kb|g.236152	none		129054	129507	+	A023D18DRAFT_NODE-unique_1_len_155293.1	Transamidase GatB domain protein
+kb|g.236152.CDS.126	CDS	FIG011121: hypothetical protein	kb|g.236152	none		129538	129694	+	A023D18DRAFT_NODE-unique_1_len_155293.1	FIG011121: hypothetical protein
+kb|g.236152.CDS.127	CDS		kb|g.236152	;	No annotated function	129690	130152	+	A023D18DRAFT_NODE-unique_1_len_155293.1	
+kb|g.236152.CDS.128	CDS		kb|g.236152	;	No annotated function	130409	130982	+	A023D18DRAFT_NODE-unique_1_len_155293.1	
+kb|g.236152.CDS.129	CDS	cAMP-binding proteins - catabolite gene activator and regulatory subunit of cAMP-dependent protein kinases	kb|g.236152	none		131675	130985	-	A023D18DRAFT_NODE-unique_1_len_155293.1	cAMP-binding proteins - catabolite gene activator and regulatory subunit of cAMP-dependent protein kinases
+kb|g.236152.CDS.130	CDS	Endonuclease III (EC 4.2.99.18)	kb|g.236152	none		131730	132432	+	A023D18DRAFT_NODE-unique_1_len_155293.1	Endonuclease III (EC 4.2.99.18)
+kb|g.236152.CDS.131	CDS		kb|g.236152	;	No annotated function	132443	132977	+	A023D18DRAFT_NODE-unique_1_len_155293.1	
+kb|g.236152.CDS.132	CDS		kb|g.236152	;	No annotated function	132973	133468	+	A023D18DRAFT_NODE-unique_1_len_155293.1	
+kb|g.236152.CDS.133	CDS	Acetyl-coenzyme A synthetase (EC 6.2.1.1)	kb|g.236152	none		135431	133463	-	A023D18DRAFT_NODE-unique_1_len_155293.1	Acetyl-coenzyme A synthetase (EC 6.2.1.1)
+kb|g.236152.CDS.134	CDS		kb|g.236152	;	No annotated function	135569	135689	+	A023D18DRAFT_NODE-unique_1_len_155293.1	
+kb|g.236152.CDS.135	CDS	Adenylosuccinate synthetase (EC 6.3.4.4)	kb|g.236152	none		135826	137113	+	A023D18DRAFT_NODE-unique_1_len_155293.1	Adenylosuccinate synthetase (EC 6.3.4.4)
+kb|g.236152.CDS.136	CDS	Adenylosuccinate lyase (EC 4.3.2.2)	kb|g.236152	none		137109	138498	+	A023D18DRAFT_NODE-unique_1_len_155293.1	Adenylosuccinate lyase (EC 4.3.2.2)
+kb|g.236152.CDS.137	CDS		kb|g.236152	;	No annotated function	138636	139026	+	A023D18DRAFT_NODE-unique_1_len_155293.1	
+kb|g.236152.CDS.138	CDS		kb|g.236152	;	No annotated function	139051	139360	+	A023D18DRAFT_NODE-unique_1_len_155293.1	
+kb|g.236152.CDS.139	CDS		kb|g.236152	;	No annotated function	139441	139618	+	A023D18DRAFT_NODE-unique_1_len_155293.1	
+kb|g.236152.CDS.140	CDS	dTDP-glucose 4,6-dehydratase (EC 4.2.1.46)	kb|g.236152	none		139688	140618	+	A023D18DRAFT_NODE-unique_1_len_155293.1	dTDP-glucose 4,6-dehydratase (EC 4.2.1.46)
+kb|g.236152.CDS.141	CDS		kb|g.236152	;	No annotated function	140614	141718	+	A023D18DRAFT_NODE-unique_1_len_155293.1	
+kb|g.236152.CDS.142	CDS		kb|g.236152	;	No annotated function	141749	142565	+	A023D18DRAFT_NODE-unique_1_len_155293.1	
+kb|g.236152.CDS.143	CDS		kb|g.236152	;	No annotated function	142662	142917	+	A023D18DRAFT_NODE-unique_1_len_155293.1	
+kb|g.236152.CDS.144	CDS		kb|g.236152	;	No annotated function	142917	143106	+	A023D18DRAFT_NODE-unique_1_len_155293.1	
+kb|g.236152.CDS.145	CDS	Undecaprenyl-phosphate N-acetylglucosaminyl 1-phosphate transferase (EC 2.7.8.-)	kb|g.236152	none		143122	144160	+	A023D18DRAFT_NODE-unique_1_len_155293.1	Undecaprenyl-phosphate N-acetylglucosaminyl 1-phosphate transferase (EC 2.7.8.-)
+kb|g.236152.CDS.146	CDS	N-acetylneuraminate synthase (EC 2.5.1.56)	kb|g.236152	none		144577	145609	+	A023D18DRAFT_NODE-unique_1_len_155293.1	N-acetylneuraminate synthase (EC 2.5.1.56)
+kb|g.236152.CDS.147	CDS	UDP-N-acetylglucosamine 2-epimerase (EC 5.1.3.14)	kb|g.236152	none		145614	146763	+	A023D18DRAFT_NODE-unique_1_len_155293.1	UDP-N-acetylglucosamine 2-epimerase (EC 5.1.3.14)
+kb|g.236152.CDS.148	CDS	D-3-phosphoglycerate dehydrogenase (EC 1.1.1.95)	kb|g.236152	none		146851	147712	+	A023D18DRAFT_NODE-unique_1_len_155293.1	D-3-phosphoglycerate dehydrogenase (EC 1.1.1.95)
+kb|g.236152.CDS.149	CDS		kb|g.236152	;	No annotated function	147789	148530	+	A023D18DRAFT_NODE-unique_1_len_155293.1	
+kb|g.236152.CDS.150	CDS	TsaC protein (YrdC domain) required for threonylcarbamoyladenosine t(6)A37 modification in tRNA	kb|g.236152	none		148568	149534	+	A023D18DRAFT_NODE-unique_1_len_155293.1	TsaC protein (YrdC domain) required for threonylcarbamoyladenosine t(6)A37 modification in tRNA
+kb|g.236152.CDS.151	CDS		kb|g.236152	;	No annotated function	149815	150772	+	A023D18DRAFT_NODE-unique_1_len_155293.1	
+kb|g.236152.CDS.152	CDS		kb|g.236152	;	No annotated function	150965	152777	+	A023D18DRAFT_NODE-unique_1_len_155293.1	
+kb|g.236152.CDS.153	CDS		kb|g.236152	;	No annotated function	152928	154566	+	A023D18DRAFT_NODE-unique_1_len_155293.1	
+kb|g.236152.CDS.154	CDS		kb|g.236152	;	No annotated function	155010	154770	-	A023D18DRAFT_NODE-unique_1_len_155293.1	
+kb|g.236152.CDS.155	CDS	tRNA dihydrouridine synthase B (EC 1.-.-.-)	kb|g.236152	none		27	1026	+	A023D18DRAFT_NODE-unique_2_len_117730.2	tRNA dihydrouridine synthase B (EC 1.-.-.-)
+kb|g.236152.CDS.156	CDS		kb|g.236152	;	No annotated function	1030	1651	+	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.157	CDS	Deoxyguanosinetriphosphate triphosphohydrolase (EC 3.1.5.1)	kb|g.236152	none		1675	2917	+	A023D18DRAFT_NODE-unique_2_len_117730.2	Deoxyguanosinetriphosphate triphosphohydrolase (EC 3.1.5.1)
+kb|g.236152.CDS.158	CDS	DNA primase (EC 2.7.7.-)	kb|g.236152	none		2955	4764	+	A023D18DRAFT_NODE-unique_2_len_117730.2	DNA primase (EC 2.7.7.-)
+kb|g.236152.CDS.159	CDS		kb|g.236152	;	No annotated function	4919	5159	+	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.160	CDS	Galactose-1-phosphate uridylyltransferase (EC 2.7.7.10)	kb|g.236152	none		6261	5154	-	A023D18DRAFT_NODE-unique_2_len_117730.2	Galactose-1-phosphate uridylyltransferase (EC 2.7.7.10)
+kb|g.236152.CDS.161	CDS		kb|g.236152	;	No annotated function	7909	6286	-	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.162	CDS		kb|g.236152	;	No annotated function	8166	7905	-	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.163	CDS		kb|g.236152	;	No annotated function	8415	8169	-	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.164	CDS	2-keto-3-deoxy-L-fuconate dehydrogenase	kb|g.236152	none		9164	8414	-	A023D18DRAFT_NODE-unique_2_len_117730.2	2-keto-3-deoxy-L-fuconate dehydrogenase
+kb|g.236152.CDS.165	CDS	L-fuco-beta-pyranose dehydrogenase (EC 1.1.1.122)	kb|g.236152	none		9301	10234	+	A023D18DRAFT_NODE-unique_2_len_117730.2	L-fuco-beta-pyranose dehydrogenase (EC 1.1.1.122)
+kb|g.236152.CDS.166	CDS	Fumarylacetoacetate hydrolase family protein	kb|g.236152	none		10233	11100	+	A023D18DRAFT_NODE-unique_2_len_117730.2	Fumarylacetoacetate hydrolase family protein
+kb|g.236152.CDS.167	CDS	D-3-phosphoglycerate dehydrogenase (EC 1.1.1.95)	kb|g.236152	none		11099	12005	+	A023D18DRAFT_NODE-unique_2_len_117730.2	D-3-phosphoglycerate dehydrogenase (EC 1.1.1.95)
+kb|g.236152.CDS.168	CDS		kb|g.236152	;	No annotated function	12678	12006	-	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.169	CDS		kb|g.236152	;	No annotated function	12891	14169	+	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.170	CDS		kb|g.236152	;	No annotated function	14289	15201	+	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.171	CDS	Predicted beta-glucoside-regulated ABC transport system, permease component 2, COG0395	kb|g.236152	none		15200	16118	+	A023D18DRAFT_NODE-unique_2_len_117730.2	Predicted beta-glucoside-regulated ABC transport system, permease component 2, COG0395
+kb|g.236152.CDS.172	CDS		kb|g.236152	;	No annotated function	16120	17014	+	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.173	CDS	2-dehydro-3-deoxygluconate kinase (EC 2.7.1.45)	kb|g.236152	none		17014	17965	+	A023D18DRAFT_NODE-unique_2_len_117730.2	2-dehydro-3-deoxygluconate kinase (EC 2.7.1.45)
+kb|g.236152.CDS.174	CDS	4-hydroxy-2-oxoglutarate aldolase (EC 4.1.3.16) @ 2-dehydro-3-deoxyphosphogluconate aldolase (EC 4.1.2.14)	kb|g.236152	none		17964	18603	+	A023D18DRAFT_NODE-unique_2_len_117730.2	4-hydroxy-2-oxoglutarate aldolase (EC 4.1.3.16);2-dehydro-3-deoxyphosphogluconate aldolase (EC 4.1.2.14)
+kb|g.236152.CDS.175	CDS		kb|g.236152	;	No annotated function	18586	19345	+	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.176	CDS		kb|g.236152	;	No annotated function	19341	20100	+	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.177	CDS	L-lactate dehydrogenase (EC 1.1.2.3)	kb|g.236152	none		21316	20095	-	A023D18DRAFT_NODE-unique_2_len_117730.2	L-lactate dehydrogenase (EC 1.1.2.3)
+kb|g.236152.CDS.178	CDS		kb|g.236152	;	No annotated function	22166	21317	-	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.179	CDS		kb|g.236152	;	No annotated function	23239	22243	-	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.180	CDS		kb|g.236152	;	No annotated function	23265	24117	+	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.181	CDS	Glucose-methanol-choline (GMC) oxidoreductase:NAD binding site	kb|g.236152	none		25698	24213	-	A023D18DRAFT_NODE-unique_2_len_117730.2	Glucose-methanol-choline (GMC) oxidoreductase:NAD binding site
+kb|g.236152.CDS.182	CDS	Fructose ABC transporter, ATP-binding component FrcA	kb|g.236152	none		26489	25694	-	A023D18DRAFT_NODE-unique_2_len_117730.2	Fructose ABC transporter, ATP-binding component FrcA
+kb|g.236152.CDS.183	CDS	Fructose ABC transporter, permease component FrcC	kb|g.236152	none		27526	26485	-	A023D18DRAFT_NODE-unique_2_len_117730.2	Fructose ABC transporter, permease component FrcC
+kb|g.236152.CDS.184	CDS	Fructose ABC transporter, substrate-binding component FrcB	kb|g.236152	none		28735	27679	-	A023D18DRAFT_NODE-unique_2_len_117730.2	Fructose ABC transporter, substrate-binding component FrcB
+kb|g.236152.CDS.185	CDS		kb|g.236152	;	No annotated function	29241	28851	-	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.186	CDS	Ribokinase (EC 2.7.1.15)	kb|g.236152	none		30165	29250	-	A023D18DRAFT_NODE-unique_2_len_117730.2	Ribokinase (EC 2.7.1.15)
+kb|g.236152.CDS.187	CDS	Sorbitol dehydrogenase (EC 1.1.1.14)	kb|g.236152	none		30327	31323	+	A023D18DRAFT_NODE-unique_2_len_117730.2	Sorbitol dehydrogenase (EC 1.1.1.14)
+kb|g.236152.CDS.188	CDS		kb|g.236152	;	No annotated function	31354	32602	+	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.189	CDS		kb|g.236152	;	No annotated function	33431	32606	-	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.190	CDS	3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100)	kb|g.236152	none		34240	33424	-	A023D18DRAFT_NODE-unique_2_len_117730.2	3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100)
+kb|g.236152.CDS.191	CDS	Xylitol dehydrogenase (EC 1.1.1.9)	kb|g.236152	none		35281	34243	-	A023D18DRAFT_NODE-unique_2_len_117730.2	Xylitol dehydrogenase (EC 1.1.1.9)
+kb|g.236152.CDS.192	CDS		kb|g.236152	;	No annotated function	35446	35287	-	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.193	CDS	Maltose/maltodextrin ABC transporter, permease protein MalG	kb|g.236152	none		36362	35495	-	A023D18DRAFT_NODE-unique_2_len_117730.2	Maltose/maltodextrin ABC transporter, permease protein MalG
+kb|g.236152.CDS.194	CDS	Various polyols ABC transporter, permease component 1	kb|g.236152	none		37246	36358	-	A023D18DRAFT_NODE-unique_2_len_117730.2	Various polyols ABC transporter, permease component 1
+kb|g.236152.CDS.195	CDS	N-Acetyl-D-glucosamine ABC transport system, sugar-binding protein	kb|g.236152	none		38800	37336	-	A023D18DRAFT_NODE-unique_2_len_117730.2	N-Acetyl-D-glucosamine ABC transport system, sugar-binding protein
+kb|g.236152.CDS.196	CDS		kb|g.236152	;	No annotated function	39100	39982	+	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.197	CDS	Xylulose kinase (EC 2.7.1.17)	kb|g.236152	none		41407	39991	-	A023D18DRAFT_NODE-unique_2_len_117730.2	Xylulose kinase (EC 2.7.1.17)
+kb|g.236152.CDS.198	CDS		kb|g.236152	;	No annotated function	41722	41431	-	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.199	CDS		kb|g.236152	;	No annotated function	42780	41832	-	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.200	CDS		kb|g.236152	;	No annotated function	43808	42776	-	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.201	CDS		kb|g.236152	;	No annotated function	44040	44628	+	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.202	CDS		kb|g.236152	;	No annotated function	44910	44706	-	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.203	CDS		kb|g.236152	;	No annotated function	45146	45650	+	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.204	CDS		kb|g.236152	;	No annotated function	45659	46403	+	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.205	CDS		kb|g.236152	;	No annotated function	47267	46409	-	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.206	CDS		kb|g.236152	;	No annotated function	48429	47268	-	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.207	CDS		kb|g.236152	;	No annotated function	49574	48425	-	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.208	CDS	Electron transfer flavoprotein, beta subunit	kb|g.236152	none		49668	50484	+	A023D18DRAFT_NODE-unique_2_len_117730.2	Electron transfer flavoprotein, beta subunit
+kb|g.236152.CDS.209	CDS	Electron transfer flavoprotein, alpha subunit	kb|g.236152	none		50480	51425	+	A023D18DRAFT_NODE-unique_2_len_117730.2	Electron transfer flavoprotein, alpha subunit
+kb|g.236152.CDS.210	CDS	Cysteine desulfurase (EC 2.8.1.7)	kb|g.236152	none		51462	52620	+	A023D18DRAFT_NODE-unique_2_len_117730.2	Cysteine desulfurase (EC 2.8.1.7)
+kb|g.236152.CDS.211	CDS	tRNA-specific 2-thiouridylase MnmA	kb|g.236152	none		52616	53702	+	A023D18DRAFT_NODE-unique_2_len_117730.2	tRNA-specific 2-thiouridylase MnmA
+kb|g.236152.CDS.212	CDS	DNA ligase (EC 6.5.1.2)	kb|g.236152	none		53703	55731	+	A023D18DRAFT_NODE-unique_2_len_117730.2	DNA ligase (EC 6.5.1.2)
+kb|g.236152.CDS.213	CDS		kb|g.236152	;	No annotated function	55735	55855	+	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.214	CDS		kb|g.236152	;	No annotated function	56037	56436	+	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.215	CDS		kb|g.236152	;	No annotated function	56413	56788	+	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.216	CDS		kb|g.236152	;	No annotated function	56787	57450	+	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.217	CDS	probable oxidoreductase/Short-chain dehydrogenase	kb|g.236152	none		57581	58514	+	A023D18DRAFT_NODE-unique_2_len_117730.2	probable oxidoreductase/Short-chain dehydrogenase
+kb|g.236152.CDS.218	CDS	Leucyl-tRNA synthetase (EC 6.1.1.4)	kb|g.236152	none		58517	60974	+	A023D18DRAFT_NODE-unique_2_len_117730.2	Leucyl-tRNA synthetase (EC 6.1.1.4)
+kb|g.236152.CDS.219	CDS		kb|g.236152	;	No annotated function	60992	61523	+	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.220	CDS		kb|g.236152	;	No annotated function	61524	62322	+	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.221	CDS	putative secreted protein	kb|g.236152	none		62361	62991	+	A023D18DRAFT_NODE-unique_2_len_117730.2	putative secreted protein
+kb|g.236152.CDS.222	CDS		kb|g.236152	;	No annotated function	64641	63051	-	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.223	CDS	FIG004436: Protein related to deoxyribodipyrimidine photolyase	kb|g.236152	none		66296	64823	-	A023D18DRAFT_NODE-unique_2_len_117730.2	FIG004436: Protein related to deoxyribodipyrimidine photolyase
+kb|g.236152.CDS.224	CDS		kb|g.236152	;	No annotated function	66430	66292	-	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.225	CDS		kb|g.236152	;	No annotated function	66824	66452	-	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.226	CDS		kb|g.236152	;	No annotated function	66927	67668	+	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.227	CDS		kb|g.236152	;	No annotated function	68110	67663	-	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.228	CDS		kb|g.236152	;	No annotated function	68198	68696	+	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.229	CDS		kb|g.236152	;	No annotated function	68825	68696	-	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.230	CDS		kb|g.236152	;	No annotated function	69202	68827	-	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.231	CDS	Histidinol-phosphatase [alternative form] (EC 3.1.3.15)	kb|g.236152	none		69362	70145	+	A023D18DRAFT_NODE-unique_2_len_117730.2	Histidinol-phosphatase [alternative form] (EC 3.1.3.15)
+kb|g.236152.CDS.232	CDS	Phosphoribosylformimino-5-aminoimidazole carboxamide ribotide isomerase (EC 5.3.1.16) / Acting phosphoribosylanthranilate isomerase (EC 5.3.1.24)	kb|g.236152	none		70284	71013	+	A023D18DRAFT_NODE-unique_2_len_117730.2	Phosphoribosylformimino-5-aminoimidazole carboxamide ribotide isomerase (EC 5.3.1.16);Acting phosphoribosylanthranilate isomerase (EC 5.3.1.24)
+kb|g.236152.CDS.233	CDS	Choline kinase (EC 2.7.1.32)	kb|g.236152	none		71940	71031	-	A023D18DRAFT_NODE-unique_2_len_117730.2	Choline kinase (EC 2.7.1.32)
+kb|g.236152.CDS.234	CDS	Sarcosine dehydrogenase (EC 1.5.99.1)	kb|g.236152	none		71975	74423	+	A023D18DRAFT_NODE-unique_2_len_117730.2	Sarcosine dehydrogenase (EC 1.5.99.1)
+kb|g.236152.CDS.235	CDS		kb|g.236152	;	No annotated function	75192	74424	-	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.236	CDS		kb|g.236152	;	No annotated function	75239	75683	+	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.237	CDS		kb|g.236152	;	No annotated function	75693	76290	+	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.238	CDS		kb|g.236152	;	No annotated function	77054	76277	-	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.239	CDS		kb|g.236152	;	No annotated function	77582	77267	-	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.240	CDS		kb|g.236152	;	No annotated function	77731	78199	+	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.241	CDS		kb|g.236152	;	No annotated function	78198	78429	+	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.242	CDS		kb|g.236152	;	No annotated function	78595	78430	-	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.243	CDS		kb|g.236152	;	No annotated function	79150	78649	-	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.244	CDS		kb|g.236152	;	No annotated function	79266	79680	+	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.245	CDS	Phage tail fiber protein	kb|g.236152	none		79832	80414	+	A023D18DRAFT_NODE-unique_2_len_117730.2	Phage tail fiber protein
+kb|g.236152.CDS.246	CDS	DNA-cytosine methyltransferase (EC 2.1.1.37)	kb|g.236152	none		80535	81936	+	A023D18DRAFT_NODE-unique_2_len_117730.2	DNA-cytosine methyltransferase (EC 2.1.1.37)
+kb|g.236152.CDS.247	CDS		kb|g.236152	;	No annotated function	82535	81935	-	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.248	CDS		kb|g.236152	;	No annotated function	82798	82678	-	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.249	CDS		kb|g.236152	;	No annotated function	83805	83061	-	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.250	CDS	Amino acid/metabolite permease in hypothetical Actinobacterial gene cluster; BAT1-like	kb|g.236152	;		83987	85520	+	A023D18DRAFT_NODE-unique_2_len_117730.2	Amino acid/metabolite permease in hypothetical Actinobacterial gene cluster;BAT1-like
+kb|g.236152.CDS.251	CDS	Glutamine synthetase family protein in hypothetical Actinobacterial gene cluster	kb|g.236152	none		85636	86995	+	A023D18DRAFT_NODE-unique_2_len_117730.2	Glutamine synthetase family protein in hypothetical Actinobacterial gene cluster
+kb|g.236152.CDS.252	CDS	Aldehyde dehydrogenase in hypothetical Actinobacterial gene cluster	kb|g.236152	none		87002	88364	+	A023D18DRAFT_NODE-unique_2_len_117730.2	Aldehyde dehydrogenase in hypothetical Actinobacterial gene cluster
+kb|g.236152.CDS.253	CDS	Short-chain dehydrogenase/reductase in hypothetical Actinobacterial gene cluster	kb|g.236152	none		88383	89157	+	A023D18DRAFT_NODE-unique_2_len_117730.2	Short-chain dehydrogenase/reductase in hypothetical Actinobacterial gene cluster
+kb|g.236152.CDS.254	CDS	Agmatine/putrescine antiporter, associated with agmatine catabolism	kb|g.236152	none		90717	89223	-	A023D18DRAFT_NODE-unique_2_len_117730.2	Agmatine/putrescine antiporter, associated with agmatine catabolism
+kb|g.236152.CDS.255	CDS	Histidinol dehydrogenase (EC 1.1.1.23)	kb|g.236152	none		92071	90763	-	A023D18DRAFT_NODE-unique_2_len_117730.2	Histidinol dehydrogenase (EC 1.1.1.23)
+kb|g.236152.CDS.256	CDS		kb|g.236152	;	No annotated function	92819	92093	-	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.257	CDS	Altronate dehydratase (EC 4.2.1.7)	kb|g.236152	none		94016	92861	-	A023D18DRAFT_NODE-unique_2_len_117730.2	Altronate dehydratase (EC 4.2.1.7)
+kb|g.236152.CDS.258	CDS		kb|g.236152	;	No annotated function	94822	94015	-	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.259	CDS		kb|g.236152	;	No annotated function	95098	94822	-	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.260	CDS		kb|g.236152	;	No annotated function	96491	95114	-	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.261	CDS		kb|g.236152	;	No annotated function	97171	96508	-	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.262	CDS		kb|g.236152	;	No annotated function	97957	97180	-	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.263	CDS	Rhamnulokinase (EC 2.7.1.5)	kb|g.236152	none		99453	97953	-	A023D18DRAFT_NODE-unique_2_len_117730.2	Rhamnulokinase (EC 2.7.1.5)
+kb|g.236152.CDS.264	CDS		kb|g.236152	;	No annotated function	99713	101219	+	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.265	CDS		kb|g.236152	;	No annotated function	101221	102223	+	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.266	CDS		kb|g.236152	;	No annotated function	102224	103211	+	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.267	CDS	Xylulose kinase (EC 2.7.1.17)	kb|g.236152	none		103215	104712	+	A023D18DRAFT_NODE-unique_2_len_117730.2	Xylulose kinase (EC 2.7.1.17)
+kb|g.236152.CDS.268	CDS	D-3-phosphoglycerate dehydrogenase (EC 1.1.1.95)	kb|g.236152	none		104708	105785	+	A023D18DRAFT_NODE-unique_2_len_117730.2	D-3-phosphoglycerate dehydrogenase (EC 1.1.1.95)
+kb|g.236152.CDS.269	CDS	3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100)	kb|g.236152	none		105781	106516	+	A023D18DRAFT_NODE-unique_2_len_117730.2	3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100)
+kb|g.236152.CDS.270	CDS	Predicted L-rhamnose ABC transporter, substrate-binding component	kb|g.236152	none		106664	107678	+	A023D18DRAFT_NODE-unique_2_len_117730.2	Predicted L-rhamnose ABC transporter, substrate-binding component
+kb|g.236152.CDS.271	CDS	D-tagatose 3-epimerase (EC 5.3.1.-)	kb|g.236152	none		107833	108694	+	A023D18DRAFT_NODE-unique_2_len_117730.2	D-tagatose 3-epimerase (EC 5.3.1.-)
+kb|g.236152.CDS.272	CDS	L-rhamnose mutarotase	kb|g.236152	none		108697	109021	+	A023D18DRAFT_NODE-unique_2_len_117730.2	L-rhamnose mutarotase
+kb|g.236152.CDS.273	CDS		kb|g.236152	;	No annotated function	109055	110222	+	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.274	CDS	Predicted rhamnulose-1-phosphate aldolase (EC 4.1.2.19) / Predicted lactaldehyde dehydrogenase (EC 1.2.1.22)	kb|g.236152	none		110221	112261	+	A023D18DRAFT_NODE-unique_2_len_117730.2	Predicted rhamnulose-1-phosphate aldolase (EC 4.1.2.19);Predicted lactaldehyde dehydrogenase (EC 1.2.1.22)
+kb|g.236152.CDS.275	CDS	Rhamnulokinase (EC 2.7.1.5)	kb|g.236152	none		112269	113661	+	A023D18DRAFT_NODE-unique_2_len_117730.2	Rhamnulokinase (EC 2.7.1.5)
+kb|g.236152.CDS.276	CDS	SOS-response repressor and protease LexA (EC 3.4.21.88)	kb|g.236152	none		114374	113660	-	A023D18DRAFT_NODE-unique_2_len_117730.2	SOS-response repressor and protease LexA (EC 3.4.21.88)
+kb|g.236152.CDS.277	CDS		kb|g.236152	;	No annotated function	114473	114776	+	A023D18DRAFT_NODE-unique_2_len_117730.2	
+kb|g.236152.CDS.278	CDS	Ribonucleotide reductase transcriptional regulator NrdR	kb|g.236152	none		114987	115485	+	A023D18DRAFT_NODE-unique_2_len_117730.2	Ribonucleotide reductase transcriptional regulator NrdR
+kb|g.236152.CDS.279	CDS	Ribonucleotide reductase of class II (coenzyme B12-dependent) (EC 1.17.4.1)	kb|g.236152	none		115598	117710	+	A023D18DRAFT_NODE-unique_2_len_117730.2	Ribonucleotide reductase of class II (coenzyme B12-dependent) (EC 1.17.4.1)
+kb|g.236152.CDS.280	CDS	Argininosuccinate lyase (EC 4.3.2.1)	kb|g.236152	none		66	561	+	A023D18DRAFT_NODE-unique_3_len_68534.3	Argininosuccinate lyase (EC 4.3.2.1)
+kb|g.236152.CDS.281	CDS	Tyrosyl-tRNA synthetase (EC 6.1.1.1)	kb|g.236152	none		557	1832	+	A023D18DRAFT_NODE-unique_3_len_68534.3	Tyrosyl-tRNA synthetase (EC 6.1.1.1)
+kb|g.236152.CDS.282	CDS		kb|g.236152	;	No annotated function	1973	2165	+	A023D18DRAFT_NODE-unique_3_len_68534.3	
+kb|g.236152.CDS.283	CDS	Argininosuccinate lyase (EC 4.3.2.1)	kb|g.236152	none		4561	3502	-	A023D18DRAFT_NODE-unique_3_len_68534.3	Argininosuccinate lyase (EC 4.3.2.1)
+kb|g.236152.CDS.284	CDS	Arginine pathway regulatory protein ArgR, repressor of arg regulon	kb|g.236152	none		5037	4557	-	A023D18DRAFT_NODE-unique_3_len_68534.3	Arginine pathway regulatory protein ArgR, repressor of arg regulon
+kb|g.236152.CDS.285	CDS	Acetylglutamate kinase (EC 2.7.2.8)	kb|g.236152	none		5825	5036	-	A023D18DRAFT_NODE-unique_3_len_68534.3	Acetylglutamate kinase (EC 2.7.2.8)
+kb|g.236152.CDS.286	CDS	N-acetyl-gamma-glutamyl-phosphate reductase (EC 1.2.1.38)	kb|g.236152	none		6835	5821	-	A023D18DRAFT_NODE-unique_3_len_68534.3	N-acetyl-gamma-glutamyl-phosphate reductase (EC 1.2.1.38)
+kb|g.236152.CDS.287	CDS	Phenylalanyl-tRNA synthetase beta chain (EC 6.1.1.20)	kb|g.236152	none		9350	6890	-	A023D18DRAFT_NODE-unique_3_len_68534.3	Phenylalanyl-tRNA synthetase beta chain (EC 6.1.1.20)
+kb|g.236152.CDS.288	CDS	Phenylalanyl-tRNA synthetase alpha chain (EC 6.1.1.20)	kb|g.236152	none		10363	9346	-	A023D18DRAFT_NODE-unique_3_len_68534.3	Phenylalanyl-tRNA synthetase alpha chain (EC 6.1.1.20)
+kb|g.236152.CDS.289	CDS		kb|g.236152	;	No annotated function	11191	10375	-	A023D18DRAFT_NODE-unique_3_len_68534.3	
+kb|g.236152.CDS.290	CDS	LSU ribosomal protein L20p	kb|g.236152	none		11577	11214	-	A023D18DRAFT_NODE-unique_3_len_68534.3	LSU ribosomal protein L20p
+kb|g.236152.CDS.291	CDS	LSU ribosomal protein L35p	kb|g.236152	none		11786	11588	-	A023D18DRAFT_NODE-unique_3_len_68534.3	LSU ribosomal protein L35p
+kb|g.236152.CDS.292	CDS	Translation initiation factor 3	kb|g.236152	none		12326	11816	-	A023D18DRAFT_NODE-unique_3_len_68534.3	Translation initiation factor 3
+kb|g.236152.CDS.293	CDS		kb|g.236152	;	No annotated function	12607	12880	+	A023D18DRAFT_NODE-unique_3_len_68534.3	
+kb|g.236152.CDS.294	CDS	Lipid A export ATP-binding/permease protein MsbA	kb|g.236152	none		14229	12870	-	A023D18DRAFT_NODE-unique_3_len_68534.3	Lipid A export ATP-binding/permease protein MsbA
+kb|g.236152.CDS.295	CDS	Lipid A export ATP-binding/permease protein MsbA	kb|g.236152	none		14849	14255	-	A023D18DRAFT_NODE-unique_3_len_68534.3	Lipid A export ATP-binding/permease protein MsbA
+kb|g.236152.CDS.296	CDS	PaaD-like protein (DUF59) involved in Fe-S cluster assembly	kb|g.236152	none		15198	14886	-	A023D18DRAFT_NODE-unique_3_len_68534.3	PaaD-like protein (DUF59) involved in Fe-S cluster assembly
+kb|g.236152.CDS.297	CDS	Putative iron-sulfur cluster assembly scaffold protein for SUF system, SufE2	kb|g.236152	none		15642	15207	-	A023D18DRAFT_NODE-unique_3_len_68534.3	Putative iron-sulfur cluster assembly scaffold protein for SUF system, SufE2
+kb|g.236152.CDS.298	CDS	Cysteine desulfurase (EC 2.8.1.7), SufS subfamily	kb|g.236152	none		16889	15641	-	A023D18DRAFT_NODE-unique_3_len_68534.3	Cysteine desulfurase (EC 2.8.1.7), SufS subfamily
+kb|g.236152.CDS.299	CDS	Iron-sulfur cluster assembly ATPase protein SufC	kb|g.236152	none		17646	16893	-	A023D18DRAFT_NODE-unique_3_len_68534.3	Iron-sulfur cluster assembly ATPase protein SufC
+kb|g.236152.CDS.300	CDS	Ferredoxin, 2Fe-2S	kb|g.236152	none		17949	17655	-	A023D18DRAFT_NODE-unique_3_len_68534.3	Ferredoxin, 2Fe-2S
+kb|g.236152.CDS.301	CDS	Iron-sulfur cluster assembly protein SufD	kb|g.236152	none		19034	17948	-	A023D18DRAFT_NODE-unique_3_len_68534.3	Iron-sulfur cluster assembly protein SufD
+kb|g.236152.CDS.302	CDS	Iron-sulfur cluster assembly protein SufB	kb|g.236152	none		20446	19033	-	A023D18DRAFT_NODE-unique_3_len_68534.3	Iron-sulfur cluster assembly protein SufB
+kb|g.236152.CDS.303	CDS	Iron-sulfur cluster regulator SufR	kb|g.236152	none		21168	20445	-	A023D18DRAFT_NODE-unique_3_len_68534.3	Iron-sulfur cluster regulator SufR
+kb|g.236152.CDS.304	CDS	Cytochrome oxidase assembly protein	kb|g.236152	none		21254	22151	+	A023D18DRAFT_NODE-unique_3_len_68534.3	Cytochrome oxidase assembly protein
+kb|g.236152.CDS.305	CDS	Transketolase (EC 2.2.1.1)	kb|g.236152	none		22151	24218	+	A023D18DRAFT_NODE-unique_3_len_68534.3	Transketolase (EC 2.2.1.1)
+kb|g.236152.CDS.306	CDS	Transaldolase (EC 2.2.1.2)	kb|g.236152	none		24210	25293	+	A023D18DRAFT_NODE-unique_3_len_68534.3	Transaldolase (EC 2.2.1.2)
+kb|g.236152.CDS.307	CDS	Glucose-6-phosphate isomerase (EC 5.3.1.9)	kb|g.236152	none		25292	26807	+	A023D18DRAFT_NODE-unique_3_len_68534.3	Glucose-6-phosphate isomerase (EC 5.3.1.9)
+kb|g.236152.CDS.308	CDS	putative electron transport protein	kb|g.236152	none		27144	26802	-	A023D18DRAFT_NODE-unique_3_len_68534.3	putative electron transport protein
+kb|g.236152.CDS.309	CDS	Preprotein translocase subunit SecG (TC 3.A.5.1.1)	kb|g.236152	none		27344	27158	-	A023D18DRAFT_NODE-unique_3_len_68534.3	Preprotein translocase subunit SecG (TC 3.A.5.1.1)
+kb|g.236152.CDS.310	CDS	Triosephosphate isomerase (EC 5.3.1.1)	kb|g.236152	none		28259	27476	-	A023D18DRAFT_NODE-unique_3_len_68534.3	Triosephosphate isomerase (EC 5.3.1.1)
+kb|g.236152.CDS.311	CDS	Phosphoglycerate kinase (EC 2.7.2.3)	kb|g.236152	none		29456	28271	-	A023D18DRAFT_NODE-unique_3_len_68534.3	Phosphoglycerate kinase (EC 2.7.2.3)
+kb|g.236152.CDS.312	CDS	NAD-dependent glyceraldehyde-3-phosphate dehydrogenase (EC 1.2.1.12)	kb|g.236152	none		30463	29461	-	A023D18DRAFT_NODE-unique_3_len_68534.3	NAD-dependent glyceraldehyde-3-phosphate dehydrogenase (EC 1.2.1.12)
+kb|g.236152.CDS.313	CDS	FIG001886: Cytoplasmic hypothetical protein	kb|g.236152	none		31525	30547	-	A023D18DRAFT_NODE-unique_3_len_68534.3	FIG001886: Cytoplasmic hypothetical protein
+kb|g.236152.CDS.314	CDS	FIG002813: LPPG:FO 2-phospho-L-lactate transferase like, CofD-like	kb|g.236152	none		32500	31567	-	A023D18DRAFT_NODE-unique_3_len_68534.3	FIG002813: LPPG:FO 2-phospho-L-lactate transferase like, CofD-like
+kb|g.236152.CDS.315	CDS	Hypothetical ATP-binding protein UPF0042, contains P-loop	kb|g.236152	none		33380	32501	-	A023D18DRAFT_NODE-unique_3_len_68534.3	Hypothetical ATP-binding protein UPF0042, contains P-loop
+kb|g.236152.CDS.316	CDS	Excinuclease ABC subunit C	kb|g.236152	none		35315	33401	-	A023D18DRAFT_NODE-unique_3_len_68534.3	Excinuclease ABC subunit C
+kb|g.236152.CDS.317	CDS	Excinuclease ABC subunit A	kb|g.236152	none		38158	35317	-	A023D18DRAFT_NODE-unique_3_len_68534.3	Excinuclease ABC subunit A
+kb|g.236152.CDS.318	CDS	Excinuclease ABC subunit B	kb|g.236152	none		40227	38157	-	A023D18DRAFT_NODE-unique_3_len_68534.3	Excinuclease ABC subunit B
+kb|g.236152.CDS.319	CDS	Dephospho-CoA kinase (EC 2.7.1.24)	kb|g.236152	none		40823	40226	-	A023D18DRAFT_NODE-unique_3_len_68534.3	Dephospho-CoA kinase (EC 2.7.1.24)
+kb|g.236152.CDS.320	CDS	SSU ribosomal protein S1p	kb|g.236152	none		42231	40887	-	A023D18DRAFT_NODE-unique_3_len_68534.3	SSU ribosomal protein S1p
+kb|g.236152.CDS.321	CDS	DNA polymerase I (EC 2.7.7.7)	kb|g.236152	none		44928	42399	-	A023D18DRAFT_NODE-unique_3_len_68534.3	DNA polymerase I (EC 2.7.7.7)
+kb|g.236152.CDS.322	CDS	ComA operon protein 2	kb|g.236152	none		45014	45419	+	A023D18DRAFT_NODE-unique_3_len_68534.3	ComA operon protein 2
+kb|g.236152.CDS.323	CDS	Branched-chain amino acid transport ATP-binding protein LivF (TC 3.A.1.4.1)	kb|g.236152	none		46144	45427	-	A023D18DRAFT_NODE-unique_3_len_68534.3	Branched-chain amino acid transport ATP-binding protein LivF (TC 3.A.1.4.1)
+kb|g.236152.CDS.324	CDS	Branched-chain amino acid transport ATP-binding protein LivG (TC 3.A.1.4.1)	kb|g.236152	none		46910	46133	-	A023D18DRAFT_NODE-unique_3_len_68534.3	Branched-chain amino acid transport ATP-binding protein LivG (TC 3.A.1.4.1)
+kb|g.236152.CDS.325	CDS	Branched-chain amino acid transport system permease protein LivM (TC 3.A.1.4.1)	kb|g.236152	none		47947	46909	-	A023D18DRAFT_NODE-unique_3_len_68534.3	Branched-chain amino acid transport system permease protein LivM (TC 3.A.1.4.1)
+kb|g.236152.CDS.326	CDS	High-affinity branched-chain amino acid transport system permease protein LivH (TC 3.A.1.4.1)	kb|g.236152	none		48901	47950	-	A023D18DRAFT_NODE-unique_3_len_68534.3	High-affinity branched-chain amino acid transport system permease protein LivH (TC 3.A.1.4.1)
+kb|g.236152.CDS.327	CDS	Branched-chain amino acid ABC transporter, amino acid-binding protein (TC 3.A.1.4.1)	kb|g.236152	none		50168	49022	-	A023D18DRAFT_NODE-unique_3_len_68534.3	Branched-chain amino acid ABC transporter, amino acid-binding protein (TC 3.A.1.4.1)
+kb|g.236152.CDS.328	CDS	response regulator	kb|g.236152	none		50896	50305	-	A023D18DRAFT_NODE-unique_3_len_68534.3	response regulator
+kb|g.236152.CDS.329	CDS	Pyruvate kinase (EC 2.7.1.40)	kb|g.236152	none		52456	51013	-	A023D18DRAFT_NODE-unique_3_len_68534.3	Pyruvate kinase (EC 2.7.1.40)
+kb|g.236152.CDS.330	CDS	Glutamate synthase [NADPH] small chain (EC 1.4.1.13)	kb|g.236152	none		53923	52465	-	A023D18DRAFT_NODE-unique_3_len_68534.3	Glutamate synthase [NADPH] small chain (EC 1.4.1.13)
+kb|g.236152.CDS.331	CDS	Glutamate synthase [NADPH] large chain (EC 1.4.1.13)	kb|g.236152	none		58442	53915	-	A023D18DRAFT_NODE-unique_3_len_68534.3	Glutamate synthase [NADPH] large chain (EC 1.4.1.13)
+kb|g.236152.CDS.332	CDS		kb|g.236152	;	No annotated function	59228	58523	-	A023D18DRAFT_NODE-unique_3_len_68534.3	
+kb|g.236152.CDS.333	CDS	Prolipoprotein diacylglyceryl transferase (EC 2.4.99.-)	kb|g.236152	none		60071	59237	-	A023D18DRAFT_NODE-unique_3_len_68534.3	Prolipoprotein diacylglyceryl transferase (EC 2.4.99.-)
+kb|g.236152.CDS.334	CDS		kb|g.236152	;	No annotated function	60764	60089	-	A023D18DRAFT_NODE-unique_3_len_68534.3	
+kb|g.236152.CDS.335	CDS		kb|g.236152	;	No annotated function	61248	60789	-	A023D18DRAFT_NODE-unique_3_len_68534.3	
+kb|g.236152.CDS.336	CDS	Tryptophan synthase alpha chain (EC 4.2.1.20)	kb|g.236152	none		62041	61237	-	A023D18DRAFT_NODE-unique_3_len_68534.3	Tryptophan synthase alpha chain (EC 4.2.1.20)
+kb|g.236152.CDS.337	CDS	Tryptophan synthase beta chain (EC 4.2.1.20)	kb|g.236152	none		63255	62040	-	A023D18DRAFT_NODE-unique_3_len_68534.3	Tryptophan synthase beta chain (EC 4.2.1.20)
+kb|g.236152.CDS.338	CDS	Indole-3-glycerol phosphate synthase (EC 4.1.1.48)	kb|g.236152	none		64055	63275	-	A023D18DRAFT_NODE-unique_3_len_68534.3	Indole-3-glycerol phosphate synthase (EC 4.1.1.48)
+kb|g.236152.CDS.339	CDS		kb|g.236152	;	No annotated function	64203	64047	-	A023D18DRAFT_NODE-unique_3_len_68534.3	
+kb|g.236152.CDS.340	CDS	Anthranilate synthase, aminase component (EC 4.1.3.27)	kb|g.236152	none		65698	64204	-	A023D18DRAFT_NODE-unique_3_len_68534.3	Anthranilate synthase, aminase component (EC 4.1.3.27)
+kb|g.236152.CDS.341	CDS	DNA polymerase III alpha subunit (EC 2.7.7.7)	kb|g.236152	none		68365	65830	-	A023D18DRAFT_NODE-unique_3_len_68534.3	DNA polymerase III alpha subunit (EC 2.7.7.7)
+kb|g.236152.CDS.342	CDS		kb|g.236152	;	No annotated function	68352	68517	+	A023D18DRAFT_NODE-unique_3_len_68534.3	
+kb|g.236152.CDS.343	CDS		kb|g.236152	;	No annotated function	431	110	-	A023D18DRAFT_NODE-unique_4_len_66161.4	
+kb|g.236152.CDS.344	CDS		kb|g.236152	;	No annotated function	488	1346	+	A023D18DRAFT_NODE-unique_4_len_66161.4	
+kb|g.236152.CDS.345	CDS		kb|g.236152	;	No annotated function	1342	1579	+	A023D18DRAFT_NODE-unique_4_len_66161.4	
+kb|g.236152.CDS.346	CDS	Ketoglutarate semialdehyde dehydrogenase (EC 1.2.1.26)	kb|g.236152	none		1592	3119	+	A023D18DRAFT_NODE-unique_4_len_66161.4	Ketoglutarate semialdehyde dehydrogenase (EC 1.2.1.26)
+kb|g.236152.CDS.347	CDS	2-hydroxyhepta-2,4-diene-1,7-dioate isomerase (EC 5.3.3.-) / 5-carboxymethyl-2-oxo-hex-3- ene-1,7-dioate decarboxylase (EC 4.1.1.68)	kb|g.236152	none		4048	3118	-	A023D18DRAFT_NODE-unique_4_len_66161.4	2-hydroxyhepta-2,4-diene-1,7-dioate isomerase (EC 5.3.3.-);5-carboxymethyl-2-oxo-hex-3- ene-1,7-dioate decarboxylase (EC 4.1.1.68)
+kb|g.236152.CDS.348	CDS	Dihydroxy-acid dehydratase (EC 4.2.1.9)	kb|g.236152	none		4097	5825	+	A023D18DRAFT_NODE-unique_4_len_66161.4	Dihydroxy-acid dehydratase (EC 4.2.1.9)
+kb|g.236152.CDS.349	CDS	Enolase (EC 4.2.1.11)	kb|g.236152	none		7092	5820	-	A023D18DRAFT_NODE-unique_4_len_66161.4	Enolase (EC 4.2.1.11)
+kb|g.236152.CDS.350	CDS		kb|g.236152	;	No annotated function	8078	7088	-	A023D18DRAFT_NODE-unique_4_len_66161.4	
+kb|g.236152.CDS.351	CDS		kb|g.236152	;	No annotated function	8794	8089	-	A023D18DRAFT_NODE-unique_4_len_66161.4	
+kb|g.236152.CDS.352	CDS		kb|g.236152	;	No annotated function	9719	8795	-	A023D18DRAFT_NODE-unique_4_len_66161.4	
+kb|g.236152.CDS.353	CDS	3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100)	kb|g.236152	none		9777	10554	+	A023D18DRAFT_NODE-unique_4_len_66161.4	3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100)
+kb|g.236152.CDS.354	CDS	Aspartate aminotransferase (EC 2.6.1.1)	kb|g.236152	none		10596	11745	+	A023D18DRAFT_NODE-unique_4_len_66161.4	Aspartate aminotransferase (EC 2.6.1.1)
+kb|g.236152.CDS.355	CDS	Aldehyde dehydrogenase (EC 1.2.1.3)	kb|g.236152	none		13232	11738	-	A023D18DRAFT_NODE-unique_4_len_66161.4	Aldehyde dehydrogenase (EC 1.2.1.3)
+kb|g.236152.CDS.356	CDS	FIG01173569: hypothetical protein	kb|g.236152	none		13231	13942	+	A023D18DRAFT_NODE-unique_4_len_66161.4	FIG01173569: hypothetical protein
+kb|g.236152.CDS.357	CDS		kb|g.236152	;	No annotated function	15080	13937	-	A023D18DRAFT_NODE-unique_4_len_66161.4	
+kb|g.236152.CDS.358	CDS	Chromosome segregation ATPases	kb|g.236152	none		15161	16391	+	A023D18DRAFT_NODE-unique_4_len_66161.4	Chromosome segregation ATPases
+kb|g.236152.CDS.359	CDS		kb|g.236152	;	No annotated function	16387	17269	+	A023D18DRAFT_NODE-unique_4_len_66161.4	
+kb|g.236152.CDS.360	CDS		kb|g.236152	;	No annotated function	17349	18486	+	A023D18DRAFT_NODE-unique_4_len_66161.4	
+kb|g.236152.CDS.361	CDS		kb|g.236152	;	No annotated function	18491	18722	+	A023D18DRAFT_NODE-unique_4_len_66161.4	
+kb|g.236152.CDS.362	CDS		kb|g.236152	;	No annotated function	21896	18848	-	A023D18DRAFT_NODE-unique_4_len_66161.4	
+kb|g.236152.CDS.363	CDS		kb|g.236152	;	No annotated function	23387	21941	-	A023D18DRAFT_NODE-unique_4_len_66161.4	
+kb|g.236152.CDS.364	CDS		kb|g.236152	;	No annotated function	24260	23402	-	A023D18DRAFT_NODE-unique_4_len_66161.4	
+kb|g.236152.CDS.365	CDS		kb|g.236152	;	No annotated function	24277	24733	+	A023D18DRAFT_NODE-unique_4_len_66161.4	
+kb|g.236152.CDS.366	CDS	Tyrosine-protein kinase Wzc (EC 2.7.10.2)	kb|g.236152	none		24822	26373	+	A023D18DRAFT_NODE-unique_4_len_66161.4	Tyrosine-protein kinase Wzc (EC 2.7.10.2)
+kb|g.236152.CDS.367	CDS	Undecaprenyl-phosphate galactosephosphotransferase (EC 2.7.8.6)	kb|g.236152	none		27418	26368	-	A023D18DRAFT_NODE-unique_4_len_66161.4	Undecaprenyl-phosphate galactosephosphotransferase (EC 2.7.8.6)
+kb|g.236152.CDS.368	CDS		kb|g.236152	;	No annotated function	29155	27919	-	A023D18DRAFT_NODE-unique_4_len_66161.4	
+kb|g.236152.CDS.369	CDS		kb|g.236152	;	No annotated function	29702	29162	-	A023D18DRAFT_NODE-unique_4_len_66161.4	
+kb|g.236152.CDS.370	CDS		kb|g.236152	;	No annotated function	29780	30920	+	A023D18DRAFT_NODE-unique_4_len_66161.4	
+kb|g.236152.CDS.371	CDS		kb|g.236152	;	No annotated function	30987	32007	+	A023D18DRAFT_NODE-unique_4_len_66161.4	
+kb|g.236152.CDS.372	CDS		kb|g.236152	;	No annotated function	33277	32047	-	A023D18DRAFT_NODE-unique_4_len_66161.4	
+kb|g.236152.CDS.373	CDS		kb|g.236152	;	No annotated function	33592	34819	+	A023D18DRAFT_NODE-unique_4_len_66161.4	
+kb|g.236152.CDS.374	CDS		kb|g.236152	;	No annotated function	36126	35304	-	A023D18DRAFT_NODE-unique_4_len_66161.4	
+kb|g.236152.CDS.375	CDS		kb|g.236152	;	No annotated function	36199	37048	+	A023D18DRAFT_NODE-unique_4_len_66161.4	
+kb|g.236152.CDS.376	CDS	Magnesium and cobalt transport protein CorA	kb|g.236152	none		39070	38098	-	A023D18DRAFT_NODE-unique_4_len_66161.4	Magnesium and cobalt transport protein CorA
+kb|g.236152.CDS.377	CDS	NAD-specific glutamate dehydrogenase (EC 1.4.1.2); NADP-specific glutamate dehydrogenase (EC 1.4.1.4)	kb|g.236152	;		39181	40411	+	A023D18DRAFT_NODE-unique_4_len_66161.4	NAD-specific glutamate dehydrogenase (EC 1.4.1.2);NADP-specific glutamate dehydrogenase (EC 1.4.1.4)
+kb|g.236152.CDS.378	CDS	Inorganic pyrophosphatase (EC 3.6.1.1)	kb|g.236152	none		40895	40406	-	A023D18DRAFT_NODE-unique_4_len_66161.4	Inorganic pyrophosphatase (EC 3.6.1.1)
+kb|g.236152.CDS.379	CDS	3'-to-5' oligoribonuclease (orn)	kb|g.236152	none		41646	41097	-	A023D18DRAFT_NODE-unique_4_len_66161.4	3'-to-5' oligoribonuclease (orn)
+kb|g.236152.CDS.380	CDS	Phosphate transport system permease protein PstC (TC 3.A.1.7.1)	kb|g.236152	none		41755	42739	+	A023D18DRAFT_NODE-unique_4_len_66161.4	Phosphate transport system permease protein PstC (TC 3.A.1.7.1)
+kb|g.236152.CDS.381	CDS	Phosphate transport system permease protein PstA (TC 3.A.1.7.1)	kb|g.236152	none		42738	43794	+	A023D18DRAFT_NODE-unique_4_len_66161.4	Phosphate transport system permease protein PstA (TC 3.A.1.7.1)
+kb|g.236152.CDS.382	CDS	Phosphate transport ATP-binding protein PstB (TC 3.A.1.7.1)	kb|g.236152	none		43790	44756	+	A023D18DRAFT_NODE-unique_4_len_66161.4	Phosphate transport ATP-binding protein PstB (TC 3.A.1.7.1)
+kb|g.236152.CDS.383	CDS	Phosphate ABC transporter, periplasmic phosphate-binding protein PstS (TC 3.A.1.7.1)	kb|g.236152	none		44870	46052	+	A023D18DRAFT_NODE-unique_4_len_66161.4	Phosphate ABC transporter, periplasmic phosphate-binding protein PstS (TC 3.A.1.7.1)
+kb|g.236152.CDS.384	CDS		kb|g.236152	;	No annotated function	46282	47695	+	A023D18DRAFT_NODE-unique_4_len_66161.4	
+kb|g.236152.CDS.385	CDS	ABC transporter ATP-binding protein	kb|g.236152	none		47830	49498	+	A023D18DRAFT_NODE-unique_4_len_66161.4	ABC transporter ATP-binding protein
+kb|g.236152.CDS.386	CDS		kb|g.236152	;	No annotated function	49511	49916	+	A023D18DRAFT_NODE-unique_4_len_66161.4	
+kb|g.236152.CDS.387	CDS	putative integral membrane transport protein	kb|g.236152	none		49915	51166	+	A023D18DRAFT_NODE-unique_4_len_66161.4	putative integral membrane transport protein
+kb|g.236152.CDS.388	CDS	Hemoglobin-like protein HbO	kb|g.236152	none		51162	51534	+	A023D18DRAFT_NODE-unique_4_len_66161.4	Hemoglobin-like protein HbO
+kb|g.236152.CDS.389	CDS		kb|g.236152	;	No annotated function	52074	51522	-	A023D18DRAFT_NODE-unique_4_len_66161.4	
+kb|g.236152.CDS.390	CDS	HNH endonuclease family protein	kb|g.236152	none		52222	52747	+	A023D18DRAFT_NODE-unique_4_len_66161.4	HNH endonuclease family protein
+kb|g.236152.CDS.391	CDS		kb|g.236152	;	No annotated function	52746	52920	+	A023D18DRAFT_NODE-unique_4_len_66161.4	
+kb|g.236152.CDS.392	CDS	Membrane alanine aminopeptidase N (EC 3.4.11.2)	kb|g.236152	none		55472	52931	-	A023D18DRAFT_NODE-unique_4_len_66161.4	Membrane alanine aminopeptidase N (EC 3.4.11.2)
+kb|g.236152.CDS.393	CDS	tRNA (guanine46-N7-)-methyltransferase (EC 2.1.1.33)	kb|g.236152	none		55555	56212	+	A023D18DRAFT_NODE-unique_4_len_66161.4	tRNA (guanine46-N7-)-methyltransferase (EC 2.1.1.33)
+kb|g.236152.CDS.394	CDS	Ribose 5-phosphate isomerase B (EC 5.3.1.6) / Galactose 6-phosphate isomerase	kb|g.236152	none		56663	56207	-	A023D18DRAFT_NODE-unique_4_len_66161.4	Ribose 5-phosphate isomerase B (EC 5.3.1.6);Galactose 6-phosphate isomerase
+kb|g.236152.CDS.395	CDS		kb|g.236152	;	No annotated function	57320	56762	-	A023D18DRAFT_NODE-unique_4_len_66161.4	
+kb|g.236152.CDS.396	CDS		kb|g.236152	;	No annotated function	57608	58148	+	A023D18DRAFT_NODE-unique_4_len_66161.4	
+kb|g.236152.CDS.397	CDS	Cell division trigger factor (EC 5.2.1.8)	kb|g.236152	none		58819	60103	+	A023D18DRAFT_NODE-unique_4_len_66161.4	Cell division trigger factor (EC 5.2.1.8)
+kb|g.236152.CDS.398	CDS	ATP-dependent Clp protease proteolytic subunit (EC 3.4.21.92)	kb|g.236152	none		60197	60815	+	A023D18DRAFT_NODE-unique_4_len_66161.4	ATP-dependent Clp protease proteolytic subunit (EC 3.4.21.92)
+kb|g.236152.CDS.399	CDS	ATP-dependent Clp protease proteolytic subunit (EC 3.4.21.92)	kb|g.236152	none		60811	61450	+	A023D18DRAFT_NODE-unique_4_len_66161.4	ATP-dependent Clp protease proteolytic subunit (EC 3.4.21.92)
+kb|g.236152.CDS.400	CDS	Dihydrofolate synthase (EC 6.3.2.12) / Folylpolyglutamate synthase (EC 6.3.2.17)	kb|g.236152	none		62431	61804	-	A023D18DRAFT_NODE-unique_4_len_66161.4	Dihydrofolate synthase (EC 6.3.2.12);Folylpolyglutamate synthase (EC 6.3.2.17)
+kb|g.236152.CDS.401	CDS	Valyl-tRNA synthetase (EC 6.1.1.9)	kb|g.236152	none		65035	62431	-	A023D18DRAFT_NODE-unique_4_len_66161.4	Valyl-tRNA synthetase (EC 6.1.1.9)
+kb|g.236152.CDS.402	CDS	ATP-dependent Clp protease ATP-binding subunit ClpX	kb|g.236152	none		66057	65046	-	A023D18DRAFT_NODE-unique_4_len_66161.4	ATP-dependent Clp protease ATP-binding subunit ClpX
+kb|g.236152.CDS.403	CDS		kb|g.236152	;	No annotated function	376	553	+	A023D18DRAFT_NODE-unique_5_len_56810.5	
+kb|g.236152.CDS.404	CDS	Cell envelope-associated transcriptional attenuator LytR-CpsA-Psr, subfamily A1 (as in PMID19099556)	kb|g.236152	none		590	1691	+	A023D18DRAFT_NODE-unique_5_len_56810.5	Cell envelope-associated transcriptional attenuator LytR-CpsA-Psr, subfamily A1 (as in PMID19099556)
+kb|g.236152.CDS.405	CDS	UDP-glucose dehydrogenase (EC 1.1.1.22)	kb|g.236152	none		1720	3037	+	A023D18DRAFT_NODE-unique_5_len_56810.5	UDP-glucose dehydrogenase (EC 1.1.1.22)
+kb|g.236152.CDS.406	CDS		kb|g.236152	;	No annotated function	3029	3422	+	A023D18DRAFT_NODE-unique_5_len_56810.5	
+kb|g.236152.CDS.407	CDS		kb|g.236152	;	No annotated function	4243	3421	-	A023D18DRAFT_NODE-unique_5_len_56810.5	
+kb|g.236152.CDS.408	CDS	Septum formation protein Maf	kb|g.236152	none		4312	4864	+	A023D18DRAFT_NODE-unique_5_len_56810.5	Septum formation protein Maf
+kb|g.236152.CDS.409	CDS	Purine nucleoside phosphorylase (EC 2.4.2.1)	kb|g.236152	none		4885	5695	+	A023D18DRAFT_NODE-unique_5_len_56810.5	Purine nucleoside phosphorylase (EC 2.4.2.1)
+kb|g.236152.CDS.410	CDS	Phosphomannomutase (EC 5.4.2.8)	kb|g.236152	none		5691	7305	+	A023D18DRAFT_NODE-unique_5_len_56810.5	Phosphomannomutase (EC 5.4.2.8)
+kb|g.236152.CDS.411	CDS	Deoxyribose-phosphate aldolase (EC 4.1.2.4)	kb|g.236152	none		7301	8237	+	A023D18DRAFT_NODE-unique_5_len_56810.5	Deoxyribose-phosphate aldolase (EC 4.1.2.4)
+kb|g.236152.CDS.412	CDS	Aldehyde dehydrogenase (EC 1.2.1.3)	kb|g.236152	none		8244	9699	+	A023D18DRAFT_NODE-unique_5_len_56810.5	Aldehyde dehydrogenase (EC 1.2.1.3)
+kb|g.236152.CDS.413	CDS	Aldehyde dehydrogenase (EC 1.2.1.3)	kb|g.236152	none		9695	10538	+	A023D18DRAFT_NODE-unique_5_len_56810.5	Aldehyde dehydrogenase (EC 1.2.1.3)
+kb|g.236152.CDS.414	CDS	Adenosine deaminase (EC 3.5.4.4)	kb|g.236152	none		11633	10538	-	A023D18DRAFT_NODE-unique_5_len_56810.5	Adenosine deaminase (EC 3.5.4.4)
+kb|g.236152.CDS.415	CDS	Thymidine phosphorylase (EC 2.4.2.4)	kb|g.236152	none		12929	11633	-	A023D18DRAFT_NODE-unique_5_len_56810.5	Thymidine phosphorylase (EC 2.4.2.4)
+kb|g.236152.CDS.416	CDS	Cytidine deaminase (EC 3.5.4.5)	kb|g.236152	none		13312	12925	-	A023D18DRAFT_NODE-unique_5_len_56810.5	Cytidine deaminase (EC 3.5.4.5)
+kb|g.236152.CDS.417	CDS	Nucleoside ABC transporter, permease protein 2	kb|g.236152	none		14597	13337	-	A023D18DRAFT_NODE-unique_5_len_56810.5	Nucleoside ABC transporter, permease protein 2
+kb|g.236152.CDS.418	CDS	Nucleoside ABC transporter, permease protein 1	kb|g.236152	none		15766	14593	-	A023D18DRAFT_NODE-unique_5_len_56810.5	Nucleoside ABC transporter, permease protein 1
+kb|g.236152.CDS.419	CDS		kb|g.236152	;	No annotated function	17259	15762	-	A023D18DRAFT_NODE-unique_5_len_56810.5	
+kb|g.236152.CDS.420	CDS	Nucleoside ABC transporter, periplasmic nucleoside-binding protein	kb|g.236152	none		18369	17328	-	A023D18DRAFT_NODE-unique_5_len_56810.5	Nucleoside ABC transporter, periplasmic nucleoside-binding protein
+kb|g.236152.CDS.421	CDS	Tryptophanyl-tRNA synthetase (EC 6.1.1.2)	kb|g.236152	none		19541	18545	-	A023D18DRAFT_NODE-unique_5_len_56810.5	Tryptophanyl-tRNA synthetase (EC 6.1.1.2)
+kb|g.236152.CDS.422	CDS	Magnesium and cobalt efflux protein CorC	kb|g.236152	none		20830	19540	-	A023D18DRAFT_NODE-unique_5_len_56810.5	Magnesium and cobalt efflux protein CorC
+kb|g.236152.CDS.423	CDS	Glycerol-3-phosphate ABC transporter, ATP-binding protein UgpC (TC 3.A.1.1.3)	kb|g.236152	none		20999	22082	+	A023D18DRAFT_NODE-unique_5_len_56810.5	Glycerol-3-phosphate ABC transporter, ATP-binding protein UgpC (TC 3.A.1.1.3)
+kb|g.236152.CDS.424	CDS	Isocitrate dehydrogenase [NADP] (EC 1.1.1.42)	kb|g.236152	none		23350	22135	-	A023D18DRAFT_NODE-unique_5_len_56810.5	Isocitrate dehydrogenase [NADP] (EC 1.1.1.42)
+kb|g.236152.CDS.425	CDS	Malate dehydrogenase (EC 1.1.1.37)	kb|g.236152	none		24321	23364	-	A023D18DRAFT_NODE-unique_5_len_56810.5	Malate dehydrogenase (EC 1.1.1.37)
+kb|g.236152.CDS.426	CDS		kb|g.236152	;	No annotated function	24628	24382	-	A023D18DRAFT_NODE-unique_5_len_56810.5	
+kb|g.236152.CDS.427	CDS	Methylenetetrahydrofolate dehydrogenase (NADP+) (EC 1.5.1.5) / Methenyltetrahydrofolate cyclohydrolase (EC 3.5.4.9)	kb|g.236152	none		25458	24627	-	A023D18DRAFT_NODE-unique_5_len_56810.5	Methylenetetrahydrofolate dehydrogenase (NADP+) (EC 1.5.1.5);Methenyltetrahydrofolate cyclohydrolase (EC 3.5.4.9)
+kb|g.236152.CDS.428	CDS		kb|g.236152	;	No annotated function	26546	25454	-	A023D18DRAFT_NODE-unique_5_len_56810.5	
+kb|g.236152.CDS.429	CDS	Succinyl-CoA ligase [ADP-forming] alpha chain (EC 6.2.1.5)	kb|g.236152	none		27446	26564	-	A023D18DRAFT_NODE-unique_5_len_56810.5	Succinyl-CoA ligase [ADP-forming] alpha chain (EC 6.2.1.5)
+kb|g.236152.CDS.430	CDS	Succinyl-CoA ligase [ADP-forming] beta chain (EC 6.2.1.5)	kb|g.236152	none		28606	27442	-	A023D18DRAFT_NODE-unique_5_len_56810.5	Succinyl-CoA ligase [ADP-forming] beta chain (EC 6.2.1.5)
+kb|g.236152.CDS.431	CDS	ATP-dependent DNA helicase UvrD/PcrA	kb|g.236152	none		30883	28669	-	A023D18DRAFT_NODE-unique_5_len_56810.5	ATP-dependent DNA helicase UvrD/PcrA
+kb|g.236152.CDS.432	CDS		kb|g.236152	;	No annotated function	30909	31668	+	A023D18DRAFT_NODE-unique_5_len_56810.5	
+kb|g.236152.CDS.433	CDS	Peptidyl-prolyl cis-trans isomerase (EC 5.2.1.8)	kb|g.236152	none		32323	31663	-	A023D18DRAFT_NODE-unique_5_len_56810.5	Peptidyl-prolyl cis-trans isomerase (EC 5.2.1.8)
+kb|g.236152.CDS.434	CDS	Inosine-5'-monophosphate dehydrogenase (EC 1.1.1.205)	kb|g.236152	none		33527	32417	-	A023D18DRAFT_NODE-unique_5_len_56810.5	Inosine-5'-monophosphate dehydrogenase (EC 1.1.1.205)
+kb|g.236152.CDS.435	CDS	Polyphosphate glucokinase (EC 2.7.1.63)	kb|g.236152	none		34317	33564	-	A023D18DRAFT_NODE-unique_5_len_56810.5	Polyphosphate glucokinase (EC 2.7.1.63)
+kb|g.236152.CDS.436	CDS	Heat shock protein 60 family chaperone GroEL	kb|g.236152	none		36012	34377	-	A023D18DRAFT_NODE-unique_5_len_56810.5	Heat shock protein 60 family chaperone GroEL
+kb|g.236152.CDS.437	CDS	Heat shock protein 60 family co-chaperone GroES	kb|g.236152	none		36312	36015	-	A023D18DRAFT_NODE-unique_5_len_56810.5	Heat shock protein 60 family co-chaperone GroES
+kb|g.236152.CDS.438	CDS	TsaD/Kae1/Qri7 protein, required for threonylcarbamoyladenosine t(6)A37 formation in tRNA	kb|g.236152	none		37464	36435	-	A023D18DRAFT_NODE-unique_5_len_56810.5	TsaD/Kae1/Qri7 protein, required for threonylcarbamoyladenosine t(6)A37 formation in tRNA
+kb|g.236152.CDS.439	CDS	TsaB protein, required for threonylcarbamoyladenosine (t(6)A) formation in tRNA	kb|g.236152	none		38462	37463	-	A023D18DRAFT_NODE-unique_5_len_56810.5	TsaB protein, required for threonylcarbamoyladenosine (t(6)A) formation in tRNA
+kb|g.236152.CDS.440	CDS	TsaE protein, required for threonylcarbamoyladenosine t(6)A37 formation in tRNA	kb|g.236152	none		38902	38458	-	A023D18DRAFT_NODE-unique_5_len_56810.5	TsaE protein, required for threonylcarbamoyladenosine t(6)A37 formation in tRNA
+kb|g.236152.CDS.441	CDS		kb|g.236152	;	No annotated function	40615	38968	-	A023D18DRAFT_NODE-unique_5_len_56810.5	
+kb|g.236152.CDS.442	CDS		kb|g.236152	;	No annotated function	41931	40611	-	A023D18DRAFT_NODE-unique_5_len_56810.5	
+kb|g.236152.CDS.443	CDS		kb|g.236152	;	No annotated function	42939	41955	-	A023D18DRAFT_NODE-unique_5_len_56810.5	
+kb|g.236152.CDS.444	CDS	High-affinity branched-chain amino acid transport system permease protein LivH (TC 3.A.1.4.1)	kb|g.236152	none		43835	42938	-	A023D18DRAFT_NODE-unique_5_len_56810.5	High-affinity branched-chain amino acid transport system permease protein LivH (TC 3.A.1.4.1)
+kb|g.236152.CDS.445	CDS	Branched-chain amino acid transport ATP-binding protein LivF (TC 3.A.1.4.1)	kb|g.236152	none		44547	43836	-	A023D18DRAFT_NODE-unique_5_len_56810.5	Branched-chain amino acid transport ATP-binding protein LivF (TC 3.A.1.4.1)
+kb|g.236152.CDS.446	CDS	Branched-chain amino acid transport ATP-binding protein LivG (TC 3.A.1.4.1)	kb|g.236152	none		45305	44543	-	A023D18DRAFT_NODE-unique_5_len_56810.5	Branched-chain amino acid transport ATP-binding protein LivG (TC 3.A.1.4.1)
+kb|g.236152.CDS.447	CDS	Alanine racemase (EC 5.1.1.1)	kb|g.236152	none		46422	45297	-	A023D18DRAFT_NODE-unique_5_len_56810.5	Alanine racemase (EC 5.1.1.1)
+kb|g.236152.CDS.448	CDS		kb|g.236152	;	No annotated function	47108	46442	-	A023D18DRAFT_NODE-unique_5_len_56810.5	
+kb|g.236152.CDS.449	CDS	Glucosamine--fructose-6-phosphate aminotransferase [isomerizing] (EC 2.6.1.16)	kb|g.236152	none		48918	47112	-	A023D18DRAFT_NODE-unique_5_len_56810.5	Glucosamine--fructose-6-phosphate aminotransferase [isomerizing] (EC 2.6.1.16)
+kb|g.236152.CDS.450	CDS	Phosphoglucosamine mutase (EC 5.4.2.10)	kb|g.236152	none		50274	48930	-	A023D18DRAFT_NODE-unique_5_len_56810.5	Phosphoglucosamine mutase (EC 5.4.2.10)
+kb|g.236152.CDS.451	CDS	SSU ribosomal protein S9p (S16e)	kb|g.236152	none		50780	50297	-	A023D18DRAFT_NODE-unique_5_len_56810.5	SSU ribosomal protein S9p (S16e)
+kb|g.236152.CDS.452	CDS	LSU ribosomal protein L13p (L13Ae)	kb|g.236152	none		51246	50790	-	A023D18DRAFT_NODE-unique_5_len_56810.5	LSU ribosomal protein L13p (L13Ae)
+kb|g.236152.CDS.453	CDS	tRNA pseudouridine synthase A (EC 4.2.1.70)	kb|g.236152	none		52200	51357	-	A023D18DRAFT_NODE-unique_5_len_56810.5	tRNA pseudouridine synthase A (EC 4.2.1.70)
+kb|g.236152.CDS.454	CDS	LSU ribosomal protein L17p	kb|g.236152	none		52626	52221	-	A023D18DRAFT_NODE-unique_5_len_56810.5	LSU ribosomal protein L17p
+kb|g.236152.CDS.455	CDS	DNA-directed RNA polymerase alpha subunit (EC 2.7.7.6)	kb|g.236152	none		53648	52634	-	A023D18DRAFT_NODE-unique_5_len_56810.5	DNA-directed RNA polymerase alpha subunit (EC 2.7.7.6)
+kb|g.236152.CDS.456	CDS	SSU ribosomal protein S4p (S9e)	kb|g.236152	none		54376	53749	-	A023D18DRAFT_NODE-unique_5_len_56810.5	SSU ribosomal protein S4p (S9e)
+kb|g.236152.CDS.457	CDS	SSU ribosomal protein S11p (S14e)	kb|g.236152	none		54827	54392	-	A023D18DRAFT_NODE-unique_5_len_56810.5	SSU ribosomal protein S11p (S14e)
+kb|g.236152.CDS.458	CDS	SSU ribosomal protein S13p (S18e)	kb|g.236152	none		55204	54826	-	A023D18DRAFT_NODE-unique_5_len_56810.5	SSU ribosomal protein S13p (S18e)
+kb|g.236152.CDS.459	CDS	Translation initiation factor 1	kb|g.236152	none		55710	55488	-	A023D18DRAFT_NODE-unique_5_len_56810.5	Translation initiation factor 1
+kb|g.236152.CDS.460	CDS	Methionine aminopeptidase (EC 3.4.11.18)	kb|g.236152	none		56650	55840	-	A023D18DRAFT_NODE-unique_5_len_56810.5	Methionine aminopeptidase (EC 3.4.11.18)
+kb|g.236152.CDS.461	CDS		kb|g.236152	;	No annotated function	1065	144	-	A023D18DRAFT_NODE-unique_6_len_52325.6	
+kb|g.236152.CDS.462	CDS		kb|g.236152	;	No annotated function	1780	1090	-	A023D18DRAFT_NODE-unique_6_len_52325.6	
+kb|g.236152.CDS.463	CDS		kb|g.236152	;	No annotated function	1817	2219	+	A023D18DRAFT_NODE-unique_6_len_52325.6	
+kb|g.236152.CDS.464	CDS		kb|g.236152	;	No annotated function	2413	2860	+	A023D18DRAFT_NODE-unique_6_len_52325.6	
+kb|g.236152.CDS.465	CDS	Transcriptional regulator, FUR family	kb|g.236152	none		2899	3340	+	A023D18DRAFT_NODE-unique_6_len_52325.6	Transcriptional regulator, FUR family
+kb|g.236152.CDS.466	CDS	Folate-dependent protein for Fe/S cluster synthesis/repair in oxidative stress	kb|g.236152	none		3336	4251	+	A023D18DRAFT_NODE-unique_6_len_52325.6	Folate-dependent protein for Fe/S cluster synthesis/repair in oxidative stress
+kb|g.236152.CDS.467	CDS		kb|g.236152	;	No annotated function	5379	4242	-	A023D18DRAFT_NODE-unique_6_len_52325.6	
+kb|g.236152.CDS.468	CDS		kb|g.236152	;	No annotated function	6479	5375	-	A023D18DRAFT_NODE-unique_6_len_52325.6	
+kb|g.236152.CDS.469	CDS		kb|g.236152	;	No annotated function	7477	6475	-	A023D18DRAFT_NODE-unique_6_len_52325.6	
+kb|g.236152.CDS.470	CDS		kb|g.236152	;	No annotated function	7566	8616	+	A023D18DRAFT_NODE-unique_6_len_52325.6	
+kb|g.236152.CDS.471	CDS		kb|g.236152	;	No annotated function	8755	8878	+	A023D18DRAFT_NODE-unique_6_len_52325.6	
+kb|g.236152.CDS.472	CDS		kb|g.236152	;	No annotated function	8877	9375	+	A023D18DRAFT_NODE-unique_6_len_52325.6	
+kb|g.236152.CDS.473	CDS	Glycosyltransferase MshA involved in mycothiol biosynthesis (EC 2.4.1.-)	kb|g.236152	none		9412	10696	+	A023D18DRAFT_NODE-unique_6_len_52325.6	Glycosyltransferase MshA involved in mycothiol biosynthesis (EC 2.4.1.-)
+kb|g.236152.CDS.474	CDS	Uncharacterized protein Rv0487/MT0505 clustered with mycothiol biosynthesis gene	kb|g.236152	none		10688	11168	+	A023D18DRAFT_NODE-unique_6_len_52325.6	Uncharacterized protein Rv0487/MT0505 clustered with mycothiol biosynthesis gene
+kb|g.236152.CDS.475	CDS	Phosphoglycerate mutase (EC 5.4.2.1)	kb|g.236152	none		11205	11949	+	A023D18DRAFT_NODE-unique_6_len_52325.6	Phosphoglycerate mutase (EC 5.4.2.1)
+kb|g.236152.CDS.476	CDS	FIG00828616: hypothetical protein	kb|g.236152	none		13185	11931	-	A023D18DRAFT_NODE-unique_6_len_52325.6	FIG00828616: hypothetical protein
+kb|g.236152.CDS.477	CDS		kb|g.236152	;	No annotated function	14504	13205	-	A023D18DRAFT_NODE-unique_6_len_52325.6	
+kb|g.236152.CDS.478	CDS	Phosphate transport system regulatory protein PhoU	kb|g.236152	none		15237	14589	-	A023D18DRAFT_NODE-unique_6_len_52325.6	Phosphate transport system regulatory protein PhoU
+kb|g.236152.CDS.479	CDS	Phosphate regulon sensor protein PhoR (SphS) (EC 2.7.13.3)	kb|g.236152	none		15379	16483	+	A023D18DRAFT_NODE-unique_6_len_52325.6	Phosphate regulon sensor protein PhoR (SphS) (EC 2.7.13.3)
+kb|g.236152.CDS.480	CDS	Phosphate regulon transcriptional regulatory protein PhoB (SphR)	kb|g.236152	none		16479	17160	+	A023D18DRAFT_NODE-unique_6_len_52325.6	Phosphate regulon transcriptional regulatory protein PhoB (SphR)
+kb|g.236152.CDS.481	CDS		kb|g.236152	;	No annotated function	17650	17155	-	A023D18DRAFT_NODE-unique_6_len_52325.6	
+kb|g.236152.CDS.482	CDS		kb|g.236152	;	No annotated function	17767	18250	+	A023D18DRAFT_NODE-unique_6_len_52325.6	
+kb|g.236152.CDS.483	CDS	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase (EC 4.6.1.12)	kb|g.236152	none		18269	19412	+	A023D18DRAFT_NODE-unique_6_len_52325.6	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase (EC 4.6.1.12)
+kb|g.236152.CDS.484	CDS	Cysteinyl-tRNA synthetase (EC 6.1.1.16)	kb|g.236152	none		19427	20801	+	A023D18DRAFT_NODE-unique_6_len_52325.6	Cysteinyl-tRNA synthetase (EC 6.1.1.16)
+kb|g.236152.CDS.485	CDS	23S rRNA (guanosine-2'-O-) -methyltransferase rlmB (EC 2.1.1.-)	kb|g.236152	none		20800	21820	+	A023D18DRAFT_NODE-unique_6_len_52325.6	23S rRNA (guanosine-2'-O-) -methyltransferase rlmB (EC 2.1.1.-)
+kb|g.236152.CDS.486	CDS		kb|g.236152	;	No annotated function	21820	22600	+	A023D18DRAFT_NODE-unique_6_len_52325.6	
+kb|g.236152.CDS.487	CDS	Polyphosphate kinase (EC 2.7.4.1)	kb|g.236152	none		22650	24735	+	A023D18DRAFT_NODE-unique_6_len_52325.6	Polyphosphate kinase (EC 2.7.4.1)
+kb|g.236152.CDS.488	CDS		kb|g.236152	;	No annotated function	24731	25619	+	A023D18DRAFT_NODE-unique_6_len_52325.6	
+kb|g.236152.CDS.489	CDS	Exopolyphosphatase (EC 3.6.1.11)	kb|g.236152	none		26532	25614	-	A023D18DRAFT_NODE-unique_6_len_52325.6	Exopolyphosphatase (EC 3.6.1.11)
+kb|g.236152.CDS.490	CDS	Cholesterol oxidase (EC 1.1.3.6)	kb|g.236152	none		26736	28413	+	A023D18DRAFT_NODE-unique_6_len_52325.6	Cholesterol oxidase (EC 1.1.3.6)
+kb|g.236152.CDS.491	CDS		kb|g.236152	;	No annotated function	29829	28428	-	A023D18DRAFT_NODE-unique_6_len_52325.6	
+kb|g.236152.CDS.492	CDS	Predicted CDP-4-keto-6-deoxy-D-glucose-3-dehydrase	kb|g.236152	none		31132	29944	-	A023D18DRAFT_NODE-unique_6_len_52325.6	Predicted CDP-4-keto-6-deoxy-D-glucose-3-dehydrase
+kb|g.236152.CDS.493	CDS		kb|g.236152	;	No annotated function	31661	31124	-	A023D18DRAFT_NODE-unique_6_len_52325.6	
+kb|g.236152.CDS.494	CDS		kb|g.236152	;	No annotated function	32270	31661	-	A023D18DRAFT_NODE-unique_6_len_52325.6	
+kb|g.236152.CDS.495	CDS	D,D-heptose 7-phosphate kinase	kb|g.236152	none		33281	32303	-	A023D18DRAFT_NODE-unique_6_len_52325.6	D,D-heptose 7-phosphate kinase
+kb|g.236152.CDS.496	CDS	UDP-glucose 4-epimerase (EC 5.1.3.2)	kb|g.236152	none		34172	33287	-	A023D18DRAFT_NODE-unique_6_len_52325.6	UDP-glucose 4-epimerase (EC 5.1.3.2)
+kb|g.236152.CDS.497	CDS		kb|g.236152	;	No annotated function	34797	34215	-	A023D18DRAFT_NODE-unique_6_len_52325.6	
+kb|g.236152.CDS.498	CDS		kb|g.236152	;	No annotated function	35332	34777	-	A023D18DRAFT_NODE-unique_6_len_52325.6	
+kb|g.236152.CDS.499	CDS		kb|g.236152	;	No annotated function	36209	35399	-	A023D18DRAFT_NODE-unique_6_len_52325.6	
+kb|g.236152.CDS.500	CDS	NADH dehydrogenase (EC 1.6.99.3)	kb|g.236152	none		37435	36211	-	A023D18DRAFT_NODE-unique_6_len_52325.6	NADH dehydrogenase (EC 1.6.99.3)
+kb|g.236152.CDS.501	CDS	Putative nucleoside-diphosphate-sugar epimerase	kb|g.236152	none		37460	38969	+	A023D18DRAFT_NODE-unique_6_len_52325.6	Putative nucleoside-diphosphate-sugar epimerase
+kb|g.236152.CDS.502	CDS		kb|g.236152	;	No annotated function	39043	39334	+	A023D18DRAFT_NODE-unique_6_len_52325.6	
+kb|g.236152.CDS.503	CDS	Heat shock protein 60 family chaperone GroEL	kb|g.236152	none		39489	41115	+	A023D18DRAFT_NODE-unique_6_len_52325.6	Heat shock protein 60 family chaperone GroEL
+kb|g.236152.CDS.504	CDS	FIG01121526: hypothetical protein	kb|g.236152	none		41197	42073	+	A023D18DRAFT_NODE-unique_6_len_52325.6	FIG01121526: hypothetical protein
+kb|g.236152.CDS.505	CDS		kb|g.236152	;	No annotated function	42169	42556	+	A023D18DRAFT_NODE-unique_6_len_52325.6	
+kb|g.236152.CDS.506	CDS		kb|g.236152	;	No annotated function	42728	42551	-	A023D18DRAFT_NODE-unique_6_len_52325.6	
+kb|g.236152.CDS.507	CDS	Phosphoserine aminotransferase (EC 2.6.1.52)	kb|g.236152	none		43945	42823	-	A023D18DRAFT_NODE-unique_6_len_52325.6	Phosphoserine aminotransferase (EC 2.6.1.52)
+kb|g.236152.CDS.508	CDS	Pyridoxamine 5'-phosphate oxidase (EC 1.4.3.5)	kb|g.236152	none		44608	43954	-	A023D18DRAFT_NODE-unique_6_len_52325.6	Pyridoxamine 5'-phosphate oxidase (EC 1.4.3.5)
+kb|g.236152.CDS.509	CDS	Citrate synthase (si) (EC 2.3.3.1)	kb|g.236152	none		44701	45817	+	A023D18DRAFT_NODE-unique_6_len_52325.6	Citrate synthase (si) (EC 2.3.3.1)
+kb|g.236152.CDS.510	CDS	Deoxyribodipyrimidine photolyase (EC 4.1.99.3)	kb|g.236152	none		45826	47191	+	A023D18DRAFT_NODE-unique_6_len_52325.6	Deoxyribodipyrimidine photolyase (EC 4.1.99.3)
+kb|g.236152.CDS.511	CDS	Homospermidine synthase (EC 2.5.1.44)	kb|g.236152	none		48625	47191	-	A023D18DRAFT_NODE-unique_6_len_52325.6	Homospermidine synthase (EC 2.5.1.44)
+kb|g.236152.CDS.512	CDS	diguanylate cyclase/phosphodiesterase (GGDEF & EAL domains) with PAS/PAC sensor(s)	kb|g.236152	none		50018	48674	-	A023D18DRAFT_NODE-unique_6_len_52325.6	diguanylate cyclase/phosphodiesterase (GGDEF & EAL domains) with PAS/PAC sensor(s)
+kb|g.236152.CDS.513	CDS		kb|g.236152	;	No annotated function	50126	50546	+	A023D18DRAFT_NODE-unique_6_len_52325.6	
+kb|g.236152.CDS.514	CDS		kb|g.236152	;	No annotated function	51314	50546	-	A023D18DRAFT_NODE-unique_6_len_52325.6	
+kb|g.236152.CDS.515	CDS	Carboxynorspermidine dehydrogenase	kb|g.236152	none		52301	51326	-	A023D18DRAFT_NODE-unique_6_len_52325.6	Carboxynorspermidine dehydrogenase
+kb|g.236152.CDS.516	CDS	DNA-directed RNA polymerase beta subunit (EC 2.7.7.6)	kb|g.236152	none		35	2375	+	A023D18DRAFT_NODE-unique_7_len_37483.7	DNA-directed RNA polymerase beta subunit (EC 2.7.7.6)
+kb|g.236152.CDS.517	CDS	DNA-directed RNA polymerase beta' subunit (EC 2.7.7.6)	kb|g.236152	none		2388	6213	+	A023D18DRAFT_NODE-unique_7_len_37483.7	DNA-directed RNA polymerase beta' subunit (EC 2.7.7.6)
+kb|g.236152.CDS.518	CDS		kb|g.236152	;	No annotated function	7324	6238	-	A023D18DRAFT_NODE-unique_7_len_37483.7	
+kb|g.236152.CDS.519	CDS	COG1272: Predicted membrane protein hemolysin III homolog	kb|g.236152	none		7961	7325	-	A023D18DRAFT_NODE-unique_7_len_37483.7	COG1272: Predicted membrane protein hemolysin III homolog
+kb|g.236152.CDS.520	CDS	SSU ribosomal protein S12p (S23e)	kb|g.236152	none		8257	8632	+	A023D18DRAFT_NODE-unique_7_len_37483.7	SSU ribosomal protein S12p (S23e)
+kb|g.236152.CDS.521	CDS	SSU ribosomal protein S7p (S5e)	kb|g.236152	none		8631	9102	+	A023D18DRAFT_NODE-unique_7_len_37483.7	SSU ribosomal protein S7p (S5e)
+kb|g.236152.CDS.522	CDS	Translation elongation factor G	kb|g.236152	none		9129	9888	+	A023D18DRAFT_NODE-unique_7_len_37483.7	Translation elongation factor G
+kb|g.236152.CDS.523	CDS		kb|g.236152	;	No annotated function	9986	10268	+	A023D18DRAFT_NODE-unique_7_len_37483.7	
+kb|g.236152.CDS.524	CDS	L-lactate dehydrogenase (EC 1.1.2.3)	kb|g.236152	none		11671	10417	-	A023D18DRAFT_NODE-unique_7_len_37483.7	L-lactate dehydrogenase (EC 1.1.2.3)
+kb|g.236152.CDS.525	CDS	FIG001943: hypothetical protein YajQ	kb|g.236152	none		11696	12185	+	A023D18DRAFT_NODE-unique_7_len_37483.7	FIG001943: hypothetical protein YajQ
+kb|g.236152.CDS.526	CDS		kb|g.236152	;	No annotated function	12206	13085	+	A023D18DRAFT_NODE-unique_7_len_37483.7	
+kb|g.236152.CDS.527	CDS		kb|g.236152	;	No annotated function	14050	13063	-	A023D18DRAFT_NODE-unique_7_len_37483.7	
+kb|g.236152.CDS.528	CDS	NADH-ubiquinone oxidoreductase chain N (EC 1.6.5.3)	kb|g.236152	none		15558	14049	-	A023D18DRAFT_NODE-unique_7_len_37483.7	NADH-ubiquinone oxidoreductase chain N (EC 1.6.5.3)
+kb|g.236152.CDS.529	CDS	NADH-ubiquinone oxidoreductase chain M (EC 1.6.5.3)	kb|g.236152	none		17063	15557	-	A023D18DRAFT_NODE-unique_7_len_37483.7	NADH-ubiquinone oxidoreductase chain M (EC 1.6.5.3)
+kb|g.236152.CDS.530	CDS	NADH-ubiquinone oxidoreductase chain L (EC 1.6.5.3)	kb|g.236152	none		18952	17059	-	A023D18DRAFT_NODE-unique_7_len_37483.7	NADH-ubiquinone oxidoreductase chain L (EC 1.6.5.3)
+kb|g.236152.CDS.531	CDS	NADH-ubiquinone oxidoreductase chain K (EC 1.6.5.3)	kb|g.236152	none		19253	18953	-	A023D18DRAFT_NODE-unique_7_len_37483.7	NADH-ubiquinone oxidoreductase chain K (EC 1.6.5.3)
+kb|g.236152.CDS.532	CDS	NADH-ubiquinone oxidoreductase chain J (EC 1.6.5.3)	kb|g.236152	none		20032	19252	-	A023D18DRAFT_NODE-unique_7_len_37483.7	NADH-ubiquinone oxidoreductase chain J (EC 1.6.5.3)
+kb|g.236152.CDS.533	CDS	NADH-ubiquinone oxidoreductase chain I (EC 1.6.5.3)	kb|g.236152	none		20648	20024	-	A023D18DRAFT_NODE-unique_7_len_37483.7	NADH-ubiquinone oxidoreductase chain I (EC 1.6.5.3)
+kb|g.236152.CDS.534	CDS		kb|g.236152	;	No annotated function	20811	20640	-	A023D18DRAFT_NODE-unique_7_len_37483.7	
+kb|g.236152.CDS.535	CDS	NADH-ubiquinone oxidoreductase chain H (EC 1.6.5.3)	kb|g.236152	none		21865	20815	-	A023D18DRAFT_NODE-unique_7_len_37483.7	NADH-ubiquinone oxidoreductase chain H (EC 1.6.5.3)
+kb|g.236152.CDS.536	CDS	NADH-ubiquinone oxidoreductase chain G (EC 1.6.5.3)	kb|g.236152	none		24213	21861	-	A023D18DRAFT_NODE-unique_7_len_37483.7	NADH-ubiquinone oxidoreductase chain G (EC 1.6.5.3)
+kb|g.236152.CDS.537	CDS	NADH-ubiquinone oxidoreductase chain F (EC 1.6.5.3)	kb|g.236152	none		25514	24209	-	A023D18DRAFT_NODE-unique_7_len_37483.7	NADH-ubiquinone oxidoreductase chain F (EC 1.6.5.3)
+kb|g.236152.CDS.538	CDS	NADH-ubiquinone oxidoreductase chain E (EC 1.6.5.3)	kb|g.236152	none		26137	25510	-	A023D18DRAFT_NODE-unique_7_len_37483.7	NADH-ubiquinone oxidoreductase chain E (EC 1.6.5.3)
+kb|g.236152.CDS.539	CDS	NADH-ubiquinone oxidoreductase chain D (EC 1.6.5.3)	kb|g.236152	none		27477	26136	-	A023D18DRAFT_NODE-unique_7_len_37483.7	NADH-ubiquinone oxidoreductase chain D (EC 1.6.5.3)
+kb|g.236152.CDS.540	CDS	NADH-ubiquinone oxidoreductase chain C (EC 1.6.5.3)	kb|g.236152	none		28103	27473	-	A023D18DRAFT_NODE-unique_7_len_37483.7	NADH-ubiquinone oxidoreductase chain C (EC 1.6.5.3)
+kb|g.236152.CDS.541	CDS	NADH-ubiquinone oxidoreductase chain B (EC 1.6.5.3)	kb|g.236152	none		28666	28099	-	A023D18DRAFT_NODE-unique_7_len_37483.7	NADH-ubiquinone oxidoreductase chain B (EC 1.6.5.3)
+kb|g.236152.CDS.542	CDS	NADH ubiquinone oxidoreductase chain A (EC 1.6.5.3)	kb|g.236152	none		29028	28656	-	A023D18DRAFT_NODE-unique_7_len_37483.7	NADH ubiquinone oxidoreductase chain A (EC 1.6.5.3)
+kb|g.236152.CDS.543	CDS	2-heptaprenyl-1,4-naphthoquinone methyltransferase MenG (EC 2.1.1.163)	kb|g.236152	none		29762	29039	-	A023D18DRAFT_NODE-unique_7_len_37483.7	2-heptaprenyl-1,4-naphthoquinone methyltransferase MenG (EC 2.1.1.163)
+kb|g.236152.CDS.544	CDS	Menaquinone-specific isochorismate synthase (EC 5.4.4.2)	kb|g.236152	none		29827	31057	+	A023D18DRAFT_NODE-unique_7_len_37483.7	Menaquinone-specific isochorismate synthase (EC 5.4.4.2)
+kb|g.236152.CDS.545	CDS	2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylic-acid synthase (EC 2.2.1.9)	kb|g.236152	none		32573	31010	-	A023D18DRAFT_NODE-unique_7_len_37483.7	2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylic-acid synthase (EC 2.2.1.9)
+kb|g.236152.CDS.546	CDS	O-succinylbenzoate synthase (EC 4.2.1.113)	kb|g.236152	none		33511	32569	-	A023D18DRAFT_NODE-unique_7_len_37483.7	O-succinylbenzoate synthase (EC 4.2.1.113)
+kb|g.236152.CDS.547	CDS	Naphthoate synthase (EC 4.1.3.36)	kb|g.236152	none		34393	33514	-	A023D18DRAFT_NODE-unique_7_len_37483.7	Naphthoate synthase (EC 4.1.3.36)
+kb|g.236152.CDS.548	CDS	O-succinylbenzoic acid--CoA ligase (EC 6.2.1.26)	kb|g.236152	none		34447	35530	+	A023D18DRAFT_NODE-unique_7_len_37483.7	O-succinylbenzoic acid--CoA ligase (EC 6.2.1.26)
+kb|g.236152.CDS.549	CDS	1,4-dihydroxy-2-naphthoate polyprenyltransferase (EC 2.5.1.74)	kb|g.236152	none		35522	36371	+	A023D18DRAFT_NODE-unique_7_len_37483.7	1,4-dihydroxy-2-naphthoate polyprenyltransferase (EC 2.5.1.74)
+kb|g.236152.CDS.550	CDS		kb|g.236152	;	No annotated function	36395	36647	+	A023D18DRAFT_NODE-unique_7_len_37483.7	
+kb|g.236152.CDS.551	CDS	Cytochrome c-type biogenesis protein CcsA/ResC	kb|g.236152	none		37351	36640	-	A023D18DRAFT_NODE-unique_7_len_37483.7	Cytochrome c-type biogenesis protein CcsA/ResC
+kb|g.236152.CDS.552	CDS	16S rRNA processing protein RimM	kb|g.236152	none		166	667	+	A023D18DRAFT_NODE-unique_8_len_28482.8	16S rRNA processing protein RimM
+kb|g.236152.CDS.553	CDS	tRNA (Guanine37-N1) -methyltransferase (EC 2.1.1.31)	kb|g.236152	none		653	1355	+	A023D18DRAFT_NODE-unique_8_len_28482.8	tRNA (Guanine37-N1) -methyltransferase (EC 2.1.1.31)
+kb|g.236152.CDS.554	CDS	FIG01121218: hypothetical protein	kb|g.236152	none		1479	1776	+	A023D18DRAFT_NODE-unique_8_len_28482.8	FIG01121218: hypothetical protein
+kb|g.236152.CDS.555	CDS		kb|g.236152	;	No annotated function	2221	1771	-	A023D18DRAFT_NODE-unique_8_len_28482.8	
+kb|g.236152.CDS.556	CDS	FIG01123415: hypothetical protein	kb|g.236152	none		2245	2830	+	A023D18DRAFT_NODE-unique_8_len_28482.8	FIG01123415: hypothetical protein
+kb|g.236152.CDS.557	CDS	Deoxyuridine 5'-triphosphate nucleotidohydrolase (EC 3.6.1.23)	kb|g.236152	none		2826	3261	+	A023D18DRAFT_NODE-unique_8_len_28482.8	Deoxyuridine 5'-triphosphate nucleotidohydrolase (EC 3.6.1.23)
+kb|g.236152.CDS.558	CDS		kb|g.236152	;	No annotated function	3257	3881	+	A023D18DRAFT_NODE-unique_8_len_28482.8	
+kb|g.236152.CDS.559	CDS	Trk system potassium uptake protein TrkA	kb|g.236152	none		4530	3876	-	A023D18DRAFT_NODE-unique_8_len_28482.8	Trk system potassium uptake protein TrkA
+kb|g.236152.CDS.560	CDS	Trk system potassium uptake protein TrkA	kb|g.236152	none		5192	4529	-	A023D18DRAFT_NODE-unique_8_len_28482.8	Trk system potassium uptake protein TrkA
+kb|g.236152.CDS.561	CDS		kb|g.236152	;	No annotated function	5225	6431	+	A023D18DRAFT_NODE-unique_8_len_28482.8	
+kb|g.236152.CDS.562	CDS	Aconitate hydratase (EC 4.2.1.3)	kb|g.236152	none		6468	7833	+	A023D18DRAFT_NODE-unique_8_len_28482.8	Aconitate hydratase (EC 4.2.1.3)
+kb|g.236152.CDS.563	CDS	Aconitate hydratase (EC 4.2.1.3)	kb|g.236152	none		7813	9130	+	A023D18DRAFT_NODE-unique_8_len_28482.8	Aconitate hydratase (EC 4.2.1.3)
+kb|g.236152.CDS.564	CDS	Enoyl-CoA hydratase (EC 4.2.1.17) / 3-hydroxyacyl-CoA dehydrogenase (EC 1.1.1.35) / 3-hydroxybutyryl-CoA epimerase (EC 5.1.2.3)	kb|g.236152	none		13144	11041	-	A023D18DRAFT_NODE-unique_8_len_28482.8	Enoyl-CoA hydratase (EC 4.2.1.17);3-hydroxyacyl-CoA dehydrogenase (EC 1.1.1.35);3-hydroxybutyryl-CoA epimerase (EC 5.1.2.3)
+kb|g.236152.CDS.565	CDS	3-ketoacyl-CoA thiolase (EC 2.3.1.16)	kb|g.236152	none		14349	13143	-	A023D18DRAFT_NODE-unique_8_len_28482.8	3-ketoacyl-CoA thiolase (EC 2.3.1.16)
+kb|g.236152.CDS.566	CDS	Ferrous iron transport permease EfeU	kb|g.236152	none		15241	14419	-	A023D18DRAFT_NODE-unique_8_len_28482.8	Ferrous iron transport permease EfeU
+kb|g.236152.CDS.567	CDS	Ribonuclease D (EC 3.1.26.3)	kb|g.236152	none		16559	15308	-	A023D18DRAFT_NODE-unique_8_len_28482.8	Ribonuclease D (EC 3.1.26.3)
+kb|g.236152.CDS.568	CDS	Uncharacterized protein Q1 colocalized with Q	kb|g.236152	none		17144	16604	-	A023D18DRAFT_NODE-unique_8_len_28482.8	Uncharacterized protein Q1 colocalized with Q
+kb|g.236152.CDS.569	CDS		kb|g.236152	;	No annotated function	17238	18078	+	A023D18DRAFT_NODE-unique_8_len_28482.8	
+kb|g.236152.CDS.570	CDS		kb|g.236152	;	No annotated function	18598	18073	-	A023D18DRAFT_NODE-unique_8_len_28482.8	
+kb|g.236152.CDS.571	CDS		kb|g.236152	;	No annotated function	18672	18858	+	A023D18DRAFT_NODE-unique_8_len_28482.8	
+kb|g.236152.CDS.572	CDS		kb|g.236152	;	No annotated function	18951	19953	+	A023D18DRAFT_NODE-unique_8_len_28482.8	
+kb|g.236152.CDS.573	CDS		kb|g.236152	;	No annotated function	20038	21091	+	A023D18DRAFT_NODE-unique_8_len_28482.8	
+kb|g.236152.CDS.574	CDS		kb|g.236152	;	No annotated function	21684	21075	-	A023D18DRAFT_NODE-unique_8_len_28482.8	
+kb|g.236152.CDS.575	CDS		kb|g.236152	;	No annotated function	22257	21687	-	A023D18DRAFT_NODE-unique_8_len_28482.8	
+kb|g.236152.CDS.576	CDS	Long-chain fatty-acid-CoA ligase (EC 6.2.1.3), Mycobacterial subgroup FadD15	kb|g.236152	none		24025	22240	-	A023D18DRAFT_NODE-unique_8_len_28482.8	Long-chain fatty-acid-CoA ligase (EC 6.2.1.3), Mycobacterial subgroup FadD15
+kb|g.236152.CDS.577	CDS		kb|g.236152	;	No annotated function	24122	24557	+	A023D18DRAFT_NODE-unique_8_len_28482.8	
+kb|g.236152.CDS.578	CDS		kb|g.236152	;	No annotated function	24557	24821	+	A023D18DRAFT_NODE-unique_8_len_28482.8	
+kb|g.236152.CDS.579	CDS		kb|g.236152	;	No annotated function	24905	25622	+	A023D18DRAFT_NODE-unique_8_len_28482.8	
+kb|g.236152.CDS.580	CDS	1-acyl-sn-glycerol-3-phosphate acyltransferase (EC 2.3.1.51)	kb|g.236152	none		26290	25621	-	A023D18DRAFT_NODE-unique_8_len_28482.8	1-acyl-sn-glycerol-3-phosphate acyltransferase (EC 2.3.1.51)
+kb|g.236152.CDS.581	CDS		kb|g.236152	;	No annotated function	26377	27487	+	A023D18DRAFT_NODE-unique_8_len_28482.8	
+kb|g.236152.CDS.582	CDS		kb|g.236152	;	No annotated function	28432	27475	-	A023D18DRAFT_NODE-unique_8_len_28482.8	
+kb|g.236152.CDS.583	CDS		kb|g.236152	;	No annotated function	4	463	+	A023D18DRAFT_NODE-unique_9_len_23959.9	
+kb|g.236152.CDS.584	CDS		kb|g.236152	;	No annotated function	751	928	+	A023D18DRAFT_NODE-unique_9_len_23959.9	
+kb|g.236152.CDS.585	CDS	Agmatinase (EC 3.5.3.11)	kb|g.236152	none		1059	1869	+	A023D18DRAFT_NODE-unique_9_len_23959.9	Agmatinase (EC 3.5.3.11)
+kb|g.236152.CDS.586	CDS		kb|g.236152	;	No annotated function	2835	2961	+	A023D18DRAFT_NODE-unique_9_len_23959.9	
+kb|g.236152.CDS.587	CDS		kb|g.236152	;	No annotated function	3868	3223	-	A023D18DRAFT_NODE-unique_9_len_23959.9	
+kb|g.236152.CDS.588	CDS		kb|g.236152	;	No annotated function	4252	4396	+	A023D18DRAFT_NODE-unique_9_len_23959.9	
+kb|g.236152.CDS.589	CDS	Putrescine transport system permease protein PotI (TC 3.A.1.11.2)	kb|g.236152	none		5235	4407	-	A023D18DRAFT_NODE-unique_9_len_23959.9	Putrescine transport system permease protein PotI (TC 3.A.1.11.2)
+kb|g.236152.CDS.590	CDS	Putrescine transport system permease protein PotH (TC 3.A.1.11.2)	kb|g.236152	none		6134	5231	-	A023D18DRAFT_NODE-unique_9_len_23959.9	Putrescine transport system permease protein PotH (TC 3.A.1.11.2)
+kb|g.236152.CDS.591	CDS	Putrescine transport ATP-binding protein PotG (TC 3.A.1.11.2)	kb|g.236152	none		7265	6137	-	A023D18DRAFT_NODE-unique_9_len_23959.9	Putrescine transport ATP-binding protein PotG (TC 3.A.1.11.2)
+kb|g.236152.CDS.592	CDS	Putrescine ABC transporter putrescine-binding protein PotF (TC 3.A.1.11.2)	kb|g.236152	none		8497	7285	-	A023D18DRAFT_NODE-unique_9_len_23959.9	Putrescine ABC transporter putrescine-binding protein PotF (TC 3.A.1.11.2)
+kb|g.236152.CDS.593	CDS	4-aminobutyraldehyde dehydrogenase (EC 1.2.1.19)	kb|g.236152	none		9971	8543	-	A023D18DRAFT_NODE-unique_9_len_23959.9	4-aminobutyraldehyde dehydrogenase (EC 1.2.1.19)
+kb|g.236152.CDS.594	CDS	Ribosomal RNA large subunit methyltransferase N (EC 2.1.1.-)	kb|g.236152	none		11165	10055	-	A023D18DRAFT_NODE-unique_9_len_23959.9	Ribosomal RNA large subunit methyltransferase N (EC 2.1.1.-)
+kb|g.236152.CDS.595	CDS	Phosphatidate cytidylyltransferase (EC 2.7.7.41)	kb|g.236152	none		12011	11165	-	A023D18DRAFT_NODE-unique_9_len_23959.9	Phosphatidate cytidylyltransferase (EC 2.7.7.41)
+kb|g.236152.CDS.596	CDS	Ribosome recycling factor	kb|g.236152	none		12577	12013	-	A023D18DRAFT_NODE-unique_9_len_23959.9	Ribosome recycling factor
+kb|g.236152.CDS.597	CDS	Uridine monophosphate kinase (EC 2.7.4.22)	kb|g.236152	none		13339	12622	-	A023D18DRAFT_NODE-unique_9_len_23959.9	Uridine monophosphate kinase (EC 2.7.4.22)
+kb|g.236152.CDS.598	CDS	Translation elongation factor Ts	kb|g.236152	none		14199	13371	-	A023D18DRAFT_NODE-unique_9_len_23959.9	Translation elongation factor Ts
+kb|g.236152.CDS.599	CDS	SSU ribosomal protein S2p (SAe)	kb|g.236152	none		15015	14199	-	A023D18DRAFT_NODE-unique_9_len_23959.9	SSU ribosomal protein S2p (SAe)
+kb|g.236152.CDS.600	CDS		kb|g.236152	;	No annotated function	15315	15462	+	A023D18DRAFT_NODE-unique_9_len_23959.9	
+kb|g.236152.CDS.601	CDS		kb|g.236152	;	No annotated function	16076	15437	-	A023D18DRAFT_NODE-unique_9_len_23959.9	
+kb|g.236152.CDS.602	CDS	Acetolactate synthase large subunit (EC 2.2.1.6)	kb|g.236152	none		16883	16082	-	A023D18DRAFT_NODE-unique_9_len_23959.9	Acetolactate synthase large subunit (EC 2.2.1.6)
+kb|g.236152.CDS.603	CDS	Tyrosine recombinase XerC	kb|g.236152	none		17790	16890	-	A023D18DRAFT_NODE-unique_9_len_23959.9	Tyrosine recombinase XerC
+kb|g.236152.CDS.604	CDS	(R)-citramalate synthase (EC 2.3.1.182)	kb|g.236152	none		19390	17800	-	A023D18DRAFT_NODE-unique_9_len_23959.9	(R)-citramalate synthase (EC 2.3.1.182)
+kb|g.236152.CDS.605	CDS	Branched-chain amino acid aminotransferase (EC 2.6.1.42)	kb|g.236152	none		20475	19389	-	A023D18DRAFT_NODE-unique_9_len_23959.9	Branched-chain amino acid aminotransferase (EC 2.6.1.42)
+kb|g.236152.CDS.606	CDS	3-isopropylmalate dehydrogenase (EC 1.1.1.85)	kb|g.236152	none		21509	20471	-	A023D18DRAFT_NODE-unique_9_len_23959.9	3-isopropylmalate dehydrogenase (EC 1.1.1.85)
+kb|g.236152.CDS.607	CDS	D-3-phosphoglycerate dehydrogenase (EC 1.1.1.95)	kb|g.236152	none		23101	21505	-	A023D18DRAFT_NODE-unique_9_len_23959.9	D-3-phosphoglycerate dehydrogenase (EC 1.1.1.95)
+kb|g.236152.CDS.608	CDS	Ketol-acid reductoisomerase (EC 1.1.1.86)	kb|g.236152	none		23912	23093	-	A023D18DRAFT_NODE-unique_9_len_23959.9	Ketol-acid reductoisomerase (EC 1.1.1.86)
+kb|g.236152.CDS.609	CDS	Ribosome small subunit-stimulated GTPase EngC	kb|g.236152	none		2425	1372	-	A023D18DRAFT_NODE-unique_10_len_23934.10	Ribosome small subunit-stimulated GTPase EngC
+kb|g.236152.CDS.610	CDS	5-Enolpyruvylshikimate-3-phosphate synthase (EC 2.5.1.19)	kb|g.236152	none		3716	2417	-	A023D18DRAFT_NODE-unique_10_len_23934.10	5-Enolpyruvylshikimate-3-phosphate synthase (EC 2.5.1.19)
+kb|g.236152.CDS.611	CDS		kb|g.236152	;	No annotated function	3904	4531	+	A023D18DRAFT_NODE-unique_10_len_23934.10	
+kb|g.236152.CDS.612	CDS		kb|g.236152	;	No annotated function	4527	4929	+	A023D18DRAFT_NODE-unique_10_len_23934.10	
+kb|g.236152.CDS.613	CDS		kb|g.236152	;	No annotated function	4954	5407	+	A023D18DRAFT_NODE-unique_10_len_23934.10	
+kb|g.236152.CDS.614	CDS	Nickel-dependent superoxide dismutase (EC 1.15.1.1)	kb|g.236152	none		5837	5429	-	A023D18DRAFT_NODE-unique_10_len_23934.10	Nickel-dependent superoxide dismutase (EC 1.15.1.1)
+kb|g.236152.CDS.615	CDS		kb|g.236152	;	No annotated function	5889	6204	+	A023D18DRAFT_NODE-unique_10_len_23934.10	
+kb|g.236152.CDS.616	CDS	Dihydrolipoamide succinyltransferase component (E2) of 2-oxoglutarate dehydrogenase complex (EC 2.3.1.61) / 2-oxoglutarate dehydrogenase E1 component (EC 1.2.4.2)	kb|g.236152	none		9950	6203	-	A023D18DRAFT_NODE-unique_10_len_23934.10	Dihydrolipoamide succinyltransferase component (E2) of 2-oxoglutarate dehydrogenase complex (EC 2.3.1.61);2-oxoglutarate dehydrogenase E1 component (EC 1.2.4.2)
+kb|g.236152.CDS.617	CDS		kb|g.236152	;	No annotated function	10101	10842	+	A023D18DRAFT_NODE-unique_10_len_23934.10	
+kb|g.236152.CDS.618	CDS		kb|g.236152	;	No annotated function	11216	10841	-	A023D18DRAFT_NODE-unique_10_len_23934.10	
+kb|g.236152.CDS.619	CDS	Argininosuccinate synthase (EC 6.3.4.5)	kb|g.236152	none		11363	12701	+	A023D18DRAFT_NODE-unique_10_len_23934.10	Argininosuccinate synthase (EC 6.3.4.5)
+kb|g.236152.CDS.620	CDS	Riboflavin transporter PnuX	kb|g.236152	none		12862	13537	+	A023D18DRAFT_NODE-unique_10_len_23934.10	Riboflavin transporter PnuX
+kb|g.236152.CDS.621	CDS	possible chromosome condensation protein	kb|g.236152	none		14627	13577	-	A023D18DRAFT_NODE-unique_10_len_23934.10	possible chromosome condensation protein
+kb|g.236152.CDS.622	CDS	NAD(P) transhydrogenase subunit beta (EC 1.6.1.2)	kb|g.236152	none		16074	14688	-	A023D18DRAFT_NODE-unique_10_len_23934.10	NAD(P) transhydrogenase subunit beta (EC 1.6.1.2)
+kb|g.236152.CDS.623	CDS	NAD(P) transhydrogenase alpha subunit (EC 1.6.1.2)	kb|g.236152	none		16397	16070	-	A023D18DRAFT_NODE-unique_10_len_23934.10	NAD(P) transhydrogenase alpha subunit (EC 1.6.1.2)
+kb|g.236152.CDS.624	CDS	NAD(P) transhydrogenase alpha subunit (EC 1.6.1.2)	kb|g.236152	none		17521	16396	-	A023D18DRAFT_NODE-unique_10_len_23934.10	NAD(P) transhydrogenase alpha subunit (EC 1.6.1.2)
+kb|g.236152.CDS.625	CDS	Ornithine carbamoyltransferase (EC 2.1.3.3)	kb|g.236152	none		18500	17546	-	A023D18DRAFT_NODE-unique_10_len_23934.10	Ornithine carbamoyltransferase (EC 2.1.3.3)
+kb|g.236152.CDS.626	CDS		kb|g.236152	;	No annotated function	18541	18793	+	A023D18DRAFT_NODE-unique_10_len_23934.10	
+kb|g.236152.CDS.627	CDS		kb|g.236152	;	No annotated function	18824	19148	+	A023D18DRAFT_NODE-unique_10_len_23934.10	
+kb|g.236152.CDS.628	CDS	Ribonuclease PH (EC 2.7.7.56)	kb|g.236152	none		19642	19120	-	A023D18DRAFT_NODE-unique_10_len_23934.10	Ribonuclease PH (EC 2.7.7.56)
+kb|g.236152.CDS.629	CDS	Glutamate racemase (EC 5.1.1.3)	kb|g.236152	none		20514	19659	-	A023D18DRAFT_NODE-unique_10_len_23934.10	Glutamate racemase (EC 5.1.1.3)
+kb|g.236152.CDS.630	CDS	Proteorhodopsin	kb|g.236152	none		20731	21502	+	A023D18DRAFT_NODE-unique_10_len_23934.10	Proteorhodopsin
+kb|g.236152.CDS.631	CDS		kb|g.236152	;	No annotated function	22140	21567	-	A023D18DRAFT_NODE-unique_10_len_23934.10	
+kb|g.236152.CDS.632	CDS	ATP-dependent Clp protease adaptor protein ClpS	kb|g.236152	none		22423	22126	-	A023D18DRAFT_NODE-unique_10_len_23934.10	ATP-dependent Clp protease adaptor protein ClpS
+kb|g.236152.CDS.633	CDS		kb|g.236152	;	No annotated function	23858	22430	-	A023D18DRAFT_NODE-unique_10_len_23934.10	
+kb|g.236152.CDS.634	CDS	Transcription-repair coupling factor	kb|g.236152	none		59	2450	+	A023D18DRAFT_NODE-unique_11_len_18819.11	Transcription-repair coupling factor
+kb|g.236152.CDS.635	CDS	Transcription-repair coupling factor	kb|g.236152	none		3701	2543	-	A023D18DRAFT_NODE-unique_11_len_18819.11	Transcription-repair coupling factor
+kb|g.236152.CDS.636	CDS	Phosphoenolpyruvate carboxylase (EC 4.1.1.31)	kb|g.236152	none		3809	6512	+	A023D18DRAFT_NODE-unique_11_len_18819.11	Phosphoenolpyruvate carboxylase (EC 4.1.1.31)
+kb|g.236152.CDS.637	CDS	Peptidyl-tRNA hydrolase (EC 3.1.1.29)	kb|g.236152	none		7076	6512	-	A023D18DRAFT_NODE-unique_11_len_18819.11	Peptidyl-tRNA hydrolase (EC 3.1.1.29)
+kb|g.236152.CDS.638	CDS	LSU ribosomal protein L25p	kb|g.236152	none		7765	7096	-	A023D18DRAFT_NODE-unique_11_len_18819.11	LSU ribosomal protein L25p
+kb|g.236152.CDS.639	CDS	Ribose-phosphate pyrophosphokinase (EC 2.7.6.1)	kb|g.236152	none		8897	7949	-	A023D18DRAFT_NODE-unique_11_len_18819.11	Ribose-phosphate pyrophosphokinase (EC 2.7.6.1)
+kb|g.236152.CDS.640	CDS	N-acetylglucosamine-1-phosphate uridyltransferase (EC 2.7.7.23) / Glucosamine-1-phosphate N-acetyltransferase (EC 2.3.1.157)	kb|g.236152	none		10404	8982	-	A023D18DRAFT_NODE-unique_11_len_18819.11	N-acetylglucosamine-1-phosphate uridyltransferase (EC 2.7.7.23);Glucosamine-1-phosphate N-acetyltransferase (EC 2.3.1.157)
+kb|g.236152.CDS.641	CDS	4-diphosphocytidyl-2-C-methyl-D-erythritol kinase (EC 2.7.1.148)	kb|g.236152	none		11448	10527	-	A023D18DRAFT_NODE-unique_11_len_18819.11	4-diphosphocytidyl-2-C-methyl-D-erythritol kinase (EC 2.7.1.148)
+kb|g.236152.CDS.642	CDS	SSU rRNA (adenine(1518)-N(6)/adenine(1519)-N(6))-dimethyltransferase (EC 2.1.1.182)	kb|g.236152	none		12320	11465	-	A023D18DRAFT_NODE-unique_11_len_18819.11	SSU rRNA (adenine(1518)-N(6)/adenine(1519)-N(6))-dimethyltransferase (EC 2.1.1.182)
+kb|g.236152.CDS.643	CDS	Putative deoxyribonuclease YcfH	kb|g.236152	none		13178	12323	-	A023D18DRAFT_NODE-unique_11_len_18819.11	Putative deoxyribonuclease YcfH
+kb|g.236152.CDS.644	CDS	Methionyl-tRNA synthetase (EC 6.1.1.10)	kb|g.236152	none		14738	13181	-	A023D18DRAFT_NODE-unique_11_len_18819.11	Methionyl-tRNA synthetase (EC 6.1.1.10)
+kb|g.236152.CDS.645	CDS	rRNA small subunit methyltransferase I	kb|g.236152	none		15583	14740	-	A023D18DRAFT_NODE-unique_11_len_18819.11	rRNA small subunit methyltransferase I
+kb|g.236152.CDS.646	CDS	CONSERVED MEMBRANE PROTEIN	kb|g.236152	none		15643	16891	+	A023D18DRAFT_NODE-unique_11_len_18819.11	CONSERVED MEMBRANE PROTEIN
+kb|g.236152.CDS.647	CDS		kb|g.236152	;	No annotated function	17616	16893	-	A023D18DRAFT_NODE-unique_11_len_18819.11	
+kb|g.236152.CDS.648	CDS		kb|g.236152	;	No annotated function	18244	17683	-	A023D18DRAFT_NODE-unique_11_len_18819.11	
+kb|g.236152.CDS.649	CDS		kb|g.236152	;	No annotated function	18819	18240	-	A023D18DRAFT_NODE-unique_11_len_18819.11	
+kb|g.236152.CDS.650	CDS	Ccs1/ResB-related putative cytochrome C-type biogenesis protein	kb|g.236152	none		1495	46	-	A023D18DRAFT_NODE-unique_12_len_17687.12	Ccs1/ResB-related putative cytochrome C-type biogenesis protein
+kb|g.236152.CDS.651	CDS	Cytochrome c-type biogenesis protein CcdA (DsbD analog)	kb|g.236152	none		2226	1494	-	A023D18DRAFT_NODE-unique_12_len_17687.12	Cytochrome c-type biogenesis protein CcdA (DsbD analog)
+kb|g.236152.CDS.652	CDS	Thiol:disulfide oxidoreductase related to ResA	kb|g.236152	none		2758	2218	-	A023D18DRAFT_NODE-unique_12_len_17687.12	Thiol:disulfide oxidoreductase related to ResA
+kb|g.236152.CDS.653	CDS	Hypothetical, related to broad specificity phosphatases COG0406	kb|g.236152	none		3378	2763	-	A023D18DRAFT_NODE-unique_12_len_17687.12	Hypothetical, related to broad specificity phosphatases COG0406
+kb|g.236152.CDS.654	CDS	Phosphoserine phosphatase (EC 3.1.3.3)	kb|g.236152	none		3429	4200	+	A023D18DRAFT_NODE-unique_12_len_17687.12	Phosphoserine phosphatase (EC 3.1.3.3)
+kb|g.236152.CDS.655	CDS	probable DNA-binding protein	kb|g.236152	none		4232	6425	+	A023D18DRAFT_NODE-unique_12_len_17687.12	probable DNA-binding protein
+kb|g.236152.CDS.656	CDS		kb|g.236152	;	No annotated function	6421	7489	+	A023D18DRAFT_NODE-unique_12_len_17687.12	
+kb|g.236152.CDS.657	CDS	DNA repair helicase	kb|g.236152	none		7485	9132	+	A023D18DRAFT_NODE-unique_12_len_17687.12	DNA repair helicase
+kb|g.236152.CDS.658	CDS		kb|g.236152	;	No annotated function	9364	9127	-	A023D18DRAFT_NODE-unique_12_len_17687.12	
+kb|g.236152.CDS.659	CDS		kb|g.236152	;	No annotated function	9447	11796	+	A023D18DRAFT_NODE-unique_12_len_17687.12	
+kb|g.236152.CDS.660	CDS		kb|g.236152	;	No annotated function	13159	11935	-	A023D18DRAFT_NODE-unique_12_len_17687.12	
+kb|g.236152.CDS.661	CDS	Pyrroline-5-carboxylate reductase (EC 1.5.1.2)	kb|g.236152	none		13968	13155	-	A023D18DRAFT_NODE-unique_12_len_17687.12	Pyrroline-5-carboxylate reductase (EC 1.5.1.2)
+kb|g.236152.CDS.662	CDS		kb|g.236152	;	No annotated function	14025	14886	+	A023D18DRAFT_NODE-unique_12_len_17687.12	
+kb|g.236152.CDS.663	CDS	DNA repair protein RadA	kb|g.236152	none		14912	16283	+	A023D18DRAFT_NODE-unique_12_len_17687.12	DNA repair protein RadA
+kb|g.236152.CDS.664	CDS	3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100)	kb|g.236152	none		17051	16274	-	A023D18DRAFT_NODE-unique_12_len_17687.12	3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100)
+kb|g.236152.CDS.665	CDS	ATP-dependent Clp protease, ATP-binding subunit ClpC / Negative regulator of genetic competence clcC/mecB	kb|g.236152	none		17644	17050	-	A023D18DRAFT_NODE-unique_12_len_17687.12	ATP-dependent Clp protease, ATP-binding subunit ClpC;Negative regulator of genetic competence clcC/mecB
+kb|g.236152.CDS.666	CDS	Guanylate kinase (EC 2.7.4.8)	kb|g.236152	none		5	434	+	A023D18DRAFT_NODE-unique_13_len_13909.13	Guanylate kinase (EC 2.7.4.8)
+kb|g.236152.CDS.667	CDS	DNA-directed RNA polymerase omega subunit (EC 2.7.7.6)	kb|g.236152	none		461	740	+	A023D18DRAFT_NODE-unique_13_len_13909.13	DNA-directed RNA polymerase omega subunit (EC 2.7.7.6)
+kb|g.236152.CDS.668	CDS	Phosphopantothenoylcysteine decarboxylase (EC 4.1.1.36) / Phosphopantothenoylcysteine synthetase (EC 6.3.2.5)	kb|g.236152	none		749	1949	+	A023D18DRAFT_NODE-unique_13_len_13909.13	Phosphopantothenoylcysteine decarboxylase (EC 4.1.1.36);Phosphopantothenoylcysteine synthetase (EC 6.3.2.5)
+kb|g.236152.CDS.669	CDS	S-adenosylmethionine synthetase (EC 2.5.1.6)	kb|g.236152	none		1953	3144	+	A023D18DRAFT_NODE-unique_13_len_13909.13	S-adenosylmethionine synthetase (EC 2.5.1.6)
+kb|g.236152.CDS.670	CDS	Helicase PriA essential for oriC/DnaA-independent DNA replication	kb|g.236152	none		3147	5055	+	A023D18DRAFT_NODE-unique_13_len_13909.13	Helicase PriA essential for oriC/DnaA-independent DNA replication
+kb|g.236152.CDS.671	CDS	Peptide deformylase (EC 3.5.1.88)	kb|g.236152	none		5081	5642	+	A023D18DRAFT_NODE-unique_13_len_13909.13	Peptide deformylase (EC 3.5.1.88)
+kb|g.236152.CDS.672	CDS	Methionyl-tRNA formyltransferase (EC 2.1.2.9)	kb|g.236152	none		5646	6567	+	A023D18DRAFT_NODE-unique_13_len_13909.13	Methionyl-tRNA formyltransferase (EC 2.1.2.9)
+kb|g.236152.CDS.673	CDS	Ribosomal RNA small subunit methyltransferase B (EC 2.1.1.-)	kb|g.236152	none		6559	7888	+	A023D18DRAFT_NODE-unique_13_len_13909.13	Ribosomal RNA small subunit methyltransferase B (EC 2.1.1.-)
+kb|g.236152.CDS.674	CDS	Ribulose-phosphate 3-epimerase (EC 5.1.3.1)	kb|g.236152	none		7896	8580	+	A023D18DRAFT_NODE-unique_13_len_13909.13	Ribulose-phosphate 3-epimerase (EC 5.1.3.1)
+kb|g.236152.CDS.675	CDS	Phosphoserine phosphatase (EC 3.1.3.3)	kb|g.236152	none		9748	8575	-	A023D18DRAFT_NODE-unique_13_len_13909.13	Phosphoserine phosphatase (EC 3.1.3.3)
+kb|g.236152.CDS.676	CDS		kb|g.236152	;	No annotated function	9799	10582	+	A023D18DRAFT_NODE-unique_13_len_13909.13	
+kb|g.236152.CDS.677	CDS	Uracil-DNA glycosylase, family 1	kb|g.236152	none		10571	11204	+	A023D18DRAFT_NODE-unique_13_len_13909.13	Uracil-DNA glycosylase, family 1
+kb|g.236152.CDS.678	CDS	Xanthine/uracil/thiamine/ascorbate permease family protein	kb|g.236152	none		12166	11242	-	A023D18DRAFT_NODE-unique_13_len_13909.13	Xanthine/uracil/thiamine/ascorbate permease family protein
+kb|g.236152.CDS.679	CDS	Orotidine 5'-phosphate decarboxylase (EC 4.1.1.23)	kb|g.236152	none		12861	12168	-	A023D18DRAFT_NODE-unique_13_len_13909.13	Orotidine 5'-phosphate decarboxylase (EC 4.1.1.23)
+kb|g.236152.CDS.680	CDS	Dihydroorotate dehydrogenase, catalytic subunit (EC 1.3.3.1)	kb|g.236152	none		13793	12860	-	A023D18DRAFT_NODE-unique_13_len_13909.13	Dihydroorotate dehydrogenase, catalytic subunit (EC 1.3.3.1)
+kb|g.236152.CDS.681	CDS	LSU ribosomal protein L7/L12 (P1/P2)	kb|g.236152	none		1600	1216	-	A023D18DRAFT_NODE-unique_14_len_10558.14	LSU ribosomal protein L7/L12 (P1/P2)
+kb|g.236152.CDS.682	CDS	LSU ribosomal protein L10p (P0)	kb|g.236152	none		2320	1666	-	A023D18DRAFT_NODE-unique_14_len_10558.14	LSU ribosomal protein L10p (P0)
+kb|g.236152.CDS.683	CDS	LSU ribosomal protein L1p (L10Ae)	kb|g.236152	none		3249	2538	-	A023D18DRAFT_NODE-unique_14_len_10558.14	LSU ribosomal protein L1p (L10Ae)
+kb|g.236152.CDS.684	CDS	LSU ribosomal protein L11p (L12e)	kb|g.236152	none		3771	3339	-	A023D18DRAFT_NODE-unique_14_len_10558.14	LSU ribosomal protein L11p (L12e)
+kb|g.236152.CDS.685	CDS	Transcription antitermination protein NusG	kb|g.236152	none		4508	3794	-	A023D18DRAFT_NODE-unique_14_len_10558.14	Transcription antitermination protein NusG
+kb|g.236152.CDS.686	CDS	Preprotein translocase subunit SecE (TC 3.A.5.1.1)	kb|g.236152	none		4751	4526	-	A023D18DRAFT_NODE-unique_14_len_10558.14	Preprotein translocase subunit SecE (TC 3.A.5.1.1)
+kb|g.236152.CDS.687	CDS	Aspartate aminotransferase (EC 2.6.1.1)	kb|g.236152	none		5022	6237	+	A023D18DRAFT_NODE-unique_14_len_10558.14	Aspartate aminotransferase (EC 2.6.1.1)
+kb|g.236152.CDS.688	CDS	UDP-N-acetylenolpyruvoylglucosamine reductase (EC 1.1.1.158)	kb|g.236152	none		7258	6232	-	A023D18DRAFT_NODE-unique_14_len_10558.14	UDP-N-acetylenolpyruvoylglucosamine reductase (EC 1.1.1.158)
+kb|g.236152.CDS.689	CDS		kb|g.236152	;	No annotated function	7954	7267	-	A023D18DRAFT_NODE-unique_14_len_10558.14	
+kb|g.236152.CDS.690	CDS	LSU ribosomal protein L33p @ LSU ribosomal protein L33p, zinc-dependent	kb|g.236152	none		8138	7967	-	A023D18DRAFT_NODE-unique_14_len_10558.14	LSU ribosomal protein L33p;LSU ribosomal protein L33p, zinc-dependent
+kb|g.236152.CDS.691	CDS		kb|g.236152	;	No annotated function	9891	8496	-	A023D18DRAFT_NODE-unique_14_len_10558.14	
+kb|g.236152.CDS.692	CDS	Peptide chain release factor 2	kb|g.236152	none		143	584	+	A023D18DRAFT_NODE-unique_15_len_5606.15	Peptide chain release factor 2
+kb|g.236152.CDS.693	CDS	Cell division transporter, ATP-binding protein FtsE (TC 3.A.5.1.1)	kb|g.236152	none		711	1401	+	A023D18DRAFT_NODE-unique_15_len_5606.15	Cell division transporter, ATP-binding protein FtsE (TC 3.A.5.1.1)
+kb|g.236152.CDS.694	CDS	Cell division protein FtsX	kb|g.236152	none		1430	2333	+	A023D18DRAFT_NODE-unique_15_len_5606.15	Cell division protein FtsX
+kb|g.236152.CDS.695	CDS	tmRNA-binding protein SmpB	kb|g.236152	none		2364	2883	+	A023D18DRAFT_NODE-unique_15_len_5606.15	tmRNA-binding protein SmpB
+kb|g.236152.CDS.696	CDS		kb|g.236152	;	No annotated function	3611	3335	-	A023D18DRAFT_NODE-unique_15_len_5606.15	
+kb|g.236152.CDS.697	CDS	Pyruvate dehydrogenase E1 component (EC 1.2.4.1)	kb|g.236152	none		5541	4011	-	A023D18DRAFT_NODE-unique_15_len_5606.15	Pyruvate dehydrogenase E1 component (EC 1.2.4.1)
+kb|g.236152.CDS.698	CDS		kb|g.236152	;	No annotated function	2557	457	-	A023D18DRAFT_NODE-unique_16_len_4448.16	
+kb|g.236152.CDS.699	CDS		kb|g.236152	;	No annotated function	2608	2767	+	A023D18DRAFT_NODE-unique_16_len_4448.16	
+kb|g.236152.CDS.700	CDS		kb|g.236152	;	No annotated function	3035	2762	-	A023D18DRAFT_NODE-unique_16_len_4448.16	
+kb|g.236152.CDS.701	CDS		kb|g.236152	;	No annotated function	3234	3108	-	A023D18DRAFT_NODE-unique_16_len_4448.16	
+kb|g.236152.CDS.702	CDS		kb|g.236152	;	No annotated function	3224	3668	+	A023D18DRAFT_NODE-unique_16_len_4448.16	
+kb|g.236152.CDS.703	CDS		kb|g.236152	;	No annotated function	270	690	+	A023D18DRAFT_NODE-unique_17_len_4436.17	
+kb|g.236152.CDS.704	CDS		kb|g.236152	;	No annotated function	1502	734	-	A023D18DRAFT_NODE-unique_17_len_4436.17	
+kb|g.236152.CDS.705	CDS	Fructokinase (EC 2.7.1.4)	kb|g.236152	none		2409	1506	-	A023D18DRAFT_NODE-unique_17_len_4436.17	Fructokinase (EC 2.7.1.4)
+kb|g.236152.CDS.706	CDS		kb|g.236152	;	No annotated function	2894	2405	-	A023D18DRAFT_NODE-unique_17_len_4436.17	
+kb|g.236152.CDS.707	CDS	dTDP-glucose 4,6-dehydratase (EC 4.2.1.46)	kb|g.236152	none		2982	3933	+	A023D18DRAFT_NODE-unique_17_len_4436.17	dTDP-glucose 4,6-dehydratase (EC 4.2.1.46)
+kb|g.236152.CDS.708	CDS		kb|g.236152	;	No annotated function	4414	3928	-	A023D18DRAFT_NODE-unique_17_len_4436.17	
+kb|g.236152.CDS.709	CDS	Nucleoside diphosphate kinase (EC 2.7.4.6)	kb|g.236152	none		113	533	+	A023D18DRAFT_NODE-unique_18_len_3031.18	Nucleoside diphosphate kinase (EC 2.7.4.6)
+kb|g.236152.CDS.710	CDS	Rod shape-determining protein MreB	kb|g.236152	none		566	1607	+	A023D18DRAFT_NODE-unique_18_len_3031.18	Rod shape-determining protein MreB
+kb|g.236152.CDS.711	CDS	Rod shape-determining protein MreC	kb|g.236152	none		1626	2541	+	A023D18DRAFT_NODE-unique_18_len_3031.18	Rod shape-determining protein MreC
+kb|g.236152.CDS.712	CDS	Xaa-Pro aminopeptidase (EC 3.4.11.9)	kb|g.236152	none		150	1350	+	A023D18DRAFT_NODE-unique_19_len_2723.19	Xaa-Pro aminopeptidase (EC 3.4.11.9)
+kb|g.236152.CDS.713	CDS	DNA ligase (EC 6.5.1.2)	kb|g.236152	none		2348	1334	-	A023D18DRAFT_NODE-unique_19_len_2723.19	DNA ligase (EC 6.5.1.2)
+kb|g.236152.CDS.714	CDS	Copper resistance protein D	kb|g.236152	none		2	950	+	A023D18DRAFT_NODE-unique_20_len_2679.20	Copper resistance protein D
+kb|g.236152.CDS.715	CDS	Butyryl-CoA dehydrogenase (EC 1.3.99.2)	kb|g.236152	none		959	2123	+	A023D18DRAFT_NODE-unique_20_len_2679.20	Butyryl-CoA dehydrogenase (EC 1.3.99.2)
+kb|g.236152.CDS.716	CDS	5-formyltetrahydrofolate cyclo-ligase (EC 6.3.3.2)	kb|g.236152	none		2658	2118	-	A023D18DRAFT_NODE-unique_20_len_2679.20	5-formyltetrahydrofolate cyclo-ligase (EC 6.3.3.2)
+kb|g.236152.CDS.717	CDS		kb|g.236152	;	No annotated function	71	1130	+	A023D18DRAFT_NODE-unique_21_len_2208.21	
+kb|g.236152.CDS.718	CDS		kb|g.236152	;	No annotated function	1929	1161	-	A023D18DRAFT_NODE-unique_21_len_2208.21	
+kb|g.236152.CDS.719	CDS	Cell division protein FtsI [Peptidoglycan synthetase] (EC 2.4.1.129)	kb|g.236152	none		5	2084	+	A023D18DRAFT_NODE-unique_22_len_2187.22	Cell division protein FtsI [Peptidoglycan synthetase] (EC 2.4.1.129)
+kb|g.236152.CDS.720	CDS	Carbamoyl-phosphate synthase large chain (EC 6.3.5.5)	kb|g.236152	none		1819	328	-	A023D18DRAFT_NODE-unique_23_len_2011.23	Carbamoyl-phosphate synthase large chain (EC 6.3.5.5)
+kb|g.236152.CDS.721	CDS	FIG00761799: membrane protein	kb|g.236152	none		726	18	-	A023D18DRAFT_NODE-unique_24_len_1525.24	FIG00761799: membrane protein
+kb|g.236152.CDS.722	CDS	Cell division protein FtsA	kb|g.236152	none		1379	572	-	A023D18DRAFT_NODE-unique_25_len_1488.25	Cell division protein FtsA
+kb|g.236152.CDS.723	CDS	Signal peptidase I (EC 3.4.21.89)	kb|g.236152	none		18	201	+	A023D18DRAFT_NODE-unique_26_len_1442.26	Signal peptidase I (EC 3.4.21.89)
+kb|g.236152.CDS.724	CDS	Ribonuclease HII (EC 3.1.26.4)	kb|g.236152	none		208	817	+	A023D18DRAFT_NODE-unique_26_len_1442.26	Ribonuclease HII (EC 3.1.26.4)
+kb|g.236152.CDS.725	CDS	Aliphatic amidase AmiE (EC 3.5.1.4)	kb|g.236152	none		1214	506	-	A023D18DRAFT_NODE-unique_27_len_1259.27	Aliphatic amidase AmiE (EC 3.5.1.4)
+kb|g.236152.CDS.726	CDS		kb|g.236152	;	No annotated function	1095	477	-	A023D18DRAFT_NODE-unique_28_len_1130.28	
+kb|g.236152.CDS.727	CDS		kb|g.236152	;	No annotated function	1107	18	-	A023D18DRAFT_NODE-unique_29_len_1123.29	
+kb|g.236152.CDS.728	CDS	Dihydrofolate synthase (EC 6.3.2.12) / Folylpolyglutamate synthase (EC 6.3.2.17)	kb|g.236152	none		4	754	+	A023D18DRAFT_NODE-unique_30_len_1113.30	Dihydrofolate synthase (EC 6.3.2.12);Folylpolyglutamate synthase (EC 6.3.2.17)
+kb|g.236152.CDS.729	CDS		kb|g.236152	;	No annotated function	750	1092	+	A023D18DRAFT_NODE-unique_30_len_1113.30	
+kb|g.236152.CDS.730	CDS		kb|g.236152	;	No annotated function	75	471	+	A023D18DRAFT_NODE-unique_31_len_998.31	
+kb|g.236152.CDS.731	CDS		kb|g.236152	;	No annotated function	509	806	+	A023D18DRAFT_NODE-unique_31_len_998.31	
+kb|g.236152.CDS.732	CDS		kb|g.236152	;	No annotated function	993	801	-	A023D18DRAFT_NODE-unique_31_len_998.31	
+kb|g.236152.CDS.733	CDS		kb|g.236152	;	No annotated function	656	203	-	A023D18DRAFT_NODE-unique_32_len_906.32	
+kb|g.236152.CDS.734	CDS	Enolase (EC 4.2.1.11)	kb|g.236152	none		867	660	-	A023D18DRAFT_NODE-unique_32_len_906.32	Enolase (EC 4.2.1.11)
+kb|g.236152.CDS.735	CDS		kb|g.236152	;	No annotated function	30	825	+	A023D18DRAFT_NODE-unique_33_len_869.33	
+kb|g.236152.CDS.736	CDS		kb|g.236152	;	No annotated function	202	331	+	A023D18DRAFT_NODE-unique_36_len_709.36	
+kb|g.236152.CDS.737	CDS	2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase (EC 2.3.1.117)	kb|g.236152	none		620	326	-	A023D18DRAFT_NODE-unique_36_len_709.36	2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase (EC 2.3.1.117)
+kb|g.236152.CDS.738	CDS		kb|g.236152	;	No annotated function	45	408	+	A023D18DRAFT_NODE-unique_38_len_686.38	
+kb|g.236152.CDS.739	CDS		kb|g.236152	;	No annotated function	643	37	-	A023D18DRAFT_NODE-unique_39_len_681.39	
+kb|g.236152.CDS.740	CDS	Aldehyde dehydrogenase (EC 1.2.1.3)	kb|g.236152	none		106	415	+	A023D18DRAFT_NODE-unique_42_len_641.42	Aldehyde dehydrogenase (EC 1.2.1.3)
+kb|g.236152.CDS.741	CDS	Adenosine deaminase (EC 3.5.4.4)	kb|g.236152	none		602	419	-	A023D18DRAFT_NODE-unique_42_len_641.42	Adenosine deaminase (EC 3.5.4.4)
+kb|g.236152.CDS.742	CDS		kb|g.236152	;	No annotated function	608	218	-	A023D18DRAFT_NODE-unique_44_len_613.44	
+kb|g.236152.CDS.743	CDS	Fumarate hydratase class II (EC 4.2.1.2)	kb|g.236152	none		47	221	+	A023D18DRAFT_NODE-unique_46_len_604.46	Fumarate hydratase class II (EC 4.2.1.2)
+kb|g.236152.CDS.744	CDS		kb|g.236152	;	No annotated function	375	216	-	A023D18DRAFT_NODE-unique_46_len_604.46	
+kb|g.236152.CDS.745	CDS		kb|g.236152	;	No annotated function	536	212	-	A023D18DRAFT_NODE-unique_56_len_563.56	
+kb|g.236152.CDS.746	CDS	LSU ribosomal protein L3p (L3e)	kb|g.236152	none		541	10	-	A023D18DRAFT_NODE-unique_58_len_547.58	LSU ribosomal protein L3p (L3e)
+kb|g.236152.CDS.747	CDS	Translation elongation factor G	kb|g.236152	none		451	307	-	A023D18DRAFT_NODE-unique_60_len_527.60	Translation elongation factor G
+kb|g.236152.CDS.748	CDS	UDP-N-acetylglucosamine 1-carboxyvinyltransferase (EC 2.5.1.7)	kb|g.236152	none		17	344	+	A023D18DRAFT_NODE-unique_61_len_523.61	UDP-N-acetylglucosamine 1-carboxyvinyltransferase (EC 2.5.1.7)
+kb|g.236152.CDS.749	CDS	ATP synthase epsilon chain (EC 3.6.3.14)	kb|g.236152	none		501	339	-	A023D18DRAFT_NODE-unique_61_len_523.61	ATP synthase epsilon chain (EC 3.6.3.14)
+kb|g.236152.CDS.750	CDS		kb|g.236152	;	No annotated function	513	399	-	A023D18DRAFT_NODE-unique_64_len_513.64	
+kb|g.236152.CDS.751	CDS		kb|g.236152	;	No annotated function	45	342	+	A023D18DRAFT_NODE-unique_66_len_502.66	
+kb|g.236152.CDS.752	CDS		kb|g.236152	;	No annotated function	428	308	-	A023D18DRAFT_NODE-unique_66_len_502.66	
+kb|g.236152.CDS.753	CDS		kb|g.236152	;	No annotated function	472	70	-	A023D18DRAFT_NODE-unique_67_len_501.67	
+kb|g.236152.rna.1	rna	tRNA-Ser-TGA	kb|g.236152	none		97019	97102	+	A023D18DRAFT_NODE-unique_1_len_155293.1	tRNA-Ser-TGA
+kb|g.236152.rna.2	rna	tRNA-Ser-GCT	kb|g.236152	none		106955	107045	+	A023D18DRAFT_NODE-unique_1_len_155293.1	tRNA-Ser-GCT
+kb|g.236152.rna.3	rna	tRNA-Arg-ACG	kb|g.236152	none		108432	108505	+	A023D18DRAFT_NODE-unique_1_len_155293.1	tRNA-Arg-ACG
+kb|g.236152.rna.4	rna	tRNA-Lys-TTT	kb|g.236152	none		149616	149689	+	A023D18DRAFT_NODE-unique_1_len_155293.1	tRNA-Lys-TTT
+kb|g.236152.rna.5	rna	tRNA-Glu-TTC	kb|g.236152	none		144471	144398	-	A023D18DRAFT_NODE-unique_1_len_155293.1	tRNA-Glu-TTC
+kb|g.236152.rna.6	rna	tRNA-Asp-GTC	kb|g.236152	none		144361	144287	-	A023D18DRAFT_NODE-unique_1_len_155293.1	tRNA-Asp-GTC
+kb|g.236152.rna.7	rna	tRNA-Phe-GAA	kb|g.236152	none		144247	144173	-	A023D18DRAFT_NODE-unique_1_len_155293.1	tRNA-Phe-GAA
+kb|g.236152.rna.8	rna	tRNA-Ser-GGA	kb|g.236152	none		121430	121345	-	A023D18DRAFT_NODE-unique_1_len_155293.1	tRNA-Ser-GGA
+kb|g.236152.rna.9	rna	tRNA-Ile-GAT	kb|g.236152	none		50635	50560	-	A023D18DRAFT_NODE-unique_1_len_155293.1	tRNA-Ile-GAT
+kb|g.236152.rna.10	rna	tRNA-Ala-TGC	kb|g.236152	none		50545	50472	-	A023D18DRAFT_NODE-unique_1_len_155293.1	tRNA-Ala-TGC
+kb|g.236152.rna.11	rna	tRNA-Asn-GTT	kb|g.236152	none		4845	4918	+	A023D18DRAFT_NODE-unique_2_len_117730.2	tRNA-Asn-GTT
+kb|g.236152.rna.12	rna	tRNA-Ala-GGC	kb|g.236152	none		57477	57550	+	A023D18DRAFT_NODE-unique_2_len_117730.2	tRNA-Ala-GGC
+kb|g.236152.rna.13	rna	tRNA-Met-CAT	kb|g.236152	none		43947	43873	-	A023D18DRAFT_NODE-unique_2_len_117730.2	tRNA-Met-CAT
+kb|g.236152.rna.14	rna	tRNA-Leu-CAA	kb|g.236152	none		50970	50897	-	A023D18DRAFT_NODE-unique_3_len_68534.3	tRNA-Leu-CAA
+kb|g.236152.rna.15	rna	tRNA-Pro-TGG	kb|g.236152	none		58706	58779	+	A023D18DRAFT_NODE-unique_4_len_66161.4	tRNA-Pro-TGG
+kb|g.236152.rna.16	rna	tRNA-Gly-TCC	kb|g.236152	none		58587	58516	-	A023D18DRAFT_NODE-unique_4_len_66161.4	tRNA-Gly-TCC
+kb|g.236152.rna.17	rna	tRNA-Arg-TCT	kb|g.236152	none		47774	47700	-	A023D18DRAFT_NODE-unique_4_len_66161.4	tRNA-Arg-TCT
+kb|g.236152.rna.18	rna	tRNA-His-GTG	kb|g.236152	none		41017	40944	-	A023D18DRAFT_NODE-unique_4_len_66161.4	tRNA-His-GTG
+kb|g.236152.rna.19	rna	tRNA-Lys-CTT	kb|g.236152	none		38055	37982	-	A023D18DRAFT_NODE-unique_4_len_66161.4	tRNA-Lys-CTT
+kb|g.236152.rna.20	rna	tRNA-Thr-TGT	kb|g.236152	none		26615	26687	+	A023D18DRAFT_NODE-unique_6_len_52325.6	tRNA-Thr-TGT
+kb|g.236152.rna.21	rna	tRNA-Tyr-GTA	kb|g.236152	none		10358	10276	-	A023D18DRAFT_NODE-unique_7_len_37483.7	tRNA-Tyr-GTA
+kb|g.236152.rna.22	rna	tRNA-Gln-TTG	kb|g.236152	none		10498	10426	-	A023D18DRAFT_NODE-unique_11_len_18819.11	tRNA-Gln-TTG
+kb|g.236152.rna.23	rna	tRNA-Arg-TCG	kb|g.236152	none		7924	7851	-	A023D18DRAFT_NODE-unique_11_len_18819.11	tRNA-Arg-TCG
+kb|g.236152.rna.24	rna	tRNA-Thr-GGT	kb|g.236152	none		8445	8372	-	A023D18DRAFT_NODE-unique_14_len_10558.14	tRNA-Thr-GGT
+kb|g.236152.rna.25	rna	tRNA-Met-CAT	kb|g.236152	none		8336	8262	-	A023D18DRAFT_NODE-unique_14_len_10558.14	tRNA-Met-CAT
+kb|g.236152.rna.26	rna	tRNA-Trp-CCA	kb|g.236152	none		4884	4810	-	A023D18DRAFT_NODE-unique_14_len_10558.14	tRNA-Trp-CCA
+kb|g.236152.rna.27	rna	tRNA-Val-GAC	kb|g.236152	none		3888	3961	+	A023D18DRAFT_NODE-unique_15_len_5606.15	tRNA-Val-GAC
+kb|g.236152.rna.28	rna	tRNA-Arg-CCT	kb|g.236152	none		378	451	+	A023D18DRAFT_NODE-unique_16_len_4448.16	tRNA-Arg-CCT
+kb|g.236152.rna.29	rna	tRNA-Leu-TAA	kb|g.236152	none		2150	2077	-	A023D18DRAFT_NODE-unique_21_len_2208.21	tRNA-Leu-TAA
+kb|g.236152.rna.30	rna	tRNA-Val-TAC	kb|g.236152	none		275	347	+	A023D18DRAFT_NODE-unique_45_len_608.45	tRNA-Val-TAC
+}
