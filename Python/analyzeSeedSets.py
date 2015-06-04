@@ -241,8 +241,10 @@ genomeClust = sch.dendrogram(genomeLinkage, distance_sort='True', color_threshol
 ax1.set_xticks([])
 ax1.set_yticks([])
 
+axisLength = 1- (1/float(len(dirList)))
+axisStart = (1 - axisLength) / 2
 # Add genome names to the bottom axis
-ax2 = fig.add_axes([0, 0, 1, 0], frame_on=False)
+ax2 = fig.add_axes([axisStart, 0, axisLength, 0], frame_on=False)
 ax2.set_xticks([])
 ax2.set_yticks([])
 ax2.set_xticks(range(len(seedMatrixT)))
