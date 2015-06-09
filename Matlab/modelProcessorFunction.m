@@ -31,7 +31,7 @@ fprintf('Reading in the model ... \n');
 model = readCbModel(strcat('../',rawModelDir,'/',pathStr));
 
 %%% Import the subSystem data from SEED
-fileID = fopen(strcat('../',dataDir,'/','table.tsv'));
+fileID = fopen(strcat('../',dataDir,'/','reactionTable.tsv'));
 mySeed = textscan(fileID, repmat('%q', 1, 7) , 'delimiter', '\t', 'CollectOutput', true);
 fclose(fileID);
 mySeed = mySeed{1,1};
@@ -62,7 +62,31 @@ if any(imBalancedBool)
         for i = 1:length(model.rxns)
         model.S(H_index, i) = model.S(H_index, i) - full(massImbalance(i,1));
         end
-    % Check mass- and charge-balancing again
+        
+    % Perform manual balancing of reactions known to be unbalanced in KBase
+    % If metabolite cpd03422 exists, update its charge to +1
+    cpdIndex = find(not(cellfun('isempty', strfind(model.mets, 'cpd03422'))));
+    if not(isempty(cpdIndex))
+        model.metCharge(cpdIndex) = 1;
+    end
+   
+    % If reaction rxn07295 exists, update its stoichiometry
+    rxnIndex = find(not(cellfun('isempty', strfind(model.rxns, 'rxn07295'))));
+    if not(isempty(rxnIndex))
+        model.S(findMetIDs(model,'cpd00007_c0'), rxnIndex) = -1;
+        model.S(findMetIDs(model,'cpd00025_c0'), rxnIndex) = 1;
+        model.S(findMetIDs(model,'cpd00067_c0'), rxnIndex) = 1;
+    end
+
+    % If reaction rxn08808 exists, update its stoichiometry
+    rxnIndex = find(not(cellfun('isempty', strfind(model.rxns, 'rxn08808'))));
+    if not(isempty(rxnIndex))
+        model.S(findMetIDs(model,'cpd00067_c0'), rxnIndex) = 1;
+        model.S(findMetIDs(model,'cpd12547_c0'), rxnIndex) = 0;
+        model.S(findMetIDs(model,'cpd15341_c0'), rxnIndex) = -1;
+    end
+    
+   % Check mass- and charge-balancing again
     [massImbalance,imBalancedMass,imBalancedCharge,imBalancedBool] = checkMassChargeBalance(model);
     if any(imBalancedBool)
        fprintf('\nReactions remain unbalanced. \n');
