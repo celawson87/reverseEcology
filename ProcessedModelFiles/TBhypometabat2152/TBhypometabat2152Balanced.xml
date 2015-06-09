@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sbml xmlns="http://www.sbml.org/sbml/level2" level="2" version="1">
-  <model id="TBhypometabat2152_TBhypometabat2152Balanced_xml">
+  <model id="___ProcessedModelFiles_TBhypometabat2152_TBhypometabat2152Balanced_xml">
     <listOfUnitDefinitions>
       <unitDefinition id="mmol_per_gDW_per_hr">
         <listOfUnits>
@@ -1267,7 +1267,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C20H23N7O6</p>
-            <p>CHARGE: -2</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -1291,7 +1291,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C94H153N8O26P2</p>
-            <p>CHARGE: -3</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -1299,7 +1299,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C11H13NO6P</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: -3</p>
           </body>
         </notes>
       </species>
@@ -1307,7 +1307,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C8H7N</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -1315,7 +1315,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C23H41N2O8PRS</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -1331,7 +1331,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C313H548N24O255P24</p>
-            <p>CHARGE: -24</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -1347,7 +1347,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C29H55N2O8PRS</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: -24</p>
           </body>
         </notes>
       </species>
@@ -1395,7 +1395,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C9H12N2O15P3</p>
-            <p>CHARGE: -3</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -1403,7 +1403,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C8H13N2O5</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: -3</p>
           </body>
         </notes>
       </species>
@@ -1411,7 +1411,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C20H21N7O7</p>
-            <p>CHARGE: -2</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -1419,7 +1419,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C9H14N4O8P</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -1443,7 +1443,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C9H11NO3</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -1451,7 +1451,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C15H22N2O17P2</p>
-            <p>CHARGE: -2</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -1459,7 +1459,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C6H12O9P</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -1467,7 +1467,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C38H74O13P2</p>
-            <p>CHARGE: -2</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -1475,7 +1475,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C44H79N3O15P2</p>
-            <p>CHARGE: -2</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -1483,7 +1483,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C7H14N2O4</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -1491,7 +1491,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C7H14N2O4</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -1499,7 +1499,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H16N3O6S</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -1507,7 +1507,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C13H20N3O8S</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -1523,7 +1523,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C4H8N2O3</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -1531,7 +1531,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C6H11N3O4</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -1539,7 +1539,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C23H33N4O20P2</p>
-            <p>CHARGE: -3</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -1547,7 +1547,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C5H8NO4</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -1555,7 +1555,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C28H39N5O23P2</p>
-            <p>CHARGE: -4</p>
+            <p>CHARGE: -3</p>
           </body>
         </notes>
       </species>
@@ -1571,7 +1571,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C26H47N2O8PRS</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: -4</p>
           </body>
         </notes>
       </species>
@@ -1579,7 +1579,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C5H5N5O</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -1595,7 +1595,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C5H10O14P3</p>
-            <p>CHARGE: -3</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -1603,7 +1603,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C9H13N5O13P3</p>
-            <p>CHARGE: -3</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -1611,7 +1611,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H13N5O9P2</p>
-            <p>CHARGE: -2</p>
+            <p>CHARGE: -3</p>
           </body>
         </notes>
       </species>
@@ -1627,7 +1627,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C20H26N3O19P2</p>
-            <p>CHARGE: -3</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -1635,7 +1635,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C11H21N2O7PRS</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: -3</p>
           </body>
         </notes>
       </species>
@@ -1643,7 +1643,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C21H40O7P</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: -3</p>
           </body>
         </notes>
       </species>
@@ -1683,7 +1683,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C3H7NO2</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -1699,7 +1699,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C31H60O8P</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -1707,7 +1707,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C35H59N7O17P3S</p>
-            <p>CHARGE: -3</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -1715,7 +1715,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C46H83N3O15P2</p>
-            <p>CHARGE: -2</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -1723,7 +1723,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C9H16NO8P</p>
-            <p>CHARGE: -2</p>
+            <p>CHARGE: -3</p>
           </body>
         </notes>
       </species>
@@ -1731,7 +1731,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C6H9O3</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -1739,7 +1739,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C6H11O4</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -1771,7 +1771,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C12H14NO9P</p>
-            <p>CHARGE: -2</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -1779,7 +1779,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C24H37N7O17P3S</p>
-            <p>CHARGE: -3</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -1787,7 +1787,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C3H5O2</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -1795,7 +1795,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C6H9N2O5</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: -3</p>
           </body>
         </notes>
       </species>
@@ -1811,7 +1811,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H13N5O20P5</p>
-            <p>CHARGE: -5</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -1819,7 +1819,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C27H31N9O15P2</p>
-            <p>CHARGE: -2</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -1827,7 +1827,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C17H20N4O9P</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: -5</p>
           </body>
         </notes>
       </species>
@@ -1835,7 +1835,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C5H10O8P</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -1859,7 +1859,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C40H67N3O15P2</p>
-            <p>CHARGE: -2</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -1891,7 +1891,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C14H13N6O3</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -1899,7 +1899,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C7H9N5O2</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -1915,7 +1915,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C5H10O7P2</p>
-            <p>CHARGE: -2</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -1923,7 +1923,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C20H34O7P2</p>
-            <p>CHARGE: -2</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -1947,7 +1947,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C6H3O6</p>
-            <p>CHARGE: -3</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -1955,7 +1955,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C37H72O8P</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -1979,7 +1979,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C3H7NO2</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: -3</p>
           </body>
         </notes>
       </species>
@@ -1995,7 +1995,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C9H16NO5</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -2003,7 +2003,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H14N2O5</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -2019,7 +2019,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C6H12O9P</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -2027,7 +2027,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C36H70O13P2</p>
-            <p>CHARGE: -2</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -2035,7 +2035,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C42H75N3O15P2</p>
-            <p>CHARGE: -2</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -2043,7 +2043,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C11H12N2O2</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -2051,7 +2051,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C3H7NO3</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -2059,7 +2059,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C6H12O9P</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -2067,7 +2067,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C42H52FeN8O6S2</p>
-            <p>CHARGE: 4</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -2075,7 +2075,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C42H52FeN8O6S2</p>
-            <p>CHARGE: 5</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -2083,7 +2083,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C48H83N3O15P2</p>
-            <p>CHARGE: -2</p>
+            <p>CHARGE: 4</p>
           </body>
         </notes>
       </species>
@@ -2091,7 +2091,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C42H78O13P2</p>
-            <p>CHARGE: -2</p>
+            <p>CHARGE: 5</p>
           </body>
         </notes>
       </species>
@@ -2099,7 +2099,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C6H9O4</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -2115,7 +2115,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C9H13N3O13P3</p>
-            <p>CHARGE: -3</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -2123,7 +2123,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C8H16N2O3</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -2139,7 +2139,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H12N4O8P</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -2147,7 +2147,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C17H25N3O17P2</p>
-            <p>CHARGE: -2</p>
+            <p>CHARGE: -3</p>
           </body>
         </notes>
       </species>
@@ -2163,7 +2163,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C5H7O4</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -2171,7 +2171,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C9H14N4O3</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -2179,7 +2179,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C9H14N4O3</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -2187,7 +2187,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H13N5O6P</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -2195,7 +2195,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C35H68O8P</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -2211,7 +2211,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C8H16N2O3</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -2219,7 +2219,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C5H10O5</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -2227,7 +2227,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C5H10O8P</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -2243,7 +2243,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H8O6</p>
-            <p>CHARGE: -2</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -2251,7 +2251,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C9H7O3</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -2259,7 +2259,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C13H17N5O8P</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -2267,7 +2267,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H13N5O4</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -2283,7 +2283,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C7H11N2O5</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -2291,7 +2291,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C37H63N7O17P3S</p>
-            <p>CHARGE: -3</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -2307,7 +2307,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C6H9O9P</p>
-            <p>CHARGE: -2</p>
+            <p>CHARGE: -3</p>
           </body>
         </notes>
       </species>
@@ -2323,7 +2323,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C5H10N2O3</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -2331,7 +2331,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C119H232O135P24</p>
-            <p>CHARGE: -24</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -2339,7 +2339,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C311H544N24O255P24</p>
-            <p>CHARGE: -24</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -2347,7 +2347,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H13N5O11P2</p>
-            <p>CHARGE: -2</p>
+            <p>CHARGE: -24</p>
           </body>
         </notes>
       </species>
@@ -2355,7 +2355,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C4H4N2O2</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: -24</p>
           </body>
         </notes>
       </species>
@@ -2363,7 +2363,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C123H240O135P24</p>
-            <p>CHARGE: -24</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -2371,7 +2371,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C315H552N24O255P24</p>
-            <p>CHARGE: -24</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -2379,7 +2379,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C5H10O8P2</p>
-            <p>CHARGE: -2</p>
+            <p>CHARGE: -24</p>
           </body>
         </notes>
       </species>
@@ -2387,7 +2387,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C3H3O3</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: -24</p>
           </body>
         </notes>
       </species>
@@ -2395,7 +2395,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C3H5O3</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -2403,7 +2403,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C32H39N7O19P3S</p>
-            <p>CHARGE: -3</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -2411,7 +2411,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C32H40N7O20P3S</p>
-            <p>CHARGE: -4</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -2427,7 +2427,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C13H25NO2S2</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: -4</p>
           </body>
         </notes>
       </species>
@@ -2451,7 +2451,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C21H24N6O15P2</p>
-            <p>CHARGE: -2</p>
+            <p>CHARGE: -3</p>
           </body>
         </notes>
       </species>
@@ -2459,7 +2459,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C11H8O5</p>
-            <p>CHARGE: -2</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -2467,7 +2467,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C20H35N2O8PRS</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -2475,7 +2475,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C20H37N2O8PRS</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -2483,7 +2483,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C5H10O7P2</p>
-            <p>CHARGE: -2</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -2499,7 +2499,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C36H61N7O17P3S</p>
-            <p>CHARGE: -3</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -2515,7 +2515,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C20H20N7O6</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: -3</p>
           </body>
         </notes>
       </species>
@@ -2539,7 +2539,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C8H15NOS2</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -2571,7 +2571,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C34H62O13P2</p>
-            <p>CHARGE: -2</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -2579,7 +2579,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C7H13N3O4</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -2587,7 +2587,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H10O10P</p>
-            <p>CHARGE: -3</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -2595,7 +2595,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C14H21N4O8P2S</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -2603,7 +2603,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C6H9O4</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: -3</p>
           </body>
         </notes>
       </species>
@@ -2675,7 +2675,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C40H71N3O15P2</p>
-            <p>CHARGE: -2</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -2691,7 +2691,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C17H20N4O6</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -2707,7 +2707,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C19H35N2O8PRS</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -2715,7 +2715,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C16H22N4O10P2S</p>
-            <p>CHARGE: -2</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -2723,7 +2723,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C6H14NO8P</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -2731,7 +2731,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C6H14NO8P</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -2739,7 +2739,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C5H10O7P</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -2763,7 +2763,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C5H9NO3</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -2795,7 +2795,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C27H51N2O8PRS</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -2803,7 +2803,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C25H47N2O8PRS</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -2811,7 +2811,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C25H45N2O8PRS</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -2835,7 +2835,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: H4N</p>
-            <p>CHARGE: 1</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -2843,7 +2843,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C7H9O8P</p>
-            <p>CHARGE: -2</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -2859,7 +2859,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C3H6O3</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: 1</p>
           </body>
         </notes>
       </species>
@@ -2867,7 +2867,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H19NO2S2</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -2875,7 +2875,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C6H5O7</p>
-            <p>CHARGE: -3</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -2883,7 +2883,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H12N4O14P3</p>
-            <p>CHARGE: -3</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -2891,7 +2891,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H12N4O11P2</p>
-            <p>CHARGE: -2</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -2899,7 +2899,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H12N4O9P</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: -3</p>
           </body>
         </notes>
       </species>
@@ -2907,7 +2907,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C42H82O13P2</p>
-            <p>CHARGE: -2</p>
+            <p>CHARGE: -3</p>
           </body>
         </notes>
       </species>
@@ -2915,7 +2915,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C9H11NO2</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -2923,7 +2923,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C11H14N2O3</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -2931,7 +2931,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C6H13NO2</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -2963,7 +2963,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C7H8O4</p>
-            <p>CHARGE: -2</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -2971,7 +2971,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C7H10O5</p>
-            <p>CHARGE: -2</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -2979,7 +2979,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C7H14O10P</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -2995,7 +2995,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C22H41N2O8PRS</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -3011,7 +3011,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C6H12O9P</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -3019,7 +3019,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C6H12O12P2</p>
-            <p>CHARGE: -2</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -3035,7 +3035,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C6H10N3O</p>
-            <p>CHARGE: 1</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -3043,7 +3043,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C6H9N3O2</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -3059,7 +3059,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C18H36O7P</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: 1</p>
           </body>
         </notes>
       </species>
@@ -3067,7 +3067,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C36H61N7O17P3S</p>
-            <p>CHARGE: -3</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -3075,7 +3075,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C40H71N3O15P2</p>
-            <p>CHARGE: -2</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -3083,7 +3083,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C7H9N5O8P2</p>
-            <p>CHARGE: -2</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -3091,7 +3091,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C3H7NO6P</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: -3</p>
           </body>
         </notes>
       </species>
@@ -3099,7 +3099,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C4H9NO3</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -3107,7 +3107,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C4H9NO6P</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -3115,7 +3115,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C23H35N7O17P3S</p>
-            <p>CHARGE: -3</p>
+            <p>CHARGE: 2</p>
           </body>
         </notes>
       </species>
@@ -3123,7 +3123,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C38H74O13P2</p>
-            <p>CHARGE: -2</p>
+            <p>CHARGE: 2</p>
           </body>
         </notes>
       </species>
@@ -3139,7 +3139,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C17H31N2O8PRS</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -3147,7 +3147,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C2H4O2</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -3155,7 +3155,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C9H13N5O4</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: -3</p>
           </body>
         </notes>
       </species>
@@ -3163,7 +3163,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C7H11N2O5</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -3187,7 +3187,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C19H33N2O8PRS</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -3195,7 +3195,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C19H35N2O8PRS</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -3203,7 +3203,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: Mn</p>
-            <p>CHARGE: 2</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -3211,7 +3211,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: Mn</p>
-            <p>CHARGE: 2</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -3235,7 +3235,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C30H58O13P2</p>
-            <p>CHARGE: -2</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -3243,7 +3243,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C36H63N3O15P2</p>
-            <p>CHARGE: -2</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -3251,7 +3251,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C34H66O13P2</p>
-            <p>CHARGE: -2</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -3259,7 +3259,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C17H27N5O4R2S</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: 2</p>
           </body>
         </notes>
       </species>
@@ -3267,7 +3267,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C18H26N5O6R2S</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: 2</p>
           </body>
         </notes>
       </species>
@@ -3275,7 +3275,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C24H34N7O19P3S</p>
-            <p>CHARGE: -4</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -3291,7 +3291,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C4H5O3</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -3299,7 +3299,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C4H9NO2</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -3307,7 +3307,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C17H31N2O8PRS</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -3315,7 +3315,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C17H29N2O8PRS</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -3323,7 +3323,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C6H15N2O2</p>
-            <p>CHARGE: 1</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -3331,7 +3331,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C42H75N3O15P2</p>
-            <p>CHARGE: -2</p>
+            <p>CHARGE: -4</p>
           </body>
         </notes>
       </species>
@@ -3339,7 +3339,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C4H10NO</p>
-            <p>CHARGE: 1</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -3347,7 +3347,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C4H4O4</p>
-            <p>CHARGE: -2</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -3355,7 +3355,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C25H36N7O19P3S</p>
-            <p>CHARGE: -4</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -3363,7 +3363,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C119H232O135P24</p>
-            <p>CHARGE: -24</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -3371,7 +3371,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C311H544N24O255P24</p>
-            <p>CHARGE: -24</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -3379,7 +3379,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C27H49N2O8PRS</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: 1</p>
           </body>
         </notes>
       </species>
@@ -3387,7 +3387,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C19H36O7P</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -3395,7 +3395,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C35H64O8P</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: 1</p>
           </body>
         </notes>
       </species>
@@ -3411,7 +3411,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C15H22N2O17P2</p>
-            <p>CHARGE: -2</p>
+            <p>CHARGE: -4</p>
           </body>
         </notes>
       </species>
@@ -3419,7 +3419,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C15H19N2O18P2</p>
-            <p>CHARGE: -3</p>
+            <p>CHARGE: -24</p>
           </body>
         </notes>
       </species>
@@ -3427,7 +3427,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C11H10O6</p>
-            <p>CHARGE: -2</p>
+            <p>CHARGE: -24</p>
           </body>
         </notes>
       </species>
@@ -3435,7 +3435,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: HO10P3</p>
-            <p>CHARGE: -4</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -3443,7 +3443,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C15H23N6O5S</p>
-            <p>CHARGE: 1</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -3459,7 +3459,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C7H13N3O4</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -3475,7 +3475,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C4H9NO7P</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: -3</p>
           </body>
         </notes>
       </species>
@@ -3483,7 +3483,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C115H224O135P24</p>
-            <p>CHARGE: -24</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -3491,7 +3491,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C307H536N24O255P24</p>
-            <p>CHARGE: -24</p>
+            <p>CHARGE: -4</p>
           </body>
         </notes>
       </species>
@@ -3499,7 +3499,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C6H11N3O4</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: 1</p>
           </body>
         </notes>
       </species>
@@ -3515,7 +3515,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C18H33N2O8PRS</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -3523,7 +3523,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C18H31N2O8PRS</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -3531,7 +3531,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C5H5N5</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -3539,7 +3539,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C87H139N7O23P2</p>
-            <p>CHARGE: -4</p>
+            <p>CHARGE: -24</p>
           </body>
         </notes>
       </species>
@@ -3547,7 +3547,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C55H90O4P</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: -24</p>
           </body>
         </notes>
       </species>
@@ -3555,7 +3555,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C7H9O5</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -3563,7 +3563,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C38H70O13P2</p>
-            <p>CHARGE: -2</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -3571,7 +3571,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C44H75N3O15P2</p>
-            <p>CHARGE: -2</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -3579,7 +3579,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: Ni</p>
-            <p>CHARGE: 2</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -3587,7 +3587,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: Ni</p>
-            <p>CHARGE: 2</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -3595,7 +3595,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C29H55N2O8PRS</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: -4</p>
           </body>
         </notes>
       </species>
@@ -3611,7 +3611,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C313H548N24O255P24</p>
-            <p>CHARGE: -24</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -3619,7 +3619,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C121H236O135P24</p>
-            <p>CHARGE: -24</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -3627,7 +3627,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C24H45N2O8PRS</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -3635,7 +3635,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C24H43N2O8PRS</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: 2</p>
           </body>
         </notes>
       </species>
@@ -3643,7 +3643,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C4H7NO7P</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: 2</p>
           </body>
         </notes>
       </species>
@@ -3651,7 +3651,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C94H153N8O26P2</p>
-            <p>CHARGE: -3</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -3659,7 +3659,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C94H155N9O25P2</p>
-            <p>CHARGE: -2</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -3667,7 +3667,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C5H10N2O3</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: -24</p>
           </body>
         </notes>
       </species>
@@ -3675,7 +3675,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C62H89CoN13O14P</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: -24</p>
           </body>
         </notes>
       </species>
@@ -3683,7 +3683,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C62H89CoN13O14P</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -3691,7 +3691,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C2H6NO</p>
-            <p>CHARGE: 1</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -3699,7 +3699,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C7H12N2O3</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -3707,7 +3707,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C40H62N9O26P2</p>
-            <p>CHARGE: -3</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -3715,7 +3715,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C86H140N7O21P2</p>
-            <p>CHARGE: -3</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -3723,7 +3723,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C21H39N2O8PRS</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: -3</p>
           </body>
         </notes>
       </species>
@@ -3731,7 +3731,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C21H37N2O8PRS</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -3739,7 +3739,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C26H41N7O17P3S</p>
-            <p>CHARGE: -3</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -3763,7 +3763,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C7H14N2O3S</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: 1</p>
           </body>
         </notes>
       </species>
@@ -3771,7 +3771,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C7H7NO4</p>
-            <p>CHARGE: -2</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -3787,7 +3787,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: CH3RS2</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: -3</p>
           </body>
         </notes>
       </species>
@@ -3811,7 +3811,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C25H45N2O8PRS</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: -3</p>
           </body>
         </notes>
       </species>
@@ -3819,7 +3819,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C17H32O7P</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -3827,7 +3827,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C34H66O13P2</p>
-            <p>CHARGE: -2</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -3835,7 +3835,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H13N5O13P3</p>
-            <p>CHARGE: -3</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -3843,7 +3843,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H13N5O4</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -3851,7 +3851,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C117H228O135P24</p>
-            <p>CHARGE: -24</p>
+            <p>CHARGE: -3</p>
           </body>
         </notes>
       </species>
@@ -3859,7 +3859,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C309H540N24O255P24</p>
-            <p>CHARGE: -24</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -3875,7 +3875,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H13N5O10P2</p>
-            <p>CHARGE: -2</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -3883,7 +3883,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C5H10O5</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -3891,7 +3891,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C5H10O5</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -3899,7 +3899,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C5H11NO3S</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -3907,7 +3907,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C17H34O7P</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: -3</p>
           </body>
         </notes>
       </species>
@@ -3915,7 +3915,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C35H59N7O17P3S</p>
-            <p>CHARGE: -3</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -3923,7 +3923,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C15H19N5O6S</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: -24</p>
           </body>
         </notes>
       </species>
@@ -3931,7 +3931,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C9H17NO3</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: -24</p>
           </body>
         </notes>
       </species>
@@ -3939,7 +3939,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C9H21N2O2</p>
-            <p>CHARGE: 1</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -3947,7 +3947,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C21H37N2O8PRS</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -3955,7 +3955,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C21H39N2O8PRS</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -3971,7 +3971,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C20H21N7O7</p>
-            <p>CHARGE: -2</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -3987,7 +3987,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C27H49N2O8PRS</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: -3</p>
           </body>
         </notes>
       </species>
@@ -3995,7 +3995,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C11H13NO9P</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -4003,7 +4003,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C36H70O13P2</p>
-            <p>CHARGE: -2</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -4011,7 +4011,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C3H5O4</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: 1</p>
           </body>
         </notes>
       </species>
@@ -4019,7 +4019,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C5H13N2O2</p>
-            <p>CHARGE: 1</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -4027,7 +4027,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C6H13N3O3</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -4035,7 +4035,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C12H14NO9P</p>
-            <p>CHARGE: -2</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -4043,7 +4043,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C7H6NO2</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -4051,7 +4051,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C63H103NO12P2</p>
-            <p>CHARGE: -2</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -4059,7 +4059,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C36H40N4O8</p>
-            <p>CHARGE: -4</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -4067,7 +4067,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C34H38N4O4</p>
-            <p>CHARGE: -2</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -4075,7 +4075,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C11H14N2O3</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -4083,7 +4083,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C15H26O7P2</p>
-            <p>CHARGE: -2</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -4091,7 +4091,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C40H78O13P2</p>
-            <p>CHARGE: -2</p>
+            <p>CHARGE: 1</p>
           </body>
         </notes>
       </species>
@@ -4099,7 +4099,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C11H16N2O7</p>
-            <p>CHARGE: -2</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -4115,7 +4115,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C62H89CoN13O14P</p>
-            <p>CHARGE: 1</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -4123,7 +4123,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C62H89CoN13O14P</p>
-            <p>CHARGE: 1</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -4131,7 +4131,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C7H14N2O4</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: -4</p>
           </body>
         </notes>
       </species>
@@ -4147,7 +4147,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C5H8NO5</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -4155,7 +4155,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C5H4N4O2</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -4163,7 +4163,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C25H39N7O17P3S</p>
-            <p>CHARGE: -3</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -4171,7 +4171,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C12H23NO2S2</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -4179,7 +4179,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C12H20NO4S2</p>
-            <p>CHARGE: -1</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -4195,7 +4195,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C6H14O6</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: -2</p>
           </body>
         </notes>
       </species>
@@ -4203,7 +4203,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C6H12O6</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: 1</p>
           </body>
         </notes>
       </species>
@@ -4211,7 +4211,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C20H28N3O19P2</p>
-            <p>CHARGE: -3</p>
+            <p>CHARGE: 1</p>
           </body>
         </notes>
       </species>
@@ -4219,7 +4219,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C39H67N7O17P3S</p>
-            <p>CHARGE: -3</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -4235,7 +4235,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C309H540N24O255P24</p>
-            <p>CHARGE: -24</p>
+            <p>CHARGE: -1</p>
           </body>
         </notes>
       </species>
@@ -4243,7 +4243,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C117H228O135P24</p>
-            <p>CHARGE: -24</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
@@ -4251,7 +4251,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C6H10N2O3R2S</p>
-            <p>CHARGE: 0</p>
+            <p>CHARGE: -3</p>
           </body>
         </notes>
       </species>
@@ -4275,7 +4275,7 @@
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C25H27N8O10</p>
-            <p>CHARGE: -3</p>
+            <p>CHARGE: 0</p>
           </body>
         </notes>
       </species>
