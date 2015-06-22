@@ -129,7 +129,7 @@ seedMatrixDF.fillna(0, inplace=True)
 # The file metabMap.csv was created manually from the seed database, and should
 # be updated to reflect the particulars of your data set.
 namesDF = pd.read_csv('../'+externalDataDir+'/'+'metabMap.csv', names=['Metabolite','CommonName'])
-seedMatrixDF = pd.merge(seedMatrixDF, namesDF, how='outer', on="Metabolite")
+seedMatrixDF = pd.merge(seedMatrixDF, namesDF, how='inner', on="Metabolite")
 
 # Rearrange the order of the columns so that the common name is in front
 newOrder = seedMatrixDF.columns.tolist()
@@ -198,9 +198,9 @@ axmatrix.set_yticks([])
 # Import coloration info to map to genome names. Rearrange to same order as
 # leaves of the dendrogram and extract the 'Color' column as a list.
 # The file 'actinoColors.csv' will need to be updated for the specific samples.
-genomeColors = pd.read_csv('../'+externalDataDir+'/'+'actinoColors.csv')
-genomeColors = genomeColors['Color'].tolist()
-genomeColors = [ genomeColors[i] for i in idx1]
+#genomeColors = pd.read_csv('../'+externalDataDir+'/'+'actinoColors.csv')
+#genomeColors = genomeColors['Color'].tolist()
+#genomeColors = [ genomeColors[i] for i in idx1]
 
 # Add genome names to the bottom axis
 axmatrix.set_xticks(range(len(seedMatrixT)))
@@ -208,8 +208,8 @@ axmatrix.set_xticklabels([dirList[i] for i in idx1], minor=False)
 axmatrix.xaxis.set_label_position('bottom')
 axmatrix.xaxis.tick_bottom()
 plt.xticks(rotation=-90, fontsize=8)
-for xtick, color in zip(axmatrix.get_xticklabels(), genomeColors):
-    xtick.set_color(color)
+#for xtick, color in zip(axmatrix.get_xticklabels(), genomeColors):
+#    xtick.set_color(color)
 
 # Add metabolite names to the right axis
 axmatrix.set_yticks(range(len(seedMatrix)))
@@ -252,8 +252,8 @@ ax2.set_xticklabels([dirList[i] for i in idx1], minor=False)
 ax2.xaxis.set_label_position('bottom')
 ax2.xaxis.tick_bottom()
 plt.xticks(rotation=-90, fontsize=8)
-for xtick, color in zip(ax2.get_xticklabels(), genomeColors):
-    xtick.set_color(color)
+#for xtick, color in zip(ax2.get_xticklabels(), genomeColors):
+#    xtick.set_color(color)
     
     
 #%% Reverse Ecology Metric: Metabolic Competition Index
@@ -365,8 +365,8 @@ axmatrix.set_xticklabels([dirList[i] for i in idx1], minor=False)
 axmatrix.xaxis.set_label_position('bottom')
 axmatrix.xaxis.tick_bottom()
 plt.xticks(rotation=-90, fontsize=8)
-for xtick, color in zip(axmatrix.get_xticklabels(), genomeColors):
-    xtick.set_color(color)
+#for xtick, color in zip(axmatrix.get_xticklabels(), genomeColors):
+#    xtick.set_color(color)
 
 # Add genome names to the right axis
 axmatrix.set_yticks(range(len(competeMatrix)))
@@ -374,8 +374,8 @@ axmatrix.set_yticklabels([dirList[i] for i in idx2], minor=False)
 axmatrix.yaxis.set_label_position('right')
 axmatrix.yaxis.tick_right()
 plt.yticks(fontsize=8)
-for ytick, color in zip(axmatrix.get_yticklabels(), genomeColors):
-    ytick.set_color(color)
+#for ytick, color in zip(axmatrix.get_yticklabels(), genomeColors):
+#    ytick.set_color(color)
 
 # Plot colorbar.
 axcolor = fig.add_axes([0.9, 0.9, 0.03, 0.1])
@@ -495,8 +495,8 @@ axmatrix.set_xticklabels([dirList[i] for i in idx1], minor=False)
 axmatrix.xaxis.set_label_position('bottom')
 axmatrix.xaxis.tick_bottom()
 plt.xticks(rotation=-90, fontsize=8)
-for xtick, color in zip(axmatrix.get_xticklabels(), genomeColors):
-    xtick.set_color(color)
+#for xtick, color in zip(axmatrix.get_xticklabels(), genomeColors):
+#    xtick.set_color(color)
 
 # Add genome names to the right axis
 axmatrix.set_yticks(range(len(complementMatrix)))
@@ -504,8 +504,8 @@ axmatrix.set_yticklabels([dirList[i] for i in idx2], minor=False)
 axmatrix.yaxis.set_label_position('right')
 axmatrix.yaxis.tick_right()
 plt.yticks(fontsize=8)
-for ytick, color in zip(axmatrix.get_yticklabels(), genomeColors):
-    ytick.set_color(color)
+#for ytick, color in zip(axmatrix.get_yticklabels(), genomeColors):
+#    ytick.set_color(color)
 
 # Plot colorbar.
 axcolor = fig.add_axes([0.9, 0.9, 0.03, 0.1])
