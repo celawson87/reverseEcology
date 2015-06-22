@@ -6,64 +6,64 @@ Gly-Tyr
 met-L-ala-L
 Gly-Leu
 butanesulfonate
-(S)-Methylmalonyl-CoA,L-methylmalonyl-CoA
+D-methylmalonyl-CoA,L-methylmalonyl-CoA
 Stachyose
 gly-glu-L
-Hexanoyl-ACP (n-C6:0ACP)
-Reduced coenzyme F420,5-Methyltetrahydromethanopterin,"5,10-Methylenetetrahydromethanopterin",Coenzyme F420
-Decanoyl-ACP (n-C10:0ACP)
-Cellobiose
-4-Aminobutyraldehyde
-Hexadecenoyl-ACP (n-C16:1ACP)
-L-myo-Inositol 1-phosphate
+Hexanoyl-ACP
+Reduced_coenzyme_F420,5-Methyl-H4MPT,5_10-Methylenetetrahydromethanopterin,Coenzyme_F420
+Decanoyl-ACP
+CELB
+4-Aminobutanal
+Hexadecenoyl-ACP
+Inositol_3-phosphate
 Gly-Phe
 Cys-Gly
-Vitamin B12
-2-Hydroxyethanesulfonate
-Cl-,Cl-
-N-(5-Phospho-beta-D-ribosyl)anthranilate,1-(2-Carboxyphenylamino)-1'-deoxy-D-ribulose 5'-phosphate
+Vitamin_B12
+Isethionate
+Cl,Cl
+N-5-phosphoribosyl-anthranilate,1-2-carboxyphenylamino-1-deoxyribulose_5-phosphate
 trans-Octodec-2-enoyl-ACP
 L-Valine
 O-Acetyl-L-homoserine
-Pb2+
-1-(5-phospho-D-ribosyl)-ATP
-Hg2+
+Pb
+Phosphoribosyl-ATP
+Hg2
 Putrescine
 O-Succinyl-L-homoserine
-UDP-N-acetylmuramate
-Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-alanyl-D-glutamyl-L-lysyl-D-alanyl-D-alanine
-Palmitoyl-ACP (n-C16:0ACP)
+UDP-MurNAc
+Undecaprenyl-diphospho-N-acetylmuramoyl-N-acetylglucosamine-L-alanyl-D-glutamyl-L-lysyl-D-alanyl-D-alanine
+Palmitoyl-ACP
 Agmatine
-Pyridoxine 5-phosphate
+Pyridoxine_phosphate
 9-methyl-trans-dec-2-enoyl-ACP
-delta3-Isopentenyl diphosphate
+Isopentenyldiphosphate
 methanesulfonate
-Tetradecenoyl-ACP (n-C14:1ACP)
-Mn(II)
-Octadecenoyl-ACP (n-C18:1ACP)
-Zn2+
-"5,6-Dihydrouracil"
+Tetradecenoyl-ACP
+Mn2
+Octadecenoyl-ACP
+Zn2
+Hydrouracil
 11-methyl-trans-dodec-2-enoyl-ACP
-Hydrogen sulfide
+H2S
 Deamido-NAD
 Ala-Leu
-(R)-S-Lactoylglutathione,Reduced glutathione,Methylglyoxal
+R-S-Lactoylglutathione,GSH,2-Oxopropanal
 5-Methylcytosine
 Ala-Gln
 gly-asn-L
-Octanoyl-ACP (n-C8:0ACP)
+Octanoyl-ACP
 4-methyl-trans-pent-2-enoyl-ACP
-"2-trans,6-trans-Farnesyl diphosphate"
+Farnesyldiphosphate
 L-alanylglycine
 gly-asp-L
 15-methyl-trans-hexa-dec-2-enoyl-ACP
-D-Biotin
+BIOT
 14-methyl-trans-hexa-dec-2-enoyl-ACP
-sn-glycero-3-Phosphocholine
-Vitamin B12s
-Vitamin B12r
-o-Succinylbenzoate
-Carboxybiotin-carboxyl-carrier protein
+Glycerophosphocholine
+Cbl
+Vitamin_B12r
+Succinylbenzoate
+Carboxybiotin-carboxyl-carrier_protein
 L-Isoleucine
 ala-L-Thr-L
 6-methyl-trans-oct-2-enoyl-ACP
@@ -71,25 +71,25 @@ ala-L-glu-L
 Taurine
 Gly-Gln
 Manninotriose
-beta-Nicotinate D-ribonucleotide
+Nicotinate_ribonucleotide
 14-methyl-trans-pentadec-2-enoyl-ACP
-"5,6-Dihydro-5-methyluracil"
+Dihydrothymine
 Ala-His
 gly-pro-L
 L-Leucine
-myo-Inositol 4-phosphate
+Inositol_4-phosphate
 10-methyl-trans-undec-2-enoyl-ACP
-Imidazole-4-acetaldehyde
+Imidazole_acetaldehyde
 8-methyl-trans-dec-2-enoyl-ACP
-Orotidine 5'-phosphate
-Butyryl-ACP (n-C4:0ACP)
+Orotidylic_acid
+Butyryl-ACP
 12-methyl-trans-tridec-2-enoyl-ACP
-sn-glycero-3-Phosphoethanolamine
-GDP-D-mannose
+Glycerophosphoethanolamine
+GDP-mannose
 FMNH2
 Cytosine
 D-Glutamate
-Thiamine
+Thiamin
 7-methyl-trans-oct-2-enoyl-ACP
 4-methyl-trans-hex-2-enoyl-ACP
 2-Phosphoglycolate
@@ -97,22 +97,22 @@ Thiamine
 Glycerophosphoglycerol
 10-methyl-trans-dodec-2-enoyl-ACP
 Gly-Cys
-Thiosulfate
+H2S2O3
 8-methyl-trans-non-2-enoyl-ACP
 ala-L-asp-L
-O3-Acetyl-L-serine
-Pyridoxamine 5-phosphate
+O-Acetyl-L-serine
+Pyridoxamine_phosphate
 Dephospho-CoA
-Dodecanoyl-ACP (n-C12:0ACP)
+Dodecanoyl-ACP
 Sulfoacetate
-Octadecanoyl-ACP (n-C18:0ACP)
+Octadecanoyl-ACP
 hexanesulfonate
-"2,3,4,5-Tetrahydrodipicolinate"
-D-erythro-Imidazole-glycerol 3-phosphate
-Cd2+
+tetrahydrodipicolinate
+D-erythro-imidazol-glycerol-phosphate
+Cd2
 6-methyl-trans-hept-2-enoyl-ACP
 Spermidine
-ethane sulfonate
-D-Gluconolactone
+ethanesulfonate
+Gluconolactone
 Gly-Met
 Isochorismate

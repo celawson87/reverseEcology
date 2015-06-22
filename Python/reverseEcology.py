@@ -94,10 +94,17 @@ modelFile.write('Model,Genes,Metabolites,Reactions\n')
 count = 0
 print 'Converting SBML file to Adjacency List'
 
+# Create an empty dictionary to store metabolite IDs and names
+namesDict = {}
+
 for curDir in dirList:
 # Read in SBML file    
     print 'Processing directory', count+1, 'of', numSubDir, ':', curDir
     model = cobra.io.read_sbml_model('../'+processedDataDir+'/'+curDir+'/'+curDir+'Balanced.xml')
+
+# Create dictionary of metabolite names
+    for metab in model.metabolites:
+        namesDict[metab.id] = metab.name
 
 # Update description field
     model.description = curDir;
@@ -114,6 +121,10 @@ for curDir in dirList:
 # Close files containing summary data
 modelFile.close()
 
+# Write completed dictionary to file as a csv file ExternalData/metabMap.csv
+writer = csv.writer(open('../'+externalDataDir+'/'+'metabMap.csv', 'wb'))
+for key, value in namesDict.items():
+   writer.writerow([key, value])
 
 #%%
 

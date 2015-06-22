@@ -1,24 +1,24 @@
 12-methyl-trans-tetra-dec-2-enoyl-ACP
 L-Valine
-Anteiso-C15:0 CoA
+fa4coa
 13-methyl-trans-tetra-dec-2-enoyl-ACP
 Palmitoyl-CoA
 Gly-Tyr
 met-L-ala-L
 Gly-Leu
-D-Fructose 6-phosphate,beta-D-Glucose 6-phosphate,D-Glucose 6-phosphate,D-Xylulose 5-phosphate,D-Ribulose 5-phosphate,D-Ribose 5-phosphate,Glyceraldehyde-3-phosphate,D-Erythrose 4-phosphate,Sedoheptulose 7-phosphate
-Iso-C15:0 CoA
-Dimethylallyl diphosphate
-Iso-C14:0 CoA
+D-fructose-6-phosphate,beta-D-Glucose_6-phosphate,D-glucose-6-phosphate,D-Xylulose5-phosphate,D-Ribulose5-phosphate,ribose-5-phosphate,Glyceraldehyde3-phosphate,D-Erythrose4-phosphate,Sedoheptulose7-phosphate
+fa3coa
+DMAPP
+fa1coa
 gly-glu-L
-Octanoyl-ACP (n-C8:0ACP)
+Octanoyl-ACP
 H2
-Decanoyl-ACP (n-C10:0ACP)
-Hexadecanoyl-[acp]
+Decanoyl-ACP
+hexadecanoyl-acp
 L-Serine
-UDP-N-acetyl-D-glucosamine,UDP-N-acetyl-D-galactosamine
-4-Aminobutyraldehyde
-Hexadecenoyl-ACP (n-C16:1ACP)
+UDP-N-acetylglucosamine,UDP-N-acetyl-D-galactosamine
+4-Aminobutanal
+Hexadecenoyl-ACP
 Gly-Phe
 Cys-Gly
 14-methyl-trans-hexa-dec-2-enoyl-ACP
@@ -26,25 +26,25 @@ Cys-Gly
 trans-Octodec-2-enoyl-ACP
 dCMP
 10-methyl-trans-dodec-2-enoyl-ACP
-5-Aminolevulinate,L-Glutamate 1-semialdehyde
-beta-Nicotinamide D-ribonucleotide
+5-Aminolevulinate,L-Glutamate1-semialdehyde
+Nicotinamide_ribonucleotide
 Putrescine
-Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-alanyl-D-glutamyl-L-lysyl-D-alanyl-D-alanine
+Undecaprenyl-diphospho-N-acetylmuramoyl-N-acetylglucosamine-L-alanyl-D-glutamyl-L-lysyl-D-alanyl-D-alanine
 11-methyl-trans-dodec-2-enoyl-ACP
-Palmitoyl-ACP (n-C16:0ACP)
-Iso-C17:0 CoA
+Palmitoyl-ACP
+fa11coa
 9-methyl-trans-dec-2-enoyl-ACP
-Anteiso-C17:0 CoA
-"LL-2,6-Diaminoheptanedioate","meso-2,6-Diaminoheptanedioate"
-N-Acetylneuraminate
+fa12coa
+LL-2_6-Diaminopimelate,meso-2_6-Diaminopimelate
+Neu5Ac
 dUTP
-Tetradecenoyl-ACP (n-C14:1ACP)
-1-tetradecanoyl-sn-glycerol 3-phosphate
-all-trans-Octaprenyldiphosphate
-Octadecenoyl-ACP (n-C18:1ACP)
+Tetradecenoyl-ACP
+1-tetradecanoyl-sn-glycerol_3-phosphate
+Farnesylfarnesylgeraniol
+Octadecenoyl-ACP
 Tyramine
-Hydrogen sulfide
-(S)-2-Methylbutanoyl-CoA
+H2S
+2-Methylbutyryl-CoA
 Ala-Leu
 L-Malate
 Ala-Gln
@@ -54,80 +54,80 @@ gly-asn-L
 L-alanylglycine
 gly-asp-L
 Stachyose
-Hexanoyl-ACP (n-C6:0ACP)
+Hexanoyl-ACP
 15-methyl-trans-hexa-dec-2-enoyl-ACP
-1-dodecanoyl-sn-glycerol 3-phosphate
-Betaine
+1-dodecanoyl-sn-glycerol_3-phosphate
+BET
 Maltose
-sn-glycero-3-Phosphocholine
+Glycerophosphocholine
 Aminoacetaldehyde
 3-Hydroxy-L-kynurenine
 dGMP
-1-octadec-11-enoyl-sn-glycerol 3-phosphate
-Tetradecanoyl-CoA (n-C14:0CoA)
+1-octadec-11-enoyl-sn-glycerol_3-phosphate
+Myristoyl-CoA
 L-Isoleucine
 ala-L-Thr-L
-Butanoyl-CoA
-Crotono-betaine
-dTDP-glucose
+Butyryl-CoA
+crotonobetaine
+dTDPglucose
 6-methyl-trans-oct-2-enoyl-ACP
 ala-L-glu-L
-1-hexadecanoyl-sn-glycerol 3-phosphate
+1-hexadecanoyl-sn-glycerol_3-phosphate
 Gly-Gln
-1-Deoxy-D-xylulose 5-phosphate
+1-deoxy-D-xylulose5-phosphate
 Manninotriose
-Deoxyribose
-1-anteisoheptadecanoyl-sn-glycerol 3-phosphate
+Thyminose
+1-anteisoheptadecanoyl-sn-glycerol_3-phosphate
 14-methyl-trans-pentadec-2-enoyl-ACP
 Ala-His
 dAMP
 gly-pro-L
-1-tetradec-7-enoyl-sn-glycerol 3-phosphate
+1-tetradec-7-enoyl-sn-glycerol_3-phosphate
 L-Leucine
-L-Glutamate 5-semialdehyde
-1-isopentadecanoyl-sn-glycerol 3-phosphate
+L-Glutamate5-semialdehyde
+1-isopentadecanoyl-sn-glycerol_3-phosphate
 O2
-Myristoyl-ACP (n-C14:0ACP)
+Myristoyl-ACP
 10-methyl-trans-undec-2-enoyl-ACP
-Imidazole-4-acetaldehyde
+Imidazole_acetaldehyde
 GMP
-Orotidine 5'-phosphate
+Orotidylic_acid
 5-methyl-trans-hex-2-enoyl-ACP
-Butyryl-ACP (n-C4:0ACP)
+Butyryl-ACP
 12-methyl-trans-tridec-2-enoyl-ACP
 Butyro-betaine
 L-Tryptophan
 L-Proline
-sn-glycero-3-Phosphoethanolamine
-1-octadecanoyl-sn-glycerol 3-phosphate
-GDP-D-mannose
-L-Aspartate 4-semialdehyde
-1-hexadec-9-enoyl-sn-glycerol 3-phosphate
-Stearyl-CoA (n-C18:0CoA)
-Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-alanyl-gamma-D-glutamyl-L-lysyl-D-alanyl-D-alanine
-1-isoheptadecanoyl-sn-glycerol 3-phosphate
+Glycerophosphoethanolamine
+1-octadecanoyl-sn-glycerol_3-phosphate
+GDP-mannose
+L-Aspartate4-semialdehyde
+1-hexadec-9-enoyl-sn-glycerol_3-phosphate
+strcoa
+Undecaprenyl-diphospho-N-acetylmuramoyl-N-acetylglucosamine-L-alanyl-gamma-D-glutamyl-L-lysyl-D-alanyl-D-alanine
+1-isoheptadecanoyl-sn-glycerol_3-phosphate
 D-Glutamate
 8-methyl-trans-dec-2-enoyl-ACP
 7-methyl-trans-oct-2-enoyl-ACP
 trans-4-Hydroxy-L-proline,cis-4-Hydroxy-D-proline
 Isobutyryl-CoA
 Aminoacetone
-1-anteisopentadecanoyl-sn-glycerol 3-phosphate
-HCO3-
-1-isotetradecanoyl-sn-glycerol 3-phosphate
+1-anteisopentadecanoyl-sn-glycerol_3-phosphate
+H2CO3
+1-isotetradecanoyl-sn-glycerol_3-phosphate
 Gly-Met
 Glycerophosphoglycerol
 UDP-N-acetylmuramoyl-L-alanine
 ARSENOBETAINE
 Gly-Cys
-Thiosulfate
+H2S2O3
 8-methyl-trans-non-2-enoyl-ACP
 ala-L-asp-L
-Dodecanoyl-ACP (n-C12:0ACP)
-1-isohexadecanoyl-sn-glycerol 3-phosphate
+Dodecanoyl-ACP
+1-isohexadecanoyl-sn-glycerol_3-phosphate
 Succinyl-CoA
-"2,3,4,5-Tetrahydrodipicolinate"
-Iso-C16:0 CoA
+tetrahydrodipicolinate
+fa6coa
 6-methyl-trans-hept-2-enoyl-ACP
 Spermidine
-Octadecanoyl-ACP (n-C18:0ACP)
+Octadecanoyl-ACP

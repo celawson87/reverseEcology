@@ -22,7 +22,7 @@
 import math
 import networkx as nx
 import numpy as np
-from matplotlib import pyplot
+from matplotlib import pyplot as plt
 from collections import Counter
 
 # Function to retrieve statistics about a graph
@@ -65,25 +65,25 @@ def getDiGraphStats(diGraph):
 def plotGraphStats(graphStatArray):
 # Histogram of number of nodes
     myWeight = np.ones_like(graphStatArray[:,0]) / float(len(graphStatArray[:,0]))
-    pyplot.figure(1)
-    pyplot.hist(graphStatArray[:,0], weights=myWeight)
-    pyplot.xlabel('Total Nodes')
-    pyplot.ylabel('Fraction of Graphs')
+    plt.figure(1)
+    plt.hist(graphStatArray[:,0], weights=myWeight)
+    plt.xlabel('Total Nodes')
+    plt.ylabel('Fraction of Graphs')
 
 # Histogram of number of components
     myWeight = np.ones_like(graphStatArray[:,2]) / float(len(graphStatArray[:,2]))
-    pyplot.figure(2)
-    pyplot.hist(graphStatArray[:,2], weights=myWeight)
-    pyplot.xlabel('Number of Components')
-    pyplot.ylabel('Fraction of Graphs')
+    plt.figure(2)
+    plt.hist(graphStatArray[:,2], weights=myWeight)
+    plt.xlabel('Number of Components')
+    plt.ylabel('Fraction of Graphs')
 
 # Histogram of largest component size
     myArray = np.true_divide(graphStatArray[:,3], graphStatArray[:,0]);
     myWeight = np.ones_like(myArray) / float(len(myArray))
-    pyplot.figure(3)
-    pyplot.hist(myArray, weights=myWeight)
-    pyplot.xlabel('Fraction of Nodes in Largest Component')
-    pyplot.ylabel('Fraction of Graphs')
+    plt.figure(3)
+    plt.hist(myArray, weights=myWeight)
+    plt.xlabel('Fraction of Nodes in Largest Component')
+    plt.ylabel('Fraction of Graphs')
     
     return
 
@@ -99,25 +99,25 @@ def plotGraphStats(graphStatArray):
 def plotDiGraphStats(diGraphStatArray):
 # Histogram of number of nodes
     myWeight = np.ones_like(diGraphStatArray[:,0]) / float(len(diGraphStatArray[:,0]))
-    pyplot.figure(1)
-    pyplot.hist(diGraphStatArray[:,0], weights=myWeight)
-    pyplot.xlabel('Total Nodes')
-    pyplot.ylabel('Fraction of Graphs')
+    plt.figure(4)
+    plt.hist(diGraphStatArray[:,0], weights=myWeight)
+    plt.xlabel('Total Nodes')
+    plt.ylabel('Fraction of Graphs')
 
 # Histogram of number of components
     myWeight = np.ones_like(diGraphStatArray[:,2]) / float(len(diGraphStatArray[:,2]))
-    pyplot.figure(2)
-    pyplot.hist(diGraphStatArray[:,2], weights=myWeight)
-    pyplot.xlabel('Number of Seed Sets')
-    pyplot.ylabel('Fraction of Genomes')
+    plt.figure(5)
+    plt.hist(diGraphStatArray[:,2], weights=myWeight)
+    plt.xlabel('Number of Seed Sets')
+    plt.ylabel('Fraction of Genomes')
 
 # Histogram of largest component size
     myWeight = np.ones_like(diGraphStatArray[:,3]) / float(len(diGraphStatArray[:,3]))
-    pyplot.figure(3)
-    pyplot.hist(diGraphStatArray[:,3], weights=myWeight)
-    pyplot.xlabel('Number of Compounds in Largest Seed Set')
-    pyplot.ylabel('Fraction of Genomes')
-    
+    plt.figure(6)
+    plt.hist(diGraphStatArray[:,3], weights=myWeight)
+    plt.xlabel('Number of Compounds in Largest Seed Set')
+    plt.ylabel('Fraction of Genomes')
+
     return
 
 # Plot summary statistics of a collection of seed sets. The function plots
@@ -146,38 +146,38 @@ def plotSeedStats(seedSetList, reducedGraphStatArray, modelStatArray):
             mySizeOfSeedSets.append(len(seedSet))
         
     myWeight = np.ones_like(myNumSeedSets) / float(len(myNumSeedSets))
-    pyplot.figure(1)
-    pyplot.hist(myNumSeedSets, weights=myWeight)
-    pyplot.xlabel('Number of Seed Sets')
-    pyplot.ylabel('Fraction of Graphs')
+    plt.figure(7)
+    plt.hist(myNumSeedSets, weights=myWeight)
+    plt.xlabel('Number of Seed Sets')
+    plt.ylabel('Fraction of Graphs')
  
 # Histogram of size of individual seed sets
     myWeight = np.ones_like(mySizeOfSeedSets) / float(len(mySizeOfSeedSets))
-    pyplot.figure(2)
-    pyplot.hist(mySizeOfSeedSets, weights=myWeight)
-    pyplot.xlabel('Metabolites in Seed Set')
-    pyplot.xlim(0, max(mySizeOfSeedSets))
-    pyplot.ylim(0, 1)
-    pyplot.ylabel('Fraction of Seed Sets')
+    plt.figure(8)
+    plt.hist(mySizeOfSeedSets, weights=myWeight)
+    plt.xlabel('Metabolites in Seed Set')
+    plt.xlim(0, max(mySizeOfSeedSets))
+    plt.ylim(0, 1)
+    plt.ylabel('Fraction of Seed Sets')
     
 # Zoomed histogram of size of individual seed sets
-    pyplot.figure(3)
-    [n, bins, patches] = pyplot.hist(mySizeOfSeedSets, weights=myWeight)
-    pyplot.xlabel('Metabolites in Seed Set (Zoomed)')
-    pyplot.xlim(0, max(mySizeOfSeedSets))
-    pyplot.ylim(0, 1.1*n[1])
-    pyplot.ylabel('Fraction of Seed Sets (Zoomed)')
+    plt.figure(9)
+    [n, bins, patches] = plt.hist(mySizeOfSeedSets, weights=myWeight)
+    plt.xlabel('Metabolites in Seed Set (Zoomed)')
+    plt.xlim(0, max(mySizeOfSeedSets))
+    plt.ylim(0, 1.1*n[1])
+    plt.ylabel('Fraction of Seed Sets (Zoomed)')
     
 # Scatter plots of seed sets ize compared to model size, as measured by
 # metabolites or reactions
-    pyplot.figure(4)
-    pyplot.scatter(reducedGraphStatArray[:,0], myNumSeedSets)
-    pyplot.xlabel('Total Number of Metabolites')
-    pyplot.ylabel('Number of Seed Sets')
+    plt.figure(10)
+    plt.scatter(reducedGraphStatArray[:,0], myNumSeedSets)
+    plt.xlabel('Total Number of Metabolites')
+    plt.ylabel('Number of Seed Sets')
     
-    pyplot.figure(5)
-    pyplot.scatter(modelStatArray[:,2], myNumSeedSets)
-    pyplot.xlabel('Total Number of Reactions')
-    pyplot.ylabel('Number of Seed Sets')
+    plt.figure(11)
+    plt.scatter(modelStatArray[:,2], myNumSeedSets)
+    plt.xlabel('Total Number of Reactions')
+    plt.ylabel('Number of Seed Sets')
     
     return
