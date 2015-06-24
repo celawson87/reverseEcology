@@ -30,6 +30,7 @@ import csv
 import itertools
 import os, glob
 import networkx as nx
+import pandas as pd
 
 # Import scipy stack
 import numpy as np
@@ -40,10 +41,10 @@ import scipy.cluster.hierarchy as sch
 
 # Import Python modules 
 # These custom-written modules should have been included with the package
-# distribution. They include functions for working with the SBML models from 
-# KBase (sbmlFunctions and their graph representations (graphFunctions).
-import sbmlFunctions as sf
+# distribution. 
 import graphFunctions as gf
+import metadataFunctions as mf
+import sbmlFunctions as sf
 
 # Define data directories
 # The user should ensure these directories match their data organization scheme
@@ -55,15 +56,9 @@ processedDataDir = 'ProcessedModelFiles'
 summaryStatsDir = 'DataSummaries'
 externalDataDir = 'ExternalData'
 
-# Retrieve list of genomes to process by examing the contents of 
-# 'processedDataDir', ignoring hidden folders. Subsequent computations are 
-# performed by iterating over this list.
-dirList =[]
-for item in os.listdir('../'+processedDataDir):
-    if not item.startswith('.'):
-        dirList.append(item)
 
-numSubDir = len(dirList)
+#%% Actual Program Execution
+
 
 
 #%%
