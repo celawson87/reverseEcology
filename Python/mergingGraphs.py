@@ -24,7 +24,8 @@ processedDataDir = 'MergedData'
 summaryStatsDir = 'DataSummaries/MergedData'
 externalDataDir = 'ExternalData'
         
-#%%        
+#%% Program execution
+
 # Identify all samples belonging to the same tribe
 tribeSampleDict =  mf.importTaxonomy('../ExternalData/taxonomySAGs.csv')
 
