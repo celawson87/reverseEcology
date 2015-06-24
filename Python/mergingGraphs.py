@@ -44,6 +44,8 @@ externalDataDir = 'ExternalData'
 # associated with each tribe
 def importTaxonomy(taxonFile):
     
+    print 'Importing taxonomy'
+
 # Read in the taxonomic classification
     taxonClass = pd.DataFrame.from_csv(taxonFile, sep=',')
     taxonClass = taxonClass.dropna()
@@ -71,6 +73,9 @@ def importTaxonomy(taxonFile):
     # graph is written to file.
     
 def createTribalGraph(tribeSampleDict):
+
+    print 'Merging genomes from individual tribes'
+    
 # Loop over the keys of the dictionary, one for each tribe
     for tribe in tribeSampleDict:
 # Create an empty graph object
@@ -94,6 +99,15 @@ def createTribalGraph(tribeSampleDict):
 
     return
 
+#%%
+def getDirList(inputDir):
+    dirList =[]
+    for item in os.listdir(inputDir):
+        if not item.startswith('.'):
+            dirList.append(item)
+           
+    return dirList
+    
 #%% Compute graph statistics. 
     
 # This functions reads in the adjacency lists from the given directory and creates
@@ -101,14 +115,7 @@ def createTribalGraph(tribeSampleDict):
 # are created using the networkX package. Summary statistics for the graph
 # and directed graph are also reported and written to file.
 
-def computeGraphStats(inputDir):
-
-    dirList =[]
-    for item in os.listdir(inputDir):
-        if not item.startswith('.'):
-            dirList.append(item)
-            
-    numSubDir = len(dirList)
+def computeGraphStats(dirList):
 
 # Create arrays to store summary statistics. Each array has four integer
 # columns, for different properties of the graph: number of nodes (metabolites),
@@ -136,8 +143,6 @@ def computeGraphStats(inputDir):
     print 'Computing Graph Statistics'
 
     for curDir in dirList:
-        print 'Processing directory', count+1, 'of', numSubDir, ':', curDir
-
 # Read in adjacency list and convert to graph object
         myGraph = nx.read_adjlist('../'+processedDataDir+'/'+curDir+'/'+curDir+'AdjList.txt',
                               delimiter='\t', create_using=nx.Graph())
@@ -170,29 +175,12 @@ def computeGraphStats(inputDir):
     graphFile.close()
     diGraphFile.close()
     
-# Plot summary statistics. The function plotGraphStats plots histograms of:
-#   graph size (number of nodes)
-#   total number of components
-#   size of largest compmonent, as fraction of total nodes
-    gf.plotGraphStats(graphStatArray)
-    
     return    
     
 #%% 
 # Reduction to largest component.
 
-def reduceToLargeComponent(inputDir):
-    
-    dirList =[]
-    for item in os.listdir(inputDir):
-        if not item.startswith('.'):
-            dirList.append(item)
-            
-    numSubDir = len(dirList)
-    
-# The results of the previous code cell indicate the largest component 
-# contains at least 97% of the metabolites in the cell. I believe we can 
-# safely discard the remainder. These nodes are also discarded from the digraph.
+def reduceToLargeComponent(dirList):
 
 # Create arrays to store summary statistics. Each array has four integer
 # columns, for different properties of the graph: number of nodes (metabolites),
@@ -219,7 +207,6 @@ def reduceToLargeComponent(inputDir):
     print 'Reducing to Largest Component'
 
     for curDir in dirList:
-        print 'Processing directory', count+1, 'of', numSubDir, ':', curDir
     
 # Read in adjacency list and convert to graph object
         myGraph = nx.read_adjlist('../'+processedDataDir+'/'+curDir+'/'+curDir+'AdjList.txt',
@@ -265,6 +252,279 @@ def reduceToLargeComponent(inputDir):
     reducedDiGraphFile.close()
     
     return
+    
+#%% 
+    
+def computeSeedSets(dirList):
+        
+# Computation of seed sets.
+
+# This code cell does a number of things. First, it computes the strongly 
+# connected components (SCCs) of the reduced digraph. An SCC is a group of
+#  nodes, such that from each node there exists a path to all other nodes in 
+# the component. SCCs are candidates for seed sets.
+
+# Second, SCCs are evaluated to see if they are seed sets: any SCC with no 
+# outgoing edges is a seed set. This is done by converting the digraph to its 
+# condensation (a new graph) in which each SCC is represented as a single
+# node. 
+
+# Third, seed sets are written to file and summary statistics are computed
+# for each seed set. Additional statistics on the reduced graph and digraph
+# are also computed.
+
+# Create lists to store seed sets
+# seedSetList is a list of lists. Each outer list contains all the seed sets
+# for that graph.
+    seedSetList = []
+
+# Iterate over the list of genome directories. For each reduced digraph, 
+# identify its condensation (SCCs). For each node of the SCC, check if it
+# is a seed set by computing its in-degree. If yes, append the SCC (as a list
+# of nodes) to the list of seed sets. Then compute some summary statistics.
+    count = 0
+    print 'Computing Seed Sets'
+
+    for curDir in dirList:
+
+# Read in adjacency list and convert to digraph object
+        myDiGraph = nx.read_adjlist('../'+processedDataDir+'/'+curDir+'/'+curDir+'AdjList.txt',
+                                delimiter='\t', create_using=nx.DiGraph())                            
+
+# Compute the list of SCCs for the digraph as well as its condensation
+        mySCCList = list(nx.strongly_connected_components_recursive(myDiGraph))
+        myCondensation = nx.condensation(myDiGraph)
+
+# "List of lists" of seed metabolites. Each element is a list of nodes belonging
+# to an SCC which is also a seed set.
+        mySeeds = []    
+
+# For each node (SCC) of the condensation, examine each its in-degree. If the
+# in-degree is zero (only outgoing edges), the SCC is a seed set. Append the
+# SCC (as a list of nodes) to the list of seed sets.
+        for node in myCondensation.nodes():
+            inDeg = myCondensation.in_degree(node)
+            if inDeg == 0:
+                mySeeds.append(mySCCList[node])
+            seedSetList.append(mySeeds)
+
+# Record seed metabolites for each graph. Each row of the output file contains
+# the metabolites belonging to a single seed set.
+        seedSets = open('../'+processedDataDir+'/'+curDir+'/'+curDir+'SeedSets.txt', 'w')
+        writer = csv.writer(seedSets)
+        writer.writerows(mySeeds)
+        seedSets.close()
+    
+# Update the list of seed metabolites: replace the Model SEED metabolite 
+# identifier with its common name. Note: The file metabMap.csv was created 
+# manually from the seed database, and should be updated to reflect the 
+# particulars of your data set. As above, record the seed metabolite for each
+# graph.
+
+# First read metabMap.csv in as a dictionary
+        with open('../'+externalDataDir+'/'+'metabMap.csv', mode='rU') as inFile:
+            reader = csv.reader(inFile)
+            namesDict = dict((rows[0],rows[1]) for rows in reader)
+        
+# For each compound in the set of seeds, use the dictionary to replace it with
+# its common name. Then write to file.
+        mySeedsNames = [[namesDict[metab] for metab in seed] for seed in mySeeds]    
+
+        seedSets = open('../'+processedDataDir+'/'+curDir+'/'+curDir+'SeedSetsWNames.txt', 'w')
+        writer = csv.writer(seedSets)
+        writer.writerows(mySeedsNames)
+        seedSets.close()
+    
+# Record weights for each seed metabolite. Each row of the output file contains
+# a metabolite and its weight (1 / size of the seed set). Construct for seeds
+# using both IDs and names.
+        seedWeights = open('../'+processedDataDir+'/'+curDir+'/'+curDir+'SeedWeights.txt', 'w')
+        for seed in mySeeds:
+            myWeight = 1 / float(len(seed))
+            for metab in seed:
+                seedWeights.write('%s,%f\n' % (metab, myWeight) )
+        seedWeights.close()
+    
+        seedWeights = open('../'+processedDataDir+'/'+curDir+'/'+curDir+'SeedWeightsWNames.txt', 'w')
+        for seed in mySeedsNames:
+            myWeight = 1 / float(len(seed))
+            for metab in seed:
+                seedWeights.write('%s,%f\n' % (metab, myWeight) )
+        seedWeights.close()
+    
+        count = count + 1
+
+    return
+
+
+#%% Consolidation seed weights into a single data frame.
+# This code snippet reads in the seed metabolites and their weights for each 
+# genome. The data is read into a dataframe and then written to file. Structure:
+# Rows: metabolites
+# Columns: graphs
+# Entries: unweighted seed set values
+
+def consolidateSeeds(dirList):
+    
+    print 'Consolidate seed sets'
+        
+# Create a data frame to store the data
+    seedMatrixDF = pd.DataFrame(columns=["Metabolite"])
+
+# Read in list of seed weights into a temporary data frame. Perform an outer
+# join with the existing data frame to incorporate the new list of weights.
+    for curDir in dirList:
+        tempDF = pd.read_csv('../'+processedDataDir+'/'+curDir+'/'+curDir+'SeedWeights.txt', names=['Metabolite',curDir])
+        seedMatrixDF = pd.merge(seedMatrixDF, tempDF, how='outer', on="Metabolite")
+
+# Replace all the NaN values with zeros
+    seedMatrixDF.fillna(0, inplace=True)
+
+# Append a new column containing common names associated with metabolite IDs.
+# The file metabMap.csv was created manually from the seed database, and should
+# be updated to reflect the particulars of your data set.
+    namesDF = pd.read_csv('../'+externalDataDir+'/'+'metabMap.csv', names=['Metabolite','CommonName'])
+    seedMatrixDF = pd.merge(seedMatrixDF, namesDF, how='inner', on="Metabolite")
+
+# Rearrange the order of the columns so that the common name is in front
+    newOrder = seedMatrixDF.columns.tolist()
+    newOrder = newOrder[-1:] + newOrder[:-1]
+    seedMatrixDF = seedMatrixDF[newOrder]
+    
+# Export the matrix of seed weights
+    pd.DataFrame.to_csv(seedMatrixDF, '../'+summaryStatsDir+'/'+'seedMatrixWeighted.csv')
+    
+    return seedMatrixDF
+
+
+#%% Clustering and Visualization of Seed Sets
+
+def clusterSeedSets(seedMatrixDF):
+# This code snippet creates a dendrogram of the seed sets. The genomes are
+# clustered based on weighted vectors of seed sets, using the euclidean
+# distance and UPGMA (average linkage) clustering. A second dendrogram is
+# constructed based on metabolite weights across genomes. Then, the matrix
+# of seed weights is reordered to reflect the order of the dendrograms and is
+# visualized. Genome names are colored according to their lineage, with acI
+# sub-divided into acI-A and acI-B.
+
+    print 'Computing dendrogram'
+    
+# Python clustering algorithms require the data to be an ndarray, with each
+# row corresponding to a set of observations. Thus, calculation of the linkage
+# for the genomes must be performed on the transpose.
+    seedMatrix=pd.DataFrame.as_matrix(seedMatrixDF.drop(['CommonName','Metabolite'], 1))
+    seedMatrixT=np.transpose(pd.DataFrame.as_matrix(seedMatrixDF.drop(['CommonName','Metabolite'], 1)))
+
+# Create a figure to display the seed weights and dendrograms.
+    fig = plt.figure(figsize=(7.5, 61))
+
+# Compute and plot dendrogram for genomes, which will be above the graph.
+# Define the size of the dendrogram
+    ax1 = fig.add_axes([0.05,0.9,0.8,0.05], frame_on=False)
+# Compute the linkage matrix
+    genomeLinkage = sch.linkage(seedMatrixT, method='average', metric='euclidean')
+# Compute the dendrogram
+    genomeClust = sch.dendrogram(genomeLinkage, distance_sort='True', color_threshold=0)
+# No tick marks along axes
+    ax1.set_xticks([])
+    ax1.set_yticks([])
+
+# Compute and plot dendrogram for metabolites which will be beside the graph. 
+# Define the size of the dendrogram
+    ax2 = fig.add_axes([0,0.1,0.05,0.8], frame_on=False)
+# Compute the linkage matrix
+    metabLinkage = sch.linkage(seedMatrix, method='average', metric='euclidean')
+# Compute the dendrogram
+    metabClust = sch.dendrogram(metabLinkage, orientation='right', color_threshold=0)
+# No tick marks along axes
+    ax2.set_xticks([])
+    ax2.set_yticks([])
+    
+# Plot the matrix of seed weights.
+# Define the size of the plot
+    axmatrix = fig.add_axes([0.05,0.1,0.8,0.8])
+# Determine ordering of the dendrograms and rearrange the weight matrix
+    idx1 = genomeClust['leaves']
+    idx2 = metabClust['leaves']
+    seedMatrix = seedMatrix[:,idx1]
+    seedMatrix = seedMatrix[idx2,:]
+# Plot the weight matrix
+    im = axmatrix.matshow(seedMatrix, aspect='auto', origin='lower')
+# No tick marks along axes
+    axmatrix.set_xticks([])
+    axmatrix.set_yticks([])
+
+# Import coloration info to map to genome names. Rearrange to same order as
+# leaves of the dendrogram and extract the 'Color' column as a list.
+# The file 'actinoColors.csv' will need to be updated for the specific samples.
+    genomeColors = pd.read_csv('../'+externalDataDir+'/'+'tribalColors.csv')
+    genomeColors = genomeColors['Color'].tolist()
+    genomeColors = [ genomeColors[i] for i in idx1]
+
+# Add genome names to the bottom axis
+    axmatrix.set_xticks(range(len(seedMatrixT)))
+    axmatrix.set_xticklabels([dirList[i] for i in idx1], minor=False)
+    axmatrix.xaxis.set_label_position('bottom')
+    axmatrix.xaxis.tick_bottom()
+    plt.xticks(rotation=-90, fontsize=8)
+    for xtick, color in zip(axmatrix.get_xticklabels(), genomeColors):
+        xtick.set_color(color)
+
+# Add metabolite names to the right axis
+    axmatrix.set_yticks(range(len(seedMatrix)))
+    axmatrix.set_yticklabels([seedMatrixDF['CommonName'][i] for i in idx2], minor=False)
+    axmatrix.yaxis.set_label_position('right')
+    axmatrix.yaxis.tick_right()
+    plt.yticks(fontsize=8)
+
+# Plot colorbar.
+    axcolor = fig.add_axes([0.97,0.9,0.03,0.05])
+    plt.colorbar(im, cax=axcolor)
+    fig.show()
+    fig.savefig('../'+summaryStatsDir+'/'+'seedSetDendrogram.png')
+
+#%% Clustering and Visualization of Seed Sets
+
+def clusterOnly(seedMatrixDF):
+
+    seedMatrix=pd.DataFrame.as_matrix(seedMatrixDF.drop(['CommonName','Metabolite'], 1))
+    seedMatrixT=np.transpose(pd.DataFrame.as_matrix(seedMatrixDF.drop(['CommonName','Metabolite'], 1)))
+
+# Create a figure to display the seed weights and dendrograms.
+    fig = plt.figure(figsize=(7,2))
+    
+# Define the size of the dendrogram
+    ax1 = fig.add_axes([0, 0, 1, 1], frame_on=False)
+# Compute the linkage matrix
+    genomeLinkage = sch.linkage(seedMatrixT, method='average', metric='euclidean')
+# Compute the dendrogram
+    genomeClust = sch.dendrogram(genomeLinkage, distance_sort='True', color_threshold=0)
+    idx1 = genomeClust['leaves']
+# No tick marks along axes
+    ax1.set_xticks([])
+    ax1.set_yticks([])
+
+# Import coloration info to map to genome names. Rearrange to same order as
+# leaves of the dendrogram and extract the 'Color' column as a list.
+# The file 'actinoColors.csv' will need to be updated for the specific samples.
+    genomeColors = pd.read_csv('../'+externalDataDir+'/'+'tribalColors.csv')
+    genomeColors = genomeColors['Color'].tolist()
+    genomeColors = [ genomeColors[i] for i in idx1]
+    
+    axisLength = 1- (1/float(len(dirList)))
+    axisStart = (1 - axisLength) / 2
+# Add genome names to the bottom axis
+    ax2 = fig.add_axes([axisStart, 0, axisLength, 0], frame_on=False)
+    ax2.set_xticks([])
+    ax2.set_yticks([])
+    ax2.set_xticks(range(len(seedMatrixT)))
+    ax2.set_xticklabels([dirList[i] for i in idx1], minor=False)
+    ax2.xaxis.set_label_position('bottom')
+    ax2.xaxis.tick_bottom()
+    plt.xticks(rotation=-90, fontsize=8)
+    for xtick, color in zip(ax2.get_xticklabels(), genomeColors):
+        xtick.set_color(color)
 
 
 #%% Actual program operation
@@ -272,5 +532,11 @@ def reduceToLargeComponent(inputDir):
 # prereq functions have been called.    
 tribeSampleDict =  importTaxonomy('../ExternalData/taxonomySAGs.csv')
 createTribalGraph(tribeSampleDict)
-computeGraphStats('../'+processedDataDir)
-reduceToLargeComponent('../'+processedDataDir)
+dirList = getDirList('../'+processedDataDir)
+numSubDir = len(dirList)
+computeGraphStats(dirList)
+reduceToLargeComponent(dirList)
+computeSeedSets(dirList)
+seedMatrixDF = consolidateSeeds(dirList)
+clusterSeedSets(seedMatrixDF)
+clusterOnly(seedMatrixDF)
