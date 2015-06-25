@@ -29,16 +29,18 @@ dirList = mf.getDirList('../'+processedDataDir)
 numSubDir = len(dirList)
 
 # Convert SBML model files to adjacency lists
-sf.dirListToAdjacencyList(dirList, externalDataDir, processedDataDir, summaryStatsDir)
+modelStatArray = sf.dirListToAdjacencyList(dirList, externalDataDir, processedDataDir, summaryStatsDir)
 
 # Compute statistics on the size of metabolic network graphs
-gf.computeGraphStats(dirList, processedDataDir, summaryStatsDir)
+graphStatArray, diGraphStatArray = gf.computeGraphStats(dirList, processedDataDir, summaryStatsDir)
+gf.plotGraphStats(graphStatArray)
 
 # Reduce network graphs to their largest component
-gf.reduceToLargeComponent(dirList, processedDataDir, summaryStatsDir)
+reducedGraphStatArray = gf.reduceToLargeComponent(dirList, processedDataDir, summaryStatsDir)
 
 # Compute seed sets
-gf.computeSeedSets(dirList, externalDataDir, processedDataDir)
+seedSetList = gf.computeSeedSets(dirList, externalDataDir, processedDataDir)
+gf.plotSeedStats(seedSetList, reducedGraphStatArray, modelStatArray)
 
 # Aggregate seed sets for all models and write to file
 seedMatrixDF = ef.consolidateSeeds(dirList, externalDataDir, processedDataDir, summaryStatsDir)

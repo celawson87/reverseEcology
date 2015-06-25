@@ -56,7 +56,7 @@ def consolidateSeeds(dirList, externalDataDir, processedDataDir, summaryStatsDir
     revEcolMatrixDF = revEcolMatrixDF[newOrder]
     
 # Export the matrix of seed weights
-    pd.DataFrame.to_csv(revEcolMatrixDF, '../'+summaryStatsDir+'/'+'revEcolMatrixWeighted.csv')
+    pd.DataFrame.to_csv(revEcolMatrixDF, '../'+summaryStatsDir+'/'+'seedMatrixWeighted.csv')
     
     return revEcolMatrixDF
 

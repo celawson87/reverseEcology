@@ -303,7 +303,7 @@ def computeGraphStats(dirList, processedDataDir, summaryStatsDir):
     graphFile.close()
     diGraphFile.close()
     
-    return    
+    return graphStatArray, diGraphStatArray
     
 ################################################################################
 
@@ -385,7 +385,7 @@ def reduceToLargeComponent(dirList, processedDataDir, summaryStatsDir):
     reducedGraphFile.close()
     reducedDiGraphFile.close()
     
-    return
+    return reducedGraphStatArray
     
 ################################################################################
 
@@ -443,7 +443,7 @@ def computeSeedSets(dirList, externalDataDir, processedDataDir):
             inDeg = myCondensation.in_degree(node)
             if inDeg == 0:
                 mySeeds.append(mySCCList[node])
-            seedSetList.append(mySeeds)
+        seedSetList.append(mySeeds)
 
 # Record seed metabolites for each graph. Each row of the output file contains
 # the metabolites belonging to a single seed set.
@@ -491,4 +491,4 @@ def computeSeedSets(dirList, externalDataDir, processedDataDir):
     
         count = count + 1
 
-    return
+    return seedSetList

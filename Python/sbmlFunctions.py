@@ -76,7 +76,7 @@ def dirListToAdjacencyList(dirList, externalDataDir, processedDataDir, summarySt
     for key, value in namesDict.items():
         writer.writerow([key, value])
    
-    return
+    return modelStatArray
 
 ################################################################################
 
