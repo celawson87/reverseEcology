@@ -20,8 +20,9 @@ import scipy.cluster.hierarchy as sch
 
 ################################################################################ 
 
+# consolidateSeeds
 # Consolidation seed weights into a single data frame.
-# This code snippet reads in the seed metabolites and their weights for each 
+# This function reads in the seed metabolites and their weights for each 
 # genome. The data is read into a dataframe and then written to file. Structure:
 # Rows: metabolites
 # Columns: graphs
@@ -61,20 +62,28 @@ def consolidateSeeds(dirList, externalDataDir, processedDataDir, summaryStatsDir
 
 ################################################################################ 
 
+# normalizedSeedCounts
+# This function reads in the seed compounds for all metabolic networks in the
+# given directory, and computes the frequency with which a compound appears
+# in the genomes.
+
 def normalizedSeedCounts(dirList, processedDataDir, summaryStatsDir):
 
     numSubDir = len(dirList)
     print 'Computing normalized seed counts'
+
 # Read in the seed sets from file
 # seedSetList is a list of lists. Each outer list contains all the seed sets
 # for that graph.
     seedSetList = []
     
     for curDir in dirList:
+
 # read in list of seed sets for the current genome
         with open('../'+processedDataDir+'/'+curDir+'/'+curDir+'SeedSets.txt', 'r') as mySeedFile:
             reader = csv.reader(mySeedFile, delimiter=',')
             mySeedSet = list(reader)
+
 # Append list of seeds to the master list
         seedSetList.append(mySeedSet)
     
@@ -90,8 +99,10 @@ def normalizedSeedCounts(dirList, processedDataDir, summaryStatsDir):
 # Normalize
     for key, value in seedMetabCount.items():
         seedMetabCount[key] = float(value) / numSubDir
+
 # Convert to a list of tuples
     seedMetabCountList = seedMetabCount.most_common()
+
 # Write to file
     seedCounts = open('../'+summaryStatsDir+'/SeedCounts.txt', 'wb')
     seedCounts.write('Seed Metabolite,Frequency\n')
@@ -103,16 +114,15 @@ def normalizedSeedCounts(dirList, processedDataDir, summaryStatsDir):
 
 ################################################################################ 
 
-# Clustering and Visualization of a matrix dataframe
-
-def clusterSeedSets(revEcolMatrixDF, dirList, externalDataDir, summaryStatsDir, colorFile):
-# This code snippet creates a dendrogram of the seed sets. The genomes are
+# clusterSeedSets
+# This function creates a dendrogram of the seed sets. The genomes are
 # clustered based on weighted vectors of seed sets, using the euclidean
 # distance and UPGMA (average linkage) clustering. A second dendrogram is
 # constructed based on metabolite weights across genomes. Then, the matrix
 # of seed weights is reordered to reflect the order of the dendrograms and is
-# visualized. Genome names are colored according to their lineage, with acI
-# sub-divided into acI-A and acI-B.
+# visualized. Genome names are colored as specified in colorFile.
+
+def clusterSeedSets(revEcolMatrixDF, dirList, externalDataDir, summaryStatsDir, colorFile):
 
     print 'Computing dendrogram'
     
@@ -191,7 +201,11 @@ def clusterSeedSets(revEcolMatrixDF, dirList, externalDataDir, summaryStatsDir, 
     fig.savefig('../'+summaryStatsDir+'/'+'seedSetDendrogram.png')
 
 ################################################################################ 
-# Clustering and Visualization of Seed Sets
+
+# clusterOnly
+# The dendrogram of the seed sets is quite large, making it difficult to see
+# how the genome cluster. This function displays just the dendrogram of the 
+# genomes, based on weighted vectors of seed sets.
 
 def clusterOnly(revEcolMatrixDF, dirList, externalDataDir, colorFile):
 
@@ -221,6 +235,7 @@ def clusterOnly(revEcolMatrixDF, dirList, externalDataDir, colorFile):
     
     axisLength = 1- (1/float(len(dirList)))
     axisStart = (1 - axisLength) / 2
+
 # Add genome names to the bottom axis
     ax2 = fig.add_axes([axisStart, 0, axisLength, 0], frame_on=False)
     ax2.set_xticks([])
@@ -236,6 +251,7 @@ def clusterOnly(revEcolMatrixDF, dirList, externalDataDir, colorFile):
 ################################################################################ 
 
 # Reverse Ecology Metric: Metabolic Competition Index
+# computeMetabCompete
 
 # The metabolic competition index (MII) indicates the competitive potential 
 # between two organisms. For two organisms A and B, MII is calculated as the 
@@ -244,7 +260,7 @@ def clusterOnly(revEcolMatrixDF, dirList, externalDataDir, colorFile):
 # this metric is calculated as a normalized weighted sum. Note that this 
 # metric is non-symmetric.
 
-# This segment computes the MII between all pairs of genomes. A nested loop
+# This function computes the MII between all pairs of genomes. A nested loop
 # is used to iterate all over all pairs of genomes, and a dataframe is used to
 # store the MII for each pair. First, the weighted seed sets for each genome
 # are read into dataframes. The overlap between sets is performed using an
@@ -264,17 +280,22 @@ def computeMetabCompete(dirList, processedDataDir, summaryStatsDir):
 # organism A and innerDir to organism B
     for outerDir in dirList:
         for innerDir in dirList:
+
 # Read in the list of seed sets and their weights for organisms A and B
             seedWeightOuter = pd.read_csv('../'+processedDataDir+'/'+outerDir+'/'+outerDir+'SeedWeights.txt', 
                                       header=None, names=['Metabolite', 'Outer Weight'])
             seedWeightInner = pd.read_csv('../'+processedDataDir+'/'+innerDir+'/'+innerDir+'SeedWeights.txt', 
                                       header=None, names=['Metabolite', 'Inner Weight'])
+
 # Compute the overlap between seed sets using an inner join
             overlapSeeds = pd.merge(seedWeightOuter, seedWeightInner, on='Metabolite')
+
 # Sum seed compound weights for the overlap between A and B
             upperSum = overlapSeeds.loc[:,'Outer Weight'].sum()
+
 # Sum seed compound weights for the seed set of A
             lowerSum = seedWeightOuter.loc[:,'Outer Weight'].sum()
+
 # The MII is the ratio of these two values. Compute and store.
             metabCompete.loc[outerDir, innerDir] = upperSum / lowerSum
 
@@ -286,6 +307,7 @@ def computeMetabCompete(dirList, processedDataDir, summaryStatsDir):
 ################################################################################ 
 
 # Reverse Ecology Metric: Metabolic Complementarity Index
+# computeMetabComplement
 
 # The metabolic complementarity index (MCI) indicates the complementarity of
 # two organisms' niches. For two organisms A and B, MCI is calculated as the 
@@ -293,7 +315,7 @@ def computeMetabCompete(dirList, processedDataDir, summaryStatsDir):
 # of B, but not in B's seed set. MCI can range from 0 to 1. Note that this 
 # metric is non-symmetric.
 
-# This segment computes the MCI between all pairs of genomes. A nested loop
+# This function computes the MCI between all pairs of genomes. A nested loop
 # is used to iterate all over all pairs of genomes, and a dataframe is used to
 # store the MCI for each pair. First, the weighted seed sets for each genome
 # are read into dataframes. Then, the metabolic network of B is read in as a 
@@ -315,19 +337,25 @@ def computeMetabComplement(dirList, processedDataDir, summaryStatsDir):
 # organism A and innerDir to organism B
     for outerDir in dirList:
         for innerDir in dirList:
+
 # Read in the list of seed sets and their weights for organisms A and B
             seedWeightOuter = pd.read_csv('../'+processedDataDir+'/'+outerDir+'/'+outerDir+'SeedWeights.txt', header=None, names=['Metabolite', 'Outer Weight'])
+
 # Read in the lists of seed compounds and all compounds for the inner genome
             seedWeightInner = pd.read_csv('../'+processedDataDir+'/'+innerDir+'/'+innerDir+'SeedWeights.txt', header=None, names=['Metabolite', 'Inner Weight'])
+
 # Read in the metabolic network of B via its adjancency list representation and
 # converts it to a pandas Dataframe. First, the list of nodes is extracted from
 # the graph. The list is then converted to a pandas Series, embedded in a dict,
 # and used to create a dataframe of the nodes.
             allNodesInner = pd.DataFrame({'Metabolite' : pd.Series(nx.read_adjlist('../'+processedDataDir+'/'+innerDir+'/'+innerDir+'AdjList.txt',delimiter='\t', create_using=nx.DiGraph()).nodes())})
+
 # Compute the list of non-seed compounds for organisms B
             nonSeedsInner = allNodesInner[~allNodesInner.Metabolite.isin(seedWeightInner.Metabolite)]
+
 # Compute the overlap between A's seeds and B's non-seeds
             overlapSeeds = pd.merge(seedWeightOuter, nonSeedsInner, on='Metabolite')
+
 # Compute the ratio of these two sets
             metabComplement.loc[outerDir, innerDir] = float(len(overlapSeeds)) / float(len(seedWeightOuter))
 
@@ -339,12 +367,13 @@ def computeMetabComplement(dirList, processedDataDir, summaryStatsDir):
 ################################################################################ 
     
 # Clustering and Visualization of a matrix dataframe
+# clusterPairwise
 
-# This code snippet creates a dendrogram of the metabolic complementarity 
-# scores. The genomes are clustered using the euclidean distance and UPGMA 
-# (average linkage) clustering. Because the scores are non-symmetric, each 
-# axis will have separate clustering. Genome names are colored according to 
-# their lineage, with acI sub-divided into acI-A and acI-B.
+# This function creates a dendrogram of pairwise reverse ecology metric, such 
+# as metabolic complementarity scores. The genomes are clustered using the 
+# euclidean distance and UPGMA (average linkage) clustering. Because the scores 
+# are non-symmetric, each axis will have separate clustering. Genome names are
+# colored as specified in colorFile.
 
 def clusterPairwise(revEcolMatrixDF, dirList, externalDataDir, summaryStatsDir, colorFile, fileName):
 # Python clustering algorithms require the data to be an ndarray, with each

@@ -13,8 +13,32 @@
 import os, glob
 import pandas as pd
 
-# This function reads in a taxonomy and returns a dict containing the genomes
-# associated with each tribe
+################################################################################
+
+# getDirList
+# Retrieve list of genomes to process by examing the contents of 'inputDir,'
+# ignoring hidden folders. Each folder contains data files for that genome 
+# (e.g., metabolic models, network graphs, etc), and calculations are performed
+# performed by iterating over this list.
+
+def getDirList(inputDir):
+    dirList =[]
+    for item in os.listdir(inputDir):
+        if not item.startswith('.'):
+            dirList.append(item)
+            
+    return dirList
+    
+################################################################################
+
+# importTaxonomy
+# This function reads in a taxonomy file and returns a dicttionary containing 
+# the genomes associated with each tribe. The file should a csv file organized
+# as follows:
+# Sample	Lineage	Clade	Tribe
+# AAA023D18	acI	acI-B	acI-B1
+# The function could be updated to take (lineage, clade, tribe) as input
+
 def importTaxonomy(taxonFile):
     
     print 'Importing taxonomy'
@@ -38,15 +62,3 @@ def importTaxonomy(taxonFile):
         tribeSampleDict[tribe] = samples
         
     return tribeSampleDict
-    
-    
-# Retrieve list of genomes to process by examing the contents of 
-# 'processedDataDir', ignoring hidden folders. Subsequent computations are 
-# performed by iterating over this list.
-def getDirList(inputDir):
-    dirList =[]
-    for item in os.listdir(inputDir):
-        if not item.startswith('.'):
-            dirList.append(item)
-            
-    return dirList

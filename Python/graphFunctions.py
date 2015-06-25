@@ -6,10 +6,8 @@
 # URL: http://http://mcmahonlab.wisc.edu/
 # All rights reserved.
 ################################################################################
-# Set of functions for manipulating SBML files
+# Set of functions for working with networkx graph objects.
 ################################################################################
-
-# This module contains functions for working with networkx graph objects.
 
 # Import Python packages.
 #import math
@@ -24,10 +22,12 @@ import itertools
 
 ################################################################################
 
+# getGraphStats
 # Function to retrieve statistics about a graph
 # Input: network object of a graph
 # Output: array with four integer columns, containing the number of nodes 
 # (metabolites), edges, total components, and size of the largest component.
+
 def getGraphStats(graph):
     statRow = [0]*4
     statRow[0] = graph.number_of_nodes()
@@ -40,10 +40,12 @@ def getGraphStats(graph):
 
 ################################################################################
 
+# getDiGraphStats
 # Function to retrieve statistics about a digraph
 # Input: network object of a digraph
 # Output: array with four integer columns, containing the number of nodes 
 # (metabolites), edges, total components, and size of the largest component.
+
 def getDiGraphStats(diGraph):
     statRow = [0]*4
     statRow[0] = diGraph.number_of_nodes()
@@ -56,6 +58,7 @@ def getDiGraphStats(diGraph):
 
 ################################################################################
 
+# plotGraphStats
 # Plot summary statistics of a collection of graph objects. The function plots
 # historams of:
 #   graph size (number of nodes)
@@ -93,6 +96,7 @@ def plotGraphStats(graphStatArray):
 
 ################################################################################
 
+# plotDiGraphStats
 # Plot summary statistics of a collection of digraph objects. The function plots
 # historams of:
 #   digraph size (number of nodes)
@@ -129,6 +133,7 @@ def plotDiGraphStats(diGraphStatArray):
 
 ################################################################################
 
+# plotSeedStats
 # Plot summary statistics of a collection of seed sets. The function plots
 # historams of:
 #   digraph size (number of nodes)
@@ -194,6 +199,7 @@ def plotSeedStats(seedSetList, reducedGraphStatArray, modelStatArray):
     
 ################################################################################
     
+# createTribalGraph
 # In this function, all samples from a tribe are identified. Each sample is
 # converted to a graph object and merged with the previous graph. The final
 # graph is written to file.
@@ -204,18 +210,20 @@ def createTribalGraph(tribeSampleDict, processedDataDir, rawModelDir):
     
 # Loop over the keys of the dictionary, one for each tribe
     for tribe in tribeSampleDict:
+
 # Create an empty graph object
         tribalGraph = nx.DiGraph()
+
 # Read in the graph of the tribe and merge with the graph from the previous
 # iteration
         for sample in tribeSampleDict[tribe]:
+
 # Read in adjacency list and convert to digraph object
             myDiGraph = nx.read_adjlist('../'+rawModelDir+'/'+sample+'/'+sample+'AdjList.txt',
                                 delimiter='\t', create_using=nx.DiGraph())
+
 # Append to the previous graph
             tribalGraph = nx.compose(tribalGraph, myDiGraph)
-# Fix edge weights to remove duplicate edges
-# Find the largest SCC and reduce the graph to its SCC
 
 # Check that the proper output directory exists. It not, create it.
         if not os.path.exists('../'+processedDataDir+'/'+tribe):
@@ -227,10 +235,11 @@ def createTribalGraph(tribeSampleDict, processedDataDir, rawModelDir):
 
 ################################################################################
     
-# This functions reads in the adjacency lists from the given directory and creates
-# graph and directed graph (digraph) representations of each list. The objects
-# are created using the networkX package. Summary statistics for the graph
-# and directed graph are also reported and written to file.
+# computeGraphStats
+# This functions reads in the adjacency lists from the given directory and 
+# creates graph and directed graph (digraph) representations of each list. The 
+# objects are created using the networkX package. Summary statistics for the 
+# graph and directed graph are also reported and written to file.
 
 def computeGraphStats(dirList, processedDataDir, summaryStatsDir):
     
@@ -298,9 +307,10 @@ def computeGraphStats(dirList, processedDataDir, summaryStatsDir):
     
 ################################################################################
 
-# The results of the previous code cell indicate the largest component 
-# contains at least 97% of the metabolites in the cell. I believe we can 
-# safely discard the remainder. These nodes are also discarded from the digraph.
+# reduceToLargeComponent
+# This function iterates over a list of genomes and identifies the largest
+# component of that genome's network graph. Nodes outside of this component are
+# discarded, and the reduced graph is written to file.
     
 def reduceToLargeComponent(dirList, processedDataDir, summaryStatsDir):
     
@@ -378,14 +388,15 @@ def reduceToLargeComponent(dirList, processedDataDir, summaryStatsDir):
     return
     
 ################################################################################
-    
-def computeSeedSets(dirList, externalDataDir, processedDataDir):
-        
-# Computation of seed sets.
 
-# This code cell does a number of things. First, it computes the strongly 
-# connected components (SCCs) of the reduced digraph. An SCC is a group of
-#  nodes, such that from each node there exists a path to all other nodes in 
+# Computation of seed sets.
+# computeSeedSets
+
+# This function computes the seed compounds of a metabolic network graph.
+
+# First, it computes the strongly connected components (SCCs) of the reduced 
+# digraph (from function 'reduceToLargestComponent'). An SCC is a group of
+# nodes, such that from each node there exists a path to all other nodes in 
 # the component. SCCs are candidates for seed sets.
 
 # Second, SCCs are evaluated to see if they are seed sets: any SCC with no 
@@ -396,7 +407,9 @@ def computeSeedSets(dirList, externalDataDir, processedDataDir):
 # Third, seed sets are written to file and summary statistics are computed
 # for each seed set. Additional statistics on the reduced graph and digraph
 # are also computed.
-
+    
+def computeSeedSets(dirList, externalDataDir, processedDataDir):
+        
 # Create lists to store seed sets
 # seedSetList is a list of lists. Each outer list contains all the seed sets
 # for that graph.
