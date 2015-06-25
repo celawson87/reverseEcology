@@ -50,5 +50,5 @@ gf.computeSeedSets(dirList, externalDataDir, processedDataDir)
 seedMatrixDF = ef.consolidateSeeds(dirList, externalDataDir, processedDataDir, summaryStatsDir)
 
 # Construct heatmap of seed metabs. Cluster seed profiles and create dendrogram
-ef.clusterSeedSets(seedMatrixDF, dirList, externalDataDir, summaryStatsDir)
-ef.clusterOnly(seedMatrixDF, dirList, externalDataDir)
+ef.clusterSeedSets(seedMatrixDF, dirList, externalDataDir, summaryStatsDir, 'tribalColors.csv')
+ef.clusterOnly(seedMatrixDF, dirList, externalDataDir, 'tribalColors.csv')

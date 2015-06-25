@@ -39,3 +39,20 @@ gf.reduceToLargeComponent(dirList, processedDataDir, summaryStatsDir)
 
 # Compute seed sets
 gf.computeSeedSets(dirList, externalDataDir, processedDataDir)
+
+# Aggregate seed sets for all models and write to file
+seedMatrixDF = ef.consolidateSeeds(dirList, externalDataDir, processedDataDir, summaryStatsDir)
+
+# Calculate normalized counts of seed metabolites
+ef.normalizedSeedCounts(dirList, processedDataDir, summaryStatsDir)
+
+# Construct heatmap of seed metabs. Cluster seed profiles and create dendrogram
+ef.clusterSeedSets(seedMatrixDF, dirList, externalDataDir, summaryStatsDir, 'actinoColors.csv')
+ef.clusterOnly(seedMatrixDF, dirList, externalDataDir, 'actinoColors.csv')
+
+# Compute metabolic competition and cooperation scores
+metabCompeteDF = ef.computeMetabCompete(dirList, processedDataDir, summaryStatsDir)
+ef.clusterPairwise(metabCompeteDF, dirList, externalDataDir, summaryStatsDir, 'actinoColors.csv', 'metabolicCompetition.png')
+
+metabComplementDF = ef.computeMetabComplement(dirList, processedDataDir, summaryStatsDir)
+ef.clusterPairwise(metabComplementDF, dirList, externalDataDir, summaryStatsDir, 'actinoColors.csv', 'metabolicComplementarity.png')
