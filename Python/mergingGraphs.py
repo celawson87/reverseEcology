@@ -7,7 +7,7 @@
 # All rights reserved.
 ################################################################################
 # This notebook creates "merged" metabolic reconstructions by aggregating
-# graphs for all SAGs from the same tribe,
+# graphs for all SAGs from the same tribe.
 ################################################################################
 
 # Import Python modules 
@@ -33,14 +33,14 @@ tribeSampleDict =  mf.importTaxonomy('../ExternalData/taxonomySAGs.csv')
 # of that tribe
 gf.createTribalGraph(tribeSampleDict, processedDataDir, rawModelDir)
 
-# Import the list of models
+# Import the list of graphs (one for each tribe)
 dirList = mf.getDirList('../'+processedDataDir)
 numSubDir = len(dirList)
 
-# Compute graph statistics
+# Compute statistics on the size of metabolic network graphs
 gf.computeGraphStats(dirList, processedDataDir, summaryStatsDir)
 
-# Reduction to largest component
+# Reduce network graphs to their largest component
 gf.reduceToLargeComponent(dirList, processedDataDir, summaryStatsDir)
 
 # Compute seed sets

@@ -31,10 +31,10 @@ numSubDir = len(dirList)
 # Convert SBML model files to adjacency lists
 sf.dirListToAdjacencyList(dirList, externalDataDir, processedDataDir, summaryStatsDir)
 
-# Compute graph statistics
+# Compute statistics on the size of metabolic network graphs
 gf.computeGraphStats(dirList, processedDataDir, summaryStatsDir)
 
-# Reduction to largest component
+# Reduce network graphs to their largest component
 gf.reduceToLargeComponent(dirList, processedDataDir, summaryStatsDir)
 
 # Compute seed sets
@@ -50,7 +50,8 @@ ef.normalizedSeedCounts(dirList, processedDataDir, summaryStatsDir)
 ef.clusterSeedSets(seedMatrixDF, dirList, externalDataDir, summaryStatsDir, 'actinoColors.csv')
 ef.clusterOnly(seedMatrixDF, dirList, externalDataDir, 'actinoColors.csv')
 
-# Compute metabolic competition and cooperation scores
+# Compute metabolic competition and cooperation scores. Create heatmap. Cluster 
+# each metric and create a dendrogram
 metabCompeteDF = ef.computeMetabCompete(dirList, processedDataDir, summaryStatsDir)
 ef.clusterPairwise(metabCompeteDF, dirList, externalDataDir, summaryStatsDir, 'actinoColors.csv', 'metabolicCompetition.png')
 
