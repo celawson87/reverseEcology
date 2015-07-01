@@ -80,6 +80,81 @@ def dirListToAdjacencyList(dirList, externalDataDir, processedDataDir, summarySt
 
 ################################################################################
 
+# dirListToAdjacencyListWithRemoval
+# This function iterates over a list of genome directories and converts each
+# genome scale model from an SBML file to an adjacency list. Adjacency lists 
+# for each genome-scale model are written as text files in each genome 
+# directory. Summary statistics about each graph are written in the
+# summaryStatsDir as well. Removes from each model the reaction specified in
+# externalDataDir/reactionsToRemove.txt
+
+def dirListToAdjacencyListWithRemoval(dirList, externalDataDir, processedDataDir, summaryStatsDir):
+
+    numSubDir = len(dirList)
+
+# Read in the list of reactions to remove
+    with open('../'+externalDataDir+'/'+'reactionsToRemove.txt') as rxnFile:
+        rxnList = [x.strip() for x in rxnFile.readlines()]
+    
+# Create an array to store summary statistics. The array has three integer
+# columns, which will contain the number of genes, metabolites, and reactions
+# in the SBML file. 
+    modelStatArray = np.empty([numSubDir, 3], dtype = int)
+
+# Create a file to record the summary statistics.
+    modelFile = open('../'+summaryStatsDir+'/'+'ModelStatistics.txt', 'w')
+    modelFile.write('Model,Genes,Metabolites,Reactions\n')
+
+# Iterate over the list of genome directories. For each genome, read in the
+# SBML file and update the 'description' field with the genome name. The number
+# of genes, metabolites, and reactions in the SBML file is recorded in the
+# 'modelStatArray' and written to 'modelFile.' Finally, the genome-scale model
+# is converted to an adjacency list and written to file.
+    count = 0
+    print 'Converting SBML files to adjacency lists'
+
+# Create an empty dictionary to store metabolite IDs and names
+    namesDict = {}
+    
+    for curDir in dirList:
+# Read in SBML file    
+        model = cobra.io.read_sbml_model('../'+processedDataDir+'/'+curDir+'/'+curDir+'Balanced.xml')
+
+# Remove reactions slated for removal
+        for rxn in rxnList:
+# Check if the reaction exists in the model. If so, delete it.
+            if rxn in model.reactions:
+                model.remove_reactions(rxn, delete=True, remove_orphans=True)
+            
+# Create dictionary of metabolite names
+        for metab in model.metabolites:
+            namesDict[metab.id] = metab.name
+
+# Update description field
+        model.description = curDir;
+
+# Read model statistics by invoking sbmlFunctions.getModelStats
+        modelStatArray[count:] = getModelStats(model)
+        modelFile.write('%s,%i,%i,%i\n' % ('../'+processedDataDir+'/'+curDir, modelStatArray[count,0], 
+                                    modelStatArray[count,1], 
+                                    modelStatArray[count, 2] ) )
+
+# Create adjacency list and write to file
+        adjacencyListFromModel(model, processedDataDir)
+        count = count + 1
+
+# Close files containing summary data
+    modelFile.close()
+
+# Write completed dictionary to file as a csv file ExternalData/metabMap.csv
+    writer = csv.writer(open('../'+externalDataDir+'/'+'metabMap.csv', 'wb'))
+    for key, value in namesDict.items():
+        writer.writerow([key, value])
+   
+    return modelStatArray
+
+################################################################################
+
 # adjacencyListFromModel
 # Function to convert a cobrapy model object to an adjaceny list. Also writes
 # adjacency list to file. For each reaction in the model, creates an edge
