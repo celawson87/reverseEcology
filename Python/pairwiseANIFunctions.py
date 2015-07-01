@@ -26,21 +26,21 @@ import scipy
 
 #%% 
 
-def importANIandTaxonomy(aniFile, taxonFile):
+def importANIandTaxonomy(externalDataDir, aniFile, taxonFile):
 # Read in the pairwise ANI calculations. Replace '-' with NaN so we can tell
 # pandas to ignore it.
-    pairwiseANI = pd.DataFrame.from_csv(aniFile, sep='\t')
+    pairwiseANI = pd.DataFrame.from_csv('../'+externalDataDir+'/'+aniFile, sep='\t')
     pairwiseANI = pairwiseANI.convert_objects(convert_numeric=True)
 
 # Read in the taxonomic classification
-    taxonClass = pd.DataFrame.from_csv(taxonFile, sep=',')
+    taxonClass = pd.DataFrame.from_csv('../'+externalDataDir+'/'+taxonFile, sep=',')
     taxonClass = taxonClass.dropna()
 
 # Update the pairwiseANI dataframe to only include samples with a taxonomic
 # classification to the tribe level
     samples = taxonClass.index
     redPairwiseANI = pairwiseANI.loc[samples,samples]
-    redPairwiseANI.to_csv('reducedANI_OUT')
+    redPairwiseANI.to_csv('../'+externalDataDir+'/'+'reducedANI_OUT')
 
 # Extract the unique tribes found in the dataset
     tribes = pd.unique(taxonClass.Tribe.values)
@@ -50,7 +50,7 @@ def importANIandTaxonomy(aniFile, taxonFile):
 
 #%% Calculate min and max pairwise ANI for members of the same tribe
 
-def sameTribePairwiseANI(pairwiseANI, taxonClass, tribes):
+def sameTribePairwiseANI(externalDataDir, pairwiseANI, taxonClass, tribes):
 # Create a dataframe to store output. Indices are tribes, columns are the
 # the data assoc. w/ each tribe
     maxMinANI = pd.DataFrame(index = tribes, columns=['Samples', 'Num Samples', 'Max ANI', 'Min ANI'])
@@ -77,13 +77,13 @@ def sameTribePairwiseANI(pairwiseANI, taxonClass, tribes):
         maxMinANI['Num Samples'][tribe] = len(samples)
         maxMinANI['Max ANI'][tribe] = maxANI
         maxMinANI['Min ANI'][tribe] = minANI
-        maxMinANI.to_csv('withinTribeANI.csv')
+        maxMinANI.to_csv('../'+externalDataDir+'/'+'withinTribeANI.csv')
         
     return maxMinANI
     
 #%% Calculate min and max pairwise ANI for members of differing tribes
 
-def diffTribePairwiseANI(pairwiseANI, taxonClass, tribes):
+def diffTribePairwiseANI(externalDataDir, pairwiseANI, taxonClass, tribes):
 # Create a dataframe to store output. Indices are tribes, columns are the
 # the data assoc. w/ each tribe
     maxMinANI = pd.DataFrame(index = tribes, columns=['Max ANI', 'Min ANI'])
@@ -109,7 +109,7 @@ def diffTribePairwiseANI(pairwiseANI, taxonClass, tribes):
 # Add this information to the dataframe
         maxMinANI['Max ANI'][innerTribe] = maxANI
         maxMinANI['Min ANI'][innerTribe] = minANI
-        maxMinANI.to_csv('betweenTribeANI.csv')
+        maxMinANI.to_csv('../'+externalDataDir+'/'+'betweenTribeANI.csv')
         
     return maxMinANI
     
@@ -141,12 +141,12 @@ def addGenomeToTribe(pairwiseANI, taxonClass, tribes, tribe, newGenomes):
 #%% Determine if a new genome can be added to a single sample based on the
 # smallest pairwise ANI from any two samples belonging to the same trobe
 
-def compareSamples(pairwiseANI, taxonClass, tribes, existingGenomes, newGenome):
+def compareSamples(externalDataDir, pairwiseANI, taxonClass, tribes, existingGenomes, newGenome):
 # Compute max and min pairwise ANI for all samples in the same tribe
-    maxMinANI = sameTribePairwiseANI(pairwiseANI, taxonClass, tribes)
+    maxMinANI = sameTribePairwiseANI(externalDataDir, pairwiseANI, taxonClass, tribes)
 
 # Compute the overall minANI
-    universalMin = maxMinANI.min().min()
+    universalMin = maxMinANI['Min ANI'].min()
         
 # Compute maximal pairwise ANI of sample being considered for merger
     samples = existingGenomes + newGenome
@@ -162,10 +162,10 @@ def compareSamples(pairwiseANI, taxonClass, tribes, existingGenomes, newGenome):
 # of SAGs of that sample size. For each, compute their maximum and minimum 
 # pairwise ANI. Report the worst-case scenario, i.e., the highest minimum.
     
-def worstCaseANI(pairwiseANI, taxonClass, tribes, tribe, sampleSize):
+def worstCaseANI(externalDataDir, pairwiseANI, taxonClass, tribes, tribe, sampleSize):
     
-    [pairwiseANI, taxonClass, tribes] = importANIandTaxonomy('ANI_out', 'taxonomySAGs.csv')
-    sameTribePairwiseANI(pairwiseANI, taxonClass, tribes)
+    [pairwiseANI, taxonClass, tribes] = importANIandTaxonomy(externalDataDir, 'ANI_out', 'taxonomySAGs.csv')
+    sameTribePairwiseANI(externalDataDir, pairwiseANI, taxonClass, tribes)
 
 # Create the list of samples
     samples = taxonClass.loc[taxonClass['Tribe'] == tribe]
@@ -198,10 +198,10 @@ def worstCaseANI(pairwiseANI, taxonClass, tribes, tribe, sampleSize):
 #%% For a given tribe, compute the worst case scenario ANI for each
 # possible sample size.
 
-def allWorstCaseANI(pairwiseANI, taxonClass, tribes, tribe):
+def allWorstCaseANI(externalDataDir, pairwiseANI, taxonClass, tribes, tribe):
     
-    [pairwiseANI, taxonClass, tribes] = importANIandTaxonomy('ANI_out', 'taxonomySAGs.csv')
-    sameTribePairwiseANI(pairwiseANI, taxonClass, tribes)
+    [pairwiseANI, taxonClass, tribes] = importANIandTaxonomy(externalDataDir, 'ANI_out', 'taxonomySAGs.csv')
+    sameTribePairwiseANI(externalDataDir, pairwiseANI, taxonClass, tribes)
 
 # Create the list of samples
     samples = taxonClass.loc[taxonClass['Tribe'] == tribe]
