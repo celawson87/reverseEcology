@@ -198,6 +198,60 @@ def plotSeedStats(seedSetList, reducedGraphStatArray, modelStatArray):
     return
     
 ################################################################################
+
+# plotSeedStats
+# Plot summary statistics of a collection of seed sets. The function plots
+# historams of:
+#   digraph size (number of nodes)
+#   total number of components
+#   size of largest compmonent, as fraction of total nodes
+# Inputs:
+#  seedSetList: "List of lists" of seed metabolites. Each element is a list of nodes belonging
+#   to an SCC which is also a seed set.
+#  reducedGraphStatArray: array containing one row for each graph object. Array 
+#   columns correspond to: the number of nodes (metabolites), edges, total 
+#   components, and size of the largest component.
+#  modelStatArray: array containing one row for each original SBML file/model. 
+#    Array columns correspond to:  the number of genes, metabolites, and reactions
+#    in the SBML file. 
+# Output: collection of plots
+
+def plotSeedStatsForTribes(seedSetList, reducedGraphStatArray):
+# Histogram of total number of seed sets
+    myNumSeedSets = []
+    mySizeOfSeedSets = []
+    
+    for setOfSeedSets in seedSetList:
+        myNumSeedSets.append(len(setOfSeedSets))
+        for seedSet in setOfSeedSets:
+            mySizeOfSeedSets.append(len(seedSet))
+        
+    myWeight = np.ones_like(myNumSeedSets) / float(len(myNumSeedSets))
+    plt.figure(7)
+    plt.hist(myNumSeedSets, weights=myWeight)
+    plt.xlabel('Number of Seed Sets')
+    plt.ylabel('Fraction of Graphs')
+ 
+# Histogram of size of individual seed sets
+    myWeight = np.ones_like(mySizeOfSeedSets) / float(len(mySizeOfSeedSets))
+    plt.figure(8)
+    plt.hist(mySizeOfSeedSets, weights=myWeight)
+    plt.xlabel('Metabolites in Seed Set')
+    plt.xlim(0, max(mySizeOfSeedSets))
+    plt.ylim(0, 1)
+    plt.ylabel('Fraction of Seed Sets')
+    
+# Zoomed histogram of size of individual seed sets
+    plt.figure(9)
+    [n, bins, patches] = plt.hist(mySizeOfSeedSets, weights=myWeight)
+    plt.xlabel('Metabolites in Seed Set (Zoomed)')
+    plt.xlim(0, max(mySizeOfSeedSets))
+    plt.ylim(0, 1.1*n[2])
+    plt.ylabel('Fraction of Seed Sets (Zoomed)')
+    
+    return
+    
+################################################################################
     
 # createTribalGraph
 # In this function, all samples from a tribe are identified. Each sample is

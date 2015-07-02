@@ -164,7 +164,7 @@ def compareSamples(externalDataDir, pairwiseANI, taxonClass, tribes, existingGen
     
 def worstCaseANI(externalDataDir, pairwiseANI, taxonClass, tribes, tribe, sampleSize):
     
-    [pairwiseANI, taxonClass, tribes] = importANIandTaxonomy(externalDataDir, 'ANI_out', 'taxonomySAGs.csv')
+    [pairwiseANI, taxonClass, tribes] = importANIandTaxonomy(externalDataDir, 'ANI_out', 'taxonomySAGsforANI.csv')
     sameTribePairwiseANI(externalDataDir, pairwiseANI, taxonClass, tribes)
 
 # Create the list of samples
@@ -200,7 +200,7 @@ def worstCaseANI(externalDataDir, pairwiseANI, taxonClass, tribes, tribe, sample
 
 def allWorstCaseANI(externalDataDir, pairwiseANI, taxonClass, tribes, tribe):
     
-    [pairwiseANI, taxonClass, tribes] = importANIandTaxonomy(externalDataDir, 'ANI_out', 'taxonomySAGs.csv')
+    [pairwiseANI, taxonClass, tribes] = importANIandTaxonomy(externalDataDir, 'ANI_out', 'taxonomySAGsforANI.csv')
     sameTribePairwiseANI(externalDataDir, pairwiseANI, taxonClass, tribes)
 
 # Create the list of samples
