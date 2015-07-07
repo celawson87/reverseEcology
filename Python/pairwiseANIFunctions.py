@@ -133,7 +133,7 @@ def addGenomeToTribe(pairwiseANI, taxonClass, tribes, tribe, newGenomes):
     print redPairwiseANI
     print str(minANItribe)
 
-    print('\n'+'The ANI cutoff for the tribe '+tribe+' is: '+str(minANItribe))
+    print('\n'+'The minimum ANI within the tribe '+tribe+' is: '+str(minANItribe))
     print('\n'+'When genome '+newGenomes+' is added, the min pairwise ANI becomes: '+str(minANI))
 
     return
@@ -153,7 +153,7 @@ def compareSamples(externalDataDir, pairwiseANI, taxonClass, tribes, existingGen
     redPairwiseANI = pairwiseANI.loc[samples,samples]
     minANI = redPairwiseANI.min(skipna=True).min()
 
-    print('\n'+'The smallest ANI cutoff for any tribe is: '+str(universalMin))
+#    print('\n'+'The smallest ANI cutoff for any tribe is: '+str(universalMin))
     print('\n'+'When genome '+str(newGenome)+' is added, the min pairwise ANI among all samples: '+str(minANI))
     
     return
@@ -164,7 +164,6 @@ def compareSamples(externalDataDir, pairwiseANI, taxonClass, tribes, existingGen
     
 def worstCaseANI(externalDataDir, pairwiseANI, taxonClass, tribes, tribe, sampleSize):
     
-    [pairwiseANI, taxonClass, tribes] = importANIandTaxonomy(externalDataDir, 'ANI_out', 'taxonomySAGsforANI.csv')
     sameTribePairwiseANI(externalDataDir, pairwiseANI, taxonClass, tribes)
 
 # Create the list of samples
@@ -200,7 +199,6 @@ def worstCaseANI(externalDataDir, pairwiseANI, taxonClass, tribes, tribe, sample
 
 def allWorstCaseANI(externalDataDir, pairwiseANI, taxonClass, tribes, tribe):
     
-    [pairwiseANI, taxonClass, tribes] = importANIandTaxonomy(externalDataDir, 'ANI_out', 'taxonomySAGsforANI.csv')
     sameTribePairwiseANI(externalDataDir, pairwiseANI, taxonClass, tribes)
 
 # Create the list of samples
