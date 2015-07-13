@@ -11,28 +11,29 @@
 DataSummaries - Summary statistics about genome-scale models and (di)graph representations used in this project
 
 ExternalData - Additional files which are required to make various steps of the pipeline run.
-* For model pre-processing
-  * metaboliteTable.tsv - manual export of model SEED metabolite table
-  * ModelSEED-reactions-db.csv - manual export of Model SEED database
-  * reactionTable.tsv - manual export of model SEED reaction table
 
-* For reverseEcology.ipynb
-  * reactionsToRemove.txt - optional file. If you want to remove reactions from the models, list the reactions here.
-  * taxonomy.csv - comma-separated file containing the following info for each sample: (ID, Lineage, Clade, Tribe, Color). Should be sorted alphabetically.
+* For model pre-processing:
+    * metaboliteTable.tsv - manual export of model SEED metabolite table
+    * ModelSEED-reactions-db.csv - manual export of Model SEED database
+    * reactionTable.tsv - manual export of model SEED reaction table
+
+* For reverseEcology.ipynb:
+    * reactionsToRemove.txt - optional file. If you want to remove reactions from the models, list the reactions here.
+    * taxonomy.csv - comma-separated file containing the following info for each sample: (ID, Lineage, Clade, Tribe, Color). Should be sorted alphabetically.
 
 * For pairwiseANI.ipynb:
-  * ANI_out - table of pairwise ANI calculations
-  * taxonomySAG.csv - same as taxonomy.csv, for SAGs only
+    * ANI_out - table of pairwise ANI calculations
+    * taxonomySAG.csv - same as taxonomy.csv, for SAGs only
 
 * For mergingGenomes.ipynb:
-  * taxonomySAG.csv - same as taxonomy.csv, for SAGs only
-  * tribalColors.csv - sams as taxonomy.csv, but for tribes
+    * taxonomySAG.csv - same as taxonomy.csv, for SAGs only
+    * tribalColors.csv - sams as taxonomy.csv, but for tribes
 
 * Auto-generated files
-  * metabMap.csv - auto-generated file which maps SEED compound IDs to common names
-  * reducedANI_OUT - ANI_out with information from SAGs only
-  * betweenTribeANI - summary of max and min ANI of samples from different tribes
-  * withinTribeANI - summary of max and min ANI of samples from same tribe
+    * metabMap.csv - auto-generated file which maps SEED compound IDs to common names
+    * reducedANI_OUT - ANI_out with information from SAGs only
+    * betweenTribeANI - summary of max and min ANI of samples from different tribes
+    * withinTribeANI - summary of max and min ANI of samples from same tribe
 
 ProcessedModelFiles - Processed versions of reconstructions, including mass- and charge-balanced SBML files and graph representationsl.
 
