@@ -1,0 +1,498 @@
+Attributes {
+	id:kb|g.250090
+	source:KBase
+	gene_subsystem_hash:HASH(0x2a0dfb28)
+	source_id:kb|g.250090
+	geneAliasHash:HASH(0x3278a780)
+	scientific_name:GFM TBhypometabat3838
+	domain:Bacteria
+	genetic_code:11
+	dna_size:468515
+	num_contigs:54
+	taxonomy:
+	gc_content:
+	complete:
+	contigset_ref:2603/52/3
+}
+features (id	type	function	genomeID	delimiter	comment	start	stop	direction	contig	roleList) {
+kb|g.250090.CDS.1	CDS		kb|g.250090	;	No annotated function	19	289	+	2593379596	
+kb|g.250090.CDS.2	CDS	FIG01121218: hypothetical protein	kb|g.250090	none		491	788	+	2593379596	FIG01121218: hypothetical protein
+kb|g.250090.CDS.3	CDS		kb|g.250090	;	No annotated function	1273	823	-	2593379596	
+kb|g.250090.CDS.4	CDS	Deoxyuridine 5'-triphosphate nucleotidohydrolase (EC 3.6.1.23)	kb|g.250090	none		1330	1768	+	2593379596	Deoxyuridine 5'-triphosphate nucleotidohydrolase (EC 3.6.1.23)
+kb|g.250090.CDS.5	CDS		kb|g.250090	;	No annotated function	1764	2133	+	2593379596	
+kb|g.250090.CDS.6	CDS		kb|g.250090	;	No annotated function	2120	2402	+	2593379596	
+kb|g.250090.CDS.7	CDS	Trk system potassium uptake protein TrkA	kb|g.250090	none		3046	2386	-	2593379596	Trk system potassium uptake protein TrkA
+kb|g.250090.CDS.8	CDS	Trk system potassium uptake protein TrkA	kb|g.250090	none		3719	3050	-	2593379596	Trk system potassium uptake protein TrkA
+kb|g.250090.CDS.9	CDS		kb|g.250090	;	No annotated function	3802	5035	+	2593379596	
+kb|g.250090.CDS.10	CDS	Aconitate hydratase (EC 4.2.1.3)	kb|g.250090	none		5095	7753	+	2593379596	Aconitate hydratase (EC 4.2.1.3)
+kb|g.250090.CDS.11	CDS	1-deoxy-D-xylulose 5-phosphate synthase (EC 2.2.1.7)	kb|g.250090	none		7836	9774	+	2593379596	1-deoxy-D-xylulose 5-phosphate synthase (EC 2.2.1.7)
+kb|g.250090.CDS.12	CDS	Ribonuclease D (EC 3.1.26.3)	kb|g.250090	none		11007	9759	-	2593379596	Ribonuclease D (EC 3.1.26.3)
+kb|g.250090.CDS.13	CDS	Uncharacterized protein Q1 colocalized with Q	kb|g.250090	none		11654	11063	-	2593379596	Uncharacterized protein Q1 colocalized with Q
+kb|g.250090.CDS.14	CDS		kb|g.250090	;	No annotated function	12183	11679	-	2593379596	
+kb|g.250090.CDS.15	CDS		kb|g.250090	;	No annotated function	12246	13410	+	2593379596	
+kb|g.250090.CDS.16	CDS		kb|g.250090	;	No annotated function	13985	13400	-	2593379596	
+kb|g.250090.CDS.17	CDS		kb|g.250090	;	No annotated function	14542	13981	-	2593379596	
+kb|g.250090.CDS.18	CDS		kb|g.250090	;	No annotated function	16322	14534	-	2593379596	
+kb|g.250090.CDS.19	CDS		kb|g.250090	;	No annotated function	16386	17355	+	2593379596	
+kb|g.250090.CDS.20	CDS		kb|g.250090	;	No annotated function	18507	17367	-	2593379596	
+kb|g.250090.CDS.21	CDS	1-acyl-sn-glycerol-3-phosphate acyltransferase (EC 2.3.1.51)	kb|g.250090	none		18632	19337	+	2593379596	1-acyl-sn-glycerol-3-phosphate acyltransferase (EC 2.3.1.51)
+kb|g.250090.CDS.22	CDS		kb|g.250090	;	No annotated function	20007	19332	-	2593379596	
+kb|g.250090.CDS.23	CDS		kb|g.250090	;	No annotated function	20740	20092	-	2593379596	
+kb|g.250090.CDS.24	CDS		kb|g.250090	;	No annotated function	20863	21400	+	2593379596	
+kb|g.250090.CDS.25	CDS	Inositol-1-phosphate synthase (EC 5.5.1.4)	kb|g.250090	none		21396	22479	+	2593379596	Inositol-1-phosphate synthase (EC 5.5.1.4)
+kb|g.250090.CDS.26	CDS		kb|g.250090	;	No annotated function	23008	22543	-	2593379596	
+kb|g.250090.CDS.27	CDS		kb|g.250090	;	No annotated function	23238	24237	+	2593379596	
+kb|g.250090.CDS.28	CDS		kb|g.250090	;	No annotated function	24386	25367	+	2593379596	
+kb|g.250090.CDS.29	CDS		kb|g.250090	;	No annotated function	25375	26143	+	2593379596	
+kb|g.250090.CDS.30	CDS	PROBABLE INTEGRAL MEMBRANE PROTEIN	kb|g.250090	none		1186	13	-	2593379597	PROBABLE INTEGRAL MEMBRANE PROTEIN
+kb|g.250090.CDS.31	CDS		kb|g.250090	;	No annotated function	1636	1252	-	2593379597	
+kb|g.250090.CDS.32	CDS		kb|g.250090	;	No annotated function	1697	1934	+	2593379597	
+kb|g.250090.CDS.33	CDS	Molybdenum cofactor biosynthesis protein MoaA	kb|g.250090	none		2937	1935	-	2593379597	Molybdenum cofactor biosynthesis protein MoaA
+kb|g.250090.CDS.34	CDS		kb|g.250090	;	No annotated function	3347	2933	-	2593379597	
+kb|g.250090.CDS.35	CDS		kb|g.250090	;	No annotated function	3819	3324	-	2593379597	
+kb|g.250090.CDS.36	CDS	Molybdenum cofactor biosynthesis protein MoaC	kb|g.250090	none		4289	3818	-	2593379597	Molybdenum cofactor biosynthesis protein MoaC
+kb|g.250090.CDS.37	CDS	Molybdenum transport system permease protein ModB (TC 3.A.1.8.1)	kb|g.250090	none		5103	4317	-	2593379597	Molybdenum transport system permease protein ModB (TC 3.A.1.8.1)
+kb|g.250090.CDS.38	CDS		kb|g.250090	;	No annotated function	5939	5099	-	2593379597	
+kb|g.250090.CDS.39	CDS		kb|g.250090	;	No annotated function	6090	6348	+	2593379597	
+kb|g.250090.CDS.40	CDS		kb|g.250090	;	No annotated function	6348	7239	+	2593379597	
+kb|g.250090.CDS.41	CDS		kb|g.250090	;	No annotated function	7244	8384	+	2593379597	
+kb|g.250090.CDS.42	CDS		kb|g.250090	;	No annotated function	8394	8715	+	2593379597	
+kb|g.250090.CDS.43	CDS		kb|g.250090	;	No annotated function	8711	9158	+	2593379597	
+kb|g.250090.CDS.44	CDS		kb|g.250090	;	No annotated function	9542	9173	-	2593379597	
+kb|g.250090.CDS.45	CDS		kb|g.250090	;	No annotated function	9814	9538	-	2593379597	
+kb|g.250090.CDS.46	CDS		kb|g.250090	;	No annotated function	10071	9816	-	2593379597	
+kb|g.250090.CDS.47	CDS		kb|g.250090	;	No annotated function	10308	10080	-	2593379597	
+kb|g.250090.CDS.48	CDS		kb|g.250090	;	No annotated function	10574	10319	-	2593379597	
+kb|g.250090.CDS.49	CDS		kb|g.250090	;	No annotated function	11193	10605	-	2593379597	
+kb|g.250090.CDS.50	CDS		kb|g.250090	;	No annotated function	12161	11186	-	2593379597	
+kb|g.250090.CDS.51	CDS	Carbon monoxide dehydrogenase form I, large chain (EC 1.2.99.2)	kb|g.250090	none		14548	12166	-	2593379597	Carbon monoxide dehydrogenase form I, large chain (EC 1.2.99.2)
+kb|g.250090.CDS.52	CDS	Carbon monoxide dehydrogenase small chain (EC 1.2.99.2)	kb|g.250090	none		15091	14563	-	2593379597	Carbon monoxide dehydrogenase small chain (EC 1.2.99.2)
+kb|g.250090.CDS.53	CDS	Carbon monoxide dehydrogenase medium chain (EC 1.2.99.2)	kb|g.250090	none		15962	15092	-	2593379597	Carbon monoxide dehydrogenase medium chain (EC 1.2.99.2)
+kb|g.250090.CDS.54	CDS		kb|g.250090	;	No annotated function	16202	15968	-	2593379597	
+kb|g.250090.CDS.55	CDS		kb|g.250090	;	No annotated function	16910	16343	-	2593379597	
+kb|g.250090.CDS.56	CDS	Xanthine and CO dehydrogenases maturation factor, XdhC/CoxF family	kb|g.250090	none		16927	18067	+	2593379597	Xanthine and CO dehydrogenases maturation factor, XdhC/CoxF family
+kb|g.250090.CDS.57	CDS	Molybdopterin biosynthesis protein MoeA	kb|g.250090	none		19251	18072	-	2593379597	Molybdopterin biosynthesis protein MoeA
+kb|g.250090.CDS.58	CDS		kb|g.250090	;	No annotated function	19421	19256	-	2593379597	
+kb|g.250090.CDS.59	CDS		kb|g.250090	;	No annotated function	20342	19424	-	2593379597	
+kb|g.250090.CDS.60	CDS	Sulfur carrier protein adenylyltransferase ThiF	kb|g.250090	none		21504	20334	-	2593379597	Sulfur carrier protein adenylyltransferase ThiF
+kb|g.250090.CDS.61	CDS	COG1720: Uncharacterized conserved protein	kb|g.250090	none		21653	22076	+	2593379597	COG1720: Uncharacterized conserved protein
+kb|g.250090.CDS.62	CDS		kb|g.250090	;	No annotated function	59	701	+	2593379598	
+kb|g.250090.CDS.63	CDS		kb|g.250090	;	No annotated function	1137	777	-	2593379598	
+kb|g.250090.CDS.64	CDS		kb|g.250090	;	No annotated function	1537	1159	-	2593379598	
+kb|g.250090.CDS.65	CDS		kb|g.250090	;	No annotated function	2245	1546	-	2593379598	
+kb|g.250090.CDS.66	CDS		kb|g.250090	;	No annotated function	2422	2251	-	2593379598	
+kb|g.250090.CDS.67	CDS	Formamidopyrimidine-DNA glycosylase (EC 3.2.2.23)	kb|g.250090	none		3301	2470	-	2593379598	Formamidopyrimidine-DNA glycosylase (EC 3.2.2.23)
+kb|g.250090.CDS.68	CDS	Beta-glucosidase (EC 3.2.1.21)	kb|g.250090	none		4921	3526	-	2593379598	Beta-glucosidase (EC 3.2.1.21)
+kb|g.250090.CDS.69	CDS		kb|g.250090	;	No annotated function	6267	4926	-	2593379598	
+kb|g.250090.CDS.70	CDS	Alpha-xylosidase (EC 3.2.1.-)	kb|g.250090	none		8299	6274	-	2593379598	Alpha-xylosidase (EC 3.2.1.-)
+kb|g.250090.CDS.71	CDS	Xylose ABC transporter, permease protein XylH	kb|g.250090	none		9553	8314	-	2593379598	Xylose ABC transporter, permease protein XylH
+kb|g.250090.CDS.72	CDS	D-xylose transport ATP-binding protein XylG	kb|g.250090	none		10320	9555	-	2593379598	D-xylose transport ATP-binding protein XylG
+kb|g.250090.CDS.73	CDS		kb|g.250090	;	No annotated function	11616	10515	-	2593379598	
+kb|g.250090.CDS.74	CDS		kb|g.250090	;	No annotated function	13458	11769	-	2593379598	
+kb|g.250090.CDS.75	CDS	Xylulose kinase (EC 2.7.1.17)	kb|g.250090	none		15125	13721	-	2593379598	Xylulose kinase (EC 2.7.1.17)
+kb|g.250090.CDS.76	CDS	Xylose isomerase (EC 5.3.1.5)	kb|g.250090	none		16285	15124	-	2593379598	Xylose isomerase (EC 5.3.1.5)
+kb|g.250090.CDS.77	CDS		kb|g.250090	;	No annotated function	16329	17562	+	2593379598	
+kb|g.250090.CDS.78	CDS	Dipeptidyl carboxypeptidase Dcp (EC 3.4.15.5)	kb|g.250090	none		17579	19622	+	2593379598	Dipeptidyl carboxypeptidase Dcp (EC 3.4.15.5)
+kb|g.250090.CDS.79	CDS	Phosphoribosylaminoimidazole carboxylase ATPase subunit (EC 4.1.1.21)	kb|g.250090	none		1610	485	-	2593379599	Phosphoribosylaminoimidazole carboxylase ATPase subunit (EC 4.1.1.21)
+kb|g.250090.CDS.80	CDS		kb|g.250090	;	No annotated function	2247	1632	-	2593379599	
+kb|g.250090.CDS.81	CDS		kb|g.250090	;	No annotated function	2240	2411	+	2593379599	
+kb|g.250090.CDS.82	CDS	Acetyl-coenzyme A carboxyl transferase alpha chain (EC 6.4.1.2) / Acetyl-coenzyme A carboxyl transferase beta chain (EC 6.4.1.2); Propionyl-CoA carboxylase beta chain (EC 6.4.1.3)	kb|g.250090	;		2437	4000	+	2593379599	Acetyl-coenzyme A carboxyl transferase alpha chain (EC 6.4.1.2);Acetyl-coenzyme A carboxyl transferase beta chain (EC 6.4.1.2);Propionyl-CoA carboxylase beta chain (EC 6.4.1.3)
+kb|g.250090.CDS.83	CDS		kb|g.250090	;	No annotated function	4010	4214	+	2593379599	
+kb|g.250090.CDS.84	CDS	Septum formation protein Maf	kb|g.250090	none		4210	4846	+	2593379599	Septum formation protein Maf
+kb|g.250090.CDS.85	CDS	Biotin carboxylase of acetyl-CoA carboxylase (EC 6.3.4.14) / Biotin carboxyl carrier protein of acetyl-CoA carboxylase	kb|g.250090	none		4842	6582	+	2593379599	Biotin carboxylase of acetyl-CoA carboxylase (EC 6.3.4.14);Biotin carboxyl carrier protein of acetyl-CoA carboxylase
+kb|g.250090.CDS.86	CDS		kb|g.250090	;	No annotated function	7585	6598	-	2593379599	
+kb|g.250090.CDS.87	CDS	Tryptophanyl-tRNA synthetase (EC 6.1.1.2)	kb|g.250090	none		8597	7592	-	2593379599	Tryptophanyl-tRNA synthetase (EC 6.1.1.2)
+kb|g.250090.CDS.88	CDS	Magnesium and cobalt efflux protein CorC	kb|g.250090	none		9975	8589	-	2593379599	Magnesium and cobalt efflux protein CorC
+kb|g.250090.CDS.89	CDS	Glycerol-3-phosphate ABC transporter, ATP-binding protein UgpC (TC 3.A.1.1.3)	kb|g.250090	none		10113	11196	+	2593379599	Glycerol-3-phosphate ABC transporter, ATP-binding protein UgpC (TC 3.A.1.1.3)
+kb|g.250090.CDS.90	CDS	Isocitrate dehydrogenase [NADP] (EC 1.1.1.42)	kb|g.250090	none		12472	11254	-	2593379599	Isocitrate dehydrogenase [NADP] (EC 1.1.1.42)
+kb|g.250090.CDS.91	CDS	Malate dehydrogenase (EC 1.1.1.37)	kb|g.250090	none		13445	12488	-	2593379599	Malate dehydrogenase (EC 1.1.1.37)
+kb|g.250090.CDS.92	CDS		kb|g.250090	;	No annotated function	13756	13489	-	2593379599	
+kb|g.250090.CDS.93	CDS	Methylenetetrahydrofolate dehydrogenase (NADP+) (EC 1.5.1.5) / Methenyltetrahydrofolate cyclohydrolase (EC 3.5.4.9)	kb|g.250090	none		14602	13756	-	2593379599	Methylenetetrahydrofolate dehydrogenase (NADP+) (EC 1.5.1.5);Methenyltetrahydrofolate cyclohydrolase (EC 3.5.4.9)
+kb|g.250090.CDS.94	CDS	IMP cyclohydrolase (EC 3.5.4.10) / Phosphoribosylaminoimidazolecarboxamide formyltransferase (EC 2.1.2.3)	kb|g.250090	none		16238	14690	-	2593379599	IMP cyclohydrolase (EC 3.5.4.10);Phosphoribosylaminoimidazolecarboxamide formyltransferase (EC 2.1.2.3)
+kb|g.250090.CDS.95	CDS	Phosphoribosylglycinamide formyltransferase (EC 2.1.2.2)	kb|g.250090	none		16798	16234	-	2593379599	Phosphoribosylglycinamide formyltransferase (EC 2.1.2.2)
+kb|g.250090.CDS.96	CDS		kb|g.250090	;	No annotated function	17921	16790	-	2593379599	
+kb|g.250090.CDS.97	CDS	Succinyl-CoA ligase [ADP-forming] alpha chain (EC 6.2.1.5)	kb|g.250090	none		18825	17940	-	2593379599	Succinyl-CoA ligase [ADP-forming] alpha chain (EC 6.2.1.5)
+kb|g.250090.CDS.98	CDS	Succinyl-CoA ligase [ADP-forming] beta chain (EC 6.2.1.5)	kb|g.250090	none		19467	18825	-	2593379599	Succinyl-CoA ligase [ADP-forming] beta chain (EC 6.2.1.5)
+kb|g.250090.CDS.99	CDS	DNA repair helicase	kb|g.250090	none		3863	2210	-	2593379600	DNA repair helicase
+kb|g.250090.CDS.100	CDS		kb|g.250090	;	No annotated function	4942	3859	-	2593379600	
+kb|g.250090.CDS.101	CDS	probable DNA-binding protein	kb|g.250090	none		7117	4966	-	2593379600	probable DNA-binding protein
+kb|g.250090.CDS.102	CDS	Phosphoserine phosphatase (EC 3.1.3.3)	kb|g.250090	none		7955	7139	-	2593379600	Phosphoserine phosphatase (EC 3.1.3.3)
+kb|g.250090.CDS.103	CDS	Hypothetical, related to broad specificity phosphatases COG0406	kb|g.250090	none		8052	8724	+	2593379600	Hypothetical, related to broad specificity phosphatases COG0406
+kb|g.250090.CDS.104	CDS	Thiol:disulfide oxidoreductase related to ResA	kb|g.250090	none		8720	9281	+	2593379600	Thiol:disulfide oxidoreductase related to ResA
+kb|g.250090.CDS.105	CDS	Cytochrome c-type biogenesis protein CcdA (DsbD analog)	kb|g.250090	none		9273	10005	+	2593379600	Cytochrome c-type biogenesis protein CcdA (DsbD analog)
+kb|g.250090.CDS.106	CDS	Ccs1/ResB-related putative cytochrome C-type biogenesis protein	kb|g.250090	none		10004	11492	+	2593379600	Ccs1/ResB-related putative cytochrome C-type biogenesis protein
+kb|g.250090.CDS.107	CDS	Cytochrome c-type biogenesis protein CcsA/ResC	kb|g.250090	none		11488	12385	+	2593379600	Cytochrome c-type biogenesis protein CcsA/ResC
+kb|g.250090.CDS.108	CDS		kb|g.250090	;	No annotated function	12662	12398	-	2593379600	
+kb|g.250090.CDS.109	CDS	1,4-dihydroxy-2-naphthoate polyprenyltransferase (EC 2.5.1.74)	kb|g.250090	none		13576	12697	-	2593379600	1,4-dihydroxy-2-naphthoate polyprenyltransferase (EC 2.5.1.74)
+kb|g.250090.CDS.110	CDS	O-succinylbenzoic acid--CoA ligase (EC 6.2.1.26)	kb|g.250090	none		14698	13612	-	2593379600	O-succinylbenzoic acid--CoA ligase (EC 6.2.1.26)
+kb|g.250090.CDS.111	CDS	Naphthoate synthase (EC 4.1.3.36)	kb|g.250090	none		14798	15677	+	2593379600	Naphthoate synthase (EC 4.1.3.36)
+kb|g.250090.CDS.112	CDS	DNA ligase (EC 6.5.1.2)	kb|g.250090	none		44	1748	+	2593379601	DNA ligase (EC 6.5.1.2)
+kb|g.250090.CDS.113	CDS		kb|g.250090	;	No annotated function	1752	1902	+	2593379601	
+kb|g.250090.CDS.114	CDS		kb|g.250090	;	No annotated function	2029	2485	+	2593379601	
+kb|g.250090.CDS.115	CDS		kb|g.250090	;	No annotated function	2471	2834	+	2593379601	
+kb|g.250090.CDS.116	CDS	Leucyl-tRNA synthetase (EC 6.1.1.4)	kb|g.250090	none		3002	5459	+	2593379601	Leucyl-tRNA synthetase (EC 6.1.1.4)
+kb|g.250090.CDS.117	CDS		kb|g.250090	;	No annotated function	5517	6177	+	2593379601	
+kb|g.250090.CDS.118	CDS		kb|g.250090	;	No annotated function	6191	7640	+	2593379601	
+kb|g.250090.CDS.119	CDS	DNA polymerase III delta subunit (EC 2.7.7.7)	kb|g.250090	none		7644	8586	+	2593379601	DNA polymerase III delta subunit (EC 2.7.7.7)
+kb|g.250090.CDS.120	CDS	SSU ribosomal protein S20p	kb|g.250090	none		8693	8963	+	2593379601	SSU ribosomal protein S20p
+kb|g.250090.CDS.121	CDS	Translation elongation factor LepA	kb|g.250090	none		8980	10855	+	2593379601	Translation elongation factor LepA
+kb|g.250090.CDS.122	CDS	Hypothetical radical SAM family enzyme in heat shock gene cluster, similarity with CPO of BS HemN-type	kb|g.250090	none		10851	12000	+	2593379601	Hypothetical radical SAM family enzyme in heat shock gene cluster, similarity with CPO of BS HemN-type
+kb|g.250090.CDS.123	CDS	Heat-inducible transcription repressor HrcA	kb|g.250090	none		12055	12778	+	2593379601	Heat-inducible transcription repressor HrcA
+kb|g.250090.CDS.124	CDS	Chaperone protein DnaJ	kb|g.250090	none		12777	13908	+	2593379601	Chaperone protein DnaJ
+kb|g.250090.CDS.125	CDS	Ribosomal RNA small subunit methyltransferase E (EC 2.1.1.-)	kb|g.250090	none		13920	14637	+	2593379601	Ribosomal RNA small subunit methyltransferase E (EC 2.1.1.-)
+kb|g.250090.CDS.126	CDS		kb|g.250090	;	No annotated function	14669	14987	+	2593379601	
+kb|g.250090.CDS.127	CDS		kb|g.250090	;	No annotated function	523	91	-	2593379602	
+kb|g.250090.CDS.128	CDS		kb|g.250090	;	No annotated function	941	563	-	2593379602	
+kb|g.250090.CDS.129	CDS		kb|g.250090	;	No annotated function	1563	933	-	2593379602	
+kb|g.250090.CDS.130	CDS	5-Enolpyruvylshikimate-3-phosphate synthase (EC 2.5.1.19)	kb|g.250090	none		1657	2944	+	2593379602	5-Enolpyruvylshikimate-3-phosphate synthase (EC 2.5.1.19)
+kb|g.250090.CDS.131	CDS	Ribosome small subunit-stimulated GTPase EngC	kb|g.250090	none		2940	3930	+	2593379602	Ribosome small subunit-stimulated GTPase EngC
+kb|g.250090.CDS.132	CDS	Histidinol-phosphatase [alternative form] (EC 3.1.3.15)	kb|g.250090	none		3926	4493	+	2593379602	Histidinol-phosphatase [alternative form] (EC 3.1.3.15)
+kb|g.250090.CDS.133	CDS		kb|g.250090	;	No annotated function	4510	4711	+	2593379602	
+kb|g.250090.CDS.134	CDS		kb|g.250090	;	No annotated function	4707	5169	+	2593379602	
+kb|g.250090.CDS.135	CDS	Glucose-6-phosphate 1-dehydrogenase (EC 1.1.1.49)	kb|g.250090	none		6554	5168	-	2593379602	Glucose-6-phosphate 1-dehydrogenase (EC 1.1.1.49)
+kb|g.250090.CDS.136	CDS	6-phosphogluconate dehydrogenase, decarboxylating (EC 1.1.1.44)	kb|g.250090	none		7573	6553	-	2593379602	6-phosphogluconate dehydrogenase, decarboxylating (EC 1.1.1.44)
+kb|g.250090.CDS.137	CDS	6-phosphogluconolactonase (EC 3.1.1.31), eukaryotic type	kb|g.250090	none		8329	7624	-	2593379602	6-phosphogluconolactonase (EC 3.1.1.31), eukaryotic type
+kb|g.250090.CDS.138	CDS	INTEGRAL MEMBRANE PROTEIN (Rhomboid family)	kb|g.250090	none		11404	8503	-	2593379602	INTEGRAL MEMBRANE PROTEIN (Rhomboid family)
+kb|g.250090.CDS.139	CDS		kb|g.250090	;	No annotated function	11693	11444	-	2593379602	
+kb|g.250090.CDS.140	CDS		kb|g.250090	;	No annotated function	11862	13086	+	2593379602	
+kb|g.250090.CDS.141	CDS		kb|g.250090	;	No annotated function	328	442	+	2593379603	
+kb|g.250090.CDS.142	CDS		kb|g.250090	;	No annotated function	1234	1444	+	2593379603	
+kb|g.250090.CDS.143	CDS		kb|g.250090	;	No annotated function	1823	1439	-	2593379603	
+kb|g.250090.CDS.144	CDS	FIG01121526: hypothetical protein	kb|g.250090	none		2570	1847	-	2593379603	FIG01121526: hypothetical protein
+kb|g.250090.CDS.145	CDS	Heat shock protein 60 family chaperone GroEL	kb|g.250090	none		4270	2650	-	2593379603	Heat shock protein 60 family chaperone GroEL
+kb|g.250090.CDS.146	CDS		kb|g.250090	;	No annotated function	4726	4417	-	2593379603	
+kb|g.250090.CDS.147	CDS	Putative nucleoside-diphosphate-sugar epimerase	kb|g.250090	none		6370	4831	-	2593379603	Putative nucleoside-diphosphate-sugar epimerase
+kb|g.250090.CDS.148	CDS	NADH dehydrogenase (EC 1.6.99.3)	kb|g.250090	none		6446	7670	+	2593379603	NADH dehydrogenase (EC 1.6.99.3)
+kb|g.250090.CDS.149	CDS		kb|g.250090	;	No annotated function	7694	8468	+	2593379603	
+kb|g.250090.CDS.150	CDS		kb|g.250090	;	No annotated function	10751	8435	-	2593379603	
+kb|g.250090.CDS.151	CDS	Exopolyphosphatase (EC 3.6.1.11)	kb|g.250090	none		11351	12296	+	2593379603	Exopolyphosphatase (EC 3.6.1.11)
+kb|g.250090.CDS.152	CDS		kb|g.250090	;	No annotated function	12599	12320	-	2593379603	
+kb|g.250090.CDS.153	CDS		kb|g.250090	;	No annotated function	1660	775	-	2593379604	
+kb|g.250090.CDS.154	CDS	D-alanyl-D-alanine carboxypeptidase (EC 3.4.16.4)	kb|g.250090	none		2810	1673	-	2593379604	D-alanyl-D-alanine carboxypeptidase (EC 3.4.16.4)
+kb|g.250090.CDS.155	CDS		kb|g.250090	;	No annotated function	2861	3521	+	2593379604	
+kb|g.250090.CDS.156	CDS		kb|g.250090	;	No annotated function	4142	3497	-	2593379604	
+kb|g.250090.CDS.157	CDS		kb|g.250090	;	No annotated function	4448	4199	-	2593379604	
+kb|g.250090.CDS.158	CDS		kb|g.250090	;	No annotated function	4588	5323	+	2593379604	
+kb|g.250090.CDS.159	CDS	surface antigen gene	kb|g.250090	none		5345	6464	+	2593379604	surface antigen gene
+kb|g.250090.CDS.160	CDS		kb|g.250090	;	No annotated function	6463	8131	+	2593379604	
+kb|g.250090.CDS.161	CDS		kb|g.250090	;	No annotated function	8411	8126	-	2593379604	
+kb|g.250090.CDS.162	CDS		kb|g.250090	;	No annotated function	9237	8370	-	2593379604	
+kb|g.250090.CDS.163	CDS		kb|g.250090	;	No annotated function	9547	9289	-	2593379604	
+kb|g.250090.CDS.164	CDS		kb|g.250090	;	No annotated function	10346	9539	-	2593379604	
+kb|g.250090.CDS.165	CDS		kb|g.250090	;	No annotated function	10459	10342	-	2593379604	
+kb|g.250090.CDS.166	CDS		kb|g.250090	;	No annotated function	10625	11369	+	2593379604	
+kb|g.250090.CDS.167	CDS		kb|g.250090	;	No annotated function	11361	12159	+	2593379604	
+kb|g.250090.CDS.168	CDS		kb|g.250090	;	No annotated function	1382	881	-	2593379605	
+kb|g.250090.CDS.169	CDS	RecA protein	kb|g.250090	none		2471	1385	-	2593379605	RecA protein
+kb|g.250090.CDS.170	CDS		kb|g.250090	;	No annotated function	2971	2779	-	2593379605	
+kb|g.250090.CDS.171	CDS		kb|g.250090	;	No annotated function	3016	4030	+	2593379605	
+kb|g.250090.CDS.172	CDS		kb|g.250090	;	No annotated function	3992	5120	+	2593379605	
+kb|g.250090.CDS.173	CDS		kb|g.250090	;	No annotated function	5619	5133	-	2593379605	
+kb|g.250090.CDS.174	CDS		kb|g.250090	;	No annotated function	5906	5636	-	2593379605	
+kb|g.250090.CDS.175	CDS		kb|g.250090	;	No annotated function	6379	5902	-	2593379605	
+kb|g.250090.CDS.176	CDS	CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase (EC 2.7.8.5)	kb|g.250090	none		6723	6375	-	2593379605	CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase (EC 2.7.8.5)
+kb|g.250090.CDS.177	CDS		kb|g.250090	;	No annotated function	7709	6896	-	2593379605	
+kb|g.250090.CDS.178	CDS	Cell division protein FtsK	kb|g.250090	none		9501	7794	-	2593379605	Cell division protein FtsK
+kb|g.250090.CDS.179	CDS		kb|g.250090	;	No annotated function	10165	9517	-	2593379605	
+kb|g.250090.CDS.180	CDS	Ribonuclease J2 (endoribonuclease in RNA processing)	kb|g.250090	none		11852	10223	-	2593379605	Ribonuclease J2 (endoribonuclease in RNA processing)
+kb|g.250090.CDS.181	CDS	4-hydroxy-tetrahydrodipicolinate synthase (EC 4.3.3.7)	kb|g.250090	none		12391	11905	-	2593379605	4-hydroxy-tetrahydrodipicolinate synthase (EC 4.3.3.7)
+kb|g.250090.CDS.182	CDS	GTP cyclohydrolase I (EC 3.5.4.16) type 1	kb|g.250090	none		5	632	+	2593379606	GTP cyclohydrolase I (EC 3.5.4.16) type 1
+kb|g.250090.CDS.183	CDS	Dihydropteroate synthase (EC 2.5.1.15)	kb|g.250090	none		628	1435	+	2593379606	Dihydropteroate synthase (EC 2.5.1.15)
+kb|g.250090.CDS.184	CDS		kb|g.250090	;	No annotated function	1431	1791	+	2593379606	
+kb|g.250090.CDS.185	CDS	2-amino-4-hydroxy-6-hydroxymethyldihydropteridine pyrophosphokinase (EC 2.7.6.3)	kb|g.250090	none		1787	2237	+	2593379606	2-amino-4-hydroxy-6-hydroxymethyldihydropteridine pyrophosphokinase (EC 2.7.6.3)
+kb|g.250090.CDS.186	CDS	Pantoate--beta-alanine ligase (EC 6.3.2.1)	kb|g.250090	none		2290	3052	+	2593379606	Pantoate--beta-alanine ligase (EC 6.3.2.1)
+kb|g.250090.CDS.187	CDS	L-aspartate oxidase (EC 1.4.3.16)	kb|g.250090	none		3048	4662	+	2593379606	L-aspartate oxidase (EC 1.4.3.16)
+kb|g.250090.CDS.188	CDS	Quinolinate phosphoribosyltransferase [decarboxylating] (EC 2.4.2.19)	kb|g.250090	none		4658	5498	+	2593379606	Quinolinate phosphoribosyltransferase [decarboxylating] (EC 2.4.2.19)
+kb|g.250090.CDS.189	CDS	Pantothenate kinase type III, CoaX-like (EC 2.7.1.33)	kb|g.250090	none		5498	6305	+	2593379606	Pantothenate kinase type III, CoaX-like (EC 2.7.1.33)
+kb|g.250090.CDS.190	CDS	Lysyl-tRNA synthetase (class II) (EC 6.1.1.6)	kb|g.250090	none		6307	7819	+	2593379606	Lysyl-tRNA synthetase (class II) (EC 6.1.1.6)
+kb|g.250090.CDS.191	CDS	N-acetylglutamate synthase (EC 2.3.1.1)	kb|g.250090	none		7828	8329	+	2593379606	N-acetylglutamate synthase (EC 2.3.1.1)
+kb|g.250090.CDS.192	CDS	ATP-dependent Clp protease, ATP-binding subunit ClpC / Negative regulator of genetic competence clcC/mecB	kb|g.250090	none		8477	10985	+	2593379606	ATP-dependent Clp protease, ATP-binding subunit ClpC;Negative regulator of genetic competence clcC/mecB
+kb|g.250090.CDS.193	CDS	A/G-specific adenine glycosylase (EC 3.2.2.-)	kb|g.250090	none		11389	10984	-	2593379606	A/G-specific adenine glycosylase (EC 3.2.2.-)
+kb|g.250090.CDS.194	CDS	(R)-citramalate synthase (EC 2.3.1.182)	kb|g.250090	none		33	708	+	2593379607	(R)-citramalate synthase (EC 2.3.1.182)
+kb|g.250090.CDS.195	CDS	Tyrosine recombinase XerC	kb|g.250090	none		729	1629	+	2593379607	Tyrosine recombinase XerC
+kb|g.250090.CDS.196	CDS	SSU ribosomal protein S2p (SAe)	kb|g.250090	none		1876	2689	+	2593379607	SSU ribosomal protein S2p (SAe)
+kb|g.250090.CDS.197	CDS	Translation elongation factor Ts	kb|g.250090	none		2762	3593	+	2593379607	Translation elongation factor Ts
+kb|g.250090.CDS.198	CDS	Uridine monophosphate kinase (EC 2.7.4.22)	kb|g.250090	none		3637	4357	+	2593379607	Uridine monophosphate kinase (EC 2.7.4.22)
+kb|g.250090.CDS.199	CDS	Ribosome recycling factor	kb|g.250090	none		4431	4995	+	2593379607	Ribosome recycling factor
+kb|g.250090.CDS.200	CDS	Phosphatidate cytidylyltransferase (EC 2.7.7.41)	kb|g.250090	none		5018	5867	+	2593379607	Phosphatidate cytidylyltransferase (EC 2.7.7.41)
+kb|g.250090.CDS.201	CDS	Ribosomal RNA large subunit methyltransferase N (EC 2.1.1.-)	kb|g.250090	none		5877	7029	+	2593379607	Ribosomal RNA large subunit methyltransferase N (EC 2.1.1.-)
+kb|g.250090.CDS.202	CDS	1-deoxy-D-xylulose 5-phosphate reductoisomerase (EC 1.1.1.267)	kb|g.250090	none		7042	8224	+	2593379607	1-deoxy-D-xylulose 5-phosphate reductoisomerase (EC 1.1.1.267)
+kb|g.250090.CDS.203	CDS	Membrane-associated zinc metalloprotease	kb|g.250090	none		8243	9434	+	2593379607	Membrane-associated zinc metalloprotease
+kb|g.250090.CDS.204	CDS	Sucrose-6-phosphate hydrolase (EC 3.2.1.B3)	kb|g.250090	none		635	65	-	2593379608	Sucrose-6-phosphate hydrolase (EC 3.2.1.B3)
+kb|g.250090.CDS.205	CDS	Sucrose-6-phosphate hydrolase (EC 3.2.1.B3)	kb|g.250090	none		1265	770	-	2593379608	Sucrose-6-phosphate hydrolase (EC 3.2.1.B3)
+kb|g.250090.CDS.206	CDS		kb|g.250090	;	No annotated function	2273	1295	-	2593379608	
+kb|g.250090.CDS.207	CDS	Xaa-Pro aminopeptidase (EC 3.4.11.9)	kb|g.250090	none		2756	3773	+	2593379608	Xaa-Pro aminopeptidase (EC 3.4.11.9)
+kb|g.250090.CDS.208	CDS		kb|g.250090	;	No annotated function	4120	3778	-	2593379608	
+kb|g.250090.CDS.209	CDS		kb|g.250090	;	No annotated function	4518	4116	-	2593379608	
+kb|g.250090.CDS.210	CDS		kb|g.250090	;	No annotated function	4876	4522	-	2593379608	
+kb|g.250090.CDS.211	CDS	Succinate dehydrogenase iron-sulfur protein (EC 1.3.99.1)	kb|g.250090	none		5640	4878	-	2593379608	Succinate dehydrogenase iron-sulfur protein (EC 1.3.99.1)
+kb|g.250090.CDS.212	CDS	Succinate dehydrogenase flavoprotein subunit (EC 1.3.99.1)	kb|g.250090	none		7532	5639	-	2593379608	Succinate dehydrogenase flavoprotein subunit (EC 1.3.99.1)
+kb|g.250090.CDS.213	CDS	putative succinate dehydrogenase [membrane anchor subunit] (succinic dehydrogenase)	kb|g.250090	none		8390	7556	-	2593379608	putative succinate dehydrogenase [membrane anchor subunit] (succinic dehydrogenase)
+kb|g.250090.CDS.214	CDS		kb|g.250090	;	No annotated function	9280	8605	-	2593379608	
+kb|g.250090.CDS.215	CDS	Seryl-tRNA synthetase (EC 6.1.1.11)	kb|g.250090	none		9774	9438	-	2593379608	Seryl-tRNA synthetase (EC 6.1.1.11)
+kb|g.250090.CDS.216	CDS	Prolyl-tRNA synthetase (EC 6.1.1.15), bacterial type	kb|g.250090	none		27	1047	+	2593379609	Prolyl-tRNA synthetase (EC 6.1.1.15), bacterial type
+kb|g.250090.CDS.217	CDS		kb|g.250090	;	No annotated function	1050	1818	+	2593379609	
+kb|g.250090.CDS.218	CDS		kb|g.250090	;	No annotated function	1858	2305	+	2593379609	
+kb|g.250090.CDS.219	CDS	Transcription termination protein NusA	kb|g.250090	none		2307	3441	+	2593379609	Transcription termination protein NusA
+kb|g.250090.CDS.220	CDS		kb|g.250090	;	No annotated function	3755	3641	-	2593379609	
+kb|g.250090.CDS.221	CDS	Translation initiation factor 2	kb|g.250090	none		3834	6585	+	2593379609	Translation initiation factor 2
+kb|g.250090.CDS.222	CDS	Ribosome-binding factor A	kb|g.250090	none		6585	7002	+	2593379609	Ribosome-binding factor A
+kb|g.250090.CDS.223	CDS	tRNA pseudouridine synthase B (EC 4.2.1.70)	kb|g.250090	none		7017	7893	+	2593379609	tRNA pseudouridine synthase B (EC 4.2.1.70)
+kb|g.250090.CDS.224	CDS	Riboflavin kinase (EC 2.7.1.26) / FMN adenylyltransferase (EC 2.7.7.2)	kb|g.250090	none		7897	8761	+	2593379609	Riboflavin kinase (EC 2.7.1.26);FMN adenylyltransferase (EC 2.7.7.2)
+kb|g.250090.CDS.225	CDS	SSU ribosomal protein S15p (S13e)	kb|g.250090	none		8877	9147	+	2593379609	SSU ribosomal protein S15p (S13e)
+kb|g.250090.CDS.226	CDS	Twin-arginine translocation protein TatC	kb|g.250090	none		1912	1147	-	2593379610	Twin-arginine translocation protein TatC
+kb|g.250090.CDS.227	CDS		kb|g.250090	;	No annotated function	2108	1922	-	2593379610	
+kb|g.250090.CDS.228	CDS		kb|g.250090	;	No annotated function	3095	2120	-	2593379610	
+kb|g.250090.CDS.229	CDS	FIG005453: Putative DeoR-family transcriptional regulator	kb|g.250090	none		4027	3091	-	2593379610	FIG005453: Putative DeoR-family transcriptional regulator
+kb|g.250090.CDS.230	CDS		kb|g.250090	;	No annotated function	4107	4689	+	2593379610	
+kb|g.250090.CDS.231	CDS	Protein-L-isoaspartate methyltransferase (EC 2.1.1.77)	kb|g.250090	none		5563	4699	-	2593379610	Protein-L-isoaspartate methyltransferase (EC 2.1.1.77)
+kb|g.250090.CDS.232	CDS	5-methyltetrahydrofolate--homocysteine methyltransferase (EC 2.1.1.13)	kb|g.250090	none		9101	5612	-	2593379610	5-methyltetrahydrofolate--homocysteine methyltransferase (EC 2.1.1.13)
+kb|g.250090.CDS.233	CDS		kb|g.250090	;	No annotated function	9520	9118	-	2593379610	
+kb|g.250090.CDS.234	CDS		kb|g.250090	;	No annotated function	1486	679	-	2593379611	
+kb|g.250090.CDS.235	CDS	Possible mutator protein MutT3 (7,8-dihydro-8-oxoguanine-triphosphatase)	kb|g.250090	none		1583	2048	+	2593379611	Possible mutator protein MutT3 (7,8-dihydro-8-oxoguanine-triphosphatase)
+kb|g.250090.CDS.236	CDS	DinG family ATP-dependent helicase YoaA	kb|g.250090	none		4079	2048	-	2593379611	DinG family ATP-dependent helicase YoaA
+kb|g.250090.CDS.237	CDS	Ribonucleotide reductase of class II (coenzyme B12-dependent) (EC 1.17.4.1)	kb|g.250090	none		7078	4231	-	2593379611	Ribonucleotide reductase of class II (coenzyme B12-dependent) (EC 1.17.4.1)
+kb|g.250090.CDS.238	CDS	Ribonucleotide reductase transcriptional regulator NrdR	kb|g.250090	none		7620	7113	-	2593379611	Ribonucleotide reductase transcriptional regulator NrdR
+kb|g.250090.CDS.239	CDS		kb|g.250090	;	No annotated function	8231	7922	-	2593379611	
+kb|g.250090.CDS.240	CDS	SOS-response repressor and protease LexA (EC 3.4.21.88)	kb|g.250090	none		8403	9075	+	2593379611	SOS-response repressor and protease LexA (EC 3.4.21.88)
+kb|g.250090.CDS.241	CDS		kb|g.250090	;	No annotated function	9086	9299	+	2593379611	
+kb|g.250090.CDS.242	CDS		kb|g.250090	;	No annotated function	60	804	+	2593379612	
+kb|g.250090.CDS.243	CDS		kb|g.250090	;	No annotated function	836	1622	+	2593379612	
+kb|g.250090.CDS.244	CDS		kb|g.250090	;	No annotated function	2274	1617	-	2593379612	
+kb|g.250090.CDS.245	CDS	Purine nucleoside phosphorylase (EC 2.4.2.1)	kb|g.250090	none		2293	3112	+	2593379612	Purine nucleoside phosphorylase (EC 2.4.2.1)
+kb|g.250090.CDS.246	CDS	Phosphomannomutase (EC 5.4.2.8)	kb|g.250090	none		3108	4821	+	2593379612	Phosphomannomutase (EC 5.4.2.8)
+kb|g.250090.CDS.247	CDS	Adenosine deaminase (EC 3.5.4.4)	kb|g.250090	none		6531	5436	-	2593379612	Adenosine deaminase (EC 3.5.4.4)
+kb|g.250090.CDS.248	CDS	Thymidine phosphorylase (EC 2.4.2.4)	kb|g.250090	none		7949	6539	-	2593379612	Thymidine phosphorylase (EC 2.4.2.4)
+kb|g.250090.CDS.249	CDS	Cytidine deaminase (EC 3.5.4.5)	kb|g.250090	none		8235	8001	-	2593379612	Cytidine deaminase (EC 3.5.4.5)
+kb|g.250090.CDS.250	CDS	Nucleoside ABC transporter, permease protein 2	kb|g.250090	none		9341	8231	-	2593379612	Nucleoside ABC transporter, permease protein 2
+kb|g.250090.CDS.251	CDS		kb|g.250090	;	No annotated function	526	991	+	2593379613	
+kb|g.250090.CDS.252	CDS	GTP-binding and nucleic acid-binding protein YchF	kb|g.250090	none		1003	2077	+	2593379613	GTP-binding and nucleic acid-binding protein YchF
+kb|g.250090.CDS.253	CDS	GTP-binding protein TypA/BipA	kb|g.250090	none		2073	3987	+	2593379613	GTP-binding protein TypA/BipA
+kb|g.250090.CDS.254	CDS	ATP-dependent DNA helicase SCO5183	kb|g.250090	none		4061	7172	+	2593379613	ATP-dependent DNA helicase SCO5183
+kb|g.250090.CDS.255	CDS	Phosphate ABC transporter, periplasmic phosphate-binding protein PstS (TC 3.A.1.7.1)	kb|g.250090	none		17	872	+	2593379614	Phosphate ABC transporter, periplasmic phosphate-binding protein PstS (TC 3.A.1.7.1)
+kb|g.250090.CDS.256	CDS	ABC transporter ATP-binding protein	kb|g.250090	none		1094	2762	+	2593379614	ABC transporter ATP-binding protein
+kb|g.250090.CDS.257	CDS	Hemoglobin-like protein HbO	kb|g.250090	none		2798	3194	+	2593379614	Hemoglobin-like protein HbO
+kb|g.250090.CDS.258	CDS	Benzoate transport protein	kb|g.250090	none		3186	4380	+	2593379614	Benzoate transport protein
+kb|g.250090.CDS.259	CDS		kb|g.250090	;	No annotated function	4991	4385	-	2593379614	
+kb|g.250090.CDS.260	CDS	HNH endonuclease family protein	kb|g.250090	none		5105	5630	+	2593379614	HNH endonuclease family protein
+kb|g.250090.CDS.261	CDS		kb|g.250090	;	No annotated function	5697	5844	+	2593379614	
+kb|g.250090.CDS.262	CDS	Membrane alanine aminopeptidase N (EC 3.4.11.2)	kb|g.250090	none		8403	5856	-	2593379614	Membrane alanine aminopeptidase N (EC 3.4.11.2)
+kb|g.250090.CDS.263	CDS		kb|g.250090	;	No annotated function	549	699	+	2593379615	
+kb|g.250090.CDS.264	CDS		kb|g.250090	;	No annotated function	932	2582	+	2593379615	
+kb|g.250090.CDS.265	CDS	Branched-chain amino acid ABC transporter, amino acid-binding protein (TC 3.A.1.4.1)	kb|g.250090	none		2940	4104	+	2593379615	Branched-chain amino acid ABC transporter, amino acid-binding protein (TC 3.A.1.4.1)
+kb|g.250090.CDS.266	CDS		kb|g.250090	;	No annotated function	4908	4119	-	2593379615	
+kb|g.250090.CDS.267	CDS		kb|g.250090	;	No annotated function	5609	4904	-	2593379615	
+kb|g.250090.CDS.268	CDS	Kynureninase (EC 3.7.1.3)	kb|g.250090	none		5674	6949	+	2593379615	Kynureninase (EC 3.7.1.3)
+kb|g.250090.CDS.269	CDS	Tryptophan 2,3-dioxygenase (EC 1.13.11.11)	kb|g.250090	none		6945	7737	+	2593379615	Tryptophan 2,3-dioxygenase (EC 1.13.11.11)
+kb|g.250090.CDS.270	CDS	NAD(P)HX epimerase / NAD(P)HX dehydratase	kb|g.250090	none		7897	8506	+	2593379615	NAD(P)HX epimerase;NAD(P)HX dehydratase
+kb|g.250090.CDS.271	CDS	Ribosomal large subunit pseudouridine synthase B (EC 4.2.1.70)	kb|g.250090	none		1071	336	-	2593379616	Ribosomal large subunit pseudouridine synthase B (EC 4.2.1.70)
+kb|g.250090.CDS.272	CDS	Segregation and condensation protein B	kb|g.250090	none		1745	1187	-	2593379616	Segregation and condensation protein B
+kb|g.250090.CDS.273	CDS	Segregation and condensation protein A	kb|g.250090	none		2705	1745	-	2593379616	Segregation and condensation protein A
+kb|g.250090.CDS.274	CDS	Chromosome (plasmid) partitioning protein ParA	kb|g.250090	none		2791	3712	+	2593379616	Chromosome (plasmid) partitioning protein ParA
+kb|g.250090.CDS.275	CDS		kb|g.250090	;	No annotated function	3708	4107	+	2593379616	
+kb|g.250090.CDS.276	CDS		kb|g.250090	;	No annotated function	5048	4136	-	2593379616	
+kb|g.250090.CDS.277	CDS	CTP synthase (EC 6.3.4.2)	kb|g.250090	none		6702	5034	-	2593379616	CTP synthase (EC 6.3.4.2)
+kb|g.250090.CDS.278	CDS	DNA repair protein RecN	kb|g.250090	none		8483	6761	-	2593379616	DNA repair protein RecN
+kb|g.250090.CDS.279	CDS		kb|g.250090	;	No annotated function	8697	8475	-	2593379616	
+kb|g.250090.CDS.280	CDS		kb|g.250090	;	No annotated function	1908	1617	-	2593379617	
+kb|g.250090.CDS.281	CDS	Aspartyl-tRNA synthetase (EC 6.1.1.12) @ Aspartyl-tRNA(Asn) synthetase (EC 6.1.1.23)	kb|g.250090	none		3728	1949	-	2593379617	Aspartyl-tRNA synthetase (EC 6.1.1.12);Aspartyl-tRNA(Asn) synthetase (EC 6.1.1.23)
+kb|g.250090.CDS.282	CDS	Histidyl-tRNA synthetase (EC 6.1.1.21)	kb|g.250090	none		4999	3727	-	2593379617	Histidyl-tRNA synthetase (EC 6.1.1.21)
+kb|g.250090.CDS.283	CDS	Hydroxyacylglutathione hydrolase (EC 3.1.2.6)	kb|g.250090	none		5686	4999	-	2593379617	Hydroxyacylglutathione hydrolase (EC 3.1.2.6)
+kb|g.250090.CDS.284	CDS		kb|g.250090	;	No annotated function	5860	5716	-	2593379617	
+kb|g.250090.CDS.285	CDS	ATPase involved in DNA repair	kb|g.250090	none		5931	7233	+	2593379617	ATPase involved in DNA repair
+kb|g.250090.CDS.286	CDS	GTP pyrophosphokinase (EC 2.7.6.5), (p)ppGpp synthetase I	kb|g.250090	none		8516	7235	-	2593379617	GTP pyrophosphokinase (EC 2.7.6.5), (p)ppGpp synthetase I
+kb|g.250090.CDS.287	CDS	Cell division protein FtsI [Peptidoglycan synthetase] (EC 2.4.1.129)	kb|g.250090	none		13	1063	+	2593379618	Cell division protein FtsI [Peptidoglycan synthetase] (EC 2.4.1.129)
+kb|g.250090.CDS.288	CDS	Cell division protein FtsW	kb|g.250090	none		1094	2246	+	2593379618	Cell division protein FtsW
+kb|g.250090.CDS.289	CDS	Cytoplasmic axial filament protein CafA and Ribonuclease G (EC 3.1.4.-)	kb|g.250090	none		2466	4824	+	2593379618	Cytoplasmic axial filament protein CafA and Ribonuclease G (EC 3.1.4.-)
+kb|g.250090.CDS.290	CDS	LSU ribosomal protein L21p	kb|g.250090	none		4976	5285	+	2593379618	LSU ribosomal protein L21p
+kb|g.250090.CDS.291	CDS	LSU ribosomal protein L27p	kb|g.250090	none		5296	5563	+	2593379618	LSU ribosomal protein L27p
+kb|g.250090.CDS.292	CDS	GTP-binding protein Obg	kb|g.250090	none		5670	7140	+	2593379618	GTP-binding protein Obg
+kb|g.250090.CDS.293	CDS		kb|g.250090	;	No annotated function	1744	670	-	2593379619	
+kb|g.250090.CDS.294	CDS		kb|g.250090	;	No annotated function	3513	1740	-	2593379619	
+kb|g.250090.CDS.295	CDS		kb|g.250090	;	No annotated function	4605	3546	-	2593379619	
+kb|g.250090.CDS.296	CDS		kb|g.250090	;	No annotated function	5950	4735	-	2593379619	
+kb|g.250090.CDS.297	CDS	Serine acetyltransferase (EC 2.3.1.30)	kb|g.250090	none		6458	5999	-	2593379619	Serine acetyltransferase (EC 2.3.1.30)
+kb|g.250090.CDS.298	CDS	Cysteine synthase (EC 2.5.1.47)	kb|g.250090	none		7545	6510	-	2593379619	Cysteine synthase (EC 2.5.1.47)
+kb|g.250090.CDS.299	CDS	Oligopeptide transport system permease protein OppC (TC 3.A.1.5.1)	kb|g.250090	none		51	873	+	2593379620	Oligopeptide transport system permease protein OppC (TC 3.A.1.5.1)
+kb|g.250090.CDS.300	CDS		kb|g.250090	;	No annotated function	1438	868	-	2593379620	
+kb|g.250090.CDS.301	CDS	Dipeptide transport ATP-binding protein DppD (TC 3.A.1.5.2)	kb|g.250090	none		1522	3169	+	2593379620	Dipeptide transport ATP-binding protein DppD (TC 3.A.1.5.2)
+kb|g.250090.CDS.302	CDS		kb|g.250090	;	No annotated function	5183	3200	-	2593379620	
+kb|g.250090.CDS.303	CDS	Transcriptional regulator, MarR family	kb|g.250090	none		5289	5775	+	2593379620	Transcriptional regulator, MarR family
+kb|g.250090.CDS.304	CDS		kb|g.250090	;	No annotated function	6263	5840	-	2593379620	
+kb|g.250090.CDS.305	CDS		kb|g.250090	;	No annotated function	7688	6425	-	2593379620	
+kb|g.250090.CDS.306	CDS	Lipoate synthase	kb|g.250090	none		130	733	+	2593379621	Lipoate synthase
+kb|g.250090.CDS.307	CDS	1-acyl-sn-glycerol-3-phosphate acyltransferase (EC 2.3.1.51)	kb|g.250090	none		725	1475	+	2593379621	1-acyl-sn-glycerol-3-phosphate acyltransferase (EC 2.3.1.51)
+kb|g.250090.CDS.308	CDS		kb|g.250090	;	No annotated function	1475	2144	+	2593379621	
+kb|g.250090.CDS.309	CDS		kb|g.250090	;	No annotated function	2522	2162	-	2593379621	
+kb|g.250090.CDS.310	CDS	Glutamine synthetase type I (EC 6.3.1.2)	kb|g.250090	none		2630	4064	+	2593379621	Glutamine synthetase type I (EC 6.3.1.2)
+kb|g.250090.CDS.311	CDS		kb|g.250090	;	No annotated function	4182	4809	+	2593379621	
+kb|g.250090.CDS.312	CDS	Aromatic-L-amino-acid decarboxylase (EC 4.1.1.28)	kb|g.250090	none		4846	6202	+	2593379621	Aromatic-L-amino-acid decarboxylase (EC 4.1.1.28)
+kb|g.250090.CDS.313	CDS	Agmatinase (EC 3.5.3.11)	kb|g.250090	none		7185	6204	-	2593379621	Agmatinase (EC 3.5.3.11)
+kb|g.250090.CDS.314	CDS	Malonyl CoA-acyl carrier protein transacylase (EC 2.3.1.39)	kb|g.250090	none		1196	263	-	2593379622	Malonyl CoA-acyl carrier protein transacylase (EC 2.3.1.39)
+kb|g.250090.CDS.315	CDS		kb|g.250090	;	No annotated function	2084	1304	-	2593379622	
+kb|g.250090.CDS.316	CDS	Dolichol-phosphate mannosyltransferase (EC 2.4.1.83) in lipid-linked oligosaccharide synthesis cluster	kb|g.250090	none		3253	2083	-	2593379622	Dolichol-phosphate mannosyltransferase (EC 2.4.1.83) in lipid-linked oligosaccharide synthesis cluster
+kb|g.250090.CDS.317	CDS	Glycosyltransferase	kb|g.250090	none		4383	3249	-	2593379622	Glycosyltransferase
+kb|g.250090.CDS.318	CDS	Cysteine desulfurase (EC 2.8.1.7)	kb|g.250090	none		4474	5653	+	2593379622	Cysteine desulfurase (EC 2.8.1.7)
+kb|g.250090.CDS.319	CDS	tRNA-specific 2-thiouridylase MnmA	kb|g.250090	none		5649	6729	+	2593379622	tRNA-specific 2-thiouridylase MnmA
+kb|g.250090.CDS.320	CDS		kb|g.250090	;	No annotated function	221	863	+	2593379623	
+kb|g.250090.CDS.321	CDS		kb|g.250090	;	No annotated function	1095	1254	+	2593379623	
+kb|g.250090.CDS.322	CDS		kb|g.250090	;	No annotated function	1421	2456	+	2593379623	
+kb|g.250090.CDS.323	CDS	WhiB-family transcriptional regulator	kb|g.250090	none		2796	2451	-	2593379623	WhiB-family transcriptional regulator
+kb|g.250090.CDS.324	CDS		kb|g.250090	;	No annotated function	3083	2918	-	2593379623	
+kb|g.250090.CDS.325	CDS	ATP-dependent DNA helicase UvrD/PcrA, actinomycete paralog	kb|g.250090	none		4851	3201	-	2593379623	ATP-dependent DNA helicase UvrD/PcrA, actinomycete paralog
+kb|g.250090.CDS.326	CDS	NADH pyrophosphatase (EC 3.6.1.22)	kb|g.250090	none		5758	4855	-	2593379623	NADH pyrophosphatase (EC 3.6.1.22)
+kb|g.250090.CDS.327	CDS		kb|g.250090	;	No annotated function	5787	6555	+	2593379623	
+kb|g.250090.CDS.328	CDS	ATP-dependent DNA helicase SCO5184	kb|g.250090	none		6764	6527	-	2593379623	ATP-dependent DNA helicase SCO5184
+kb|g.250090.CDS.329	CDS		kb|g.250090	;	No annotated function	18	519	+	2593379624	
+kb|g.250090.CDS.330	CDS		kb|g.250090	;	No annotated function	515	1289	+	2593379624	
+kb|g.250090.CDS.331	CDS		kb|g.250090	;	No annotated function	1377	2610	+	2593379624	
+kb|g.250090.CDS.332	CDS	tRNA(Ile)-lysidine synthetase (EC 6.3.4.19)	kb|g.250090	none		2614	3568	+	2593379624	tRNA(Ile)-lysidine synthetase (EC 6.3.4.19)
+kb|g.250090.CDS.333	CDS	Hypoxanthine-guanine phosphoribosyltransferase (EC 2.4.2.8)	kb|g.250090	none		3608	4160	+	2593379624	Hypoxanthine-guanine phosphoribosyltransferase (EC 2.4.2.8)
+kb|g.250090.CDS.334	CDS	Cell division protein FtsH (EC 3.4.24.-)	kb|g.250090	none		4159	6208	+	2593379624	Cell division protein FtsH (EC 3.4.24.-)
+kb|g.250090.CDS.335	CDS	Excinuclease ABC subunit A	kb|g.250090	none		5	2723	+	2593379625	Excinuclease ABC subunit A
+kb|g.250090.CDS.336	CDS	Excinuclease ABC subunit C	kb|g.250090	none		2722	4633	+	2593379625	Excinuclease ABC subunit C
+kb|g.250090.CDS.337	CDS	Hypothetical ATP-binding protein UPF0042, contains P-loop	kb|g.250090	none		4657	5530	+	2593379625	Hypothetical ATP-binding protein UPF0042, contains P-loop
+kb|g.250090.CDS.338	CDS		kb|g.250090	;	No annotated function	2482	1783	-	2593379626	
+kb|g.250090.CDS.339	CDS	Prolipoprotein diacylglyceryl transferase (EC 2.4.99.-)	kb|g.250090	none		3303	2505	-	2593379626	Prolipoprotein diacylglyceryl transferase (EC 2.4.99.-)
+kb|g.250090.CDS.340	CDS		kb|g.250090	;	No annotated function	4040	3350	-	2593379626	
+kb|g.250090.CDS.341	CDS		kb|g.250090	;	No annotated function	4584	4101	-	2593379626	
+kb|g.250090.CDS.342	CDS	Tryptophan synthase alpha chain (EC 4.2.1.20)	kb|g.250090	none		5390	4580	-	2593379626	Tryptophan synthase alpha chain (EC 4.2.1.20)
+kb|g.250090.CDS.343	CDS	Tryptophan synthase beta chain (EC 4.2.1.20)	kb|g.250090	none		6275	5390	-	2593379626	Tryptophan synthase beta chain (EC 4.2.1.20)
+kb|g.250090.CDS.344	CDS		kb|g.250090	;	No annotated function	85	211	+	2593379627	
+kb|g.250090.CDS.345	CDS		kb|g.250090	;	No annotated function	1200	213	-	2593379627	
+kb|g.250090.CDS.346	CDS	Pyrroline-5-carboxylate reductase (EC 1.5.1.2)	kb|g.250090	none		2027	1196	-	2593379627	Pyrroline-5-carboxylate reductase (EC 1.5.1.2)
+kb|g.250090.CDS.347	CDS	FIG01122970: hypothetical protein	kb|g.250090	none		2102	2921	+	2593379627	FIG01122970: hypothetical protein
+kb|g.250090.CDS.348	CDS	DNA repair protein RadA	kb|g.250090	none		2934	4305	+	2593379627	DNA repair protein RadA
+kb|g.250090.CDS.349	CDS	A/G-specific adenine glycosylase (EC 3.2.2.-)	kb|g.250090	none		4306	5143	+	2593379627	A/G-specific adenine glycosylase (EC 3.2.2.-)
+kb|g.250090.CDS.350	CDS	ATP-dependent Clp protease, ATP-binding subunit ClpC / Negative regulator of genetic competence clcC/mecB	kb|g.250090	none		6137	5138	-	2593379627	ATP-dependent Clp protease, ATP-binding subunit ClpC;Negative regulator of genetic competence clcC/mecB
+kb|g.250090.CDS.351	CDS		kb|g.250090	;	No annotated function	63	426	+	2593379628	
+kb|g.250090.CDS.352	CDS	Aromatic-amino-acid aminotransferase (EC 2.6.1.57)	kb|g.250090	none		1691	437	-	2593379628	Aromatic-amino-acid aminotransferase (EC 2.6.1.57)
+kb|g.250090.CDS.353	CDS		kb|g.250090	;	No annotated function	1647	1767	+	2593379628	
+kb|g.250090.CDS.354	CDS	N-acetylmuramoyl-L-alanine amidase (EC 3.5.1.28)	kb|g.250090	none		2852	1766	-	2593379628	N-acetylmuramoyl-L-alanine amidase (EC 3.5.1.28)
+kb|g.250090.CDS.355	CDS	Thioredoxin	kb|g.250090	none		3197	2873	-	2593379628	Thioredoxin
+kb|g.250090.CDS.356	CDS	Thioredoxin reductase (EC 1.8.1.9)	kb|g.250090	none		4163	3230	-	2593379628	Thioredoxin reductase (EC 1.8.1.9)
+kb|g.250090.CDS.357	CDS		kb|g.250090	;	No annotated function	5769	5907	+	2593379628	
+kb|g.250090.CDS.358	CDS		kb|g.250090	;	No annotated function	5786	4184	-	2593379628	
+kb|g.250090.CDS.359	CDS	5,10-methylenetetrahydrofolate reductase (EC 1.5.1.20)	kb|g.250090	none		200	1103	+	2593379629	5,10-methylenetetrahydrofolate reductase (EC 1.5.1.20)
+kb|g.250090.CDS.360	CDS		kb|g.250090	;	No annotated function	3207	1686	-	2593379629	
+kb|g.250090.CDS.361	CDS	Glycosyl transferase, family 2	kb|g.250090	none		4299	3210	-	2593379629	Glycosyl transferase, family 2
+kb|g.250090.CDS.362	CDS		kb|g.250090	;	No annotated function	5114	4301	-	2593379629	
+kb|g.250090.CDS.363	CDS		kb|g.250090	;	No annotated function	5820	5118	-	2593379629	
+kb|g.250090.CDS.364	CDS		kb|g.250090	;	No annotated function	5960	5816	-	2593379629	
+kb|g.250090.CDS.365	CDS		kb|g.250090	;	No annotated function	607	88	-	2593379630	
+kb|g.250090.CDS.366	CDS	Rod shape-determining protein MreC	kb|g.250090	none		1602	612	-	2593379630	Rod shape-determining protein MreC
+kb|g.250090.CDS.367	CDS	Rod shape-determining protein MreB	kb|g.250090	none		2711	1643	-	2593379630	Rod shape-determining protein MreB
+kb|g.250090.CDS.368	CDS	Nucleoside diphosphate kinase (EC 2.7.4.6)	kb|g.250090	none		3143	2729	-	2593379630	Nucleoside diphosphate kinase (EC 2.7.4.6)
+kb|g.250090.CDS.369	CDS		kb|g.250090	;	No annotated function	3484	3166	-	2593379630	
+kb|g.250090.CDS.370	CDS	Dihydrofolate synthase (EC 6.3.2.12) / Folylpolyglutamate synthase (EC 6.3.2.17)	kb|g.250090	none		4851	3480	-	2593379630	Dihydrofolate synthase (EC 6.3.2.12);Folylpolyglutamate synthase (EC 6.3.2.17)
+kb|g.250090.CDS.371	CDS	Valyl-tRNA synthetase (EC 6.1.1.9)	kb|g.250090	none		5979	4869	-	2593379630	Valyl-tRNA synthetase (EC 6.1.1.9)
+kb|g.250090.CDS.372	CDS	Signal recognition particle, subunit Ffh SRP54 (TC 3.A.5.1.1)	kb|g.250090	none		1573	121	-	2593379631	Signal recognition particle, subunit Ffh SRP54 (TC 3.A.5.1.1)
+kb|g.250090.CDS.373	CDS	[Protein-PII] uridylyltransferase (EC 2.7.7.59)	kb|g.250090	none		3900	1638	-	2593379631	[Protein-PII] uridylyltransferase (EC 2.7.7.59)
+kb|g.250090.CDS.374	CDS	Nitrogen regulatory protein P-II	kb|g.250090	none		4267	3928	-	2593379631	Nitrogen regulatory protein P-II
+kb|g.250090.CDS.375	CDS	Ammonium transporter	kb|g.250090	none		5560	4288	-	2593379631	Ammonium transporter
+kb|g.250090.CDS.376	CDS		kb|g.250090	;	No annotated function	2348	1610	-	2593379632	
+kb|g.250090.CDS.377	CDS	Sensor histidine kinase MtrB (EC 2.7.3.-)	kb|g.250090	none		3936	2367	-	2593379632	Sensor histidine kinase MtrB (EC 2.7.3.-)
+kb|g.250090.CDS.378	CDS		kb|g.250090	;	No annotated function	4629	3948	-	2593379632	
+kb|g.250090.CDS.379	CDS	Adenosylhomocysteinase (EC 3.3.1.1)	kb|g.250090	none		5708	4628	-	2593379632	Adenosylhomocysteinase (EC 3.3.1.1)
+kb|g.250090.CDS.380	CDS	Seryl-tRNA synthetase (EC 6.1.1.11)	kb|g.250090	none		1820	557	-	2593379633	Seryl-tRNA synthetase (EC 6.1.1.11)
+kb|g.250090.CDS.381	CDS	Prephenate dehydratase (EC 4.2.1.51)	kb|g.250090	none		2702	1829	-	2593379633	Prephenate dehydratase (EC 4.2.1.51)
+kb|g.250090.CDS.382	CDS	Protein serine/threonine phosphatase PrpC, regulation of stationary phase	kb|g.250090	none		2749	3532	+	2593379633	Protein serine/threonine phosphatase PrpC, regulation of stationary phase
+kb|g.250090.CDS.383	CDS	Serine/threonine protein kinase PrkC, regulator of stationary phase	kb|g.250090	none		3567	5082	+	2593379633	Serine/threonine protein kinase PrkC, regulator of stationary phase
+kb|g.250090.CDS.384	CDS	Anthranilate synthase, amidotransferase component (EC 4.1.3.27) @ Para-aminobenzoate synthase, amidotransferase component (EC 2.6.1.85)	kb|g.250090	none		5674	5107	-	2593379633	Anthranilate synthase, amidotransferase component (EC 4.1.3.27);Para-aminobenzoate synthase, amidotransferase component (EC 2.6.1.85)
+kb|g.250090.CDS.385	CDS	Pyridoxine biosynthesis glutamine amidotransferase, synthase subunit (EC 2.4.2.-)	kb|g.250090	none		1266	366	-	2593379634	Pyridoxine biosynthesis glutamine amidotransferase, synthase subunit (EC 2.4.2.-)
+kb|g.250090.CDS.386	CDS		kb|g.250090	;	No annotated function	2251	2422	+	2593379634	
+kb|g.250090.CDS.387	CDS	secreted protein	kb|g.250090	none		2252	1343	-	2593379634	secreted protein
+kb|g.250090.CDS.388	CDS		kb|g.250090	;	No annotated function	2917	2413	-	2593379634	
+kb|g.250090.CDS.389	CDS	Phosphatidylinositol alpha-mannosyltransferase (EC 2.4.1.57)	kb|g.250090	none		4024	2917	-	2593379634	Phosphatidylinositol alpha-mannosyltransferase (EC 2.4.1.57)
+kb|g.250090.CDS.390	CDS	Lauroyl/myristoyl acyltransferase involved in lipid A biosynthesis (Lauroyl/myristoyl acyltransferase)	kb|g.250090	none		4973	4088	-	2593379634	Lauroyl/myristoyl acyltransferase involved in lipid A biosynthesis (Lauroyl/myristoyl acyltransferase)
+kb|g.250090.CDS.391	CDS	CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase (EC 2.7.8.5)	kb|g.250090	none		5585	4976	-	2593379634	CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase (EC 2.7.8.5)
+kb|g.250090.CDS.392	CDS	Heme ABC transporter, cell surface heme and hemoprotein receptor HmuT	kb|g.250090	none		1327	460	-	2593379635	Heme ABC transporter, cell surface heme and hemoprotein receptor HmuT
+kb|g.250090.CDS.393	CDS		kb|g.250090	;	No annotated function	1348	1918	+	2593379635	
+kb|g.250090.CDS.394	CDS		kb|g.250090	;	No annotated function	1950	2283	+	2593379635	
+kb|g.250090.CDS.395	CDS		kb|g.250090	;	No annotated function	2983	2398	-	2593379635	
+kb|g.250090.CDS.396	CDS	FMN-dependent NADH-azoreductase	kb|g.250090	none		3129	3738	+	2593379635	FMN-dependent NADH-azoreductase
+kb|g.250090.CDS.397	CDS		kb|g.250090	;	No annotated function	4698	3747	-	2593379635	
+kb|g.250090.CDS.398	CDS	Cell envelope-associated transcriptional attenuator LytR-CpsA-Psr, subfamily A1 (as in PMID19099556)	kb|g.250090	none		5507	4715	-	2593379635	Cell envelope-associated transcriptional attenuator LytR-CpsA-Psr, subfamily A1 (as in PMID19099556)
+kb|g.250090.CDS.399	CDS	O-acetylhomoserine sulfhydrylase (EC 2.5.1.49) / O-succinylhomoserine sulfhydrylase (EC 2.5.1.48)	kb|g.250090	none		44	230	+	2593379636	O-acetylhomoserine sulfhydrylase (EC 2.5.1.49);O-succinylhomoserine sulfhydrylase (EC 2.5.1.48)
+kb|g.250090.CDS.400	CDS	Homoserine O-acetyltransferase (EC 2.3.1.31)	kb|g.250090	none		248	1373	+	2593379636	Homoserine O-acetyltransferase (EC 2.3.1.31)
+kb|g.250090.CDS.401	CDS	RNA polymerase sigma factor RpoD	kb|g.250090	none		1397	2942	+	2593379636	RNA polymerase sigma factor RpoD
+kb|g.250090.CDS.402	CDS		kb|g.250090	;	No annotated function	2966	3155	+	2593379636	
+kb|g.250090.CDS.403	CDS		kb|g.250090	;	No annotated function	3383	3164	-	2593379636	
+kb|g.250090.CDS.404	CDS	Carbamoyl-phosphate synthase large chain (EC 6.3.5.5)	kb|g.250090	none		29	2717	+	2593379637	Carbamoyl-phosphate synthase large chain (EC 6.3.5.5)
+kb|g.250090.CDS.405	CDS	Dihydroorotate dehydrogenase electron transfer subunit (EC 1.3.3.1)	kb|g.250090	none		2726	3587	+	2593379637	Dihydroorotate dehydrogenase electron transfer subunit (EC 1.3.3.1)
+kb|g.250090.CDS.406	CDS	Dihydroorotate dehydrogenase, catalytic subunit (EC 1.3.3.1)	kb|g.250090	none		3586	4534	+	2593379637	Dihydroorotate dehydrogenase, catalytic subunit (EC 1.3.3.1)
+kb|g.250090.CDS.407	CDS	Orotidine 5'-phosphate decarboxylase (EC 4.1.1.23)	kb|g.250090	none		4533	5247	+	2593379637	Orotidine 5'-phosphate decarboxylase (EC 4.1.1.23)
+kb|g.250090.CDS.408	CDS		kb|g.250090	;	No annotated function	948	1158	+	2593379638	
+kb|g.250090.CDS.409	CDS	ATP:Cob(I)alamin adenosyltransferase (EC 2.5.1.17)	kb|g.250090	none		1199	1775	+	2593379638	ATP:Cob(I)alamin adenosyltransferase (EC 2.5.1.17)
+kb|g.250090.CDS.410	CDS		kb|g.250090	;	No annotated function	2640	1794	-	2593379638	
+kb|g.250090.CDS.411	CDS		kb|g.250090	;	No annotated function	2709	3030	+	2593379638	
+kb|g.250090.CDS.412	CDS	Aldehyde dehydrogenase (EC 1.2.1.3)	kb|g.250090	none		4489	3025	-	2593379638	Aldehyde dehydrogenase (EC 1.2.1.3)
+kb|g.250090.CDS.413	CDS	FIG01173569: hypothetical protein	kb|g.250090	none		4542	5223	+	2593379638	FIG01173569: hypothetical protein
+kb|g.250090.CDS.414	CDS	MutT/nudix family protein	kb|g.250090	none		852	258	-	2593379639	MutT/nudix family protein
+kb|g.250090.CDS.415	CDS	tRNA nucleotidyltransferase (EC 2.7.7.21) (EC 2.7.7.25)	kb|g.250090	none		884	2333	+	2593379639	tRNA nucleotidyltransferase (EC 2.7.7.21) (EC 2.7.7.25)
+kb|g.250090.CDS.416	CDS		kb|g.250090	;	No annotated function	3571	2287	-	2593379639	
+kb|g.250090.CDS.417	CDS		kb|g.250090	;	No annotated function	3646	4090	+	2593379639	
+kb|g.250090.CDS.418	CDS		kb|g.250090	;	No annotated function	5	635	+	2593379640	
+kb|g.250090.CDS.419	CDS	putative protease	kb|g.250090	none		696	1881	+	2593379640	putative protease
+kb|g.250090.CDS.420	CDS	Mrp protein homolog	kb|g.250090	none		1890	3021	+	2593379640	Mrp protein homolog
+kb|g.250090.CDS.421	CDS		kb|g.250090	;	No annotated function	3080	4418	+	2593379640	
+kb|g.250090.CDS.422	CDS	Cell division trigger factor (EC 5.2.1.8)	kb|g.250090	none		387	1692	+	2593379641	Cell division trigger factor (EC 5.2.1.8)
+kb|g.250090.CDS.423	CDS	ATP-dependent Clp protease proteolytic subunit (EC 3.4.21.92)	kb|g.250090	none		1806	2418	+	2593379641	ATP-dependent Clp protease proteolytic subunit (EC 3.4.21.92)
+kb|g.250090.CDS.424	CDS	ATP-dependent Clp protease proteolytic subunit (EC 3.4.21.92)	kb|g.250090	none		2414	3047	+	2593379641	ATP-dependent Clp protease proteolytic subunit (EC 3.4.21.92)
+kb|g.250090.CDS.425	CDS	ATP-dependent Clp protease ATP-binding subunit ClpX	kb|g.250090	none		3127	4423	+	2593379641	ATP-dependent Clp protease ATP-binding subunit ClpX
+kb|g.250090.CDS.426	CDS		kb|g.250090	;	No annotated function	41	218	+	2593379642	
+kb|g.250090.CDS.427	CDS	Transcription termination factor Rho	kb|g.250090	none		351	2028	+	2593379642	Transcription termination factor Rho
+kb|g.250090.CDS.428	CDS		kb|g.250090	;	No annotated function	2178	2397	+	2593379642	
+kb|g.250090.CDS.429	CDS	Peptide chain release factor 1	kb|g.250090	none		2514	3606	+	2593379642	Peptide chain release factor 1
+kb|g.250090.CDS.430	CDS	Protein-N(5)-glutamine methyltransferase PrmC, methylates polypeptide chain release factors RF1 and RF2	kb|g.250090	none		3605	4469	+	2593379642	Protein-N(5)-glutamine methyltransferase PrmC, methylates polypeptide chain release factors RF1 and RF2
+kb|g.250090.CDS.431	CDS	Cyclopropane-fatty-acyl-phospholipid synthase (EC 2.1.1.79)	kb|g.250090	none		4918	4480	-	2593379642	Cyclopropane-fatty-acyl-phospholipid synthase (EC 2.1.1.79)
+kb|g.250090.CDS.432	CDS		kb|g.250090	;	No annotated function	98	887	+	2593379643	
+kb|g.250090.CDS.433	CDS		kb|g.250090	;	No annotated function	896	1397	+	2593379643	
+kb|g.250090.CDS.434	CDS		kb|g.250090	;	No annotated function	1393	1507	+	2593379643	
+kb|g.250090.CDS.435	CDS		kb|g.250090	;	No annotated function	1543	2353	+	2593379643	
+kb|g.250090.CDS.436	CDS		kb|g.250090	;	No annotated function	3818	2348	-	2593379643	
+kb|g.250090.CDS.437	CDS	DNA-binding response regulator	kb|g.250090	none		4577	3845	-	2593379643	DNA-binding response regulator
+kb|g.250090.CDS.438	CDS	DNA recombination and repair protein RecO	kb|g.250090	none		21	729	+	2593379644	DNA recombination and repair protein RecO
+kb|g.250090.CDS.439	CDS	Undecaprenyl diphosphate synthase (EC 2.5.1.31)	kb|g.250090	none		731	1463	+	2593379644	Undecaprenyl diphosphate synthase (EC 2.5.1.31)
+kb|g.250090.CDS.440	CDS		kb|g.250090	;	No annotated function	1459	2965	+	2593379644	
+kb|g.250090.CDS.441	CDS		kb|g.250090	;	No annotated function	2987	3731	+	2593379644	
+kb|g.250090.CDS.442	CDS		kb|g.250090	;	No annotated function	286	1294	+	2593379645	
+kb|g.250090.CDS.443	CDS	Lipoprotein signal peptidase (EC 3.4.23.36)	kb|g.250090	none		1329	1788	+	2593379645	Lipoprotein signal peptidase (EC 3.4.23.36)
+kb|g.250090.CDS.444	CDS	Ribosomal large subunit pseudouridine synthase D (EC 4.2.1.70)	kb|g.250090	none		1777	2752	+	2593379645	Ribosomal large subunit pseudouridine synthase D (EC 4.2.1.70)
+kb|g.250090.CDS.445	CDS		kb|g.250090	;	No annotated function	373	649	+	2593379646	
+kb|g.250090.CDS.446	CDS		kb|g.250090	;	No annotated function	784	1114	+	2593379646	
+kb|g.250090.CDS.447	CDS		kb|g.250090	;	No annotated function	1110	1419	+	2593379646	
+kb|g.250090.CDS.448	CDS	Rhodanese domain protein UPF0176, Actinobacterial subgroup	kb|g.250090	none		1435	2359	+	2593379646	Rhodanese domain protein UPF0176, Actinobacterial subgroup
+kb|g.250090.CDS.449	CDS		kb|g.250090	;	No annotated function	2822	2372	-	2593379646	
+kb|g.250090.CDS.450	CDS		kb|g.250090	;	No annotated function	2875	3853	+	2593379646	
+kb|g.250090.CDS.451	CDS		kb|g.250090	;	No annotated function	4367	3848	-	2593379646	
+kb|g.250090.CDS.452	CDS		kb|g.250090	;	No annotated function	685	154	-	2593379647	
+kb|g.250090.CDS.453	CDS	Glutamyl-tRNA synthetase (EC 6.1.1.17) @ Glutamyl-tRNA(Gln) synthetase (EC 6.1.1.24)	kb|g.250090	none		2521	1051	-	2593379647	Glutamyl-tRNA synthetase (EC 6.1.1.17);Glutamyl-tRNA(Gln) synthetase (EC 6.1.1.24)
+kb|g.250090.CDS.454	CDS	Fumarylacetoacetate hydrolase family protein	kb|g.250090	none		3302	2510	-	2593379647	Fumarylacetoacetate hydrolase family protein
+kb|g.250090.CDS.455	CDS	Magnesium and cobalt efflux protein CorC	kb|g.250090	none		4202	3335	-	2593379647	Magnesium and cobalt efflux protein CorC
+kb|g.250090.CDS.456	CDS		kb|g.250090	;	No annotated function	4	235	+	2593379648	
+kb|g.250090.CDS.457	CDS		kb|g.250090	;	No annotated function	231	867	+	2593379648	
+kb|g.250090.CDS.458	CDS		kb|g.250090	;	No annotated function	906	1275	+	2593379648	
+kb|g.250090.CDS.459	CDS		kb|g.250090	;	No annotated function	1793	1448	-	2593379648	
+kb|g.250090.CDS.460	CDS		kb|g.250090	;	No annotated function	2737	1837	-	2593379648	
+kb|g.250090.CDS.461	CDS		kb|g.250090	;	No annotated function	3040	2911	-	2593379648	
+kb|g.250090.CDS.462	CDS	NAD-dependent glyceraldehyde-3-phosphate dehydrogenase (EC 1.2.1.12)	kb|g.250090	none		81	606	+	2593379649	NAD-dependent glyceraldehyde-3-phosphate dehydrogenase (EC 1.2.1.12)
+kb|g.250090.CDS.463	CDS	Phosphoglycerate kinase (EC 2.7.2.3)	kb|g.250090	none		605	1823	+	2593379649	Phosphoglycerate kinase (EC 2.7.2.3)
+kb|g.250090.CDS.464	CDS	Triosephosphate isomerase (EC 5.3.1.1)	kb|g.250090	none		1815	2592	+	2593379649	Triosephosphate isomerase (EC 5.3.1.1)
+kb|g.250090.CDS.465	CDS	Preprotein translocase subunit SecG (TC 3.A.5.1.1)	kb|g.250090	none		2760	2988	+	2593379649	Preprotein translocase subunit SecG (TC 3.A.5.1.1)
+kb|g.250090.CDS.466	CDS	putative electron transport protein	kb|g.250090	none		3084	3426	+	2593379649	putative electron transport protein
+kb|g.250090.CDS.467	CDS	Glucose-6-phosphate isomerase (EC 5.3.1.9)	kb|g.250090	none		3781	3421	-	2593379649	Glucose-6-phosphate isomerase (EC 5.3.1.9)
+kb|g.250090.rna.1	rna	tRNA-Leu-TAA	kb|g.250090	none		3436	3363	-	2593379598	tRNA-Leu-TAA
+kb|g.250090.rna.2	rna	tRNA-Ala-GGC	kb|g.250090	none		2902	2975	+	2593379601	tRNA-Ala-GGC
+kb|g.250090.rna.3	rna	tRNA-Met-CAT	kb|g.250090	none		8405	8331	-	2593379602	tRNA-Met-CAT
+kb|g.250090.rna.4	rna	tRNA-Thr-TGT	kb|g.250090	none		11216	11144	-	2593379603	tRNA-Thr-TGT
+kb|g.250090.rna.5	rna	tRNA-Ser-TGA	kb|g.250090	none		8595	8512	-	2593379608	tRNA-Ser-TGA
+kb|g.250090.rna.6	rna	tRNA-Arg-TCT	kb|g.250090	none		1044	970	-	2593379614	tRNA-Arg-TCT
+kb|g.250090.rna.7	rna	tRNA-Pro-TGG	kb|g.250090	none		261	334	+	2593379641	tRNA-Pro-TGG
+kb|g.250090.rna.8	rna	tRNA-Gly-TCC	kb|g.250090	none		111	40	-	2593379641	tRNA-Gly-TCC
+kb|g.250090.rna.9	rna	tRNA-Gln-CTG	kb|g.250090	none		1001	929	-	2593379647	tRNA-Gln-CTG
+kb|g.250090.rna.10	rna	tRNA-Glu-CTC	kb|g.250090	none		885	812	-	2593379647	tRNA-Glu-CTC
+kb|g.250090.rna.11	rna	tRNA-Gly-GCC	kb|g.250090	none		3016	2943	-	2593379648	tRNA-Gly-GCC
+kb|g.250090.rna.12	rna	tRNA-Cys-GCA	kb|g.250090	none		2887	2816	-	2593379648	tRNA-Cys-GCA
+kb|g.250090.rna.13	rna	tRNA-Val-GAC	kb|g.250090	none		1386	1314	-	2593379648	tRNA-Val-GAC
+}

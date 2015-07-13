@@ -1,0 +1,1024 @@
+Attributes {
+	source_id:kb|g.236155.fbamdl
+	source:KBase
+	id:kb|g.236155.fbamdl0
+	name:SAG AAA024D14
+	type:GenomeScale
+}
+biomasses (name	other	definition	dna	rna	protein	cellwall	lipid	cofactor	energy) {
+GramNegativeBiomass auto biomass		(0.00309646685192537)10-Formyltetrahydrofolate[c0]+(0.00309646685192537)2-Demethylmenaquinone 8[c0]+(0.00309646685192537)5-Methyltetrahydrofolate[c0]+(0.00309646685192537)ACP[c0]+(40.1101757365074)ATP[c0]+(0.0106480421341882)Anteisoheptadecanoylcardiolipin (B. subtilis)[c0]+(0.0250105977108944)Bactoprenyl diphosphate[c0]+(0.0841036156544863)CTP[c0]+(0.00309646685192537)Ca2+[c0]+(0.00309646685192537)Calomide[c0]+(0.00309646685192537)Cl-[c0]+(0.00309646685192537)Co2+[c0]+(0.00309646685192537)CoA[c0]+(0.00309646685192537)Cu2+[c0]+(1)DNA replication[c0]+(0.0106480421341882)Dianteisoheptadecanoylphosphatidylethanolamine[c0]+(0.0106480421341882)Dianteisoheptadecanoylphosphatidylglycerol[c0]+(0.0106480421341882)Diisoheptadecanoylphosphatidylethanolamine[c0]+(0.0106480421341882)Diisoheptadecanoylphosphatidylglycerol[c0]+(0.00309646685192537)FAD[c0]+(0.00309646685192537)Fe2+[c0]+(0.00309646685192537)GSH[c0]+(0.135406821203723)GTP[c0]+(0.509869786991038)Glycine[c0]+(35.5403092430435)H2O[c0]+(0.00309646685192537)Heme[c0]+(0.0106480421341882)Isoheptadecanoylcardiolipin (B. subtilis)[c0]+(0.00309646685192537)K+[c0]+(0.427934380173264)L-Alanine[c0]+(0.246696822701341)L-Arginine[c0]+(0.200830806928348)L-Asparagine[c0]+(0.200830806928348)L-Aspartate[c0]+(0.0761464922056484)L-Cysteine[c0]+(0.219088153012743)L-Glutamate[c0]+(0.219088153012743)L-Glutamine[c0]+(0.0792636000737159)L-Histidine[c0]+(0.241798510337235)L-Isoleucine[c0]+(0.375388847540127)L-Leucine[c0]+(0.285438020490179)L-Lysine[c0]+(0.127801422590767)L-Methionine[c0]+(0.154519490031345)L-Phenylalanine[c0]+(0.184354665339991)L-Proline[c0]+(0.179456352975885)L-Serine[c0]+(0.211072732780569)L-Threonine[c0]+(0.0472019191450218)L-Tryptophan[c0]+(0.120676604606612)L-Tyrosine[c0]+(0.352233189091625)L-Valine[c0]+(0.00309646685192537)Menaquinone 8[c0]+(0.00309646685192537)Mg[c0]+(0.00309646685192537)Mn2+[c0]+(0.00309646685192537)NAD[c0]+(0.00309646685192537)NADP[c0]+(0.0250105977108944)Peptidoglycan polymer (n subunits)[c0]+(0.0106480421341882)Phosphatidylglycerol dioctadecanoyl[c0]+(1)Protein biosynthesis[c0]+(0.00309646685192537)Putrescine[c0]+(0.00309646685192537)Pyridoxal phosphate[c0]+(1)RNA transcription[c0]+(0.00309646685192537)Riboflavin[c0]+(0.00309646685192537)S-Adenosyl-L-methionine[c0]+(0.00309646685192537)Siroheme[c0]+(0.00309646685192537)Spermidine[c0]+(0.0106480421341882)Stearoylcardiolipin (B. subtilis)[c0]+(0.00309646685192537)Sulfate[c0]+(0.00309646685192537)TPP[c0]+(0.0160206718346253)TTP[c0]+(0.00309646685192537)Tetrahydrofolate[c0]+(0.0908319049068452)UTP[c0]+(0.00309646685192537)Ubiquinone-8[c0]+(0.00309646685192537)Zn2+[c0]+(0.0250105977108944)core oligosaccharide lipid A[c0]+(0.0160206718346253)dATP[c0]+(0.0160206718346253)dCTP[c0]+(0.0160206718346253)dGTP[c0]+(0.00309646685192537)fe3[c0]+(0.0106480421341882)phosphatidylethanolamine dioctadecanoyl[c0]=>(40)ADP[c0]+(1)Biomass[c0]+(0.00309646685192537)Cobinamide[c0]+(0.00309646685192537)Dimethylbenzimidazole[c0]+(40)H+[c0]+(0.484600765610933)PPi[c0]+(0.0250105977108944)Peptidoglycan polymer (n-1 subunits)[c0]+(39.9969035331481)Phosphate[c0]+(0.00309646685192537)apo-ACP[c0]	0.031	0.21	0.563	0.177	0.093	0.039	40
+}
+modelcompartments (id	label	compartmentIndex	pH	potential	compartment_ref) {
+c0	Cytosol_0		7		489/6/5/compartments/id/c
+e0	Extracellular_0		7		489/6/5/compartments/id/e
+}
+modelcompounds (formula	id	name	abbreviation	isBiomassCompound	charge	modelCompartmentLabel	modelcompartment_ref	compound_ref) {
+C5H10O7P2	cpd00113_c0	Isopentenyldiphosphate_c0	ipdp_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00113
+C35H58O7P2	cpd02590_c0	all-trans-Heptaprenyl diphosphate_c0	hepdp_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd02590
+C40H66O7P2	cpd02557_c0	Farnesylfarnesylgeraniol_c0	octdp_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd02557
+H2O7P2	cpd00012_c0	PPi_c0	ppi_c0	1	-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00012
+C4H9NO3	cpd00161_c0	L-Threonine_c0	thr-L_c0	1		c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00161
+C2H4O	cpd00071_c0	Acetaldehyde_c0	acald_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00071
+C2H5NO2	cpd00033_c0	Glycine_c0	gly_c0	1		c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00033
+C10H13N5O13P3	cpd00002_c0	ATP_c0	atp_c0	1	-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00002
+C5H10O5	cpd00259_c0	D-Lyxulose_c0	xylu-D_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00259
+C5H10O8P	cpd00198_c0	D-Xylulose5-phosphate_c0	xu5p-D_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00198
+C10H13N5O10P2	cpd00008_c0	ADP_c0	adp_c0	1	-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00008
+C20H40O7P	cpd15672_c0	1-anteisoheptadecanoyl-sn-glycerol 3-phosphate_c0	1-anteisoheptadecanoyl-sn-glycerol 3-phosphate_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15672
+C38H65N7O17P3S	cpd11434_c0	fa12coa_c0	fa12coa_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd11434
+C37H72O8P	cpd15678_c0	1,2-dianteisoheptadecanoyl-sn-glycerol 3-phosphate_c0	1,2-dianteisoheptadecanoyl-sn-glycerol 3-phosphate_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15678
+C21H33N7O16P3S	cpd00010_c0	CoA_c0	coa_c0	1	-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00010
+C6H7NO2R2S2	cpd11420_c0	trdox_c0	trdox_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd11420
+C6H11NO4	cpd00790_c0	O-Acetyl-L-homoserine_c0	achms_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00790
+C4H9NO2S	cpd00135_c0	Homocysteine_c0	hcys-L_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00135
+HO3S	cpd00081_c0	Sulfite_c0	so3_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00081
+C2H3O2	cpd00029_c0	Acetate_c0	ac_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00029
+O3S2	cpd00268_c0	H2S2O3_c0	tsul_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00268
+C6H9NO2R2S2	cpd11421_c0	trdrd_c0	trdrd_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd11421
+C5H11NO2S	cpd00060_c0	L-Methionine_c0	met-L_c0	1		c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00060
+H	cpd00067_c0	H+_c0	h_c0	1	1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00067
+H2O	cpd00001_c0	H2O_c0	h2o_c0	1		c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00001
+C3H7NO2	cpd00035_c0	L-Alanine_c0	ala-L_c0	1		c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00035
+C8H15N2O3S	cpd11590_c0	met-L-ala-L_c0	met-L-ala-L_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd11590
+C7H14N2O4	cpd11582_c0	ala-L-Thr-L_c0	ala-L-Thr-L_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd11582
+HO4P	cpd00009_c0	Phosphate_c0	pi_c0	1	-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00009
+C8H15N2O3S	cpd11590_e0	met-L-ala-L_e0	met-L-ala-L_e0		-1	e0	~/modelcompartments/id/e0	489/6/5/compounds/id/cpd11590
+C11H21N2O7PRS	cpd11493_c0	ACP_c0	ACP_c0	1	-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd11493
+C25H47N2O9PRS	cpd11484_c0	HMA_c0	3htdACP_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd11484
+C17H25N3O17P2	cpd00037_c0	UDP-N-acetylglucosamine_c0	uacgam_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00037
+C31H51N3O19P2	cpd02886_c0	UDP-3-O-(beta-hydroxymyristoyl)-N-acetylglucosamine_c0	u3aga_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd02886
+C21H26N7O17P3	cpd00006_c0	NADP_c0	nadp_c0	1	-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00006
+C6H3O7	cpd03187_c0	Oxalosuccinate_c0	oxasucc_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd03187
+C6H5O7	cpd00260_c0	Isocitrate_c0	icit_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00260
+C21H27N7O17P3	cpd00005_c0	NADPH_c0	nadph_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00005
+C5H11NO2	cpd00156_c0	L-Valine_c0	val-L_c0	1		c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00156
+C5H11NO2	cpd00156_e0	L-Valine_e0	val-L_e0			e0	~/modelcompartments/id/e0	489/6/5/compounds/id/cpd00156
+C9H18N2O3	cpd11583_c0	Ala-Leu_c0	ala-L-leu-L_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd11583
+C9H18N2O3	cpd11583_e0	Ala-Leu_e0	ala-L-leu-L_e0			e0	~/modelcompartments/id/e0	489/6/5/compounds/id/cpd11583
+Mg	cpd00254_e0	Mg_e0	mg2_e0		2	e0	~/modelcompartments/id/e0	489/6/5/compounds/id/cpd00254
+Mg	cpd00254_c0	Mg_c0	mg2_c0	1	2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00254
+C25H39N7O18P3S	cpd00842_c0	(S)-3-Hydroxybutyryl-CoA_c0	3hbycoa_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00842
+C25H39N7O18P3S	cpd02234_c0	(R)-3-Hydroxybutanoyl-CoA_c0	(R)-3-Hydroxybutanoyl-CoA_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd02234
+C4H4O4	cpd00036_c0	Succinate_c0	succ_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00036
+C51H72O2	cpd15500_c0	Menaquinone 8_c0	mqn8_c0	1		c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15500
+C4H2O4	cpd00106_c0	Fumarate_c0	fum_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00106
+C51H74O2	cpd15499_c0	Menaquinol 8_c0	mql8_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15499
+C5H10N2O3S	cpd15603_c0	Gly-Cys_c0	gly-cys-L_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15603
+C5H10N2O3S	cpd15603_e0	Gly-Cys_e0	gly-cys-L_e0			e0	~/modelcompartments/id/e0	489/6/5/compounds/id/cpd15603
+C7H11O10P	cpd02857_c0	DAHP_c0	2dda7p_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd02857
+C7H9O6	cpd00699_c0	5-Dehydroquinate_c0	3dhq_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00699
+C9H15N5O14P3	cpd03519_c0	2,5-Diaminopyrimidine nucleoside triphosphate_c0	2,5-Diaminopyrimidine nucleoside triphosphate_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd03519
+C10H15N5O15P3	cpd03518_c0	Formamidopyrimidine nucleoside triphosphate_c0	Formamidopyrimidine nucleoside triphosphate_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd03518
+CHO2	cpd00047_c0	Formate_c0	for_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00047
+H	cpd00067_e0	H+_e0	h_e0		1	e0	~/modelcompartments/id/e0	489/6/5/compounds/id/cpd00067
+C21H26N7O14P2	cpd00003_c0	NAD_c0	nad_c0	1	-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00003
+C21H27N7O14P2	cpd00004_c0	NADH_c0	nadh_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00004
+C8H12N	cpd03161_c0	Phenethylamine_c0	peamn_c0		1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd03161
+C9H11NO2	cpd00066_c0	L-Phenylalanine_c0	phe-L_c0	1		c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00066
+CO2	cpd00011_c0	CO2_c0	co2_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00011
+C6H12O6	cpd00121_c0	L-Inositol_c0	inost_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00121
+C6H12O9P	cpd02484_c0	Inositol 3-phosphate_c0	mi3p-D_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd02484
+C4H4O5	cpd00130_c0	L-Malate_c0	mal-L_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00130
+C4H2O5	cpd00032_c0	Oxaloacetate_c0	oaa_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00032
+C2O4	cpd00180_c0	Oxalate_c0	oxa_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00180
+C2HO3	cpd00040_c0	Glyoxalate_c0	glx_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00040
+C4H7NO3	cpd00346_c0	L-Aspartate4-semialdehyde_c0	aspsa_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00346
+C4H9NO3	cpd00227_c0	L-Homoserine_c0	hom-L_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00227
+C35H51N7O26P2	cpd02964_c0	UDP-N-acetylmuramoyl-L-alanyl-D-gamma-glutamyl-meso-2-6-diaminopimelate_c0	ugmd_c0		-4	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd02964
+C6H12N2O3	cpd00731_c0	Ala-Ala_c0	alaala_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00731
+C41H61N9O28P2	cpd02968_c0	UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-6-carboxy-L-lysyl-D-alanyl- D-alanine_c0	ugmda_c0		-4	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd02968
+C6H10O6	cpd00524_c0	2-Inosose_c0	2ins_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00524
+C9H13N3O9P	cpd02893_c0	5'-Phosphoribosyl-4-carboxy-5-aminoimidazole_c0	5aizc_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd02893
+C8H14N3O7P	cpd02140_c0	AIR_c0	air_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd02140
+CHO3	cpd00242_c0	H2CO3_c0	hco3_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00242
+C3H7NO2S	cpd00084_c0	L-Cysteine_c0	cys-L_c0	1		c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00084
+C7H14N2O4S	cpd00424_c0	Cystathionine_c0	Cystathionine_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00424
+C6H9N2O5	cpd11589_c0	gly-asp-L_c0	gly-asp-L_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd11589
+C4H6NO4	cpd00041_c0	L-Aspartate_c0	asp-L_c0	1	-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00041
+H2S	cpd00239_c0	H2S_c0	h2s_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00239
+C5H6N2O	cpd03052_c0	Imidazole acetaldehyde_c0	imzacd_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd03052
+C5H5N2O2	cpd01831_c0	4-Imidazoleacetate_c0	imzac_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd01831
+C25H37N7O17P3S	cpd02187_c0	Methacrylyl-CoA_c0	2mp2coa_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd02187
+C25H39N7O18P3S	cpd03572_c0	(S)-3-Hydroxyisobutyryl-CoA_c0	hibcoa_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd03572
+C40H64	cpd03205_c0	Phytoene_c0	Phytoene_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd03205
+C40H66O7P2	cpd02168_c0	Prephytoene diphosphate_c0	Prephytoene diphosphate_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd02168
+C35H68O8P	cpd15682_c0	1,2-diisohexadecanoyl-sn-glycerol 3-phosphate_c0	1,2-diisohexadecanoyl-sn-glycerol 3-phosphate_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15682
+C44H79N3O15P2	cpd15688_c0	CDP-1,2-diisohexadecanoylglycerol_c0	CDP-1,2-diisohexadecanoylglycerol_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15688
+C9H13N3O14P3	cpd00052_c0	CTP_c0	ctp_c0	1	-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00052
+C46H83N3O15P2	cpd15683_c0	CDP-1,2-diisoheptadecanoylglycerol_c0	CDP-1,2-diisoheptadecanoylglycerol_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15683
+C3H8O6P	cpd00080_c0	Glycerol-3-phosphate_c0	glyc3p_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00080
+C40H78O13P2	cpd15716_c0	Diisoheptadecanoylphosphatidylglycerophosphate_c0	Diisoheptadecanoylphosphatidylglycerophosphate_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15716
+C9H13N3O8P	cpd00046_c0	CMP_c0	cmp_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00046
+C5H8NO2	cpd00129_c0	L-Proline_c0	pro-L_c0	1	-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00129
+C5H6NO2	cpd02431_c0	1-Pyrroline-5-carboxylate_c0	1pyr5c_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd02431
+C48H87N3O15P2	cpd15421_c0	CDP-1,2-dioctadecanoylglycerol_c0	cdpdodecg_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15421
+C39H76O8P	cpd15526_c0	1,2-dioctadecanoyl-sn-glycerol 3-phosphate_c0	pa180_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15526
+C3H3O7P	cpd02069_c0	3-Phosphonooxypyruvate_c0	3php_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd02069
+C3H5O7P	cpd00169_c0	3-Phosphoglycerate_c0	3pg_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00169
+C10H13N5O14P3	cpd00038_c0	GTP_c0	gtp_c0	1	-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00038
+HO4P	cpd00009_e0	Phosphate_e0	pi_e0		-2	e0	~/modelcompartments/id/e0	489/6/5/compounds/id/cpd00009
+C55H90O7P2	cpd02229_c0	Bactoprenyl diphosphate_c0	udcpdp_c0	1	-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd02229
+C40H63N8O21R	cpd15666_c0	Peptidoglycan polymer (n-1 subunits)_c0	Peptidoglycan polymer (n-1 subunits)_c0	1	-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15666
+C80H125N16O42R	cpd15665_c0	Peptidoglycan polymer (n subunits)_c0	Peptidoglycan polymer (n subunits)_c0	1	-4	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15665
+C95H152N8O28P2	cpd03495_c0	Undecaprenyl-diphospho-N-acetylmuramoyl--N-acetylglucosamine-L-ala-D-glu-meso-2-6-diaminopimeloyl-D-ala-D-ala_c0	uaagmda_c0		-4	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd03495
+C35H57N7O17P3S	cpd03127_c0	(2E)-Tetradecenoyl-CoA_c0	td2coa_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd03127
+C35H59N7O18P3S	cpd03115_c0	(S)-3-Hydroxytetradecanoyl-CoA_c0	3htdcoa_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd03115
+C5H9NO4	cpd00722_c0	O-Acetyl-L-serine_c0	acser_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00722
+C11H14N2O4	cpd15606_c0	Gly-Tyr_c0	Gly-Tyr_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15606
+C11H14N2O4	cpd15606_e0	Gly-Tyr_e0	Gly-Tyr_e0			e0	~/modelcompartments/id/e0	489/6/5/compounds/id/cpd15606
+O4S	cpd00048_c0	Sulfate_c0	so4_c0	1	-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00048
+O4S	cpd00048_e0	Sulfate_e0	so4_e0		-2	e0	~/modelcompartments/id/e0	489/6/5/compounds/id/cpd00048
+C24H37N7O17P3S	cpd00086_c0	Propionyl-CoA_c0	ppcoa_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00086
+C4H5O3	cpd00287_c0	3-Oxo-2-methylpropanoate_c0	2mop_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00287
+H4N	cpd00013_c0	NH3_c0	nh4_c0		1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00013
+C5H8NO4	cpd00023_c0	L-Glutamate_c0	glu-L_c0	1	-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00023
+C5H10N2O3	cpd00053_c0	L-Glutamine_c0	gln-L_c0	1		c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00053
+C5H8NO4	cpd00186_c0	D-Glutamate_c0	glu-D_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00186
+C2H8NO	cpd00162_c0	Aminoethanol_c0	etha_c0		1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00162
+C5H14NO6P	cpd00908_c0	Glycerophosphoethanolamine_c0	g3pe_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00908
+C7H22N3	cpd00264_c0	Spermidine_c0	spmd_c0	1	3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00264
+C7H22N3	cpd00264_e0	Spermidine_e0	spmd_e0		3	e0	~/modelcompartments/id/e0	489/6/5/compounds/id/cpd00264
+C4H8O7P	cpd00236_c0	D-Erythrose4-phosphate_c0	e4p_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00236
+C3H3O6P	cpd00061_c0	Phosphoenolpyruvate_c0	pep_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00061
+C10H13N5O3	cpd00438_c0	Deoxyadenosine_c0	dad-2_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00438
+C10H12N4O4	cpd03279_c0	Deoxyinosine_c0	din_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd03279
+C2H7NRS2	cpd11830_c0	S-Aminomethyldihydrolipoylprotein_c0	alpro_c0		1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd11830
+CHRS2	cpd12005_c0	Lipoylprotein_c0	lpro_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd12005
+C26H41N7O18P3S	cpd02691_c0	2-methyl-3-hydroxy-butyryl-CoA_c0	3hmbcoa_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd02691
+C26H39N7O18P3S	cpd02124_c0	2-Methylacetoacetyl-CoA_c0	2maacoa_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd02124
+C5H6N2O5	cpd00343_c0	N-Carbamoyl-L-aspartate_c0	cbasp_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00343
+CH3NO5P	cpd00146_c0	Carbamoylphosphate_c0	cbp_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00146
+C6H9O3	cpd00200_c0	4MOP_c0	4mop_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00200
+C5H4O5	cpd00024_c0	2-Oxoglutarate_c0	akg_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00024
+C6H13NO2	cpd00107_c0	L-Leucine_c0	leu-L_c0	1		c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00107
+C7H8O2	cpd15378_c0	4-Hydroxy-benzylalcohol_c0	4hba_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15378
+C10H13N5O7P	cpd00018_c0	AMP_c0	amp_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00018
+C5H10O7P	cpd08289_c0	1-deoxy-D-xylulose5-phosphate_c0	dxyl5p_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd08289
+C9H11NO3	cpd00069_c0	L-Tyrosine_c0	tyr-L_c0	1		c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00069
+C6H9NO4PS	cpd02654_c0	4-Methyl-5--2-phosphoethyl-thiazole_c0	4mpetz_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd02654
+C19H38O7P	cpd15676_c0	1-isohexadecanoyl-sn-glycerol 3-phosphate_c0	1-isohexadecanoyl-sn-glycerol 3-phosphate_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15676
+C37H63N7O17P3S	cpd11441_c0	fa6coa_c0	fa6coa_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd11441
+C3H6O6P	cpd00102_c0	Glyceraldehyde3-phosphate_c0	g3p_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00102
+C3H6O6P	cpd00095_c0	Glycerone-phosphate_c0	dhap_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00095
+C6H12O12P2	cpd00290_c0	D-fructose-1,6-bisphosphate_c0	fdp_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00290
+C3H8O6P	cpd00080_e0	Glycerol-3-phosphate_e0	glyc3p_e0		-1	e0	~/modelcompartments/id/e0	489/6/5/compounds/id/cpd00080
+C19H21N7O6	cpd00087_c0	Tetrahydrofolate_c0	thf_c0	1	-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00087
+C24H27N8O9	cpd06227_c0	THF-L-glutamate_c0	thfglu_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd06227
+C8H13N2O5	cpd11586_c0	ala-L-glu-L_c0	ala-L-glu-L_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd11586
+C33H55N7O17P3S	cpd01260_c0	Lauroyl-CoA_c0	ddcoa_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd01260
+C35H57N7O18P3S	cpd12689_c0	3-Oxotetradecanoyl-CoA_c0	3otdcoa_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd12689
+C23H35N7O17P3S	cpd00022_c0	Acetyl-CoA_c0	accoa_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00022
+K	cpd00205_e0	K+_e0	k_e0		1	e0	~/modelcompartments/id/e0	489/6/5/compounds/id/cpd00205
+K	cpd00205_c0	K+_c0	k_c0	1	1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00205
+C20H34O7P2	cpd00289_c0	Geranylgeranyl diphosphate_c0	ggdp_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00289
+C27H38N7O20P3S	cpd01507_c0	3-Oxoadipyl-CoA_c0	oxadpcoa_c0		-4	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd01507
+C27H40N7O20P3S	cpd09844_c0	(3S)-3-Hydroxyadipyl-CoA_c0	3hadpcoa_c0		-4	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd09844
+C9H12N2O9P	cpd00091_c0	UMP_c0	ump_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00091
+C10H11N2O11P	cpd00810_c0	Orotidylic acid_c0	orot5p_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00810
+C5H10N2O3S	cpd01017_c0	Cys-Gly_c0	cgly_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd01017
+C5H10N2O3S	cpd01017_e0	Cys-Gly_e0	cgly_e0			e0	~/modelcompartments/id/e0	489/6/5/compounds/id/cpd01017
+C6H12O9P	cpd00072_c0	D-fructose-6-phosphate_c0	f6p_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00072
+C115H224O135P24	cpd15747_c0	Myristoyllipoteichoic acid (n=24), linked, unsubstituted_c0	Myristoyllipoteichoic acid (n=24), linked, unsubstituted_c0		-24	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15747
+C9H12N2O12P2	cpd00014_c0	UDP_c0	udp_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00014
+C307H536N24O255P24	cpd15765_c0	Myristoyllipoteichoic acid (n=24), linked, N-acetyl-D-glucosamine_c0	Myristoyllipoteichoic acid (n=24), linked, N-acetyl-D-glucosamine_c0		-24	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15765
+C95H154N9O27P2	cpd03496_c0	Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-alanyl-D-glutaminyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine_c0	uaagtmda_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd03496
+	cpd17041_c0	Protein biosynthesis_c0	proteinsynth_c0	1		c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd17041
+C94H155N9O25P2	cpd03492_c0	Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-alanyl-D-isoglutaminyl-L-lysyl-D-alanyl-D-alanine_c0	uaaGgtla_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd03492
+C94H153N8O26P2	cpd03491_c0	Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-alanyl-gamma-D-glutamyl-L-lysyl-D-alanyl-D-alanine_c0	uaaGgla_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd03491
+C313H548N24O255P24	cpd15768_c0	Anteisoheptadecanoyllipoteichoic acid (n=24), linked, N-acetyl-D-glucosamine_c0	Anteisoheptadecanoyllipoteichoic acid (n=24), linked, N-acetyl-D-glucosamine_c0		-24	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15768
+C121H236O135P24	cpd15750_c0	Anteisoheptadecanoyllipoteichoic acid (n=24), linked, unsubstituted_c0	Anteisoheptadecanoyllipoteichoic acid (n=24), linked, unsubstituted_c0		-24	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15750
+C15H26O7P2	cpd00350_c0	Farnesyldiphosphate_c0	frdp_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00350
+C5H7O3	cpd00123_c0	3-Methyl-2-oxobutanoate_c0	3mob_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00123
+C5H9O4	cpd02498_c0	2,3-Dihydroxy-isovalerate_c0	23dhmb_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd02498
+C4H9NO6P	cpd00809_c0	O-Phospho-L-homoserine_c0	phom_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00809
+C8H13N2O5	cpd11586_e0	ala-L-glu-L_e0	ala-L-glu-L_e0		-1	e0	~/modelcompartments/id/e0	489/6/5/compounds/id/cpd11586
+C20H21N7O7	cpd00201_c0	10-Formyltetrahydrofolate_c0	10fthf_c0	1	-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00201
+C9H14N4O8P	cpd02851_c0	AICAR_c0	aicar_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd02851
+C10H14N4O9P	cpd02884_c0	FAICAR_c0	fprica_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd02884
+	cpd17042_c0	DNA replication_c0	dnarep_c0	1		c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd17042
+C38H74O13P2	cpd15545_c0	Phosphatidylglycerophosphate dihexadecanoyl_c0	pgp160_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15545
+C44H79N3O15P2	cpd15419_c0	CDP-1,2-dihexadecanoylglycerol_c0	cdpdhdecg_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15419
+C7H14N2O4	cpd00504_c0	LL-2,6-Diaminopimelate_c0	26dap-LL_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00504
+C7H14N2O4	cpd00516_c0	meso-2,6-Diaminopimelate_c0	26dap-M_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00516
+C31H51N7O18P3S	cpd03118_c0	(S)-Hydroxydecanoyl-CoA_c0	3hdccoa_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd03118
+C31H49N7O18P3S	cpd03119_c0	3-Oxodecanoyl-CoA_c0	3odcoa_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd03119
+C4H8N2O3	cpd00132_c0	L-Asparagine_c0	asn-L_c0	1		c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00132
+C6H11N3O4	cpd11581_c0	gly-asn-L_c0	gly-asn-L_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd11581
+C23H33N4O20P2	cpd00890_c0	UDP-N-acetylmuramoyl-L-alanine_c0	uama_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00890
+C28H39N5O23P2	cpd00525_c0	UDP-N-acetylmuramoyl-L-alanyl-D-glutamate_c0	uamag_c0		-4	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00525
+C11H13NO9P	cpd00873_c0	Nicotinate ribonucleotide_c0	nicrnt_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00873
+C21H24N6O15P2	cpd00638_c0	Deamido-NAD_c0	dnad_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00638
+C5H5N5O	cpd00207_c0	Guanine_c0	gua_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00207
+C10H13N5O8P	cpd00126_c0	GMP_c0	gmp_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00126
+C5H10O14P3	cpd00103_c0	PRPP_c0	prpp_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00103
+C9H13N5O13P3	cpd02978_c0	7,8-Dihydroneopterin 3'-triphosphate_c0	ahdt_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd02978
+C20H26N3O19P2	cpd02820_c0	UDP-N-acetylglucosamine enolpyruvate_c0	uaccg_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd02820
+C21H40O7P	cpd15328_c0	1-octadec-11-enoyl-sn-glycerol 3-phosphate_c0	1odec11eg3p_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15328
+C39H72O8P	cpd15527_c0	1,2-dioctadec-11-enoyl-sn-glycerol 3-phosphate_c0	pa181_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15527
+C29H53N2O8PRS	cpd11825_c0	Octadecenoyl-ACP_c0	octeACP_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd11825
+C17H34O7P	cpd15331_c0	1-tetradecanoyl-sn-glycerol 3-phosphate_c0	1tdecg3p_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15331
+C31H60O8P	cpd15522_c0	1,2-ditetradecanoyl-sn-glycerol 3-phosphate_c0	pa140_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15522
+C35H59N7O17P3S	cpd01695_c0	Myristoyl-CoA_c0	tdcoa_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd01695
+C46H83N3O15P2	cpd15684_c0	CDP-1,2-dianteisoheptadecanoylglycerol_c0	CDP-1,2-dianteisoheptadecanoylglycerol_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15684
+C6H9O3	cpd00508_c0	3MOP_c0	3mop_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00508
+C6H11O4	cpd02535_c0	2,3-Dihydroxy-3-methylvalerate_c0	23dhmp_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd02535
+C6H12O9P	cpd02230_c0	Inositol 4-phosphate_c0	mi4p-D_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd02230
+C27H31N9O15P2	cpd00015_c0	FAD_c0	fad_c0	1	-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00015
+C49H76O4	cpd15561_c0	Ubiquinol-8_c0	q8h2_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15561
+C49H74O4	cpd15560_c0	Ubiquinone-8_c0	q8_c0	1		c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15560
+C27H33N9O15P2	cpd00982_c0	FADH2_c0	fadh2_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00982
+C27H52O8P	cpd15521_c0	1,2-didodecanoyl-sn-glycerol 3-phosphate_c0	pa120_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15521
+C15H30O7P	cpd15325_c0	1-dodecanoyl-sn-glycerol 3-phosphate_c0	1ddecg3p_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15325
+C23H43N2O8PRS	cpd11468_c0	Dodecanoyl-ACP_c0	ddcaACP_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd11468
+C55H90O4P	cpd00286_c0	Undecaprenylphosphate_c0	udcpp_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00286
+C3H5O2	cpd00141_c0	Propionate_c0	ppa_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00141
+C6H9N2O5	cpd11589_e0	gly-asp-L_e0	gly-asp-L_e0		-1	e0	~/modelcompartments/id/e0	489/6/5/compounds/id/cpd11589
+C10H17N4O6	cpd02152_c0	L-Argininosuccinate_c0	argsuc_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd02152
+C6H13N3O3	cpd00274_c0	Citrulline_c0	citr-L_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00274
+C20H23N7O6	cpd00345_c0	5-Methyltetrahydrofolate_c0	5mthf_c0	1	-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00345
+C40H67N3O15P2	cpd15422_c0	CDP-1,2-ditetradec-7-enoylglycerol_c0	cdpdtdec7eg_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15422
+C31H56O8P	cpd15523_c0	1,2-ditetradec-7-enoyl-sn-glycerol 3-phosphate_c0	pa141_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15523
+C7H7O5	cpd01716_c0	3-Dehydroshikimate_c0	3dhsk_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd01716
+C3H8O3	cpd00100_c0	Glycerol_c0	glyc_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00100
+C6H14O8P	cpd02090_c0	Glycerophosphoglycerol_c0	g3pg_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd02090
+C14H13N6O3	cpd00683_c0	Dihydropteroate_c0	dhpt_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00683
+C7H9N5O2	cpd00954_c0	6-hydroxymethyl dihydropterin_c0	6hmhpt_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00954
+C7H6NO2	cpd00443_c0	ABEE_c0	4abz_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00443
+C7H8O5	cpd02605_c0	2-isopropyl-3-oxosuccinate_c0	3c4mop_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd02605
+C7H10O5	cpd02693_c0	3-Isopropylmalate_c0	3c2hmp_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd02693
+C6H3O6	cpd00331_c0	cis-Aconitate_c0	acon-C_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00331
+C37H72O8P	cpd15677_c0	1,2-diisoheptadecanoyl-sn-glycerol 3-phosphate_c0	1,2-diisoheptadecanoyl-sn-glycerol 3-phosphate_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15677
+C38H65N7O17P3S	cpd11432_c0	fa11coa_c0	fa11coa_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd11432
+C20H40O7P	cpd15671_c0	1-isoheptadecanoyl-sn-glycerol 3-phosphate_c0	1-isoheptadecanoyl-sn-glycerol 3-phosphate_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15671
+C3H7NO2	cpd00085_c0	beta-Alanine_c0	ala-B_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00085
+C6H11O4	cpd00408_c0	Pantoate_c0	pant-R_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00408
+C9H16NO5	cpd00644_c0	PAN_c0	pnto-R_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00644
+C6H12O6	cpd00027_c0	D-Glucose_c0	glc-D_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00027
+C12H22O11	cpd00158_c0	CELB_c0	cellb_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00158
+C31H49N7O17P3S	cpd03129_c0	(2E)-Decenoyl-CoA_c0	dc2coa_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd03129
+C6H12O6	cpd00190_c0	beta-D-Glucose_c0	glc-D-B_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00190
+C4H9NO4	cpd03608_c0	4-Hydroxy-L-threonine_c0	4hthr_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd03608
+C4H9NO7P	cpd03607_c0	4-(Phosphonooxy)-threonine_c0	phthr_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd03607
+C9H12N2O14P3	cpd00358_c0	dUTP_c0	dutp_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00358
+C9H12N2O8P	cpd00299_c0	dUMP_c0	dump_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00299
+C36H70O13P2	cpd15720_c0	Dianteisopentadecanoylphosphatidylglycerophosphate_c0	Dianteisopentadecanoylphosphatidylglycerophosphate_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15720
+C42H75N3O15P2	cpd15687_c0	CDP-1,2-dianteisopentadecanoylglycerol_c0	CDP-1,2-dianteisopentadecanoylglycerol_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15687
+C9H16NO8P	cpd02201_c0	4-phosphopantothenate_c0	4ppan_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd02201
+O3S2	cpd00268_e0	H2S2O3_e0	tsul_e0		-2	e0	~/modelcompartments/id/e0	489/6/5/compounds/id/cpd00268
+C48H83N3O15P2	cpd15420_c0	CDP-1,2-dioctadec-11-enoylglycerol_c0	cdpdodec11eg_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15420
+C42H78O13P2	cpd15548_c0	Phosphatidylglycerophosphate dioctadec-11-enoyl_c0	pgp181_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15548
+C6H9O4	cpd10162_c0	(R)-3-Hydroxy-3-methyl-2-oxopentanoate_c0	(R)-3-Hydroxy-3-methyl-2-oxopentanoate_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd10162
+C8H16N2O3	cpd15604_c0	Gly-Leu_c0	gly-leu-L_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15604
+C10H8O6	cpd00658_c0	Isochorismate_c0	ichor_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00658
+C14H13O9	cpd16335_c0	2-Succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylate_c0	2-Succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylate_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd16335
+C10H12N4O8P	cpd00114_c0	IMP_c0	imp_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00114
+C9H12N2O6	cpd00249_c0	Uridine_c0	uri_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00249
+C9H13N3O5	cpd00367_c0	Cytidine_c0	Cytidine_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00367
+C5H7O4	cpd02569_c0	2-Oxo-3-hydroxyisovalerate_c0	33hmeoxobut_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd02569
+C5H7O4	cpd00668_c0	ALCTT_c0	alac-S_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00668
+C9H14N4O3	cpd11584_c0	Ala-His_c0	ala-L-his-L_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd11584
+C9H14N4O3	cpd11584_e0	Ala-His_e0	ala-L-his-L_e0			e0	~/modelcompartments/id/e0	489/6/5/compounds/id/cpd11584
+C10H13N5O6P	cpd00294_c0	dAMP_c0	damp_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00294
+C10H13N5O9P2	cpd00177_c0	dADP_c0	dadp_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00177
+C35H68O8P	cpd15524_c0	1,2-dihexadecanoyl-sn-glycerol 3-phosphate_c0	pa160_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15524
+C30H50O7P2	cpd00906_c0	all-trans-Hexaprenyl diphosphate_c0	hexdp_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00906
+C25H42O7P2	cpd02591_c0	pendp_c0	pendp_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd02591
+C8H16N2O3	cpd15604_e0	Gly-Leu_e0	gly-leu-L_e0			e0	~/modelcompartments/id/e0	489/6/5/compounds/id/cpd15604
+C5H10O5	cpd00105_c0	D-Ribose_c0	rib-D_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00105
+C5H10O8P	cpd00101_c0	ribose-5-phosphate_c0	r5p_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00101
+C8H13N3O3	cpd03646_c0	gamma-Glutamyl-3-aminopropiononitrile_c0	gamma-Glutamyl-3-aminopropiononitrile_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd03646
+C4H6N2O2	cpd01651_c0	L-3-Cyanoalanine_c0	L-3-Cyanoalanine_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd01651
+C10H8O6	cpd00219_c0	Prephenate_c0	pphn_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00219
+C9H7O3	cpd00143_c0	Phenylpyruvate_c0	phpyr_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00143
+C13H17N5O8P	cpd03560_c0	Propionyladenylate_c0	Propionyladenylate_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd03560
+C7H11N2O5	cpd11593_c0	ala-L-asp-L_c0	ala-L-asp-L_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd11593
+C7H11N2O5	cpd11593_e0	ala-L-asp-L_e0	ala-L-asp-L_e0		-1	e0	~/modelcompartments/id/e0	489/6/5/compounds/id/cpd11593
+C37H63N7O17P3S	cpd00134_c0	Palmitoyl-CoA_c0	pmtcoa_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00134
+C19H38O7P	cpd15327_c0	1-hexadecanoyl-sn-glycerol 3-phosphate_c0	1hdecg3p_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15327
+C5H10N2O3	cpd11585_c0	L-alanylglycine_c0	L-alagly_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd11585
+C119H232O135P24	cpd15754_c0	Isohexadecanoyllipoteichoic acid (n=24), linked, unsubstituted_c0	Isohexadecanoyllipoteichoic acid (n=24), linked, unsubstituted_c0		-24	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15754
+C311H544N24O255P24	cpd15772_c0	Isohexadecanoyllipoteichoic acid (n=24), linked, N-acetyl-D-glucosamine_c0	Isohexadecanoyllipoteichoic acid (n=24), linked, N-acetyl-D-glucosamine_c0		-24	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15772
+C10H13N5O11P2	cpd00031_c0	GDP_c0	gdp_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00031
+C4H4N2O2	cpd00092_c0	Uracil_c0	ura_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00092
+C123H240O135P24	cpd15748_c0	Stearoyllipoteichoic acid (n=24), linked, unsubstituted_c0	Stearoyllipoteichoic acid (n=24), linked, unsubstituted_c0		-24	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15748
+C315H552N24O255P24	cpd15766_c0	Stearoyllipoteichoic acid (n=24), linked, N-acetyl-D-glucosamine_c0	Stearoyllipoteichoic acid (n=24), linked, N-acetyl-D-glucosamine_c0		-24	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15766
+C5H10O8P2	cpd08615_c0	1-Hydroxy-2-methyl-2-butenyl 4-diphosphate_c0	h2mb4p_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd08615
+C32H39N7O19P3S	cpd11217_c0	1,4-Dihydroxy-2-naphthoyl-CoA_c0	1,4-Dihydroxy-2-naphthoyl-CoA_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd11217
+C32H40N7O20P3S	cpd02021_c0	Succinylbenzoyl-CoA_c0	sbzcoa_c0		-4	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd02021
+C9H15N5O14P3	cpd03666_c0	2,5-Diamino-6-(5'-triphosphoryl-3',4'-trihydroxy-2'-oxopentyl)- amino-4-oxopyrimidine_c0	2,5-Diamino-6-(5'-triphosphoryl-3',4'-trihydroxy-2'-oxopentyl)- amino-4-oxopyrimidine_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd03666
+C3H6O3	cpd00448_c0	D-Glyceraldehyde_c0	glyald_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00448
+C11H8O5	cpd01772_c0	Succinylbenzoate_c0	sucbz_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd01772
+C10H12N4O5	cpd00246_c0	Inosine_c0	ins_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00246
+C10H13N5O4	cpd00182_c0	Adenosine_c0	adn_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00182
+C5H10O7P2	cpd00202_c0	DMAPP_c0	dmpp_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00202
+C5H9NO3	cpd00858_c0	L-Glutamate5-semialdehyde_c0	glu5sa_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00858
+C5H9NO7P	cpd02097_c0	L-Glutamyl 5-phosphate_c0	glu5p_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd02097
+C3H3O3	cpd00020_c0	Pyruvate_c0	pyr_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00020
+C7H6NO2	cpd00093_c0	Anthranilate_c0	anth_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00093
+C10H8O6	cpd00216_c0	Chorismate_c0	chor_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00216
+C33H64O8P	cpd15681_c0	1,2-dianteisopentadecanoyl-sn-glycerol 3-phosphate_c0	1,2-dianteisopentadecanoyl-sn-glycerol 3-phosphate_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15681
+C36H61N7O17P3S	cpd11439_c0	fa4coa_c0	fa4coa_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd11439
+C18H36O7P	cpd15675_c0	1-anteisopentadecanoyl-sn-glycerol 3-phosphate_c0	1-anteisopentadecanoyl-sn-glycerol 3-phosphate_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15675
+C33H55N7O18P3S	cpd03116_c0	(S)-3-Hydroxydodecanoyl-CoA_c0	3hddcoa_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd03116
+C33H53N7O17P3S	cpd02060_c0	(2E)-Dodecenoyl-CoA_c0	trans-dd2coa_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd02060
+C20H20N7O6	cpd00347_c0	5-10-Methenyltetrahydrofolate_c0	methf_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00347
+C5H4N4O	cpd00226_c0	HYXN_c0	hxan_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00226
+C34H62O13P2	cpd15544_c0	Phosphatidylglycerophosphate ditetradec-7-enoyl_c0	pgp141_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15544
+C7H13N3O4	cpd11580_c0	Gly-Gln_c0	gly-gln-L_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd11580
+H2O2	cpd00025_c0	H2O2_c0	h2o2_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00025
+C10H10O10P	cpd00932_c0	5-O--1-Carboxyvinyl-3-phosphoshikimate_c0	3psme_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00932
+C14H21N4O8P2S	cpd03049_c0	2-Hydroxyethyl-ThPP_c0	2-Hydroxyethyl-ThPP_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd03049
+C6H9O4	cpd00498_c0	2-Aceto-2-hydroxybutanoate_c0	2ahbut_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00498
+C12H17N4O7P2S	cpd00056_c0	TPP_c0	thmpp_c0	1	-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00056
+C4H5O3	cpd00094_c0	2-Oxobutyrate_c0	2obut_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00094
+C5H5N2O4	cpd00282_c0	S-Dihydroorotate_c0	dhor-S_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00282
+C5H3N2O4	cpd00247_c0	Orotate_c0	orot_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00247
+O2	cpd00007_c0	O2_c0	o2_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00007
+C5H12O7P	cpd08286_c0	2-C-methyl-D-erythritol4-phosphate_c0	2me4p_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd08286
+C40H71N3O15P2	cpd15685_c0	CDP-1,2-diisotetradecanoylglycerol_c0	CDP-1,2-diisotetradecanoylglycerol_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15685
+C31H60O8P	cpd15679_c0	1,2-diisotetradecanoyl-sn-glycerol 3-phosphate_c0	1,2-diisotetradecanoyl-sn-glycerol 3-phosphate_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15679
+C11H13NO6	cpd03471_c0	Nicotinate D-ribonucleoside_c0	Nicotinate D-ribonucleoside_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd03471
+C8H20NO6P	cpd00507_c0	Glycerophosphocholine_c0	g3pc_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00507
+C5H14NO	cpd00098_c0	Choline_c0	chol_c0		1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00098
+C11H15N2O8P	cpd00355_c0	Nicotinamide ribonucleotide_c0	nmn_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00355
+C11H15N2O5	cpd02016_c0	N-Ribosylnicotinamide_c0	rnam_c0		1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd02016
+	cpd17043_c0	RNA transcription_c0	rnatrans_c0	1		c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd17043
+C5H10O7P	cpd00510_c0	deoxyribose-5-phosphate_c0	2dr5p_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00510
+C5H10O4	cpd01242_c0	Thyminose_c0	drib_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd01242
+C8H15N3O4	cpd11587_c0	Ala-Gln_c0	ala-L-gln-L_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd11587
+C8H15N3O4	cpd11587_e0	Ala-Gln_e0	ala-L-gln-L_e0			e0	~/modelcompartments/id/e0	489/6/5/compounds/id/cpd11587
+C5H9NO3	cpd00338_c0	5-Aminolevulinate_c0	5aop_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00338
+C5H9NO3	cpd02345_c0	L-Glutamate1-semialdehyde_c0	glu1sa_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd02345
+C6H13NO2	cpd00322_c0	L-Isoleucine_c0	ile-L_c0	1		c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00322
+C6H13NO2	cpd00322_e0	L-Isoleucine_e0	ile-L_e0			e0	~/modelcompartments/id/e0	489/6/5/compounds/id/cpd00322
+C27H51N2O8PRS	cpd15277_c0	Palmitoyl-ACP_c0	palmACP_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15277
+C25H37N7O18P3S	cpd00279_c0	Acetoacetyl-CoA_c0	aacoa_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00279
+C461H809N10O484P46R	cpd15669_c0	glycerol teichoic acid (n=45), linked, glucose substituted_c0	glycerol teichoic acid (n=45), linked, glucose substituted_c0		-48	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15669
+C476H836N2O467P47	cpd15662_c0	Prenol-45n teichoic acid-glucose substituted_c0	Prenol-45n teichoic acid-glucose substituted_c0		-47	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15662
+H4N	cpd00013_e0	NH3_e0	nh4_e0		1	e0	~/modelcompartments/id/e0	489/6/5/compounds/id/cpd00013
+C5H5N5	cpd00128_c0	Adenine_c0	ade_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00128
+C10H14N2O8P	cpd00298_c0	dTMP_c0	dtmp_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00298
+C10H14N2O11P2	cpd00297_c0	dTDP_c0	dtdp_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00297
+C6H12O9P	cpd00802_c0	D-fructose-1-phosphate_c0	f1p_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00802
+C8H15NOS2	cpd00213_c0	Lipoamide_c0	lpam_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00213
+C10H19NO2S2	cpd00836_c0	S-Acetyldihydrolipoamide_c0	adhlam_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00836
+C6H5O7	cpd00137_c0	Citrate_c0	cit_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00137
+C16H21N5O15P2	cpd00900_c0	GDP-4-dehydro-D-rhamnose_c0	gdpddman_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00900
+C16H23N5O16P2	cpd00083_c0	GDP-mannose_c0	gdpmann_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00083
+C8H12NO	cpd00374_c0	Tyramine_c0	tym_c0		1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00374
+C6H12O9P	cpd00089_c0	Glucose-1-phosphate_c0	g1p_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00089
+C15H23N3O16P2	cpd00390_c0	CDP-glucose_c0	CDP-glucose_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00390
+C10H12N4O9P	cpd00497_c0	XMP_c0	xmp_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00497
+C42H82O13P2	cpd15547_c0	Phosphatidylglycerophosphate dioctadecanoyl_c0	pgp180_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15547
+C5H10O5	cpd00154_c0	Xylose_c0	xyl-D_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00154
+C11H14N2O3	cpd15605_c0	Gly-Phe_c0	gly-phe-L_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15605
+C9H13N3O7P	cpd00206_c0	dCMP_c0	dcmp_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00206
+C9H13N3O4	cpd00654_c0	Deoxycytidine_c0	dcyt_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00654
+C6H13NO2	cpd00107_e0	L-Leucine_e0	leu-L_e0			e0	~/modelcompartments/id/e0	489/6/5/compounds/id/cpd00107
+C7H8O4	cpd01710_c0	2-Isopropylmaleate_c0	2ippm_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd01710
+C7H10O5	cpd01646_c0	2-Isopropylmalate_c0	3c3hmp_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd01646
+C7H14O10P	cpd00238_c0	Sedoheptulose7-phosphate_c0	s7p_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00238
+C7H14O13P2	cpd00349_c0	Sedoheptulose 1,7-bisphosphate_c0	s17bp_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00349
+C11H12N2O2	cpd00065_c0	L-Tryptophan_c0	trp-L_c0	1		c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00065
+C10H13N2	cpd00318_c0	Tryptamine_c0	Tryptamine_c0		1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00318
+C6H12O9P	cpd00805_c0	D-Tagatose 6-phosphate_c0	tag6p-D_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00805
+C6H12O12P2	cpd02371_c0	D-Tagatose 1,6-biphosphate_c0	tagdp-D_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd02371
+C7H14O6	cpd15584_c0	alpha-Methyl-D-glucoside_c0	madg_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15584
+CH4O	cpd00116_c0	Methanol_c0	meoh_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00116
+C6H12O6	cpd00082_c0	D-Fructose_c0	fru_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00082
+C9H12N2O5	cpd00412_c0	Deoxyuridine_c0	duri_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00412
+C33H64O8P	cpd15680_c0	1,2-diisopentadecanoyl-sn-glycerol 3-phosphate_c0	1,2-diisopentadecanoyl-sn-glycerol 3-phosphate_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15680
+C18H36O7P	cpd15674_c0	1-isopentadecanoyl-sn-glycerol 3-phosphate_c0	1-isopentadecanoyl-sn-glycerol 3-phosphate_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15674
+C36H61N7O17P3S	cpd11437_c0	fa3coa_c0	fa3coa_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd11437
+C25H37N7O17P3S	cpd00650_c0	Crotonyl-CoA_c0	butd2coa_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00650
+C29H45N7O18P3S	cpd03121_c0	3-Oxooctanoyl-CoA_c0	3oocoa_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd03121
+C27H43N7O17P3S	cpd03124_c0	Hexanoyl-CoA_c0	hxcoa_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd03124
+C40H71N3O15P2	cpd15423_c0	CDP-1,2-ditetradecanoylglycerol_c0	cdpdtdecg_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15423
+C7H9N5O8P2	cpd02920_c0	2-Amino-4-hydroxy-6-hydroxymethyl-7-8-dihydropteridinediphosphate_c0	2ahhmd_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd02920
+Fe	cpd10515_c0	Fe2+_c0	fe2_c0	1	2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd10515
+Fe	cpd10515_e0	Fe2+_e0	fe2_e0		2	e0	~/modelcompartments/id/e0	489/6/5/compounds/id/cpd10515
+C38H74O13P2	cpd15721_c0	Diisohexadecanoylphosphatidylglycerophosphate_c0	Diisohexadecanoylphosphatidylglycerophosphate_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15721
+C5H6N2O2	cpd00151_c0	Thymine_c0	thym_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00151
+C10H14N2O5	cpd00184_c0	Thymidine_c0	thymd_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00184
+C5H10O7P	cpd00509_c0	deoxyribose-1-phosphate_c0	2dr1p_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00509
+C6H9N3O2	cpd00119_c0	L-Histidine_c0	his-L_c0	1		c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00119
+C6H12O9P	cpd00867_c0	Inositol 1-phosphate_c0	mi1p-D_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00867
+C3H3O3	cpd00191_c0	3-Oxopropanoate_c0	msa_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00191
+C2H4O2	cpd00229_c0	Glycolaldehyde_c0	gcald_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00229
+C9H13N5O4	cpd02961_c0	Dihydroneopterin_c0	dhnpt_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd02961
+Cl	cpd00099_c0	Cl-_c0	cl_c0	1	-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00099
+Cl	cpd00099_e0	Cl-_e0	cl_e0		-1	e0	~/modelcompartments/id/e0	489/6/5/compounds/id/cpd00099
+C10H13N5O5	cpd00311_c0	Guanosine_c0	gsn_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00311
+C7H11N2O5	cpd11592_c0	gly-glu-L_c0	gly-glu-L_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd11592
+C7H11N2O5	cpd11592_e0	gly-glu-L_e0	gly-glu-L_e0		-1	e0	~/modelcompartments/id/e0	489/6/5/compounds/id/cpd11592
+C3H7NO3	cpd00054_c0	L-Serine_c0	ser-L_c0	1		c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00054
+C20H21N7O6	cpd00125_c0	5-10-Methylenetetrahydrofolate_c0	mlthf_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00125
+C30H58O13P2	cpd15542_c0	Phosphatidylglycerophosphate didodecanoyl_c0	pgp120_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15542
+C36H63N3O15P2	cpd15417_c0	CDP-1,2-didodecanoylglycerol_c0	cdpdddecg_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15417
+C34H66O13P2	cpd15718_c0	Diisotetradecanoylphosphatidylglycerophosphate_c0	Diisotetradecanoylphosphatidylglycerophosphate_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15718
+C37H61N7O18P3S	cpd03114_c0	3-Oxopalmitoyl-CoA_c0	3ohdcoa_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd03114
+C37H63N7O18P3S	cpd03113_c0	(S)-3-Hydroxyhexadecanoyl-CoA_c0	3hhdcoa_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd03113
+C5H10O9P2	cpd08301_c0	2-C-methyl-D-erythritol2-4-cyclodiphosphate_c0	2mecdp_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd08301
+C4H5O3	cpd00199_c0	4-Oxobutanoate_c0	sucsal_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00199
+C4H9NO2	cpd00281_c0	GABA_c0	4abut_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00281
+C10H16N3O6S	cpd00042_c0	GSH_c0	gthrd_c0	1	-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00042
+C10H13N5O12P3	cpd00115_c0	dATP_c0	datp_c0	1	-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00115
+C6H15N2O2	cpd00039_c0	L-Lysine_c0	lys-L_c0	1	1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00039
+C9H12N3O5	cpd03407_c0	gamma-Glutamyl-beta-cyanoalanine_c0	gamma-Glutamyl-beta-cyanoalanine_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd03407
+C29H47N7O18P3S	cpd03120_c0	(S)-Hydroxyoctanoyl-CoA_c0	3hocoa_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd03120
+C33H53N7O18P3S	cpd03117_c0	3-Oxododecanoyl-CoA_c0	3oddcoa_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd03117
+C42H75N3O15P2	cpd15686_c0	CDP-1,2-diisopentadecanoylglycerol_c0	CDP-1,2-diisopentadecanoylglycerol_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15686
+C4H10NO	cpd00434_c0	4-Aminobutanal_c0	4abutn_c0		1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00434
+C25H36N7O19P3S	cpd00078_c0	Succinyl-CoA_c0	succoa_c0		-4	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00078
+C119H232O135P24	cpd15746_c0	Palmitoyllipoteichoic acid (n=24), linked, unsubstituted_c0	Palmitoyllipoteichoic acid (n=24), linked, unsubstituted_c0		-24	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15746
+C311H544N24O255P24	cpd15764_c0	Palmitoyllipoteichoic acid (n=24), linked, N-acetyl-D-glucosamine_c0	Palmitoyllipoteichoic acid (n=24), linked, N-acetyl-D-glucosamine_c0		-24	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15764
+C27H49N2O8PRS	cpd15239_c0	Hexadecenoyl-ACP_c0	hdeACP_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15239
+C19H36O7P	cpd15326_c0	1-hexadec-9-enoyl-sn-glycerol 3-phosphate_c0	1hdec9eg3p_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15326
+C35H64O8P	cpd15525_c0	1,2-dihexadec-9-enoyl-sn-glycerol 3-phosphate_c0	pa161_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15525
+C7H9NO5	cpd00477_c0	N-Acetyl-L-glutamate_c0	acglu_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00477
+C11H10O6	cpd03451_c0	SHCHC_c0	2shchc_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd03451
+C2H6O	cpd00363_c0	Ethanol_c0	etoh_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00363
+HO10P3	cpd00421_c0	Triphosphate_c0	pppi_c0		-4	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00421
+C15H23N6O5S	cpd00017_c0	S-Adenosyl-L-methionine_c0	amet_c0	1	1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00017
+C7H13N3O4	cpd11580_e0	Gly-Gln_e0	gly-gln-L_e0			e0	~/modelcompartments/id/e0	489/6/5/compounds/id/cpd11580
+C15H19N6O6R	cpd12227_c0	L-Glutamyl-tRNA-Glu_c0	glutrna_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd12227
+C10H12N5O3R	cpd11912_c0	tRNA-Glu_c0	trnaglu_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd11912
+C115H224O135P24	cpd15751_c0	Isotetradecanoyllipoteichoic acid (n=24), linked, unsubstituted_c0	Isotetradecanoyllipoteichoic acid (n=24), linked, unsubstituted_c0		-24	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15751
+C307H536N24O255P24	cpd15769_c0	Isotetradecanoyllipoteichoic acid (n=24), linked, N-acetyl-D-glucosamine_c0	Isotetradecanoyllipoteichoic acid (n=24), linked, N-acetyl-D-glucosamine_c0		-24	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15769
+C6H11N3O4	cpd11581_e0	gly-asn-L_e0	gly-asn-L_e0			e0	~/modelcompartments/id/e0	489/6/5/compounds/id/cpd11581
+C8H12NO6	cpd00822_c0	O-Succinyl-L-homoserine_c0	suchms_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00822
+C4H5N3O	cpd00307_c0	Cytosine_c0	csn_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00307
+C4H5N3O	cpd00307_e0	Cytosine_e0	csn_e0			e0	~/modelcompartments/id/e0	489/6/5/compounds/id/cpd00307
+C87H139N7O23P2	cpd03494_c0	Undecaprenyl-diphospho-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2-6-diaminopimeloyl-D-alanyl-D-alanine_c0	uagmda_c0		-4	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd03494
+C10H10NO5	cpd08210_c0	ADC_c0	4adcho_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd08210
+C27H43N7O18P3S	cpd03122_c0	(S)-Hydroxyhexanoyl-CoA_c0	3hhcoa_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd03122
+C27H41N7O17P3S	cpd03125_c0	(2E)-Hexenoyl-CoA_c0	hx2coa_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd03125
+C38H70O13P2	cpd15546_c0	Phosphatidylglycerophosphate dihexadec-9-enoyl_c0	pgp161_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15546
+C44H75N3O15P2	cpd15418_c0	CDP-1,2-dihexadec-9-enoylglycerol_c0	cdpdhdec9eg_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15418
+C29H55N2O8PRS	cpd15268_c0	Octadecanoyl-ACP_c0	ocdACP_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15268
+C21H42O7P	cpd15329_c0	1-octadecanoyl-sn-glycerol 3-phosphate_c0	1odecg3p_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15329
+C313H548N24O255P24	cpd15767_c0	Isoheptadecanoyllipoteichoic acid (n=24), linked, N-acetyl-D-glucosamine_c0	Isoheptadecanoyllipoteichoic acid (n=24), linked, N-acetyl-D-glucosamine_c0		-24	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15767
+C121H236O135P24	cpd15749_c0	Isoheptadecanoyllipoteichoic acid (n=24), linked, unsubstituted_c0	Isoheptadecanoyllipoteichoic acid (n=24), linked, unsubstituted_c0		-24	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15749
+C14H20N6O5S	cpd00019_c0	S-Adenosyl-homocysteine_c0	ahcys_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00019
+C4H7NO7P	cpd01977_c0	4-Phospho-L-aspartate_c0	4pasp_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd01977
+C10H13N5O7P	cpd00296_c0	dGMP_c0	dgmp_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00296
+C10H13N5O4	cpd00277_c0	Deoxyguanosine_c0	dgsn_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00277
+C40H64	cpd03211_c0	15-cis-Phytoene_c0	15-cis-Phytoene_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd03211
+C5H10O8P	cpd00171_c0	D-Ribulose5-phosphate_c0	ru5p-D_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00171
+C10H18O7P2	cpd00283_c0	Geranyldiphosphate_c0	grdp_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00283
+C94H153N8O26P2	cpd03487_c0	Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-alanyl-D-glutamyl-L-lysyl-D-alanyl-D-alanine_c0	uaaAgla_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd03487
+C94H155N9O25P2	cpd03488_c0	Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-alanyl-D-glutaminyl-L-lysyl-D-alanyl-D-alanine_c0	uaaAgtla_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd03488
+C5H10N2O3	cpd11585_e0	L-alanylglycine_e0	L-alagly_e0			e0	~/modelcompartments/id/e0	489/6/5/compounds/id/cpd11585
+C4H7O3	cpd00876_c0	3-Hydroxyisobutyrate_c0	3hmp_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00876
+C206H386N2O242P47	cpd15661_c0	Prenol-45n teichoic acid_c0	Prenol-45n teichoic acid_c0		-47	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15661
+C191H359N10O259P46R	cpd15667_c0	glycerol teichoic acid (n=45), linked, unsubstituted_c0	glycerol teichoic acid (n=45), linked, unsubstituted_c0		-48	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15667
+C7H15N2O8P	cpd02394_c0	GAR_c0	gar_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd02394
+C8H14N2O9P	cpd02678_c0	N-Formyl-GAR_c0	fgam_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd02678
+C12H17N4OS	cpd00305_c0	Thiamin_c0	thm_c0		1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00305
+C12H17N4OS	cpd00305_e0	Thiamin_e0	thm_e0		1	e0	~/modelcompartments/id/e0	489/6/5/compounds/id/cpd00305
+C2H6NO	cpd04122_c0	Aminoacetaldehyde_c0	amacald_c0		1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd04122
+C7H12N2O3	cpd11588_c0	gly-pro-L_c0	gly-pro-L_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd11588
+C7H14O6	cpd15585_c0	beta-Methylglucoside_c0	mbdg_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15585
+C40H62N9O26P2	cpd02862_c0	UDPMurAc(oyl-L-Ala-D-gamma-Glu-L-Lys-D-Ala-D-Ala)_c0	uGgla_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd02862
+C86H140N7O21P2	cpd02948_c0	MurAc(oyl-L-Ala-D-gamma-Glu-L-Lys-D-Ala-D-Ala)-diphospho- undecaprenol_c0	uaGgla_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd02948
+C15H21N3O15P2	cpd00897_c0	CDP-4-dehydro-6-deoxy-D-glucose_c0	CDP-4-dehydro-6-deoxy-D-glucose_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00897
+Na	cpd00971_c0	Na+_c0	na1_c0		1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00971
+Na	cpd00971_e0	Na+_e0	na1_e0		1	e0	~/modelcompartments/id/e0	489/6/5/compounds/id/cpd00971
+C7H14N2O3S	cpd11591_c0	Gly-Met_c0	gly-met-L_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd11591
+C7H14N2O3S	cpd11591_e0	Gly-Met_e0	gly-met-L_e0			e0	~/modelcompartments/id/e0	489/6/5/compounds/id/cpd11591
+C7H7NO4	cpd02465_c0	tetrahydrodipicolinate_c0	thdp_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd02465
+C11H12NO8	cpd02724_c0	N-Succinyl-L-2-amino-6-oxopimelate_c0	sl2a6o_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd02724
+C25H39N7O17P3S	cpd00120_c0	Butyryl-CoA_c0	btcoa_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00120
+C27H41N7O18P3S	cpd03123_c0	3-Oxohexanoyl-CoA_c0	3ohcoa_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd03123
+C4H4N2O2	cpd00092_e0	Uracil_e0	ura_e0			e0	~/modelcompartments/id/e0	489/6/5/compounds/id/cpd00092
+C25H45N2O8PRS	cpd15294_c0	Tetradecenoyl-ACP_c0	tdeACP_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15294
+C17H32O7P	cpd15330_c0	1-tetradec-7-enoyl-sn-glycerol 3-phosphate_c0	1tdec7eg3p_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15330
+C34H66O13P2	cpd15543_c0	Phosphatidylglycerophosphate ditetradecanoyl_c0	pgp140_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15543
+C12H22O11	cpd00179_c0	Maltose_c0	malt_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00179
+C26H39N7O17P3S	cpd02125_c0	Tiglyl-CoA_c0	2mb2coa_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd02125
+C117H228O135P24	cpd15753_c0	Anteisopentadecanoyllipoteichoic acid (n=24), linked, unsubstituted_c0	Anteisopentadecanoyllipoteichoic acid (n=24), linked, unsubstituted_c0		-24	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15753
+C309H540N24O255P24	cpd15771_c0	Anteisopentadecanoyllipoteichoic acid (n=24), linked, N-acetyl-D-glucosamine_c0	Anteisopentadecanoyllipoteichoic acid (n=24), linked, N-acetyl-D-glucosamine_c0		-24	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15771
+C50H70O2	cpd15352_c0	2-Demethylmenaquinone 8_c0	2dmmq8_c0	1		c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15352
+C50H72O2	cpd15353_c0	2-Demethylmenaquinol 8_c0	2dmmql8_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15353
+C10H13N5O10P2	cpd00295_c0	dGDP_c0	dgdp_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00295
+C37H61N7O17P3S	cpd03126_c0	(2E)-Hexadecenoyl-CoA_c0	hdd2coa_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd03126
+C15H21N5O20P4	cpd01775_c0	Phosphoribosyl-ATP_c0	prbatp_c0		-4	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd01775
+C5H10O5	cpd00154_e0	Xylose_e0	xyl-D_e0			e0	~/modelcompartments/id/e0	489/6/5/compounds/id/cpd00154
+C5H11NO3S	cpd01914_c0	L-Methionine S-oxide_c0	metox_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd01914
+C5H4N4O2	cpd00309_c0	XAN_c0	xan_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00309
+C10H12N4O6	cpd01217_c0	Xanthosine_c0	xtsn_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd01217
+C17H34O7P	cpd15673_c0	1-isotetradecanoyl-sn-glycerol 3-phosphate_c0	1-isotetradecanoyl-sn-glycerol 3-phosphate_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15673
+C35H59N7O17P3S	cpd11435_c0	fa1coa_c0	fa1coa_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd11435
+C15H19N5O6S	cpd02701_c0	S-Adenosyl-4-methylthio-2-oxobutanoate_c0	amob_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd02701
+C9H17NO3	cpd00800_c0	8-Amino-7-oxononanoate_c0	8aonn_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00800
+C9H21N2O2	cpd00764_c0	7-8-Diaminononanoate_c0	dann_c0		1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00764
+C12H17N4O4PS	cpd00793_c0	Thiamine phosphate_c0	thmmp_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00793
+Co	cpd00149_e0	Co2+_e0	cobalt2_e0		2	e0	~/modelcompartments/id/e0	489/6/5/compounds/id/cpd00149
+Co	cpd00149_c0	Co2+_c0	cobalt2_c0	1	2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00149
+CH3RS2	cpd12225_c0	Dihydrolipolprotein_c0	dhlpro_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd12225
+C31H51N7O17P3S	cpd03128_c0	Decanoyl-CoA_c0	dccoa_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd03128
+C36H70O13P2	cpd15719_c0	Diisopentadecanoylphosphatidylglycerophosphate_c0	Diisopentadecanoylphosphatidylglycerophosphate_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15719
+C3H5O4	cpd00223_c0	Glycerate_c0	glyc-R_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00223
+C5H13N2O2	cpd00064_c0	Ornithine_c0	orn_c0		1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00064
+C63H103NO12P2	cpd00946_c0	Undecaprenyl diphospho N-acetyl-glucosamine_c0	unaga_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00946
+C25H47N2O8PRS	cpd11466_c0	Myristoyl-ACP_c0	myrsACP_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd11466
+C36H40N4O8	cpd02083_c0	CoproporphyrinogenIII_c0	cpppg3_c0		-4	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd02083
+C34H38N4O4	cpd00791_c0	ProtoporphyrinogenIX_c0	pppg9_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00791
+C11H14N2O3	cpd15605_e0	Gly-Phe_e0	gly-phe-L_e0			e0	~/modelcompartments/id/e0	489/6/5/compounds/id/cpd15605
+C40H78O13P2	cpd15717_c0	Dianteisoheptadecanoylphosphatidylglycerophosphate_c0	Dianteisoheptadecanoylphosphatidylglycerophosphate_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15717
+C6H12O9P	cpd00485_c0	D-Mannose1-phosphate_c0	man1p_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00485
+C6H12O9P	cpd00235_c0	D-mannose-6-phosphate_c0	man6p_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00235
+CH4N2O	cpd00073_c0	Urea_c0	urea_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00073
+CH4N2O	cpd00073_e0	Urea_e0	urea_e0			e0	~/modelcompartments/id/e0	489/6/5/compounds/id/cpd00073
+C326H584N55O304P46R	cpd15668_c0	glycerol teichoic acid (n=45), linked, D-ala substituted_c0	glycerol teichoic acid (n=45), linked, D-ala substituted_c0		-48	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15668
+C341H611N47O287P47	cpd15663_c0	Prenol-45n teichoic acid-alanine substituted_c0	Prenol-45n teichoic acid-alanine substituted_c0		-47	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15663
+C4H14N2	cpd00118_c0	Putrescine_c0	ptrc_c0	1	2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00118
+C4H14N2	cpd00118_e0	Putrescine_e0	ptrc_e0		2	e0	~/modelcompartments/id/e0	489/6/5/compounds/id/cpd00118
+C19H19N7O6	cpd00330_c0	Dihydrofolate_c0	dhf_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00330
+C29H45N7O17P3S	cpd03130_c0	(2E)-Octenoyl-CoA_c0	oc2coa_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd03130
+C7H14N2O4	cpd11582_e0	ala-L-Thr-L_e0	ala-L-Thr-L_e0			e0	~/modelcompartments/id/e0	489/6/5/compounds/id/cpd11582
+C5H4O6	cpd00830_c0	4-Hydroxy-2-oxoglutarate_c0	4h2oglt_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00830
+C5H8NO5	cpd01974_c0	4-Hydroxy-L-glutamate_c0	4hglu_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd01974
+C21H33N7O13P2S	cpd00655_c0	Dephospho-CoA_c0	dpcoa_c0		-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00655
+C11H22N2O7PS	cpd00834_c0	Phosphopantetheine_c0	pan4p_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00834
+C6H9O4	cpd00712_c0	2-Dehydropantoate_c0	2dhp_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00712
+C7H12N2O3	cpd11588_e0	gly-pro-L_e0	gly-pro-L_e0			e0	~/modelcompartments/id/e0	489/6/5/compounds/id/cpd11588
+C4H6N4O3	cpd01092_c0	Allantoin_c0	alltn_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd01092
+C4H6N4O3	cpd01092_e0	Allantoin_e0	alltn_e0			e0	~/modelcompartments/id/e0	489/6/5/compounds/id/cpd01092
+C20H28N3O19P2	cpd00773_c0	UDP-MurNAc_c0	uamr_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00773
+C39H67N7O17P3S	cpd00327_c0	strcoa_c0	stcoa_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00327
+C3H7NO6P	cpd00738_c0	phosphoserine_c0	pser-L_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00738
+C309H540N24O255P24	cpd15770_c0	Isopentadecanoyllipoteichoic acid (n=24), linked, N-acetyl-D-glucosamine_c0	Isopentadecanoyllipoteichoic acid (n=24), linked, N-acetyl-D-glucosamine_c0		-24	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15770
+C117H228O135P24	cpd15752_c0	Isopentadecanoyllipoteichoic acid (n=24), linked, unsubstituted_c0	Isopentadecanoyllipoteichoic acid (n=24), linked, unsubstituted_c0		-24	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15752
+C6H10N2O3R2S	cpd14507_c0	Peptide-L-methionine (R)-S-oxide_c0	Peptide-L-methionine (R)-S-oxide_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd14507
+C6H10N2O2R2S	cpd12237_c0	Peptide-L-methionine_c0	Peptide-L-methionine_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd12237
+C11H7O4	cpd02295_c0	1-4-Dihydroxy-2-naphthoate_c0	dhna_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd02295
+C25H27N8O10	cpd03524_c0	10-Formyl-THF-L-glutamate_c0	10-Formyl-THF-L-glutamate_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd03524
+C3H7NO2	cpd00117_c0	D-Alanine_c0	ala-D_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00117
+C5H16N4	cpd00152_c0	Agmatine_c0	agm_c0		2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00152
+C29H47N7O17P3S	cpd01335_c0	Octanoyl-CoA_c0	occoa_c0		-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd01335
+C11H12N2O4	cpd01749_c0	N-Formylkynurenine_c0	Lfmkynr_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd01749
+Fe	cpd10516_c0	fe3_c0	fe3_c0	1	3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd10516
+Fe	cpd10516_e0	fe3_e0	fe3_e0		3	e0	~/modelcompartments/id/e0	489/6/5/compounds/id/cpd10516
+C5H4N4O4	cpd08625_c0	5-Hydroxyisourate_c0	5-Hydroxyisourate_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd08625
+C4H6N4O3	cpd01567_c0	(R)-Allantoin_c0	(R)-Allantoin_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd01567
+H2O	cpd00001_e0	H2O_e0	h2o_e0			e0	~/modelcompartments/id/e0	489/6/5/compounds/id/cpd00001
+CO2	cpd00011_e0	CO2_e0	co2_e0			e0	~/modelcompartments/id/e0	489/6/5/compounds/id/cpd00011
+O2	cpd00007_e0	O2_e0	o2_e0			e0	~/modelcompartments/id/e0	489/6/5/compounds/id/cpd00007
+C4H7NO7P	cpd04539_c0	2-Amino-3-oxo-4-phosphonooxybutyrate_c0	amopbut-L_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd04539
+C3H8NO5P	cpd08449_c0	3-Amino-2-oxopropyl phosphate_c0	1-AMINO-PROPAN-2-ONE-3-PHOSPHATE_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd08449
+C7H10NO5	cpd02414_c0	L-2-Amino-6-oxopimelate_c0	L-2-Amino-6-oxopimelate_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd02414
+CH2NO2	cpd01101_c0	Carbamate_c0	Carbamate_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd01101
+C4H7NO3	cpd02211_c0	L-2-Amino-acetoacetate_c0	2aobut_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd02211
+C3H8NO	cpd01298_c0	Aminoacetone_c0	aact_c0		1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd01298
+C5H5N4O5	cpd09027_c0	5-Hydroxy-2-oxo-4-ureido-2,5-dihydro-1H-imidazole-5-carboxylate_c0	5-Hydroxy-2-oxo-4-ureido-2,5-dihydro-1H-imidazole-5-carboxylate_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd09027
+C6H11NO3	cpd02522_c0	2-Aminoadipate 6-semialdehyde_c0	L2aadp6sa_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd02522
+C6H8NO2	cpd00352_c0	delta1-Piperideine-6-L-carboxylate_c0	thp2c_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00352
+C6H8NO2	cpd00922_c0	delta1-Piperideine-2-carboxylate_c0	1pipdn2c_c0		-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00922
+C6H11NO3	cpd02074_c0	2-Oxo-6-aminocaproate_c0	6a2ohxnt_c0			c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd02074
+C40H78O10P	cpd15723_c0	Dianteisoheptadecanoylphosphatidylglycerol_c0	Dianteisoheptadecanoylphosphatidylglycerol_c0	1	-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15723
+C39H78NO8P	cpd15695_c0	Diisoheptadecanoylphosphatidylethanolamine_c0	Diisoheptadecanoylphosphatidylethanolamine_c0	1		c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15695
+C40H78O10P	cpd15722_c0	Diisoheptadecanoylphosphatidylglycerol_c0	Diisoheptadecanoylphosphatidylglycerol_c0	1	-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15722
+Zn	cpd00034_c0	Zn2+_c0	zn2_c0	1	2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00034
+C176H307N2O100P4	cpd15432_c0	core oligosaccharide lipid A_c0	colipa_c0	1	-7	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15432
+C10H13N5O13P3	cpd00241_c0	dGTP_c0	dgtp_c0	1	-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00241
+C39H78NO8P	cpd15696_c0	Dianteisoheptadecanoylphosphatidylethanolamine_c0	Dianteisoheptadecanoylphosphatidylethanolamine_c0	1		c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15696
+C9H10N2	cpd01997_c0	Dimethylbenzimidazole_c0	dmbzid_c0	1		c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd01997
+C42H36FeN4O16	cpd00557_c0	Siroheme_c0	sheme_c0	1	-8	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00557
+C9H12N2O15P3	cpd00062_c0	UTP_c0	utp_c0	1	-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00062
+C48H73CoN11O8	cpd03422_c0	Cobinamide_c0	cbi_c0	1	3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd03422
+Cu	cpd00058_c0	Cu2+_c0	cu2_c0	1	2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00058
+C81H156O17P2	cpd15793_c0	Stearoylcardiolipin (B. subtilis)_c0	Stearoylcardiolipin (B. subtilis)_c0	1	-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15793
+Mn	cpd00030_c0	Mn2+_c0	mn2_c0	1	2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00030
+C42H82O10P	cpd15540_c0	Phosphatidylglycerol dioctadecanoyl_c0	pg180_c0	1	-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15540
+C77H148O17P2	cpd15794_c0	Isoheptadecanoylcardiolipin (B. subtilis)_c0	Isoheptadecanoylcardiolipin (B. subtilis)_c0	1	-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15794
+C17H20N4O6	cpd00220_c0	Riboflavin_c0	ribflv_c0	1		c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00220
+Ca	cpd00063_c0	Ca2+_c0	ca2_c0	1	2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00063
+C9H13N3O13P3	cpd00356_c0	dCTP_c0	dctp_c0	1	-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00356
+HOR	cpd12370_c0	apo-ACP_c0	apoACP_c0	1		c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd12370
+C77H148O17P2	cpd15795_c0	Anteisoheptadecanoylcardiolipin (B. subtilis)_c0	Anteisoheptadecanoylcardiolipin (B. subtilis)_c0	1	-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15795
+	cpd11416_c0	Biomass_c0	Biomass_c0	1		c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd11416
+C8H9NO6P	cpd00016_c0	Pyridoxal phosphate_c0	pydx5p_c0	1	-1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00016
+C72H101CoN18O17P	cpd00166_c0	Calomide_c0	adocbl_c0	1	1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00166
+C10H14N2O14P3	cpd00357_c0	TTP_c0	dttp_c0	1	-3	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00357
+C41H82NO8P	cpd15533_c0	phosphatidylethanolamine dioctadecanoyl_c0	pe180_c0	1		c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd15533
+C6H15N4O2	cpd00051_c0	L-Arginine_c0	arg-L_c0	1	1	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00051
+C34H30FeN4O4	cpd00028_c0	Heme_c0	pheme_c0	1	-2	c0	~/modelcompartments/id/c0	489/6/5/compounds/id/cpd00028
+}
+modelreactions (id	name	abbreviation	definition	modelCompartmentLabel	direction	gprString	protons	probability) {
+rxn12008_c0	rxn12008_c0	HEPTT_c0	(1) Isopentenyldiphosphate[c0] + (1) all-trans-Heptaprenyl diphosphate[c0] <= (1) Farnesylfarnesylgeraniol[c0] + (1) PPi[c0]	c0	<	kb|g.236155.CDS.198		
+rxn00541_c0	L-Threonine acetaldehyde-lyase_c0	THRA_c0	(1) Acetaldehyde[c0] + (1) Glycine[c0] <=> (1) L-Threonine[c0]	c0	=	kb|g.236155.CDS.208		
+rxn01199_c0	ATP:D-xylulose 5-phosphotransferase_c0	XYLK_c0	(1) ADP[c0] + (1) D-Xylulose5-phosphate[c0] <=> (1) ATP[c0] + (1) D-Lyxulose[c0]	c0	=	kb|g.236155.CDS.212		
+rxn10215_c0	anteisoheptadecanoyl-1-acylglycerol-3-phosphate O-acyltransferase_c0	anteisoheptadecanoyl-1-acylglycerol-3-phosphate O-acyltransferase_c0	(1) 1,2-dianteisoheptadecanoyl-sn-glycerol 3-phosphate[c0] + (1) CoA[c0] => (1) 1-anteisoheptadecanoyl-sn-glycerol 3-phosphate[c0] + (1) fa12coa[c0]	c0	>	(kb|g.236155.CDS.50 or kb|g.236155.CDS.651)		
+rxn06078_c0	O-Acetyl-L-homoserine acetate-lyase (adding methanethiol)_c0	O-Acetyl-L-homoserine acetate-lyase (adding methanethiol)_c0	(1) Acetate[c0] + (1) Homocysteine[c0] + (1) Sulfite[c0] + (1) trdox[c0] => (1) H2S2O3[c0] + (1) O-Acetyl-L-homoserine[c0] + (1) trdrd[c0]	c0	>	kb|g.236155.CDS.73		
+rxn12636_c0	aminopeptidase_c0	AMPEP12_c0	(1) L-Alanine[c0] + (1) L-Methionine[c0] <=> (1) H+[c0] + (1) H2O[c0] + (1) met-L-ala-L[c0]	c0	=	(kb|g.236155.CDS.541 or kb|g.236155.CDS.338)		
+rxn12644_c0	aminopeptidase_c0	AMPEP7_c0	(1) L-Alanine[c0] + (1) L-Threonine[c0] <=> (1) H2O[c0] + (1) ala-L-Thr-L[c0]	c0	=	(kb|g.236155.CDS.338 or kb|g.236155.CDS.541)		
+rxn05536_c0	Dipeptide transport via ABC system (met-ala)_c0	DIPEPabc12_c0	(1) ADP[c0] + (1) H+[c0] + (1) Phosphate[c0] + (1) met-L-ala-L[c0] => (1) ATP[c0] + (1) H2O[c0] + (1) met-L-ala-L[e0]	c0	>	((kb|g.236155.CDS.381 or kb|g.236155.CDS.115 or kb|g.236155.CDS.380) or kb|g.236155.CDS.417 or kb|g.236155.CDS.419)		
+rxn06729_c0	(R)-3-Hydroxytetradecanoly-[acyl-carrier-protein]:UDP-N-acetyl-_c0	UAGAAT_c0	(1) ACP[c0] + (1) UDP-3-O-(beta-hydroxymyristoyl)-N-acetylglucosamine[c0] => (1) HMA[c0] + (1) UDP-N-acetylglucosamine[c0]	c0	>	kb|g.236155.CDS.796		
+rxn01387_c0	Isocitrate:NADP+ oxidoreductase (decarboxylating)_c0	IDP1_1_c0	(1) H+[c0] + (1) NADPH[c0] + (1) Oxalosuccinate[c0] <=> (1) Isocitrate[c0] + (1) NADP[c0]	c0	=	kb|g.236155.CDS.247		
+rxn05168_c0	L-Valine-ABC transport_c0	VALabc_c0	(1) ADP[c0] + (1) H+[c0] + (1) L-Valine[c0] + (1) Phosphate[c0] => (1) ATP[c0] + (1) H2O[c0] + (1) L-Valine[e0]	c0	>	(kb|g.236155.CDS.466 or kb|g.236155.CDS.462 or kb|g.236155.CDS.465)		
+rxn05544_c0	Dipeptide transport via ABC system (ala-leu)_c0	DIPEPabc6_c0	(1) ADP[c0] + (1) Ala-Leu[c0] + (1) H+[c0] + (1) Phosphate[c0] => (1) ATP[c0] + (1) Ala-Leu[e0] + (1) H2O[c0]	c0	>	((kb|g.236155.CDS.381 or kb|g.236155.CDS.115 or kb|g.236155.CDS.380) or kb|g.236155.CDS.417 or kb|g.236155.CDS.419)		
+rxn05616_c0	magnesium transport in/out via permease (no H+)_c0	MGt5i_c0	(1) Mg[e0] <=> (1) Mg[c0]	c0	=	kb|g.236155.CDS.740		
+rxn02345_c0	(S)-3-Hydroxybutanoyl-CoA 3-epimerase_c0	(S)-3-Hydroxybutanoyl-CoA 3-epimerase_c0	(1) (R)-3-Hydroxybutanoyl-CoA[c0] <=> (1) (S)-3-Hydroxybutyryl-CoA[c0]	c0	=	kb|g.236155.CDS.8		
+rxn08527_c0	fumarate reductase_c0	FRD2_c0	(1) Menaquinone 8[c0] + (1) Succinate[c0] <=> (1) Fumarate[c0] + (1) Menaquinol 8[c0]	c0	=	((kb|g.236155.CDS.159 and kb|g.236155.CDS.158) or kb|g.236155.CDS.158)		
+rxn12848_c0	Gly-Cys ABC transporters_c0	Gly-Cys ABC transporters_c0	(1) ADP[c0] + (1) Gly-Cys[c0] + (1) Phosphate[c0] => (1) ATP[c0] + (1) Gly-Cys[e0] + (1) H2O[c0]	c0	>	((kb|g.236155.CDS.381 or kb|g.236155.CDS.115 or kb|g.236155.CDS.380) or kb|g.236155.CDS.417 or kb|g.236155.CDS.419)		
+rxn02212_c0	2-Dehydro-3-deoxy-D-arabino-heptonate 7-phosphate phosphate-lyase_c0	DHQS_c0	(1) 5-Dehydroquinate[c0] + (1) H+[c0] + (1) Phosphate[c0] => (1) DAHP[c0]	c0	>	(kb|g.236155.CDS.565 or kb|g.236155.CDS.272)		
+rxn03419_c0	Formamidopyrimidine nucleoside triphosphate 7,8-8,9-dihydrolase_c0	Formamidopyrimidine nucleoside triphosphate 7,8-8,9-dihydrolase_c0	(1) 2,5-Diaminopyrimidine nucleoside triphosphate[c0] + (1) Formate[c0] + (1) H+[c0] <=> (1) Formamidopyrimidine nucleoside triphosphate[c0] + (1) H2O[c0]	c0	=	kb|g.236155.CDS.453		
+rxn10125_c0	NAD(P) transhydrogenase_c0	THD2_c0	(2) H+[c0] + (1) NAD[c0] + (1) NADPH[c0] <=> (2) H+[e0] + (1) NADH[c0] + (1) NADP[c0]	c0	=	(kb|g.236155.CDS.630 and (kb|g.236155.CDS.631 or kb|g.236155.CDS.632))		
+rxn00497_c0	L-Phenylalanine carboxy-lyase_c0	PHYCBOXL_c0	(1) CO2[c0] + (1) Phenethylamine[c0] => (1) H+[c0] + (1) L-Phenylalanine[c0]	c0	>	kb|g.236155.CDS.718		
+rxn00883_c0	1D-myo-Inositol 3-phosphate phosphahydrolase_c0	MI3PP_c0	(1) H+[c0] + (1) L-Inositol[c0] + (1) Phosphate[c0] => (1) H2O[c0] + (1) Inositol 3-phosphate[c0]	c0	>	kb|g.236155.CDS.219		
+rxn00248_c0	(S)-malate:NAD+ oxidoreductase_c0	MDH_c0	(1) H+[c0] + (1) NADH[c0] + (1) Oxaloacetate[c0] <=> (1) L-Malate[c0] + (1) NAD[c0]	c0	=	kb|g.236155.CDS.246		
+rxn05734_c0	aldehyde dehydrogenase (glyoxylate, NAD)_c0	ALDD30_c0	(2) H+[c0] + (1) NADH[c0] + (1) Oxalate[c0] <=> (1) Glyoxalate[c0] + (1) H2O[c0] + (1) NAD[c0]	c0	=	(kb|g.236155.CDS.747 or kb|g.236155.CDS.731 or kb|g.236155.CDS.389 or kb|g.236155.CDS.107 or kb|g.236155.CDS.730)		
+rxn01302_c0	L-Homoserine:NADP+ oxidoreductase_c0	HSDy_c0	(1) H+[c0] + (1) L-Aspartate4-semialdehyde[c0] + (1) NADPH[c0] <=> (1) L-Homoserine[c0] + (1) NADP[c0]	c0	=	kb|g.236155.CDS.81		
+rxn03164_c0	UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-_c0	UGMDDS_c0	(1) ADP[c0] + (1) H+[c0] + (1) Phosphate[c0] + (1) UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-6-carboxy-L-lysyl-D-alanyl- D-alanine[c0] => (1) ATP[c0] + (1) Ala-Ala[c0] + (1) UDP-N-acetylmuramoyl-L-alanyl-D-gamma-glutamyl-meso-2-6-diaminopimelate[c0]	c0	>	kb|g.236155.CDS.175		
+rxn00879_c0	myo-Inositol:NAD+ 2-oxidoreductase_c0	INS2D_c0	(1) 2-Inosose[c0] + (1) H+[c0] + (1) NADH[c0] <=> (1) L-Inositol[c0] + (1) NAD[c0]	c0	=	kb|g.236155.CDS.655		
+rxn05229_c0	NCAIR synthetase and NCAIR mutase_c0	NCAIR synthetase and NCAIR mutase_c0	(1) 5'-Phosphoribosyl-4-carboxy-5-aminoimidazole[c0] + (1) ADP[c0] + (1) H+[c0] + (1) Phosphate[c0] => (1) AIR[c0] + (1) ATP[c0] + (1) H2CO3[c0]	c0	>	(kb|g.236155.CDS.757 and kb|g.236155.CDS.758)		
+rxn02302_c0	O-Acetyl-L-homoserine succinate-lyase (adding cysteine)_c0	SHSL5_c0	(1) Acetate[c0] + (1) Cystathionine[c0] <=> (1) L-Cysteine[c0] + (1) O-Acetyl-L-homoserine[c0]	c0	=	kb|g.236155.CDS.305		
+rxn12637_c0	aminopeptidase_c0	MEAMP1(gly-asp)_c0	(1) Glycine[c0] + (1) L-Aspartate[c0] <=> (1) H2O[c0] + (1) gly-asp-L[c0]	c0	=	(kb|g.236155.CDS.338 or kb|g.236155.CDS.541)		
+rxn00952_c0	O-Acetyl-L-homoserine acetate-lyase (adding methanethiol)_c0	AHSERL2_c0	(1) Acetate[c0] + (1) H+[c0] + (1) Homocysteine[c0] => (1) H2S[c0] + (1) O-Acetyl-L-homoserine[c0]	c0	>	kb|g.236155.CDS.73		
+rxn02853_c0	Imidazole acetaldehyde:NAD+ oxidoreductase_c0	ALDD20x_c0	(1) 4-Imidazoleacetate[c0] + (2) H+[c0] + (1) NADH[c0] => (1) H2O[c0] + (1) Imidazole acetaldehyde[c0] + (1) NAD[c0]	c0	>	(kb|g.236155.CDS.747 or kb|g.236155.CDS.731 or kb|g.236155.CDS.389 or kb|g.236155.CDS.107 or kb|g.236155.CDS.730)		
+rxn02949_c0	(S)-3-Hydroxyisobutyryl-CoA hydro-lyase_c0	ECOAH2c_c0	(1) (S)-3-Hydroxyisobutyryl-CoA[c0] <=> (1) H2O[c0] + (1) Methacrylyl-CoA[c0]	c0	=	(kb|g.236155.CDS.8 or kb|g.236155.CDS.642)		
+rxn05031_c0	prephytoene diphosphate:geranylgeranyl-diphosphate_c0	geranylgeranyltransferase_c0	(1) PPi[c0] + (1) Phytoene[c0] => (1) Prephytoene diphosphate[c0]	c0	>	kb|g.236155.CDS.200		
+rxn10225_c0	isohexadecanoyl-phosphatidate cytidylyltransferase_c0	isohexadecanoyl-phosphatidate cytidylyltransferase_c0	(1) CDP-1,2-diisohexadecanoylglycerol[c0] + (1) PPi[c0] <=> (1) 1,2-diisohexadecanoyl-sn-glycerol 3-phosphate[c0] + (1) CTP[c0]	c0	=	kb|g.236155.CDS.379		
+rxn10259_c0	isoheptadecanoyl-CDPdiacylglycerol:sn-glycerol-3-phosphate 3-phosphatidyltransferase_c0	isoheptadecanoyl-CDPdiacylglycerol:sn-glycerol-3-phosphate 3-phosphatidyltransferase_c0	(1) CMP[c0] + (1) Diisoheptadecanoylphosphatidylglycerophosphate[c0] <=> (1) CDP-1,2-diisoheptadecanoylglycerol[c0] + (1) Glycerol-3-phosphate[c0]	c0	=	kb|g.236155.CDS.63		
+rxn00929_c0	L-Proline:NAD+ 5-oxidoreductase_c0	PRO1x_c0	(1) 1-Pyrroline-5-carboxylate[c0] + (1) H+[c0] + (1) NADH[c0] <=> (1) L-Proline[c0] + (1) NAD[c0]	c0	=	kb|g.236155.CDS.439		
+rxn08311_c0	CDP-diacylglycerol synthetase (n-C18:0)_c0	DASYN180_c0	(1) CDP-1,2-dioctadecanoylglycerol[c0] + (1) PPi[c0] <=> (1) 1,2-dioctadecanoyl-sn-glycerol 3-phosphate[c0] + (1) CTP[c0]	c0	=	kb|g.236155.CDS.379		
+rxn01101_c0	3-Phospho-D-glycerate:NAD+ 2-oxidoreductase_c0	PGCD_c0	(1) 3-Phosphonooxypyruvate[c0] + (1) H+[c0] + (1) NADH[c0] <=> (1) 3-Phosphoglycerate[c0] + (1) NAD[c0]	c0	=	kb|g.236155.CDS.488		
+rxn00302_c0	GTP 7,8-8,9-dihydrolase_c0	GTP 7,8-8,9-dihydrolase_c0	(1) Formamidopyrimidine nucleoside triphosphate[c0] => (1) GTP[c0] + (1) H2O[c0]	c0	>	kb|g.236155.CDS.453		
+rxn05145_c0	Orthophosphate-ABC transport_c0	PIabc_c0	(1) ADP[c0] + (1) H+[c0] + (2) Phosphate[c0] <=> (1) ATP[c0] + (1) H2O[c0] + (1) Phosphate[e0]	c0	=	(kb|g.236155.CDS.328 and kb|g.236155.CDS.326 and kb|g.236155.CDS.327 and kb|g.236155.CDS.329)		
+rxn10199_c0	Peptidoglycan subunit synthesis_c0	pentapeptide:peptidoglycan_c0	(1) Bactoprenyl diphosphate[c0] + (1) Peptidoglycan polymer (n subunits)[c0] <=> (1) Peptidoglycan polymer (n-1 subunits)[c0] + (1) Undecaprenyl-diphospho-N-acetylmuramoyl--N-acetylglucosamine-L-ala-D-glu-meso-2-6-diaminopimeloyl-D-ala-D-ala[c0]	c0	=	kb|g.236155.CDS.122		
+rxn03241_c0	(S)-3-Hydroxytetradecanoyl-CoA hydro-lyase_c0	ECOAH6_c0	(1) (2E)-Tetradecenoyl-CoA[c0] + (1) H2O[c0] <=> (1) (S)-3-Hydroxytetradecanoyl-CoA[c0]	c0	=	(kb|g.236155.CDS.8 or kb|g.236155.CDS.642)		
+rxn00649_c0	O3-Acetyl-L-serine acetate-lyase (adding hydrogen sulfide)_c0	CYSS_c0	(1) Acetate[c0] + (1) H+[c0] + (1) L-Cysteine[c0] => (1) H2S[c0] + (1) O-Acetyl-L-serine[c0]	c0	>	kb|g.236155.CDS.347		
+rxn12851_c0	Gly-Try ABC transporters_c0	Gly-Try ABC transporters_c0	(1) ADP[c0] + (1) Gly-Tyr[c0] + (1) Phosphate[c0] => (1) ATP[c0] + (1) Gly-Tyr[e0] + (1) H2O[c0]	c0	>	((kb|g.236155.CDS.381 or kb|g.236155.CDS.115 or kb|g.236155.CDS.380) or kb|g.236155.CDS.417 or kb|g.236155.CDS.419)		
+rxn05153_c0	Sulfate-ABC transport_c0	SULabc_c0	(1) ADP[c0] + (1) H+[c0] + (1) Phosphate[c0] + (1) Sulfate[c0] => (1) ATP[c0] + (1) H2O[c0] + (1) Sulfate[e0]	c0	>	(Unknown and kb|g.236155.CDS.394 and Unknown and Unknown)		
+rxn00671_c0	2-Methyl-3-oxopropanoate:NAD+ oxidoreductase (CoA-propanoylating)_c0	MMSAD1_c0	(1) CO2[c0] + (1) NADH[c0] + (1) Propionyl-CoA[c0] <=> (1) 3-Oxo-2-methylpropanoate[c0] + (1) CoA[c0] + (1) NAD[c0]	c0	=	kb|g.236155.CDS.222		
+rxn00187_c0	L-Glutamate:ammonia ligase (ADP-forming)_c0	GLNS_i_c0	(1) ADP[c0] + (1) H+[c0] + (1) L-Glutamine[c0] + (1) Phosphate[c0] => (1) ATP[c0] + (1) L-Glutamate[c0] + (1) NH3[c0]	c0	>	kb|g.236155.CDS.647		
+rxn00193_c0	L-Glutamate racemase_c0	GLUR_c0	(1) D-Glutamate[c0] <=> (1) L-Glutamate[c0]	c0	=	kb|g.236155.CDS.638		
+rxn01073_c0	sn-Glycero-3-phosphoethanolamine glycerophosphohydrolase_c0	GPDDA2_c0	(1) Aminoethanol[c0] + (1) Glycerol-3-phosphate[c0] => (1) Glycerophosphoethanolamine[c0] + (1) H2O[c0]	c0	>	kb|g.236155.CDS.153		
+rxn05175_c0	Spermidine-ABC transport_c0	SPMDabc_c0	(1) ADP[c0] + (1) H+[c0] + (1) Phosphate[c0] + (1) Spermidine[c0] => (1) ATP[c0] + (1) H2O[c0] + (1) Spermidine[e0]	c0	>	(Unknown and kb|g.236155.CDS.375 and (kb|g.236155.CDS.683 or kb|g.236155.CDS.674 or kb|g.236155.CDS.374) and Unknown and Unknown and Unknown and (kb|g.236155.CDS.682 or kb|g.236155.CDS.675))		
+rxn12844_c0	Gly-Cys aminopeptidase_c0	Gly-Cys aminopeptidase_c0	(1) Glycine[c0] + (1) L-Cysteine[c0] <=> (1) Gly-Cys[c0] + (1) H2O[c0]	c0	=	(kb|g.236155.CDS.338 or kb|g.236155.CDS.541)		
+rxn01332_c0	Phosphoenolpyruvate:D-erythrose-4-phosphate_c0	DDPA_c0	(1) DAHP[c0] + (1) H+[c0] + (1) Phosphate[c0] => (1) D-Erythrose4-phosphate[c0] + (1) H2O[c0] + (1) Phosphoenolpyruvate[c0]	c0	>	(Unknown and Unknown and kb|g.236155.CDS.210)		
+rxn01858_c0	Deoxyadenosine aminohydrolase_c0	DADA_c0	(1) Deoxyinosine[c0] + (1) NH3[c0] => (1) Deoxyadenosine[c0] + (1) H+[c0] + (1) H2O[c0]	c0	>	kb|g.236155.CDS.257		
+rxn06377_c0	glycine:lipoylprotein oxidoreductase (decarboxylating and_c0	GCCa_c0	(1) CO2[c0] + (1) S-Aminomethyldihydrolipoylprotein[c0] => (1) Glycine[c0] + (1) H+[c0] + (1) Lipoylprotein[c0]	c0	>	kb|g.236155.CDS.766		
+rxn02933_c0	(2S,3S)-3-hydroxy-2-methylbutanoyl-CoA:NAD+ oxidoreductase_c0	HACD8_c0	(1) 2-Methylacetoacetyl-CoA[c0] + (1) H+[c0] + (1) NADH[c0] <=> (1) 2-methyl-3-hydroxy-butyryl-CoA[c0] + (1) NAD[c0]	c0	=	(Unknown and kb|g.236155.CDS.8)		
+rxn01018_c0	Carbamoyl-phosphate:L-aspartate carbamoyltransferase_c0	ASPCT_c0	(2) H+[c0] + (1) N-Carbamoyl-L-aspartate[c0] + (1) Phosphate[c0] => (1) Carbamoylphosphate[c0] + (1) L-Aspartate[c0]	c0	>	kb|g.236155.CDS.559		
+rxn00806_c0	L-Leucine:2-oxoglutarate aminotransferase_c0	LEUTAi_c0	(1) 4MOP[c0] + (1) L-Glutamate[c0] <=> (1) 2-Oxoglutarate[c0] + (1) L-Leucine[c0]	c0	=	kb|g.236155.CDS.365		
+rxn09310_c0	thiazole phosphate synthesis_c0	THZPSN_c0	(1) 4-Hydroxy-benzylalcohol[c0] + (1) 4-Methyl-5--2-phosphoethyl-thiazole[c0] + (1) AMP[c0] + (1) CO2[c0] + (1) H2O[c0] + (1) L-Alanine[c0] + (1) PPi[c0] => (1) 1-deoxy-D-xylulose5-phosphate[c0] + (1) ATP[c0] + (1) L-Cysteine[c0] + (1) L-Tyrosine[c0]	c0	>	(Unknown and Unknown and (kb|g.236155.CDS.589 or kb|g.236155.CDS.339) and Unknown and Unknown and Unknown)		
+rxn10219_c0	isohexadecanoyl-1-acylglycerol-3-phosphate O-acyltransferase_c0	isohexadecanoyl-1-acylglycerol-3-phosphate O-acyltransferase_c0	(1) 1,2-diisohexadecanoyl-sn-glycerol 3-phosphate[c0] + (1) CoA[c0] => (1) 1-isohexadecanoyl-sn-glycerol 3-phosphate[c0] + (1) fa6coa[c0]	c0	>	(kb|g.236155.CDS.50 or kb|g.236155.CDS.651)		
+rxn00786_c0	D-Fructose-1,6-bisphosphate D-glyceraldehyde-3-phosphate-lyase_c0	FBA_c0	(1) Glyceraldehyde3-phosphate[c0] + (1) Glycerone-phosphate[c0] <=> (1) D-fructose-1,6-bisphosphate[c0]	c0	=	kb|g.236155.CDS.795		
+rxn05158_c0	sn-Glycerol ABC transport_c0	GLYC3Pabc_c0	(1) ADP[c0] + (1) Glycerol-3-phosphate[c0] + (1) H+[c0] + (1) Phosphate[c0] => (1) ATP[c0] + (1) Glycerol-3-phosphate[e0] + (1) H2O[c0]	c0	>	kb|g.236155.CDS.248		
+rxn00689_c0	Tetrahydrofolate:L-glutamate gamma-ligase (ADP-forming)_c0	THFGLUS_c0	(1) ADP[c0] + (1) H+[c0] + (1) Phosphate[c0] + (1) THF-L-glutamate[c0] => (1) ATP[c0] + (1) L-Glutamate[c0] + (1) Tetrahydrofolate[c0]	c0	>	(kb|g.236155.CDS.734 and kb|g.236155.CDS.734)		
+rxn12640_c0	aminopeptidase_c0	AMPEP3_c0	(1) L-Alanine[c0] + (1) L-Glutamate[c0] <=> (1) H2O[c0] + (1) ala-L-glu-L[c0]	c0	=	(kb|g.236155.CDS.338 or kb|g.236155.CDS.541)		
+rxn06510_c0	Lauroyl-CoA:acetyl-CoA C-acyltransferase_c0	ACACT6r_c0	(1) 3-Oxotetradecanoyl-CoA[c0] + (1) CoA[c0] <=> (1) Acetyl-CoA[c0] + (1) Lauroyl-CoA[c0]	c0	=	kb|g.236155.CDS.7		
+rxn05596_c0	potassium transport out via proton antiport_c0	Kt3_c0	(1) H+[c0] + (1) K+[e0] <=> (1) H+[e0] + (1) K+[c0]	c0	=	(kb|g.236155.CDS.11 or kb|g.236155.CDS.12)		
+rxn01489_c0	Geranylgeranyl-diphosphate:geranylgeranyl-diphosphate_c0	geranylgeranyltransferase_c0	(1) PPi[c0] + (1) Prephytoene diphosphate[c0] => (2) Geranylgeranyl diphosphate[c0]	c0	>	kb|g.236155.CDS.200		
+rxn05733_c0	cysteine synthase (Thiosulfate)_c0	AHSERL4_c0	(1) Acetate[c0] + (1) L-Cysteine[c0] + (1) Sulfite[c0] + (1) trdox[c0] => (1) H2S2O3[c0] + (1) O-Acetyl-L-serine[c0] + (1) trdrd[c0]	c0	>	kb|g.236155.CDS.347		
+rxn04750_c0	(S)-3-hydroxyacyl-CoA:NAD+ oxidoreductase_c0	RXN0-2044_c0	(1) 3-Oxoadipyl-CoA[c0] + (1) H+[c0] + (1) NADH[c0] <=> (1) (3S)-3-Hydroxyadipyl-CoA[c0] + (1) NAD[c0]	c0	=	(Unknown and kb|g.236155.CDS.8)		
+rxn00710_c0	Orotidine-5'-phosphate carboxy-lyase_c0	OMPDC_c0	(1) CO2[c0] + (1) UMP[c0] => (1) H+[c0] + (1) Orotidylic acid[c0]	c0	>	kb|g.236155.CDS.553		
+rxn05539_c0	Dipeptide transport via ABC system (cgly)_c0	DIPEPabc15_c0	(1) ADP[c0] + (1) Cys-Gly[c0] + (1) H+[c0] + (1) Phosphate[c0] => (1) ATP[c0] + (1) Cys-Gly[e0] + (1) H2O[c0]	c0	>	((kb|g.236155.CDS.381 or kb|g.236155.CDS.115 or kb|g.236155.CDS.380) or kb|g.236155.CDS.417 or kb|g.236155.CDS.419)		
+rxn00545_c0	ATP:D-fructose-6-phosphate 1-phosphotransferase_c0	PFK_c0	(1) ADP[c0] + (1) D-fructose-1,6-bisphosphate[c0] <=> (1) ATP[c0] + (1) D-fructose-6-phosphate[c0]	c0	=	kb|g.236155.CDS.211		
+rxn10308_c0	myristoyl-lipoteichoic acid synthesis (n=24), linked, N-acetylglucosamine substituted_c0	myristoyl-lipoteichoic acid synthesis (n=24), linked, N-acetylglucosamine substituted_c0	(1) Myristoyllipoteichoic acid (n=24), linked, N-acetyl-D-glucosamine[c0] + (24) UDP[c0] <=> (1) Myristoyllipoteichoic acid (n=24), linked, unsubstituted[c0] + (24) UDP-N-acetylglucosamine[c0]	c0	=	(kb|g.236155.CDS.580 or kb|g.236155.CDS.90)		
+rxn03409_c0	Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-_c0	GLNSP3_c0	(1) ADP[c0] + (1) H+[c0] + (1) Phosphate[c0] + (1) Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-alanyl-D-glutaminyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine[c0] => (1) ATP[c0] + (1) NH3[c0] + (1) Undecaprenyl-diphospho-N-acetylmuramoyl--N-acetylglucosamine-L-ala-D-glu-meso-2-6-diaminopimeloyl-D-ala-D-ala[c0]	c0	>	kb|g.236155.CDS.647		
+rxn01301_c0	L-Homoserine:NAD+ oxidoreductase_c0	HSDx_c0	(1) H+[c0] + (1) L-Aspartate4-semialdehyde[c0] + (1) NADH[c0] <=> (1) L-Homoserine[c0] + (1) NAD[c0]	c0	=	kb|g.236155.CDS.81		
+rxn13782_c0	Protein biosynthesis_c0	rxn13782_c0	(1) Protein biosynthesis[c0] => 	c0	>	(kb|g.236155.CDS.447 and kb|g.236155.CDS.535 and kb|g.236155.CDS.536 and Unknown and Unknown and kb|g.236155.CDS.531 and kb|g.236155.CDS.521 and kb|g.236155.CDS.533 and kb|g.236155.CDS.522 and kb|g.236155.CDS.523 and Unknown and kb|g.236155.CDS.85 and Unknown and kb|g.236155.CDS.250 and Unknown and kb|g.236155.CDS.351 and kb|g.236155.CDS.515 and kb|g.236155.CDS.527 and kb|g.236155.CDS.346 and kb|g.236155.CDS.369 and Unknown and kb|g.236155.CDS.545 and Unknown and Unknown and kb|g.236155.CDS.358 and Unknown and kb|g.236155.CDS.538 and Unknown and kb|g.236155.CDS.786 and kb|g.236155.CDS.574 and kb|g.236155.CDS.524 and kb|g.236155.CDS.140 and Unknown and kb|g.236155.CDS.685 and kb|g.236155.CDS.44 and Unknown and Unknown and Unknown and kb|g.236155.CDS.155 and kb|g.236155.CDS.546 and kb|g.236155.CDS.520 and Unknown and Unknown and kb|g.236155.CDS.120 and kb|g.236155.CDS.528 and kb|g.236155.CDS.529 and Unknown and kb|g.236155.CDS.514 and Unknown and kb|g.236155.CDS.525 and kb|g.236155.CDS.534 and kb|g.236155.CDS.530 and kb|g.236155.CDS.359 and kb|g.236155.CDS.537 and kb|g.236155.CDS.575 and kb|g.236155.CDS.572 and kb|g.236155.CDS.668 and kb|g.236155.CDS.357 and kb|g.236155.CDS.733 and kb|g.236155.CDS.686 and Unknown and Unknown and kb|g.236155.CDS.519 and kb|g.236155.CDS.526 and kb|g.236155.CDS.784 and Unknown and Unknown and kb|g.236155.CDS.776 and kb|g.236155.CDS.684 and kb|g.236155.CDS.218 and kb|g.236155.CDS.79 and kb|g.236155.CDS.518 and Unknown and kb|g.236155.CDS.695 and kb|g.236155.CDS.31 and Unknown and kb|g.236155.CDS.352)		
+rxn03407_c0	Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-_c0	GLNSP2_c0	(1) ADP[c0] + (1) H+[c0] + (1) Phosphate[c0] + (1) Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-alanyl-D-isoglutaminyl-L-lysyl-D-alanyl-D-alanine[c0] => (1) ATP[c0] + (1) NH3[c0] + (1) Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-alanyl-gamma-D-glutamyl-L-lysyl-D-alanyl-D-alanine[c0]	c0	>	kb|g.236155.CDS.647		
+rxn10311_c0	anteisoheptadecanoyl-lipoteichoic acid synthesis (n=24), linked, N-acetylglucosamine substituted_c0	anteisoheptadecanoyl-lipoteichoic acid synthesis (n=24), linked, N-acetylglucosamine substituted_c0	(1) Anteisoheptadecanoyllipoteichoic acid (n=24), linked, N-acetyl-D-glucosamine[c0] + (24) UDP[c0] <=> (1) Anteisoheptadecanoyllipoteichoic acid (n=24), linked, unsubstituted[c0] + (24) UDP-N-acetylglucosamine[c0]	c0	=	(kb|g.236155.CDS.580 or kb|g.236155.CDS.90)		
+rxn01486_c0	trans,trans-Farnesyl-diphosphate:isopentenyl-diphosphate_c0	FRTT_c0	(1) Geranylgeranyl diphosphate[c0] + (1) PPi[c0] => (1) Farnesyldiphosphate[c0] + (1) Isopentenyldiphosphate[c0]	c0	>	kb|g.236155.CDS.198		
+rxn00898_c0	2,3-Dihydroxy-3-methylbutanoate hydro-lyase_c0	DHAD1_c0	(1) 3-Methyl-2-oxobutanoate[c0] + (1) H2O[c0] => (1) 2,3-Dihydroxy-isovalerate[c0]	c0	>	kb|g.236155.CDS.360		
+rxn01069_c0	O-Phospho-L-homoserine phospho-lyase (adding water)_c0	THRS_c0	(1) H+[c0] + (1) L-Threonine[c0] + (1) Phosphate[c0] => (1) H2O[c0] + (1) O-Phospho-L-homoserine[c0]	c0	>	kb|g.236155.CDS.82		
+rxn05541_c0	Dipeptide transport via ABC system (ala-glu)_c0	DIPEPabc3_c0	(1) ADP[c0] + (1) H+[c0] + (1) Phosphate[c0] + (1) ala-L-glu-L[c0] => (1) ATP[c0] + (1) H2O[c0] + (1) ala-L-glu-L[e0]	c0	>	((kb|g.236155.CDS.381 or kb|g.236155.CDS.115 or kb|g.236155.CDS.380) or kb|g.236155.CDS.417 or kb|g.236155.CDS.419)		
+rxn00260_c0	L-Aspartate:2-oxoglutarate aminotransferase_c0	ASPTA1_c0	(1) L-Glutamate[c0] + (1) Oxaloacetate[c0] <=> (1) 2-Oxoglutarate[c0] + (1) L-Aspartate[c0]	c0	=	kb|g.236155.CDS.690		
+rxn03137_c0	10-Formyltetrahydrofolate:5'-phosphoribosyl-5-amino-4-_c0	AICART_c0	(1) FAICAR[c0] + (1) Tetrahydrofolate[c0] <=> (1) 10-Formyltetrahydrofolate[c0] + (1) AICAR[c0]	c0	=	(kb|g.236155.CDS.243 and kb|g.236155.CDS.243)		
+rxn13783_c0	DNA replication_c0	rxn13783_c0	(1) DNA replication[c0] => 	c0	>	(kb|g.236155.CDS.146 and kb|g.236155.CDS.145 and Unknown and Unknown and Unknown and kb|g.236155.CDS.350 and kb|g.236155.CDS.183 and kb|g.236155.CDS.36 and Unknown and Unknown and Unknown and kb|g.236155.CDS.267 and Unknown and Unknown and kb|g.236155.CDS.265 and kb|g.236155.CDS.141 and kb|g.236155.CDS.708 and kb|g.236155.CDS.238 and kb|g.236155.CDS.142 and (kb|g.236155.CDS.727 or kb|g.236155.CDS.725) and Unknown and kb|g.236155.CDS.341 and Unknown)		
+rxn09111_c0	Phosphatidylglycerol synthase (n-C16:0)_c0	PGSA160_c0	(1) CMP[c0] + (1) Phosphatidylglycerophosphate dihexadecanoyl[c0] <=> (1) CDP-1,2-dihexadecanoylglycerol[c0] + (1) Glycerol-3-phosphate[c0]	c0	=	kb|g.236155.CDS.63		
+rxn01974_c0	LL-2,6-Diaminoheptanedioate 2-epimerase_c0	DAPE_c0	(1) meso-2,6-Diaminopimelate[c0] <=> (1) LL-2,6-Diaminopimelate[c0]	c0	=	kb|g.236155.CDS.19		
+rxn03244_c0	(S)-Hydroxydecanoyl-CoA:NAD+ oxidoreductase_c0	HACD4_c0	(1) 3-Oxodecanoyl-CoA[c0] + (1) H+[c0] + (1) NADH[c0] <=> (1) (S)-Hydroxydecanoyl-CoA[c0] + (1) NAD[c0]	c0	=	(Unknown and kb|g.236155.CDS.8)		
+rxn12645_c0	aminopeptidase_c0	AMPEP8_c0	(1) Glycine[c0] + (1) L-Asparagine[c0] <=> (1) H2O[c0] + (1) gly-asn-L[c0]	c0	=	(kb|g.236155.CDS.338 or kb|g.236155.CDS.541)		
+rxn02008_c0	UDP-N-acetylmuramoyl-L-alanine:D-glutamate ligase(ADP-forming)_c0	UAMAGS_c0	(1) ADP[c0] + (1) H+[c0] + (1) Phosphate[c0] + (1) UDP-N-acetylmuramoyl-L-alanyl-D-glutamate[c0] => (1) ATP[c0] + (1) D-Glutamate[c0] + (1) UDP-N-acetylmuramoyl-L-alanine[c0]	c0	>	kb|g.236155.CDS.173		
+rxn02155_c0	ATP:nicotinamide-nucleotide adenylyltransferase_c0	NNATr_c0	(1) Deamido-NAD[c0] + (1) PPi[c0] <=> (1) ATP[c0] + (1) Nicotinate ribonucleotide[c0]	c0	=	kb|g.236155.CDS.343		
+rxn00915_c0	GMP:pyrophosphate phosphoribosyltransferase_c0	GUAPRT_c0	(1) Guanine[c0] + (1) PRPP[c0] <= (1) GMP[c0] + (1) PPi[c0]	c0	<	kb|g.236155.CDS.455		
+rxn00299_c0	GTP 7,8-8,9-dihydrolase_c0	GTPCI_c0	(1) 7,8-Dihydroneopterin 3'-triphosphate[c0] + (1) Formate[c0] + (1) H+[c0] => (1) GTP[c0] + (1) H2O[c0]	c0	>	kb|g.236155.CDS.453		
+rxn00461_c0	Phosphoenolpyruvate:UDP-N-acetyl-D-glucosamine_c0	UAGCVT_c0	(1) H+[c0] + (1) Phosphate[c0] + (1) UDP-N-acetylglucosamine enolpyruvate[c0] <=> (1) Phosphoenolpyruvate[c0] + (1) UDP-N-acetylglucosamine[c0]	c0	=	kb|g.236155.CDS.101		
+rxn08089_c0	1-octadec-7-enoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C18:1)_c0	AGPAT181_c0	(1) 1,2-dioctadec-11-enoyl-sn-glycerol 3-phosphate[c0] + (1) ACP[c0] => (1) 1-octadec-11-enoyl-sn-glycerol 3-phosphate[c0] + (1) Octadecenoyl-ACP[c0]	c0	>	(kb|g.236155.CDS.50 or kb|g.236155.CDS.651)		
+rxn10212_c0	myristoyl-1-acylglycerol-3-phosphate O-acyltransferase_c0	myristoyl-1-acylglycerol-3-phosphate O-acyltransferase_c0	(1) 1,2-ditetradecanoyl-sn-glycerol 3-phosphate[c0] + (1) CoA[c0] => (1) 1-tetradecanoyl-sn-glycerol 3-phosphate[c0] + (1) Myristoyl-CoA[c0]	c0	>	(kb|g.236155.CDS.50 or kb|g.236155.CDS.651)		
+rxn10221_c0	anteisoheptadecanoyl-phosphatidate cytidylyltransferase_c0	anteisoheptadecanoyl-phosphatidate cytidylyltransferase_c0	(1) CDP-1,2-dianteisoheptadecanoylglycerol[c0] + (1) PPi[c0] <=> (1) 1,2-dianteisoheptadecanoyl-sn-glycerol 3-phosphate[c0] + (1) CTP[c0]	c0	=	kb|g.236155.CDS.379		
+rxn03437_c0	(R)-2,3-Dihydroxy-3-methylpentanoate hydro-lyase_c0	DHAD2_c0	(1) 3MOP[c0] + (1) H2O[c0] => (1) 2,3-Dihydroxy-3-methylvalerate[c0]	c0	>	kb|g.236155.CDS.360		
+rxn00882_c0	myo-Inositol 4-phosphate phosphahydrolase_c0	MI4PP_c0	(1) H+[c0] + (1) L-Inositol[c0] + (1) Phosphate[c0] => (1) H2O[c0] + (1) Inositol 4-phosphate[c0]	c0	>	kb|g.236155.CDS.219		
+rxn10126_c0	succinate dehyrdogenase_c0	SUCD4_c0	(1) FAD[c0] + (1) Ubiquinol-8[c0] => (1) FADH2[c0] + (1) Ubiquinone-8[c0]	c0	>	(kb|g.236155.CDS.159 and kb|g.236155.CDS.158)		
+rxn08083_c0	1-tetradecanoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C12:0)_c0	AGPAT120_c0	(1) 1,2-didodecanoyl-sn-glycerol 3-phosphate[c0] + (1) ACP[c0] => (1) 1-dodecanoyl-sn-glycerol 3-phosphate[c0] + (1) Dodecanoyl-ACP[c0]	c0	>	(kb|g.236155.CDS.50 or kb|g.236155.CDS.651)		
+rxn03901_c0	Undecaprenyl-diphosphate phosphohydrolase_c0	UDCPDP_c0	(1) H+[c0] + (1) Phosphate[c0] + (1) Undecaprenylphosphate[c0] => (1) Bactoprenyl diphosphate[c0] + (1) H2O[c0]	c0	>	kb|g.236155.CDS.401		
+rxn00669_c0	Propanoate:CoA ligase (ADP-forming)_c0	ACCOAL_c0	(1) ADP[c0] + (1) Phosphate[c0] + (1) Propionyl-CoA[c0] <=> (1) ATP[c0] + (1) CoA[c0] + (1) Propionate[c0]	c0	=	(Unknown and kb|g.236155.CDS.698)		
+rxn05537_c0	Dipeptide transport via ABC system (gly-asp)_c0	DIPEPabc13_c0	(1) ADP[c0] + (1) H+[c0] + (1) Phosphate[c0] + (1) gly-asp-L[c0] => (1) ATP[c0] + (1) H2O[c0] + (1) gly-asp-L[e0]	c0	>	((kb|g.236155.CDS.381 or kb|g.236155.CDS.115 or kb|g.236155.CDS.380) or kb|g.236155.CDS.417 or kb|g.236155.CDS.419)		
+rxn01434_c0	L-Citrulline:L-aspartate ligase (AMP-forming)_c0	ARGSS_c0	(1) AMP[c0] + (1) L-Argininosuccinate[c0] + (1) PPi[c0] <=> (1) ATP[c0] + (1) Citrulline[c0] + (1) L-Aspartate[c0]	c0	=	kb|g.236155.CDS.315		
+rxn00693_c0	5-Methyltetrahydrofolate:L-homocysteine S-methyltransferase_c0	METS_c0	(1) L-Methionine[c0] + (1) Tetrahydrofolate[c0] <=> (1) 5-Methyltetrahydrofolate[c0] + (1) Homocysteine[c0]	c0	=	kb|g.236155.CDS.671		
+rxn08308_c0	CDP-diacylglycerol synthetase (n-C14:1)_c0	DASYN141_c0	(1) CDP-1,2-ditetradec-7-enoylglycerol[c0] + (1) PPi[c0] <=> (1) 1,2-ditetradec-7-enoyl-sn-glycerol 3-phosphate[c0] + (1) CTP[c0]	c0	=	kb|g.236155.CDS.379		
+rxn02213_c0	3-Dehydroquinate hydro-lyase_c0	DHQD_c0	(1) 3-Dehydroshikimate[c0] + (1) H2O[c0] => (1) 5-Dehydroquinate[c0]	c0	>	kb|g.236155.CDS.564		
+rxn08669_c0	Glycerophosphodiester phosphodiesterase (Glycerophosphoglycerol)_c0	GPDDA4_c0	(1) Glycerol[c0] + (1) Glycerol-3-phosphate[c0] => (1) Glycerophosphoglycerol[c0] + (1) H2O[c0]	c0	>	kb|g.236155.CDS.153		
+rxn02200_c0	2-Amino-4-hydroxy-6-hydroxymethyl-7,8-dihydropteridine:4-_c0	DHPSm_c0	(1) Dihydropteroate[c0] + (1) H2O[c0] <=> (1) 6-hydroxymethyl dihydropterin[c0] + (1) ABEE[c0]	c0	=	kb|g.236155.CDS.452		
+rxn03062_c0	3-Isopropylmalate:NAD+ oxidoreductase_c0	IPMD_c0	(1) 2-isopropyl-3-oxosuccinate[c0] + (1) H+[c0] + (1) NADH[c0] <=> (1) 3-Isopropylmalate[c0] + (1) NAD[c0]	c0	=	kb|g.236155.CDS.364		
+rxn00506_c0	Acetaldehyde:NAD+ oxidoreductase_c0	ALDD2x_c0	(1) Acetate[c0] + (2) H+[c0] + (1) NADH[c0] => (1) Acetaldehyde[c0] + (1) H2O[c0] + (1) NAD[c0]	c0	>	(kb|g.236155.CDS.747 or kb|g.236155.CDS.731 or kb|g.236155.CDS.389 or kb|g.236155.CDS.107 or kb|g.236155.CDS.730)		
+rxn01388_c0	isocitrate hydro-lyase_c0	ACONTb_c0	(1) H2O[c0] + (1) cis-Aconitate[c0] <=> (1) Isocitrate[c0]	c0	=	(Unknown and kb|g.236155.CDS.9)		
+rxn10214_c0	isoheptadecanoyl-1-acylglycerol-3-phosphate O-acyltransferase_c0	isoheptadecanoyl-1-acylglycerol-3-phosphate O-acyltransferase_c0	(1) 1,2-diisoheptadecanoyl-sn-glycerol 3-phosphate[c0] + (1) CoA[c0] => (1) 1-isoheptadecanoyl-sn-glycerol 3-phosphate[c0] + (1) fa11coa[c0]	c0	>	(kb|g.236155.CDS.50 or kb|g.236155.CDS.651)		
+rxn01791_c0	(R)-Pantoate:beta-alanine ligase (AMP-forming)_c0	PANTS_c0	(1) AMP[c0] + (1) PAN[c0] + (1) PPi[c0] => (1) ATP[c0] + (1) Pantoate[c0] + (1) beta-Alanine[c0]	c0	>	kb|g.236155.CDS.449		
+rxn00222_c0	1,4-beta-D-Glucan glucohydrolase_c0	BG(CELLB)_c0	(2) D-Glucose[c0] => (1) CELB[c0] + (1) H2O[c0]	c0	>	kb|g.236155.CDS.260		
+rxn03245_c0	(S)-Hydroxydecanoyl-CoA hydro-lyase_c0	ECOAH4_c0	(1) (2E)-Decenoyl-CoA[c0] + (1) H2O[c0] <=> (1) (S)-Hydroxydecanoyl-CoA[c0]	c0	=	(kb|g.236155.CDS.8 or kb|g.236155.CDS.642)		
+rxn00020_c0	beta-D-Glucoside glucohydrolase_c0	rll_74_c0	(2) beta-D-Glucose[c0] => (1) CELB[c0] + (1) H2O[c0]	c0	>	kb|g.236155.CDS.260		
+rxn03446_c0	O-Phospho-4-hydroxy-L-threonine phospho-lyase (adding water)_c0	4HTHRS_c0	(1) 4-Hydroxy-L-threonine[c0] + (1) H+[c0] + (1) Phosphate[c0] => (1) 4-(Phosphonooxy)-threonine[c0] + (1) H2O[c0]	c0	>	kb|g.236155.CDS.82		
+rxn01519_c0	dUTP nucleotidohydrolase_c0	DUTPDP_c0	(1) PPi[c0] + (1) dUMP[c0] => (1) H2O[c0] + (1) dUTP[c0]	c0	>	kb|g.236155.CDS.14		
+rxn10263_c0	anteisopentadecanoyl-CDPdiacylglycerol:sn-glycerol-3-phosphate 3-phosphatidyltransferase_c0	anteisopentadecanoyl-CDPdiacylglycerol:sn-glycerol-3-phosphate 3-phosphatidyltransferase_c0	(1) CMP[c0] + (1) Dianteisopentadecanoylphosphatidylglycerophosphate[c0] <=> (1) CDP-1,2-dianteisopentadecanoylglycerol[c0] + (1) Glycerol-3-phosphate[c0]	c0	=	kb|g.236155.CDS.63		
+rxn12510_c0	ATP:pantothenate 4'-phosphotransferase_c0	PNTK_c0	(1) 4-phosphopantothenate[c0] + (1) ADP[c0] <=> (1) ATP[c0] + (1) PAN[c0]	c0	=	kb|g.236155.CDS.448		
+rxn05176_c0	Thiosulfate-ABC transport_c0	TSULabc_c0	(1) ADP[c0] + (1) H+[c0] + (1) H2S2O3[c0] + (1) Phosphate[c0] => (1) ATP[c0] + (1) H2O[c0] + (1) H2S2O3[e0]	c0	>	kb|g.236155.CDS.394		
+rxn09114_c0	Phosphatidylglycerol synthase (n-C18:1)_c0	PGSA181_c0	(1) CMP[c0] + (1) Phosphatidylglycerophosphate dioctadec-11-enoyl[c0] <=> (1) CDP-1,2-dioctadec-11-enoylglycerol[c0] + (1) Glycerol-3-phosphate[c0]	c0	=	kb|g.236155.CDS.63		
+rxn03435_c0	(R)-2,3-Dihydroxy-3-methylpentanoate:NADP+ oxidoreductase_c0	(isomerizing)_c0	(1) (R)-3-Hydroxy-3-methyl-2-oxopentanoate[c0] + (1) H+[c0] + (1) NADPH[c0] <=> (1) 2,3-Dihydroxy-3-methylvalerate[c0] + (1) NADP[c0]	c0	=	kb|g.236155.CDS.363		
+rxn12845_c0	Gly-Leu aminopeptidase_c0	Gly-Leu aminopeptidase_c0	(1) Glycine[c0] + (1) L-Leucine[c0] <=> (1) Gly-Leu[c0] + (1) H2O[c0]	c0	=	(kb|g.236155.CDS.338 or kb|g.236155.CDS.541)		
+rxn11702_c0	2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylate_c0	synthase_c0	(1) 2-Succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylate[c0] + (1) CO2[c0] => (1) 2-Oxoglutarate[c0] + (1) H+[c0] + (1) Isochorismate[c0]	c0	>	kb|g.236155.CDS.421		
+rxn00832_c0	IMP 1,2-hydrolase (decyclizing)_c0	IMPC_c0	(1) FAICAR[c0] <=> (1) H2O[c0] + (1) IMP[c0]	c0	=	(kb|g.236155.CDS.243 and kb|g.236155.CDS.243)		
+rxn01368_c0	Cytidine aminohydrolase_c0	CYTD_c0	(1) NH3[c0] + (1) Uridine[c0] => (1) Cytidine[c0] + (1) H+[c0] + (1) H2O[c0]	c0	>	kb|g.236155.CDS.255		
+rxn02187_c0	2-Acetolactate methylmutase_c0	2-Acetolactate methylmutase_c0	(1) 2-Oxo-3-hydroxyisovalerate[c0] <=> (1) ALCTT[c0]	c0	=	kb|g.236155.CDS.363		
+rxn05543_c0	Dipeptide transport via ABC system (ala-his)_c0	DIPEPabc5_c0	(1) ADP[c0] + (1) Ala-His[c0] + (1) H+[c0] + (1) Phosphate[c0] => (1) ATP[c0] + (1) Ala-His[e0] + (1) H2O[c0]	c0	>	((kb|g.236155.CDS.381 or kb|g.236155.CDS.115 or kb|g.236155.CDS.380) or kb|g.236155.CDS.417 or kb|g.236155.CDS.419)		
+rxn01127_c0	ATP:AMP phosphotransferase_c0	DADK_c0	(1) ADP[c0] + (1) dADP[c0] <=> (1) ATP[c0] + (1) dAMP[c0]	c0	=	kb|g.236155.CDS.540		
+rxn08309_c0	CDP-diacylglycerol synthetase (n-C16:0)_c0	DASYN160_c0	(1) CDP-1,2-dihexadecanoylglycerol[c0] + (1) PPi[c0] <=> (1) 1,2-dihexadecanoyl-sn-glycerol 3-phosphate[c0] + (1) CTP[c0]	c0	=	kb|g.236155.CDS.379		
+rxn03892_c0	PPTT_c0	PPTT_c0	(1) PPi[c0] + (1) all-trans-Hexaprenyl diphosphate[c0] => (1) Isopentenyldiphosphate[c0] + (1) pendp[c0]	c0	>	kb|g.236155.CDS.198		
+rxn08312_c0	CDP-diacylglycerol synthetase (n-C18:1)_c0	DASYN181_c0	(1) CDP-1,2-dioctadec-11-enoylglycerol[c0] + (1) PPi[c0] <=> (1) 1,2-dioctadec-11-enoyl-sn-glycerol 3-phosphate[c0] + (1) CTP[c0]	c0	=	kb|g.236155.CDS.379		
+rxn12849_c0	Gly-Leu ABC transporters_c0	Gly-Leu ABC transporters_c0	(1) ADP[c0] + (1) Gly-Leu[c0] + (1) Phosphate[c0] => (1) ATP[c0] + (1) Gly-Leu[e0] + (1) H2O[c0]	c0	>	((kb|g.236155.CDS.381 or kb|g.236155.CDS.115 or kb|g.236155.CDS.380) or kb|g.236155.CDS.417 or kb|g.236155.CDS.419)		
+rxn00772_c0	ATP:D-ribose 5-phosphotransferase_c0	RBK_c0	(1) ADP[c0] + (1) ribose-5-phosphate[c0] <=> (1) ATP[c0] + (1) D-Ribose[c0]	c0	=	kb|g.236155.CDS.259		
+rxn02792_c0	(5-Glutamyl)-peptide:amino-acid 5-glutamyltransferase_c0	(5-Glutamyl)-peptide:amino-acid 5-glutamyltransferase_c0	(1) CO2[c0] + (1) H2O[c0] + (1) gamma-Glutamyl-3-aminopropiononitrile[c0] => (1) H+[c0] + (1) L-3-Cyanoalanine[c0] + (1) L-Glutamate[c0]	c0	>	kb|g.236155.CDS.415		
+rxn01000_c0	Prephenate hydro-lyase (decarboxylating)_c0	PPNDH_c0	(1) CO2[c0] + (1) H2O[c0] + (1) Phenylpyruvate[c0] => (1) H+[c0] + (1) Prephenate[c0]	c0	>	kb|g.236155.CDS.154		
+rxn00675_c0	Propinol adenylate:CoA ligase (AMP-forming)_c0	Propinol adenylate:CoA ligase (AMP-forming)_c0	(1) AMP[c0] + (1) Propionyl-CoA[c0] => (1) CoA[c0] + (1) Propionyladenylate[c0]	c0	>	kb|g.236155.CDS.698		
+rxn05533_c0	Dipeptide transport via ABC system (ala-asp)_c0	DIPEPabc1_c0	(1) ADP[c0] + (1) H+[c0] + (1) Phosphate[c0] + (1) ala-L-asp-L[c0] => (1) ATP[c0] + (1) H2O[c0] + (1) ala-L-asp-L[e0]	c0	>	((kb|g.236155.CDS.381 or kb|g.236155.CDS.115 or kb|g.236155.CDS.380) or kb|g.236155.CDS.417 or kb|g.236155.CDS.419)		
+rxn01507_c0	2'-Deoxyadenosine 5'-monophosphate phosphohydrolase_c0	NTD6_c0	(1) Deoxyadenosine[c0] + (1) H+[c0] + (1) Phosphate[c0] => (1) H2O[c0] + (1) dAMP[c0]	c0	>	kb|g.236155.CDS.166		
+rxn10211_c0	palmitoyl-1-acylglycerol-3-phosphate O-acyltransferase_c0	palmitoyl-1-acylglycerol-3-phosphate O-acyltransferase_c0	(1) 1,2-dihexadecanoyl-sn-glycerol 3-phosphate[c0] + (1) CoA[c0] => (1) 1-hexadecanoyl-sn-glycerol 3-phosphate[c0] + (1) Palmitoyl-CoA[c0]	c0	>	(kb|g.236155.CDS.50 or kb|g.236155.CDS.651)		
+rxn12641_c0	aminopeptidase_c0	AMPEP4_c0	(1) Glycine[c0] + (1) L-Alanine[c0] <=> (1) H2O[c0] + (1) L-alanylglycine[c0]	c0	=	(kb|g.236155.CDS.338 or kb|g.236155.CDS.541)		
+rxn10315_c0	isohexadecanoyl-lipoteichoic acid synthesis (n=24), linked, N-acetylglucosamine substituted_c0	isohexadecanoyl-lipoteichoic acid synthesis (n=24), linked, N-acetylglucosamine substituted_c0	(1) Isohexadecanoyllipoteichoic acid (n=24), linked, N-acetyl-D-glucosamine[c0] + (24) UDP[c0] <=> (1) Isohexadecanoyllipoteichoic acid (n=24), linked, unsubstituted[c0] + (24) UDP-N-acetylglucosamine[c0]	c0	=	(kb|g.236155.CDS.580 or kb|g.236155.CDS.90)		
+rxn00239_c0	ATP:(d)GMP phosphotransferase_c0	GK1_c0	(1) ADP[c0] + (1) GDP[c0] <=> (1) ATP[c0] + (1) GMP[c0]	c0	=	kb|g.236155.CDS.552		
+rxn00612_c0	sn-Glycerol-3-phosphate:NADP+ 2-oxidoreductase_c0	G3PD2_c0	(1) Glycerone-phosphate[c0] + (1) H+[c0] + (1) NADPH[c0] <=> (1) Glycerol-3-phosphate[c0] + (1) NADP[c0]	c0	=	kb|g.236155.CDS.49		
+rxn00711_c0	UMP:pyrophosphate phosphoribosyltransferase_c0	UPPRT_c0	(1) PRPP[c0] + (1) Uracil[c0] <= (1) PPi[c0] + (1) UMP[c0]	c0	<	(kb|g.236155.CDS.560 and kb|g.236155.CDS.560)		
+rxn10309_c0	stearoyl-lipoteichoic acid synthesis (n=24), linked, N-acetylglucosamine substituted_c0	stearoyl-lipoteichoic acid synthesis (n=24), linked, N-acetylglucosamine substituted_c0	(1) Stearoyllipoteichoic acid (n=24), linked, N-acetyl-D-glucosamine[c0] + (24) UDP[c0] <=> (1) Stearoyllipoteichoic acid (n=24), linked, unsubstituted[c0] + (24) UDP-N-acetylglucosamine[c0]	c0	=	(kb|g.236155.CDS.580 or kb|g.236155.CDS.90)		
+rxn12633_c0	aminopeptidase_c0	AMPEP1_c0	(1) L-Alanine[c0] + (1) L-Aspartate[c0] <=> (1) H2O[c0] + (1) ala-L-asp-L[c0]	c0	=	(kb|g.236155.CDS.338 or kb|g.236155.CDS.541)		
+rxn04113_c0	isopentenyl-diphosphate:NAD(P)+ oxidoreductase_c0	isopentenyl-diphosphate:NAD(P)+ oxidoreductase_c0	(1) H2O[c0] + (1) Isopentenyldiphosphate[c0] + (1) NADP[c0] => (1) 1-Hydroxy-2-methyl-2-butenyl 4-diphosphate[c0] + (1) H+[c0] + (1) NADPH[c0]	c0	>	kb|g.236155.CDS.752		
+rxn05024_c0	rxn05024_c0	rxn05024_c0	(1) 1,4-Dihydroxy-2-naphthoyl-CoA[c0] + (1) H2O[c0] => (1) H+[c0] + (1) Succinylbenzoyl-CoA[c0]	c0	>	kb|g.236155.CDS.423		
+rxn03174_c0	2-Amino-4-hydroxy-6-(erythro-1,2,3-trihydroxypropyl)_c0	dihydropteridine triphosphate 7,8-8,9-dihydrolase_c0	(1) 2,5-Diamino-6-(5'-triphosphoryl-3',4'-trihydroxy-2'-oxopentyl)- amino-4-oxopyrimidine[c0] <= (1) 7,8-Dihydroneopterin 3'-triphosphate[c0] + (1) H2O[c0]	c0	<	kb|g.236155.CDS.453		
+rxn00763_c0	Glycerol:NAD+ oxidoreductase_c0	ALCD19_c0	(1) D-Glyceraldehyde[c0] + (1) H+[c0] + (1) NADH[c0] <=> (1) Glycerol[c0] + (1) NAD[c0]	c0	=	(kb|g.236155.CDS.188 or kb|g.236155.CDS.390)		
+rxn02831_c0	O-Succinylbenzoate:CoA ligase (AMP-forming)_c0	SUCBZL_c0	(1) AMP[c0] + (1) PPi[c0] + (1) Succinylbenzoyl-CoA[c0] => (1) ATP[c0] + (1) CoA[c0] + (1) H+[c0] + (1) Succinylbenzoate[c0]	c0	>	kb|g.236155.CDS.424		
+rxn01137_c0	Adenosine aminohydrolase_c0	ADA_c0	(1) Inosine[c0] + (1) NH3[c0] => (1) Adenosine[c0] + (1) H+[c0] + (1) H2O[c0]	c0	>	kb|g.236155.CDS.257		
+rxn04996_c0	dimethyallyl diphosphate:NADP+ oxidoreductase_c0	dimethyallyl diphosphate:NADP+ oxidoreductase_c0	(1) 1-Hydroxy-2-methyl-2-butenyl 4-diphosphate[c0] + (1) H+[c0] + (1) NADPH[c0] <= (1) DMAPP[c0] + (1) H2O[c0] + (1) NADP[c0]	c0	<	kb|g.236155.CDS.752		
+rxn02373_c0	L-Glutamate-5-semialdehyde:NADP+ 5-oxidoreductase (phosphorylationg)_c0	G5SD_c0	(1) L-Glutamyl 5-phosphate[c0] + (1) NADPH[c0] <= (1) L-Glutamate5-semialdehyde[c0] + (1) NADP[c0] + (1) Phosphate[c0]	c0	<	kb|g.236155.CDS.356		
+rxn00726_c0	Chorismate pyruvate-lyase (amino-accepting)_c0	ANS2_c0	(1) Anthranilate[c0] + (1) H+[c0] + (1) H2O[c0] + (1) Pyruvate[c0] => (1) Chorismate[c0] + (1) NH3[c0]	c0	>	(kb|g.236155.CDS.150 and Unknown)		
+rxn05287_c0	GGTT_c0	GGTT_c0	(1) PPi[c0] + (1) pendp[c0] => (1) Geranylgeranyl diphosphate[c0] + (1) Isopentenyldiphosphate[c0]	c0	>	kb|g.236155.CDS.198		
+rxn10218_c0	anteisopentadecanoyl-1-acylglycerol-3-phosphate O-acyltransferase_c0	anteisopentadecanoyl-1-acylglycerol-3-phosphate O-acyltransferase_c0	(1) 1,2-dianteisopentadecanoyl-sn-glycerol 3-phosphate[c0] + (1) CoA[c0] => (1) 1-anteisopentadecanoyl-sn-glycerol 3-phosphate[c0] + (1) fa4coa[c0]	c0	>	(kb|g.236155.CDS.50 or kb|g.236155.CDS.651)		
+rxn02911_c0	(S)-3-Hydroxydodecanoyl-CoA hydro-lyase_c0	ECOAH5_c0	(1) (2E)-Dodecenoyl-CoA[c0] + (1) H2O[c0] <=> (1) (S)-3-Hydroxydodecanoyl-CoA[c0]	c0	=	(kb|g.236155.CDS.8 or kb|g.236155.CDS.642)		
+rxn01211_c0	5,10-Methenyltetrahydrofolate 5-hydrolase(decyclizing)_c0	MTHFC_c0	(1) 10-Formyltetrahydrofolate[c0] + (1) H+[c0] <=> (1) 5-10-Methenyltetrahydrofolate[c0] + (1) H2O[c0]	c0	=	(kb|g.236155.CDS.244 and kb|g.236155.CDS.244)		
+rxn00184_c0	L-Glutamate:NADP+ oxidoreductase (deaminating)_c0	GLUDy_c0	(1) 2-Oxoglutarate[c0] + (1) H+[c0] + (1) NADPH[c0] + (1) NH3[c0] <=> (1) H2O[c0] + (1) L-Glutamate[c0] + (1) NADP[c0]	c0	=	kb|g.236155.CDS.168		
+rxn00650_c0	membrane alanyl aminopeptidase_c0	TRIA_c0	(1) Glycine[c0] + (1) L-Cysteine[c0] <=> (1) Cys-Gly[c0] + (1) H2O[c0]	c0	=	(kb|g.236155.CDS.338 or kb|g.236155.CDS.541)		
+rxn00836_c0	IMP:pyrophosphate phosphoribosyltransferase_c0	HXPRT_c0	(1) HYXN[c0] + (1) PRPP[c0] <= (1) IMP[c0] + (1) PPi[c0]	c0	<	kb|g.236155.CDS.455		
+rxn09110_c0	Phosphatidylglycerol synthase (n-C14:1)_c0	PGSA141_c0	(1) CMP[c0] + (1) Phosphatidylglycerophosphate ditetradec-7-enoyl[c0] <=> (1) CDP-1,2-ditetradec-7-enoylglycerol[c0] + (1) Glycerol-3-phosphate[c0]	c0	=	kb|g.236155.CDS.63		
+rxn12646_c0	aminopeptidase_c0	AMPEP9_c0	(1) Glycine[c0] + (1) L-Glutamine[c0] <=> (1) Gly-Gln[c0] + (1) H2O[c0]	c0	=	(kb|g.236155.CDS.338 or kb|g.236155.CDS.541)		
+rxn09296_c0	hydrogen peroxide reductase (thioredoxin)_c0	THDPO_c0	(2) H2O[c0] + (1) trdox[c0] => (1) H2O2[c0] + (1) trdrd[c0]	c0	>	kb|g.236155.CDS.130		
+rxn01255_c0	5-O-(1-Carboxyvinyl)-3-phosphoshikimate phosphate-lyase_c0	CHORS_c0	(1) Chorismate[c0] + (1) H+[c0] + (1) Phosphate[c0] => (1) 5-O--1-Carboxyvinyl-3-phosphoshikimate[c0]	c0	>	kb|g.236155.CDS.567		
+rxn03194_c0	(S)-2-Aceto-2-hydroxybutanoate pyruvate-lyase (carboxylating)_c0	(S)-2-Aceto-2-hydroxybutanoate pyruvate-lyase (carboxylating)_c0	(1) 2-Aceto-2-hydroxybutanoate[c0] + (1) TPP[c0] <=> (1) 2-Hydroxyethyl-ThPP[c0] + (1) 2-Oxobutyrate[c0]	c0	=	(kb|g.236155.CDS.361 and kb|g.236155.CDS.362)		
+rxn01360_c0	(S)-Dihydroorotate:oxygen oxidoreductase_c0	DHORD1_c0	(1) H2O2[c0] + (1) Orotate[c0] => (1) O2[c0] + (1) S-Dihydroorotate[c0]	c0	>	(kb|g.236155.CDS.555 and kb|g.236155.CDS.554)		
+rxn03958_c0	1-Deoxy-D-xylulose-5-phosphate isomeroreductase_c0	DXPRIi_c0	(1) 1-deoxy-D-xylulose5-phosphate[c0] + (1) H+[c0] + (1) NADPH[c0] <=> (1) 2-C-methyl-D-erythritol4-phosphate[c0] + (1) NADP[c0]	c0	=	kb|g.236155.CDS.679		
+rxn10222_c0	isotetradecanoyl-phosphatidate cytidylyltransferase_c0	isotetradecanoyl-phosphatidate cytidylyltransferase_c0	(1) CDP-1,2-diisotetradecanoylglycerol[c0] + (1) PPi[c0] <=> (1) 1,2-diisotetradecanoyl-sn-glycerol 3-phosphate[c0] + (1) CTP[c0]	c0	=	kb|g.236155.CDS.379		
+rxn02400_c0	Nicotinate D-ribonucleotide phosphohydrolase_c0	Nicotinate D-ribonucleotide phosphohydrolase_c0	(1) H+[c0] + (1) Nicotinate D-ribonucleoside[c0] + (1) Phosphate[c0] => (1) H2O[c0] + (1) Nicotinate ribonucleotide[c0]	c0	>	kb|g.236155.CDS.166		
+rxn00758_c0	sn-Glycero-3-phosphocholine glycerophosphohydrolase_c0	GPDDA1_c0	(1) Choline[c0] + (1) Glycerol-3-phosphate[c0] => (1) Glycerophosphocholine[c0] + (1) H2O[c0]	c0	>	kb|g.236155.CDS.153		
+rxn01670_c0	Nicotinamide ribonucleotide phosphohydrolase_c0	NIRP_c0	(1) H+[c0] + (1) N-Ribosylnicotinamide[c0] + (1) Phosphate[c0] => (1) H2O[c0] + (1) Nicotinamide ribonucleotide[c0]	c0	>	kb|g.236155.CDS.166		
+rxn13784_c0	RNA transcription_c0	rxn13784_c0	(1) RNA transcription[c0] => 	c0	>	(Unknown and Unknown and kb|g.236155.CDS.125 and Unknown and Unknown and Unknown and Unknown and kb|g.236155.CDS.28 and kb|g.236155.CDS.511 and Unknown and kb|g.236155.CDS.37 and Unknown and Unknown)		
+rxn01987_c0	Deoxyribokinase_c0	DRBKr_c0	(1) ATP[c0] + (1) Thyminose[c0] <=> (1) ADP[c0] + (1) deoxyribose-5-phosphate[c0]	c0	=	kb|g.236155.CDS.259		
+rxn05540_c0	Dipeptide transport via ABC system (ala-gln)_c0	DIPEPabc2_c0	(1) ADP[c0] + (1) Ala-Gln[c0] + (1) H+[c0] + (1) Phosphate[c0] => (1) ATP[c0] + (1) Ala-Gln[e0] + (1) H2O[c0]	c0	>	((kb|g.236155.CDS.381 or kb|g.236155.CDS.115 or kb|g.236155.CDS.380) or kb|g.236155.CDS.417 or kb|g.236155.CDS.419)		
+rxn00363_c0	Cytidine-5'-monophosphate phosphohydrolase_c0	NTD4_c0	(1) Cytidine[c0] + (1) H+[c0] + (1) Phosphate[c0] => (1) CMP[c0] + (1) H2O[c0]	c0	>	kb|g.236155.CDS.166		
+rxn01629_c0	(S)-4-Amino-5-oxopentanoate 4,5-aminomutase_c0	G1SATi_c0	(1) L-Glutamate1-semialdehyde[c0] <=> (1) 5-Aminolevulinate[c0]	c0	=	kb|g.236155.CDS.169		
+rxn05179_c0	L-Isoleucine-ABC transport_c0	ILEabc_c0	(1) ADP[c0] + (1) H+[c0] + (1) L-Isoleucine[c0] + (1) Phosphate[c0] => (1) ATP[c0] + (1) H2O[c0] + (1) L-Isoleucine[e0]	c0	>	(kb|g.236155.CDS.466 or kb|g.236155.CDS.465 or kb|g.236155.CDS.462)		
+rxn08086_c0	1-hexadecanoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C16:0)_c0	AGPAT160_c0	(1) 1,2-dihexadecanoyl-sn-glycerol 3-phosphate[c0] + (1) ACP[c0] => (1) 1-hexadecanoyl-sn-glycerol 3-phosphate[c0] + (1) Palmitoyl-ACP[c0]	c0	>	(kb|g.236155.CDS.50 or kb|g.236155.CDS.651)		
+rxn01451_c0	(S)-3-Hydroxybutanoyl-CoA:NAD+ oxidoreductase_c0	HACD1_c0	(1) Acetoacetyl-CoA[c0] + (1) H+[c0] + (1) NADH[c0] <=> (1) (S)-3-Hydroxybutyryl-CoA[c0] + (1) NAD[c0]	c0	=	(Unknown and kb|g.236155.CDS.8)		
+rxn10195_c0	Teichoic acid (glucose substituted) export_c0	Teichoic acid (glucose substituted) export_c0	(1) Undecaprenylphosphate[c0] + (1) glycerol teichoic acid (n=45), linked, glucose substituted[c0] <=> (1) Peptidoglycan polymer (n-1 subunits)[c0] + (1) Prenol-45n teichoic acid-glucose substituted[c0]	c0	=	(kb|g.236155.CDS.577 and Unknown)		
+rxn00011_c0	pyruvate:thiamin diphosphate acetaldehydetransferase_c0	(decarboxylating)_c0	(1) H+[c0] + (1) Pyruvate[c0] + (1) TPP[c0] <= (1) 2-Hydroxyethyl-ThPP[c0] + (1) CO2[c0]	c0	<	((kb|g.236155.CDS.361 and kb|g.236155.CDS.362) or kb|g.236155.CDS.113)		
+rxn05466_c0	Ammonia transport via diffusion_c0	NH4t_c0	(1) NH3[c0] <=> (1) NH3[e0]	c0	=	kb|g.236155.CDS.34		
+rxn00927_c0	Adenosine ribohydrolase_c0	PNS1_c0	(1) Adenine[c0] + (1) D-Ribose[c0] <=> (1) Adenosine[c0] + (1) H2O[c0]	c0	=	(kb|g.236155.CDS.729 or kb|g.236155.CDS.484)		
+rxn00708_c0	Uridine 5'-monophosphate phosphohydrolase_c0	NTD2_c0	(1) H+[c0] + (1) Phosphate[c0] + (1) Uridine[c0] => (1) H2O[c0] + (1) UMP[c0]	c0	>	kb|g.236155.CDS.166		
+rxn01513_c0	ATP:dTMP phosphotransferase_c0	DTMPK_c0	(1) ADP[c0] + (1) dTDP[c0] <=> (1) ATP[c0] + (1) dTMP[c0]	c0	=	kb|g.236155.CDS.266		
+rxn01870_c0	D-Fructose 1-phosphate D-glyceraldehyde-3-phosphate-lyase_c0	FBA2_c0	(1) D-Glyceraldehyde[c0] + (1) Glycerone-phosphate[c0] <=> (1) D-fructose-1-phosphate[c0]	c0	=	kb|g.236155.CDS.795		
+rxn01575_c0	L-Isoleucine:2-oxoglutarate aminotransferase_c0	ILETA_c0	(1) 3MOP[c0] + (1) L-Glutamate[c0] <=> (1) 2-Oxoglutarate[c0] + (1) L-Isoleucine[c0]	c0	=	kb|g.236155.CDS.365		
+rxn02342_c0	2-(alpha-Hydroxyethyl)thiamine diphosphate:lipoamide_c0	2-(alpha-Hydroxyethyl)thiamine diphosphate:lipoamide_c0	(1) S-Acetyldihydrolipoamide[c0] + (1) TPP[c0] <=> (1) 2-Hydroxyethyl-ThPP[c0] + (1) Lipoamide[c0]	c0	=	kb|g.236155.CDS.113		
+rxn00973_c0	citrate hydro-lyase_c0	ACONT_c0	(1) Isocitrate[c0] <=> (1) Citrate[c0]	c0	=	(Unknown and Unknown and Unknown and Unknown and kb|g.236155.CDS.9)		
+rxn00642_c0	GDPmannose 4,6-hydro-lyase_c0	GDPMD_c0	(1) GDP-4-dehydro-D-rhamnose[c0] + (1) H2O[c0] => (1) GDP-mannose[c0]	c0	>	kb|g.236155.CDS.280		
+rxn00529_c0	L-Tyrosine carboxy-lyase_c0	L-Tyrosine carboxy-lyase_c0	(1) CO2[c0] + (1) Tyramine[c0] => (1) H+[c0] + (1) L-Tyrosine[c0]	c0	>	kb|g.236155.CDS.718		
+rxn02011_c0	UDP-N-acetylmuramoyl-L-alanyl-D-glutamate:meso-2,6-_c0	UAAGDS_c0	(1) ADP[c0] + (1) H+[c0] + (1) Phosphate[c0] + (1) UDP-N-acetylmuramoyl-L-alanyl-D-gamma-glutamyl-meso-2-6-diaminopimelate[c0] => (1) ATP[c0] + (1) UDP-N-acetylmuramoyl-L-alanyl-D-glutamate[c0] + (1) meso-2,6-Diaminopimelate[c0]	c0	>	kb|g.236155.CDS.176		
+rxn00702_c0	CTP:D-glucose-1-phosphate cytidylyltransferase_c0	CTP:D-glucose-1-phosphate cytidylyltransferase_c0	(1) CDP-glucose[c0] + (1) PPi[c0] <=> (1) CTP[c0] + (1) Glucose-1-phosphate[c0]	c0	=	kb|g.236155.CDS.270		
+rxn02186_c0	2,3-Dihydroxy-3-methylbutanoate:NADP+ oxidoreductase (isomerizing)_c0	KARA1_c0	(1) 2,3-Dihydroxy-isovalerate[c0] + (1) NADP[c0] <=> (1) ALCTT[c0] + (1) H+[c0] + (1) NADPH[c0]	c0	=	kb|g.236155.CDS.363		
+rxn00917_c0	Xanthosine-5'-phosphate:L-glutamine amido-ligase (AMP-forming)_c0	GMPS2_c0	(1) AMP[c0] + (1) GMP[c0] + (1) H+[c0] + (1) L-Glutamate[c0] + (1) PPi[c0] => (1) ATP[c0] + (1) H2O[c0] + (1) L-Glutamine[c0] + (1) XMP[c0]	c0	>	kb|g.236155.CDS.235		
+rxn09113_c0	Phosphatidylglycerol synthase (n-C18:0)_c0	PGSA180_c0	(1) CMP[c0] + (1) Phosphatidylglycerophosphate dioctadecanoyl[c0] <=> (1) CDP-1,2-dioctadecanoylglycerol[c0] + (1) Glycerol-3-phosphate[c0]	c0	=	kb|g.236155.CDS.63		
+rxn01044_c0	D-Xylose ketol-isomerase_c0	XYLI1_c0	(1) D-Lyxulose[c0] <=> (1) Xylose[c0]	c0	=	kb|g.236155.CDS.75		
+rxn12846_c0	Gly-Phe aminopeptidase_c0	Gly-Phe aminopeptidase_c0	(1) Glycine[c0] + (1) L-Phenylalanine[c0] <=> (1) Gly-Phe[c0] + (1) H2O[c0]	c0	=	(kb|g.236155.CDS.338 or kb|g.236155.CDS.541)		
+rxn01218_c0	2'-Deoxycytidine 5'-monophosphate phosphohydrolase_c0	NTD3_c0	(1) Deoxycytidine[c0] + (1) H+[c0] + (1) Phosphate[c0] => (1) H2O[c0] + (1) dCMP[c0]	c0	>	kb|g.236155.CDS.166		
+rxn05161_c0	L-Leucine-ABC transport_c0	LEUabc_c0	(1) ADP[c0] + (1) H+[c0] + (1) L-Leucine[c0] + (1) Phosphate[c0] => (1) ATP[c0] + (1) H2O[c0] + (1) L-Leucine[e0]	c0	>	(kb|g.236155.CDS.466 or kb|g.236155.CDS.465 or kb|g.236155.CDS.462)		
+rxn02789_c0	2-Isopropylmalate hydro-lyase_c0	IPPMIb_c0	(1) 2-Isopropylmaleate[c0] + (1) H2O[c0] <=> (1) 2-Isopropylmalate[c0]	c0	=	(kb|g.236155.CDS.52 or kb|g.236155.CDS.53)		
+rxn10042_c0	ATP synthase (four protons for one ATP)_c0	ATPS4r_c0	(1) ATP[c0] + (3) H+[c0] + (1) H2O[c0] <=> (1) ADP[c0] + (4) H+[e0] + (1) Phosphate[c0]	c0	=	(Unknown and Unknown and Unknown and kb|g.236155.CDS.92 and kb|g.236155.CDS.99 and kb|g.236155.CDS.98 and kb|g.236155.CDS.97 and Unknown and kb|g.236155.CDS.100)		
+rxn01343_c0	ATP:Sedoheptulose 7-phosphate 1-phosphotransferase_c0	PFK_3_c0	(1) ADP[c0] + (1) Sedoheptulose 1,7-bisphosphate[c0] <=> (1) ATP[c0] + (1) Sedoheptulose7-phosphate[c0]	c0	=	kb|g.236155.CDS.211		
+rxn00484_c0	L-Tryptophan decarboxy-lyase_c0	L-Tryptophan decarboxy-lyase_c0	(1) CO2[c0] + (1) Tryptamine[c0] => (1) H+[c0] + (1) L-Tryptophan[c0]	c0	>	kb|g.236155.CDS.718		
+rxn02314_c0	ATP:D-tagatose-6-phosphate 1-phosphotransferase_c0	PFK_2_c0	(1) ADP[c0] + (1) D-Tagatose 1,6-biphosphate[c0] <=> (1) ATP[c0] + (1) D-Tagatose 6-phosphate[c0]	c0	=	kb|g.236155.CDS.211		
+rxn00179_c0	ATP:L-glutamate 5-phosphotransferase_c0	GLU5K_c0	(1) ADP[c0] + (1) L-Glutamyl 5-phosphate[c0] <=> (1) ATP[c0] + (1) H+[c0] + (1) L-Glutamate[c0]	c0	=	kb|g.236155.CDS.354		
+rxn01465_c0	(S)-Dihydroorotate amidohydrolase_c0	DHORTS_c0	(1) H+[c0] + (1) N-Carbamoyl-L-aspartate[c0] <=> (1) H2O[c0] + (1) S-Dihydroorotate[c0]	c0	=	kb|g.236155.CDS.558		
+rxn01299_c0	Inosine ribohydrolase_c0	PNS3_c0	(1) D-Ribose[c0] + (1) HYXN[c0] <=> (1) H2O[c0] + (1) Inosine[c0]	c0	=	(kb|g.236155.CDS.729 or kb|g.236155.CDS.484)		
+rxn09978_c0	beta-glucosidase (methyl-alpha-D-glucoside)_c0	BG(MADG)_c0	(1) D-Glucose[c0] + (1) Methanol[c0] <=> (1) H2O[c0] + (1) alpha-Methyl-D-glucoside[c0]	c0	=	kb|g.236155.CDS.260		
+rxn00223_c0	xylose isomerase_c0	XYLI2_c0	(1) D-Fructose[c0] <=> (1) D-Glucose[c0]	c0	=	kb|g.236155.CDS.75		
+rxn01800_c0	Deoxycytidine aminohydrolase_c0	DCYTD_c0	(1) Deoxyuridine[c0] + (1) NH3[c0] => (1) Deoxycytidine[c0] + (1) H+[c0] + (1) H2O[c0]	c0	>	kb|g.236155.CDS.255		
+rxn10217_c0	isopentadecanoyl-1-acylglycerol-3-phosphate O-acyltransferase_c0	isopentadecanoyl-1-acylglycerol-3-phosphate O-acyltransferase_c0	(1) 1,2-diisopentadecanoyl-sn-glycerol 3-phosphate[c0] + (1) CoA[c0] => (1) 1-isopentadecanoyl-sn-glycerol 3-phosphate[c0] + (1) fa3coa[c0]	c0	>	(kb|g.236155.CDS.50 or kb|g.236155.CDS.651)		
+rxn02167_c0	(S)-3-Hydroxybutanoyl-CoA hydro-lyase_c0	ECOAH1_c0	(1) Crotonyl-CoA[c0] + (1) H2O[c0] <=> (1) (S)-3-Hydroxybutyryl-CoA[c0]	c0	=	(kb|g.236155.CDS.8 or kb|g.236155.CDS.642)		
+rxn03436_c0	(S)-2-Aceto-2-hydroxybutanoate:NADP+ oxidoreductase (isomerizing)_c0	(S)-2-Aceto-2-hydroxybutanoate:NADP+ oxidoreductase (isomerizing)_c0	(1) (R)-3-Hydroxy-3-methyl-2-oxopentanoate[c0] <=> (1) 2-Aceto-2-hydroxybutanoate[c0]	c0	=	kb|g.236155.CDS.363		
+rxn08756_c0	1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate reductase (ipdp)_c0	IPDPS_c0	(1) H2O[c0] + (1) Isopentenyldiphosphate[c0] + (1) NAD[c0] => (1) 1-Hydroxy-2-methyl-2-butenyl 4-diphosphate[c0] + (1) H+[c0] + (1) NADH[c0]	c0	>	kb|g.236155.CDS.752		
+rxn03248_c0	Hexanoyl-CoA:acetyl-CoA C-acyltransferase_c0	ACACT3r_c0	(1) 3-Oxooctanoyl-CoA[c0] + (1) CoA[c0] <=> (1) Acetyl-CoA[c0] + (1) Hexanoyl-CoA[c0]	c0	=	kb|g.236155.CDS.7		
+rxn08307_c0	CDP-diacylglycerol synthetase (n-C14:0)_c0	DASYN140_c0	(1) CDP-1,2-ditetradecanoylglycerol[c0] + (1) PPi[c0] <=> (1) 1,2-ditetradecanoyl-sn-glycerol 3-phosphate[c0] + (1) CTP[c0]	c0	=	kb|g.236155.CDS.379		
+rxn02201_c0	2-Amino-4-hydroxy-6-hydroxymethyl-7,8-dihydropteridine-_c0	DHPS3_c0	(1) Dihydropteroate[c0] + (1) PPi[c0] => (1) 2-Amino-4-hydroxy-6-hydroxymethyl-7-8-dihydropteridinediphosphate[c0] + (1) ABEE[c0]	c0	>	kb|g.236155.CDS.452		
+rxn05555_c0	iron (II) transport via ABC system_c0	FE2abc_c0	(1) ADP[c0] + (1) Fe2+[c0] + (1) H+[c0] + (1) Phosphate[c0] => (1) ATP[c0] + (1) Fe2+[e0] + (1) H2O[c0]	c0	>	Unknown		
+rxn00727_c0	Chorismate pyruvate-lyase (amino-accepting)_c0	ANS_c0	(1) Anthranilate[c0] + (1) H+[c0] + (1) L-Glutamate[c0] + (1) Pyruvate[c0] => (1) Chorismate[c0] + (1) L-Glutamine[c0]	c0	>	(kb|g.236155.CDS.150 and Unknown)		
+rxn03891_c0	trans-hexaprenyltranstransferase_c0	HEXTT_c0	(1) PPi[c0] + (1) all-trans-Heptaprenyl diphosphate[c0] => (1) Isopentenyldiphosphate[c0] + (1) all-trans-Hexaprenyl diphosphate[c0]	c0	>	kb|g.236155.CDS.198		
+rxn01300_c0	ATP:L-homoserine O-phosphotransferase_c0	HSK_c0	(1) ADP[c0] + (1) O-Phospho-L-homoserine[c0] <=> (1) ATP[c0] + (1) L-Homoserine[c0]	c0	=	kb|g.236155.CDS.83		
+rxn00175_c0	Acetate:CoA ligase (AMP-forming)_c0	ACS_c0	(1) AMP[c0] + (1) Acetyl-CoA[c0] + (1) PPi[c0] <=> (1) ATP[c0] + (1) Acetate[c0] + (1) CoA[c0] + (1) H+[c0]	c0	=	kb|g.236155.CDS.698		
+rxn10264_c0	isohexadecanoyl-CDPdiacylglycerol:sn-glycerol-3-phosphate 3-phosphatidyltransferase_c0	isohexadecanoyl-CDPdiacylglycerol:sn-glycerol-3-phosphate 3-phosphatidyltransferase_c0	(1) CMP[c0] + (1) Diisohexadecanoylphosphatidylglycerophosphate[c0] <=> (1) CDP-1,2-diisohexadecanoylglycerol[c0] + (1) Glycerol-3-phosphate[c0]	c0	=	kb|g.236155.CDS.63		
+rxn01146_c0	Thymidine:orthophosphate deoxyribosyltransferase_c0	TMDPP_c0	(1) Thymine[c0] + (1) deoxyribose-1-phosphate[c0] <=> (1) H+[c0] + (1) Phosphate[c0] + (1) Thymidine[c0]	c0	=	kb|g.236155.CDS.256		
+rxn12642_c0	aminopeptidase_c0	AMPEP5_c0	(1) L-Alanine[c0] + (1) L-Histidine[c0] <=> (1) Ala-His[c0] + (1) H2O[c0]	c0	=	(kb|g.236155.CDS.338 or kb|g.236155.CDS.541)		
+rxn00881_c0	myo-Inositol 1-phosphate phosphahydrolase_c0	MI1PP_c0	(1) H+[c0] + (1) L-Inositol[c0] + (1) Phosphate[c0] => (1) H2O[c0] + (1) Inositol 1-phosphate[c0]	c0	>	kb|g.236155.CDS.219		
+rxn00986_c0	Propanoate:CoA ligase (AMP-forming)_c0	Propanoate:CoA ligase (AMP-forming)_c0	(1) PPi[c0] + (1) Propionyladenylate[c0] <= (1) ATP[c0] + (1) H+[c0] + (1) Propionate[c0]	c0	<	kb|g.236155.CDS.698		
+rxn00501_c0	3-Oxopropanoate:NAD+ oxidoreductase (decarboxylating,_c0	MMSAD3_c0	(1) Acetyl-CoA[c0] + (1) CO2[c0] + (1) NADH[c0] <=> (1) 3-Oxopropanoate[c0] + (1) CoA[c0] + (1) NAD[c0]	c0	=	kb|g.236155.CDS.222		
+rxn02504_c0	2-Amino-4-hydroxy-6-(D-erythro-1,2,3-trihydroxypropyl)-7,8-_c0	DHNPA_c0	(1) 6-hydroxymethyl dihydropterin[c0] + (1) Glycolaldehyde[c0] <=> (1) Dihydroneopterin[c0]	c0	=	kb|g.236155.CDS.451		
+rxn10473_c0	chlorideion transport out via diffusion_c0	Clt_c0	(1) Cl-[c0] <=> (1) Cl-[e0]	c0	=	Unknown		
+rxn01226_c0	Guanosine ribohydrolase_c0	GNNUC_c0	(1) D-Ribose[c0] + (1) Guanine[c0] <=> (1) Guanosine[c0] + (1) H2O[c0]	c0	=	(kb|g.236155.CDS.729 or kb|g.236155.CDS.484)		
+rxn05534_c0	Dipeptide transport via ABC system (gly-glu)_c0	DIPEPabc10_c0	(1) ADP[c0] + (1) H+[c0] + (1) Phosphate[c0] + (1) gly-glu-L[c0] => (1) ATP[c0] + (1) H2O[c0] + (1) gly-glu-L[e0]	c0	>	((kb|g.236155.CDS.381 or kb|g.236155.CDS.115 or kb|g.236155.CDS.380) or kb|g.236155.CDS.417 or kb|g.236155.CDS.419)		
+rxn00692_c0	5,10-Methylenetetrahydrofolate:glycine hydroxymethyltransferase_c0	GHMT2r_c0	(1) L-Serine[c0] + (1) Tetrahydrofolate[c0] <=> (1) 5-10-Methylenetetrahydrofolate[c0] + (1) Glycine[c0] + (1) H2O[c0]	c0	=	kb|g.236155.CDS.89		
+rxn09108_c0	Phosphatidylglycerol synthase (n-C12:0)_c0	PGSA120_c0	(1) CMP[c0] + (1) Phosphatidylglycerophosphate didodecanoyl[c0] <=> (1) CDP-1,2-didodecanoylglycerol[c0] + (1) Glycerol-3-phosphate[c0]	c0	=	kb|g.236155.CDS.63		
+rxn03068_c0	(R)-2,3-Dihydroxy-3-methylbutanoate:NADP+ oxidoreductase_c0	(isomerizing)_c0	(1) 2-Oxo-3-hydroxyisovalerate[c0] + (1) H+[c0] + (1) NADPH[c0] <=> (1) 2,3-Dihydroxy-isovalerate[c0] + (1) NADP[c0]	c0	=	kb|g.236155.CDS.363		
+rxn12634_c0	aminopeptidase_c0	MEAMP1(gly-glu)_c0	(1) Glycine[c0] + (1) L-Glutamate[c0] <=> (1) H2O[c0] + (1) gly-glu-L[c0]	c0	=	(kb|g.236155.CDS.338 or kb|g.236155.CDS.541)		
+rxn10261_c0	isotetradecanoyl-CDPdiacylglycerol:sn-glycerol-3-phosphate 3-phosphatidyltransferase_c0	isotetradecanoyl-CDPdiacylglycerol:sn-glycerol-3-phosphate 3-phosphatidyltransferase_c0	(1) CMP[c0] + (1) Diisotetradecanoylphosphatidylglycerophosphate[c0] <=> (1) CDP-1,2-diisotetradecanoylglycerol[c0] + (1) Glycerol-3-phosphate[c0]	c0	=	kb|g.236155.CDS.63		
+rxn00907_c0	5,10-methylenetetrahydrofolate:NADP+ oxidoreductase_c0	MTHFD_c0	(1) 5-10-Methenyltetrahydrofolate[c0] + (1) NADPH[c0] <=> (1) 5-10-Methylenetetrahydrofolate[c0] + (1) NADP[c0]	c0	=	(kb|g.236155.CDS.244 and kb|g.236155.CDS.244)		
+rxn03239_c0	(S)-3-Hydroxyhexadecanoyl-CoA:NAD+ oxidoreductase_c0	HACD7_c0	(1) 3-Oxopalmitoyl-CoA[c0] + (1) H+[c0] + (1) NADH[c0] <=> (1) (S)-3-Hydroxyhexadecanoyl-CoA[c0] + (1) NAD[c0]	c0	=	(Unknown and kb|g.236155.CDS.8)		
+rxn00834_c0	IMP:NAD+ oxidoreductase_c0	IMPD_c0	(1) H+[c0] + (1) NADH[c0] + (1) XMP[c0] <=> (1) H2O[c0] + (1) IMP[c0] + (1) NAD[c0]	c0	=	(kb|g.236155.CDS.233 or kb|g.236155.CDS.234)		
+rxn05293_c0	MECDPDH_c0	MECDPDH_c0	(1) 1-Hydroxy-2-methyl-2-butenyl 4-diphosphate[c0] + (1) H2O[c0] + (1) NAD[c0] => (1) 2-C-methyl-D-erythritol2-4-cyclodiphosphate[c0] + (1) H+[c0] + (1) NADH[c0]	c0	>	kb|g.236155.CDS.677		
+rxn12639_c0	aminopeptidase_c0	AMPEP2_c0	(1) L-Alanine[c0] + (1) L-Glutamine[c0] <=> (1) Ala-Gln[c0] + (1) H2O[c0]	c0	=	(kb|g.236155.CDS.338 or kb|g.236155.CDS.541)		
+rxn01204_c0	4-Aminobutanoate:2-oxoglutarate aminotransferase_c0	ABTA_c0	(1) 4-Oxobutanoate[c0] + (1) L-Glutamate[c0] <=> (1) 2-Oxoglutarate[c0] + (1) GABA[c0]	c0	=	kb|g.236155.CDS.387		
+rxn00350_c0	glutathione hydralase (periplasmic)_c0	GGTAe2_c0	(1) Cys-Gly[c0] + (1) L-Glutamate[c0] <=> (1) GSH[c0] + (1) H2O[c0]	c0	=	kb|g.236155.CDS.415		
+rxn09562_c0	guanylate kinase (GMP:dATP)_c0	GK2_c0	(1) GDP[c0] + (1) dADP[c0] <=> (1) GMP[c0] + (1) dATP[c0]	c0	=	kb|g.236155.CDS.552		
+rxn00313_c0	meso-2,6-Diaminoheptanedioate carboxy-lyase_c0	DAPDC_c0	(1) CO2[c0] + (1) L-Lysine[c0] => (1) H+[c0] + (1) meso-2,6-Diaminopimelate[c0]	c0	>	kb|g.236155.CDS.80		
+rxn02791_c0	(5-Glutamyl)-peptide:amino-acid 5-glutamyltransferase_c0	(5-Glutamyl)-peptide:amino-acid 5-glutamyltransferase_c0	(1) H2O[c0] + (1) gamma-Glutamyl-beta-cyanoalanine[c0] <=> (1) L-3-Cyanoalanine[c0] + (1) L-Glutamate[c0]	c0	=	kb|g.236155.CDS.415		
+rxn00676_c0	Propanoyl-CoA:acetyl-CoA C-acyltransferase_c0	ACACT10rr_c0	(1) 2-Methylacetoacetyl-CoA[c0] + (1) CoA[c0] <=> (1) Acetyl-CoA[c0] + (1) Propionyl-CoA[c0]	c0	=	kb|g.236155.CDS.7		
+rxn03246_c0	(S)-Hydroxyoctanoyl-CoA:NAD+ oxidoreductase_c0	HACD3_c0	(1) 3-Oxooctanoyl-CoA[c0] + (1) H+[c0] + (1) NADH[c0] <=> (1) (S)-Hydroxyoctanoyl-CoA[c0] + (1) NAD[c0]	c0	=	(Unknown and kb|g.236155.CDS.8)		
+rxn03242_c0	(S)-3-Hydroxydodecanoyl-CoA:NAD+ oxidoreductase_c0	HACD5_c0	(1) 3-Oxododecanoyl-CoA[c0] + (1) H+[c0] + (1) NADH[c0] <=> (1) (S)-3-Hydroxydodecanoyl-CoA[c0] + (1) NAD[c0]	c0	=	(Unknown and kb|g.236155.CDS.8)		
+rxn10223_c0	isopentadecanoyl-phosphatidate cytidylyltransferase_c0	isopentadecanoyl-phosphatidate cytidylyltransferase_c0	(1) CDP-1,2-diisopentadecanoylglycerol[c0] + (1) PPi[c0] <=> (1) 1,2-diisopentadecanoyl-sn-glycerol 3-phosphate[c0] + (1) CTP[c0]	c0	=	kb|g.236155.CDS.379		
+rxn01459_c0	4-Aminobutyraldehyde:NAD+ oxidoreductase_c0	4-Aminobutyraldehyde:NAD+ oxidoreductase_c0	(1) GABA[c0] + (2) H+[c0] + (1) NADPH[c0] => (1) 4-Aminobutanal[c0] + (1) H2O[c0] + (1) NADP[c0]	c0	>	(kb|g.236155.CDS.747 or kb|g.236155.CDS.731 or kb|g.236155.CDS.389 or kb|g.236155.CDS.107 or kb|g.236155.CDS.730)		
+rxn00256_c0	Citrate oxaloacetate-lyase ((pro-3S)-CH2COO- -> acetyl-CoA)_c0	CS_c0	(1) Acetyl-CoA[c0] + (1) H2O[c0] + (1) Oxaloacetate[c0] <= (1) Citrate[c0] + (1) CoA[c0] + (1) H+[c0]	c0	<	kb|g.236155.CDS.773		
+rxn02503_c0	ATP:2-amino-4-hydroxy-6-hydroxymethyl-7,8-dihydropteridine_c0	HPPK_c0	(1) 2-Amino-4-hydroxy-6-hydroxymethyl-7-8-dihydropteridinediphosphate[c0] + (1) AMP[c0] <=> (1) 6-hydroxymethyl dihydropterin[c0] + (1) ATP[c0]	c0	=	kb|g.236155.CDS.450		
+rxn00285_c0	Succinate:CoA ligase (ADP-forming)_c0	SUCOAS_c0	(1) ADP[c0] + (1) Phosphate[c0] + (1) Succinyl-CoA[c0] <=> (1) ATP[c0] + (1) CoA[c0] + (1) Succinate[c0]	c0	=	(kb|g.236155.CDS.239 and kb|g.236155.CDS.240)		
+rxn00547_c0	ATP:D-fructose 6-phosphotransferase_c0	FRUK_c0	(1) ADP[c0] + (1) D-fructose-6-phosphate[c0] <=> (1) ATP[c0] + (1) D-Fructose[c0]	c0	=	kb|g.236155.CDS.593		
+rxn10307_c0	palmitoyl-lipoteichoic acid synthesis (n=24), linked, N-acetylglucosamine substituted_c0	palmitoyl-lipoteichoic acid synthesis (n=24), linked, N-acetylglucosamine substituted_c0	(1) Palmitoyllipoteichoic acid (n=24), linked, N-acetyl-D-glucosamine[c0] + (24) UDP[c0] <=> (1) Palmitoyllipoteichoic acid (n=24), linked, unsubstituted[c0] + (24) UDP-N-acetylglucosamine[c0]	c0	=	(kb|g.236155.CDS.580 or kb|g.236155.CDS.90)		
+rxn01334_c0	Sedoheptulose 1,7-bisphosphate D-glyceraldehyde-3-phosphate-lyase_c0	FBA3_c0	(1) D-Erythrose4-phosphate[c0] + (1) Glycerone-phosphate[c0] <=> (1) Sedoheptulose 1,7-bisphosphate[c0]	c0	=	kb|g.236155.CDS.795		
+rxn08087_c0	1-hexadec-7-enoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C16:1)_c0	AGPAT161_c0	(1) 1,2-dihexadec-9-enoyl-sn-glycerol 3-phosphate[c0] + (1) ACP[c0] => (1) 1-hexadec-9-enoyl-sn-glycerol 3-phosphate[c0] + (1) Hexadecenoyl-ACP[c0]	c0	>	(kb|g.236155.CDS.50 or kb|g.236155.CDS.651)		
+rxn00192_c0	Acetyl-CoA:L-glutamate N-acetyltransferase_c0	ACGS_c0	(1) CoA[c0] + (1) H+[c0] + (1) N-Acetyl-L-glutamate[c0] => (1) Acetyl-CoA[c0] + (1) L-Glutamate[c0]	c0	>	kb|g.236155.CDS.446		
+rxn00611_c0	sn-Glycerol-3-phosphate:NAD+ 2-oxidoreductase_c0	G3PD1_c0	(1) Glycerone-phosphate[c0] + (1) H+[c0] + (1) NADH[c0] <=> (1) Glycerol-3-phosphate[c0] + (1) NAD[c0]	c0	=	kb|g.236155.CDS.49		
+rxn00182_c0	L-Glutamate:NAD+ oxidoreductase (deaminating)_c0	GLUDxi_c0	(1) 2-Oxoglutarate[c0] + (1) H+[c0] + (1) NADH[c0] + (1) NH3[c0] <=> (1) H2O[c0] + (1) L-Glutamate[c0] + (1) NAD[c0]	c0	=	kb|g.236155.CDS.168		
+rxn02832_c0	O-succinylbenzoate-CoA synthase_c0	SUCBZS_c0	(1) SHCHC[c0] <= (1) H2O[c0] + (1) Succinylbenzoate[c0]	c0	<	kb|g.236155.CDS.422		
+rxn00543_c0	Ethanol:NAD+ oxidoreductase_c0	ALCD2x_c0	(1) Acetaldehyde[c0] + (1) H+[c0] + (1) NADH[c0] <=> (1) Ethanol[c0] + (1) NAD[c0]	c0	=	(kb|g.236155.CDS.188 or kb|g.236155.CDS.390)		
+rxn10052_c0	adenylate kinase (Inorganic triphosphate)_c0	ADK2_c0	(1) ADP[c0] + (1) PPi[c0] <=> (1) AMP[c0] + (1) H+[c0] + (1) Triphosphate[c0]	c0	=	kb|g.236155.CDS.540		
+rxn01521_c0	5'-nucleotidase (dUMP)_c0	NTD1_c0	(1) Deoxyuridine[c0] + (1) H+[c0] + (1) Phosphate[c0] => (1) H2O[c0] + (1) dUMP[c0]	c0	>	kb|g.236155.CDS.166		
+rxn00097_c0	ATP:AMP phosphotransferase_c0	ADK1_c0	(2) ADP[c0] <=> (1) AMP[c0] + (1) ATP[c0]	c0	=	kb|g.236155.CDS.540		
+rxn00126_c0	ATP:L-methione S-adenosyltransferase_c0	METAT_c0	(1) PPi[c0] + (1) Phosphate[c0] + (1) S-Adenosyl-L-methionine[c0] => (1) ATP[c0] + (1) H2O[c0] + (1) L-Methionine[c0]	c0	>	kb|g.236155.CDS.728		
+rxn00414_c0	Carbon-dioxide:L-glutamine amido-ligase (ADP-forming,_c0	CBPS_c0	(2) ADP[c0] + (1) Carbamoylphosphate[c0] + (1) H+[c0] + (1) L-Glutamate[c0] + (1) Phosphate[c0] => (2) ATP[c0] + (1) H2CO3[c0] + (1) H2O[c0] + (1) L-Glutamine[c0]	c0	>	(kb|g.236155.CDS.557 and kb|g.236155.CDS.556)		
+rxn05547_c0	Dipeptide transport via ABC system (gly-gln)_c0	DIPEPabc9_c0	(1) ADP[c0] + (1) Gly-Gln[c0] + (1) H+[c0] + (1) Phosphate[c0] => (1) ATP[c0] + (1) Gly-Gln[e0] + (1) H2O[c0]	c0	>	((kb|g.236155.CDS.381 or kb|g.236155.CDS.115 or kb|g.236155.CDS.380) or kb|g.236155.CDS.417 or kb|g.236155.CDS.419)		
+rxn06937_c0	L-Glutamate:tRNA(Glu) ligase (AMP-forming)_c0	GLUTRS_c0	(1) AMP[c0] + (1) L-Glutamyl-tRNA-Glu[c0] + (1) PPi[c0] => (1) ATP[c0] + (1) H+[c0] + (1) L-Glutamate[c0] + (1) tRNA-Glu[c0]	c0	>	kb|g.236155.CDS.668		
+rxn10312_c0	isotetradecanoyl-lipoteichoic acid synthesis (n=24), linked, N-acetylglucosamine substituted_c0	isotetradecanoyl-lipoteichoic acid synthesis (n=24), linked, N-acetylglucosamine substituted_c0	(1) Isotetradecanoyllipoteichoic acid (n=24), linked, N-acetyl-D-glucosamine[c0] + (24) UDP[c0] <=> (1) Isotetradecanoyllipoteichoic acid (n=24), linked, unsubstituted[c0] + (24) UDP-N-acetylglucosamine[c0]	c0	=	(kb|g.236155.CDS.580 or kb|g.236155.CDS.90)		
+rxn05546_c0	Dipeptide transport via ABC system (gly-asn)_c0	DIPEPabc8_c0	(1) ADP[c0] + (1) H+[c0] + (1) Phosphate[c0] + (1) gly-asn-L[c0] => (1) ATP[c0] + (1) H2O[c0] + (1) gly-asn-L[e0]	c0	>	((kb|g.236155.CDS.381 or kb|g.236155.CDS.115 or kb|g.236155.CDS.380) or kb|g.236155.CDS.417 or kb|g.236155.CDS.419)		
+rxn00740_c0	O-Succinyl-L-homoserine succinate-lyase (adding cysteine)_c0	SHSL4_c0	(1) 2-Oxobutyrate[c0] + (1) H+[c0] + (1) NH3[c0] + (1) Succinate[c0] => (1) H2O[c0] + (1) O-Succinyl-L-homoserine[c0]	c0	>	kb|g.236155.CDS.305		
+rxn02938_c0	1-(5-Phospho-D-ribosyl)-5-amino-4-imidazolecarboxylate carboxy-lyase_c0	AIRCr_c0	(1) AIR[c0] + (1) CO2[c0] => (1) 5'-Phosphoribosyl-4-carboxy-5-aminoimidazole[c0] + (1) H+[c0]	c0	>	(kb|g.236155.CDS.758 or kb|g.236155.CDS.757)		
+rxn05527_c0	cytosine transport in via proton symport_c0	CSNt2_c0	(1) Cytosine[c0] + (1) H+[c0] <=> (1) Cytosine[e0] + (1) H+[e0]	c0	=	kb|g.236155.CDS.645		
+rxn00931_c0	L-Proline:NADP+ 5-oxidoreductase_c0	P5CR_c0	(1) 1-Pyrroline-5-carboxylate[c0] + (1) H+[c0] + (1) NADPH[c0] <=> (1) L-Proline[c0] + (1) NADP[c0]	c0	=	kb|g.236155.CDS.439		
+rxn03904_c0	UDPMurAc(oyl-L-Ala-D-gamma-Glu-L-Lys-D-Ala-D-Ala):undecaprenyl-_c0	PAPPT3_c0	(1) UMP[c0] + (1) Undecaprenyl-diphospho-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2-6-diaminopimeloyl-D-alanyl-D-alanine[c0] <=> (1) UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-6-carboxy-L-lysyl-D-alanyl- D-alanine[c0] + (1) Undecaprenylphosphate[c0]	c0	=	kb|g.236155.CDS.174		
+rxn08335_c0	dihydoorotic acid dehydrogenase (quinone8)_c0	DHORD2_c0	(1) Orotate[c0] + (1) Ubiquinol-8[c0] => (1) S-Dihydroorotate[c0] + (1) Ubiquinone-8[c0]	c0	>	(kb|g.236155.CDS.555 and kb|g.236155.CDS.554)		
+rxn05957_c0	O-Succinyl-L-homoserine succinate-lyase (adding cysteine)_c0	SHSL2_c0	(1) H+[c0] + (1) Homocysteine[c0] + (1) Succinate[c0] => (1) H2S[c0] + (1) O-Succinyl-L-homoserine[c0]	c0	>	kb|g.236155.CDS.73		
+rxn01257_c0	chorismate:L-glutamine aminotransferase_c0	ADCS_c0	(1) ADC[c0] + (1) L-Glutamate[c0] <=> (1) Chorismate[c0] + (1) L-Glutamine[c0]	c0	=	(kb|g.236155.CDS.150 or kb|g.236155.CDS.150)		
+rxn12847_c0	Gly-Try aminopeptidase_c0	Gly-Try aminopeptidase_c0	(1) Glycine[c0] + (1) L-Tyrosine[c0] <=> (1) Gly-Tyr[c0] + (1) H2O[c0]	c0	=	(kb|g.236155.CDS.338 or kb|g.236155.CDS.541)		
+rxn03250_c0	(S)-Hydroxyhexanoyl-CoA hydro-lyase_c0	ECOAH2_c0	(1) (2E)-Hexenoyl-CoA[c0] + (1) H2O[c0] <=> (1) (S)-Hydroxyhexanoyl-CoA[c0]	c0	=	(kb|g.236155.CDS.8 or kb|g.236155.CDS.642)		
+rxn00083_c0	NADPH:NAD+ oxidoreductase (B-specific)_c0	THD5_c0	(1) NADH[c0] + (1) NADP[c0] <=> (1) NAD[c0] + (1) NADPH[c0]	c0	=	((kb|g.236155.CDS.631 or kb|g.236155.CDS.632) or kb|g.236155.CDS.630)		
+rxn09112_c0	Phosphatidylglycerol synthase (n-C16:1)_c0	PGSA161_c0	(1) CMP[c0] + (1) Phosphatidylglycerophosphate dihexadec-9-enoyl[c0] <=> (1) CDP-1,2-dihexadec-9-enoylglycerol[c0] + (1) Glycerol-3-phosphate[c0]	c0	=	kb|g.236155.CDS.63		
+rxn00903_c0	L-Valine:2-oxoglutarate aminotransferase_c0	VALTA_c0	(1) 3-Methyl-2-oxobutanoate[c0] + (1) L-Glutamate[c0] <=> (1) 2-Oxoglutarate[c0] + (1) L-Valine[c0]	c0	=	kb|g.236155.CDS.365		
+rxn08088_c0	1-octadecanoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C18:0)_c0	AGPAT180_c0	(1) 1,2-dioctadecanoyl-sn-glycerol 3-phosphate[c0] + (1) ACP[c0] => (1) 1-octadecanoyl-sn-glycerol 3-phosphate[c0] + (1) Octadecanoyl-ACP[c0]	c0	>	(kb|g.236155.CDS.50 or kb|g.236155.CDS.651)		
+rxn10310_c0	isoheptadecanoyl-lipoteichoic acid synthesis (n=24), linked, N-acetylglucosamine substituted_c0	isoheptadecanoyl-lipoteichoic acid synthesis (n=24), linked, N-acetylglucosamine substituted_c0	(1) Isoheptadecanoyllipoteichoic acid (n=24), linked, N-acetyl-D-glucosamine[c0] + (24) UDP[c0] <=> (1) Isoheptadecanoyllipoteichoic acid (n=24), linked, unsubstituted[c0] + (24) UDP-N-acetylglucosamine[c0]	c0	=	(kb|g.236155.CDS.580 or kb|g.236155.CDS.90)		
+rxn00141_c0	S-Adenosyl-L-homocysteine hydrolase_c0	AHC_c0	(1) Adenosine[c0] + (1) Homocysteine[c0] <=> (1) H2O[c0] + (1) S-Adenosyl-homocysteine[c0]	c0	=	kb|g.236155.CDS.762		
+rxn05651_c0	sulfate transport in via proton symport_c0	SO4t2_c0	(1) H+[c0] + (1) Sulfate[c0] <=> (1) H+[e0] + (1) Sulfate[e0]	c0	=	Unknown		
+rxn00337_c0	ATP:L-aspartate 4-phosphotransferase_c0	ASPK_c0	(1) 4-Phospho-L-aspartate[c0] + (1) ADP[c0] <=> (1) ATP[c0] + (1) H+[c0] + (1) L-Aspartate[c0]	c0	=	kb|g.236155.CDS.706		
+rxn01445_c0	2'-Deoxyguanosine 5'-monophosphate phosphohydrolase_c0	NTD8_c0	(1) Deoxyguanosine[c0] + (1) H+[c0] + (1) Phosphate[c0] => (1) H2O[c0] + (1) dGMP[c0]	c0	>	kb|g.236155.CDS.166		
+rxn02945_c0	prephytoene diphosphate:geranylgeranyl-diphosphate_c0	geranylgeranyltransferase_c0	(1) 15-cis-Phytoene[c0] + (1) PPi[c0] => (1) Prephytoene diphosphate[c0]	c0	>	kb|g.236155.CDS.200		
+rxn00777_c0	D-Ribose-5-phosphate ketol-isomerase_c0	RPI_c0	(1) D-Ribulose5-phosphate[c0] <=> (1) ribose-5-phosphate[c0]	c0	=	kb|g.236155.CDS.715		
+rxn01466_c0	Geranyl-diphosphate:isopentenyl-diphosphate geranyltrans-transferase_c0	GRTT_c0	(1) Farnesyldiphosphate[c0] + (1) PPi[c0] => (1) Geranyldiphosphate[c0] + (1) Isopentenyldiphosphate[c0]	c0	>	(kb|g.236155.CDS.198 and kb|g.236155.CDS.198 and Unknown and kb|g.236155.CDS.198)		
+rxn02185_c0	2-Acetolactate pyruvate-lyase (carboxylating)_c0	2-Acetolactate pyruvate-lyase (carboxylating)_c0	(1) 2-Hydroxyethyl-ThPP[c0] + (1) Pyruvate[c0] <=> (1) ALCTT[c0] + (1) TPP[c0]	c0	=	(kb|g.236155.CDS.361 and kb|g.236155.CDS.362)		
+rxn03406_c0	Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-_c0	GLNSP1_c0	(1) ADP[c0] + (1) H+[c0] + (1) Phosphate[c0] + (1) Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-alanyl-D-glutaminyl-L-lysyl-D-alanyl-D-alanine[c0] => (1) ATP[c0] + (1) NH3[c0] + (1) Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-alanyl-D-glutamyl-L-lysyl-D-alanyl-D-alanine[c0]	c0	>	kb|g.236155.CDS.647		
+rxn01816_c0	O-Succinyl-L-homoserine succinate-lyase (adding cysteine)_c0	SHSL1_c0	(1) L-Cysteine[c0] + (1) O-Succinyl-L-homoserine[c0] <=> (1) Cystathionine[c0] + (1) Succinate[c0]	c0	=	kb|g.236155.CDS.305		
+rxn02804_c0	myristoyl-CoA:acetylCoA C-myristoyltransferase_c0	ACACT7r_c0	(1) 3-Oxopalmitoyl-CoA[c0] + (1) CoA[c0] <=> (1) Acetyl-CoA[c0] + (1) Myristoyl-CoA[c0]	c0	=	kb|g.236155.CDS.7		
+rxn05542_c0	Dipeptide transport via ABC system (ala-gly)_c0	DIPEPabc4_c0	(1) ADP[c0] + (1) H+[c0] + (1) L-alanylglycine[c0] + (1) Phosphate[c0] => (1) ATP[c0] + (1) H2O[c0] + (1) L-alanylglycine[e0]	c0	>	((kb|g.236155.CDS.381 or kb|g.236155.CDS.115 or kb|g.236155.CDS.380) or kb|g.236155.CDS.417 or kb|g.236155.CDS.419)		
+rxn01480_c0	3-Hydroxy-2-methylpropanoate:NAD+ oxidoreductase_c0	HIBD_c0	(1) 3-Oxo-2-methylpropanoate[c0] + (1) H+[c0] + (1) NADH[c0] <=> (1) 3-Hydroxyisobutyrate[c0] + (1) NAD[c0]	c0	=	kb|g.236155.CDS.8		
+rxn10194_c0	Teichoic acid (unsubstituted) export_c0	Teichoic acid (unsubstituted) export_c0	(1) Undecaprenylphosphate[c0] + (1) glycerol teichoic acid (n=45), linked, unsubstituted[c0] <=> (1) Peptidoglycan polymer (n-1 subunits)[c0] + (1) Prenol-45n teichoic acid[c0]	c0	=	(kb|g.236155.CDS.577 and Unknown)		
+rxn00974_c0	citrate hydro-lyase_c0	ACONTa_c0	(1) H2O[c0] + (1) cis-Aconitate[c0] <=> (1) Citrate[c0]	c0	=	(Unknown and kb|g.236155.CDS.9)		
+rxn03004_c0	10-Formyltetrahydrofolate:5'-phosphoribosylglycinamide_c0	GARFTi_c0	(1) H+[c0] + (1) N-Formyl-GAR[c0] + (1) Tetrahydrofolate[c0] <=> (1) 10-Formyltetrahydrofolate[c0] + (1) GAR[c0]	c0	=	kb|g.236155.CDS.242		
+rxn09657_c0	Thiamine transport in via proton symport_c0	THM2t2_c0	(1) H+[c0] + (1) Thiamin[c0] <=> (1) H+[e0] + (1) Thiamin[e0]	c0	=	kb|g.236155.CDS.645		
+rxn05735_c0	aldehyde dehydrogenase (aminoacetaldehyde, NAD)_c0	ALDD31_c0	(1) Glycine[c0] + (2) H+[c0] + (1) NADH[c0] => (1) Aminoacetaldehyde[c0] + (1) H2O[c0] + (1) NAD[c0]	c0	>	(kb|g.236155.CDS.747 or kb|g.236155.CDS.731 or kb|g.236155.CDS.389 or kb|g.236155.CDS.107 or kb|g.236155.CDS.730)		
+rxn12638_c0	aminopeptidase_c0	AMPEP14_c0	(1) Glycine[c0] + (1) H+[c0] + (1) L-Proline[c0] => (1) H2O[c0] + (1) gly-pro-L[c0]	c0	>	(kb|g.236155.CDS.338 or kb|g.236155.CDS.541)		
+rxn12643_c0	aminopeptidase_c0	AMPEP6_c0	(1) L-Alanine[c0] + (1) L-Leucine[c0] => (1) Ala-Leu[c0] + (1) H2O[c0]	c0	>	(kb|g.236155.CDS.338 or kb|g.236155.CDS.541)		
+rxn09979_c0	beta-glucosidase_c0	BG(MBDG)_c0	(1) D-Glucose[c0] + (1) Methanol[c0] <=> (1) H2O[c0] + (1) beta-Methylglucoside[c0]	c0	=	kb|g.236155.CDS.260		
+rxn03903_c0	UDPMurAc(oyl-L-Ala-D-gamma-Glu-L-Lys-D-Ala-D-Ala):undecaprenyl-_c0	PAPPT2_c0	(1) MurAc(oyl-L-Ala-D-gamma-Glu-L-Lys-D-Ala-D-Ala)-diphospho- undecaprenol[c0] + (1) UMP[c0] <=> (1) UDPMurAc(oyl-L-Ala-D-gamma-Glu-L-Lys-D-Ala-D-Ala)[c0] + (1) Undecaprenylphosphate[c0]	c0	=	kb|g.236155.CDS.174		
+rxn01750_c0	CDPglucose 4,6-hydro-lyase_c0	CDPglucose 4,6-hydro-lyase_c0	(1) CDP-4-dehydro-6-deoxy-D-glucose[c0] + (1) H2O[c0] => (1) CDP-glucose[c0]	c0	>	kb|g.236155.CDS.276		
+rxn08352_c0	1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate reductase (dmpp)_c0	DMPPS_c0	(1) DMAPP[c0] + (1) H2O[c0] + (1) NAD[c0] => (1) 1-Hydroxy-2-methyl-2-butenyl 4-diphosphate[c0] + (1) H+[c0] + (1) NADH[c0]	c0	>	kb|g.236155.CDS.752		
+rxn05209_c0	Proton sodium antiport_c0	NAt7_c0	(1) H+[e0] + (1) Na+[c0] <=> (1) H+[c0] + (1) Na+[e0]	c0	=	kb|g.236155.CDS.646		
+rxn08306_c0	CDP-diacylglycerol synthetase (n-C12:0)_c0	DASYN120_c0	(1) CDP-1,2-didodecanoylglycerol[c0] + (1) PPi[c0] <=> (1) 1,2-didodecanoyl-sn-glycerol 3-phosphate[c0] + (1) CTP[c0]	c0	=	kb|g.236155.CDS.379		
+rxn05535_c0	Dipeptide transport via ABC system (gly-met)_c0	DIPEPabc11_c0	(1) ADP[c0] + (1) Gly-Met[c0] + (1) H+[c0] + (1) Phosphate[c0] => (1) ATP[c0] + (1) Gly-Met[e0] + (1) H2O[c0]	c0	>	((kb|g.236155.CDS.381 or kb|g.236155.CDS.115 or kb|g.236155.CDS.380) or kb|g.236155.CDS.417 or kb|g.236155.CDS.419)		
+rxn03031_c0	Succinyl-CoA:2,3,4,5-tetrahydropyridine-2,6-dicarboxylate_c0	THDPS_c0	(1) CoA[c0] + (1) N-Succinyl-L-2-amino-6-oxopimelate[c0] <= (1) H2O[c0] + (1) Succinyl-CoA[c0] + (1) tetrahydrodipicolinate[c0]	c0	<	kb|g.236155.CDS.763		
+rxn00913_c0	Guanosine 5'-monophosphate phosphohydrolase_c0	NTD9_c0	(1) Guanosine[c0] + (1) H+[c0] + (1) Phosphate[c0] => (1) GMP[c0] + (1) H2O[c0]	c0	>	kb|g.236155.CDS.166		
+rxn00874_c0	Acetyl-CoA:acetyl-CoA C-acetyltransferase_c0	ACACT2r_c0	(1) 3-Oxohexanoyl-CoA[c0] + (1) CoA[c0] <=> (1) Acetyl-CoA[c0] + (1) Butyryl-CoA[c0]	c0	=	kb|g.236155.CDS.7		
+rxn05197_c0	Uracil ion-coupled transport_c0	URAt6_c0	(1) H+[c0] + (1) Uracil[c0] <=> (1) H+[e0] + (1) Uracil[e0]	c0	=	kb|g.236155.CDS.645		
+rxn08085_c0	1-tetradec-7-enoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C14:1)_c0	AGPAT141_c0	(1) 1,2-ditetradec-7-enoyl-sn-glycerol 3-phosphate[c0] + (1) ACP[c0] => (1) 1-tetradec-7-enoyl-sn-glycerol 3-phosphate[c0] + (1) Tetradecenoyl-ACP[c0]	c0	>	(kb|g.236155.CDS.50 or kb|g.236155.CDS.651)		
+rxn09109_c0	Phosphatidylglycerol synthase (n-C14:0)_c0	PGSA140_c0	(1) CMP[c0] + (1) Phosphatidylglycerophosphate ditetradecanoyl[c0] <=> (1) CDP-1,2-ditetradecanoylglycerol[c0] + (1) Glycerol-3-phosphate[c0]	c0	=	kb|g.236155.CDS.63		
+rxn00022_c0	alpha-D-Glucoside glucohydrolase_c0	MALT_c0	(2) D-Glucose[c0] => (1) H2O[c0] + (1) Maltose[c0]	c0	>	(kb|g.236155.CDS.309 or kb|g.236155.CDS.332)		
+rxn05289_c0	TRDR_c0	TRDR_c0	(1) NADP[c0] + (1) trdrd[c0] <=> (1) H+[c0] + (1) NADPH[c0] + (1) trdox[c0]	c0	=	kb|g.236155.CDS.129		
+rxn03249_c0	(S)-Hydroxyhexanoyl-CoA:NAD+ oxidoreductase_c0	HACD2_c0	(1) 3-Oxohexanoyl-CoA[c0] + (1) H+[c0] + (1) NADH[c0] <=> (1) (S)-Hydroxyhexanoyl-CoA[c0] + (1) NAD[c0]	c0	=	(Unknown and kb|g.236155.CDS.8)		
+rxn01851_c0	4-aminobutanal:NAD+ 1-oxidoreductase_c0	ABUTD_c0	(1) GABA[c0] + (2) H+[c0] + (1) NADH[c0] => (1) 4-Aminobutanal[c0] + (1) H2O[c0] + (1) NAD[c0]	c0	>	(kb|g.236155.CDS.377 or (kb|g.236155.CDS.747 or kb|g.236155.CDS.731 or kb|g.236155.CDS.389 or kb|g.236155.CDS.107 or kb|g.236155.CDS.730))		
+rxn03421_c0	GTP 7,8-8,9-dihydrolase_c0	GTP 7,8-8,9-dihydrolase_c0	(1) 2,5-Diamino-6-(5'-triphosphoryl-3',4'-trihydroxy-2'-oxopentyl)- amino-4-oxopyrimidine[c0] <=> (1) 2,5-Diaminopyrimidine nucleoside triphosphate[c0]	c0	=	kb|g.236155.CDS.453		
+rxn12635_c0	aminopeptidase_c0	AMPEP11_c0	(1) Glycine[c0] + (1) L-Methionine[c0] <=> (1) Gly-Met[c0] + (1) H2O[c0]	c0	=	(kb|g.236155.CDS.338 or kb|g.236155.CDS.541)		
+rxn02934_c0	(2S,3S)-3-Hydroxy-2-methylbutanoyl-CoA hydro-liase_c0	ECOAH9_c0	(1) H2O[c0] + (1) Tiglyl-CoA[c0] <=> (1) 2-methyl-3-hydroxy-butyryl-CoA[c0]	c0	=	(kb|g.236155.CDS.8 or kb|g.236155.CDS.642)		
+rxn10314_c0	anteisopentadecanoyl-lipoteichoic acid synthesis (n=24), linked, N-acetylglucosamine substituted_c0	anteisopentadecanoyl-lipoteichoic acid synthesis (n=24), linked, N-acetylglucosamine substituted_c0	(1) Anteisopentadecanoyllipoteichoic acid (n=24), linked, N-acetyl-D-glucosamine[c0] + (24) UDP[c0] <=> (1) Anteisopentadecanoyllipoteichoic acid (n=24), linked, unsubstituted[c0] + (24) UDP-N-acetylglucosamine[c0]	c0	=	(kb|g.236155.CDS.580 or kb|g.236155.CDS.90)		
+rxn01145_c0	Thymidylate 5'-phosphohydrolase_c0	NTD5_c0	(1) H+[c0] + (1) Phosphate[c0] + (1) Thymidine[c0] => (1) H2O[c0] + (1) dTMP[c0]	c0	>	kb|g.236155.CDS.166		
+rxn08528_c0	fumarate reductase_c0	FRD3_c0	(1) 2-Demethylmenaquinone 8[c0] + (1) Succinate[c0] <=> (1) 2-Demethylmenaquinol 8[c0] + (1) Fumarate[c0]	c0	=	((kb|g.236155.CDS.159 and kb|g.236155.CDS.158) or kb|g.236155.CDS.158)		
+rxn01509_c0	ATP:(d)GMP phosphotransferase_c0	DGK1_c0	(1) ADP[c0] + (1) dGDP[c0] <=> (1) ATP[c0] + (1) dGMP[c0]	c0	=	kb|g.236155.CDS.552		
+rxn03240_c0	(S)-3-Hydroxyhexadecanoyl-CoA hydro-lyase_c0	ECOAH7_c0	(1) (2E)-Hexadecenoyl-CoA[c0] + (1) H2O[c0] <=> (1) (S)-3-Hydroxyhexadecanoyl-CoA[c0]	c0	=	(kb|g.236155.CDS.8 or kb|g.236155.CDS.642)		
+rxn00789_c0	1-(5-Phospho-D-ribosyl)-ATP:pyrophosphate phosphoribosyl-transferase_c0	ATPPRT_c0	(1) ATP[c0] + (1) PRPP[c0] <= (1) PPi[c0] + (1) Phosphoribosyl-ATP[c0]	c0	<	kb|g.236155.CDS.781		
+rxn05167_c0	D-Xylose-ABC transport_c0	XYLabc_c0	(1) ADP[c0] + (1) H+[c0] + (1) Phosphate[c0] + (1) Xylose[c0] => (1) ATP[c0] + (1) H2O[c0] + (1) Xylose[e0]	c0	>	(kb|g.236155.CDS.77 and kb|g.236155.CDS.78 and kb|g.236155.CDS.76)		
+rxn06077_c0	L-methionine:oxidized-thioredoxin S-oxidoreductase_c0	METSR-S1_c0	(1) L-Methionine S-oxide[c0] + (1) trdrd[c0] <=> (1) H2O[c0] + (1) L-Methionine[c0] + (1) trdox[c0]	c0	=	kb|g.236155.CDS.298		
+rxn01545_c0	Xanthosine ribohydrolase_c0	XTSNH_c0	(1) D-Ribose[c0] + (1) XAN[c0] <=> (1) H2O[c0] + (1) Xanthosine[c0]	c0	=	(kb|g.236155.CDS.729 or kb|g.236155.CDS.484)		
+rxn10216_c0	isotetradecanoyl-1-acylglycerol-3-phosphate O-acyltransferase_c0	isotetradecanoyl-1-acylglycerol-3-phosphate O-acyltransferase_c0	(1) 1,2-diisotetradecanoyl-sn-glycerol 3-phosphate[c0] + (1) CoA[c0] => (1) 1-isotetradecanoyl-sn-glycerol 3-phosphate[c0] + (1) fa1coa[c0]	c0	>	(kb|g.236155.CDS.50 or kb|g.236155.CDS.651)		
+rxn02312_c0	S-Adenosyl-L-methionine:8-amino-7-oxononanoate aminotransferase_c0	AMAOTr_c0	(1) 7-8-Diaminononanoate[c0] + (1) S-Adenosyl-4-methylthio-2-oxobutanoate[c0] <=> (1) 8-Amino-7-oxononanoate[c0] + (1) S-Adenosyl-L-methionine[c0]	c0	=	kb|g.236155.CDS.221		
+rxn00438_c0	ATP:thiamin-phosphate phosphotransferase_c0	TMPK_c0	(1) ADP[c0] + (1) TPP[c0] <=> (1) ATP[c0] + (1) Thiamine phosphate[c0]	c0	=	kb|g.236155.CDS.45		
+rxn10474_c0	cobalt transport in/out via permease (no H+)_c0	COBALTt5i_c0	(1) Co2+[e0] <=> (1) Co2+[c0]	c0	=	kb|g.236155.CDS.740		
+rxn01643_c0	L-Aspartate-4-semialdehyde:NADP+ oxidoreductase (phosphorylating)_c0	ASAD_c0	(1) 4-Phospho-L-aspartate[c0] + (1) NADPH[c0] <= (1) L-Aspartate4-semialdehyde[c0] + (1) NADP[c0] + (1) Phosphate[c0]	c0	<	kb|g.236155.CDS.705		
+rxn06493_c0	dihydrolipoylprotein:NAD+ oxidoreductase_c0	GCCc_c0	(1) H+[c0] + (1) Lipoylprotein[c0] + (1) NADH[c0] <=> (1) Dihydrolipolprotein[c0] + (1) NAD[c0]	c0	=	(Unknown and kb|g.236155.CDS.766)		
+rxn03243_c0	Decanoyl-CoA:acetyl-CoA C-acyltransferase_c0	ACACT5r_c0	(1) 3-Oxododecanoyl-CoA[c0] + (1) CoA[c0] <=> (1) Acetyl-CoA[c0] + (1) Decanoyl-CoA[c0]	c0	=	kb|g.236155.CDS.7		
+rxn10224_c0	anteisopentadecanoyl-phosphatidate cytidylyltransferase_c0	anteisopentadecanoyl-phosphatidate cytidylyltransferase_c0	(1) CDP-1,2-dianteisopentadecanoylglycerol[c0] + (1) PPi[c0] <=> (1) 1,2-dianteisopentadecanoyl-sn-glycerol 3-phosphate[c0] + (1) CTP[c0]	c0	=	kb|g.236155.CDS.379		
+rxn02811_c0	3-Isopropylmalate hydro-lyase_c0	IPPMIa_c0	(1) 2-Isopropylmaleate[c0] + (1) H2O[c0] <=> (1) 3-Isopropylmalate[c0]	c0	=	(kb|g.236155.CDS.53 and kb|g.236155.CDS.52)		
+rxn10262_c0	isopentadecanoyl-CDPdiacylglycerol:sn-glycerol-3-phosphate 3-phosphatidyltransferase_c0	isopentadecanoyl-CDPdiacylglycerol:sn-glycerol-3-phosphate 3-phosphatidyltransferase_c0	(1) CMP[c0] + (1) Diisopentadecanoylphosphatidylglycerophosphate[c0] <=> (1) CDP-1,2-diisopentadecanoylglycerol[c0] + (1) Glycerol-3-phosphate[c0]	c0	=	kb|g.236155.CDS.63		
+rxn01286_c0	D-Glyceraldehyde:NAD+ oxidoreductase_c0	ALDD8x_c0	(1) Glycerate[c0] + (2) H+[c0] + (1) NADH[c0] => (1) D-Glyceraldehyde[c0] + (1) H2O[c0] + (1) NAD[c0]	c0	>	(kb|g.236155.CDS.747 or kb|g.236155.CDS.731 or kb|g.236155.CDS.389 or kb|g.236155.CDS.107 or kb|g.236155.CDS.730)		
+rxn00199_c0	Oxalosuccinate:NADP+ oxidoreductase (decarboxylating)_c0	IDP2_2_c0	(1) 2-Oxoglutarate[c0] + (1) CO2[c0] => (1) H+[c0] + (1) Oxalosuccinate[c0]	c0	>	kb|g.236155.CDS.247		
+rxn01019_c0	Carbamoyl-phosphate:L-ornithine carbamoyltransferase_c0	OCBT_c0	(1) Citrulline[c0] + (2) H+[c0] + (1) Phosphate[c0] => (1) Carbamoylphosphate[c0] + (1) Ornithine[c0]	c0	>	(kb|g.236155.CDS.641 or kb|g.236155.CDS.633)		
+rxn08310_c0	CDP-diacylglycerol synthetase (n-C16:1)_c0	DASYN161_c0	(1) CDP-1,2-dihexadec-9-enoylglycerol[c0] + (1) PPi[c0] <=> (1) 1,2-dihexadec-9-enoyl-sn-glycerol 3-phosphate[c0] + (1) CTP[c0]	c0	=	kb|g.236155.CDS.379		
+rxn09272_c0	succinate dehydrogenase (irreversible)_c0	SUCD7_c0	(1) Fumarate[c0] + (1) Ubiquinol-8[c0] <=> (1) Succinate[c0] + (1) Ubiquinone-8[c0]	c0	=	((kb|g.236155.CDS.159 and kb|g.236155.CDS.158) or kb|g.236155.CDS.158)		
+rxn08040_c0	UDP-N-acetylglucosamine:undecaprenylphosphate N-acetylglucosamine -1-phosphate transferase_c0	GLCNACPPUNDs_c0	(1) UMP[c0] + (1) Undecaprenyl diphospho N-acetyl-glucosamine[c0] <=> (1) UDP-N-acetylglucosamine[c0] + (1) Undecaprenylphosphate[c0]	c0	=	(kb|g.236155.CDS.580 or kb|g.236155.CDS.90)		
+rxn08084_c0	1-tetradecanoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C14:0)_c0	AGPAT140_c0	(1) 1,2-ditetradecanoyl-sn-glycerol 3-phosphate[c0] + (1) ACP[c0] => (1) 1-tetradecanoyl-sn-glycerol 3-phosphate[c0] + (1) Myristoyl-ACP[c0]	c0	>	(kb|g.236155.CDS.50 or kb|g.236155.CDS.651)		
+rxn02303_c0	Coproporphyrinogen:oxygen oxidoreductase(decarboxylating)_c0	CPPPGO_c0	(2) CO2[c0] + (2) H2O[c0] + (1) ProtoporphyrinogenIX[c0] <=> (1) CoproporphyrinogenIII[c0] + (2) H+[c0] + (1) O2[c0]	c0	=	kb|g.236155.CDS.659		
+rxn12850_c0	Gly-Phe ABC transporters_c0	Gly-Phe ABC transporters_c0	(1) ADP[c0] + (1) Gly-Phe[c0] + (1) Phosphate[c0] => (1) ATP[c0] + (1) Gly-Phe[e0] + (1) H2O[c0]	c0	>	((kb|g.236155.CDS.381 or kb|g.236155.CDS.115 or kb|g.236155.CDS.380) or kb|g.236155.CDS.417 or kb|g.236155.CDS.419)		
+rxn10260_c0	anteisoheptadecanoyl-CDPdiacylglycerol:sn-glycerol-3-phosphate 3-phosphatidyltransferase_c0	anteisoheptadecanoyl-CDPdiacylglycerol:sn-glycerol-3-phosphate 3-phosphatidyltransferase_c0	(1) CMP[c0] + (1) Dianteisoheptadecanoylphosphatidylglycerophosphate[c0] <=> (1) CDP-1,2-dianteisoheptadecanoylglycerol[c0] + (1) Glycerol-3-phosphate[c0]	c0	=	kb|g.236155.CDS.63		
+rxn01329_c0	D-Mannose 6-phosphate 1,6-phosphomutase_c0	PMANM_c0	(1) D-Mannose1-phosphate[c0] <=> (1) D-mannose-6-phosphate[c0]	c0	=	kb|g.236155.CDS.761		
+rxn05667_c0	Urea transport via facilitate diffusion_c0	UREAt_c0	(1) Urea[c0] <=> (1) Urea[e0]	c0	=	Unknown		
+rxn01213_c0	Dimethylallyl-diphosphate:isopentenyl-diphosphate_c0	DMATT_c0	(1) Geranyldiphosphate[c0] + (1) PPi[c0] => (1) DMAPP[c0] + (1) Isopentenyldiphosphate[c0]	c0	>	(kb|g.236155.CDS.198 and kb|g.236155.CDS.198 and Unknown and kb|g.236155.CDS.198)		
+rxn10196_c0	Teichoic acid (D-alanine substituted) export_c0	Teichoic acid (D-alanine substituted) export_c0	(1) Undecaprenylphosphate[c0] + (1) glycerol teichoic acid (n=45), linked, D-ala substituted[c0] <=> (1) Peptidoglycan polymer (n-1 subunits)[c0] + (1) Prenol-45n teichoic acid-alanine substituted[c0]	c0	=	(kb|g.236155.CDS.577 and Unknown)		
+rxn05163_c0	Putrescine-ABC transport_c0	PTRCabc_c0	(1) ADP[c0] + (1) H+[c0] + (1) Phosphate[c0] + (1) Putrescine[c0] => (1) ATP[c0] + (1) H2O[c0] + (1) Putrescine[e0]	c0	>	(Unknown and kb|g.236155.CDS.375 and (kb|g.236155.CDS.683 or kb|g.236155.CDS.674 or kb|g.236155.CDS.374) and Unknown and Unknown and Unknown and (kb|g.236155.CDS.682 or kb|g.236155.CDS.675))		
+rxn01603_c0	7,8-dihydropteroate:L-glutamate ligase (ADP-forming)_c0	DHFS_c0	(1) ADP[c0] + (1) Dihydrofolate[c0] + (1) H+[c0] + (1) Phosphate[c0] => (1) ATP[c0] + (1) Dihydropteroate[c0] + (1) L-Glutamate[c0]	c0	>	(kb|g.236155.CDS.734 and kb|g.236155.CDS.734)		
+rxn03247_c0	(S)-Hydroxyoctanoyl-CoA hydro-lyase_c0	ECOAH3_c0	(1) (2E)-Octenoyl-CoA[c0] + (1) H2O[c0] <=> (1) (S)-Hydroxyoctanoyl-CoA[c0]	c0	=	(kb|g.236155.CDS.8 or kb|g.236155.CDS.642)		
+rxn06777_c0	(S)-3-Hydroxytetradecanoyl-CoA:NAD+ oxidoreductase_c0	HACD6_c0	(1) 3-Oxotetradecanoyl-CoA[c0] + (1) H+[c0] + (1) NADH[c0] <=> (1) (S)-3-Hydroxytetradecanoyl-CoA[c0] + (1) NAD[c0]	c0	=	(Unknown and kb|g.236155.CDS.8)		
+rxn00178_c0	Acetyl-CoA:acetyl-CoA C-acetyltransferase_c0	ACACT1r_c0	(1) Acetoacetyl-CoA[c0] + (1) CoA[c0] <=> (2) Acetyl-CoA[c0]	c0	=	kb|g.236155.CDS.7		
+rxn05545_c0	Dipeptide transport via ABC system (ala-thr)_c0	DIPEPabc7_c0	(1) ADP[c0] + (1) H+[c0] + (1) Phosphate[c0] + (1) ala-L-Thr-L[c0] => (1) ATP[c0] + (1) H2O[c0] + (1) ala-L-Thr-L[e0]	c0	>	((kb|g.236155.CDS.381 or kb|g.236155.CDS.115 or kb|g.236155.CDS.380) or kb|g.236155.CDS.417 or kb|g.236155.CDS.419)		
+rxn02339_c0	4-Hydroxy-L-glutamate:2-oxoglutarate aminotransferase_c0	EHGLATm_c0	(1) 4-Hydroxy-2-oxoglutarate[c0] + (1) L-Glutamate[c0] <=> (1) 2-Oxoglutarate[c0] + (1) 4-Hydroxy-L-glutamate[c0]	c0	=	kb|g.236155.CDS.690		
+rxn02175_c0	ATP:pantetheine-4'-phosphate adenylyltransferase_c0	PTPATi_c0	(1) Dephospho-CoA[c0] + (1) PPi[c0] <=> (1) ATP[c0] + (1) Phosphopantetheine[c0]	c0	=	kb|g.236155.CDS.41		
+rxn01544_c0	XMP:pyrophosphate phosphoribosyltransferase_c0	XPPT_c0	(1) PRPP[c0] + (1) XAN[c0] <= (1) PPi[c0] + (1) XMP[c0]	c0	<	kb|g.236155.CDS.455		
+rxn00288_c0	Succinate:(acceptor) oxidoreductase_c0	SUCD1_c0	(1) FADH2[c0] + (1) Fumarate[c0] <= (1) FAD[c0] + (1) Succinate[c0]	c0	<	(kb|g.236155.CDS.159 and Unknown and kb|g.236155.CDS.158)		
+rxn00132_c0	Adenosine 5'-monophosphate phosphohydrolase_c0	NTD7_c0	(1) Adenosine[c0] + (1) H+[c0] + (1) Phosphate[c0] => (1) AMP[c0] + (1) H2O[c0]	c0	>	kb|g.236155.CDS.166		
+rxn01790_c0	(R)-Pantoate:NADP+ 2-oxidoreductase_c0	DPR_c0	(1) 2-Dehydropantoate[c0] + (1) H+[c0] + (1) NADPH[c0] <=> (1) NADP[c0] + (1) Pantoate[c0]	c0	=	kb|g.236155.CDS.363		
+rxn05538_c0	Dipeptide transport via ABC system (gly-pro-L)_c0	DIPEPabc14_c0	(1) ADP[c0] + (1) H+[c0] + (1) Phosphate[c0] + (1) gly-pro-L[c0] => (1) ATP[c0] + (1) H2O[c0] + (1) gly-pro-L[e0]	c0	>	((kb|g.236155.CDS.381 or kb|g.236155.CDS.115 or kb|g.236155.CDS.380) or kb|g.236155.CDS.417 or kb|g.236155.CDS.419)		
+rxn05682_c0	allantoin transport in via proton symport_c0	ALLTNt6_c0	(1) Allantoin[c0] + (1) H+[c0] <=> (1) Allantoin[e0] + (1) H+[e0]	c0	=	kb|g.236155.CDS.645		
+rxn02285_c0	UDP-N-acetylmuramate:NADP+ oxidoreductase_c0	UAPGR_c0	(1) H+[c0] + (1) NADPH[c0] + (1) UDP-N-acetylglucosamine enolpyruvate[c0] <=> (1) NADP[c0] + (1) UDP-MurNAc[c0]	c0	=	kb|g.236155.CDS.691		
+rxn10213_c0	stearoyl-1-acylglycerol-3-phosphate O-acyltransferase_c0	stearoyl-1-acylglycerol-3-phosphate O-acyltransferase_c0	(1) 1,2-dioctadecanoyl-sn-glycerol 3-phosphate[c0] + (1) CoA[c0] => (1) 1-octadecanoyl-sn-glycerol 3-phosphate[c0] + (1) strcoa[c0]	c0	>	(kb|g.236155.CDS.50 or kb|g.236155.CDS.651)		
+rxn00420_c0	L-O-Phosphoserine phosphohydrolase_c0	PSP_L_c0	(1) H+[c0] + (1) L-Serine[c0] + (1) Phosphate[c0] => (1) H2O[c0] + (1) phosphoserine[c0]	c0	>	kb|g.236155.CDS.432		
+rxn00001_c0	Pyrophosphate phosphohydrolase_c0	PPA_c0	(2) H+[c0] + (2) Phosphate[c0] => (1) H2O[c0] + (1) PPi[c0]	c0	>	kb|g.236155.CDS.324		
+rxn10313_c0	isopentadecanoyl-lipoteichoic acid synthesis (n=24), linked, N-acetylglucosamine substituted_c0	isopentadecanoyl-lipoteichoic acid synthesis (n=24), linked, N-acetylglucosamine substituted_c0	(1) Isopentadecanoyllipoteichoic acid (n=24), linked, N-acetyl-D-glucosamine[c0] + (24) UDP[c0] <=> (1) Isopentadecanoyllipoteichoic acid (n=24), linked, unsubstituted[c0] + (24) UDP-N-acetylglucosamine[c0]	c0	=	(kb|g.236155.CDS.580 or kb|g.236155.CDS.90)		
+rxn07438_c0	peptide-methionine:thioredoxin-disulfide S-oxidoreductase_c0	peptide-methionine:thioredoxin-disulfide S-oxidoreductase_c0	(1) Peptide-L-methionine (R)-S-oxide[c0] + (1) trdrd[c0] <=> (1) H2O[c0] + (1) Peptide-L-methionine[c0] + (1) trdox[c0]	c0	=	kb|g.236155.CDS.299		
+rxn08336_c0	dihydroorotic acid (menaquinone-8)_c0	DHORD5_c0	(1) Menaquinol 8[c0] + (1) Orotate[c0] => (1) Menaquinone 8[c0] + (1) S-Dihydroorotate[c0]	c0	>	(kb|g.236155.CDS.555 and kb|g.236155.CDS.554)		
+rxn01961_c0	Xanthosine 5'-phosphate phosphohydrolase_c0	NTD10_c0	(1) H+[c0] + (1) Phosphate[c0] + (1) Xanthosine[c0] => (1) H2O[c0] + (1) XMP[c0]	c0	>	kb|g.236155.CDS.166		
+rxn02898_c0	O-Succinylbenzoyl-CoA 1,4-dihydroxy-2-naphthoate-lyase_c0	NPHS_c0	(1) 1-4-Dihydroxy-2-naphthoate[c0] + (1) CoA[c0] => (1) Succinylbenzoyl-CoA[c0]	c0	>	kb|g.236155.CDS.423		
+rxn01210_c0	10-Formyltetrahydrofolate:L-glutamate ligase (ADP-forming)_c0	10-Formyltetrahydrofolate:L-glutamate ligase (ADP-forming)_c0	(1) 10-Formyl-THF-L-glutamate[c0] + (1) ADP[c0] + (1) H+[c0] + (1) Phosphate[c0] => (1) 10-Formyltetrahydrofolate[c0] + (1) ATP[c0] + (1) L-Glutamate[c0]	c0	>	(kb|g.236155.CDS.734 and kb|g.236155.CDS.734)		
+rxn10220_c0	isoheptadecanoyl-phosphatidate cytidylyltransferase_c0	isoheptadecanoyl-phosphatidate cytidylyltransferase_c0	(1) CDP-1,2-diisoheptadecanoylglycerol[c0] + (1) PPi[c0] <=> (1) 1,2-diisoheptadecanoyl-sn-glycerol 3-phosphate[c0] + (1) CTP[c0]	c0	=	kb|g.236155.CDS.379		
+rxn00851_c0	D-AlanineD-Alanine ligase (ADP-forming)_c0	ALAALA_c0	(1) ADP[c0] + (1) Ala-Ala[c0] + (1) H+[c0] + (1) Phosphate[c0] => (1) ATP[c0] + (2) D-Alanine[c0]	c0	>	kb|g.236155.CDS.48		
+rxn00858_c0	Agmatine amidinohydrolase_c0	AGMT_c0	(1) Putrescine[c0] + (1) Urea[c0] => (1) Agmatine[c0] + (1) H2O[c0]	c0	>	kb|g.236155.CDS.680		
+rxn00831_c0	Inosine 5'-monophosphate phosphohydrolase_c0	NTD11_c0	(1) H+[c0] + (1) Inosine[c0] + (1) Phosphate[c0] => (1) H2O[c0] + (1) IMP[c0]	c0	>	kb|g.236155.CDS.166		
+rxn02680_c0	Octanoyl-CoA:acetyl-CoA C-acyltransferase_c0	ACACT4r_c0	(1) 3-Oxodecanoyl-CoA[c0] + (1) CoA[c0] <=> (1) Acetyl-CoA[c0] + (1) Octanoyl-CoA[c0]	c0	=	kb|g.236155.CDS.7		
+rxn00478_c0	L-tryptophan:oxygen 2,3-oxidoreductase (decyclizing)_c0	TRPO2_c0	(1) N-Formylkynurenine[c0] => (1) L-Tryptophan[c0] + (1) O2[c0]	c0	>	kb|g.236155.CDS.355		
+rxn10571_c0	magnesium transport via ABC system_c0	MG2abci_c0	(1) ADP[c0] + (1) H+[c0] + (1) Mg[c0] + (1) Phosphate[c0] => (1) ATP[c0] + (1) H2O[c0] + (1) Mg[e0]	c0	>	Unknown		
+rxn05195_c0	Fe3+-ABC transport_c0	FE3abc_c0	(1) ADP[c0] + (1) H+[c0] + (1) Phosphate[c0] + (1) fe3[c0] => (1) ATP[c0] + (1) H2O[c0] + (1) fe3[e0]	c0	>	Unknown		
+rxn00062_c0	ATP phosphohydrolase (protein-secreting)_c0	ATPM_c0	(1) ADP[c0] + (1) H+[c0] + (1) Phosphate[c0] => (1) ATP[c0] + (1) H2O[c0]	c0	>	Unknown		
+rxn01208_c0	2-Oxo-4-methyl-3-carboxypentanoate decarboxylation_c0	OMCDC_c0	(1) 2-isopropyl-3-oxosuccinate[c0] + (1) H+[c0] <= (1) 4MOP[c0] + (1) CO2[c0]	c0	<	Unknown		
+rxn04132_c0	rxn04132_c0	rxn04132_c0	(1) (R)-Allantoin[c0] + (1) CO2[c0] => (1) 5-Hydroxyisourate[c0] + (1) H2O[c0]	c0	>	Unknown		
+rxn04133_c0	rxn04133_c0	rxn04133_c0	(1) Allantoin[c0] + (1) CO2[c0] => (1) 5-Hydroxyisourate[c0] + (1) H2O[c0]	c0	>	Unknown		
+rxn05319_c0	H2Ot5_c0	H2Ot5_c0	(1) H2O[c0] <= (1) H2O[e0]	c0	<	Unknown		
+rxn05467_c0	CO2 transport via diffusion_c0	CO2t_c0	(1) CO2[c0] <=> (1) CO2[e0]	c0	=	Unknown		
+rxn05468_c0	O2 transport via diffusion_c0	O2t_c0	(1) O2[c0] <=> (1) O2[e0]	c0	=	Unknown		
+rxn02374_c0	L-glutamate 5-semialdehyde dehydratase (spontaneous)_c0	G5SADs_c0	(1) 1-Pyrroline-5-carboxylate[c0] + (1) H+[c0] + (1) H2O[c0] => (1) L-Glutamate5-semialdehyde[c0]	c0	>	Unknown		
+rxn05116_c0	rxn05116_c0	rxn05116_c0	(1) 3-Amino-2-oxopropyl phosphate[c0] + (1) CO2[c0] => (1) 2-Amino-3-oxo-4-phosphonooxybutyrate[c0] + (1) H+[c0]	c0	>	Unknown		
+rxn03012_c0	rxn03012_c0	rxn03012_c0	(1) H+[c0] + (1) H2O[c0] + (1) tetrahydrodipicolinate[c0] => (1) L-2-Amino-6-oxopimelate[c0]	c0	>	Unknown		
+rxn05064_c0	carbamate hydro-lyase_c0	carbamate hydro-lyase_c0	(1) CO2[c0] + (1) NH3[c0] <=> (1) Carbamate[c0] + (2) H+[c0]	c0	=	Unknown		
+rxn02666_c0	L-2-amino-3-oxobutanoate decarboxylation (spontaneous)_c0	AOBUTDs_c0	(1) H+[c0] + (1) L-2-Amino-acetoacetate[c0] <= (1) Aminoacetone[c0] + (1) CO2[c0]	c0	<	Unknown		
+rxn04457_c0	rxn04457_c0	rxn04457_c0	(1) (R)-Allantoin[c0] + (1) CO2[c0] => (1) 5-Hydroxy-2-oxo-4-ureido-2,5-dihydro-1H-imidazole-5-carboxylate[c0] + (1) H+[c0]	c0	>	Unknown		
+rxn04456_c0	rxn04456_c0	rxn04456_c0	(1) Allantoin[c0] + (1) CO2[c0] => (1) 5-Hydroxy-2-oxo-4-ureido-2,5-dihydro-1H-imidazole-5-carboxylate[c0] + (1) H+[c0]	c0	>	Unknown		
+rxn01664_c0	2-Aminoadipate 6-semialdehyde_c0	AADSACYCL_c0	(1) 2-Aminoadipate 6-semialdehyde[c0] <= (1) H+[c0] + (1) H2O[c0] + (1) delta1-Piperideine-6-L-carboxylate[c0]	c0	<	Unknown		
+rxn02916_c0	6-Amino-2-oxohexanoate cyclation_c0	AOXHEXCYCL_c0	(1) H+[c0] + (1) H2O[c0] + (1) delta1-Piperideine-2-carboxylate[c0] => (1) 2-Oxo-6-aminocaproate[c0]	c0	>	Unknown		
+}

@@ -1,0 +1,1321 @@
+Attributes {
+	id:kb|g.236129
+	source:KBase
+	gene_subsystem_hash:HASH(0x4be66870)
+	source_id:kb|g.236129
+	geneAliasHash:HASH(0x4daf22e8)
+	scientific_name:GFM MEintmetabat11576
+	domain:Bacteria
+	genetic_code:11
+	dna_size:1204682
+	num_contigs:149
+	taxonomy:
+	gc_content:
+	complete:
+	contigset_ref:2603/133/2
+}
+features (id	type	function	genomeID	delimiter	comment	start	stop	direction	contig	roleList) {
+kb|g.236129.CDS.1	CDS		kb|g.236129	;	No annotated function	2016	933	-	MEint.metabat.11576_1164000090	
+kb|g.236129.CDS.2	CDS		kb|g.236129	;	No annotated function	2807	2012	-	MEint.metabat.11576_1164000090	
+kb|g.236129.CDS.3	CDS		kb|g.236129	;	No annotated function	3172	2935	-	MEint.metabat.11576_1164000090	
+kb|g.236129.CDS.4	CDS	Mrp protein homolog	kb|g.236129	none		4333	3190	-	MEint.metabat.11576_1164000090	Mrp protein homolog
+kb|g.236129.CDS.5	CDS		kb|g.236129	;	No annotated function	4357	5107	+	MEint.metabat.11576_1164000090	
+kb|g.236129.CDS.6	CDS		kb|g.236129	;	No annotated function	5725	5113	-	MEint.metabat.11576_1164000090	
+kb|g.236129.CDS.7	CDS	Molybdopterin biosynthesis protein MoeA	kb|g.236129	none		6729	5805	-	MEint.metabat.11576_1164000090	Molybdopterin biosynthesis protein MoeA
+kb|g.236129.CDS.8	CDS	Cell division protein FtsI [Peptidoglycan synthetase] (EC 2.4.1.129)	kb|g.236129	none		67	577	+	MEint.metabat.11576_1161002923	Cell division protein FtsI [Peptidoglycan synthetase] (EC 2.4.1.129)
+kb|g.236129.CDS.9	CDS	UDP-N-acetylmuramoylalanyl-D-glutamate--2,6-diaminopimelate ligase (EC 6.3.2.13)	kb|g.236129	none		587	2036	+	MEint.metabat.11576_1161002923	UDP-N-acetylmuramoylalanyl-D-glutamate--2,6-diaminopimelate ligase (EC 6.3.2.13)
+kb|g.236129.CDS.10	CDS	Phospho-N-acetylmuramoyl-pentapeptide-transferase (EC 2.7.8.13)	kb|g.236129	none		2032	3100	+	MEint.metabat.11576_1161002923	Phospho-N-acetylmuramoyl-pentapeptide-transferase (EC 2.7.8.13)
+kb|g.236129.CDS.11	CDS	UDP-N-acetylmuramoylalanine--D-glutamate ligase (EC 6.3.2.9)	kb|g.236129	none		3083	4460	+	MEint.metabat.11576_1161002923	UDP-N-acetylmuramoylalanine--D-glutamate ligase (EC 6.3.2.9)
+kb|g.236129.CDS.12	CDS	Enoyl-CoA hydratase [valine degradation] (EC 4.2.1.17)	kb|g.236129	none		94	958	+	MEint.metabat.11576_1883000524	Enoyl-CoA hydratase [valine degradation] (EC 4.2.1.17)
+kb|g.236129.CDS.13	CDS	Hemoglobin-like protein HbO	kb|g.236129	none		954	1386	+	MEint.metabat.11576_1883000524	Hemoglobin-like protein HbO
+kb|g.236129.CDS.14	CDS		kb|g.236129	;	No annotated function	2167	1366	-	MEint.metabat.11576_1883000524	
+kb|g.236129.CDS.15	CDS	Naphthoate synthase (EC 4.1.3.36)	kb|g.236129	none		3123	2199	-	MEint.metabat.11576_1883000524	Naphthoate synthase (EC 4.1.3.36)
+kb|g.236129.CDS.16	CDS		kb|g.236129	;	No annotated function	208	754	+	MEint.metabat.11576_1034000855	
+kb|g.236129.CDS.17	CDS		kb|g.236129	;	No annotated function	762	1002	+	MEint.metabat.11576_1034000855	
+kb|g.236129.CDS.18	CDS		kb|g.236129	;	No annotated function	998	1439	+	MEint.metabat.11576_1034000855	
+kb|g.236129.CDS.19	CDS	Enoyl-CoA hydratase (EC 4.2.1.17)	kb|g.236129	none		2318	1526	-	MEint.metabat.11576_1034000855	Enoyl-CoA hydratase (EC 4.2.1.17)
+kb|g.236129.CDS.20	CDS		kb|g.236129	;	No annotated function	3750	2328	-	MEint.metabat.11576_1034000855	
+kb|g.236129.CDS.21	CDS		kb|g.236129	;	No annotated function	3779	4298	+	MEint.metabat.11576_1034000855	
+kb|g.236129.CDS.22	CDS		kb|g.236129	;	No annotated function	5404	4324	-	MEint.metabat.11576_1034000855	
+kb|g.236129.CDS.23	CDS		kb|g.236129	;	No annotated function	5741	5450	-	MEint.metabat.11576_1034000855	
+kb|g.236129.CDS.24	CDS	Low-specificity L-threonine aldolase (EC 4.1.2.48)	kb|g.236129	none		6832	5962	-	MEint.metabat.11576_1034000855	Low-specificity L-threonine aldolase (EC 4.1.2.48)
+kb|g.236129.CDS.25	CDS	Nucleoside 5-triphosphatase RdgB (dHAPTP, dITP, XTP-specific) (EC 3.6.1.15)	kb|g.236129	none		13	205	+	MEint.metabat.11576_653001489	Nucleoside 5-triphosphatase RdgB (dHAPTP, dITP, XTP-specific) (EC 3.6.1.15)
+kb|g.236129.CDS.26	CDS	low-specificity D-threonine aldolase	kb|g.236129	none		1364	248	-	MEint.metabat.11576_653001489	low-specificity D-threonine aldolase
+kb|g.236129.CDS.27	CDS	Cysteine synthase (EC 2.5.1.47)	kb|g.236129	none		1492	3034	+	MEint.metabat.11576_653001489	Cysteine synthase (EC 2.5.1.47)
+kb|g.236129.CDS.28	CDS	Threonine synthase (EC 4.2.3.1)	kb|g.236129	none		3059	4442	+	MEint.metabat.11576_653001489	Threonine synthase (EC 4.2.3.1)
+kb|g.236129.CDS.29	CDS	ATP-dependent Clp protease proteolytic subunit (EC 3.4.21.92)	kb|g.236129	none		4499	5147	+	MEint.metabat.11576_653001489	ATP-dependent Clp protease proteolytic subunit (EC 3.4.21.92)
+kb|g.236129.CDS.30	CDS		kb|g.236129	;	No annotated function	13	586	+	MEint.metabat.11576_1211001780	
+kb|g.236129.CDS.31	CDS	diguanylate cyclase/phosphodiesterase (GGDEF & EAL domains) with PAS/PAC sensor(s)	kb|g.236129	none		811	2761	+	MEint.metabat.11576_1211001780	diguanylate cyclase/phosphodiesterase (GGDEF & EAL domains) with PAS/PAC sensor(s)
+kb|g.236129.CDS.32	CDS		kb|g.236129	;	No annotated function	3716	2720	-	MEint.metabat.11576_1211001780	
+kb|g.236129.CDS.33	CDS		kb|g.236129	;	No annotated function	3924	3756	-	MEint.metabat.11576_1211001780	
+kb|g.236129.CDS.34	CDS		kb|g.236129	;	No annotated function	10	1534	+	MEint.metabat.11576_1441002001	
+kb|g.236129.CDS.35	CDS		kb|g.236129	;	No annotated function	1747	2710	+	MEint.metabat.11576_1441002001	
+kb|g.236129.CDS.36	CDS		kb|g.236129	;	No annotated function	2702	3560	+	MEint.metabat.11576_1441002001	
+kb|g.236129.CDS.37	CDS		kb|g.236129	;	No annotated function	3556	4546	+	MEint.metabat.11576_1441002001	
+kb|g.236129.CDS.38	CDS	Oligopeptide transport ATP-binding protein OppF (TC 3.A.1.5.1)	kb|g.236129	none		4545	5535	+	MEint.metabat.11576_1441002001	Oligopeptide transport ATP-binding protein OppF (TC 3.A.1.5.1)
+kb|g.236129.CDS.39	CDS	2-isopropylmalate synthase (EC 2.3.3.13)	kb|g.236129	none		1	1378	+	MEint.metabat.11576_154002078	2-isopropylmalate synthase (EC 2.3.3.13)
+kb|g.236129.CDS.40	CDS	FIG01105047: hypothetical protein	kb|g.236129	none		3688	1381	-	MEint.metabat.11576_154002078	FIG01105047: hypothetical protein
+kb|g.236129.CDS.41	CDS		kb|g.236129	;	No annotated function	3750	3942	+	MEint.metabat.11576_154002078	
+kb|g.236129.CDS.42	CDS		kb|g.236129	;	No annotated function	55	442	+	MEint.metabat.11576_2087002815	
+kb|g.236129.CDS.43	CDS	3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100)	kb|g.236129	none		462	1287	+	MEint.metabat.11576_2087002815	3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100)
+kb|g.236129.CDS.44	CDS	2-hydroxy-3-oxopropionate reductase (EC 1.1.1.60)	kb|g.236129	none		1353	2241	+	MEint.metabat.11576_2087002815	2-hydroxy-3-oxopropionate reductase (EC 1.1.1.60)
+kb|g.236129.CDS.45	CDS	putative cytochrome P450 hydroxylase	kb|g.236129	none		3312	2196	-	MEint.metabat.11576_2087002815	putative cytochrome P450 hydroxylase
+kb|g.236129.CDS.46	CDS	SSU ribosomal protein S2p (SAe)	kb|g.236129	none		162	990	+	MEint.metabat.11576_2088001290	SSU ribosomal protein S2p (SAe)
+kb|g.236129.CDS.47	CDS	Translation elongation factor Ts	kb|g.236129	none		989	1778	+	MEint.metabat.11576_2088001290	Translation elongation factor Ts
+kb|g.236129.CDS.48	CDS	Uridine monophosphate kinase (EC 2.7.4.22)	kb|g.236129	none		1791	2523	+	MEint.metabat.11576_2088001290	Uridine monophosphate kinase (EC 2.7.4.22)
+kb|g.236129.CDS.49	CDS	Ribosome recycling factor	kb|g.236129	none		2519	3077	+	MEint.metabat.11576_2088001290	Ribosome recycling factor
+kb|g.236129.CDS.50	CDS	Cell division protein FtsW	kb|g.236129	none		40	685	+	MEint.metabat.11576_1092001446	Cell division protein FtsW
+kb|g.236129.CDS.51	CDS		kb|g.236129	;	No annotated function	712	1888	+	MEint.metabat.11576_1092001446	
+kb|g.236129.CDS.52	CDS	UDP-N-acetylmuramate--alanine ligase (EC 6.3.2.8)	kb|g.236129	none		1889	3281	+	MEint.metabat.11576_1092001446	UDP-N-acetylmuramate--alanine ligase (EC 6.3.2.8)
+kb|g.236129.CDS.53	CDS	UDP-N-acetylenolpyruvoylglucosamine reductase (EC 1.1.1.158)	kb|g.236129	none		3270	5448	+	MEint.metabat.11576_1092001446	UDP-N-acetylenolpyruvoylglucosamine reductase (EC 1.1.1.158)
+kb|g.236129.CDS.54	CDS	Cell division protein FtsZ (EC 3.4.24.-)	kb|g.236129	none		5501	6608	+	MEint.metabat.11576_1092001446	Cell division protein FtsZ (EC 3.4.24.-)
+kb|g.236129.CDS.55	CDS	High-affinity branched-chain amino acid transport system permease protein LivH (TC 3.A.1.4.1)	kb|g.236129	none		2179	820	-	MEint.metabat.11576_50001636	High-affinity branched-chain amino acid transport system permease protein LivH (TC 3.A.1.4.1)
+kb|g.236129.CDS.56	CDS	Cytochrome oxidase assembly protein	kb|g.236129	none		3192	2175	-	MEint.metabat.11576_50001636	Cytochrome oxidase assembly protein
+kb|g.236129.CDS.57	CDS		kb|g.236129	;	No annotated function	3231	4302	+	MEint.metabat.11576_50001636	
+kb|g.236129.CDS.58	CDS		kb|g.236129	;	No annotated function	4444	5833	+	MEint.metabat.11576_50001636	
+kb|g.236129.CDS.59	CDS		kb|g.236129	;	No annotated function	6619	5941	-	MEint.metabat.11576_50001636	
+kb|g.236129.CDS.60	CDS		kb|g.236129	;	No annotated function	7372	6628	-	MEint.metabat.11576_50001636	
+kb|g.236129.CDS.61	CDS		kb|g.236129	;	No annotated function	9107	7376	-	MEint.metabat.11576_50001636	
+kb|g.236129.CDS.62	CDS		kb|g.236129	;	No annotated function	10939	9172	-	MEint.metabat.11576_50001636	
+kb|g.236129.CDS.63	CDS		kb|g.236129	;	No annotated function	10938	11451	+	MEint.metabat.11576_50001636	
+kb|g.236129.CDS.64	CDS		kb|g.236129	;	No annotated function	12153	11499	-	MEint.metabat.11576_50001636	
+kb|g.236129.CDS.65	CDS		kb|g.236129	;	No annotated function	12186	13569	+	MEint.metabat.11576_50001636	
+kb|g.236129.CDS.66	CDS	Epoxyqueuosine (oQ) reductase QueG	kb|g.236129	none		32	968	+	MEint.metabat.11576_2047002172	Epoxyqueuosine (oQ) reductase QueG
+kb|g.236129.CDS.67	CDS		kb|g.236129	;	No annotated function	984	2142	+	MEint.metabat.11576_2047002172	
+kb|g.236129.CDS.68	CDS		kb|g.236129	;	No annotated function	2157	2589	+	MEint.metabat.11576_2047002172	
+kb|g.236129.CDS.69	CDS		kb|g.236129	;	No annotated function	2585	3473	+	MEint.metabat.11576_2047002172	
+kb|g.236129.CDS.70	CDS		kb|g.236129	;	No annotated function	3631	3496	-	MEint.metabat.11576_2047002172	
+kb|g.236129.CDS.71	CDS	Transcription elongation factor GreA	kb|g.236129	none		1197	714	-	MEint.metabat.11576_992002249	Transcription elongation factor GreA
+kb|g.236129.CDS.72	CDS	3-isopropylmalate dehydrogenase (EC 1.1.1.85)	kb|g.236129	none		1213	2290	+	MEint.metabat.11576_992002249	3-isopropylmalate dehydrogenase (EC 1.1.1.85)
+kb|g.236129.CDS.73	CDS		kb|g.236129	;	No annotated function	78	672	+	MEint.metabat.11576_158002547	
+kb|g.236129.CDS.74	CDS	ATPase, AAA family	kb|g.236129	none		1902	747	-	MEint.metabat.11576_158002547	ATPase, AAA family
+kb|g.236129.CDS.75	CDS	Aspartyl-tRNA synthetase (EC 6.1.1.12) @ Aspartyl-tRNA(Asn) synthetase (EC 6.1.1.23)	kb|g.236129	none		3675	1902	-	MEint.metabat.11576_158002547	Aspartyl-tRNA synthetase (EC 6.1.1.12);Aspartyl-tRNA(Asn) synthetase (EC 6.1.1.23)
+kb|g.236129.CDS.76	CDS	Histidyl-tRNA synthetase (EC 6.1.1.21)	kb|g.236129	none		4502	3671	-	MEint.metabat.11576_158002547	Histidyl-tRNA synthetase (EC 6.1.1.21)
+kb|g.236129.CDS.77	CDS		kb|g.236129	;	No annotated function	635	1511	+	MEint.metabat.11576_459002574	
+kb|g.236129.CDS.78	CDS	Acetyl-CoA synthetase (ADP-forming) alpha and beta chains, putative	kb|g.236129	none		1732	4018	+	MEint.metabat.11576_459002574	Acetyl-CoA synthetase (ADP-forming) alpha and beta chains, putative
+kb|g.236129.CDS.79	CDS	D-alanyl-D-alanine carboxypeptidase (EC 3.4.16.4)	kb|g.236129	none		4010	5483	+	MEint.metabat.11576_459002574	D-alanyl-D-alanine carboxypeptidase (EC 3.4.16.4)
+kb|g.236129.CDS.80	CDS		kb|g.236129	;	No annotated function	514	388	-	MEint.metabat.11576_1160002982	
+kb|g.236129.CDS.81	CDS	N-acetylneuraminate synthase (EC 2.5.1.56)	kb|g.236129	none		1654	586	-	MEint.metabat.11576_1160002982	N-acetylneuraminate synthase (EC 2.5.1.56)
+kb|g.236129.CDS.82	CDS	similar to glycosyltransferase involved capsular polysaccharide biosynthesis	kb|g.236129	none		2298	1650	-	MEint.metabat.11576_1160002982	similar to glycosyltransferase involved capsular polysaccharide biosynthesis
+kb|g.236129.CDS.83	CDS	Lipopolysaccharide biosynthesis protein RffA	kb|g.236129	none		3479	2321	-	MEint.metabat.11576_1160002982	Lipopolysaccharide biosynthesis protein RffA
+kb|g.236129.CDS.84	CDS	alcohol dehydrogenase, iron-containing	kb|g.236129	none		4627	3481	-	MEint.metabat.11576_1160002982	alcohol dehydrogenase, iron-containing
+kb|g.236129.CDS.85	CDS		kb|g.236129	;	No annotated function	4692	5322	+	MEint.metabat.11576_1160002982	
+kb|g.236129.CDS.86	CDS		kb|g.236129	;	No annotated function	5509	5887	+	MEint.metabat.11576_1160002982	
+kb|g.236129.CDS.87	CDS	INTEGRAL MEMBRANE PROTEIN (Rhomboid family)	kb|g.236129	none		8768	5915	-	MEint.metabat.11576_1160002982	INTEGRAL MEMBRANE PROTEIN (Rhomboid family)
+kb|g.236129.CDS.88	CDS		kb|g.236129	;	No annotated function	10888	8866	-	MEint.metabat.11576_1160002982	
+kb|g.236129.CDS.89	CDS		kb|g.236129	;	No annotated function	11797	10909	-	MEint.metabat.11576_1160002982	
+kb|g.236129.CDS.90	CDS		kb|g.236129	;	No annotated function	7	376	+	MEint.metabat.11576_119002939	
+kb|g.236129.CDS.91	CDS		kb|g.236129	;	No annotated function	379	1342	+	MEint.metabat.11576_119002939	
+kb|g.236129.CDS.92	CDS		kb|g.236129	;	No annotated function	1350	2313	+	MEint.metabat.11576_119002939	
+kb|g.236129.CDS.93	CDS		kb|g.236129	;	No annotated function	2315	3272	+	MEint.metabat.11576_119002939	
+kb|g.236129.CDS.94	CDS	Molybdopterin biosynthesis molybdochelatase MogA	kb|g.236129	none		3268	3835	+	MEint.metabat.11576_119002939	Molybdopterin biosynthesis molybdochelatase MogA
+kb|g.236129.CDS.95	CDS	Phosphoribosyl-AMP cyclohydrolase (EC 3.5.4.19)	kb|g.236129	none		4384	3898	-	MEint.metabat.11576_119002939	Phosphoribosyl-AMP cyclohydrolase (EC 3.5.4.19)
+kb|g.236129.CDS.96	CDS		kb|g.236129	;	No annotated function	5225	4394	-	MEint.metabat.11576_119002939	
+kb|g.236129.CDS.97	CDS	Nucleoside ABC transporter, permease protein 2	kb|g.236129	none		6475	5233	-	MEint.metabat.11576_119002939	Nucleoside ABC transporter, permease protein 2
+kb|g.236129.CDS.98	CDS		kb|g.236129	;	No annotated function	7575	6471	-	MEint.metabat.11576_119002939	
+kb|g.236129.CDS.99	CDS	ABC transporter ATP-binding protein	kb|g.236129	none		9154	7603	-	MEint.metabat.11576_119002939	ABC transporter ATP-binding protein
+kb|g.236129.CDS.100	CDS		kb|g.236129	;	No annotated function	10448	9299	-	MEint.metabat.11576_119002939	
+kb|g.236129.CDS.101	CDS		kb|g.236129	;	No annotated function	11616	10662	-	MEint.metabat.11576_119002939	
+kb|g.236129.CDS.102	CDS	DNA primase (EC 2.7.7.-)	kb|g.236129	none		13381	11623	-	MEint.metabat.11576_119002939	DNA primase (EC 2.7.7.-)
+kb|g.236129.CDS.103	CDS	Integral membrane protein TerC	kb|g.236129	none		13842	13443	-	MEint.metabat.11576_119002939	Integral membrane protein TerC
+kb|g.236129.CDS.104	CDS		kb|g.236129	;	No annotated function	7	145	+	MEint.metabat.11576_1960002864	
+kb|g.236129.CDS.105	CDS		kb|g.236129	;	No annotated function	184	796	+	MEint.metabat.11576_1960002864	
+kb|g.236129.CDS.106	CDS	Non-specific DNA-binding protein Dps / Iron-binding ferritin-like antioxidant protein / Ferroxidase (EC 1.16.3.1)	kb|g.236129	none		822	1293	+	MEint.metabat.11576_1960002864	Non-specific DNA-binding protein Dps;Iron-binding ferritin-like antioxidant protein;Ferroxidase (EC 1.16.3.1)
+kb|g.236129.CDS.107	CDS		kb|g.236129	;	No annotated function	1333	1456	+	MEint.metabat.11576_1960002864	
+kb|g.236129.CDS.108	CDS	Sensory subunit of low CO2-induced protein complex, putative	kb|g.236129	none		1507	2077	+	MEint.metabat.11576_1960002864	Sensory subunit of low CO2-induced protein complex, putative
+kb|g.236129.CDS.109	CDS		kb|g.236129	;	No annotated function	25	145	+	MEint.metabat.11576_195002758	
+kb|g.236129.CDS.110	CDS		kb|g.236129	;	No annotated function	928	172	-	MEint.metabat.11576_195002758	
+kb|g.236129.CDS.111	CDS		kb|g.236129	;	No annotated function	1578	972	-	MEint.metabat.11576_195002758	
+kb|g.236129.CDS.112	CDS		kb|g.236129	;	No annotated function	1784	3890	+	MEint.metabat.11576_195002758	
+kb|g.236129.CDS.113	CDS		kb|g.236129	;	No annotated function	4347	3885	-	MEint.metabat.11576_195002758	
+kb|g.236129.CDS.114	CDS		kb|g.236129	;	No annotated function	4769	4370	-	MEint.metabat.11576_195002758	
+kb|g.236129.CDS.115	CDS	NADH-ubiquinone oxidoreductase chain D (EC 1.6.5.3)	kb|g.236129	none		52	424	+	MEint.metabat.11576_819002329	NADH-ubiquinone oxidoreductase chain D (EC 1.6.5.3)
+kb|g.236129.CDS.116	CDS	NADH-ubiquinone oxidoreductase chain E (EC 1.6.5.3)	kb|g.236129	none		420	1008	+	MEint.metabat.11576_819002329	NADH-ubiquinone oxidoreductase chain E (EC 1.6.5.3)
+kb|g.236129.CDS.117	CDS	NADH-ubiquinone oxidoreductase chain F (EC 1.6.5.3)	kb|g.236129	none		1004	2354	+	MEint.metabat.11576_819002329	NADH-ubiquinone oxidoreductase chain F (EC 1.6.5.3)
+kb|g.236129.CDS.118	CDS	NADH-ubiquinone oxidoreductase chain G (EC 1.6.5.3)	kb|g.236129	none		2364	4719	+	MEint.metabat.11576_819002329	NADH-ubiquinone oxidoreductase chain G (EC 1.6.5.3)
+kb|g.236129.CDS.119	CDS	NADH-ubiquinone oxidoreductase chain H (EC 1.6.5.3)	kb|g.236129	none		4718	5936	+	MEint.metabat.11576_819002329	NADH-ubiquinone oxidoreductase chain H (EC 1.6.5.3)
+kb|g.236129.CDS.120	CDS	NADH-ubiquinone oxidoreductase chain I (EC 1.6.5.3)	kb|g.236129	none		5936	6620	+	MEint.metabat.11576_819002329	NADH-ubiquinone oxidoreductase chain I (EC 1.6.5.3)
+kb|g.236129.CDS.121	CDS	NADH-ubiquinone oxidoreductase chain J (EC 1.6.5.3)	kb|g.236129	none		6619	7159	+	MEint.metabat.11576_819002329	NADH-ubiquinone oxidoreductase chain J (EC 1.6.5.3)
+kb|g.236129.CDS.122	CDS	NADH-ubiquinone oxidoreductase chain K (EC 1.6.5.3)	kb|g.236129	none		7158	7467	+	MEint.metabat.11576_819002329	NADH-ubiquinone oxidoreductase chain K (EC 1.6.5.3)
+kb|g.236129.CDS.123	CDS	NADH-ubiquinone oxidoreductase chain L (EC 1.6.5.3)	kb|g.236129	none		7470	9384	+	MEint.metabat.11576_819002329	NADH-ubiquinone oxidoreductase chain L (EC 1.6.5.3)
+kb|g.236129.CDS.124	CDS	NADH-ubiquinone oxidoreductase chain M (EC 1.6.5.3)	kb|g.236129	none		9380	10949	+	MEint.metabat.11576_819002329	NADH-ubiquinone oxidoreductase chain M (EC 1.6.5.3)
+kb|g.236129.CDS.125	CDS	NADH-ubiquinone oxidoreductase chain N (EC 1.6.5.3)	kb|g.236129	none		10952	12482	+	MEint.metabat.11576_819002329	NADH-ubiquinone oxidoreductase chain N (EC 1.6.5.3)
+kb|g.236129.CDS.126	CDS		kb|g.236129	;	No annotated function	12725	12494	-	MEint.metabat.11576_819002329	
+kb|g.236129.CDS.127	CDS		kb|g.236129	;	No annotated function	1288	271	-	MEint.metabat.11576_1017002065	
+kb|g.236129.CDS.128	CDS		kb|g.236129	;	No annotated function	1569	1284	-	MEint.metabat.11576_1017002065	
+kb|g.236129.CDS.129	CDS		kb|g.236129	;	No annotated function	1959	1578	-	MEint.metabat.11576_1017002065	
+kb|g.236129.CDS.130	CDS		kb|g.236129	;	No annotated function	2478	1965	-	MEint.metabat.11576_1017002065	
+kb|g.236129.CDS.131	CDS		kb|g.236129	;	No annotated function	3128	2474	-	MEint.metabat.11576_1017002065	
+kb|g.236129.CDS.132	CDS	NAD synthetase (EC 6.3.1.5) / Glutamine amidotransferase chain of NAD synthetase	kb|g.236129	none		115	853	+	MEint.metabat.11576_14001611	NAD synthetase (EC 6.3.1.5);Glutamine amidotransferase chain of NAD synthetase
+kb|g.236129.CDS.133	CDS		kb|g.236129	;	No annotated function	2053	862	-	MEint.metabat.11576_14001611	
+kb|g.236129.CDS.134	CDS		kb|g.236129	;	No annotated function	2697	2064	-	MEint.metabat.11576_14001611	
+kb|g.236129.CDS.135	CDS		kb|g.236129	;	No annotated function	2740	3466	+	MEint.metabat.11576_14001611	
+kb|g.236129.CDS.136	CDS	Transcriptional regulator, XRE family	kb|g.236129	none		3469	3820	+	MEint.metabat.11576_14001611	Transcriptional regulator, XRE family
+kb|g.236129.CDS.137	CDS	Glycosyltransferase MshA involved in mycothiol biosynthesis (EC 2.4.1.-)	kb|g.236129	none		3868	5095	+	MEint.metabat.11576_14001611	Glycosyltransferase MshA involved in mycothiol biosynthesis (EC 2.4.1.-)
+kb|g.236129.CDS.138	CDS		kb|g.236129	;	No annotated function	5102	5570	+	MEint.metabat.11576_14001611	
+kb|g.236129.CDS.139	CDS	Pyrroline-5-carboxylate reductase (EC 1.5.1.2)	kb|g.236129	none		5580	6396	+	MEint.metabat.11576_14001611	Pyrroline-5-carboxylate reductase (EC 1.5.1.2)
+kb|g.236129.CDS.140	CDS		kb|g.236129	;	No annotated function	6668	7559	+	MEint.metabat.11576_14001611	
+kb|g.236129.CDS.141	CDS		kb|g.236129	;	No annotated function	7657	9157	+	MEint.metabat.11576_14001611	
+kb|g.236129.CDS.142	CDS		kb|g.236129	;	No annotated function	9441	9108	-	MEint.metabat.11576_14001611	
+kb|g.236129.CDS.143	CDS		kb|g.236129	;	No annotated function	678	1503	+	MEint.metabat.11576_445001521	
+kb|g.236129.CDS.144	CDS		kb|g.236129	;	No annotated function	1906	2029	+	MEint.metabat.11576_445001521	
+kb|g.236129.CDS.145	CDS		kb|g.236129	;	No annotated function	2146	2011	-	MEint.metabat.11576_445001521	
+kb|g.236129.CDS.146	CDS	Succinate dehydrogenase cytochrome b subunit	kb|g.236129	none		2139	2787	+	MEint.metabat.11576_445001521	Succinate dehydrogenase cytochrome b subunit
+kb|g.236129.CDS.147	CDS	Succinate dehydrogenase flavoprotein subunit (EC 1.3.99.1)	kb|g.236129	none		2801	4748	+	MEint.metabat.11576_445001521	Succinate dehydrogenase flavoprotein subunit (EC 1.3.99.1)
+kb|g.236129.CDS.148	CDS	ATP synthase gamma chain (EC 3.6.3.14)	kb|g.236129	none		1520	608	-	MEint.metabat.11576_257001457	ATP synthase gamma chain (EC 3.6.3.14)
+kb|g.236129.CDS.149	CDS	ATP synthase alpha chain (EC 3.6.3.14)	kb|g.236129	none		3131	1529	-	MEint.metabat.11576_257001457	ATP synthase alpha chain (EC 3.6.3.14)
+kb|g.236129.CDS.150	CDS		kb|g.236129	;	No annotated function	3682	3154	-	MEint.metabat.11576_257001457	
+kb|g.236129.CDS.151	CDS		kb|g.236129	;	No annotated function	4224	3678	-	MEint.metabat.11576_257001457	
+kb|g.236129.CDS.152	CDS		kb|g.236129	;	No annotated function	4751	4220	-	MEint.metabat.11576_257001457	
+kb|g.236129.CDS.153	CDS	ATP synthase F0 sector subunit c	kb|g.236129	none		5063	4769	-	MEint.metabat.11576_257001457	ATP synthase F0 sector subunit c
+kb|g.236129.CDS.154	CDS	ATP synthase F0 sector subunit a	kb|g.236129	none		5879	5105	-	MEint.metabat.11576_257001457	ATP synthase F0 sector subunit a
+kb|g.236129.CDS.155	CDS		kb|g.236129	;	No annotated function	6346	5875	-	MEint.metabat.11576_257001457	
+kb|g.236129.CDS.156	CDS		kb|g.236129	;	No annotated function	6540	6342	-	MEint.metabat.11576_257001457	
+kb|g.236129.CDS.157	CDS	Undecaprenyl-phosphate N-acetylglucosaminyl 1-phosphate transferase (EC 2.7.8.-)	kb|g.236129	none		7792	6637	-	MEint.metabat.11576_257001457	Undecaprenyl-phosphate N-acetylglucosaminyl 1-phosphate transferase (EC 2.7.8.-)
+kb|g.236129.CDS.158	CDS	Serine hydroxymethyltransferase (EC 2.1.2.1)	kb|g.236129	none		9109	7861	-	MEint.metabat.11576_257001457	Serine hydroxymethyltransferase (EC 2.1.2.1)
+kb|g.236129.CDS.159	CDS	Ribose 5-phosphate isomerase B (EC 5.3.1.6)	kb|g.236129	none		9594	9114	-	MEint.metabat.11576_257001457	Ribose 5-phosphate isomerase B (EC 5.3.1.6)
+kb|g.236129.CDS.160	CDS	Acetyl-CoA acetyltransferase	kb|g.236129	none		9645	11139	+	MEint.metabat.11576_257001457	Acetyl-CoA acetyltransferase
+kb|g.236129.CDS.161	CDS	Protein-N(5)-glutamine methyltransferase PrmC, methylates polypeptide chain release factors RF1 and RF2	kb|g.236129	none		11811	11163	-	MEint.metabat.11576_257001457	Protein-N(5)-glutamine methyltransferase PrmC, methylates polypeptide chain release factors RF1 and RF2
+kb|g.236129.CDS.162	CDS	Putative phosphatase	kb|g.236129	none		138	1173	+	MEint.metabat.11576_32001281	Putative phosphatase
+kb|g.236129.CDS.163	CDS	Uracil phosphoribosyltransferase (EC 2.4.2.9)	kb|g.236129	none		1951	1315	-	MEint.metabat.11576_32001281	Uracil phosphoribosyltransferase (EC 2.4.2.9)
+kb|g.236129.CDS.164	CDS		kb|g.236129	;	No annotated function	2004	2712	+	MEint.metabat.11576_32001281	
+kb|g.236129.CDS.165	CDS		kb|g.236129	;	No annotated function	1138	1747	+	MEint.metabat.11576_213001240	
+kb|g.236129.CDS.166	CDS		kb|g.236129	;	No annotated function	2599	1747	-	MEint.metabat.11576_213001240	
+kb|g.236129.CDS.167	CDS		kb|g.236129	;	No annotated function	2801	3353	+	MEint.metabat.11576_213001240	
+kb|g.236129.CDS.168	CDS		kb|g.236129	;	No annotated function	3413	3677	+	MEint.metabat.11576_213001240	
+kb|g.236129.CDS.169	CDS	alkyl sulfatase (EC 3.1.6.-)	kb|g.236129	none		3711	5667	+	MEint.metabat.11576_213001240	alkyl sulfatase (EC 3.1.6.-)
+kb|g.236129.CDS.170	CDS		kb|g.236129	;	No annotated function	6841	5722	-	MEint.metabat.11576_213001240	
+kb|g.236129.CDS.171	CDS	3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100)	kb|g.236129	none		7607	6842	-	MEint.metabat.11576_213001240	3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100)
+kb|g.236129.CDS.172	CDS		kb|g.236129	;	No annotated function	7628	8225	+	MEint.metabat.11576_213001240	
+kb|g.236129.CDS.173	CDS	N-carbamoylputrescine amidase (EC 3.5.1.53)	kb|g.236129	none		8226	9975	+	MEint.metabat.11576_213001240	N-carbamoylputrescine amidase (EC 3.5.1.53)
+kb|g.236129.CDS.174	CDS	Esterase/lipase	kb|g.236129	none		10127	11039	+	MEint.metabat.11576_213001240	Esterase/lipase
+kb|g.236129.CDS.175	CDS		kb|g.236129	;	No annotated function	11044	11866	+	MEint.metabat.11576_213001240	
+kb|g.236129.CDS.176	CDS		kb|g.236129	;	No annotated function	11994	12303	+	MEint.metabat.11576_213001240	
+kb|g.236129.CDS.177	CDS	Hypothetical protein of L-Asparaginase type 2-like superfamily	kb|g.236129	none		13275	12291	-	MEint.metabat.11576_213001240	Hypothetical protein of L-Asparaginase type 2-like superfamily
+kb|g.236129.CDS.178	CDS		kb|g.236129	;	No annotated function	14966	15134	+	MEint.metabat.11576_213001240	
+kb|g.236129.CDS.179	CDS		kb|g.236129	;	No annotated function	14917	13303	-	MEint.metabat.11576_213001240	
+kb|g.236129.CDS.180	CDS	Hypothetical nudix hydrolase YeaB	kb|g.236129	none		15146	15830	+	MEint.metabat.11576_213001240	Hypothetical nudix hydrolase YeaB
+kb|g.236129.CDS.181	CDS		kb|g.236129	;	No annotated function	16364	15860	-	MEint.metabat.11576_213001240	
+kb|g.236129.CDS.182	CDS	6,7-dimethyl-8-ribityllumazine synthase (EC 2.5.1.78)	kb|g.236129	none		16924	16471	-	MEint.metabat.11576_213001240	6,7-dimethyl-8-ribityllumazine synthase (EC 2.5.1.78)
+kb|g.236129.CDS.183	CDS	3,4-dihydroxy-2-butanone 4-phosphate synthase (EC 4.1.99.12) / GTP cyclohydrolase II (EC 3.5.4.25)	kb|g.236129	none		18168	16920	-	MEint.metabat.11576_213001240	3,4-dihydroxy-2-butanone 4-phosphate synthase (EC 4.1.99.12);GTP cyclohydrolase II (EC 3.5.4.25)
+kb|g.236129.CDS.184	CDS	Diaminohydroxyphosphoribosylaminopyrimidine deaminase (EC 3.5.4.26) / 5-amino-6-(5-phosphoribosylamino)uracil reductase (EC 1.1.1.193)	kb|g.236129	none		19205	18164	-	MEint.metabat.11576_213001240	Diaminohydroxyphosphoribosylaminopyrimidine deaminase (EC 3.5.4.26);5-amino-6-(5-phosphoribosylamino)uracil reductase (EC 1.1.1.193)
+kb|g.236129.CDS.185	CDS		kb|g.236129	;	No annotated function	20272	19336	-	MEint.metabat.11576_213001240	
+kb|g.236129.CDS.186	CDS		kb|g.236129	;	No annotated function	20523	20286	-	MEint.metabat.11576_213001240	
+kb|g.236129.CDS.187	CDS	3-deoxy-manno-octulosonate cytidylyltransferase (EC 2.7.7.38)	kb|g.236129	none		1769	1064	-	MEint.metabat.11576_243001080	3-deoxy-manno-octulosonate cytidylyltransferase (EC 2.7.7.38)
+kb|g.236129.CDS.188	CDS		kb|g.236129	;	No annotated function	2569	1795	-	MEint.metabat.11576_243001080	
+kb|g.236129.CDS.189	CDS	D-3-phosphoglycerate dehydrogenase (EC 1.1.1.95)	kb|g.236129	none		3444	2580	-	MEint.metabat.11576_243001080	D-3-phosphoglycerate dehydrogenase (EC 1.1.1.95)
+kb|g.236129.CDS.190	CDS	Phosphoheptose isomerase 1 (EC 5.3.1.-)	kb|g.236129	none		3590	4160	+	MEint.metabat.11576_243001080	Phosphoheptose isomerase 1 (EC 5.3.1.-)
+kb|g.236129.CDS.191	CDS	LSU ribosomal protein L10p (P0)	kb|g.236129	none		4296	4824	+	MEint.metabat.11576_243001080	LSU ribosomal protein L10p (P0)
+kb|g.236129.CDS.192	CDS	LSU ribosomal protein L7/L12 (P1/P2)	kb|g.236129	none		4893	5274	+	MEint.metabat.11576_243001080	LSU ribosomal protein L7/L12 (P1/P2)
+kb|g.236129.CDS.193	CDS		kb|g.236129	;	No annotated function	4894	4780	-	MEint.metabat.11576_243001080	
+kb|g.236129.CDS.194	CDS	ClpB protein	kb|g.236129	none		109	1144	+	MEint.metabat.11576_1467001053	ClpB protein
+kb|g.236129.CDS.195	CDS	Histidinol dehydrogenase (EC 1.1.1.23)	kb|g.236129	none		2470	1150	-	MEint.metabat.11576_1467001053	Histidinol dehydrogenase (EC 1.1.1.23)
+kb|g.236129.CDS.196	CDS		kb|g.236129	;	No annotated function	639	2310	+	MEint.metabat.11576_355000847	
+kb|g.236129.CDS.197	CDS		kb|g.236129	;	No annotated function	2992	2416	-	MEint.metabat.11576_355000847	
+kb|g.236129.CDS.198	CDS		kb|g.236129	;	No annotated function	4074	2988	-	MEint.metabat.11576_355000847	
+kb|g.236129.CDS.199	CDS	FIG00825453: hypothetical protein	kb|g.236129	none		4158	5031	+	MEint.metabat.11576_355000847	FIG00825453: hypothetical protein
+kb|g.236129.CDS.200	CDS		kb|g.236129	;	No annotated function	5329	5065	-	MEint.metabat.11576_355000847	
+kb|g.236129.CDS.201	CDS		kb|g.236129	;	No annotated function	960	1185	+	MEint.metabat.11576_527000804	
+kb|g.236129.CDS.202	CDS		kb|g.236129	;	No annotated function	1746	1344	-	MEint.metabat.11576_527000804	
+kb|g.236129.CDS.203	CDS		kb|g.236129	;	No annotated function	1940	1742	-	MEint.metabat.11576_527000804	
+kb|g.236129.CDS.204	CDS		kb|g.236129	;	No annotated function	3004	1939	-	MEint.metabat.11576_527000804	
+kb|g.236129.CDS.205	CDS		kb|g.236129	;	No annotated function	7	514	+	MEint.metabat.11576_19000796	
+kb|g.236129.CDS.206	CDS		kb|g.236129	;	No annotated function	838	967	+	MEint.metabat.11576_19000796	
+kb|g.236129.CDS.207	CDS		kb|g.236129	;	No annotated function	1480	1774	+	MEint.metabat.11576_19000796	
+kb|g.236129.CDS.208	CDS		kb|g.236129	;	No annotated function	2698	2977	+	MEint.metabat.11576_19000796	
+kb|g.236129.CDS.209	CDS		kb|g.236129	;	No annotated function	2989	3328	+	MEint.metabat.11576_19000796	
+kb|g.236129.CDS.210	CDS		kb|g.236129	;	No annotated function	4021	4783	+	MEint.metabat.11576_19000796	
+kb|g.236129.CDS.211	CDS		kb|g.236129	;	No annotated function	4792	4939	+	MEint.metabat.11576_19000796	
+kb|g.236129.CDS.212	CDS		kb|g.236129	;	No annotated function	4994	5909	+	MEint.metabat.11576_19000796	
+kb|g.236129.CDS.213	CDS		kb|g.236129	;	No annotated function	5953	6718	+	MEint.metabat.11576_19000796	
+kb|g.236129.CDS.214	CDS		kb|g.236129	;	No annotated function	6725	9305	+	MEint.metabat.11576_19000796	
+kb|g.236129.CDS.215	CDS	Formamidopyrimidine-DNA glycosylase (EC 3.2.2.23)	kb|g.236129	none		10343	9377	-	MEint.metabat.11576_19000796	Formamidopyrimidine-DNA glycosylase (EC 3.2.2.23)
+kb|g.236129.CDS.216	CDS		kb|g.236129	;	No annotated function	10384	10789	+	MEint.metabat.11576_19000796	
+kb|g.236129.CDS.217	CDS	ADP-ribose pyrophosphatase	kb|g.236129	none		11365	10828	-	MEint.metabat.11576_19000796	ADP-ribose pyrophosphatase
+kb|g.236129.CDS.218	CDS		kb|g.236129	;	No annotated function	11417	11807	+	MEint.metabat.11576_19000796	
+kb|g.236129.CDS.219	CDS	Cyclopropane-fatty-acyl-phospholipid synthase (EC 2.1.1.79)	kb|g.236129	none		12957	11802	-	MEint.metabat.11576_19000796	Cyclopropane-fatty-acyl-phospholipid synthase (EC 2.1.1.79)
+kb|g.236129.CDS.220	CDS	Aldehyde dehydrogenase (EC 1.2.1.3)	kb|g.236129	none		14119	13150	-	MEint.metabat.11576_19000796	Aldehyde dehydrogenase (EC 1.2.1.3)
+kb|g.236129.CDS.221	CDS	Beta-ketoadipate enol-lactone hydrolase (EC 3.1.1.24)	kb|g.236129	none		31	589	+	MEint.metabat.11576_651000605	Beta-ketoadipate enol-lactone hydrolase (EC 3.1.1.24)
+kb|g.236129.CDS.222	CDS		kb|g.236129	;	No annotated function	595	1528	+	MEint.metabat.11576_651000605	
+kb|g.236129.CDS.223	CDS		kb|g.236129	;	No annotated function	2522	1535	-	MEint.metabat.11576_651000605	
+kb|g.236129.CDS.224	CDS		kb|g.236129	;	No annotated function	61	199	+	MEint.metabat.11576_198000560	
+kb|g.236129.CDS.225	CDS	3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100)	kb|g.236129	none		209	959	+	MEint.metabat.11576_198000560	3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100)
+kb|g.236129.CDS.226	CDS		kb|g.236129	;	No annotated function	2094	954	-	MEint.metabat.11576_198000560	
+kb|g.236129.CDS.227	CDS	O-succinylbenzoic acid--CoA ligase (EC 6.2.1.26)	kb|g.236129	none		3313	2170	-	MEint.metabat.11576_198000560	O-succinylbenzoic acid--CoA ligase (EC 6.2.1.26)
+kb|g.236129.CDS.228	CDS		kb|g.236129	;	No annotated function	518	98	-	MEint.metabat.11576_799001718	
+kb|g.236129.CDS.229	CDS		kb|g.236129	;	No annotated function	661	1033	+	MEint.metabat.11576_799001718	
+kb|g.236129.CDS.230	CDS		kb|g.236129	;	No annotated function	1029	1347	+	MEint.metabat.11576_799001718	
+kb|g.236129.CDS.231	CDS	B12 binding domain of Methylmalonyl-CoA mutase (EC 5.4.99.2)	kb|g.236129	none		1604	2018	+	MEint.metabat.11576_799001718	B12 binding domain of Methylmalonyl-CoA mutase (EC 5.4.99.2)
+kb|g.236129.CDS.232	CDS	Succinyl-CoA ligase [ADP-forming] beta chain (EC 6.2.1.5)	kb|g.236129	none		2017	3178	+	MEint.metabat.11576_799001718	Succinyl-CoA ligase [ADP-forming] beta chain (EC 6.2.1.5)
+kb|g.236129.CDS.233	CDS	Succinyl-CoA ligase [ADP-forming] alpha chain (EC 6.2.1.5)	kb|g.236129	none		3167	4079	+	MEint.metabat.11576_799001718	Succinyl-CoA ligase [ADP-forming] alpha chain (EC 6.2.1.5)
+kb|g.236129.CDS.234	CDS	5,10-methylenetetrahydrofolate reductase (EC 1.5.1.20)	kb|g.236129	none		4158	5013	+	MEint.metabat.11576_799001718	5,10-methylenetetrahydrofolate reductase (EC 1.5.1.20)
+kb|g.236129.CDS.235	CDS		kb|g.236129	;	No annotated function	1260	2583	+	MEint.metabat.11576_656000452	
+kb|g.236129.CDS.236	CDS		kb|g.236129	;	No annotated function	3246	2703	-	MEint.metabat.11576_656000452	
+kb|g.236129.CDS.237	CDS	Hypothetical protein YggS, proline synthase co-transcribed bacterial homolog PROSC	kb|g.236129	none		3806	3242	-	MEint.metabat.11576_656000452	Hypothetical protein YggS, proline synthase co-transcribed bacterial homolog PROSC
+kb|g.236129.CDS.238	CDS	Cytidine deaminase (EC 3.5.4.5)	kb|g.236129	none		24	378	+	MEint.metabat.11576_181000418	Cytidine deaminase (EC 3.5.4.5)
+kb|g.236129.CDS.239	CDS		kb|g.236129	;	No annotated function	385	1246	+	MEint.metabat.11576_181000418	
+kb|g.236129.CDS.240	CDS	Thymidine kinase (EC 2.7.1.21)	kb|g.236129	none		1255	1864	+	MEint.metabat.11576_181000418	Thymidine kinase (EC 2.7.1.21)
+kb|g.236129.CDS.241	CDS		kb|g.236129	;	No annotated function	3380	1937	-	MEint.metabat.11576_181000418	
+kb|g.236129.CDS.242	CDS		kb|g.236129	;	No annotated function	4005	3879	-	MEint.metabat.11576_181000418	
+kb|g.236129.CDS.243	CDS		kb|g.236129	;	No annotated function	3799	3376	-	MEint.metabat.11576_181000418	
+kb|g.236129.CDS.244	CDS	N-acetylneuraminate synthase (EC 2.5.1.56)	kb|g.236129	none		5145	4077	-	MEint.metabat.11576_181000418	N-acetylneuraminate synthase (EC 2.5.1.56)
+kb|g.236129.CDS.245	CDS		kb|g.236129	;	No annotated function	5396	5141	-	MEint.metabat.11576_181000418	
+kb|g.236129.CDS.246	CDS		kb|g.236129	;	No annotated function	461	773	+	MEint.metabat.11576_24000378	
+kb|g.236129.CDS.247	CDS		kb|g.236129	;	No annotated function	2065	814	-	MEint.metabat.11576_24000378	
+kb|g.236129.CDS.248	CDS	Pterin-4-alpha-carbinolamine dehydratase (EC 4.2.1.96)	kb|g.236129	none		2407	2146	-	MEint.metabat.11576_24000378	Pterin-4-alpha-carbinolamine dehydratase (EC 4.2.1.96)
+kb|g.236129.CDS.249	CDS	Oligopeptide transport ATP-binding protein OppF (TC 3.A.1.5.1)	kb|g.236129	none		4548	2502	-	MEint.metabat.11576_24000378	Oligopeptide transport ATP-binding protein OppF (TC 3.A.1.5.1)
+kb|g.236129.CDS.250	CDS	Oligopeptide transport system permease protein OppC (TC 3.A.1.5.1)	kb|g.236129	none		5453	4550	-	MEint.metabat.11576_24000378	Oligopeptide transport system permease protein OppC (TC 3.A.1.5.1)
+kb|g.236129.CDS.251	CDS	Oligopeptide transport system permease protein OppB (TC 3.A.1.5.1)	kb|g.236129	none		6442	5461	-	MEint.metabat.11576_24000378	Oligopeptide transport system permease protein OppB (TC 3.A.1.5.1)
+kb|g.236129.CDS.252	CDS	Oligopeptide ABC transporter, periplasmic oligopeptide-binding protein OppA (TC 3.A.1.5.1)	kb|g.236129	none		6796	8476	+	MEint.metabat.11576_24000378	Oligopeptide ABC transporter, periplasmic oligopeptide-binding protein OppA (TC 3.A.1.5.1)
+kb|g.236129.CDS.253	CDS	Iron-sulfur cluster assembly ATPase protein SufC	kb|g.236129	none		9418	8689	-	MEint.metabat.11576_24000378	Iron-sulfur cluster assembly ATPase protein SufC
+kb|g.236129.CDS.254	CDS		kb|g.236129	;	No annotated function	9738	9414	-	MEint.metabat.11576_24000378	
+kb|g.236129.CDS.255	CDS	Iron-sulfur cluster assembly protein SufD	kb|g.236129	none		10787	9734	-	MEint.metabat.11576_24000378	Iron-sulfur cluster assembly protein SufD
+kb|g.236129.CDS.256	CDS		kb|g.236129	;	No annotated function	11188	10792	-	MEint.metabat.11576_24000378	
+kb|g.236129.CDS.257	CDS	Iron-sulfur cluster assembly protein SufB	kb|g.236129	none		12593	11192	-	MEint.metabat.11576_24000378	Iron-sulfur cluster assembly protein SufB
+kb|g.236129.CDS.258	CDS	NADH-ubiquinone oxidoreductase chain F (EC 1.6.5.3)	kb|g.236129	none		1755	405	-	MEint.metabat.11576_145000390	NADH-ubiquinone oxidoreductase chain F (EC 1.6.5.3)
+kb|g.236129.CDS.259	CDS	NADH-ubiquinone oxidoreductase chain E (EC 1.6.5.3)	kb|g.236129	none		2339	1751	-	MEint.metabat.11576_145000390	NADH-ubiquinone oxidoreductase chain E (EC 1.6.5.3)
+kb|g.236129.CDS.260	CDS	NADH-ubiquinone oxidoreductase chain D (EC 1.6.5.3)	kb|g.236129	none		3715	2335	-	MEint.metabat.11576_145000390	NADH-ubiquinone oxidoreductase chain D (EC 1.6.5.3)
+kb|g.236129.CDS.261	CDS	NADH-ubiquinone oxidoreductase chain C (EC 1.6.5.3)	kb|g.236129	none		4179	3711	-	MEint.metabat.11576_145000390	NADH-ubiquinone oxidoreductase chain C (EC 1.6.5.3)
+kb|g.236129.CDS.262	CDS	NADH-ubiquinone oxidoreductase chain B (EC 1.6.5.3)	kb|g.236129	none		4813	4228	-	MEint.metabat.11576_145000390	NADH-ubiquinone oxidoreductase chain B (EC 1.6.5.3)
+kb|g.236129.CDS.263	CDS	NADH ubiquinone oxidoreductase chain A (EC 1.6.5.3)	kb|g.236129	none		5283	4809	-	MEint.metabat.11576_145000390	NADH ubiquinone oxidoreductase chain A (EC 1.6.5.3)
+kb|g.236129.CDS.264	CDS		kb|g.236129	;	No annotated function	6127	5305	-	MEint.metabat.11576_145000390	
+kb|g.236129.CDS.265	CDS		kb|g.236129	;	No annotated function	7200	6126	-	MEint.metabat.11576_145000390	
+kb|g.236129.CDS.266	CDS		kb|g.236129	;	No annotated function	8041	7201	-	MEint.metabat.11576_145000390	
+kb|g.236129.CDS.267	CDS		kb|g.236129	;	No annotated function	8767	8044	-	MEint.metabat.11576_145000390	
+kb|g.236129.CDS.268	CDS	Menaquinone-cytochrome c reductase, cytochrome B subunit	kb|g.236129	none		9569	8783	-	MEint.metabat.11576_145000390	Menaquinone-cytochrome c reductase, cytochrome B subunit
+kb|g.236129.CDS.269	CDS		kb|g.236129	;	No annotated function	9992	9578	-	MEint.metabat.11576_145000390	
+kb|g.236129.CDS.270	CDS		kb|g.236129	;	No annotated function	10577	10712	+	MEint.metabat.11576_145000390	
+kb|g.236129.CDS.271	CDS		kb|g.236129	;	No annotated function	10473	9996	-	MEint.metabat.11576_145000390	
+kb|g.236129.CDS.272	CDS		kb|g.236129	;	No annotated function	10708	11530	+	MEint.metabat.11576_145000390	
+kb|g.236129.CDS.273	CDS		kb|g.236129	;	No annotated function	11636	12992	+	MEint.metabat.11576_145000390	
+kb|g.236129.CDS.274	CDS		kb|g.236129	;	No annotated function	13635	13020	-	MEint.metabat.11576_145000390	
+kb|g.236129.CDS.275	CDS		kb|g.236129	;	No annotated function	13672	14218	+	MEint.metabat.11576_145000390	
+kb|g.236129.CDS.276	CDS		kb|g.236129	;	No annotated function	15807	14226	-	MEint.metabat.11576_145000390	
+kb|g.236129.CDS.277	CDS		kb|g.236129	;	No annotated function	17042	15803	-	MEint.metabat.11576_145000390	
+kb|g.236129.CDS.278	CDS	Redox-sensitive transcriptional regulator (AT-rich DNA-binding protein)	kb|g.236129	none		17837	17096	-	MEint.metabat.11576_145000390	Redox-sensitive transcriptional regulator (AT-rich DNA-binding protein)
+kb|g.236129.CDS.279	CDS		kb|g.236129	;	No annotated function	17929	18700	+	MEint.metabat.11576_145000390	
+kb|g.236129.CDS.280	CDS		kb|g.236129	;	No annotated function	20151	18651	-	MEint.metabat.11576_145000390	
+kb|g.236129.CDS.281	CDS		kb|g.236129	;	No annotated function	21140	20249	-	MEint.metabat.11576_145000390	
+kb|g.236129.CDS.282	CDS	Xylulose kinase (EC 2.7.1.17)	kb|g.236129	none		13	397	+	MEint.metabat.11576_253000092	Xylulose kinase (EC 2.7.1.17)
+kb|g.236129.CDS.283	CDS		kb|g.236129	;	No annotated function	683	500	-	MEint.metabat.11576_253000092	
+kb|g.236129.CDS.284	CDS		kb|g.236129	;	No annotated function	724	1999	+	MEint.metabat.11576_253000092	
+kb|g.236129.CDS.285	CDS		kb|g.236129	;	No annotated function	2955	2010	-	MEint.metabat.11576_253000092	
+kb|g.236129.CDS.286	CDS	Ferric iron ABC transporter, permease protein	kb|g.236129	none		4508	2951	-	MEint.metabat.11576_253000092	Ferric iron ABC transporter, permease protein
+kb|g.236129.CDS.287	CDS	Ferric iron ABC transporter, iron-binding protein	kb|g.236129	none		5635	4546	-	MEint.metabat.11576_253000092	Ferric iron ABC transporter, iron-binding protein
+kb|g.236129.CDS.288	CDS	putative sodium-dependent bicarbonate transporter	kb|g.236129	none		5805	6900	+	MEint.metabat.11576_253000092	putative sodium-dependent bicarbonate transporter
+kb|g.236129.CDS.289	CDS		kb|g.236129	;	No annotated function	6993	7188	+	MEint.metabat.11576_253000092	
+kb|g.236129.CDS.290	CDS		kb|g.236129	;	No annotated function	7190	7328	+	MEint.metabat.11576_253000092	
+kb|g.236129.CDS.291	CDS	Inorganic pyrophosphatase (EC 3.6.1.1)	kb|g.236129	none		7428	7911	+	MEint.metabat.11576_253000092	Inorganic pyrophosphatase (EC 3.6.1.1)
+kb|g.236129.CDS.292	CDS		kb|g.236129	;	No annotated function	8080	8797	+	MEint.metabat.11576_253000092	
+kb|g.236129.CDS.293	CDS		kb|g.236129	;	No annotated function	9430	9313	-	MEint.metabat.11576_253000092	
+kb|g.236129.CDS.294	CDS		kb|g.236129	;	No annotated function	48	756	+	MEint.metabat.11576_1573002727	
+kb|g.236129.CDS.295	CDS	Electron transfer flavoprotein, alpha subunit	kb|g.236129	none		1805	836	-	MEint.metabat.11576_1573002727	Electron transfer flavoprotein, alpha subunit
+kb|g.236129.CDS.296	CDS	Electron transfer flavoprotein, beta subunit	kb|g.236129	none		2593	1816	-	MEint.metabat.11576_1573002727	Electron transfer flavoprotein, beta subunit
+kb|g.236129.CDS.297	CDS		kb|g.236129	;	No annotated function	2765	2615	-	MEint.metabat.11576_1573002727	
+kb|g.236129.CDS.298	CDS		kb|g.236129	;	No annotated function	2749	3634	+	MEint.metabat.11576_1573002727	
+kb|g.236129.CDS.299	CDS		kb|g.236129	;	No annotated function	4480	4777	+	MEint.metabat.11576_1573002727	
+kb|g.236129.CDS.300	CDS	Glycerophosphoryl diester phosphodiesterase (EC 3.1.4.46)	kb|g.236129	none		4362	3663	-	MEint.metabat.11576_1573002727	Glycerophosphoryl diester phosphodiesterase (EC 3.1.4.46)
+kb|g.236129.CDS.301	CDS	Phenylalanyl-tRNA synthetase alpha chain (EC 6.1.1.20)	kb|g.236129	none		1494	474	-	MEint.metabat.11576_630003022	Phenylalanyl-tRNA synthetase alpha chain (EC 6.1.1.20)
+kb|g.236129.CDS.302	CDS		kb|g.236129	;	No annotated function	1905	1530	-	MEint.metabat.11576_630003022	
+kb|g.236129.CDS.303	CDS	Peptide methionine sulfoxide reductase MsrA (EC 1.8.4.11)	kb|g.236129	none		2546	1901	-	MEint.metabat.11576_630003022	Peptide methionine sulfoxide reductase MsrA (EC 1.8.4.11)
+kb|g.236129.CDS.304	CDS		kb|g.236129	;	No annotated function	3338	2615	-	MEint.metabat.11576_630003022	
+kb|g.236129.CDS.305	CDS		kb|g.236129	;	No annotated function	521	14	-	MEint.metabat.11576_278002351	
+kb|g.236129.CDS.306	CDS	Mg/Co/Ni transporter MgtE / CBS domain	kb|g.236129	none		1798	517	-	MEint.metabat.11576_278002351	Mg/Co/Ni transporter MgtE;CBS domain
+kb|g.236129.CDS.307	CDS		kb|g.236129	;	No annotated function	2610	1851	-	MEint.metabat.11576_278002351	
+kb|g.236129.CDS.308	CDS	Allophanate hydrolase 2 subunit 2 (EC 3.5.1.54)	kb|g.236129	none		3666	2790	-	MEint.metabat.11576_278002351	Allophanate hydrolase 2 subunit 2 (EC 3.5.1.54)
+kb|g.236129.CDS.309	CDS	Allophanate hydrolase 2 subunit 1 (EC 3.5.1.54)	kb|g.236129	none		4299	3684	-	MEint.metabat.11576_278002351	Allophanate hydrolase 2 subunit 1 (EC 3.5.1.54)
+kb|g.236129.CDS.310	CDS		kb|g.236129	;	No annotated function	4942	5077	+	MEint.metabat.11576_278002351	
+kb|g.236129.CDS.311	CDS	Lactam utilization protein LamB	kb|g.236129	none		4959	4308	-	MEint.metabat.11576_278002351	Lactam utilization protein LamB
+kb|g.236129.CDS.312	CDS	3-ketoacyl-CoA thiolase (EC 2.3.1.16) @ Acetyl-CoA acetyltransferase (EC 2.3.1.9)	kb|g.236129	none		5153	6320	+	MEint.metabat.11576_278002351	3-ketoacyl-CoA thiolase (EC 2.3.1.16);Acetyl-CoA acetyltransferase (EC 2.3.1.9)
+kb|g.236129.CDS.313	CDS		kb|g.236129	;	No annotated function	6337	6595	+	MEint.metabat.11576_278002351	
+kb|g.236129.CDS.314	CDS		kb|g.236129	;	No annotated function	6924	6633	-	MEint.metabat.11576_278002351	
+kb|g.236129.CDS.315	CDS		kb|g.236129	;	No annotated function	7057	7636	+	MEint.metabat.11576_278002351	
+kb|g.236129.CDS.316	CDS	Serine/threonine protein kinase PrkC, regulator of stationary phase	kb|g.236129	none		9603	7641	-	MEint.metabat.11576_278002351	Serine/threonine protein kinase PrkC, regulator of stationary phase
+kb|g.236129.CDS.317	CDS	Protein serine/threonine phosphatase PrpC, regulation of stationary phase	kb|g.236129	none		10712	9599	-	MEint.metabat.11576_278002351	Protein serine/threonine phosphatase PrpC, regulation of stationary phase
+kb|g.236129.CDS.318	CDS		kb|g.236129	;	No annotated function	11514	10737	-	MEint.metabat.11576_278002351	
+kb|g.236129.CDS.319	CDS	Cytochrome c heme lyase subunit CcmF	kb|g.236129	none		10	760	+	MEint.metabat.11576_2000002468	Cytochrome c heme lyase subunit CcmF
+kb|g.236129.CDS.320	CDS		kb|g.236129	;	No annotated function	785	1319	+	MEint.metabat.11576_2000002468	
+kb|g.236129.CDS.321	CDS		kb|g.236129	;	No annotated function	1375	2284	+	MEint.metabat.11576_2000002468	
+kb|g.236129.CDS.322	CDS		kb|g.236129	;	No annotated function	2762	2279	-	MEint.metabat.11576_2000002468	
+kb|g.236129.CDS.323	CDS	Aspartate aminotransferase (EC 2.6.1.1)	kb|g.236129	none		37	931	+	MEint.metabat.11576_2303002330	Aspartate aminotransferase (EC 2.6.1.1)
+kb|g.236129.CDS.324	CDS	Glycerol kinase (EC 2.7.1.30)	kb|g.236129	none		2445	963	-	MEint.metabat.11576_2303002330	Glycerol kinase (EC 2.7.1.30)
+kb|g.236129.CDS.325	CDS		kb|g.236129	;	No annotated function	3528	2454	-	MEint.metabat.11576_2303002330	
+kb|g.236129.CDS.326	CDS		kb|g.236129	;	No annotated function	4295	3611	-	MEint.metabat.11576_2303002330	
+kb|g.236129.CDS.327	CDS	Inositol-1-monophosphatase (EC 3.1.3.25)	kb|g.236129	none		5129	4319	-	MEint.metabat.11576_2303002330	Inositol-1-monophosphatase (EC 3.1.3.25)
+kb|g.236129.CDS.328	CDS		kb|g.236129	;	No annotated function	5370	5115	-	MEint.metabat.11576_2303002330	
+kb|g.236129.CDS.329	CDS	DNA polymerase IV (EC 2.7.7.7)	kb|g.236129	none		5432	6686	+	MEint.metabat.11576_2303002330	DNA polymerase IV (EC 2.7.7.7)
+kb|g.236129.CDS.330	CDS		kb|g.236129	;	No annotated function	6815	7169	+	MEint.metabat.11576_2303002330	
+kb|g.236129.CDS.331	CDS		kb|g.236129	;	No annotated function	7219	8020	+	MEint.metabat.11576_2303002330	
+kb|g.236129.CDS.332	CDS	Butyryl-CoA dehydrogenase (EC 1.3.99.2)	kb|g.236129	none		8071	9292	+	MEint.metabat.11576_2303002330	Butyryl-CoA dehydrogenase (EC 1.3.99.2)
+kb|g.236129.CDS.333	CDS		kb|g.236129	;	No annotated function	9300	9588	+	MEint.metabat.11576_2303002330	
+kb|g.236129.CDS.334	CDS	HNH endonuclease family protein	kb|g.236129	none		9587	10085	+	MEint.metabat.11576_2303002330	HNH endonuclease family protein
+kb|g.236129.CDS.335	CDS		kb|g.236129	;	No annotated function	10054	10771	+	MEint.metabat.11576_2303002330	
+kb|g.236129.CDS.336	CDS		kb|g.236129	;	No annotated function	11092	10780	-	MEint.metabat.11576_2303002330	
+kb|g.236129.CDS.337	CDS		kb|g.236129	;	No annotated function	44	509	+	MEint.metabat.11576_403002301	
+kb|g.236129.CDS.338	CDS	Zinc ABC transporter, inner membrane permease protein ZnuB	kb|g.236129	none		505	1366	+	MEint.metabat.11576_403002301	Zinc ABC transporter, inner membrane permease protein ZnuB
+kb|g.236129.CDS.339	CDS		kb|g.236129	;	No annotated function	1412	2096	+	MEint.metabat.11576_403002301	
+kb|g.236129.CDS.340	CDS	Methylated-DNA--protein-cysteine methyltransferase (EC 2.1.1.63)	kb|g.236129	none		2606	2135	-	MEint.metabat.11576_403002301	Methylated-DNA--protein-cysteine methyltransferase (EC 2.1.1.63)
+kb|g.236129.CDS.341	CDS		kb|g.236129	;	No annotated function	3108	2607	-	MEint.metabat.11576_403002301	
+kb|g.236129.CDS.342	CDS		kb|g.236129	;	No annotated function	3441	3117	-	MEint.metabat.11576_403002301	
+kb|g.236129.CDS.343	CDS	Butyryl-CoA dehydrogenase (EC 1.3.99.2)	kb|g.236129	none		4716	3444	-	MEint.metabat.11576_403002301	Butyryl-CoA dehydrogenase (EC 1.3.99.2)
+kb|g.236129.CDS.344	CDS		kb|g.236129	;	No annotated function	1021	88	-	MEint.metabat.11576_255002219	
+kb|g.236129.CDS.345	CDS	3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100)	kb|g.236129	none		1060	1807	+	MEint.metabat.11576_255002219	3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100)
+kb|g.236129.CDS.346	CDS	Carbon monoxide dehydrogenase medium chain (EC 1.2.99.2)	kb|g.236129	none		2691	1866	-	MEint.metabat.11576_255002219	Carbon monoxide dehydrogenase medium chain (EC 1.2.99.2)
+kb|g.236129.CDS.347	CDS	Carbon monoxide dehydrogenase small chain (EC 1.2.99.2)	kb|g.236129	none		3150	2694	-	MEint.metabat.11576_255002219	Carbon monoxide dehydrogenase small chain (EC 1.2.99.2)
+kb|g.236129.CDS.348	CDS		kb|g.236129	;	No annotated function	4102	3283	-	MEint.metabat.11576_255002219	
+kb|g.236129.CDS.349	CDS		kb|g.236129	;	No annotated function	4887	4098	-	MEint.metabat.11576_255002219	
+kb|g.236129.CDS.350	CDS		kb|g.236129	;	No annotated function	5827	4867	-	MEint.metabat.11576_255002219	
+kb|g.236129.CDS.351	CDS	Carbon monoxide dehydrogenase large chain (EC 1.2.99.2)	kb|g.236129	none		7502	5933	-	MEint.metabat.11576_255002219	Carbon monoxide dehydrogenase large chain (EC 1.2.99.2)
+kb|g.236129.CDS.352	CDS	Xanthine dehydrogenase, molybdenum binding subunit (EC 1.17.1.4)	kb|g.236129	none		2619	21	-	MEint.metabat.11576_179002194	Xanthine dehydrogenase, molybdenum binding subunit (EC 1.17.1.4)
+kb|g.236129.CDS.353	CDS	N-carbamoyl-D-amino acid hydrolase (EC 3.5.1.77), putative	kb|g.236129	none		3752	2789	-	MEint.metabat.11576_179002194	N-carbamoyl-D-amino acid hydrolase (EC 3.5.1.77), putative
+kb|g.236129.CDS.354	CDS	Beta-ureidopropionase (EC 3.5.1.6)	kb|g.236129	none		5005	3748	-	MEint.metabat.11576_179002194	Beta-ureidopropionase (EC 3.5.1.6)
+kb|g.236129.CDS.355	CDS	Probable aminotransferase	kb|g.236129	none		5040	6390	+	MEint.metabat.11576_179002194	Probable aminotransferase
+kb|g.236129.CDS.356	CDS		kb|g.236129	;	No annotated function	6393	7125	+	MEint.metabat.11576_179002194	
+kb|g.236129.CDS.357	CDS		kb|g.236129	;	No annotated function	7890	7176	-	MEint.metabat.11576_179002194	
+kb|g.236129.CDS.358	CDS	Oxidoreductase, NAD(P)-dependent, weak similarity to Myo-inositol 2-dehydrogenase	kb|g.236129	none		7913	9047	+	MEint.metabat.11576_179002194	Oxidoreductase, NAD(P)-dependent, weak similarity to Myo-inositol 2-dehydrogenase
+kb|g.236129.CDS.359	CDS	Glycine/D-amino acid oxidases (deaminating)	kb|g.236129	none		10484	9050	-	MEint.metabat.11576_179002194	Glycine/D-amino acid oxidases (deaminating)
+kb|g.236129.CDS.360	CDS		kb|g.236129	;	No annotated function	11632	10510	-	MEint.metabat.11576_179002194	
+kb|g.236129.CDS.361	CDS	LSU ribosomal protein L6p (L9e)	kb|g.236129	none		12	555	+	MEint.metabat.11576_91001440	LSU ribosomal protein L6p (L9e)
+kb|g.236129.CDS.362	CDS	LSU ribosomal protein L18p (L5e)	kb|g.236129	none		566	935	+	MEint.metabat.11576_91001440	LSU ribosomal protein L18p (L5e)
+kb|g.236129.CDS.363	CDS	SSU ribosomal protein S5p (S2e)	kb|g.236129	none		934	1558	+	MEint.metabat.11576_91001440	SSU ribosomal protein S5p (S2e)
+kb|g.236129.CDS.364	CDS		kb|g.236129	;	No annotated function	1566	1767	+	MEint.metabat.11576_91001440	
+kb|g.236129.CDS.365	CDS	LSU ribosomal protein L15p (L27Ae)	kb|g.236129	none		1769	2258	+	MEint.metabat.11576_91001440	LSU ribosomal protein L15p (L27Ae)
+kb|g.236129.CDS.366	CDS	Preprotein translocase secY subunit (TC 3.A.5.1.1)	kb|g.236129	none		2288	3608	+	MEint.metabat.11576_91001440	Preprotein translocase secY subunit (TC 3.A.5.1.1)
+kb|g.236129.CDS.367	CDS	Adenylate kinase (EC 2.7.4.3)	kb|g.236129	none		3604	4216	+	MEint.metabat.11576_91001440	Adenylate kinase (EC 2.7.4.3)
+kb|g.236129.CDS.368	CDS	Translation initiation factor 1	kb|g.236129	none		4282	4480	+	MEint.metabat.11576_91001440	Translation initiation factor 1
+kb|g.236129.CDS.369	CDS		kb|g.236129	;	No annotated function	4494	4608	+	MEint.metabat.11576_91001440	
+kb|g.236129.CDS.370	CDS	SSU ribosomal protein S13p (S18e)	kb|g.236129	none		4620	5001	+	MEint.metabat.11576_91001440	SSU ribosomal protein S13p (S18e)
+kb|g.236129.CDS.371	CDS	SSU ribosomal protein S11p (S14e)	kb|g.236129	none		5001	5406	+	MEint.metabat.11576_91001440	SSU ribosomal protein S11p (S14e)
+kb|g.236129.CDS.372	CDS	SSU ribosomal protein S4p (S9e)	kb|g.236129	none		5408	6026	+	MEint.metabat.11576_91001440	SSU ribosomal protein S4p (S9e)
+kb|g.236129.CDS.373	CDS	DNA-directed RNA polymerase alpha subunit (EC 2.7.7.6)	kb|g.236129	none		6055	6988	+	MEint.metabat.11576_91001440	DNA-directed RNA polymerase alpha subunit (EC 2.7.7.6)
+kb|g.236129.CDS.374	CDS	LSU ribosomal protein L17p	kb|g.236129	none		7020	7389	+	MEint.metabat.11576_91001440	LSU ribosomal protein L17p
+kb|g.236129.CDS.375	CDS	tRNA pseudouridine synthase A (EC 4.2.1.70)	kb|g.236129	none		7425	8238	+	MEint.metabat.11576_91001440	tRNA pseudouridine synthase A (EC 4.2.1.70)
+kb|g.236129.CDS.376	CDS	UDP-glucose:tetrahydrobiopterin glucosyltransferase [EC:2.4.1.-]	kb|g.236129	none		8254	9337	+	MEint.metabat.11576_91001440	UDP-glucose:tetrahydrobiopterin glucosyltransferase [EC:2.4.1.-]
+kb|g.236129.CDS.377	CDS		kb|g.236129	;	No annotated function	9359	9569	+	MEint.metabat.11576_91001440	
+kb|g.236129.CDS.378	CDS	LSU ribosomal protein L13p (L13Ae)	kb|g.236129	none		9580	10027	+	MEint.metabat.11576_91001440	LSU ribosomal protein L13p (L13Ae)
+kb|g.236129.CDS.379	CDS	SSU ribosomal protein S9p (S16e)	kb|g.236129	none		10059	10455	+	MEint.metabat.11576_91001440	SSU ribosomal protein S9p (S16e)
+kb|g.236129.CDS.380	CDS	Phosphoglucosamine mutase (EC 5.4.2.10)	kb|g.236129	none		10501	11827	+	MEint.metabat.11576_91001440	Phosphoglucosamine mutase (EC 5.4.2.10)
+kb|g.236129.CDS.381	CDS	Glucosamine--fructose-6-phosphate aminotransferase [isomerizing] (EC 2.6.1.16)	kb|g.236129	none		11888	15332	+	MEint.metabat.11576_91001440	Glucosamine--fructose-6-phosphate aminotransferase [isomerizing] (EC 2.6.1.16)
+kb|g.236129.CDS.382	CDS		kb|g.236129	;	No annotated function	15367	15733	+	MEint.metabat.11576_91001440	
+kb|g.236129.CDS.383	CDS	Alanine racemase (EC 5.1.1.1)	kb|g.236129	none		15742	16888	+	MEint.metabat.11576_91001440	Alanine racemase (EC 5.1.1.1)
+kb|g.236129.CDS.384	CDS	TsaE protein, required for threonylcarbamoyladenosine t(6)A37 formation in tRNA	kb|g.236129	none		16889	17390	+	MEint.metabat.11576_91001440	TsaE protein, required for threonylcarbamoyladenosine t(6)A37 formation in tRNA
+kb|g.236129.CDS.385	CDS		kb|g.236129	;	No annotated function	17412	18192	+	MEint.metabat.11576_91001440	
+kb|g.236129.CDS.386	CDS	Ribosomal-protein-S18p-alanine acetyltransferase (EC 2.3.1.-)	kb|g.236129	none		18188	18776	+	MEint.metabat.11576_91001440	Ribosomal-protein-S18p-alanine acetyltransferase (EC 2.3.1.-)
+kb|g.236129.CDS.387	CDS	TsaD/Kae1/Qri7 protein, required for threonylcarbamoyladenosine t(6)A37 formation in tRNA	kb|g.236129	none		18768	19809	+	MEint.metabat.11576_91001440	TsaD/Kae1/Qri7 protein, required for threonylcarbamoyladenosine t(6)A37 formation in tRNA
+kb|g.236129.CDS.388	CDS	tRNA dihydrouridine synthase B (EC 1.-.-.-)	kb|g.236129	none		19805	20987	+	MEint.metabat.11576_91001440	tRNA dihydrouridine synthase B (EC 1.-.-.-)
+kb|g.236129.CDS.389	CDS	Septum formation protein Maf	kb|g.236129	none		20983	21601	+	MEint.metabat.11576_91001440	Septum formation protein Maf
+kb|g.236129.CDS.390	CDS		kb|g.236129	;	No annotated function	21925	21625	-	MEint.metabat.11576_91001440	
+kb|g.236129.CDS.391	CDS		kb|g.236129	;	No annotated function	22557	21891	-	MEint.metabat.11576_91001440	
+kb|g.236129.CDS.392	CDS		kb|g.236129	;	No annotated function	273	651	+	MEint.metabat.11576_923001951	
+kb|g.236129.CDS.393	CDS		kb|g.236129	;	No annotated function	647	1421	+	MEint.metabat.11576_923001951	
+kb|g.236129.CDS.394	CDS		kb|g.236129	;	No annotated function	1405	2581	+	MEint.metabat.11576_923001951	
+kb|g.236129.CDS.395	CDS	Xanthine-guanine phosphoribosyltransferase (EC 2.4.2.22)	kb|g.236129	none		3084	2589	-	MEint.metabat.11576_923001951	Xanthine-guanine phosphoribosyltransferase (EC 2.4.2.22)
+kb|g.236129.CDS.396	CDS		kb|g.236129	;	No annotated function	3191	4091	+	MEint.metabat.11576_923001951	
+kb|g.236129.CDS.397	CDS	5-Enolpyruvylshikimate-3-phosphate synthase (EC 2.5.1.19)	kb|g.236129	none		5119	4111	-	MEint.metabat.11576_923001951	5-Enolpyruvylshikimate-3-phosphate synthase (EC 2.5.1.19)
+kb|g.236129.CDS.398	CDS		kb|g.236129	;	No annotated function	43	238	+	MEint.metabat.11576_471001094	
+kb|g.236129.CDS.399	CDS		kb|g.236129	;	No annotated function	893	269	-	MEint.metabat.11576_471001094	
+kb|g.236129.CDS.400	CDS	23S rRNA (guanosine-2'-O-) -methyltransferase rlmB (EC 2.1.1.-)	kb|g.236129	none		1937	1061	-	MEint.metabat.11576_471001094	23S rRNA (guanosine-2'-O-) -methyltransferase rlmB (EC 2.1.1.-)
+kb|g.236129.CDS.401	CDS	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase (EC 4.6.1.12)	kb|g.236129	none		2380	1906	-	MEint.metabat.11576_471001094	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase (EC 4.6.1.12)
+kb|g.236129.CDS.402	CDS	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase (EC 2.7.7.60)	kb|g.236129	none		3065	2408	-	MEint.metabat.11576_471001094	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase (EC 2.7.7.60)
+kb|g.236129.CDS.403	CDS	cAMP-binding proteins - catabolite gene activator and regulatory subunit of cAMP-dependent protein kinases	kb|g.236129	none		3085	3760	+	MEint.metabat.11576_471001094	cAMP-binding proteins - catabolite gene activator and regulatory subunit of cAMP-dependent protein kinases
+kb|g.236129.CDS.404	CDS		kb|g.236129	;	No annotated function	4407	3753	-	MEint.metabat.11576_471001094	
+kb|g.236129.CDS.405	CDS		kb|g.236129	;	No annotated function	4478	5258	+	MEint.metabat.11576_471001094	
+kb|g.236129.CDS.406	CDS	Lead, cadmium, zinc and mercury transporting ATPase (EC 3.6.3.3) (EC 3.6.3.5); Copper-translocating P-type ATPase (EC 3.6.3.4)	kb|g.236129	;		7475	5219	-	MEint.metabat.11576_471001094	Lead, cadmium, zinc and mercury transporting ATPase (EC 3.6.3.3) (EC 3.6.3.5);Copper-translocating P-type ATPase (EC 3.6.3.4)
+kb|g.236129.CDS.407	CDS		kb|g.236129	;	No annotated function	108	354	+	MEint.metabat.11576_252001417	
+kb|g.236129.CDS.408	CDS	GTP cyclohydrolase I (EC 3.5.4.16) type 1	kb|g.236129	none		416	1013	+	MEint.metabat.11576_252001417	GTP cyclohydrolase I (EC 3.5.4.16) type 1
+kb|g.236129.CDS.409	CDS		kb|g.236129	;	No annotated function	1633	1081	-	MEint.metabat.11576_252001417	
+kb|g.236129.CDS.410	CDS	Metallo-beta-lactamase family protein	kb|g.236129	none		2994	1617	-	MEint.metabat.11576_252001417	Metallo-beta-lactamase family protein
+kb|g.236129.CDS.411	CDS		kb|g.236129	;	No annotated function	3257	2984	-	MEint.metabat.11576_252001417	
+kb|g.236129.CDS.412	CDS		kb|g.236129	;	No annotated function	4081	3253	-	MEint.metabat.11576_252001417	
+kb|g.236129.CDS.413	CDS		kb|g.236129	;	No annotated function	4118	4238	+	MEint.metabat.11576_252001417	
+kb|g.236129.CDS.414	CDS		kb|g.236129	;	No annotated function	4251	4743	+	MEint.metabat.11576_252001417	
+kb|g.236129.CDS.415	CDS		kb|g.236129	;	No annotated function	211	412	+	MEint.metabat.11576_356001087	
+kb|g.236129.CDS.416	CDS		kb|g.236129	;	No annotated function	1123	502	-	MEint.metabat.11576_356001087	
+kb|g.236129.CDS.417	CDS		kb|g.236129	;	No annotated function	1474	2062	+	MEint.metabat.11576_356001087	
+kb|g.236129.CDS.418	CDS	carbon monoxide dehydrogenase G protein	kb|g.236129	none		2061	2781	+	MEint.metabat.11576_356001087	carbon monoxide dehydrogenase G protein
+kb|g.236129.CDS.419	CDS		kb|g.236129	;	No annotated function	2764	3262	+	MEint.metabat.11576_356001087	
+kb|g.236129.CDS.420	CDS		kb|g.236129	;	No annotated function	3258	4215	+	MEint.metabat.11576_356001087	
+kb|g.236129.CDS.421	CDS		kb|g.236129	;	No annotated function	4211	4859	+	MEint.metabat.11576_356001087	
+kb|g.236129.CDS.422	CDS	Enoyl-CoA hydratase (EC 4.2.1.17)	kb|g.236129	none		5677	4924	-	MEint.metabat.11576_356001087	Enoyl-CoA hydratase (EC 4.2.1.17)
+kb|g.236129.CDS.423	CDS		kb|g.236129	;	No annotated function	5712	6321	+	MEint.metabat.11576_356001087	
+kb|g.236129.CDS.424	CDS	Fructokinase (EC 2.7.1.4)	kb|g.236129	none		7345	6346	-	MEint.metabat.11576_356001087	Fructokinase (EC 2.7.1.4)
+kb|g.236129.CDS.425	CDS		kb|g.236129	;	No annotated function	7414	7720	+	MEint.metabat.11576_356001087	
+kb|g.236129.CDS.426	CDS		kb|g.236129	;	No annotated function	8230	7720	-	MEint.metabat.11576_356001087	
+kb|g.236129.CDS.427	CDS		kb|g.236129	;	No annotated function	10433	8723	-	MEint.metabat.11576_356001087	
+kb|g.236129.CDS.428	CDS	Exodeoxyribonuclease III (EC 3.1.11.2)	kb|g.236129	none		17	788	+	MEint.metabat.11576_2342001077	Exodeoxyribonuclease III (EC 3.1.11.2)
+kb|g.236129.CDS.429	CDS		kb|g.236129	;	No annotated function	784	1558	+	MEint.metabat.11576_2342001077	
+kb|g.236129.CDS.430	CDS		kb|g.236129	;	No annotated function	2042	1592	-	MEint.metabat.11576_2342001077	
+kb|g.236129.CDS.431	CDS	Predicted ATPase related to phosphate starvation-inducible protein PhoH	kb|g.236129	none		3876	2373	-	MEint.metabat.11576_2342001077	Predicted ATPase related to phosphate starvation-inducible protein PhoH
+kb|g.236129.CDS.432	CDS		kb|g.236129	;	No annotated function	4028	4142	+	MEint.metabat.11576_2342001077	
+kb|g.236129.CDS.433	CDS		kb|g.236129	;	No annotated function	4245	4569	+	MEint.metabat.11576_2342001077	
+kb|g.236129.CDS.434	CDS		kb|g.236129	;	No annotated function	5367	4791	-	MEint.metabat.11576_2342001077	
+kb|g.236129.CDS.435	CDS	Glycerol-3-phosphate dehydrogenase [NAD(P)+] (EC 1.1.1.94)	kb|g.236129	none		5392	6400	+	MEint.metabat.11576_2342001077	Glycerol-3-phosphate dehydrogenase [NAD(P)+] (EC 1.1.1.94)
+kb|g.236129.CDS.436	CDS		kb|g.236129	;	No annotated function	6423	7689	+	MEint.metabat.11576_2342001077	
+kb|g.236129.CDS.437	CDS	Ribonuclease HII (EC 3.1.26.4)	kb|g.236129	none		7685	8315	+	MEint.metabat.11576_2342001077	Ribonuclease HII (EC 3.1.26.4)
+kb|g.236129.CDS.438	CDS	Butyryl-CoA dehydrogenase (EC 1.3.99.2)	kb|g.236129	none		9595	8341	-	MEint.metabat.11576_2342001077	Butyryl-CoA dehydrogenase (EC 1.3.99.2)
+kb|g.236129.CDS.439	CDS		kb|g.236129	;	No annotated function	9610	10003	+	MEint.metabat.11576_2342001077	
+kb|g.236129.CDS.440	CDS		kb|g.236129	;	No annotated function	10067	10925	+	MEint.metabat.11576_2342001077	
+kb|g.236129.CDS.441	CDS		kb|g.236129	;	No annotated function	10936	11461	+	MEint.metabat.11576_2342001077	
+kb|g.236129.CDS.442	CDS	identified by similarity to GB:AAD29263.1	kb|g.236129	none		11872	11494	-	MEint.metabat.11576_2342001077	identified by similarity to GB:AAD29263.1
+kb|g.236129.CDS.443	CDS		kb|g.236129	;	No annotated function	12608	11885	-	MEint.metabat.11576_2342001077	
+kb|g.236129.CDS.444	CDS	Glutamyl-tRNA synthetase (EC 6.1.1.17) @ Glutamyl-tRNA(Gln) synthetase (EC 6.1.1.24)	kb|g.236129	none		12643	14092	+	MEint.metabat.11576_2342001077	Glutamyl-tRNA synthetase (EC 6.1.1.17);Glutamyl-tRNA(Gln) synthetase (EC 6.1.1.24)
+kb|g.236129.CDS.445	CDS	EpiH/GdmH-related protein	kb|g.236129	none		14096	14750	+	MEint.metabat.11576_2342001077	EpiH/GdmH-related protein
+kb|g.236129.CDS.446	CDS		kb|g.236129	;	No annotated function	613	16	-	MEint.metabat.11576_931002147	
+kb|g.236129.CDS.447	CDS		kb|g.236129	;	No annotated function	761	593	-	MEint.metabat.11576_931002147	
+kb|g.236129.CDS.448	CDS		kb|g.236129	;	No annotated function	760	1201	+	MEint.metabat.11576_931002147	
+kb|g.236129.CDS.449	CDS		kb|g.236129	;	No annotated function	1252	1741	+	MEint.metabat.11576_931002147	
+kb|g.236129.CDS.450	CDS		kb|g.236129	;	No annotated function	1757	2348	+	MEint.metabat.11576_931002147	
+kb|g.236129.CDS.451	CDS		kb|g.236129	;	No annotated function	2373	2934	+	MEint.metabat.11576_931002147	
+kb|g.236129.CDS.452	CDS		kb|g.236129	;	No annotated function	2938	3118	+	MEint.metabat.11576_931002147	
+kb|g.236129.CDS.453	CDS	Phosphate:acyl-ACP acyltransferase PlsX	kb|g.236129	none		3251	4226	+	MEint.metabat.11576_931002147	Phosphate:acyl-ACP acyltransferase PlsX
+kb|g.236129.CDS.454	CDS		kb|g.236129	;	No annotated function	637	841	+	MEint.metabat.11576_1965000788	
+kb|g.236129.CDS.455	CDS	LSU ribosomal protein L9p	kb|g.236129	none		1389	948	-	MEint.metabat.11576_1965000788	LSU ribosomal protein L9p
+kb|g.236129.CDS.456	CDS		kb|g.236129	;	No annotated function	1816	1399	-	MEint.metabat.11576_1965000788	
+kb|g.236129.CDS.457	CDS	Single-stranded DNA-binding protein	kb|g.236129	none		2295	1857	-	MEint.metabat.11576_1965000788	Single-stranded DNA-binding protein
+kb|g.236129.CDS.458	CDS	SSU ribosomal protein S6p	kb|g.236129	none		2660	2324	-	MEint.metabat.11576_1965000788	SSU ribosomal protein S6p
+kb|g.236129.CDS.459	CDS		kb|g.236129	;	No annotated function	3246	2793	-	MEint.metabat.11576_1965000788	
+kb|g.236129.CDS.460	CDS	tRNA nucleotidyltransferase (EC 2.7.7.21) (EC 2.7.7.25)	kb|g.236129	none		4618	3214	-	MEint.metabat.11576_1965000788	tRNA nucleotidyltransferase (EC 2.7.7.21) (EC 2.7.7.25)
+kb|g.236129.CDS.461	CDS		kb|g.236129	;	No annotated function	4767	4647	-	MEint.metabat.11576_1965000788	
+kb|g.236129.CDS.462	CDS		kb|g.236129	;	No annotated function	4823	5327	+	MEint.metabat.11576_1965000788	
+kb|g.236129.CDS.463	CDS		kb|g.236129	;	No annotated function	5828	5705	-	MEint.metabat.11576_1965000788	
+kb|g.236129.CDS.464	CDS		kb|g.236129	;	No annotated function	5203	4336	-	MEint.metabat.11576_2241001216	
+kb|g.236129.CDS.465	CDS		kb|g.236129	;	No annotated function	5904	5283	-	MEint.metabat.11576_2241001216	
+kb|g.236129.CDS.466	CDS	Phage tail fiber protein	kb|g.236129	none		6954	5976	-	MEint.metabat.11576_2241001216	Phage tail fiber protein
+kb|g.236129.CDS.467	CDS		kb|g.236129	;	No annotated function	7180	7051	-	MEint.metabat.11576_2241001216	
+kb|g.236129.CDS.468	CDS		kb|g.236129	;	No annotated function	7198	7378	+	MEint.metabat.11576_2241001216	
+kb|g.236129.CDS.469	CDS		kb|g.236129	;	No annotated function	7488	7803	+	MEint.metabat.11576_2241001216	
+kb|g.236129.CDS.470	CDS		kb|g.236129	;	No annotated function	7799	8759	+	MEint.metabat.11576_2241001216	
+kb|g.236129.CDS.471	CDS		kb|g.236129	;	No annotated function	8758	9364	+	MEint.metabat.11576_2241001216	
+kb|g.236129.CDS.472	CDS		kb|g.236129	;	No annotated function	9360	10143	+	MEint.metabat.11576_2241001216	
+kb|g.236129.CDS.473	CDS	Type II/IV secretion system ATP hydrolase TadA/VirB11/CpaF, TadA subfamily	kb|g.236129	none		10175	11474	+	MEint.metabat.11576_2241001216	Type II/IV secretion system ATP hydrolase TadA/VirB11/CpaF, TadA subfamily
+kb|g.236129.CDS.474	CDS		kb|g.236129	;	No annotated function	11470	12220	+	MEint.metabat.11576_2241001216	
+kb|g.236129.CDS.475	CDS		kb|g.236129	;	No annotated function	12226	13006	+	MEint.metabat.11576_2241001216	
+kb|g.236129.CDS.476	CDS		kb|g.236129	;	No annotated function	13008	13584	+	MEint.metabat.11576_2241001216	
+kb|g.236129.CDS.477	CDS	Universal stress protein family	kb|g.236129	none		14010	13566	-	MEint.metabat.11576_2241001216	Universal stress protein family
+kb|g.236129.CDS.478	CDS	Arginyl-tRNA synthetase (EC 6.1.1.19)	kb|g.236129	none		176	1964	+	MEint.metabat.11576_1272000033	Arginyl-tRNA synthetase (EC 6.1.1.19)
+kb|g.236129.CDS.479	CDS	Diaminopimelate decarboxylase (EC 4.1.1.20)	kb|g.236129	none		1960	3241	+	MEint.metabat.11576_1272000033	Diaminopimelate decarboxylase (EC 4.1.1.20)
+kb|g.236129.CDS.480	CDS	Homoserine dehydrogenase (EC 1.1.1.3)	kb|g.236129	none		3244	4552	+	MEint.metabat.11576_1272000033	Homoserine dehydrogenase (EC 1.1.1.3)
+kb|g.236129.CDS.481	CDS	Threonine synthase (EC 4.2.3.1)	kb|g.236129	none		4548	5949	+	MEint.metabat.11576_1272000033	Threonine synthase (EC 4.2.3.1)
+kb|g.236129.CDS.482	CDS		kb|g.236129	;	No annotated function	5956	6193	+	MEint.metabat.11576_1272000033	
+kb|g.236129.CDS.483	CDS	Pyridoxine biosynthesis glutamine amidotransferase, glutaminase subunit (EC 2.4.2.-)	kb|g.236129	none		6	246	+	MEint.metabat.11576_905000874	Pyridoxine biosynthesis glutamine amidotransferase, glutaminase subunit (EC 2.4.2.-)
+kb|g.236129.CDS.484	CDS	FIG000859: hypothetical protein YebC	kb|g.236129	none		256	1006	+	MEint.metabat.11576_905000874	FIG000859: hypothetical protein YebC
+kb|g.236129.CDS.485	CDS	Thiol peroxidase, Bcp-type (EC 1.11.1.15)	kb|g.236129	none		1058	1511	+	MEint.metabat.11576_905000874	Thiol peroxidase, Bcp-type (EC 1.11.1.15)
+kb|g.236129.CDS.486	CDS	Crossover junction endodeoxyribonuclease RuvC (EC 3.1.22.4)	kb|g.236129	none		1563	2097	+	MEint.metabat.11576_905000874	Crossover junction endodeoxyribonuclease RuvC (EC 3.1.22.4)
+kb|g.236129.CDS.487	CDS	Holliday junction DNA helicase RuvA	kb|g.236129	none		2093	2687	+	MEint.metabat.11576_905000874	Holliday junction DNA helicase RuvA
+kb|g.236129.CDS.488	CDS	Holliday junction DNA helicase RuvB	kb|g.236129	none		2679	3699	+	MEint.metabat.11576_905000874	Holliday junction DNA helicase RuvB
+kb|g.236129.CDS.489	CDS	FIG00761799: membrane protein	kb|g.236129	none		3969	5178	+	MEint.metabat.11576_905000874	FIG00761799: membrane protein
+kb|g.236129.CDS.490	CDS		kb|g.236129	;	No annotated function	16	214	+	MEint.metabat.11576_186000517	
+kb|g.236129.CDS.491	CDS	Chorismate synthase (EC 4.2.3.5)	kb|g.236129	none		226	1393	+	MEint.metabat.11576_186000517	Chorismate synthase (EC 4.2.3.5)
+kb|g.236129.CDS.492	CDS		kb|g.236129	;	No annotated function	1389	1914	+	MEint.metabat.11576_186000517	
+kb|g.236129.CDS.493	CDS	3-dehydroquinate synthase (EC 4.2.3.4)	kb|g.236129	none		1910	2936	+	MEint.metabat.11576_186000517	3-dehydroquinate synthase (EC 4.2.3.4)
+kb|g.236129.CDS.494	CDS	3-dehydroquinate dehydratase II (EC 4.2.1.10)	kb|g.236129	none		2941	3397	+	MEint.metabat.11576_186000517	3-dehydroquinate dehydratase II (EC 4.2.1.10)
+kb|g.236129.CDS.495	CDS	Aminopeptidase YpdF (MP-, MA-, MS-, AP-, NP- specific)	kb|g.236129	none		3393	4578	+	MEint.metabat.11576_186000517	Aminopeptidase YpdF (MP-, MA-, MS-, AP-, NP- specific)
+kb|g.236129.CDS.496	CDS	Translation elongation factor P	kb|g.236129	none		4550	5114	+	MEint.metabat.11576_186000517	Translation elongation factor P
+kb|g.236129.CDS.497	CDS	Transcription termination protein NusB	kb|g.236129	none		5127	5685	+	MEint.metabat.11576_186000517	Transcription termination protein NusB
+kb|g.236129.CDS.498	CDS		kb|g.236129	;	No annotated function	5694	7152	+	MEint.metabat.11576_186000517	
+kb|g.236129.CDS.499	CDS		kb|g.236129	;	No annotated function	2587	1729	-	MEint.metabat.11576_9000830	
+kb|g.236129.CDS.500	CDS	Anthranilate synthase, aminase component (EC 4.1.3.27)	kb|g.236129	none		4122	2583	-	MEint.metabat.11576_9000830	Anthranilate synthase, aminase component (EC 4.1.3.27)
+kb|g.236129.CDS.501	CDS	Heat shock protein 60 family co-chaperone GroES	kb|g.236129	none		4286	4130	-	MEint.metabat.11576_9000830	Heat shock protein 60 family co-chaperone GroES
+kb|g.236129.CDS.502	CDS	Ribokinase (EC 2.7.1.15)	kb|g.236129	none		717	1644	+	MEint.metabat.11576_68000419	Ribokinase (EC 2.7.1.15)
+kb|g.236129.CDS.503	CDS	Phytanoyl-CoA dioxygenase	kb|g.236129	none		2485	1639	-	MEint.metabat.11576_68000419	Phytanoyl-CoA dioxygenase
+kb|g.236129.CDS.504	CDS		kb|g.236129	;	No annotated function	3567	2481	-	MEint.metabat.11576_68000419	
+kb|g.236129.CDS.505	CDS		kb|g.236129	;	No annotated function	4666	3595	-	MEint.metabat.11576_68000419	
+kb|g.236129.CDS.506	CDS	Probable acyl-ACP desaturase, Stearoyl-ACP desaturase (EC 1.14.19.2)	kb|g.236129	none		5590	4675	-	MEint.metabat.11576_68000419	Probable acyl-ACP desaturase, Stearoyl-ACP desaturase (EC 1.14.19.2)
+kb|g.236129.CDS.507	CDS	dTDP-4-dehydrorhamnose reductase (EC 1.1.1.133)	kb|g.236129	none		6454	5599	-	MEint.metabat.11576_68000419	dTDP-4-dehydrorhamnose reductase (EC 1.1.1.133)
+kb|g.236129.CDS.508	CDS	dTDP-glucose 4,6-dehydratase (EC 4.2.1.46)	kb|g.236129	none		7410	6450	-	MEint.metabat.11576_68000419	dTDP-glucose 4,6-dehydratase (EC 4.2.1.46)
+kb|g.236129.CDS.509	CDS	dTDP-4-dehydrorhamnose 3,5-epimerase (EC 5.1.3.13)	kb|g.236129	none		8017	7450	-	MEint.metabat.11576_68000419	dTDP-4-dehydrorhamnose 3,5-epimerase (EC 5.1.3.13)
+kb|g.236129.CDS.510	CDS	Glucose-1-phosphate thymidylyltransferase (EC 2.7.7.24)	kb|g.236129	none		9105	8016	-	MEint.metabat.11576_68000419	Glucose-1-phosphate thymidylyltransferase (EC 2.7.7.24)
+kb|g.236129.CDS.511	CDS		kb|g.236129	;	No annotated function	9150	10383	+	MEint.metabat.11576_68000419	
+kb|g.236129.CDS.512	CDS		kb|g.236129	;	No annotated function	10379	11168	+	MEint.metabat.11576_68000419	
+kb|g.236129.CDS.513	CDS	GTP-binding protein HflX	kb|g.236129	none		1407	105	-	MEint.metabat.11576_497000625	GTP-binding protein HflX
+kb|g.236129.CDS.514	CDS	Diaminopimelate epimerase (EC 5.1.1.7)	kb|g.236129	none		2255	1403	-	MEint.metabat.11576_497000625	Diaminopimelate epimerase (EC 5.1.1.7)
+kb|g.236129.CDS.515	CDS	tRNA dimethylallyltransferase (EC 2.5.1.75)	kb|g.236129	none		3201	2277	-	MEint.metabat.11576_497000625	tRNA dimethylallyltransferase (EC 2.5.1.75)
+kb|g.236129.CDS.516	CDS	tRNA-i(6)A37 methylthiotransferase	kb|g.236129	none		4616	3197	-	MEint.metabat.11576_497000625	tRNA-i(6)A37 methylthiotransferase
+kb|g.236129.CDS.517	CDS	RecA protein	kb|g.236129	none		5502	4746	-	MEint.metabat.11576_497000625	RecA protein
+kb|g.236129.CDS.518	CDS		kb|g.236129	;	No annotated function	47	191	+	MEint.metabat.11576_492000435	
+kb|g.236129.CDS.519	CDS	ATP phosphoribosyltransferase (EC 2.4.2.17)	kb|g.236129	none		198	1071	+	MEint.metabat.11576_492000435	ATP phosphoribosyltransferase (EC 2.4.2.17)
+kb|g.236129.CDS.520	CDS	Adenosine deaminase (EC 3.5.4.4)	kb|g.236129	none		1163	2255	+	MEint.metabat.11576_492000435	Adenosine deaminase (EC 3.5.4.4)
+kb|g.236129.CDS.521	CDS		kb|g.236129	;	No annotated function	3594	2283	-	MEint.metabat.11576_492000435	
+kb|g.236129.CDS.522	CDS		kb|g.236129	;	No annotated function	4334	3602	-	MEint.metabat.11576_492000435	
+kb|g.236129.CDS.523	CDS		kb|g.236129	;	No annotated function	4369	4726	+	MEint.metabat.11576_492000435	
+kb|g.236129.CDS.524	CDS		kb|g.236129	;	No annotated function	5241	4758	-	MEint.metabat.11576_492000435	
+kb|g.236129.CDS.525	CDS		kb|g.236129	;	No annotated function	5624	5267	-	MEint.metabat.11576_492000435	
+kb|g.236129.CDS.526	CDS		kb|g.236129	;	No annotated function	1118	1916	+	MEint.metabat.11576_2242000227	
+kb|g.236129.CDS.527	CDS	F420-dependent N(5),N(10)-methylenetetrahydromethanopterin reductase (EC 1.5.99.11)	kb|g.236129	none		1917	2913	+	MEint.metabat.11576_2242000227	F420-dependent N(5),N(10)-methylenetetrahydromethanopterin reductase (EC 1.5.99.11)
+kb|g.236129.CDS.528	CDS	Lipid A export ATP-binding/permease protein MsbA	kb|g.236129	none		2909	4853	+	MEint.metabat.11576_2242000227	Lipid A export ATP-binding/permease protein MsbA
+kb|g.236129.CDS.529	CDS	Lipid A export ATP-binding/permease protein MsbA	kb|g.236129	none		4853	6641	+	MEint.metabat.11576_2242000227	Lipid A export ATP-binding/permease protein MsbA
+kb|g.236129.CDS.530	CDS	5-methyltetrahydrofolate--homocysteine methyltransferase (EC 2.1.1.13)	kb|g.236129	none		10175	6689	-	MEint.metabat.11576_2242000227	5-methyltetrahydrofolate--homocysteine methyltransferase (EC 2.1.1.13)
+kb|g.236129.CDS.531	CDS	ATP:Cob(I)alamin adenosyltransferase (EC 2.5.1.17)	kb|g.236129	none		10214	10766	+	MEint.metabat.11576_2242000227	ATP:Cob(I)alamin adenosyltransferase (EC 2.5.1.17)
+kb|g.236129.CDS.532	CDS	Cytosol aminopeptidase PepA (EC 3.4.11.1)	kb|g.236129	none		10865	12371	+	MEint.metabat.11576_2242000227	Cytosol aminopeptidase PepA (EC 3.4.11.1)
+kb|g.236129.CDS.533	CDS		kb|g.236129	;	No annotated function	12479	12338	-	MEint.metabat.11576_2242000227	
+kb|g.236129.CDS.534	CDS	NAD(P)HX epimerase / NAD(P)HX dehydratase	kb|g.236129	none		12478	13252	+	MEint.metabat.11576_2242000227	NAD(P)HX epimerase;NAD(P)HX dehydratase
+kb|g.236129.CDS.535	CDS		kb|g.236129	;	No annotated function	13341	14028	+	MEint.metabat.11576_2242000227	
+kb|g.236129.CDS.536	CDS		kb|g.236129	;	No annotated function	14445	14052	-	MEint.metabat.11576_2242000227	
+kb|g.236129.CDS.537	CDS	NAD-dependent protein deacetylase of SIR2 family	kb|g.236129	none		14499	15345	+	MEint.metabat.11576_2242000227	NAD-dependent protein deacetylase of SIR2 family
+kb|g.236129.CDS.538	CDS		kb|g.236129	;	No annotated function	2106	1680	-	MEint.metabat.11576_1683000172	
+kb|g.236129.CDS.539	CDS	Enolase (EC 4.2.1.11)	kb|g.236129	none		3427	2152	-	MEint.metabat.11576_1683000172	Enolase (EC 4.2.1.11)
+kb|g.236129.CDS.540	CDS	Nucleoside triphosphate pyrophosphohydrolase MazG (EC 3.6.1.8)	kb|g.236129	none		4951	3439	-	MEint.metabat.11576_1683000172	Nucleoside triphosphate pyrophosphohydrolase MazG (EC 3.6.1.8)
+kb|g.236129.CDS.541	CDS		kb|g.236129	;	No annotated function	5852	4958	-	MEint.metabat.11576_1683000172	
+kb|g.236129.CDS.542	CDS	Transcription-repair coupling factor	kb|g.236129	none		9356	5948	-	MEint.metabat.11576_1683000172	Transcription-repair coupling factor
+kb|g.236129.CDS.543	CDS	Peptidyl-tRNA hydrolase (EC 3.1.1.29)	kb|g.236129	none		9985	9367	-	MEint.metabat.11576_1683000172	Peptidyl-tRNA hydrolase (EC 3.1.1.29)
+kb|g.236129.CDS.544	CDS		kb|g.236129	;	No annotated function	10534	10006	-	MEint.metabat.11576_1683000172	
+kb|g.236129.CDS.545	CDS		kb|g.236129	;	No annotated function	1555	1096	-	MEint.metabat.11576_687000331	
+kb|g.236129.CDS.546	CDS		kb|g.236129	;	No annotated function	1697	1562	-	MEint.metabat.11576_687000331	
+kb|g.236129.CDS.547	CDS	Cytochrome c-type biogenesis protein CcmC, putative heme lyase for CcmE	kb|g.236129	none		2446	1699	-	MEint.metabat.11576_687000331	Cytochrome c-type biogenesis protein CcmC, putative heme lyase for CcmE
+kb|g.236129.CDS.548	CDS		kb|g.236129	;	No annotated function	3128	2447	-	MEint.metabat.11576_687000331	
+kb|g.236129.CDS.549	CDS		kb|g.236129	;	No annotated function	3796	3124	-	MEint.metabat.11576_687000331	
+kb|g.236129.CDS.550	CDS		kb|g.236129	;	No annotated function	3842	4172	+	MEint.metabat.11576_687000331	
+kb|g.236129.CDS.551	CDS		kb|g.236129	;	No annotated function	4168	4750	+	MEint.metabat.11576_687000331	
+kb|g.236129.CDS.552	CDS	Probable ATP-dependent helicase lhr (EC 3.6.1.-)	kb|g.236129	none		8080	4804	-	MEint.metabat.11576_687000331	Probable ATP-dependent helicase lhr (EC 3.6.1.-)
+kb|g.236129.CDS.553	CDS		kb|g.236129	;	No annotated function	1537	547	-	MEint.metabat.11576_2080000050	
+kb|g.236129.CDS.554	CDS	Chromate transport protein ChrA	kb|g.236129	none		1557	2685	+	MEint.metabat.11576_2080000050	Chromate transport protein ChrA
+kb|g.236129.CDS.555	CDS	Choline-sulfatase (EC 3.1.6.6)	kb|g.236129	none		4219	2680	-	MEint.metabat.11576_2080000050	Choline-sulfatase (EC 3.1.6.6)
+kb|g.236129.CDS.556	CDS		kb|g.236129	;	No annotated function	4763	4301	-	MEint.metabat.11576_2080000050	
+kb|g.236129.CDS.557	CDS		kb|g.236129	;	No annotated function	948	240	-	MEint.metabat.11576_109000468	
+kb|g.236129.CDS.558	CDS	Ribose-phosphate pyrophosphokinase (EC 2.7.6.1)	kb|g.236129	none		2018	1013	-	MEint.metabat.11576_109000468	Ribose-phosphate pyrophosphokinase (EC 2.7.6.1)
+kb|g.236129.CDS.559	CDS		kb|g.236129	;	No annotated function	3006	3147	+	MEint.metabat.11576_109000468	
+kb|g.236129.CDS.560	CDS	N-acetylglucosamine-1-phosphate uridyltransferase (EC 2.7.7.23) / Glucosamine-1-phosphate N-acetyltransferase (EC 2.3.1.157)	kb|g.236129	none		3019	2014	-	MEint.metabat.11576_109000468	N-acetylglucosamine-1-phosphate uridyltransferase (EC 2.7.7.23);Glucosamine-1-phosphate N-acetyltransferase (EC 2.3.1.157)
+kb|g.236129.CDS.561	CDS		kb|g.236129	;	No annotated function	3257	3419	+	MEint.metabat.11576_109000468	
+kb|g.236129.CDS.562	CDS	4-diphosphocytidyl-2-C-methyl-D-erythritol kinase (EC 2.7.1.148)	kb|g.236129	none		3985	3463	-	MEint.metabat.11576_109000468	4-diphosphocytidyl-2-C-methyl-D-erythritol kinase (EC 2.7.1.148)
+kb|g.236129.CDS.563	CDS	Dihydrolipoamide acyltransferase component of branched-chain alpha-keto acid dehydrogenase complex (EC 2.3.1.168)	kb|g.236129	none		106	1108	+	MEint.metabat.11576_760000254	Dihydrolipoamide acyltransferase component of branched-chain alpha-keto acid dehydrogenase complex (EC 2.3.1.168)
+kb|g.236129.CDS.564	CDS	Lipoate synthase	kb|g.236129	none		1107	2769	+	MEint.metabat.11576_760000254	Lipoate synthase
+kb|g.236129.CDS.565	CDS	Pirin-related protein	kb|g.236129	none		2765	3671	+	MEint.metabat.11576_760000254	Pirin-related protein
+kb|g.236129.CDS.566	CDS		kb|g.236129	;	No annotated function	3696	4809	+	MEint.metabat.11576_760000254	
+kb|g.236129.CDS.567	CDS		kb|g.236129	;	No annotated function	4834	5575	+	MEint.metabat.11576_760000254	
+kb|g.236129.CDS.568	CDS		kb|g.236129	;	No annotated function	79	514	+	MEint.metabat.11576_231000050	
+kb|g.236129.CDS.569	CDS		kb|g.236129	;	No annotated function	570	1143	+	MEint.metabat.11576_231000050	
+kb|g.236129.CDS.570	CDS		kb|g.236129	;	No annotated function	1180	1567	+	MEint.metabat.11576_231000050	
+kb|g.236129.CDS.571	CDS	Phosphoenolpyruvate carboxykinase [GTP] (EC 4.1.1.32)	kb|g.236129	none		3397	1597	-	MEint.metabat.11576_231000050	Phosphoenolpyruvate carboxykinase [GTP] (EC 4.1.1.32)
+kb|g.236129.CDS.572	CDS		kb|g.236129	;	No annotated function	3640	3418	-	MEint.metabat.11576_231000050	
+kb|g.236129.CDS.573	CDS		kb|g.236129	;	No annotated function	43	268	+	MEint.metabat.11576_1221002712	
+kb|g.236129.CDS.574	CDS		kb|g.236129	;	No annotated function	1090	316	-	MEint.metabat.11576_1221002712	
+kb|g.236129.CDS.575	CDS		kb|g.236129	;	No annotated function	1135	2488	+	MEint.metabat.11576_1221002712	
+kb|g.236129.CDS.576	CDS		kb|g.236129	;	No annotated function	3060	2694	-	MEint.metabat.11576_1221002712	
+kb|g.236129.CDS.577	CDS		kb|g.236129	;	No annotated function	4255	3079	-	MEint.metabat.11576_1221002712	
+kb|g.236129.CDS.578	CDS	Nicotinate-nucleotide adenylyltransferase (EC 2.7.7.18)	kb|g.236129	none		4878	4275	-	MEint.metabat.11576_1221002712	Nicotinate-nucleotide adenylyltransferase (EC 2.7.7.18)
+kb|g.236129.CDS.579	CDS		kb|g.236129	;	No annotated function	46	160	+	MEint.metabat.11576_1607001943	
+kb|g.236129.CDS.580	CDS	Carbamoyl-phosphate synthase small chain (EC 6.3.5.5)	kb|g.236129	none		167	1226	+	MEint.metabat.11576_1607001943	Carbamoyl-phosphate synthase small chain (EC 6.3.5.5)
+kb|g.236129.CDS.581	CDS	Carbamoyl-phosphate synthase large chain (EC 6.3.5.5)	kb|g.236129	none		1260	4695	+	MEint.metabat.11576_1607001943	Carbamoyl-phosphate synthase large chain (EC 6.3.5.5)
+kb|g.236129.CDS.582	CDS		kb|g.236129	;	No annotated function	5345	5102	-	MEint.metabat.11576_1607001943	
+kb|g.236129.CDS.583	CDS	GTP-binding protein Era	kb|g.236129	none		160	1000	+	MEint.metabat.11576_417002472	GTP-binding protein Era
+kb|g.236129.CDS.584	CDS		kb|g.236129	;	No annotated function	1691	1055	-	MEint.metabat.11576_417002472	
+kb|g.236129.CDS.585	CDS		kb|g.236129	;	No annotated function	3073	1687	-	MEint.metabat.11576_417002472	
+kb|g.236129.CDS.586	CDS	Phosphate regulon transcriptional regulatory protein PhoB (SphR)	kb|g.236129	none		3245	3935	+	MEint.metabat.11576_417002472	Phosphate regulon transcriptional regulatory protein PhoB (SphR)
+kb|g.236129.CDS.587	CDS	DinG family ATP-dependent helicase YoaA	kb|g.236129	none		5801	3884	-	MEint.metabat.11576_417002472	DinG family ATP-dependent helicase YoaA
+kb|g.236129.CDS.588	CDS		kb|g.236129	;	No annotated function	5969	5804	-	MEint.metabat.11576_417002472	
+kb|g.236129.CDS.589	CDS		kb|g.236129	;	No annotated function	12	786	+	MEint.metabat.11576_1669002464	
+kb|g.236129.CDS.590	CDS	GDP-mannose 4,6-dehydratase (EC 4.2.1.47)	kb|g.236129	none		1732	748	-	MEint.metabat.11576_1669002464	GDP-mannose 4,6-dehydratase (EC 4.2.1.47)
+kb|g.236129.CDS.591	CDS	Lactyl (2) diphospho-(5')guanosine:7,8-didemethyl-8-hydroxy-5-deazariboflavin 2-phospho-L-lactate transferase	kb|g.236129	none		1781	2762	+	MEint.metabat.11576_1669002464	Lactyl (2) diphospho-(5')guanosine:7,8-didemethyl-8-hydroxy-5-deazariboflavin 2-phospho-L-lactate transferase
+kb|g.236129.CDS.592	CDS		kb|g.236129	;	No annotated function	2761	3475	+	MEint.metabat.11576_1669002464	
+kb|g.236129.CDS.593	CDS		kb|g.236129	;	No annotated function	4096	3502	-	MEint.metabat.11576_1669002464	
+kb|g.236129.CDS.594	CDS		kb|g.236129	;	No annotated function	1427	2528	+	MEint.metabat.11576_1004001261	
+kb|g.236129.CDS.595	CDS	Carboxynorspermidine dehydrogenase	kb|g.236129	none		3826	2578	-	MEint.metabat.11576_1004001261	Carboxynorspermidine dehydrogenase
+kb|g.236129.CDS.596	CDS		kb|g.236129	;	No annotated function	3977	4097	+	MEint.metabat.11576_1004001261	
+kb|g.236129.CDS.597	CDS		kb|g.236129	;	No annotated function	4505	4067	-	MEint.metabat.11576_1004001261	
+kb|g.236129.CDS.598	CDS		kb|g.236129	;	No annotated function	4539	5325	+	MEint.metabat.11576_1004001261	
+kb|g.236129.CDS.599	CDS		kb|g.236129	;	No annotated function	6005	5405	-	MEint.metabat.11576_1004001261	
+kb|g.236129.CDS.600	CDS		kb|g.236129	;	No annotated function	1105	355	-	MEint.metabat.11576_2260002504	
+kb|g.236129.CDS.601	CDS	Glycine dehydrogenase [decarboxylating] (glycine cleavage system P protein) (EC 1.4.4.2)	kb|g.236129	none		1382	4274	+	MEint.metabat.11576_2260002504	Glycine dehydrogenase [decarboxylating] (glycine cleavage system P protein) (EC 1.4.4.2)
+kb|g.236129.CDS.602	CDS		kb|g.236129	;	No annotated function	4277	4706	+	MEint.metabat.11576_2260002504	
+kb|g.236129.CDS.603	CDS	Aminomethyltransferase (glycine cleavage system T protein) (EC 2.1.2.10)	kb|g.236129	none		5805	4752	-	MEint.metabat.11576_2260002504	Aminomethyltransferase (glycine cleavage system T protein) (EC 2.1.2.10)
+kb|g.236129.CDS.604	CDS		kb|g.236129	;	No annotated function	6315	5808	-	MEint.metabat.11576_2260002504	
+kb|g.236129.CDS.605	CDS		kb|g.236129	;	No annotated function	6875	6359	-	MEint.metabat.11576_2260002504	
+kb|g.236129.CDS.606	CDS	transcriptional regulator, MerR family	kb|g.236129	none		7672	6895	-	MEint.metabat.11576_2260002504	transcriptional regulator, MerR family
+kb|g.236129.CDS.607	CDS		kb|g.236129	;	No annotated function	8154	7677	-	MEint.metabat.11576_2260002504	
+kb|g.236129.CDS.608	CDS	Glycine cleavage system H protein	kb|g.236129	none		8544	8169	-	MEint.metabat.11576_2260002504	Glycine cleavage system H protein
+kb|g.236129.CDS.609	CDS		kb|g.236129	;	No annotated function	9154	8560	-	MEint.metabat.11576_2260002504	
+kb|g.236129.CDS.610	CDS		kb|g.236129	;	No annotated function	9534	9357	-	MEint.metabat.11576_2260002504	
+kb|g.236129.CDS.611	CDS		kb|g.236129	;	No annotated function	10328	9614	-	MEint.metabat.11576_2260002504	
+kb|g.236129.CDS.612	CDS		kb|g.236129	;	No annotated function	10569	10419	-	MEint.metabat.11576_2260002504	
+kb|g.236129.CDS.613	CDS	GTP-binding protein EngA	kb|g.236129	none		12010	10675	-	MEint.metabat.11576_2260002504	GTP-binding protein EngA
+kb|g.236129.CDS.614	CDS	4-hydroxy-3-methylbut-2-enyl diphosphate reductase (EC 1.17.1.2)	kb|g.236129	none		12046	13117	+	MEint.metabat.11576_2260002504	4-hydroxy-3-methylbut-2-enyl diphosphate reductase (EC 1.17.1.2)
+kb|g.236129.CDS.615	CDS	Butyryl-CoA dehydrogenase (EC 1.3.99.2)	kb|g.236129	none		14590	13120	-	MEint.metabat.11576_2260002504	Butyryl-CoA dehydrogenase (EC 1.3.99.2)
+kb|g.236129.CDS.616	CDS		kb|g.236129	;	No annotated function	1318	622	-	MEint.metabat.11576_762000463	
+kb|g.236129.CDS.617	CDS		kb|g.236129	;	No annotated function	1602	2814	+	MEint.metabat.11576_762000463	
+kb|g.236129.CDS.618	CDS		kb|g.236129	;	No annotated function	3068	3428	+	MEint.metabat.11576_762000463	
+kb|g.236129.CDS.619	CDS		kb|g.236129	;	No annotated function	3424	4639	+	MEint.metabat.11576_762000463	
+kb|g.236129.CDS.620	CDS		kb|g.236129	;	No annotated function	5337	4638	-	MEint.metabat.11576_762000463	
+kb|g.236129.CDS.621	CDS		kb|g.236129	;	No annotated function	5990	5348	-	MEint.metabat.11576_762000463	
+kb|g.236129.CDS.622	CDS		kb|g.236129	;	No annotated function	6741	6021	-	MEint.metabat.11576_762000463	
+kb|g.236129.CDS.623	CDS		kb|g.236129	;	No annotated function	7176	6768	-	MEint.metabat.11576_762000463	
+kb|g.236129.CDS.624	CDS	Fructose-1,6-bisphosphatase, GlpX type (EC 3.1.3.11)	kb|g.236129	none		7221	8214	+	MEint.metabat.11576_762000463	Fructose-1,6-bisphosphatase, GlpX type (EC 3.1.3.11)
+kb|g.236129.CDS.625	CDS		kb|g.236129	;	No annotated function	8938	8251	-	MEint.metabat.11576_762000463	
+kb|g.236129.CDS.626	CDS		kb|g.236129	;	No annotated function	8937	9522	+	MEint.metabat.11576_762000463	
+kb|g.236129.CDS.627	CDS		kb|g.236129	;	No annotated function	10627	9583	-	MEint.metabat.11576_762000463	
+kb|g.236129.CDS.628	CDS		kb|g.236129	;	No annotated function	829	1411	+	MEint.metabat.11576_507001960	
+kb|g.236129.CDS.629	CDS		kb|g.236129	;	No annotated function	1421	1553	+	MEint.metabat.11576_507001960	
+kb|g.236129.CDS.630	CDS		kb|g.236129	;	No annotated function	2895	1506	-	MEint.metabat.11576_507001960	
+kb|g.236129.CDS.631	CDS		kb|g.236129	;	No annotated function	2922	3291	+	MEint.metabat.11576_507001960	
+kb|g.236129.CDS.632	CDS		kb|g.236129	;	No annotated function	3403	3265	-	MEint.metabat.11576_507001960	
+kb|g.236129.CDS.633	CDS		kb|g.236129	;	No annotated function	3983	3365	-	MEint.metabat.11576_507001960	
+kb|g.236129.CDS.634	CDS		kb|g.236129	;	No annotated function	4090	5488	+	MEint.metabat.11576_507001960	
+kb|g.236129.CDS.635	CDS		kb|g.236129	;	No annotated function	5867	5522	-	MEint.metabat.11576_507001960	
+kb|g.236129.CDS.636	CDS	AclJ	kb|g.236129	none		6354	5895	-	MEint.metabat.11576_507001960	AclJ
+kb|g.236129.CDS.637	CDS		kb|g.236129	;	No annotated function	6329	6449	+	MEint.metabat.11576_507001960	
+kb|g.236129.CDS.638	CDS		kb|g.236129	;	No annotated function	6456	6846	+	MEint.metabat.11576_507001960	
+kb|g.236129.CDS.639	CDS		kb|g.236129	;	No annotated function	6858	7329	+	MEint.metabat.11576_507001960	
+kb|g.236129.CDS.640	CDS		kb|g.236129	;	No annotated function	7428	7293	-	MEint.metabat.11576_507001960	
+kb|g.236129.CDS.641	CDS	2-haloalkanoic acid dehalogenase	kb|g.236129	none		7429	8059	+	MEint.metabat.11576_507001960	2-haloalkanoic acid dehalogenase
+kb|g.236129.CDS.642	CDS		kb|g.236129	;	No annotated function	8115	9753	+	MEint.metabat.11576_507001960	
+kb|g.236129.CDS.643	CDS	Integrins alpha chain:ASPIC/UnbV	kb|g.236129	none		9787	11452	+	MEint.metabat.11576_507001960	Integrins alpha chain:ASPIC/UnbV
+kb|g.236129.CDS.644	CDS	D-xylose transport ATP-binding protein XylG	kb|g.236129	none		12264	11499	-	MEint.metabat.11576_507001960	D-xylose transport ATP-binding protein XylG
+kb|g.236129.CDS.645	CDS	Xylose ABC transporter, permease protein XylH	kb|g.236129	none		13615	12277	-	MEint.metabat.11576_507001960	Xylose ABC transporter, permease protein XylH
+kb|g.236129.CDS.646	CDS	Xylose ABC transporter, periplasmic xylose-binding protein XylF	kb|g.236129	none		14816	13712	-	MEint.metabat.11576_507001960	Xylose ABC transporter, periplasmic xylose-binding protein XylF
+kb|g.236129.CDS.647	CDS		kb|g.236129	;	No annotated function	14978	15515	+	MEint.metabat.11576_507001960	
+kb|g.236129.CDS.648	CDS	Malate dehydrogenase (EC 1.1.1.37)	kb|g.236129	none		28	553	+	MEint.metabat.11576_746002887	Malate dehydrogenase (EC 1.1.1.37)
+kb|g.236129.CDS.649	CDS		kb|g.236129	;	No annotated function	935	548	-	MEint.metabat.11576_746002887	
+kb|g.236129.CDS.650	CDS	Pyrophosphate-energized proton pump (EC 3.6.1.1)	kb|g.236129	none		3308	971	-	MEint.metabat.11576_746002887	Pyrophosphate-energized proton pump (EC 3.6.1.1)
+kb|g.236129.CDS.651	CDS		kb|g.236129	;	No annotated function	3391	3514	+	MEint.metabat.11576_746002887	
+kb|g.236129.CDS.652	CDS		kb|g.236129	;	No annotated function	3631	3496	-	MEint.metabat.11576_746002887	
+kb|g.236129.CDS.653	CDS		kb|g.236129	;	No annotated function	19	178	+	MEint.metabat.11576_56002730	
+kb|g.236129.CDS.654	CDS	Cell division protein FtsI [Peptidoglycan synthetase] (EC 2.4.1.129)	kb|g.236129	none		209	2333	+	MEint.metabat.11576_56002730	Cell division protein FtsI [Peptidoglycan synthetase] (EC 2.4.1.129)
+kb|g.236129.CDS.655	CDS	Rod shape-determining protein RodA	kb|g.236129	none		2334	3507	+	MEint.metabat.11576_56002730	Rod shape-determining protein RodA
+kb|g.236129.CDS.656	CDS	diguanylate cyclase/phosphodiesterase (GGDEF & EAL domains) with PAS/PAC sensor(s)	kb|g.236129	none		2054	104	-	MEint.metabat.11576_2309002902	diguanylate cyclase/phosphodiesterase (GGDEF & EAL domains) with PAS/PAC sensor(s)
+kb|g.236129.CDS.657	CDS		kb|g.236129	;	No annotated function	2867	2279	-	MEint.metabat.11576_2309002902	
+kb|g.236129.CDS.658	CDS	Mycothiol S-conjugate amidase Mca	kb|g.236129	none		2956	3868	+	MEint.metabat.11576_2309002902	Mycothiol S-conjugate amidase Mca
+kb|g.236129.CDS.659	CDS		kb|g.236129	;	No annotated function	3864	4095	+	MEint.metabat.11576_2309002902	
+kb|g.236129.CDS.660	CDS		kb|g.236129	;	No annotated function	4917	4056	-	MEint.metabat.11576_2309002902	
+kb|g.236129.CDS.661	CDS		kb|g.236129	;	No annotated function	5408	4931	-	MEint.metabat.11576_2309002902	
+kb|g.236129.CDS.662	CDS		kb|g.236129	;	No annotated function	5380	5494	+	MEint.metabat.11576_2309002902	
+kb|g.236129.CDS.663	CDS	Coenzyme F420-dependent N5,N10-methylene tetrahydromethanopterin reductase and related flavin-dependent oxidoreductases	kb|g.236129	none		5513	6491	+	MEint.metabat.11576_2309002902	Coenzyme F420-dependent N5,N10-methylene tetrahydromethanopterin reductase and related flavin-dependent oxidoreductases
+kb|g.236129.CDS.664	CDS	Oxidoreductase, short chain dehydrogenase/reductase family	kb|g.236129	none		7351	6541	-	MEint.metabat.11576_2309002902	Oxidoreductase, short chain dehydrogenase/reductase family
+kb|g.236129.CDS.665	CDS		kb|g.236129	;	No annotated function	7444	7639	+	MEint.metabat.11576_2309002902	
+kb|g.236129.CDS.666	CDS		kb|g.236129	;	No annotated function	9079	7597	-	MEint.metabat.11576_2309002902	
+kb|g.236129.CDS.667	CDS		kb|g.236129	;	No annotated function	9615	9075	-	MEint.metabat.11576_2309002902	
+kb|g.236129.CDS.668	CDS		kb|g.236129	;	No annotated function	10487	9611	-	MEint.metabat.11576_2309002902	
+kb|g.236129.CDS.669	CDS		kb|g.236129	;	No annotated function	11412	10524	-	MEint.metabat.11576_2309002902	
+kb|g.236129.CDS.670	CDS	Butyryl-CoA dehydrogenase (EC 1.3.99.2)	kb|g.236129	none		11451	12696	+	MEint.metabat.11576_2309002902	Butyryl-CoA dehydrogenase (EC 1.3.99.2)
+kb|g.236129.CDS.671	CDS		kb|g.236129	;	No annotated function	12832	14425	+	MEint.metabat.11576_2309002902	
+kb|g.236129.CDS.672	CDS	N5,N10-methylenetetrahydromethanopterin reductase-related protein	kb|g.236129	none		14556	15609	+	MEint.metabat.11576_2309002902	N5,N10-methylenetetrahydromethanopterin reductase-related protein
+kb|g.236129.CDS.673	CDS		kb|g.236129	;	No annotated function	16854	15633	-	MEint.metabat.11576_2309002902	
+kb|g.236129.CDS.674	CDS	Enoyl-[acyl-carrier-protein] reductase [FMN] (EC 1.3.1.9)	kb|g.236129	none		17831	16862	-	MEint.metabat.11576_2309002902	Enoyl-[acyl-carrier-protein] reductase [FMN] (EC 1.3.1.9)
+kb|g.236129.CDS.675	CDS		kb|g.236129	;	No annotated function	19059	17841	-	MEint.metabat.11576_2309002902	
+kb|g.236129.CDS.676	CDS	3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100)	kb|g.236129	none		19126	20050	+	MEint.metabat.11576_2309002902	3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100)
+kb|g.236129.CDS.677	CDS		kb|g.236129	;	No annotated function	20514	20073	-	MEint.metabat.11576_2309002902	
+kb|g.236129.CDS.678	CDS	FIG00996186: hypothetical protein	kb|g.236129	none		21221	20561	-	MEint.metabat.11576_2309002902	FIG00996186: hypothetical protein
+kb|g.236129.CDS.679	CDS	Ubiquinone biosynthesis monooxygenase UbiB	kb|g.236129	none		22873	21268	-	MEint.metabat.11576_2309002902	Ubiquinone biosynthesis monooxygenase UbiB
+kb|g.236129.CDS.680	CDS		kb|g.236129	;	No annotated function	23703	22920	-	MEint.metabat.11576_2309002902	
+kb|g.236129.CDS.681	CDS		kb|g.236129	;	No annotated function	24032	23699	-	MEint.metabat.11576_2309002902	
+kb|g.236129.CDS.682	CDS	ABC transporter, ATP-binding protein	kb|g.236129	none		25708	24028	-	MEint.metabat.11576_2309002902	ABC transporter, ATP-binding protein
+kb|g.236129.CDS.683	CDS		kb|g.236129	;	No annotated function	25794	26553	+	MEint.metabat.11576_2309002902	
+kb|g.236129.CDS.684	CDS		kb|g.236129	;	No annotated function	28354	27445	-	MEint.metabat.11576_2309002902	
+kb|g.236129.CDS.685	CDS	Transaldolase (EC 2.2.1.2)	kb|g.236129	none		220	538	+	MEint.metabat.11576_1810002918	Transaldolase (EC 2.2.1.2)
+kb|g.236129.CDS.686	CDS		kb|g.236129	;	No annotated function	740	539	-	MEint.metabat.11576_1810002918	
+kb|g.236129.CDS.687	CDS	GTP-binding protein TypA/BipA	kb|g.236129	none		2554	751	-	MEint.metabat.11576_1810002918	GTP-binding protein TypA/BipA
+kb|g.236129.CDS.688	CDS		kb|g.236129	;	No annotated function	2805	2580	-	MEint.metabat.11576_1810002918	
+kb|g.236129.CDS.689	CDS	Ribonuclease D (EC 3.1.26.3)	kb|g.236129	none		4037	2876	-	MEint.metabat.11576_1810002918	Ribonuclease D (EC 3.1.26.3)
+kb|g.236129.CDS.690	CDS		kb|g.236129	;	No annotated function	4377	4053	-	MEint.metabat.11576_1810002918	
+kb|g.236129.CDS.691	CDS		kb|g.236129	;	No annotated function	5006	4388	-	MEint.metabat.11576_1810002918	
+kb|g.236129.CDS.692	CDS		kb|g.236129	;	No annotated function	5446	5014	-	MEint.metabat.11576_1810002918	
+kb|g.236129.CDS.693	CDS		kb|g.236129	;	No annotated function	5577	5823	+	MEint.metabat.11576_1810002918	
+kb|g.236129.CDS.694	CDS		kb|g.236129	;	No annotated function	5815	7129	+	MEint.metabat.11576_1810002918	
+kb|g.236129.CDS.695	CDS		kb|g.236129	;	No annotated function	7587	7134	-	MEint.metabat.11576_1810002918	
+kb|g.236129.CDS.696	CDS		kb|g.236129	;	No annotated function	409	1183	+	MEint.metabat.11576_139001860	
+kb|g.236129.CDS.697	CDS		kb|g.236129	;	No annotated function	2642	1178	-	MEint.metabat.11576_139001860	
+kb|g.236129.CDS.698	CDS		kb|g.236129	;	No annotated function	3371	2645	-	MEint.metabat.11576_139001860	
+kb|g.236129.CDS.699	CDS		kb|g.236129	;	No annotated function	4006	3382	-	MEint.metabat.11576_139001860	
+kb|g.236129.CDS.700	CDS		kb|g.236129	;	No annotated function	4052	4679	+	MEint.metabat.11576_139001860	
+kb|g.236129.CDS.701	CDS		kb|g.236129	;	No annotated function	6324	4635	-	MEint.metabat.11576_139001860	
+kb|g.236129.CDS.702	CDS		kb|g.236129	;	No annotated function	6391	7795	+	MEint.metabat.11576_139001860	
+kb|g.236129.CDS.703	CDS		kb|g.236129	;	No annotated function	7926	8250	+	MEint.metabat.11576_139001860	
+kb|g.236129.CDS.704	CDS		kb|g.236129	;	No annotated function	8308	8965	+	MEint.metabat.11576_139001860	
+kb|g.236129.CDS.705	CDS		kb|g.236129	;	No annotated function	9127	9766	+	MEint.metabat.11576_139001860	
+kb|g.236129.CDS.706	CDS	Large exoproteins involved in heme utilization or adhesion	kb|g.236129	none		9881	11726	+	MEint.metabat.11576_139001860	Large exoproteins involved in heme utilization or adhesion
+kb|g.236129.CDS.707	CDS		kb|g.236129	;	No annotated function	12440	12032	-	MEint.metabat.11576_139001860	
+kb|g.236129.CDS.708	CDS		kb|g.236129	;	No annotated function	450	2079	+	MEint.metabat.11576_2349002864	
+kb|g.236129.CDS.709	CDS		kb|g.236129	;	No annotated function	2585	2129	-	MEint.metabat.11576_2349002864	
+kb|g.236129.CDS.710	CDS		kb|g.236129	;	No annotated function	2868	3792	+	MEint.metabat.11576_2349002864	
+kb|g.236129.CDS.711	CDS		kb|g.236129	;	No annotated function	4016	4163	+	MEint.metabat.11576_2349002864	
+kb|g.236129.CDS.712	CDS		kb|g.236129	;	No annotated function	4191	4692	+	MEint.metabat.11576_2349002864	
+kb|g.236129.CDS.713	CDS	3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100)	kb|g.236129	none		4654	5554	+	MEint.metabat.11576_2349002864	3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100)
+kb|g.236129.CDS.714	CDS		kb|g.236129	;	No annotated function	6398	5618	-	MEint.metabat.11576_2349002864	
+kb|g.236129.CDS.715	CDS		kb|g.236129	;	No annotated function	7067	7253	+	MEint.metabat.11576_2349002864	
+kb|g.236129.CDS.716	CDS	polar amino acid ABC transporter, inner membrane subunit	kb|g.236129	none		7066	6394	-	MEint.metabat.11576_2349002864	polar amino acid ABC transporter, inner membrane subunit
+kb|g.236129.CDS.717	CDS	FIG01023917: hypothetical protein	kb|g.236129	none		8193	7218	-	MEint.metabat.11576_2349002864	FIG01023917: hypothetical protein
+kb|g.236129.CDS.718	CDS		kb|g.236129	;	No annotated function	8455	8212	-	MEint.metabat.11576_2349002864	
+kb|g.236129.CDS.719	CDS		kb|g.236129	;	No annotated function	16	373	+	MEint.metabat.11576_587002864	
+kb|g.236129.CDS.720	CDS		kb|g.236129	;	No annotated function	686	440	-	MEint.metabat.11576_587002864	
+kb|g.236129.CDS.721	CDS		kb|g.236129	;	No annotated function	732	1260	+	MEint.metabat.11576_587002864	
+kb|g.236129.CDS.722	CDS	Nitrogen regulatory protein P-II	kb|g.236129	none		1817	1478	-	MEint.metabat.11576_587002864	Nitrogen regulatory protein P-II
+kb|g.236129.CDS.723	CDS	Ammonium transporter	kb|g.236129	none		3199	1849	-	MEint.metabat.11576_587002864	Ammonium transporter
+kb|g.236129.CDS.724	CDS		kb|g.236129	;	No annotated function	3467	3278	-	MEint.metabat.11576_587002864	
+kb|g.236129.CDS.725	CDS	NAD-specific glutamate dehydrogenase (EC 1.4.1.2); NADP-specific glutamate dehydrogenase (EC 1.4.1.4)	kb|g.236129	;		3424	4705	+	MEint.metabat.11576_587002864	NAD-specific glutamate dehydrogenase (EC 1.4.1.2);NADP-specific glutamate dehydrogenase (EC 1.4.1.4)
+kb|g.236129.CDS.726	CDS	Adenosylmethionine-8-amino-7-oxononanoate aminotransferase (EC 2.6.1.62)	kb|g.236129	none		4761	6105	+	MEint.metabat.11576_587002864	Adenosylmethionine-8-amino-7-oxononanoate aminotransferase (EC 2.6.1.62)
+kb|g.236129.CDS.727	CDS		kb|g.236129	;	No annotated function	6523	6259	-	MEint.metabat.11576_587002864	
+kb|g.236129.CDS.728	CDS		kb|g.236129	;	No annotated function	954	273	-	MEint.metabat.11576_1180001791	
+kb|g.236129.CDS.729	CDS		kb|g.236129	;	No annotated function	982	1174	+	MEint.metabat.11576_1180001791	
+kb|g.236129.CDS.730	CDS		kb|g.236129	;	No annotated function	1170	1917	+	MEint.metabat.11576_1180001791	
+kb|g.236129.CDS.731	CDS	UDP-glucose 4-epimerase (EC 5.1.3.2)	kb|g.236129	none		2916	1935	-	MEint.metabat.11576_1180001791	UDP-glucose 4-epimerase (EC 5.1.3.2)
+kb|g.236129.CDS.732	CDS		kb|g.236129	;	No annotated function	3509	2912	-	MEint.metabat.11576_1180001791	
+kb|g.236129.CDS.733	CDS	Pyruvate dehydrogenase E1 component (EC 1.2.4.1)	kb|g.236129	none		6234	3522	-	MEint.metabat.11576_1180001791	Pyruvate dehydrogenase E1 component (EC 1.2.4.1)
+kb|g.236129.CDS.734	CDS	Ribonuclease HI (EC 3.1.26.4)	kb|g.236129	none		6374	6821	+	MEint.metabat.11576_1180001791	Ribonuclease HI (EC 3.1.26.4)
+kb|g.236129.CDS.735	CDS	3-hydroxyacyl-CoA dehydrogenase (EC 1.1.1.35) @ 17hydroxysteroid dehydrogenase type 10 (HSD10)-like	kb|g.236129	none		6832	7609	+	MEint.metabat.11576_1180001791	3-hydroxyacyl-CoA dehydrogenase (EC 1.1.1.35);17hydroxysteroid dehydrogenase type 10 (HSD10)-like
+kb|g.236129.CDS.736	CDS		kb|g.236129	;	No annotated function	7717	8563	+	MEint.metabat.11576_1180001791	
+kb|g.236129.CDS.737	CDS		kb|g.236129	;	No annotated function	9087	8598	-	MEint.metabat.11576_1180001791	
+kb|g.236129.CDS.738	CDS		kb|g.236129	;	No annotated function	296	3527	+	MEint.metabat.11576_766002317	
+kb|g.236129.CDS.739	CDS		kb|g.236129	;	No annotated function	3526	5029	+	MEint.metabat.11576_766002317	
+kb|g.236129.CDS.740	CDS		kb|g.236129	;	No annotated function	5030	5489	+	MEint.metabat.11576_766002317	
+kb|g.236129.CDS.741	CDS	Cell division protein FtsH (EC 3.4.24.-)	kb|g.236129	none		6480	5535	-	MEint.metabat.11576_766002317	Cell division protein FtsH (EC 3.4.24.-)
+kb|g.236129.CDS.742	CDS		kb|g.236129	;	No annotated function	396	42	-	MEint.metabat.11576_2018002934	
+kb|g.236129.CDS.743	CDS	Fe-S oxidoreductase	kb|g.236129	none		2697	423	-	MEint.metabat.11576_2018002934	Fe-S oxidoreductase
+kb|g.236129.CDS.744	CDS		kb|g.236129	;	No annotated function	3191	2756	-	MEint.metabat.11576_2018002934	
+kb|g.236129.CDS.745	CDS	Phosphoglycerate mutase (EC 5.4.2.1)	kb|g.236129	none		4045	3241	-	MEint.metabat.11576_2018002934	Phosphoglycerate mutase (EC 5.4.2.1)
+kb|g.236129.CDS.746	CDS	Ribokinase (EC 2.7.1.15)	kb|g.236129	none		4089	4989	+	MEint.metabat.11576_2018002934	Ribokinase (EC 2.7.1.15)
+kb|g.236129.CDS.747	CDS		kb|g.236129	;	No annotated function	5359	5026	-	MEint.metabat.11576_2018002934	
+kb|g.236129.CDS.748	CDS	Gluconolactonase (EC 3.1.1.17)	kb|g.236129	none		15	954	+	MEint.metabat.11576_5001104	Gluconolactonase (EC 3.1.1.17)
+kb|g.236129.CDS.749	CDS		kb|g.236129	;	No annotated function	1039	1651	+	MEint.metabat.11576_5001104	
+kb|g.236129.CDS.750	CDS		kb|g.236129	;	No annotated function	1858	5680	+	MEint.metabat.11576_5001104	
+kb|g.236129.CDS.751	CDS	Ribosomal protein S12p Asp88 (E. coli) methylthiotransferase	kb|g.236129	none		5731	7108	+	MEint.metabat.11576_5001104	Ribosomal protein S12p Asp88 (E. coli) methylthiotransferase
+kb|g.236129.CDS.752	CDS	CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase (EC 2.7.8.5)	kb|g.236129	none		7067	7658	+	MEint.metabat.11576_5001104	CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase (EC 2.7.8.5)
+kb|g.236129.CDS.753	CDS	Molybdopterin binding motif, CinA N-terminal domain / C-terminal domain of CinA type S	kb|g.236129	none		7647	8886	+	MEint.metabat.11576_5001104	Molybdopterin binding motif, CinA N-terminal domain;C-terminal domain of CinA type S
+kb|g.236129.CDS.754	CDS		kb|g.236129	;	No annotated function	8950	9196	+	MEint.metabat.11576_5001104	
+kb|g.236129.CDS.755	CDS	Proteorhodopsin	kb|g.236129	none		10029	9261	-	MEint.metabat.11576_5001104	Proteorhodopsin
+kb|g.236129.CDS.756	CDS	FIG01028981: hypothetical protein	kb|g.236129	none		10441	11629	+	MEint.metabat.11576_5001104	FIG01028981: hypothetical protein
+kb|g.236129.CDS.757	CDS		kb|g.236129	;	No annotated function	11665	11788	+	MEint.metabat.11576_5001104	
+kb|g.236129.CDS.758	CDS		kb|g.236129	;	No annotated function	11819	12452	+	MEint.metabat.11576_5001104	
+kb|g.236129.CDS.759	CDS		kb|g.236129	;	No annotated function	392	812	+	MEint.metabat.11576_668001066	
+kb|g.236129.CDS.760	CDS		kb|g.236129	;	No annotated function	835	1705	+	MEint.metabat.11576_668001066	
+kb|g.236129.CDS.761	CDS		kb|g.236129	;	No annotated function	1743	2064	+	MEint.metabat.11576_668001066	
+kb|g.236129.CDS.762	CDS		kb|g.236129	;	No annotated function	2742	2160	-	MEint.metabat.11576_668001066	
+kb|g.236129.CDS.763	CDS		kb|g.236129	;	No annotated function	2783	4349	+	MEint.metabat.11576_668001066	
+kb|g.236129.CDS.764	CDS		kb|g.236129	;	No annotated function	4345	5269	+	MEint.metabat.11576_668001066	
+kb|g.236129.CDS.765	CDS		kb|g.236129	;	No annotated function	5296	6046	+	MEint.metabat.11576_668001066	
+kb|g.236129.CDS.766	CDS		kb|g.236129	;	No annotated function	6392	6140	-	MEint.metabat.11576_668001066	
+kb|g.236129.CDS.767	CDS		kb|g.236129	;	No annotated function	7888	6514	-	MEint.metabat.11576_668001066	
+kb|g.236129.CDS.768	CDS		kb|g.236129	;	No annotated function	7961	8225	+	MEint.metabat.11576_668001066	
+kb|g.236129.CDS.769	CDS		kb|g.236129	;	No annotated function	8221	8896	+	MEint.metabat.11576_668001066	
+kb|g.236129.CDS.770	CDS		kb|g.236129	;	No annotated function	9464	8924	-	MEint.metabat.11576_668001066	
+kb|g.236129.CDS.771	CDS	COG1720: Uncharacterized conserved protein	kb|g.236129	none		10070	9608	-	MEint.metabat.11576_668001066	COG1720: Uncharacterized conserved protein
+kb|g.236129.CDS.772	CDS		kb|g.236129	;	No annotated function	10215	10083	-	MEint.metabat.11576_668001066	
+kb|g.236129.CDS.773	CDS		kb|g.236129	;	No annotated function	10816	10318	-	MEint.metabat.11576_668001066	
+kb|g.236129.CDS.774	CDS		kb|g.236129	;	No annotated function	11008	10870	-	MEint.metabat.11576_668001066	
+kb|g.236129.CDS.775	CDS		kb|g.236129	;	No annotated function	11627	11258	-	MEint.metabat.11576_668001066	
+kb|g.236129.CDS.776	CDS		kb|g.236129	;	No annotated function	11814	11679	-	MEint.metabat.11576_668001066	
+kb|g.236129.CDS.777	CDS		kb|g.236129	;	No annotated function	12481	11851	-	MEint.metabat.11576_668001066	
+kb|g.236129.CDS.778	CDS		kb|g.236129	;	No annotated function	13519	12505	-	MEint.metabat.11576_668001066	
+kb|g.236129.CDS.779	CDS		kb|g.236129	;	No annotated function	13626	14184	+	MEint.metabat.11576_668001066	
+kb|g.236129.CDS.780	CDS		kb|g.236129	;	No annotated function	14360	14600	+	MEint.metabat.11576_668001066	
+kb|g.236129.CDS.781	CDS		kb|g.236129	;	No annotated function	14773	14602	-	MEint.metabat.11576_668001066	
+kb|g.236129.CDS.782	CDS		kb|g.236129	;	No annotated function	15092	14795	-	MEint.metabat.11576_668001066	
+kb|g.236129.CDS.783	CDS		kb|g.236129	;	No annotated function	15235	15748	+	MEint.metabat.11576_668001066	
+kb|g.236129.CDS.784	CDS		kb|g.236129	;	No annotated function	15889	15751	-	MEint.metabat.11576_668001066	
+kb|g.236129.CDS.785	CDS		kb|g.236129	;	No annotated function	16082	16208	+	MEint.metabat.11576_668001066	
+kb|g.236129.CDS.786	CDS		kb|g.236129	;	No annotated function	16774	16324	-	MEint.metabat.11576_668001066	
+kb|g.236129.CDS.787	CDS		kb|g.236129	;	No annotated function	16833	17448	+	MEint.metabat.11576_668001066	
+kb|g.236129.CDS.788	CDS		kb|g.236129	;	No annotated function	17580	17460	-	MEint.metabat.11576_668001066	
+kb|g.236129.CDS.789	CDS	LSU ribosomal protein L19p	kb|g.236129	none		135	483	+	MEint.metabat.11576_2280001133	LSU ribosomal protein L19p
+kb|g.236129.CDS.790	CDS	Protein often found in Actinomycetes clustered with signal peptidase and/or RNaseHII	kb|g.236129	none		534	828	+	MEint.metabat.11576_2280001133	Protein often found in Actinomycetes clustered with signal peptidase and/or RNaseHII
+kb|g.236129.CDS.791	CDS		kb|g.236129	;	No annotated function	848	1256	+	MEint.metabat.11576_2280001133	
+kb|g.236129.CDS.792	CDS		kb|g.236129	;	No annotated function	1310	3308	+	MEint.metabat.11576_2280001133	
+kb|g.236129.CDS.793	CDS		kb|g.236129	;	No annotated function	3610	3421	-	MEint.metabat.11576_2280001133	
+kb|g.236129.CDS.794	CDS	Adenylosuccinate synthetase (EC 6.3.4.4)	kb|g.236129	none		13	1291	+	MEint.metabat.11576_64000931	Adenylosuccinate synthetase (EC 6.3.4.4)
+kb|g.236129.CDS.795	CDS	Adenylosuccinate lyase (EC 4.3.2.2)	kb|g.236129	none		1287	2598	+	MEint.metabat.11576_64000931	Adenylosuccinate lyase (EC 4.3.2.2)
+kb|g.236129.CDS.796	CDS	Orotate phosphoribosyltransferase (EC 2.4.2.10)	kb|g.236129	none		2603	3173	+	MEint.metabat.11576_64000931	Orotate phosphoribosyltransferase (EC 2.4.2.10)
+kb|g.236129.CDS.797	CDS		kb|g.236129	;	No annotated function	3905	3206	-	MEint.metabat.11576_64000931	
+kb|g.236129.CDS.798	CDS		kb|g.236129	;	No annotated function	16	130	+	MEint.metabat.11576_294000816	
+kb|g.236129.CDS.799	CDS		kb|g.236129	;	No annotated function	105	651	+	MEint.metabat.11576_294000816	
+kb|g.236129.CDS.800	CDS	CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase (EC 2.7.8.5)	kb|g.236129	none		660	1350	+	MEint.metabat.11576_294000816	CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase (EC 2.7.8.5)
+kb|g.236129.CDS.801	CDS		kb|g.236129	;	No annotated function	1342	2236	+	MEint.metabat.11576_294000816	
+kb|g.236129.CDS.802	CDS		kb|g.236129	;	No annotated function	3187	2263	-	MEint.metabat.11576_294000816	
+kb|g.236129.CDS.803	CDS	Phosphatidylinositol alpha-mannosyltransferase (EC 2.4.1.57)	kb|g.236129	none		3270	4551	+	MEint.metabat.11576_294000816	Phosphatidylinositol alpha-mannosyltransferase (EC 2.4.1.57)
+kb|g.236129.CDS.804	CDS	LemA protein	kb|g.236129	none		4562	5117	+	MEint.metabat.11576_294000816	LemA protein
+kb|g.236129.CDS.805	CDS		kb|g.236129	;	No annotated function	5176	6019	+	MEint.metabat.11576_294000816	
+kb|g.236129.CDS.806	CDS		kb|g.236129	;	No annotated function	6034	7114	+	MEint.metabat.11576_294000816	
+kb|g.236129.CDS.807	CDS		kb|g.236129	;	No annotated function	7315	7189	-	MEint.metabat.11576_294000816	
+kb|g.236129.CDS.808	CDS		kb|g.236129	;	No annotated function	25	283	+	MEint.metabat.11576_1043000802	
+kb|g.236129.CDS.809	CDS	Aspartokinase (EC 2.7.2.4)	kb|g.236129	none		317	1580	+	MEint.metabat.11576_1043000802	Aspartokinase (EC 2.7.2.4)
+kb|g.236129.CDS.810	CDS		kb|g.236129	;	No annotated function	1583	2450	+	MEint.metabat.11576_1043000802	
+kb|g.236129.CDS.811	CDS	Aspartate-semialdehyde dehydrogenase (EC 1.2.1.11)	kb|g.236129	none		2454	3498	+	MEint.metabat.11576_1043000802	Aspartate-semialdehyde dehydrogenase (EC 1.2.1.11)
+kb|g.236129.CDS.812	CDS		kb|g.236129	;	No annotated function	4120	3712	-	MEint.metabat.11576_1043000802	
+kb|g.236129.CDS.813	CDS		kb|g.236129	;	No annotated function	4137	5559	+	MEint.metabat.11576_1043000802	
+kb|g.236129.CDS.814	CDS		kb|g.236129	;	No annotated function	5575	6406	+	MEint.metabat.11576_1043000802	
+kb|g.236129.CDS.815	CDS		kb|g.236129	;	No annotated function	7635	6432	-	MEint.metabat.11576_1043000802	
+kb|g.236129.CDS.816	CDS	probable iron binding protein from the HesB_IscA_SufA family	kb|g.236129	none		7747	8068	+	MEint.metabat.11576_1043000802	probable iron binding protein from the HesB_IscA_SufA family
+kb|g.236129.CDS.817	CDS		kb|g.236129	;	No annotated function	8968	8059	-	MEint.metabat.11576_1043000802	
+kb|g.236129.CDS.818	CDS		kb|g.236129	;	No annotated function	9011	9431	+	MEint.metabat.11576_1043000802	
+kb|g.236129.CDS.819	CDS		kb|g.236129	;	No annotated function	9435	9591	+	MEint.metabat.11576_1043000802	
+kb|g.236129.CDS.820	CDS	Guanine deaminase (EC 3.5.4.3)	kb|g.236129	none		9635	10958	+	MEint.metabat.11576_1043000802	Guanine deaminase (EC 3.5.4.3)
+kb|g.236129.CDS.821	CDS		kb|g.236129	;	No annotated function	10973	11549	+	MEint.metabat.11576_1043000802	
+kb|g.236129.CDS.822	CDS		kb|g.236129	;	No annotated function	12234	11544	-	MEint.metabat.11576_1043000802	
+kb|g.236129.CDS.823	CDS	Glutamine synthetase type I (EC 6.3.1.2)	kb|g.236129	none		13193	12230	-	MEint.metabat.11576_1043000802	Glutamine synthetase type I (EC 6.3.1.2)
+kb|g.236129.CDS.824	CDS	putative ATP-dependent RNA helicase	kb|g.236129	none		13	391	+	MEint.metabat.11576_24000772	putative ATP-dependent RNA helicase
+kb|g.236129.CDS.825	CDS	4-hydroxy-tetrahydrodipicolinate reductase (EC 1.17.1.8)	kb|g.236129	none		409	1174	+	MEint.metabat.11576_24000772	4-hydroxy-tetrahydrodipicolinate reductase (EC 1.17.1.8)
+kb|g.236129.CDS.826	CDS		kb|g.236129	;	No annotated function	2096	1211	-	MEint.metabat.11576_24000772	
+kb|g.236129.CDS.827	CDS		kb|g.236129	;	No annotated function	2150	2777	+	MEint.metabat.11576_24000772	
+kb|g.236129.CDS.828	CDS		kb|g.236129	;	No annotated function	2842	3901	+	MEint.metabat.11576_24000772	
+kb|g.236129.CDS.829	CDS		kb|g.236129	;	No annotated function	3984	4578	+	MEint.metabat.11576_24000772	
+kb|g.236129.CDS.830	CDS	Thiol peroxidase, Tpx-type (EC 1.11.1.15)	kb|g.236129	none		4930	4651	-	MEint.metabat.11576_24000772	Thiol peroxidase, Tpx-type (EC 1.11.1.15)
+kb|g.236129.CDS.831	CDS		kb|g.236129	;	No annotated function	1685	281	-	MEint.metabat.11576_371001918	
+kb|g.236129.CDS.832	CDS		kb|g.236129	;	No annotated function	2145	1713	-	MEint.metabat.11576_371001918	
+kb|g.236129.CDS.833	CDS		kb|g.236129	;	No annotated function	2224	2590	+	MEint.metabat.11576_371001918	
+kb|g.236129.CDS.834	CDS	Trk system potassium uptake protein TrkA	kb|g.236129	none		3290	2621	-	MEint.metabat.11576_371001918	Trk system potassium uptake protein TrkA
+kb|g.236129.CDS.835	CDS	Trk system potassium uptake protein TrkA	kb|g.236129	none		3949	3289	-	MEint.metabat.11576_371001918	Trk system potassium uptake protein TrkA
+kb|g.236129.CDS.836	CDS	Amino acid permease	kb|g.236129	none		4005	5913	+	MEint.metabat.11576_371001918	Amino acid permease
+kb|g.236129.CDS.837	CDS	Cell division inhibitor	kb|g.236129	none		5923	6808	+	MEint.metabat.11576_371001918	Cell division inhibitor
+kb|g.236129.CDS.838	CDS		kb|g.236129	;	No annotated function	6857	8096	+	MEint.metabat.11576_371001918	
+kb|g.236129.CDS.839	CDS		kb|g.236129	;	No annotated function	8106	8580	+	MEint.metabat.11576_371001918	
+kb|g.236129.CDS.840	CDS	Bacterial proteasome-activating AAA-ATPase (PAN)	kb|g.236129	none		34	1249	+	MEint.metabat.11576_79000724	Bacterial proteasome-activating AAA-ATPase (PAN)
+kb|g.236129.CDS.841	CDS	Pup ligase PafA' paralog, possible component of postulated heterodimer PafA-PafA'	kb|g.236129	none		1251	2748	+	MEint.metabat.11576_79000724	Pup ligase PafA' paralog, possible component of postulated heterodimer PafA-PafA'
+kb|g.236129.CDS.842	CDS		kb|g.236129	;	No annotated function	2786	2999	+	MEint.metabat.11576_79000724	
+kb|g.236129.CDS.843	CDS	Proteasome subunit beta (EC 3.4.25.1), bacterial	kb|g.236129	none		3101	3854	+	MEint.metabat.11576_79000724	Proteasome subunit beta (EC 3.4.25.1), bacterial
+kb|g.236129.CDS.844	CDS	Proteasome subunit alpha (EC 3.4.25.1), bacterial	kb|g.236129	none		3850	4531	+	MEint.metabat.11576_79000724	Proteasome subunit alpha (EC 3.4.25.1), bacterial
+kb|g.236129.CDS.845	CDS	Pup ligase PafA, possible component of postulated heterodimer PafA-PafA'	kb|g.236129	none		4571	5945	+	MEint.metabat.11576_79000724	Pup ligase PafA, possible component of postulated heterodimer PafA-PafA'
+kb|g.236129.CDS.846	CDS	Signal peptidase I (EC 3.4.21.89)	kb|g.236129	none		5977	6571	+	MEint.metabat.11576_79000724	Signal peptidase I (EC 3.4.21.89)
+kb|g.236129.CDS.847	CDS		kb|g.236129	;	No annotated function	7312	6598	-	MEint.metabat.11576_79000724	
+kb|g.236129.CDS.848	CDS		kb|g.236129	;	No annotated function	7379	7835	+	MEint.metabat.11576_79000724	
+kb|g.236129.CDS.849	CDS	Twin-arginine translocation protein TatC	kb|g.236129	none		7867	8608	+	MEint.metabat.11576_79000724	Twin-arginine translocation protein TatC
+kb|g.236129.CDS.850	CDS	FIG005666: putative helicase	kb|g.236129	none		8604	11211	+	MEint.metabat.11576_79000724	FIG005666: putative helicase
+kb|g.236129.CDS.851	CDS		kb|g.236129	;	No annotated function	182	1118	+	MEint.metabat.11576_1067002898	
+kb|g.236129.CDS.852	CDS	glycosyl transferase, family 2	kb|g.236129	none		1119	1839	+	MEint.metabat.11576_1067002898	glycosyl transferase, family 2
+kb|g.236129.CDS.853	CDS		kb|g.236129	;	No annotated function	1820	3362	+	MEint.metabat.11576_1067002898	
+kb|g.236129.CDS.854	CDS		kb|g.236129	;	No annotated function	3485	4268	+	MEint.metabat.11576_1067002898	
+kb|g.236129.CDS.855	CDS		kb|g.236129	;	No annotated function	72	969	+	MEint.metabat.11576_23000847	
+kb|g.236129.CDS.856	CDS	Acetolactate synthase large subunit (EC 2.2.1.6)	kb|g.236129	none		1304	3059	+	MEint.metabat.11576_23000847	Acetolactate synthase large subunit (EC 2.2.1.6)
+kb|g.236129.CDS.857	CDS	Acetolactate synthase small subunit (EC 2.2.1.6)	kb|g.236129	none		3055	3613	+	MEint.metabat.11576_23000847	Acetolactate synthase small subunit (EC 2.2.1.6)
+kb|g.236129.CDS.858	CDS	Ketol-acid reductoisomerase (EC 1.1.1.86)	kb|g.236129	none		3612	4641	+	MEint.metabat.11576_23000847	Ketol-acid reductoisomerase (EC 1.1.1.86)
+kb|g.236129.CDS.859	CDS	POSSIBLE GLUTAREDOXIN PROTEIN	kb|g.236129	none		4633	4912	+	MEint.metabat.11576_23000847	POSSIBLE GLUTAREDOXIN PROTEIN
+kb|g.236129.CDS.860	CDS	Phosphate transport system permease protein PstC (TC 3.A.1.7.1)	kb|g.236129	none		5022	6024	+	MEint.metabat.11576_23000847	Phosphate transport system permease protein PstC (TC 3.A.1.7.1)
+kb|g.236129.CDS.861	CDS	Phosphate transport system permease protein PstA (TC 3.A.1.7.1)	kb|g.236129	none		6020	7121	+	MEint.metabat.11576_23000847	Phosphate transport system permease protein PstA (TC 3.A.1.7.1)
+kb|g.236129.CDS.862	CDS	Phosphate transport ATP-binding protein PstB (TC 3.A.1.7.1)	kb|g.236129	none		7117	7975	+	MEint.metabat.11576_23000847	Phosphate transport ATP-binding protein PstB (TC 3.A.1.7.1)
+kb|g.236129.CDS.863	CDS		kb|g.236129	;	No annotated function	8097	9453	+	MEint.metabat.11576_23000847	
+kb|g.236129.CDS.864	CDS	Aquaporin Z	kb|g.236129	none		10198	9547	-	MEint.metabat.11576_23000847	Aquaporin Z
+kb|g.236129.CDS.865	CDS	Arsenate reductase (EC 1.20.4.1)	kb|g.236129	none		10830	10194	-	MEint.metabat.11576_23000847	Arsenate reductase (EC 1.20.4.1)
+kb|g.236129.CDS.866	CDS		kb|g.236129	;	No annotated function	11507	10826	-	MEint.metabat.11576_23000847	
+kb|g.236129.CDS.867	CDS		kb|g.236129	;	No annotated function	12457	11569	-	MEint.metabat.11576_23000847	
+kb|g.236129.CDS.868	CDS	Phosphoserine aminotransferase (EC 2.6.1.52)	kb|g.236129	none		13587	12453	-	MEint.metabat.11576_23000847	Phosphoserine aminotransferase (EC 2.6.1.52)
+kb|g.236129.CDS.869	CDS	Aspartate aminotransferase (EC 2.6.1.1)	kb|g.236129	none		13606	14830	+	MEint.metabat.11576_23000847	Aspartate aminotransferase (EC 2.6.1.1)
+kb|g.236129.CDS.870	CDS	Vitamin B12 ABC transporter, B12-binding component BtuF	kb|g.236129	none		15068	16064	+	MEint.metabat.11576_23000847	Vitamin B12 ABC transporter, B12-binding component BtuF
+kb|g.236129.CDS.871	CDS	Vitamin B12 ABC transporter, permease component BtuC	kb|g.236129	none		16067	17156	+	MEint.metabat.11576_23000847	Vitamin B12 ABC transporter, permease component BtuC
+kb|g.236129.CDS.872	CDS		kb|g.236129	;	No annotated function	17181	17964	+	MEint.metabat.11576_23000847	
+kb|g.236129.CDS.873	CDS		kb|g.236129	;	No annotated function	18035	18680	+	MEint.metabat.11576_23000847	
+kb|g.236129.CDS.874	CDS		kb|g.236129	;	No annotated function	18714	19146	+	MEint.metabat.11576_23000847	
+kb|g.236129.CDS.875	CDS		kb|g.236129	;	No annotated function	19619	19151	-	MEint.metabat.11576_23000847	
+kb|g.236129.CDS.876	CDS		kb|g.236129	;	No annotated function	20112	19626	-	MEint.metabat.11576_23000847	
+kb|g.236129.CDS.877	CDS		kb|g.236129	;	No annotated function	21742	20245	-	MEint.metabat.11576_23000847	
+kb|g.236129.CDS.878	CDS		kb|g.236129	;	No annotated function	21693	21864	+	MEint.metabat.11576_23000847	
+kb|g.236129.CDS.879	CDS	Thiamin ABC transporter, substrate-binding component	kb|g.236129	none		22941	21840	-	MEint.metabat.11576_23000847	Thiamin ABC transporter, substrate-binding component
+kb|g.236129.CDS.880	CDS		kb|g.236129	;	No annotated function	23624	22937	-	MEint.metabat.11576_23000847	
+kb|g.236129.CDS.881	CDS		kb|g.236129	;	No annotated function	23802	24477	+	MEint.metabat.11576_23000847	
+kb|g.236129.CDS.882	CDS		kb|g.236129	;	No annotated function	25236	24564	-	MEint.metabat.11576_23000847	
+kb|g.236129.CDS.883	CDS		kb|g.236129	;	No annotated function	25849	25240	-	MEint.metabat.11576_23000847	
+kb|g.236129.CDS.884	CDS		kb|g.236129	;	No annotated function	22	430	+	MEint.metabat.11576_2309001028	
+kb|g.236129.CDS.885	CDS	Glutamate 5-kinase (EC 2.7.2.11) / RNA-binding C-terminal domain PUA	kb|g.236129	none		426	1512	+	MEint.metabat.11576_2309001028	Glutamate 5-kinase (EC 2.7.2.11);RNA-binding C-terminal domain PUA
+kb|g.236129.CDS.886	CDS		kb|g.236129	;	No annotated function	2878	1507	-	MEint.metabat.11576_2309001028	
+kb|g.236129.CDS.887	CDS		kb|g.236129	;	No annotated function	3503	2870	-	MEint.metabat.11576_2309001028	
+kb|g.236129.CDS.888	CDS	carbon monoxide dehydrogenase D protein	kb|g.236129	none		3592	4483	+	MEint.metabat.11576_2309001028	carbon monoxide dehydrogenase D protein
+kb|g.236129.CDS.889	CDS	carbon monoxide dehydrogenase E protein	kb|g.236129	none		4528	5980	+	MEint.metabat.11576_2309001028	carbon monoxide dehydrogenase E protein
+kb|g.236129.CDS.890	CDS		kb|g.236129	;	No annotated function	5996	6662	+	MEint.metabat.11576_2309001028	
+kb|g.236129.CDS.891	CDS		kb|g.236129	;	No annotated function	6664	7852	+	MEint.metabat.11576_2309001028	
+kb|g.236129.CDS.892	CDS		kb|g.236129	;	No annotated function	8514	8946	+	MEint.metabat.11576_2309001028	
+kb|g.236129.CDS.893	CDS	Homoserine O-acetyltransferase (EC 2.3.1.31)	kb|g.236129	none		9064	10270	+	MEint.metabat.11576_2309001028	Homoserine O-acetyltransferase (EC 2.3.1.31)
+kb|g.236129.CDS.894	CDS		kb|g.236129	;	No annotated function	10742	10361	-	MEint.metabat.11576_2309001028	
+kb|g.236129.CDS.895	CDS		kb|g.236129	;	No annotated function	10760	10955	+	MEint.metabat.11576_2309001028	
+kb|g.236129.CDS.896	CDS		kb|g.236129	;	No annotated function	10951	11176	+	MEint.metabat.11576_2309001028	
+kb|g.236129.CDS.897	CDS		kb|g.236129	;	No annotated function	11186	12149	+	MEint.metabat.11576_2309001028	
+kb|g.236129.CDS.898	CDS		kb|g.236129	;	No annotated function	12844	12175	-	MEint.metabat.11576_2309001028	
+kb|g.236129.CDS.899	CDS	Molybdenum transport system permease protein ModB (TC 3.A.1.8.1)	kb|g.236129	none		13734	12843	-	MEint.metabat.11576_2309001028	Molybdenum transport system permease protein ModB (TC 3.A.1.8.1)
+kb|g.236129.CDS.900	CDS	Molybdenum ABC transporter, periplasmic molybdenum-binding protein ModA (TC 3.A.1.8.1)	kb|g.236129	none		14701	13741	-	MEint.metabat.11576_2309001028	Molybdenum ABC transporter, periplasmic molybdenum-binding protein ModA (TC 3.A.1.8.1)
+kb|g.236129.CDS.901	CDS	FIG005069: Hypothetical protein	kb|g.236129	none		15837	14931	-	MEint.metabat.11576_2309001028	FIG005069: Hypothetical protein
+kb|g.236129.CDS.902	CDS		kb|g.236129	;	No annotated function	16198	15847	-	MEint.metabat.11576_2309001028	
+kb|g.236129.CDS.903	CDS		kb|g.236129	;	No annotated function	716	206	-	MEint.metabat.11576_82000538	
+kb|g.236129.CDS.904	CDS	Butyryl-CoA dehydrogenase (EC 1.3.99.2)	kb|g.236129	none		1782	666	-	MEint.metabat.11576_82000538	Butyryl-CoA dehydrogenase (EC 1.3.99.2)
+kb|g.236129.CDS.905	CDS		kb|g.236129	;	No annotated function	1910	2525	+	MEint.metabat.11576_82000538	
+kb|g.236129.CDS.906	CDS		kb|g.236129	;	No annotated function	2524	3484	+	MEint.metabat.11576_82000538	
+kb|g.236129.CDS.907	CDS	Iron-sulfur cluster assembly ATPase protein SufC	kb|g.236129	none		3536	4307	+	MEint.metabat.11576_82000538	Iron-sulfur cluster assembly ATPase protein SufC
+kb|g.236129.CDS.908	CDS	Cysteine desulfurase (EC 2.8.1.7), SufS subfamily	kb|g.236129	none		4309	5536	+	MEint.metabat.11576_82000538	Cysteine desulfurase (EC 2.8.1.7), SufS subfamily
+kb|g.236129.CDS.909	CDS	Isoleucyl-tRNA synthetase (EC 6.1.1.5)	kb|g.236129	none		22	787	+	MEint.metabat.11576_59000533	Isoleucyl-tRNA synthetase (EC 6.1.1.5)
+kb|g.236129.CDS.910	CDS		kb|g.236129	;	No annotated function	794	2003	+	MEint.metabat.11576_59000533	
+kb|g.236129.CDS.911	CDS	Lipoprotein signal peptidase (EC 3.4.23.36)	kb|g.236129	none		1999	2497	+	MEint.metabat.11576_59000533	Lipoprotein signal peptidase (EC 3.4.23.36)
+kb|g.236129.CDS.912	CDS	Ribosomal large subunit pseudouridine synthase D (EC 4.2.1.70)	kb|g.236129	none		2489	3467	+	MEint.metabat.11576_59000533	Ribosomal large subunit pseudouridine synthase D (EC 4.2.1.70)
+kb|g.236129.CDS.913	CDS	Iron-sulfur cluster regulator IscR	kb|g.236129	none		3967	3535	-	MEint.metabat.11576_59000533	Iron-sulfur cluster regulator IscR
+kb|g.236129.CDS.914	CDS	Alkaline phosphodiesterase I (EC 3.1.4.1) / Nucleotide pyrophosphatase (EC 3.6.1.9)	kb|g.236129	none		4106	5231	+	MEint.metabat.11576_59000533	Alkaline phosphodiesterase I (EC 3.1.4.1);Nucleotide pyrophosphatase (EC 3.6.1.9)
+kb|g.236129.CDS.915	CDS		kb|g.236129	;	No annotated function	5277	5736	+	MEint.metabat.11576_59000533	
+kb|g.236129.CDS.916	CDS	DNA polymerase III alpha subunit (EC 2.7.7.7)	kb|g.236129	none		5808	9321	+	MEint.metabat.11576_59000533	DNA polymerase III alpha subunit (EC 2.7.7.7)
+kb|g.236129.CDS.917	CDS		kb|g.236129	;	No annotated function	9422	10076	+	MEint.metabat.11576_59000533	
+kb|g.236129.CDS.918	CDS	Signal recognition particle, subunit Ffh SRP54 (TC 3.A.5.1.1)	kb|g.236129	none		1493	197	-	MEint.metabat.11576_1594001071	Signal recognition particle, subunit Ffh SRP54 (TC 3.A.5.1.1)
+kb|g.236129.CDS.919	CDS	Signal recognition particle receptor protein FtsY (=alpha subunit) (TC 3.A.5.1.1)	kb|g.236129	none		2680	1567	-	MEint.metabat.11576_1594001071	Signal recognition particle receptor protein FtsY (=alpha subunit) (TC 3.A.5.1.1)
+kb|g.236129.CDS.920	CDS	Chromosome partition protein smc	kb|g.236129	none		3621	2676	-	MEint.metabat.11576_1594001071	Chromosome partition protein smc
+kb|g.236129.CDS.921	CDS	ATP-dependent RNA helicase	kb|g.236129	none		1135	130	-	MEint.metabat.11576_961000450	ATP-dependent RNA helicase
+kb|g.236129.CDS.922	CDS	FAD-dependent oxidoreductase	kb|g.236129	none		2692	1327	-	MEint.metabat.11576_961000450	FAD-dependent oxidoreductase
+kb|g.236129.CDS.923	CDS	Metal-dependent phosphohydrolase, HD subdomain	kb|g.236129	none		3156	2688	-	MEint.metabat.11576_961000450	Metal-dependent phosphohydrolase, HD subdomain
+kb|g.236129.CDS.924	CDS	Pyruvate kinase (EC 2.7.1.40)	kb|g.236129	none		4622	3269	-	MEint.metabat.11576_961000450	Pyruvate kinase (EC 2.7.1.40)
+kb|g.236129.CDS.925	CDS		kb|g.236129	;	No annotated function	5064	4824	-	MEint.metabat.11576_961000450	
+kb|g.236129.CDS.926	CDS	Oligopeptide transport ATP-binding protein OppF (TC 3.A.1.5.1)	kb|g.236129	none		6052	5083	-	MEint.metabat.11576_961000450	Oligopeptide transport ATP-binding protein OppF (TC 3.A.1.5.1)
+kb|g.236129.CDS.927	CDS	Oligopeptide transport system permease protein OppB (TC 3.A.1.5.1)	kb|g.236129	none		7020	6048	-	MEint.metabat.11576_961000450	Oligopeptide transport system permease protein OppB (TC 3.A.1.5.1)
+kb|g.236129.CDS.928	CDS	Oligopeptide transport system permease protein OppC (TC 3.A.1.5.1)	kb|g.236129	none		7930	7048	-	MEint.metabat.11576_961000450	Oligopeptide transport system permease protein OppC (TC 3.A.1.5.1)
+kb|g.236129.CDS.929	CDS	Oligopeptide transport system permease protein OppB (TC 3.A.1.5.1)	kb|g.236129	none		8924	7964	-	MEint.metabat.11576_961000450	Oligopeptide transport system permease protein OppB (TC 3.A.1.5.1)
+kb|g.236129.CDS.930	CDS	Oligopeptide ABC transporter, periplasmic oligopeptide-binding protein OppA (TC 3.A.1.5.1)	kb|g.236129	none		10786	9043	-	MEint.metabat.11576_961000450	Oligopeptide ABC transporter, periplasmic oligopeptide-binding protein OppA (TC 3.A.1.5.1)
+kb|g.236129.CDS.931	CDS	Triosephosphate isomerase (EC 5.3.1.1)	kb|g.236129	none		11721	10935	-	MEint.metabat.11576_961000450	Triosephosphate isomerase (EC 5.3.1.1)
+kb|g.236129.CDS.932	CDS	Phosphoglycerate kinase (EC 2.7.2.3)	kb|g.236129	none		12823	11710	-	MEint.metabat.11576_961000450	Phosphoglycerate kinase (EC 2.7.2.3)
+kb|g.236129.CDS.933	CDS	NAD-dependent glyceraldehyde-3-phosphate dehydrogenase (EC 1.2.1.12)	kb|g.236129	none		13841	12833	-	MEint.metabat.11576_961000450	NAD-dependent glyceraldehyde-3-phosphate dehydrogenase (EC 1.2.1.12)
+kb|g.236129.CDS.934	CDS		kb|g.236129	;	No annotated function	14709	13851	-	MEint.metabat.11576_961000450	
+kb|g.236129.CDS.935	CDS	Excinuclease ABC subunit C	kb|g.236129	none		16584	14718	-	MEint.metabat.11576_961000450	Excinuclease ABC subunit C
+kb|g.236129.CDS.936	CDS	Excinuclease ABC subunit A	kb|g.236129	none		19436	16592	-	MEint.metabat.11576_961000450	Excinuclease ABC subunit A
+kb|g.236129.CDS.937	CDS		kb|g.236129	;	No annotated function	19607	19445	-	MEint.metabat.11576_961000450	
+kb|g.236129.CDS.938	CDS	diguanylate cyclase/phosphodiesterase (GGDEF & EAL domains) with PAS/PAC sensor(s)	kb|g.236129	none		100	334	+	MEint.metabat.11576_862002685	diguanylate cyclase/phosphodiesterase (GGDEF & EAL domains) with PAS/PAC sensor(s)
+kb|g.236129.CDS.939	CDS		kb|g.236129	;	No annotated function	1295	293	-	MEint.metabat.11576_862002685	
+kb|g.236129.CDS.940	CDS	Biotin--protein ligase (EC 6.3.4.9, EC 6.3.4.10, EC 6.3.4.11, EC 6.3.4.15)	kb|g.236129	none		2031	1329	-	MEint.metabat.11576_862002685	Biotin--protein ligase (EC 6.3.4.9, EC 6.3.4.10, EC 6.3.4.11, EC 6.3.4.15)
+kb|g.236129.CDS.941	CDS		kb|g.236129	;	No annotated function	2072	3824	+	MEint.metabat.11576_862002685	
+kb|g.236129.CDS.942	CDS	Lysyl-tRNA synthetase (class II) (EC 6.1.1.6)	kb|g.236129	none		3866	5381	+	MEint.metabat.11576_862002685	Lysyl-tRNA synthetase (class II) (EC 6.1.1.6)
+kb|g.236129.CDS.943	CDS	2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase (EC 2.3.1.117)	kb|g.236129	none		5377	6331	+	MEint.metabat.11576_862002685	2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase (EC 2.3.1.117)
+kb|g.236129.CDS.944	CDS		kb|g.236129	;	No annotated function	6359	6914	+	MEint.metabat.11576_862002685	
+kb|g.236129.CDS.945	CDS	Methylmalonyl-CoA mutase (EC 5.4.99.2)	kb|g.236129	none		8519	6944	-	MEint.metabat.11576_862002685	Methylmalonyl-CoA mutase (EC 5.4.99.2)
+kb|g.236129.CDS.946	CDS		kb|g.236129	;	No annotated function	8895	8526	-	MEint.metabat.11576_862002685	
+kb|g.236129.CDS.947	CDS		kb|g.236129	;	No annotated function	22	190	+	MEint.metabat.11576_2227002700	
+kb|g.236129.CDS.948	CDS	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase (EC 4.6.1.12)	kb|g.236129	none		218	692	+	MEint.metabat.11576_2227002700	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase (EC 4.6.1.12)
+kb|g.236129.CDS.949	CDS	23S rRNA (guanosine-2'-O-) -methyltransferase rlmB (EC 2.1.1.-)	kb|g.236129	none		661	1537	+	MEint.metabat.11576_2227002700	23S rRNA (guanosine-2'-O-) -methyltransferase rlmB (EC 2.1.1.-)
+kb|g.236129.CDS.950	CDS		kb|g.236129	;	No annotated function	1705	2329	+	MEint.metabat.11576_2227002700	
+kb|g.236129.CDS.951	CDS	Glycerate kinase (EC 2.7.1.31)	kb|g.236129	none		3353	2360	-	MEint.metabat.11576_2227002700	Glycerate kinase (EC 2.7.1.31)
+kb|g.236129.CDS.952	CDS	Aspartyl-tRNA(Asn) amidotransferase subunit A (EC 6.3.5.6) @ Glutamyl-tRNA(Gln) amidotransferase subunit A (EC 6.3.5.7)	kb|g.236129	none		3380	4817	+	MEint.metabat.11576_2227002700	Aspartyl-tRNA(Asn) amidotransferase subunit A (EC 6.3.5.6);Glutamyl-tRNA(Gln) amidotransferase subunit A (EC 6.3.5.7)
+kb|g.236129.CDS.953	CDS		kb|g.236129	;	No annotated function	4783	5890	+	MEint.metabat.11576_2227002700	
+kb|g.236129.CDS.954	CDS		kb|g.236129	;	No annotated function	5849	5984	+	MEint.metabat.11576_2227002700	
+kb|g.236129.CDS.955	CDS		kb|g.236129	;	No annotated function	6242	7166	+	MEint.metabat.11576_2227002700	
+kb|g.236129.CDS.956	CDS	Acyl-CoA thioesterase II (EC 3.1.2.-)	kb|g.236129	none		8562	7692	-	MEint.metabat.11576_2227002700	Acyl-CoA thioesterase II (EC 3.1.2.-)
+kb|g.236129.CDS.957	CDS		kb|g.236129	;	No annotated function	8569	9244	+	MEint.metabat.11576_2227002700	
+kb|g.236129.CDS.958	CDS	putative methyltransferase	kb|g.236129	none		11051	9239	-	MEint.metabat.11576_2227002700	putative methyltransferase
+kb|g.236129.CDS.959	CDS		kb|g.236129	;	No annotated function	12380	11057	-	MEint.metabat.11576_2227002700	
+kb|g.236129.CDS.960	CDS		kb|g.236129	;	No annotated function	13191	12405	-	MEint.metabat.11576_2227002700	
+kb|g.236129.CDS.961	CDS		kb|g.236129	;	No annotated function	14720	13187	-	MEint.metabat.11576_2227002700	
+kb|g.236129.CDS.962	CDS		kb|g.236129	;	No annotated function	15610	14716	-	MEint.metabat.11576_2227002700	
+kb|g.236129.CDS.963	CDS	Prolipoprotein diacylglyceryl transferase (EC 2.4.99.-)	kb|g.236129	none		15636	16461	+	MEint.metabat.11576_2227002700	Prolipoprotein diacylglyceryl transferase (EC 2.4.99.-)
+kb|g.236129.CDS.964	CDS	Glycerol-3-phosphate ABC transporter, ATP-binding protein UgpC (TC 3.A.1.1.3)	kb|g.236129	none		18302	17282	-	MEint.metabat.11576_2227002700	Glycerol-3-phosphate ABC transporter, ATP-binding protein UgpC (TC 3.A.1.1.3)
+kb|g.236129.CDS.965	CDS		kb|g.236129	;	No annotated function	18572	19907	+	MEint.metabat.11576_2227002700	
+kb|g.236129.CDS.966	CDS	N-Acetyl-D-glucosamine ABC transport system, permease protein 1	kb|g.236129	none		20059	20884	+	MEint.metabat.11576_2227002700	N-Acetyl-D-glucosamine ABC transport system, permease protein 1
+kb|g.236129.CDS.967	CDS		kb|g.236129	;	No annotated function	20912	21785	+	MEint.metabat.11576_2227002700	
+kb|g.236129.CDS.968	CDS	Alpha-galactosidase (EC 3.2.1.22)	kb|g.236129	none		21781	23923	+	MEint.metabat.11576_2227002700	Alpha-galactosidase (EC 3.2.1.22)
+kb|g.236129.CDS.969	CDS	Aspartyl-tRNA(Asn) amidotransferase subunit C (EC 6.3.5.6) @ Glutamyl-tRNA(Gln) amidotransferase subunit C (EC 6.3.5.7)	kb|g.236129	none		23981	24284	+	MEint.metabat.11576_2227002700	Aspartyl-tRNA(Asn) amidotransferase subunit C (EC 6.3.5.6);Glutamyl-tRNA(Gln) amidotransferase subunit C (EC 6.3.5.7)
+kb|g.236129.CDS.970	CDS	Aspartyl-tRNA(Asn) amidotransferase subunit A (EC 6.3.5.6) @ Glutamyl-tRNA(Gln) amidotransferase subunit A (EC 6.3.5.7)	kb|g.236129	none		24288	25710	+	MEint.metabat.11576_2227002700	Aspartyl-tRNA(Asn) amidotransferase subunit A (EC 6.3.5.6);Glutamyl-tRNA(Gln) amidotransferase subunit A (EC 6.3.5.7)
+kb|g.236129.CDS.971	CDS	Aspartyl-tRNA(Asn) amidotransferase subunit B (EC 6.3.5.6) @ Glutamyl-tRNA(Gln) amidotransferase subunit B (EC 6.3.5.7)	kb|g.236129	none		25706	27167	+	MEint.metabat.11576_2227002700	Aspartyl-tRNA(Asn) amidotransferase subunit B (EC 6.3.5.6);Glutamyl-tRNA(Gln) amidotransferase subunit B (EC 6.3.5.7)
+kb|g.236129.CDS.972	CDS	Dihydroxy-acid dehydratase (EC 4.2.1.9)	kb|g.236129	none		27185	28895	+	MEint.metabat.11576_2227002700	Dihydroxy-acid dehydratase (EC 4.2.1.9)
+kb|g.236129.CDS.973	CDS		kb|g.236129	;	No annotated function	29243	28883	-	MEint.metabat.11576_2227002700	
+kb|g.236129.CDS.974	CDS	Inositol-1-phosphate synthase (EC 5.5.1.4)	kb|g.236129	none		30619	29281	-	MEint.metabat.11576_2227002700	Inositol-1-phosphate synthase (EC 5.5.1.4)
+kb|g.236129.CDS.975	CDS	Methylenetetrahydrofolate dehydrogenase (NADP+) (EC 1.5.1.5) / Methenyltetrahydrofolate cyclohydrolase (EC 3.5.4.9)	kb|g.236129	none		30678	31581	+	MEint.metabat.11576_2227002700	Methylenetetrahydrofolate dehydrogenase (NADP+) (EC 1.5.1.5);Methenyltetrahydrofolate cyclohydrolase (EC 3.5.4.9)
+kb|g.236129.CDS.976	CDS		kb|g.236129	;	No annotated function	32198	31592	-	MEint.metabat.11576_2227002700	
+kb|g.236129.CDS.977	CDS		kb|g.236129	;	No annotated function	32722	32203	-	MEint.metabat.11576_2227002700	
+kb|g.236129.CDS.978	CDS	Cysteine desulfurase (EC 2.8.1.7)	kb|g.236129	none		13	646	+	MEint.metabat.11576_245002253	Cysteine desulfurase (EC 2.8.1.7)
+kb|g.236129.CDS.979	CDS	tRNA-specific 2-thiouridylase MnmA	kb|g.236129	none		662	1730	+	MEint.metabat.11576_245002253	tRNA-specific 2-thiouridylase MnmA
+kb|g.236129.CDS.980	CDS		kb|g.236129	;	No annotated function	2571	1725	-	MEint.metabat.11576_245002253	
+kb|g.236129.CDS.981	CDS	DNA ligase (EC 6.5.1.2)	kb|g.236129	none		2619	4674	+	MEint.metabat.11576_245002253	DNA ligase (EC 6.5.1.2)
+kb|g.236129.CDS.982	CDS		kb|g.236129	;	No annotated function	5184	4674	-	MEint.metabat.11576_245002253	
+kb|g.236129.CDS.983	CDS		kb|g.236129	;	No annotated function	5208	7104	+	MEint.metabat.11576_245002253	
+kb|g.236129.CDS.984	CDS		kb|g.236129	;	No annotated function	7100	8549	+	MEint.metabat.11576_245002253	
+kb|g.236129.CDS.985	CDS		kb|g.236129	;	No annotated function	8947	8569	-	MEint.metabat.11576_245002253	
+kb|g.236129.CDS.986	CDS	D-3-phosphoglycerate dehydrogenase (EC 1.1.1.95)	kb|g.236129	none		9056	10691	+	MEint.metabat.11576_245002253	D-3-phosphoglycerate dehydrogenase (EC 1.1.1.95)
+kb|g.236129.CDS.987	CDS	Orotidine 5'-phosphate decarboxylase (EC 4.1.1.23)	kb|g.236129	none		11521	10705	-	MEint.metabat.11576_245002253	Orotidine 5'-phosphate decarboxylase (EC 4.1.1.23)
+kb|g.236129.CDS.988	CDS		kb|g.236129	;	No annotated function	11716	11524	-	MEint.metabat.11576_245002253	
+kb|g.236129.CDS.989	CDS	CAIB/BAIF family protein	kb|g.236129	none		1262	44	-	MEint.metabat.11576_1967000344	CAIB/BAIF family protein
+kb|g.236129.CDS.990	CDS	N-acetyl-L,L-diaminopimelate deacetylase (EC 3.5.1.47)	kb|g.236129	none		2535	1269	-	MEint.metabat.11576_1967000344	N-acetyl-L,L-diaminopimelate deacetylase (EC 3.5.1.47)
+kb|g.236129.CDS.991	CDS		kb|g.236129	;	No annotated function	2581	2827	+	MEint.metabat.11576_1967000344	
+kb|g.236129.CDS.992	CDS		kb|g.236129	;	No annotated function	2823	3183	+	MEint.metabat.11576_1967000344	
+kb|g.236129.CDS.993	CDS	Pantothenate kinase (EC 2.7.1.33)	kb|g.236129	none		4152	3219	-	MEint.metabat.11576_1967000344	Pantothenate kinase (EC 2.7.1.33)
+kb|g.236129.CDS.994	CDS	Methionine aminopeptidase (EC 3.4.11.18)	kb|g.236129	none		5202	4221	-	MEint.metabat.11576_1967000344	Methionine aminopeptidase (EC 3.4.11.18)
+kb|g.236129.CDS.995	CDS		kb|g.236129	;	No annotated function	6540	5223	-	MEint.metabat.11576_1967000344	
+kb|g.236129.CDS.996	CDS		kb|g.236129	;	No annotated function	7268	6536	-	MEint.metabat.11576_1967000344	
+kb|g.236129.CDS.997	CDS		kb|g.236129	;	No annotated function	7410	7272	-	MEint.metabat.11576_1967000344	
+kb|g.236129.CDS.998	CDS		kb|g.236129	;	No annotated function	7416	8139	+	MEint.metabat.11576_1967000344	
+kb|g.236129.CDS.999	CDS	Type II/IV secretion system ATP hydrolase TadA/VirB11/CpaF, TadA subfamily	kb|g.236129	none		8135	9425	+	MEint.metabat.11576_1967000344	Type II/IV secretion system ATP hydrolase TadA/VirB11/CpaF, TadA subfamily
+kb|g.236129.CDS.1000	CDS		kb|g.236129	;	No annotated function	9421	10261	+	MEint.metabat.11576_1967000344	
+kb|g.236129.CDS.1001	CDS		kb|g.236129	;	No annotated function	10257	11061	+	MEint.metabat.11576_1967000344	
+kb|g.236129.CDS.1002	CDS		kb|g.236129	;	No annotated function	11134	11329	+	MEint.metabat.11576_1967000344	
+kb|g.236129.CDS.1003	CDS		kb|g.236129	;	No annotated function	11375	11705	+	MEint.metabat.11576_1967000344	
+kb|g.236129.CDS.1004	CDS		kb|g.236129	;	No annotated function	11736	12117	+	MEint.metabat.11576_1967000344	
+kb|g.236129.CDS.1005	CDS		kb|g.236129	;	No annotated function	12113	12476	+	MEint.metabat.11576_1967000344	
+kb|g.236129.CDS.1006	CDS		kb|g.236129	;	No annotated function	12472	14365	+	MEint.metabat.11576_1967000344	
+kb|g.236129.CDS.1007	CDS		kb|g.236129	;	No annotated function	15102	14349	-	MEint.metabat.11576_1967000344	
+kb|g.236129.CDS.1008	CDS	DNA repair protein RadA	kb|g.236129	none		15588	15111	-	MEint.metabat.11576_1967000344	DNA repair protein RadA
+kb|g.236129.CDS.1009	CDS		kb|g.236129	;	No annotated function	1039	538	-	MEint.metabat.11576_178001048	
+kb|g.236129.CDS.1010	CDS	Putative deoxyribonuclease YcfH	kb|g.236129	none		1906	1099	-	MEint.metabat.11576_178001048	Putative deoxyribonuclease YcfH
+kb|g.236129.CDS.1011	CDS	Methionyl-tRNA synthetase (EC 6.1.1.10)	kb|g.236129	none		3408	1902	-	MEint.metabat.11576_178001048	Methionyl-tRNA synthetase (EC 6.1.1.10)
+kb|g.236129.CDS.1012	CDS		kb|g.236129	;	No annotated function	3453	4248	+	MEint.metabat.11576_178001048	
+kb|g.236129.CDS.1013	CDS	rRNA small subunit methyltransferase I	kb|g.236129	none		5162	4331	-	MEint.metabat.11576_178001048	rRNA small subunit methyltransferase I
+kb|g.236129.CDS.1014	CDS		kb|g.236129	;	No annotated function	5525	5219	-	MEint.metabat.11576_178001048	
+kb|g.236129.CDS.1015	CDS		kb|g.236129	;	No annotated function	5750	6518	+	MEint.metabat.11576_178001048	
+kb|g.236129.CDS.1016	CDS	FIG00604134: hypothetical protein	kb|g.236129	none		7841	6521	-	MEint.metabat.11576_178001048	FIG00604134: hypothetical protein
+kb|g.236129.CDS.1017	CDS	GTP-binding and nucleic acid-binding protein YchF	kb|g.236129	none		9111	7944	-	MEint.metabat.11576_178001048	GTP-binding and nucleic acid-binding protein YchF
+kb|g.236129.CDS.1018	CDS	SSU ribosomal protein S15p (S13e)	kb|g.236129	none		1330	1057	-	MEint.metabat.11576_2265002430	SSU ribosomal protein S15p (S13e)
+kb|g.236129.CDS.1019	CDS		kb|g.236129	;	No annotated function	1560	1944	+	MEint.metabat.11576_2265002430	
+kb|g.236129.CDS.1020	CDS		kb|g.236129	;	No annotated function	1933	2161	+	MEint.metabat.11576_2265002430	
+kb|g.236129.CDS.1021	CDS	Riboflavin synthase eubacterial/eukaryotic (EC 2.5.1.9)	kb|g.236129	none		2186	2807	+	MEint.metabat.11576_2265002430	Riboflavin synthase eubacterial/eukaryotic (EC 2.5.1.9)
+kb|g.236129.CDS.1022	CDS		kb|g.236129	;	No annotated function	2794	3565	+	MEint.metabat.11576_2265002430	
+kb|g.236129.CDS.1023	CDS	7,8-didemethyl-8-hydroxy-5-deazariboflavin synthase subunit 1 / 7,8-didemethyl-8-hydroxy-5-deazariboflavin synthase subunit 2	kb|g.236129	none		3800	6197	+	MEint.metabat.11576_2265002430	7,8-didemethyl-8-hydroxy-5-deazariboflavin synthase subunit 1;7,8-didemethyl-8-hydroxy-5-deazariboflavin synthase subunit 2
+kb|g.236129.CDS.1024	CDS	Riboflavin kinase (EC 2.7.1.26) / FMN adenylyltransferase (EC 2.7.7.2)	kb|g.236129	none		7173	6219	-	MEint.metabat.11576_2265002430	Riboflavin kinase (EC 2.7.1.26);FMN adenylyltransferase (EC 2.7.7.2)
+kb|g.236129.CDS.1025	CDS	tRNA pseudouridine synthase B (EC 4.2.1.70)	kb|g.236129	none		8160	7215	-	MEint.metabat.11576_2265002430	tRNA pseudouridine synthase B (EC 4.2.1.70)
+kb|g.236129.CDS.1026	CDS		kb|g.236129	;	No annotated function	8609	8168	-	MEint.metabat.11576_2265002430	
+kb|g.236129.CDS.1027	CDS	Leucyl-tRNA synthetase (EC 6.1.1.4)	kb|g.236129	none		8633	11489	+	MEint.metabat.11576_2265002430	Leucyl-tRNA synthetase (EC 6.1.1.4)
+kb|g.236129.CDS.1028	CDS		kb|g.236129	;	No annotated function	11507	12029	+	MEint.metabat.11576_2265002430	
+kb|g.236129.CDS.1029	CDS		kb|g.236129	;	No annotated function	12278	12077	-	MEint.metabat.11576_2265002430	
+kb|g.236129.CDS.1030	CDS	Branched-chain amino acid transport system permease protein LivM (TC 3.A.1.4.1)	kb|g.236129	none		4	778	+	MEint.metabat.11576_125000154	Branched-chain amino acid transport system permease protein LivM (TC 3.A.1.4.1)
+kb|g.236129.CDS.1031	CDS	Branched-chain amino acid transport ATP-binding protein LivG (TC 3.A.1.4.1)	kb|g.236129	none		764	1574	+	MEint.metabat.11576_125000154	Branched-chain amino acid transport ATP-binding protein LivG (TC 3.A.1.4.1)
+kb|g.236129.CDS.1032	CDS	Branched-chain amino acid transport ATP-binding protein LivF (TC 3.A.1.4.1)	kb|g.236129	none		1570	2308	+	MEint.metabat.11576_125000154	Branched-chain amino acid transport ATP-binding protein LivF (TC 3.A.1.4.1)
+kb|g.236129.CDS.1033	CDS		kb|g.236129	;	No annotated function	2696	2342	-	MEint.metabat.11576_125000154	
+kb|g.236129.CDS.1034	CDS	Branched-chain amino acid ABC transporter, amino acid-binding protein (TC 3.A.1.4.1)	kb|g.236129	none		4055	2771	-	MEint.metabat.11576_125000154	Branched-chain amino acid ABC transporter, amino acid-binding protein (TC 3.A.1.4.1)
+kb|g.236129.CDS.1035	CDS	TsaC protein (YrdC domain) required for threonylcarbamoyladenosine t(6)A37 modification in tRNA	kb|g.236129	none		5041	4111	-	MEint.metabat.11576_125000154	TsaC protein (YrdC domain) required for threonylcarbamoyladenosine t(6)A37 modification in tRNA
+kb|g.236129.CDS.1036	CDS		kb|g.236129	;	No annotated function	5744	5048	-	MEint.metabat.11576_125000154	
+kb|g.236129.CDS.1037	CDS	Inosine-5'-monophosphate dehydrogenase (EC 1.1.1.205)	kb|g.236129	none		5807	7244	+	MEint.metabat.11576_125000154	Inosine-5'-monophosphate dehydrogenase (EC 1.1.1.205)
+kb|g.236129.CDS.1038	CDS		kb|g.236129	;	No annotated function	7227	7986	+	MEint.metabat.11576_125000154	
+kb|g.236129.CDS.1039	CDS	Methyl-accepting chemotaxis protein I (serine chemoreceptor protein)	kb|g.236129	none		16	469	+	MEint.metabat.11576_1413003037	Methyl-accepting chemotaxis protein I (serine chemoreceptor protein)
+kb|g.236129.CDS.1040	CDS		kb|g.236129	;	No annotated function	1645	442	-	MEint.metabat.11576_1413003037	
+kb|g.236129.CDS.1041	CDS	UDP-N-acetylglucosamine 1-carboxyvinyltransferase (EC 2.5.1.7)	kb|g.236129	none		1667	2936	+	MEint.metabat.11576_1413003037	UDP-N-acetylglucosamine 1-carboxyvinyltransferase (EC 2.5.1.7)
+kb|g.236129.CDS.1042	CDS		kb|g.236129	;	No annotated function	3029	2900	-	MEint.metabat.11576_1413003037	
+kb|g.236129.CDS.1043	CDS		kb|g.236129	;	No annotated function	3089	3320	+	MEint.metabat.11576_1413003037	
+kb|g.236129.CDS.1044	CDS	putative periplasmic protein kinase ArgK and related GTPases of G3E family	kb|g.236129	none		3323	4286	+	MEint.metabat.11576_1413003037	putative periplasmic protein kinase ArgK and related GTPases of G3E family
+kb|g.236129.CDS.1045	CDS		kb|g.236129	;	No annotated function	4282	4966	+	MEint.metabat.11576_1413003037	
+kb|g.236129.CDS.1046	CDS		kb|g.236129	;	No annotated function	4962	5283	+	MEint.metabat.11576_1413003037	
+kb|g.236129.CDS.1047	CDS		kb|g.236129	;	No annotated function	5721	5274	-	MEint.metabat.11576_1413003037	
+kb|g.236129.CDS.1048	CDS		kb|g.236129	;	No annotated function	6036	5727	-	MEint.metabat.11576_1413003037	
+kb|g.236129.CDS.1049	CDS	UTP--glucose-1-phosphate uridylyltransferase (EC 2.7.7.9)	kb|g.236129	none		1297	493	-	MEint.metabat.11576_146000907	UTP--glucose-1-phosphate uridylyltransferase (EC 2.7.7.9)
+kb|g.236129.CDS.1050	CDS		kb|g.236129	;	No annotated function	1324	1669	+	MEint.metabat.11576_146000907	
+kb|g.236129.CDS.1051	CDS	Biphenyl-2,3-diol 1,2-dioxygenase (EC 1.13.11.39)	kb|g.236129	none		2153	1664	-	MEint.metabat.11576_146000907	Biphenyl-2,3-diol 1,2-dioxygenase (EC 1.13.11.39)
+kb|g.236129.CDS.1052	CDS		kb|g.236129	;	No annotated function	2517	2172	-	MEint.metabat.11576_146000907	
+kb|g.236129.CDS.1053	CDS	Protein-export membrane protein SecD (TC 3.A.5.1.1)	kb|g.236129	none		67	904	+	MEint.metabat.11576_125000067	Protein-export membrane protein SecD (TC 3.A.5.1.1)
+kb|g.236129.CDS.1054	CDS		kb|g.236129	;	No annotated function	900	2025	+	MEint.metabat.11576_125000067	
+kb|g.236129.CDS.1055	CDS	Ribosomal RNA large subunit methyltransferase N (EC 2.1.1.-)	kb|g.236129	none		1194	117	-	MEint.metabat.11576_2307000105	Ribosomal RNA large subunit methyltransferase N (EC 2.1.1.-)
+kb|g.236129.CDS.1056	CDS		kb|g.236129	;	No annotated function	1261	1771	+	MEint.metabat.11576_2307000105	
+kb|g.236129.CDS.1057	CDS	Oligoendopeptidase F (EC 3.4.24.-)	kb|g.236129	none		3619	1810	-	MEint.metabat.11576_2307000105	Oligoendopeptidase F (EC 3.4.24.-)
+kb|g.236129.CDS.1058	CDS	Acetyl-CoA:Cys-GlcN-Ins acetyltransferase, mycothiol synthase MshD	kb|g.236129	none		4341	3648	-	MEint.metabat.11576_2307000105	Acetyl-CoA:Cys-GlcN-Ins acetyltransferase, mycothiol synthase MshD
+kb|g.236129.CDS.1059	CDS	Endonuclease III (EC 4.2.99.18)	kb|g.236129	none		4374	5112	+	MEint.metabat.11576_2307000105	Endonuclease III (EC 4.2.99.18)
+kb|g.236129.CDS.1060	CDS		kb|g.236129	;	No annotated function	5075	5339	+	MEint.metabat.11576_2307000105	
+kb|g.236129.CDS.1061	CDS	Histidinol-phosphate aminotransferase (EC 2.6.1.9)	kb|g.236129	none		5411	6524	+	MEint.metabat.11576_2307000105	Histidinol-phosphate aminotransferase (EC 2.6.1.9)
+kb|g.236129.CDS.1062	CDS	Imidazoleglycerol-phosphate dehydratase (EC 4.2.1.19)	kb|g.236129	none		6529	7120	+	MEint.metabat.11576_2307000105	Imidazoleglycerol-phosphate dehydratase (EC 4.2.1.19)
+kb|g.236129.CDS.1063	CDS		kb|g.236129	;	No annotated function	1980	1521	-	MEint.metabat.11576_327000000	
+kb|g.236129.CDS.1064	CDS		kb|g.236129	;	No annotated function	2073	2847	+	MEint.metabat.11576_327000000	
+kb|g.236129.CDS.1065	CDS	L-malyl-CoA/beta-methylmalyl-CoA lyase (EC 4.1.3.-), actinobacterial type	kb|g.236129	none		2857	3793	+	MEint.metabat.11576_327000000	L-malyl-CoA/beta-methylmalyl-CoA lyase (EC 4.1.3.-), actinobacterial type
+kb|g.236129.CDS.1066	CDS		kb|g.236129	;	No annotated function	3803	4511	+	MEint.metabat.11576_327000000	
+kb|g.236129.CDS.1067	CDS	Methylsuccinyl-CoA dehydrogenase, predicted by (Erb et al, 2007)	kb|g.236129	none		6119	4517	-	MEint.metabat.11576_327000000	Methylsuccinyl-CoA dehydrogenase, predicted by (Erb et al, 2007)
+kb|g.236129.CDS.1068	CDS		kb|g.236129	;	No annotated function	6225	7377	+	MEint.metabat.11576_327000000	
+kb|g.236129.CDS.1069	CDS	Mesaconyl-CoA hydratase	kb|g.236129	none		7392	7908	+	MEint.metabat.11576_327000000	Mesaconyl-CoA hydratase
+kb|g.236129.CDS.1070	CDS	A/G-specific adenine glycosylase (EC 3.2.2.-)	kb|g.236129	none		7904	8813	+	MEint.metabat.11576_327000000	A/G-specific adenine glycosylase (EC 3.2.2.-)
+kb|g.236129.CDS.1071	CDS		kb|g.236129	;	No annotated function	8813	8927	+	MEint.metabat.11576_327000000	
+kb|g.236129.CDS.1072	CDS		kb|g.236129	;	No annotated function	906	105	-	MEint.metabat.11576_32001132	
+kb|g.236129.CDS.1073	CDS		kb|g.236129	;	No annotated function	922	1480	+	MEint.metabat.11576_32001132	
+kb|g.236129.CDS.1074	CDS		kb|g.236129	;	No annotated function	1476	2334	+	MEint.metabat.11576_32001132	
+kb|g.236129.CDS.1075	CDS		kb|g.236129	;	No annotated function	2330	2966	+	MEint.metabat.11576_32001132	
+kb|g.236129.CDS.1076	CDS	Pyridoxamine 5'-phosphate oxidase (EC 1.4.3.5)	kb|g.236129	none		3563	2927	-	MEint.metabat.11576_32001132	Pyridoxamine 5'-phosphate oxidase (EC 1.4.3.5)
+kb|g.236129.CDS.1077	CDS	Seryl-tRNA synthetase (EC 6.1.1.11)	kb|g.236129	none		4846	3559	-	MEint.metabat.11576_32001132	Seryl-tRNA synthetase (EC 6.1.1.11)
+kb|g.236129.CDS.1078	CDS	ABC-type multidrug transport system, ATPase component	kb|g.236129	none		4896	5622	+	MEint.metabat.11576_32001132	ABC-type multidrug transport system, ATPase component
+kb|g.236129.CDS.1079	CDS		kb|g.236129	;	No annotated function	5618	6338	+	MEint.metabat.11576_32001132	
+kb|g.236129.CDS.1080	CDS		kb|g.236129	;	No annotated function	7282	6349	-	MEint.metabat.11576_32001132	
+kb|g.236129.CDS.1081	CDS		kb|g.236129	;	No annotated function	7497	7290	-	MEint.metabat.11576_32001132	
+kb|g.236129.CDS.1082	CDS	Chaperone protein DnaJ	kb|g.236129	none		16	1141	+	MEint.metabat.11576_178001129	Chaperone protein DnaJ
+kb|g.236129.CDS.1083	CDS	Ribosomal RNA small subunit methyltransferase E (EC 2.1.1.-)	kb|g.236129	none		1184	1901	+	MEint.metabat.11576_178001129	Ribosomal RNA small subunit methyltransferase E (EC 2.1.1.-)
+kb|g.236129.CDS.1084	CDS		kb|g.236129	;	No annotated function	1897	2410	+	MEint.metabat.11576_178001129	
+kb|g.236129.CDS.1085	CDS	Hypothetical radical SAM family enzyme in heat shock gene cluster, similarity with CPO of BS HemN-type	kb|g.236129	none		2406	3585	+	MEint.metabat.11576_178001129	Hypothetical radical SAM family enzyme in heat shock gene cluster, similarity with CPO of BS HemN-type
+kb|g.236129.CDS.1086	CDS	N-carbamoylputrescine amidase (3.5.1.53) / Omega amidase (Nit2 homolog)	kb|g.236129	none		514	1360	+	MEint.metabat.11576_601000025	N-carbamoylputrescine amidase (3.5.1.53);Omega amidase (Nit2 homolog)
+kb|g.236129.CDS.1087	CDS	Dihydropyrimidinase (EC 3.5.2.2)	kb|g.236129	none		1416	2841	+	MEint.metabat.11576_601000025	Dihydropyrimidinase (EC 3.5.2.2)
+kb|g.236129.CDS.1088	CDS	Methylmalonate-semialdehyde dehydrogenase (EC 1.2.1.27)	kb|g.236129	none		2942	4427	+	MEint.metabat.11576_601000025	Methylmalonate-semialdehyde dehydrogenase (EC 1.2.1.27)
+kb|g.236129.CDS.1089	CDS		kb|g.236129	;	No annotated function	58	187	+	MEint.metabat.11576_2199002950	
+kb|g.236129.CDS.1090	CDS		kb|g.236129	;	No annotated function	707	260	-	MEint.metabat.11576_2199002950	
+kb|g.236129.CDS.1091	CDS	Catalase (EC 1.11.1.6) / Peroxidase (EC 1.11.1.7)	kb|g.236129	none		3252	1029	-	MEint.metabat.11576_2199002950	Catalase (EC 1.11.1.6);Peroxidase (EC 1.11.1.7)
+kb|g.236129.CDS.1092	CDS	Transcriptional regulator, FUR family	kb|g.236129	none		3818	3257	-	MEint.metabat.11576_2199002950	Transcriptional regulator, FUR family
+kb|g.236129.CDS.1093	CDS		kb|g.236129	;	No annotated function	5084	4073	-	MEint.metabat.11576_2199002950	
+kb|g.236129.CDS.1094	CDS		kb|g.236129	;	No annotated function	5702	5108	-	MEint.metabat.11576_2199002950	
+kb|g.236129.CDS.1095	CDS		kb|g.236129	;	No annotated function	7436	5939	-	MEint.metabat.11576_2199002950	
+kb|g.236129.CDS.1096	CDS		kb|g.236129	;	No annotated function	7516	8911	+	MEint.metabat.11576_2199002950	
+kb|g.236129.CDS.1097	CDS	Acetyl-coenzyme A carboxyl transferase alpha chain (EC 6.4.1.2) / Acetyl-coenzyme A carboxyl transferase beta chain (EC 6.4.1.2); Propionyl-CoA carboxylase beta chain (EC 6.4.1.3)	kb|g.236129	;		8983	10393	+	MEint.metabat.11576_2199002950	Acetyl-coenzyme A carboxyl transferase alpha chain (EC 6.4.1.2);Acetyl-coenzyme A carboxyl transferase beta chain (EC 6.4.1.2);Propionyl-CoA carboxylase beta chain (EC 6.4.1.3)
+kb|g.236129.CDS.1098	CDS	DNA polymerase III beta subunit (EC 2.7.7.7)	kb|g.236129	none		132	1227	+	MEint.metabat.11576_203001497	DNA polymerase III beta subunit (EC 2.7.7.7)
+kb|g.236129.CDS.1099	CDS	DNA recombination and repair protein RecF	kb|g.236129	none		1223	2333	+	MEint.metabat.11576_203001497	DNA recombination and repair protein RecF
+kb|g.236129.CDS.1100	CDS		kb|g.236129	;	No annotated function	2346	2667	+	MEint.metabat.11576_203001497	
+kb|g.236129.CDS.1101	CDS	DNA gyrase subunit B (EC 5.99.1.3)	kb|g.236129	none		2783	4763	+	MEint.metabat.11576_203001497	DNA gyrase subunit B (EC 5.99.1.3)
+kb|g.236129.CDS.1102	CDS	DNA gyrase subunit A (EC 5.99.1.3)	kb|g.236129	none		4786	7315	+	MEint.metabat.11576_203001497	DNA gyrase subunit A (EC 5.99.1.3)
+kb|g.236129.CDS.1103	CDS		kb|g.236129	;	No annotated function	7574	7265	-	MEint.metabat.11576_203001497	
+kb|g.236129.CDS.1104	CDS		kb|g.236129	;	No annotated function	1583	323	-	MEint.metabat.11576_1719001045	
+kb|g.236129.CDS.1105	CDS		kb|g.236129	;	No annotated function	2790	1602	-	MEint.metabat.11576_1719001045	
+kb|g.236129.CDS.1106	CDS	Dihydrofolate synthase (EC 6.3.2.12) / Folylpolyglutamate synthase (EC 6.3.2.17)	kb|g.236129	none		1384	79	-	MEint.metabat.11576_24000886	Dihydrofolate synthase (EC 6.3.2.12);Folylpolyglutamate synthase (EC 6.3.2.17)
+kb|g.236129.CDS.1107	CDS	ATP-dependent Clp protease ATP-binding subunit ClpX	kb|g.236129	none		2711	1433	-	MEint.metabat.11576_24000886	ATP-dependent Clp protease ATP-binding subunit ClpX
+kb|g.236129.CDS.1108	CDS	ATP-dependent Clp protease proteolytic subunit (EC 3.4.21.92)	kb|g.236129	none		3370	2728	-	MEint.metabat.11576_24000886	ATP-dependent Clp protease proteolytic subunit (EC 3.4.21.92)
+kb|g.236129.CDS.1109	CDS	Cell division trigger factor (EC 5.2.1.8)	kb|g.236129	none		4802	3362	-	MEint.metabat.11576_24000886	Cell division trigger factor (EC 5.2.1.8)
+kb|g.236129.CDS.1110	CDS		kb|g.236129	;	No annotated function	4837	5107	+	MEint.metabat.11576_24000886	
+kb|g.236129.CDS.1111	CDS		kb|g.236129	;	No annotated function	18	564	+	MEint.metabat.11576_2097003033	
+kb|g.236129.CDS.1112	CDS	Butyryl-CoA dehydrogenase (EC 1.3.99.2)	kb|g.236129	none		611	1826	+	MEint.metabat.11576_2097003033	Butyryl-CoA dehydrogenase (EC 1.3.99.2)
+kb|g.236129.CDS.1113	CDS		kb|g.236129	;	No annotated function	1919	3149	+	MEint.metabat.11576_2097003033	
+kb|g.236129.CDS.1114	CDS		kb|g.236129	;	No annotated function	3542	3254	-	MEint.metabat.11576_2097003033	
+kb|g.236129.CDS.1115	CDS	Deoxyribose-phosphate aldolase (EC 4.1.2.4)	kb|g.236129	none		3603	4284	+	MEint.metabat.11576_2097003033	Deoxyribose-phosphate aldolase (EC 4.1.2.4)
+kb|g.236129.CDS.1116	CDS	Purine nucleoside phosphorylase (EC 2.4.2.1)	kb|g.236129	none		5158	4306	-	MEint.metabat.11576_2097003033	Purine nucleoside phosphorylase (EC 2.4.2.1)
+kb|g.236129.CDS.1117	CDS		kb|g.236129	;	No annotated function	5437	5167	-	MEint.metabat.11576_2097003033	
+kb|g.236129.CDS.1118	CDS	SSU ribosomal protein S15p (S13e)	kb|g.236129	none		2554	2281	-	MEint.metabat.11576_388001438	SSU ribosomal protein S15p (S13e)
+kb|g.236129.CDS.1119	CDS		kb|g.236129	;	No annotated function	2997	3168	+	MEint.metabat.11576_388001438	
+kb|g.236129.CDS.1120	CDS		kb|g.236129	;	No annotated function	3154	3385	+	MEint.metabat.11576_388001438	
+kb|g.236129.CDS.1121	CDS		kb|g.236129	;	No annotated function	253	1804	+	MEint.metabat.11576_236002468	
+kb|g.236129.CDS.1122	CDS		kb|g.236129	;	No annotated function	1838	2960	+	MEint.metabat.11576_236002468	
+kb|g.236129.CDS.1123	CDS	UDP-N-acetylmuramoylalanyl-D-glutamyl-2,6-diaminopimelate--D-alanyl-D-alanine ligase (EC 6.3.2.10)	kb|g.236129	none		664	1972	+	MEint.metabat.11576_71002487	UDP-N-acetylmuramoylalanyl-D-glutamyl-2,6-diaminopimelate--D-alanyl-D-alanine ligase (EC 6.3.2.10)
+kb|g.236129.CDS.1124	CDS		kb|g.236129	;	No annotated function	3297	2025	-	MEint.metabat.11576_71002487	
+kb|g.236129.CDS.1125	CDS		kb|g.236129	;	No annotated function	3434	3314	-	MEint.metabat.11576_71002487	
+kb|g.236129.CDS.1126	CDS	Coenzyme F420-dependent oxidoreductase	kb|g.236129	none		4656	3600	-	MEint.metabat.11576_71002487	Coenzyme F420-dependent oxidoreductase
+kb|g.236129.CDS.1127	CDS	Alanine dehydrogenase (EC 1.4.1.1)	kb|g.236129	none		5855	4706	-	MEint.metabat.11576_71002487	Alanine dehydrogenase (EC 1.4.1.1)
+kb|g.236129.CDS.1128	CDS		kb|g.236129	;	No annotated function	6028	5851	-	MEint.metabat.11576_71002487	
+kb|g.236129.CDS.1129	CDS	4-aminobutyraldehyde dehydrogenase (EC 1.2.1.19)	kb|g.236129	none		5993	7418	+	MEint.metabat.11576_71002487	4-aminobutyraldehyde dehydrogenase (EC 1.2.1.19)
+kb|g.236129.CDS.1130	CDS	Putrescine transport ATP-binding protein PotA (TC 3.A.1.11.1)	kb|g.236129	none		7541	8654	+	MEint.metabat.11576_71002487	Putrescine transport ATP-binding protein PotA (TC 3.A.1.11.1)
+kb|g.236129.CDS.1131	CDS	ABC transporter, periplasmic spermidine putrescine-binding protein PotD (TC 3.A.1.11.1)	kb|g.236129	none		8893	10105	+	MEint.metabat.11576_71002487	ABC transporter, periplasmic spermidine putrescine-binding protein PotD (TC 3.A.1.11.1)
+kb|g.236129.CDS.1132	CDS	Spermidine Putrescine ABC transporter permease component PotB (TC 3.A.1.11.1)	kb|g.236129	none		10143	12204	+	MEint.metabat.11576_71002487	Spermidine Putrescine ABC transporter permease component PotB (TC 3.A.1.11.1)
+kb|g.236129.CDS.1133	CDS	D-3-phosphoglycerate dehydrogenase (EC 1.1.1.95)	kb|g.236129	none		12207	13164	+	MEint.metabat.11576_71002487	D-3-phosphoglycerate dehydrogenase (EC 1.1.1.95)
+kb|g.236129.CDS.1134	CDS		kb|g.236129	;	No annotated function	13249	13885	+	MEint.metabat.11576_71002487	
+kb|g.236129.CDS.1135	CDS		kb|g.236129	;	No annotated function	14233	14035	-	MEint.metabat.11576_71002487	
+kb|g.236129.CDS.1136	CDS	Formate dehydrogenase-O, major subunit (EC 1.2.1.2)	kb|g.236129	none		3088	763	-	MEint.metabat.11576_225002008	Formate dehydrogenase-O, major subunit (EC 1.2.1.2)
+kb|g.236129.CDS.1137	CDS	Ribonucleotide reductase transcriptional regulator NrdR	kb|g.236129	none		3592	3091	-	MEint.metabat.11576_225002008	Ribonucleotide reductase transcriptional regulator NrdR
+kb|g.236129.CDS.1138	CDS		kb|g.236129	;	No annotated function	4039	3628	-	MEint.metabat.11576_225002008	
+kb|g.236129.CDS.1139	CDS	SSU ribosomal protein S14p (S29e) @ SSU ribosomal protein S14p (S29e), zinc-independent	kb|g.236129	none		690	504	-	MEint.metabat.11576_105000091	SSU ribosomal protein S14p (S29e);SSU ribosomal protein S14p (S29e), zinc-independent
+kb|g.236129.CDS.1140	CDS	SSU ribosomal protein S8p (S15Ae)	kb|g.236129	none		499	97	-	MEint.metabat.11576_105000091	SSU ribosomal protein S8p (S15Ae)
+kb|g.236129.CDS.1141	CDS	LSU ribosomal protein L5p (L11e)	kb|g.236129	none		1341	711	-	MEint.metabat.11576_105000091	LSU ribosomal protein L5p (L11e)
+kb|g.236129.CDS.1142	CDS	LSU ribosomal protein L24p (L26e)	kb|g.236129	none		1643	1340	-	MEint.metabat.11576_105000091	LSU ribosomal protein L24p (L26e)
+kb|g.236129.CDS.1143	CDS	LSU ribosomal protein L14p (L23e)	kb|g.236129	none		2013	1644	-	MEint.metabat.11576_105000091	LSU ribosomal protein L14p (L23e)
+kb|g.236129.CDS.1144	CDS	SSU ribosomal protein S17p (S11e)	kb|g.236129	none		2276	2009	-	MEint.metabat.11576_105000091	SSU ribosomal protein S17p (S11e)
+kb|g.236129.CDS.1145	CDS		kb|g.236129	;	No annotated function	2521	2272	-	MEint.metabat.11576_105000091	
+kb|g.236129.CDS.1146	CDS	LSU ribosomal protein L16p (L10e)	kb|g.236129	none		2940	2523	-	MEint.metabat.11576_105000091	LSU ribosomal protein L16p (L10e)
+kb|g.236129.CDS.1147	CDS	SSU ribosomal protein S3p (S3e)	kb|g.236129	none		3821	2942	-	MEint.metabat.11576_105000091	SSU ribosomal protein S3p (S3e)
+kb|g.236129.CDS.1148	CDS		kb|g.236129	;	No annotated function	4393	3820	-	MEint.metabat.11576_105000091	
+kb|g.236129.CDS.1149	CDS	SSU ribosomal protein S19p (S15e)	kb|g.236129	none		4710	4389	-	MEint.metabat.11576_105000091	SSU ribosomal protein S19p (S15e)
+kb|g.236129.CDS.1150	CDS	LSU ribosomal protein L2p (L8e)	kb|g.236129	none		5550	4713	-	MEint.metabat.11576_105000091	LSU ribosomal protein L2p (L8e)
+kb|g.236129.CDS.1151	CDS	LSU ribosomal protein L23p (L23Ae)	kb|g.236129	none		5851	5560	-	MEint.metabat.11576_105000091	LSU ribosomal protein L23p (L23Ae)
+kb|g.236129.CDS.1152	CDS	LSU ribosomal protein L4p (L1e)	kb|g.236129	none		6471	5847	-	MEint.metabat.11576_105000091	LSU ribosomal protein L4p (L1e)
+kb|g.236129.CDS.1153	CDS	LSU ribosomal protein L3p (L3e)	kb|g.236129	none		7115	6473	-	MEint.metabat.11576_105000091	LSU ribosomal protein L3p (L3e)
+kb|g.236129.CDS.1154	CDS		kb|g.236129	;	No annotated function	7114	7228	+	MEint.metabat.11576_105000091	
+kb|g.236129.CDS.1155	CDS	HtrA protease/chaperone protein	kb|g.236129	none		8587	7528	-	MEint.metabat.11576_105000091	HtrA protease/chaperone protein
+kb|g.236129.CDS.1156	CDS	SSU ribosomal protein S10p (S20e)	kb|g.236129	none		9101	8786	-	MEint.metabat.11576_105000091	SSU ribosomal protein S10p (S20e)
+kb|g.236129.CDS.1157	CDS	Translation elongation factor Tu	kb|g.236129	none		10315	9130	-	MEint.metabat.11576_105000091	Translation elongation factor Tu
+kb|g.236129.CDS.1158	CDS	Translation elongation factor G	kb|g.236129	none		12445	10363	-	MEint.metabat.11576_105000091	Translation elongation factor G
+kb|g.236129.CDS.1159	CDS	SSU ribosomal protein S7p (S5e)	kb|g.236129	none		12955	12484	-	MEint.metabat.11576_105000091	SSU ribosomal protein S7p (S5e)
+kb|g.236129.CDS.1160	CDS	SSU ribosomal protein S12p (S23e)	kb|g.236129	none		13227	12963	-	MEint.metabat.11576_105000091	SSU ribosomal protein S12p (S23e)
+kb|g.236129.CDS.1161	CDS	DNA-directed RNA polymerase beta' subunit (EC 2.7.7.6)	kb|g.236129	none		14772	13587	-	MEint.metabat.11576_105000091	DNA-directed RNA polymerase beta' subunit (EC 2.7.7.6)
+kb|g.236129.CDS.1162	CDS		kb|g.236129	;	No annotated function	915	1050	+	MEint.metabat.11576_1061002087	
+kb|g.236129.CDS.1163	CDS	Aldehyde dehydrogenase (EC 1.2.1.3)	kb|g.236129	none		2644	1132	-	MEint.metabat.11576_1061002087	Aldehyde dehydrogenase (EC 1.2.1.3)
+kb|g.236129.CDS.1164	CDS	6-phosphofructokinase (EC 2.7.1.11)	kb|g.236129	none		3744	2712	-	MEint.metabat.11576_1061002087	6-phosphofructokinase (EC 2.7.1.11)
+kb|g.236129.CDS.1165	CDS	Iron/Ascorbate oxidoreductase	kb|g.236129	none		4771	3793	-	MEint.metabat.11576_1061002087	Iron/Ascorbate oxidoreductase
+kb|g.236129.CDS.1166	CDS	Aldehyde dehydrogenase (EC 1.2.1.3)	kb|g.236129	none		4863	6291	+	MEint.metabat.11576_1061002087	Aldehyde dehydrogenase (EC 1.2.1.3)
+kb|g.236129.CDS.1167	CDS		kb|g.236129	;	No annotated function	6704	6437	-	MEint.metabat.11576_1061002087	
+kb|g.236129.CDS.1168	CDS	Isocitrate dehydrogenase [NADP] (EC 1.1.1.42)	kb|g.236129	none		1582	139	-	MEint.metabat.11576_32002373	Isocitrate dehydrogenase [NADP] (EC 1.1.1.42)
+kb|g.236129.CDS.1169	CDS		kb|g.236129	;	No annotated function	1720	2002	+	MEint.metabat.11576_32002373	
+kb|g.236129.CDS.1170	CDS		kb|g.236129	;	No annotated function	2676	2052	-	MEint.metabat.11576_32002373	
+kb|g.236129.CDS.1171	CDS	Inner membrane protein YrbG, predicted calcium/sodium:proton antiporter	kb|g.236129	none		3874	2773	-	MEint.metabat.11576_32002373	Inner membrane protein YrbG, predicted calcium/sodium:proton antiporter
+kb|g.236129.CDS.1172	CDS		kb|g.236129	;	No annotated function	4057	3883	-	MEint.metabat.11576_32002373	
+kb|g.236129.CDS.1173	CDS		kb|g.236129	;	No annotated function	2548	1675	-	MEint.metabat.11576_1995000094	
+kb|g.236129.CDS.1174	CDS	Maltose/maltodextrin ABC transporter, permease protein MalF	kb|g.236129	none		4181	2567	-	MEint.metabat.11576_1995000094	Maltose/maltodextrin ABC transporter, permease protein MalF
+kb|g.236129.CDS.1175	CDS	Maltose/maltodextrin ABC transporter, substrate binding periplasmic protein MalE	kb|g.236129	none		5491	4267	-	MEint.metabat.11576_1995000094	Maltose/maltodextrin ABC transporter, substrate binding periplasmic protein MalE
+kb|g.236129.CDS.1176	CDS		kb|g.236129	;	No annotated function	226	805	+	MEint.metabat.11576_1952000744	
+kb|g.236129.CDS.1177	CDS		kb|g.236129	;	No annotated function	46	235	+	MEint.metabat.11576_1844000104	
+kb|g.236129.CDS.1178	CDS	Valyl-tRNA synthetase (EC 6.1.1.9)	kb|g.236129	none		862	3499	+	MEint.metabat.11576_1844000104	Valyl-tRNA synthetase (EC 6.1.1.9)
+kb|g.236129.CDS.1179	CDS	Cell envelope-associated transcriptional attenuator LytR-CpsA-Psr, subfamily A1 (as in PMID19099556)	kb|g.236129	none		3495	4797	+	MEint.metabat.11576_1844000104	Cell envelope-associated transcriptional attenuator LytR-CpsA-Psr, subfamily A1 (as in PMID19099556)
+kb|g.236129.CDS.1180	CDS	Acyl-phosphate:glycerol-3-phosphate O-acyltransferase PlsY	kb|g.236129	none		4818	5418	+	MEint.metabat.11576_1844000104	Acyl-phosphate:glycerol-3-phosphate O-acyltransferase PlsY
+kb|g.236129.CDS.1181	CDS		kb|g.236129	;	No annotated function	5427	6051	+	MEint.metabat.11576_1844000104	
+kb|g.236129.CDS.1182	CDS	HspR, transcriptional repressor of DnaK operon	kb|g.236129	none		2126	1733	-	MEint.metabat.11576_327000546	HspR, transcriptional repressor of DnaK operon
+kb|g.236129.CDS.1183	CDS	Chaperone protein DnaJ	kb|g.236129	none		3211	2122	-	MEint.metabat.11576_327000546	Chaperone protein DnaJ
+kb|g.236129.CDS.1184	CDS	Heat shock protein GrpE	kb|g.236129	none		3791	3242	-	MEint.metabat.11576_327000546	Heat shock protein GrpE
+kb|g.236129.CDS.1185	CDS	Chaperone protein DnaK	kb|g.236129	none		4409	3818	-	MEint.metabat.11576_327000546	Chaperone protein DnaK
+kb|g.236129.CDS.1186	CDS	NADH-ubiquinone oxidoreductase chain M (EC 1.6.5.3)	kb|g.236129	none		1736	212	-	MEint.metabat.11576_1608002025	NADH-ubiquinone oxidoreductase chain M (EC 1.6.5.3)
+kb|g.236129.CDS.1187	CDS	NADH-ubiquinone oxidoreductase chain L (EC 1.6.5.3)	kb|g.236129	none		4083	1755	-	MEint.metabat.11576_1608002025	NADH-ubiquinone oxidoreductase chain L (EC 1.6.5.3)
+kb|g.236129.CDS.1188	CDS		kb|g.236129	;	No annotated function	4292	4085	-	MEint.metabat.11576_1608002025	
+kb|g.236129.CDS.1189	CDS	NADH-ubiquinone oxidoreductase chain J (EC 1.6.5.3)	kb|g.236129	none		4931	4415	-	MEint.metabat.11576_1608002025	NADH-ubiquinone oxidoreductase chain J (EC 1.6.5.3)
+kb|g.236129.CDS.1190	CDS	NADH-ubiquinone oxidoreductase chain I (EC 1.6.5.3)	kb|g.236129	none		5423	4934	-	MEint.metabat.11576_1608002025	NADH-ubiquinone oxidoreductase chain I (EC 1.6.5.3)
+kb|g.236129.CDS.1191	CDS	NADH-ubiquinone oxidoreductase chain H (EC 1.6.5.3)	kb|g.236129	none		6497	5423	-	MEint.metabat.11576_1608002025	NADH-ubiquinone oxidoreductase chain H (EC 1.6.5.3)
+kb|g.236129.CDS.1192	CDS	NADH-ubiquinone oxidoreductase chain D (EC 1.6.5.3)	kb|g.236129	none		7690	6505	-	MEint.metabat.11576_1608002025	NADH-ubiquinone oxidoreductase chain D (EC 1.6.5.3)
+kb|g.236129.CDS.1193	CDS	NADH-ubiquinone oxidoreductase chain C (EC 1.6.5.3)	kb|g.236129	none		8310	7686	-	MEint.metabat.11576_1608002025	NADH-ubiquinone oxidoreductase chain C (EC 1.6.5.3)
+kb|g.236129.CDS.1194	CDS	NADH-ubiquinone oxidoreductase chain B (EC 1.6.5.3)	kb|g.236129	none		8757	8319	-	MEint.metabat.11576_1608002025	NADH-ubiquinone oxidoreductase chain B (EC 1.6.5.3)
+kb|g.236129.CDS.1195	CDS	(R)-citramalate synthase (EC 2.3.1.182)	kb|g.236129	none		34	412	+	MEint.metabat.11576_638002213	(R)-citramalate synthase (EC 2.3.1.182)
+kb|g.236129.CDS.1196	CDS		kb|g.236129	;	No annotated function	538	1282	+	MEint.metabat.11576_638002213	
+kb|g.236129.CDS.1197	CDS		kb|g.236129	;	No annotated function	1254	2778	+	MEint.metabat.11576_638002213	
+kb|g.236129.CDS.1198	CDS		kb|g.236129	;	No annotated function	2795	3350	+	MEint.metabat.11576_638002213	
+kb|g.236129.CDS.1199	CDS	DNA polymerase III alpha subunit (EC 2.7.7.7)	kb|g.236129	none		3350	6566	+	MEint.metabat.11576_638002213	DNA polymerase III alpha subunit (EC 2.7.7.7)
+kb|g.236129.CDS.1200	CDS		kb|g.236129	;	No annotated function	7187	6914	-	MEint.metabat.11576_638002213	
+kb|g.236129.CDS.1201	CDS		kb|g.236129	;	No annotated function	6918	6597	-	MEint.metabat.11576_638002213	
+kb|g.236129.CDS.1202	CDS		kb|g.236129	;	No annotated function	34	307	+	MEint.metabat.11576_1264000685	
+kb|g.236129.CDS.1203	CDS	Ribonuclease III (EC 3.1.26.3)	kb|g.236129	none		303	996	+	MEint.metabat.11576_1264000685	Ribonuclease III (EC 3.1.26.3)
+kb|g.236129.CDS.1204	CDS	Formamidopyrimidine-DNA glycosylase (EC 3.2.2.23)	kb|g.236129	none		1020	1872	+	MEint.metabat.11576_1264000685	Formamidopyrimidine-DNA glycosylase (EC 3.2.2.23)
+kb|g.236129.CDS.1205	CDS		kb|g.236129	;	No annotated function	338	1271	+	MEint.metabat.11576_226001998	
+kb|g.236129.CDS.1206	CDS		kb|g.236129	;	No annotated function	1348	2848	+	MEint.metabat.11576_226001998	
+kb|g.236129.CDS.1207	CDS		kb|g.236129	;	No annotated function	2844	3450	+	MEint.metabat.11576_226001998	
+kb|g.236129.CDS.1208	CDS		kb|g.236129	;	No annotated function	3454	4588	+	MEint.metabat.11576_226001998	
+kb|g.236129.CDS.1209	CDS		kb|g.236129	;	No annotated function	4889	4559	-	MEint.metabat.11576_226001998	
+kb|g.236129.CDS.1210	CDS	Aldehyde dehydrogenase B (EC 1.2.1.22)	kb|g.236129	none		7	745	+	MEint.metabat.11576_456001622	Aldehyde dehydrogenase B (EC 1.2.1.22)
+kb|g.236129.CDS.1211	CDS		kb|g.236129	;	No annotated function	1582	802	-	MEint.metabat.11576_456001622	
+kb|g.236129.CDS.1212	CDS		kb|g.236129	;	No annotated function	1983	1602	-	MEint.metabat.11576_456001622	
+kb|g.236129.CDS.1213	CDS	Glycerol kinase (EC 2.7.1.30)	kb|g.236129	none		3647	2153	-	MEint.metabat.11576_456001622	Glycerol kinase (EC 2.7.1.30)
+kb|g.236129.CDS.1214	CDS	Alkyldihydroxyacetonephosphate synthase (EC 2.5.1.26)	kb|g.236129	none		5170	3643	-	MEint.metabat.11576_456001622	Alkyldihydroxyacetonephosphate synthase (EC 2.5.1.26)
+kb|g.236129.CDS.1215	CDS		kb|g.236129	;	No annotated function	5438	5183	-	MEint.metabat.11576_456001622	
+kb|g.236129.CDS.1216	CDS	3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100)	kb|g.236129	none		946	181	-	MEint.metabat.11576_1373000442	3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100)
+kb|g.236129.CDS.1217	CDS	Fructose-bisphosphate aldolase class I (EC 4.1.2.13)	kb|g.236129	none		1020	1914	+	MEint.metabat.11576_1373000442	Fructose-bisphosphate aldolase class I (EC 4.1.2.13)
+kb|g.236129.CDS.1218	CDS		kb|g.236129	;	No annotated function	1927	2572	+	MEint.metabat.11576_1373000442	
+kb|g.236129.CDS.1219	CDS		kb|g.236129	;	No annotated function	2568	2949	+	MEint.metabat.11576_1373000442	
+kb|g.236129.CDS.1220	CDS	NG,NG-dimethylarginine dimethylaminohydrolase 1 (EC 3.5.3.18)	kb|g.236129	none		3711	2949	-	MEint.metabat.11576_1373000442	NG,NG-dimethylarginine dimethylaminohydrolase 1 (EC 3.5.3.18)
+kb|g.236129.CDS.1221	CDS		kb|g.236129	;	No annotated function	4494	3759	-	MEint.metabat.11576_1373000442	
+kb|g.236129.CDS.1222	CDS		kb|g.236129	;	No annotated function	4711	5179	+	MEint.metabat.11576_1373000442	
+kb|g.236129.CDS.1223	CDS	Aldehyde dehydrogenase (EC 1.2.1.3)	kb|g.236129	none		6829	5401	-	MEint.metabat.11576_1373000442	Aldehyde dehydrogenase (EC 1.2.1.3)
+kb|g.236129.CDS.1224	CDS		kb|g.236129	;	No annotated function	7043	6884	-	MEint.metabat.11576_1373000442	
+kb|g.236129.CDS.1225	CDS		kb|g.236129	;	No annotated function	66	666	+	MEint.metabat.11576_594001009	
+kb|g.236129.CDS.1226	CDS	Kynureninase (EC 3.7.1.3)	kb|g.236129	none		1916	668	-	MEint.metabat.11576_594001009	Kynureninase (EC 3.7.1.3)
+kb|g.236129.CDS.1227	CDS	Tryptophan 2,3-dioxygenase (EC 1.13.11.11)	kb|g.236129	none		1930	2764	+	MEint.metabat.11576_594001009	Tryptophan 2,3-dioxygenase (EC 1.13.11.11)
+kb|g.236129.CDS.1228	CDS	Uracil-DNA glycosylase, family 1	kb|g.236129	none		2783	3440	+	MEint.metabat.11576_594001009	Uracil-DNA glycosylase, family 1
+kb|g.236129.CDS.1229	CDS		kb|g.236129	;	No annotated function	3483	3864	+	MEint.metabat.11576_594001009	
+kb|g.236129.CDS.1230	CDS		kb|g.236129	;	No annotated function	4110	3981	-	MEint.metabat.11576_594001009	
+kb|g.236129.CDS.1231	CDS		kb|g.236129	;	No annotated function	788	50	-	MEint.metabat.11576_216002366	
+kb|g.236129.CDS.1232	CDS	FIG074102: hypothetical protein	kb|g.236129	none		1996	784	-	MEint.metabat.11576_216002366	FIG074102: hypothetical protein
+kb|g.236129.CDS.1233	CDS	Peptidyl-prolyl cis-trans isomerase (EC 5.2.1.8)	kb|g.236129	none		2564	2006	-	MEint.metabat.11576_216002366	Peptidyl-prolyl cis-trans isomerase (EC 5.2.1.8)
+kb|g.236129.CDS.1234	CDS		kb|g.236129	;	No annotated function	2582	2735	+	MEint.metabat.11576_216002366	
+kb|g.236129.CDS.1235	CDS	DNA-3-methyladenine glycosylase (EC 3.2.2.20)	kb|g.236129	none		3393	2799	-	MEint.metabat.11576_216002366	DNA-3-methyladenine glycosylase (EC 3.2.2.20)
+kb|g.236129.CDS.1236	CDS		kb|g.236129	;	No annotated function	4260	3435	-	MEint.metabat.11576_216002366	
+kb|g.236129.CDS.1237	CDS	RNA polymerase sigma factor RpoD	kb|g.236129	none		4502	5456	+	MEint.metabat.11576_216002366	RNA polymerase sigma factor RpoD
+kb|g.236129.CDS.1238	CDS		kb|g.236129	;	No annotated function	5468	6326	+	MEint.metabat.11576_216002366	
+kb|g.236129.CDS.1239	CDS	Indigoidine synthase A-like protein, uncharacterized enzyme involved in pigment biosynthesis	kb|g.236129	none		6322	7219	+	MEint.metabat.11576_216002366	Indigoidine synthase A-like protein, uncharacterized enzyme involved in pigment biosynthesis
+kb|g.236129.CDS.1240	CDS		kb|g.236129	;	No annotated function	10	463	+	MEint.metabat.11576_1739001871	
+kb|g.236129.CDS.1241	CDS		kb|g.236129	;	No annotated function	665	1049	+	MEint.metabat.11576_1739001871	
+kb|g.236129.CDS.1242	CDS	Chromosome (plasmid) partitioning protein ParA	kb|g.236129	none		1186	1942	+	MEint.metabat.11576_1739001871	Chromosome (plasmid) partitioning protein ParA
+kb|g.236129.CDS.1243	CDS	Chromosome (plasmid) partitioning protein ParB	kb|g.236129	none		1928	2795	+	MEint.metabat.11576_1739001871	Chromosome (plasmid) partitioning protein ParB
+kb|g.236129.CDS.1244	CDS		kb|g.236129	;	No annotated function	3254	2924	-	MEint.metabat.11576_1739001871	
+kb|g.236129.CDS.1245	CDS	Thioredoxin reductase (EC 1.8.1.9)	kb|g.236129	none		4230	3264	-	MEint.metabat.11576_1739001871	Thioredoxin reductase (EC 1.8.1.9)
+kb|g.236129.CDS.1246	CDS		kb|g.236129	;	No annotated function	4582	4246	-	MEint.metabat.11576_1739001871	
+kb|g.236129.CDS.1247	CDS		kb|g.236129	;	No annotated function	6206	4607	-	MEint.metabat.11576_1739001871	
+kb|g.236129.CDS.1248	CDS		kb|g.236129	;	No annotated function	7106	6272	-	MEint.metabat.11576_1739001871	
+kb|g.236129.CDS.1249	CDS		kb|g.236129	;	No annotated function	8374	7102	-	MEint.metabat.11576_1739001871	
+kb|g.236129.CDS.1250	CDS		kb|g.236129	;	No annotated function	921	147	-	MEint.metabat.11576_129001342	
+kb|g.236129.CDS.1251	CDS		kb|g.236129	;	No annotated function	1014	1473	+	MEint.metabat.11576_129001342	
+kb|g.236129.CDS.1252	CDS	Fumarate hydratase class I, aerobic (EC 4.2.1.2)	kb|g.236129	none		1492	3148	+	MEint.metabat.11576_129001342	Fumarate hydratase class I, aerobic (EC 4.2.1.2)
+kb|g.236129.CDS.1253	CDS		kb|g.236129	;	No annotated function	3203	3713	+	MEint.metabat.11576_129001342	
+kb|g.236129.CDS.1254	CDS		kb|g.236129	;	No annotated function	4478	3680	-	MEint.metabat.11576_129001342	
+kb|g.236129.CDS.1255	CDS		kb|g.236129	;	No annotated function	5749	4474	-	MEint.metabat.11576_129001342	
+kb|g.236129.CDS.1256	CDS		kb|g.236129	;	No annotated function	5772	7230	+	MEint.metabat.11576_129001342	
+kb|g.236129.CDS.1257	CDS		kb|g.236129	;	No annotated function	7286	7481	+	MEint.metabat.11576_129001342	
+kb|g.236129.CDS.1258	CDS	putative cytochrome P450 hydroxylase	kb|g.236129	none		7483	8701	+	MEint.metabat.11576_129001342	putative cytochrome P450 hydroxylase
+kb|g.236129.CDS.1259	CDS		kb|g.236129	;	No annotated function	43	247	+	MEint.metabat.11576_326000704	
+kb|g.236129.CDS.1260	CDS		kb|g.236129	;	No annotated function	1247	287	-	MEint.metabat.11576_326000704	
+kb|g.236129.CDS.1261	CDS	Butyryl-CoA dehydrogenase (EC 1.3.99.2)	kb|g.236129	none		2499	1278	-	MEint.metabat.11576_326000704	Butyryl-CoA dehydrogenase (EC 1.3.99.2)
+kb|g.236129.CDS.1262	CDS		kb|g.236129	;	No annotated function	2562	3273	+	MEint.metabat.11576_326000704	
+kb|g.236129.CDS.1263	CDS		kb|g.236129	;	No annotated function	3269	4478	+	MEint.metabat.11576_326000704	
+kb|g.236129.CDS.1264	CDS	2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylic-acid synthase (EC 2.2.1.9)	kb|g.236129	none		6164	4463	-	MEint.metabat.11576_326000704	2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylic-acid synthase (EC 2.2.1.9)
+kb|g.236129.CDS.1265	CDS		kb|g.236129	;	No annotated function	6174	6834	+	MEint.metabat.11576_326000704	
+kb|g.236129.CDS.1266	CDS	2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate synthase (EC 4.2.99.20)	kb|g.236129	none		6830	7604	+	MEint.metabat.11576_326000704	2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate synthase (EC 4.2.99.20)
+kb|g.236129.CDS.1267	CDS		kb|g.236129	;	No annotated function	1454	1574	+	MEint.metabat.11576_604002417	
+kb|g.236129.CDS.1268	CDS		kb|g.236129	;	No annotated function	1430	992	-	MEint.metabat.11576_604002417	
+kb|g.236129.CDS.1269	CDS	Phosphate starvation-inducible protein PhoH, predicted ATPase	kb|g.236129	none		2559	1569	-	MEint.metabat.11576_604002417	Phosphate starvation-inducible protein PhoH, predicted ATPase
+kb|g.236129.CDS.1270	CDS		kb|g.236129	;	No annotated function	2975	2555	-	MEint.metabat.11576_604002417	
+kb|g.236129.CDS.1271	CDS	diguanylate cyclase/phosphodiesterase (GGDEF & EAL domains) with PAS/PAC sensor(s)	kb|g.236129	none		3278	5561	+	MEint.metabat.11576_604002417	diguanylate cyclase/phosphodiesterase (GGDEF & EAL domains) with PAS/PAC sensor(s)
+kb|g.236129.CDS.1272	CDS		kb|g.236129	;	No annotated function	5817	5595	-	MEint.metabat.11576_604002417	
+kb|g.236129.CDS.1273	CDS		kb|g.236129	;	No annotated function	44	1286	+	MEint.metabat.11576_400000721	
+kb|g.236129.CDS.1274	CDS		kb|g.236129	;	No annotated function	1398	1905	+	MEint.metabat.11576_400000721	
+kb|g.236129.CDS.1275	CDS		kb|g.236129	;	No annotated function	1912	2380	+	MEint.metabat.11576_400000721	
+kb|g.236129.CDS.1276	CDS		kb|g.236129	;	No annotated function	2817	2385	-	MEint.metabat.11576_400000721	
+kb|g.236129.CDS.1277	CDS		kb|g.236129	;	No annotated function	3496	2851	-	MEint.metabat.11576_400000721	
+kb|g.236129.CDS.1278	CDS		kb|g.236129	;	No annotated function	4098	3567	-	MEint.metabat.11576_400000721	
+kb|g.236129.rna.1	rna	tRNA-Leu-TAG	kb|g.236129	none		1440	1367	-	MEint.metabat.11576_653001489	tRNA-Leu-TAG
+kb|g.236129.rna.2	rna	tRNA-Met-CAT	kb|g.236129	none		5406	5332	-	MEint.metabat.11576_1160002982	tRNA-Met-CAT
+kb|g.236129.rna.3	rna	tRNA-Asn-GTT	kb|g.236129	none		10648	10575	-	MEint.metabat.11576_119002939	tRNA-Asn-GTT
+kb|g.236129.rna.4	rna	tRNA-Met-CAT	kb|g.236129	none		10559	10486	-	MEint.metabat.11576_119002939	tRNA-Met-CAT
+kb|g.236129.rna.5	rna	tRNA-Arg-TCG	kb|g.236129	none		10089	10016	-	MEint.metabat.11576_213001240	tRNA-Arg-TCG
+kb|g.236129.rna.6	rna	tRNA-Arg-CCT	kb|g.236129	none		7995	7921	-	MEint.metabat.11576_253000092	tRNA-Arg-CCT
+kb|g.236129.rna.7	rna	tRNA-Ala-TGC	kb|g.236129	none		2657	2731	+	MEint.metabat.11576_278002351	tRNA-Ala-TGC
+kb|g.236129.rna.8	rna	tRNA-Lys-TTT	kb|g.236129	none		7549	7476	-	MEint.metabat.11576_471001094	tRNA-Lys-TTT
+kb|g.236129.rna.9	rna	tRNA-Thr-TGT	kb|g.236129	none		998	926	-	MEint.metabat.11576_471001094	tRNA-Thr-TGT
+kb|g.236129.rna.10	rna	tRNA-Ala-CGC	kb|g.236129	none		10651	10578	-	MEint.metabat.11576_356001087	tRNA-Ala-CGC
+kb|g.236129.rna.11	rna	tRNA-Gln-CTG	kb|g.236129	none		14764	14836	+	MEint.metabat.11576_2342001077	tRNA-Gln-CTG
+kb|g.236129.rna.12	rna	tRNA-Arg-CCG	kb|g.236129	none		98	25	-	MEint.metabat.11576_1272000033	tRNA-Arg-CCG
+kb|g.236129.rna.13	rna	tRNA-Gln-TTG	kb|g.236129	none		3271	3200	-	MEint.metabat.11576_109000468	tRNA-Gln-TTG
+kb|g.236129.rna.14	rna	tRNA-Ala-GGC	kb|g.236129	none		2654	2581	-	MEint.metabat.11576_1221002712	tRNA-Ala-GGC
+kb|g.236129.rna.15	rna	tRNA-Pro-GGG	kb|g.236129	none		10405	10330	-	MEint.metabat.11576_2260002504	tRNA-Pro-GGG
+kb|g.236129.rna.16	rna	tRNA-Lys-TTT	kb|g.236129	none		12022	12095	+	MEint.metabat.11576_139001860	tRNA-Lys-TTT
+kb|g.236129.rna.17	rna	tRNA-Arg-TCT	kb|g.236129	none		11663	11589	-	MEint.metabat.11576_5001104	tRNA-Arg-TCT
+kb|g.236129.rna.18	rna	tRNA-Pro-CGG	kb|g.236129	none		3634	3559	-	MEint.metabat.11576_1043000802	tRNA-Pro-CGG
+kb|g.236129.rna.19	rna	tRNA-Thr-CGT	kb|g.236129	none		3387	3459	+	MEint.metabat.11576_1067002898	tRNA-Thr-CGT
+kb|g.236129.rna.20	rna	tRNA-Gly-GCC	kb|g.236129	none		12150	12223	+	MEint.metabat.11576_2309001028	tRNA-Gly-GCC
+kb|g.236129.rna.21	rna	tRNA-Leu-GAG	kb|g.236129	none		4797	4713	-	MEint.metabat.11576_961000450	tRNA-Leu-GAG
+kb|g.236129.rna.22	rna	tRNA-Thr-TGT	kb|g.236129	none		1600	1672	+	MEint.metabat.11576_2227002700	tRNA-Thr-TGT
+kb|g.236129.rna.23	rna	tRNA-Val-CAC	kb|g.236129	none		13936	14009	+	MEint.metabat.11576_71002487	tRNA-Val-CAC
+kb|g.236129.rna.24	rna	tRNA-Gly-TCC	kb|g.236129	none		6395	6467	+	MEint.metabat.11576_1061002087	tRNA-Gly-TCC
+kb|g.236129.rna.25	rna	tRNA-Gly-TCC	kb|g.236129	none		5297	5225	-	MEint.metabat.11576_1373000442	tRNA-Gly-TCC
+}
