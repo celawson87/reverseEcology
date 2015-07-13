@@ -9,7 +9,7 @@ ExternalData/*
 !ExternalData/taxonomySAGs.csv
 !ExternalData/tribalColors.csv
 MergedData/
-ProcessedModelFiles/
+ProcessedModelFiles/**/*.txt
 
 gurobi.log
 *.pyc
