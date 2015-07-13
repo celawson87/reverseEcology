@@ -10,6 +10,7 @@ ExternalData/*
 !ExternalData/tribalColors.csv
 MergedData/
 ProcessedModelFiles/**/*.txt
+excludedSamples/ProcessedModelFiles/**/*.txt
 
 gurobi.log
 *.pyc
