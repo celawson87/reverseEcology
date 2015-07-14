@@ -436,6 +436,13 @@ def clusterPairwise(revEcolMatrixDF, dirList, externalDataDir, summaryStatsDir, 
     for xtick, color in zip(axmatrix.get_xticklabels(), genomeColors):
         xtick.set_color(color)
 
+# Import coloration info to map to genome names. Rearrange to same order as
+# leaves of the dendrogram and extract the 'Color' column as a list.
+# The file 'actinoColors.csv' will need to be updated for the specific samples.
+    genomeColors = pd.read_csv('../'+externalDataDir+'/'+colorFile)
+    genomeColors = genomeColors['Color'].tolist()
+    genomeColors = [ genomeColors[i] for i in idx2]
+    
 # Add genome names to the right axis
     axmatrix.set_yticks(range(len(revEcolMatrix)))
     axmatrix.set_yticklabels([dirList[i] for i in idx2], minor=False)
