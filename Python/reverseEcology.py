@@ -49,13 +49,13 @@ seedMatrixDF = ef.consolidateSeeds(dirList, externalDataDir, processedDataDir, s
 ef.normalizedSeedCounts(dirList, processedDataDir, summaryStatsDir)
 
 # Construct heatmap of seed metabs. Cluster seed profiles and create dendrogram
-ef.clusterSeedSets(seedMatrixDF, dirList, externalDataDir, summaryStatsDir, 'actinoColors.csv')
-ef.clusterOnly(seedMatrixDF, dirList, externalDataDir, 'actinoColors.csv')
+ef.clusterSeedSets(seedMatrixDF, dirList, externalDataDir, summaryStatsDir, 'taxonomy.csv')
+ef.clusterOnly(seedMatrixDF, dirList, externalDataDir, 'taxonomy.csv')
 
 # Compute metabolic competition and cooperation scores. Create heatmap. Cluster 
 # each metric and create a dendrogram
 metabCompeteDF = ef.computeMetabCompete(dirList, processedDataDir, summaryStatsDir)
-ef.clusterPairwise(metabCompeteDF, dirList, externalDataDir, summaryStatsDir, 'actinoColors.csv', 'metabolicCompetition.png')
+ef.clusterPairwise(metabCompeteDF, dirList, externalDataDir, summaryStatsDir, 'taxonomy.csv', 'metabolicCompetition.png')
 
 metabComplementDF = ef.computeMetabComplement(dirList, processedDataDir, summaryStatsDir)
-ef.clusterPairwise(metabComplementDF, dirList, externalDataDir, summaryStatsDir, 'actinoColors.csv', 'metabolicComplementarity.png')
+ef.clusterPairwise(metabComplementDF, dirList, externalDataDir, summaryStatsDir, 'taxonomy.csv', 'metabolicComplementarity.png')
