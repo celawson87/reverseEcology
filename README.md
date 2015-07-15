@@ -66,6 +66,7 @@ and (di)graph representations. These data are not tracked, as they are re-genera
 
 ##### iPython Notebook
 iPython notebook summaries of the project
+
 * ReverseEcology - master workflow for computing reverse ecology metrics.  
 * pairwiseANI - ANI- and coverage-based criteria for identifying tribes. Analysis of which partially-classified GFMs can be merged into tribes.  
 * mergingGenomes - workflow for for merging network graphs of individual genomes into tribes.  
