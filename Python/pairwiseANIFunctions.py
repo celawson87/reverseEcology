@@ -50,7 +50,7 @@ def importANIandTaxonomy(externalDataDir, aniFile, taxonFile):
 
 #%% Calculate min and max pairwise ANI for members of the same tribe
 
-def sameTribePairwiseANI(externalDataDir, pairwiseANI, taxonClass, tribes):
+def sameTribePairwiseANI(externalDataDir, pairwiseANI, taxonClass, tribes, aniFile):
 # Create a dataframe to store output. Indices are tribes, columns are the
 # the data assoc. w/ each tribe
     maxMinANI = pd.DataFrame(index = tribes, columns=['Samples', 'Num Samples', 'Max', 'Min'])
@@ -83,7 +83,7 @@ def sameTribePairwiseANI(externalDataDir, pairwiseANI, taxonClass, tribes):
     
 #%% Calculate min and max pairwise ANI for members of differing tribes
 
-def diffTribePairwiseANI(externalDataDir, pairwiseANI, taxonClass, tribes):
+def diffTribePairwiseANI(externalDataDir, pairwiseANI, taxonClass, tribes, aniFile):
 # Create a dataframe to store output. Indices are tribes, columns are the
 # the data assoc. w/ each tribe
     maxMinANI = pd.DataFrame(index = tribes, columns=['Max', 'Min'])
