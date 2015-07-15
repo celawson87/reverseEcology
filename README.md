@@ -2,15 +2,14 @@
 ##### Copyright (c) 2015, Joshua J Hamilton and Katherine D McMahon
 ##### Department of Bacteriology
 ##### University of Wisconsin-Madison, Madison, Wisconsin, USA
-##### http://http://mcmahonlab.wisc.edu/
+##### http://mcmahonlab.wisc.edu/
 ##### All rights reserved.
 ***
 
 #### Data Folders
 
-DataSummaries - Summary statistics about genome-scale models and (di)graph representations used in this project
-
-ExternalData - Additional files which are required to make various steps of the pipeline run.
+##### ExternalData
+Additional files which are required to make various steps of the pipeline run.
 
 * For model pre-processing:
     * metaboliteTable.tsv - manual export of model SEED metabolite table
@@ -35,19 +34,41 @@ ExternalData - Additional files which are required to make various steps of the 
     * betweenTribeANI - summary of max and min ANI of samples from different tribes
     * withinTribeANI - summary of max and min ANI of samples from same tribe
 
-ProcessedModelFiles - Processed versions of reconstructions, including mass- and charge-balanced SBML files and graph representationsl.
+##### ProcessedModelFiles
+Processed versions of reconstructions, including mass- and charge-balanced SBML files and graph representationsl.
 
-RawModelFiles - Contains raw output from KBase. Each folder contains the reconstruction for a single genome. To construct a complete and valid SBML file, three files are required:
+##### RawModelFiles
+Contains raw output from KBase. Each folder contains the reconstruction for a single genome. To construct a complete and valid SBML file from models built using the deprecated IRIS interface, three files are required:
 
 * AAA023D18.xml - SBML reconstruction from KBase  
 * AAA023D18.txt - Text format reconstruction from KBase  
 * AAA023D18Annotation.txt - KBase annotation of the contigs.  
 
+To construct a complete and valid SBML file from models built using the deprecated Narrative interface, three files are required:
+
+* AAA027E14.xml - SBML reconstruction from KBase  
+* AAA027E14Compounds.tsv - Text format reconstruction from KBase  
+* AAA027E14Reactions.tsv  - Text format reconstruction from KBase  
+
+##### excludedSamples
+Raw and processed model files for genomes which have been excluded from this analysis.
+
+##### DataSummaries
+Summary statistics about genome-scale network reconstructions, metabolic network (di)graphs
+and (di)graph representations. Results of reverse ecology computations, such as seed sets and competition scores. Contains a 'MergedData' subfolder containing the same information for merged reconstructions (e.g., of tribes). These data are not tracked, as they are re-generated each time the pipeline is run.
+
+##### MergedData
+Summary statistics about genome-scale network reconstructions, metabolic network (di)graphs
+and (di)graph representations. These data are not tracked, as they are re-generated each time the pipeline is run.
 
 #### Code Folders
 
 
-iPython Notebook - iPython notebook summary of the project
+iPython Notebook - iPython notebook summaries of the project
+* ReverseEcology - master workflow for computing reverse ecology metrics.
+* pairwiseANI - ANI- and coverage-based criteria for identifying tribes. Analysis of which partially-classified GFMs can be merged into tribes.
+* mergingGenomes - workflow for for merging network graphs of individual genomes into tribes.
+
 
 Matlab - Codes for processing initial reconstructions from KBase.
 
@@ -59,7 +80,12 @@ Matlab - Codes for processing initial reconstructions from KBase.
 
 Python - Codes for performing reverse ecology analysis.
 
-* reverseEcology.py - master function for performing reverse ecology analysis  
+* reverseEcology.py - master workflow for performing reverse ecology analysis  
+* mergingGraphs.py - master workflow for merging genome network graphs and performing reverse ecology analysis.
+
+* metadataFunctions.py - functions for importing models and taxonomies
 * sbmlFunctions.py - functions for working with SBML reconstructions from KBase  
 * graphFunctions.py - functions for working with graph representations of reconstructions  
+* seedFunctions.py - functions for computing reverse ecology metrics from seed sets
+* pairwiseANIFunctions.py - functions for performing ANI and coverage calculations
 * extraFunctions.py - extra functions which are currently unused in the final analysis
