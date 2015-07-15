@@ -64,13 +64,15 @@ and (di)graph representations. These data are not tracked, as they are re-genera
 #### Code Folders
 
 
-iPython Notebook - iPython notebook summaries of the project
-* ReverseEcology - master workflow for computing reverse ecology metrics.
-* pairwiseANI - ANI- and coverage-based criteria for identifying tribes. Analysis of which partially-classified GFMs can be merged into tribes.
-* mergingGenomes - workflow for for merging network graphs of individual genomes into tribes.
+##### iPython Notebook
+iPython notebook summaries of the project
+* ReverseEcology - master workflow for computing reverse ecology metrics.  
+* pairwiseANI - ANI- and coverage-based criteria for identifying tribes. Analysis of which partially-classified GFMs can be merged into tribes.  
+* mergingGenomes - workflow for for merging network graphs of individual genomes into tribes.  
 
 
-Matlab - Codes for processing initial reconstructions from KBase.
+##### Matlab
+Codes for processing initial reconstructions from KBase.
 
 * bulkProcessor.m - master function for processing models. Performs model-processing and simple mass-balancing. Creates an output file indicating which models require mass-balancing.  
 * modelProcessorFunction.m - script which performs the actual model processing.  
@@ -78,7 +80,8 @@ Matlab - Codes for processing initial reconstructions from KBase.
 * importCharges.m - COBRA Toolbox doesn't properly import charges from the SBML. This function imports them from the text version of the reconstruction.  
 * reactionBalancer.m - simple script for checking mass- and charge-balancing on a single model.
 
-Python - Codes for performing reverse ecology analysis.
+##### Python
+Codes for performing reverse ecology analysis.
 
 * reverseEcology.py - master workflow for performing reverse ecology analysis  
 * mergingGraphs.py - master workflow for merging genome network graphs and performing reverse ecology analysis.
