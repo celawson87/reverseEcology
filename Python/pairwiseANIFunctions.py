@@ -141,9 +141,9 @@ def addGenomeToTribe(pairwiseANI, taxonClass, tribes, tribe, newGenomes):
 #%% Determine if a new genome can be added to a single sample based on the
 # smallest pairwise ANI from any two samples belonging to the same trobe
 
-def compareSamples(externalDataDir, pairwiseANI, taxonClass, tribes, existingGenomes, newGenome):
+def compareSamples(externalDataDir, pairwiseANI, taxonClass, tribes, aniFile, existingGenomes, newGenome):
 # Compute max and min pairwise ANI for all samples in the same tribe
-    maxMinANI = sameTribePairwiseANI(externalDataDir, pairwiseANI, taxonClass, tribes)
+    maxMinANI = sameTribePairwiseANI(externalDataDir, pairwiseANI, taxonClass, tribes, aniFile)
 
 # Compute the overall minANI
     universalMin = maxMinANI['Min'].min()
@@ -154,7 +154,7 @@ def compareSamples(externalDataDir, pairwiseANI, taxonClass, tribes, existingGen
     minANI = redPairwiseANI.min(skipna=True).min()
 
 #    print('\n'+'The smallest ANI cutoff for any tribe is: '+str(universalMin))
-    print('\n'+'When genome '+str(newGenome)+' is added, the min pairwise among all samples: '+str(minANI))
+    print('\n'+'When genome '+str(newGenome)+' is added, the min among all samples: '+str(minANI))
     
     return
     
@@ -162,9 +162,9 @@ def compareSamples(externalDataDir, pairwiseANI, taxonClass, tribes, existingGen
 # of SAGs of that sample size. For each, compute their maximum and minimum 
 # pairwise ANI. Report the worst-case scenario, i.e., the highest minimum.
     
-def worstCaseANI(externalDataDir, pairwiseANI, taxonClass, tribes, tribe, sampleSize):
+def worstCaseANI(externalDataDir, pairwiseANI, taxonClass, tribes, aniFile, tribe, sampleSize):
     
-    sameTribePairwiseANI(externalDataDir, pairwiseANI, taxonClass, tribes)
+    sameTribePairwiseANI(externalDataDir, pairwiseANI, taxonClass, tribes, aniFile)
 
 # Create the list of samples
     samples = taxonClass.loc[taxonClass['Tribe'] == tribe]
@@ -190,16 +190,16 @@ def worstCaseANI(externalDataDir, pairwiseANI, taxonClass, tribes, tribe, sample
 
     print maxMinANI
     print('Sampling tribe '+tribe+ ' with sample size ' +str(sampleSize)+ '.')
-    print('The worst-case pairwise minimum ANI is: ' +str(maxMinANI['Min'].max()))
+    print('The worst-case minimum ANI is: ' +str(maxMinANI['Min'].max()))
 
     return
     
 #%% For a given tribe, compute the worst case scenario ANI for each
 # possible sample size.
 
-def allWorstCaseANI(externalDataDir, pairwiseANI, taxonClass, tribes, tribe):
+def allWorstCaseANI(externalDataDir, pairwiseANI, taxonClass, tribes, aniFile, tribe):
     
-    sameTribePairwiseANI(externalDataDir, pairwiseANI, taxonClass, tribes)
+    sameTribePairwiseANI(externalDataDir, pairwiseANI, taxonClass, tribes, aniFile)
 
 # Create the list of samples
     samples = taxonClass.loc[taxonClass['Tribe'] == tribe]
@@ -230,7 +230,7 @@ def allWorstCaseANI(externalDataDir, pairwiseANI, taxonClass, tribes, tribe):
         sampleMin[0][count-2] = count
         sampleMin[1][count-2] = maxMinANI['Min'].max()
         print('Sampling tribe '+tribe+ ' with sample size ' +str(count)+ '.')
-        print('The worst-case pairwise minimum is: ' +str(maxMinANI['Min'].max()))
+        print('The worst-case minimum is: ' +str(maxMinANI['Min'].max()))
     
     plt.scatter(sampleMin[0], sampleMin[1])
     plt.xlim(1, len(samples)+1)
