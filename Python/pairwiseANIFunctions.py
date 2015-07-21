@@ -185,8 +185,8 @@ def worstCaseANI(externalDataDir, pairwiseANI, taxonClass, tribes, aniFile, trib
         minANI = redPairwiseANI.min(skipna=True).min()
 
 # Add this information to the dataframe
-        maxMinANI['Max ANI'][sample] = maxANI
-        maxMinANI['Min ANI'][sample] = minANI
+        maxMinANI['Max'][sample] = maxANI
+        maxMinANI['Min'][sample] = minANI
 
     print maxMinANI
     print('Sampling tribe '+tribe+ ' with sample size ' +str(sampleSize)+ '.')
