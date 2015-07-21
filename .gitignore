@@ -8,7 +8,9 @@ ExternalData/*
 !ExternalData/reactionsToRemove.txt
 !ExternalData/taxonomy.csv
 !ExternalData/taxonomySAGs.csv
+!ExternalData/taxonomyTribes.csv
 !ExternalData/tribalColors.csv
+!ExternalData/masterColors.xlsx
 MergedData/
 ProcessedModelFiles/**/*.txt
 excludedSamples/ProcessedModelFiles/**/*.txt
