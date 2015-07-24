@@ -11,6 +11,8 @@ ExternalData/*
 !ExternalData/taxonomyTribes.csv
 !ExternalData/tribalColors.csv
 !ExternalData/masterColors.xlsx
+!ExternalData/phylosiftMarkerGenes.csv
+!ExternalData/phylophlanMarkerGenes.csv
 MergedData/
 ProcessedModelFiles/**/*.txt
 excludedSamples/ProcessedModelFiles/**/*.txt
