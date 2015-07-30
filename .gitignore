@@ -13,6 +13,7 @@ ExternalData/*
 !ExternalData/masterColors.xlsx
 !ExternalData/phylosiftMarkerGenes.csv
 !ExternalData/phylophlanMarkerGenes.csv
+!ExternalData/cogAbundance.csv
 MergedData/
 ProcessedModelFiles/**/*.txt
 excludedSamples/ProcessedModelFiles/**/*.txt
