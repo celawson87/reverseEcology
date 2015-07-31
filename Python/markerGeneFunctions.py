@@ -27,7 +27,6 @@ def importMarkerGenesAndTaxonomy(externalDataDir, markerGeneFile, taxonFile):
 # Read in the pairwise ANI calculations. Replace '-' with NaN so we can tell
 # pandas to ignore it.
     markerGeneDF = pd.DataFrame.from_csv('../'+externalDataDir+'/'+markerGeneFile, sep=',')
-#    markerGeneDF = pairwiseANI.convert_objects(convert_numeric=True)
 
 # Read in the taxonomic classification
     taxonClass = pd.DataFrame.from_csv('../'+externalDataDir+'/'+taxonFile, sep=',')
@@ -75,8 +74,6 @@ def indivCompleteness(externalDataDir, markerGeneDF, totalGenes, taxonClass, tri
 ################################################################################
 
 def worstCaseCompleteness(externalDataDir, markerGeneDF, totalGenes, taxonClass, tribes, tribe, sampleSize):
-    
-    indivCompleteness(externalDataDir, markerGeneDF, totalGenes, taxonClass, tribes)
 
 # Create the list of samples
     samples = taxonClass.loc[taxonClass['Tribe'] == tribe]
@@ -112,8 +109,6 @@ def worstCaseCompleteness(externalDataDir, markerGeneDF, totalGenes, taxonClass,
 
 def allWorstCaseCompleteness(externalDataDir, markerGeneDF, totalGenes, taxonClass, tribes, tribe):
     
-    indivCompleteness(externalDataDir, markerGeneDF, totalGenes, taxonClass, tribes)
-
 # Create the list of samples
     samples = taxonClass.loc[taxonClass['Tribe'] == tribe]
     samples = [sample for sample in samples.index]
@@ -153,4 +148,117 @@ def allWorstCaseCompleteness(externalDataDir, markerGeneDF, totalGenes, taxonCla
     plt.xlabel('Number of Samples')
     plt.ylabel('EstimatedCompleteness')
 
+    return
+
+################################################################################
+    
+def importCogAndTaxonomy(externalDataDir, cogFile, taxonFile):
+# Read in the COG abundances.
+    cogDF = pd.DataFrame.from_csv('../'+externalDataDir+'/'+cogFile, sep=',')
+
+# Read in the taxonomic classification
+    taxonClass = pd.DataFrame.from_csv('../'+externalDataDir+'/'+taxonFile, sep=',')
+    taxonClass = taxonClass.dropna()
+
+# Extract the unique tribes found in the dataset
+    tribes = pd.unique(taxonClass.Tribe.values)
+    tribes.sort(axis=0)
+
+    return cogDF, taxonClass, tribes
+
+################################################################################    
+
+def worstCasePanGenome(externalDataDir, cogAbundance, taxonClass, tribes, tribe, sampleSize):
+
+# Create the list of samples
+    samples = taxonClass.loc[taxonClass['Tribe'] == tribe]
+    samples = [sample for sample in samples.index]
+
+# Create a list of all combinations of specified size
+    randomSamples = list(itertools.combinations(samples, sampleSize))
+    
+# Create a dataframe to store the results
+    corePanSize = pd.DataFrame(index = randomSamples, columns=['Core Genome', 'Pan Genome'])
+
+# Loop over all samples and calculate core- and pan-genome
+# Core-genome will be computed using an inner join
+# Pan-genome will be computed using an outer join
+# Because samples can be of arbitrary size, need to use a loop
+
+    for sample in randomSamples:            
+# Create the reduced dataframe
+        redCogAbundance = cogAbundance[list(sample)]
+    
+# Use the value_counts function to count the number of instances where a COG
+# is present in ALL genomes (core genome) or ANY genome (pangenome)
+        coreGenome = (redCogAbundance != 0).all(axis=1).value_counts()
+        panGenome = (redCogAbundance != 0).any(axis=1).value_counts()
+
+# Add this information to the dataframe
+        corePanSize['Core Genome'][sample] = coreGenome.loc[True]
+        corePanSize['Pan Genome'][sample] = panGenome.loc[True]
+
+    print corePanSize
+    print('Sampling tribe '+tribe+ ' with sample size ' +str(sampleSize)+ '.')
+    print('The smallest pan genome is: ' +str(corePanSize['Pan Genome'].min()))
+    print('The largest pan genome is: ' +str(corePanSize['Pan Genome'].max()))
+
+    return
+    
+################################################################################
+    
+def allWorstCasePanGenome(externalDataDir, cogAbundance, taxonClass, tribes, tribe):
+
+# Create the list of samples
+    samples = taxonClass.loc[taxonClass['Tribe'] == tribe]
+    samples = [sample for sample in samples.index]
+
+# Create a numpy array to store the worst-case value for each sample size
+    sampleMin = np.empty([3, len(samples)-1,])
+
+# Loop over the range of possible sample sizes
+    for sampleSize in range (2, len(samples)+1):
+        
+# Create a list of all combinations of specified size
+        randomSamples = list(itertools.combinations(samples, sampleSize))
+    
+# Create a dataframe to store the results
+        corePanSize = pd.DataFrame(index = randomSamples, columns=['Count', 'Core Genome', 'Pan Genome'])
+
+# Loop over all samples and calculate core- and pan-genome
+# Core-genome will be computed using an inner join
+# Pan-genome will be computed using an outer join
+# Because samples can be of arbitrary size, need to use a loop
+
+        for sample in randomSamples:            
+# Create the reduced dataframe
+            redCogAbundance = cogAbundance[list(sample)]
+
+# Use the value_counts function to count the number of instances where a COG
+# is present in ALL genomes (core genome) or ANY genome (pangenome)
+            coreGenome = (redCogAbundance != 0).all(axis=1).value_counts()
+            panGenome = (redCogAbundance != 0).any(axis=1).value_counts()
+
+# Add this information to the dataframe
+            corePanSize['Count'][sample] = sampleSize
+            corePanSize['Core Genome'][sample] = coreGenome.loc[True]
+            corePanSize['Pan Genome'][sample] = panGenome.loc[True]
+    
+# Add this info to the master dataframe
+        sampleMin[0][sampleSize-2] = sampleSize
+# Find the min pangenome size
+        sampleMin[2][sampleSize-2] = corePanSize['Pan Genome'].min()
+# Find the index associated with this value and store the corresponding core
+# genome size
+        index = corePanSize['Pan Genome'].idxmin()
+        sampleMin[1][sampleSize-2] = corePanSize['Core Genome'][index]
+    
+# Plot the results    
+        cg = plt.scatter(sampleMin[0], sampleMin[1], color = 'b')
+        pg = plt.scatter(sampleMin[0], sampleMin[2], color = 'g')
+        plt.legend((cg, pg), ('Core Genome', 'Pan Genome'), loc='upper left')
+        plt.xlim(1, len(samples)+1)
+        plt.ylim(0, 1.1*sampleMin[2].max())
+        plt.xlabel('Number of Samples')
+        plt.ylabel('Core- or Pangenome Size')
     return
