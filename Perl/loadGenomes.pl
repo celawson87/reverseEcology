@@ -49,8 +49,8 @@ foreach my $genome (@genomes) {
 
 	# Assign metadata
 	my $object = {
-		id => $genome."_"."contigs",
-		name => $genome."_contig_set.json",
+		id => $genome."."."contigs",
+		name => $genome,
 		source_id => $genome.".fna",
 		source => "Freshwater",
 		type => "Organism",
