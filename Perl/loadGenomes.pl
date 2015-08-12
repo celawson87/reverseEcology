@@ -18,7 +18,6 @@ use Bio::KBase::workspace::ScriptHelpers qw(printObjectInfo get_ws_client worksp
 use Bio::KBase::fbaModelServices::ScriptHelpers qw(save_workspace_object get_workspace_object fbaws get_fba_client runFBACommand universalFBAScriptCode );
 
 my $usage  = "Command sequence: perl loadGenomes.pl username password genomeDirectory workspaceID \n";
-# Sample invocation: perl loadGenomes.pl joshamilton V4l1d1n3qu4l1ty genomeDir 1430929225406
 my $username  = shift or die $usage;
 my $password  = shift or die $usage;
 my $inputDirectory  = shift or die $usage;
