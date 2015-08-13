@@ -101,6 +101,7 @@ foreach my $file (@modelFiles) {
     
   }
 
+  $iter = $iter + 1;
   close INFILE;
   close OUTFILE;
 }
