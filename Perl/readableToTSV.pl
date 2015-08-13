@@ -35,23 +35,21 @@ closedir(DIR);
 my $iter = 1;
 my $numFiles = @modelFiles;
 
-# Trigger for processing metabs
-my $trigger = 0;
-
-# Hash to store visited metabs
-my %seenMetabs = ();
-
 foreach my $file (@modelFiles) {
+  # Hash to store visited metabs
+  my %seenMetabs = ();
+
+  # Trigger for processing metabs
+  my $trigger = 0;
+
   print "Processing ", $file, ", file ", $iter, " of ", $numFiles, "\n";
 
   # Grab just the model name
   $file =~ s/\.readable//;
-#  print $file, "\n";
  
   open INFILE, "<", $inputDirectory."/".$file.".readable" or die "Cannot open input file\n";
   open OUTFILE, ">", $inputDirectory."/".$file."Compounds.tsv" or die "Cannot open output file\n";
 
-#  select OUTFILE;
   select STDOUT;
 
   while (<INFILE>) {
