@@ -24,7 +24,7 @@ This readme will show you how to upload a group of genomes to KBase and build me
 `perl loadGenomes.pl username password genomeDir workspaceID`  
 where `username` and `password` are your KBase username and password, and `genomeDir` and `workspaceID` are from the above steps.  
 
-  a. You may need to install the ["Exception::Class" module](http://search.cpan.org/~drolsky/Exception-Class-1.39/lib/Exception/Class.pm). This is easily done using [CPAN](http://www.cpan.org/). Here is a [tutorial](http://www.thegeekstuff.com/2008/09/how-to-install-perl-modules-manually-and-using-cpan-command/).
+  a. You may need to install the ["Exception::Class" module](http://search.cpan.org/~drolsky/Exception-Class-1.39). This is easily done using [CPAN](http://www.cpan.org/). Here is a [tutorial](http://www.thegeekstuff.com/2008/09/how-to-install-perl-modules-manually-and-using-cpan-command/).
 
   b. If you used perlbrew for this step, feel free to revert to your original perl installation when you're done: `perlbrew off`
 
@@ -36,3 +36,4 @@ where `username` and `password` are your KBase username and password, and `genom
 `perl processGenomes.pl genomeDir rawModelDir`  
 where `genomeDir` and `rawModelDir` are the locations of the fasta files and desired location of the SMBL files.  
 This script transforms the .readable files from KBase into .tsv files for Python processing. It also creates the required directory structure.
+  a. You may need to install the ["File-Copy-Recursive-0.38" module](http://search.cpan.org/~dmuey/File-Copy-Recursive-0.38/). 
