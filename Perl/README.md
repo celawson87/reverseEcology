@@ -35,5 +35,6 @@ where `username` and `password` are your KBase username and password, and `genom
 8. Run the perl script `processGenomes.pl` to prepare the SBML files for processing:
 `perl processGenomes.pl genomeDir rawModelDir`  
 where `genomeDir` and `rawModelDir` are the locations of the fasta files and desired location of the SMBL files.  
-This script transforms the .readable files from KBase into .tsv files for Python processing. It also creates the required directory structure.
-  a. You may need to install the ["File-Copy-Recursive-0.38" module](http://search.cpan.org/~dmuey/File-Copy-Recursive-0.38/). 
+This script transforms the .readable files from KBase into .tsv files for Python processing. It also creates the required directory structure.  
+
+  a. You may need to install the ["File-Copy-Recursive-0.38" module](http://search.cpan.org/~dmuey/File-Copy-Recursive-0.38/).
