@@ -1,5 +1,5 @@
 ###############################################################################
-# readableToTSV.pl
+# processGenomes.pl
 # Copyright (c) 2015, Joshua J Hamilton and Katherine D McMahon
 # Affiliation: Department of Bacteriology
 #              University of Wisconsin-Madison, Madison, Wisconsin, USA
@@ -13,42 +13,61 @@
 #!/usr/bin/perl
 use strict;
 use warnings;
+use Archive::Tar;
+use File::Copy;
+use File::Copy::Recursive qw(fcopy rcopy dircopy fmove rmove dirmove);
+use File::Path;
 
-my $usage  = "Command sequence: perl readableToTSV.pl inputDirectory \n";
+my $usage  = "Command sequence: perl readableToTSV.pl genomeDir rawModelDir \n";
 
 my $inputDirectory  = shift or die $usage;
+my $outputDirectory = shift or die $usage;
 
-# Create an array of all *.readable files in the current directory
-# Read in the list of genomes in genomeDir
+# Create an array of all *.fna files in the genome directory
 my @modelFiles;
 
 opendir (DIR, $inputDirectory) or die $!;
 while (my $file = readdir(DIR)) {
-  # Only include files ending in .readable
-  next unless ($file =~ m/\.readable$/);
+  # Only include files ending in .fna
+  next unless ($file =~ m/\.fna$/);
   # Remove file extension
   push (@modelFiles, $file);
 }
 closedir(DIR);
+
+# Extract the tarball from KBase, move it, and clean up
+# Extract
+my $tarPath    = $outputDirectory.'/modelFiles.tar.gz';
+my $tar        = Archive::Tar->new($tarPath);
+$tar->extract_archive($tarPath, $outputDirectory);
+# Move
+my $sourceDir = 'tmp/narrative/modelDir';
+dirmove($sourceDir, $outputDirectory);
+# Clean
+unlink($tarPath);
+rmtree('tmp');
 
 # Loop over the array of files and process each one
 my $iter = 1;
 my $numFiles = @modelFiles;
 
 foreach my $file (@modelFiles) {
+
   # Hash to store visited metabs
   my %seenMetabs = ();
 
   # Trigger for processing metabs
   my $trigger = 0;
+  
+  # Grab just the model name
+  $file =~ s/\.fna//;
 
   print "Processing ", $file, ", file ", $iter, " of ", $numFiles, "\n";
-
-  # Grab just the model name
-  $file =~ s/\.readable//;
- 
-  open INFILE, "<", $inputDirectory."/".$file.".readable" or die "Cannot open input file\n";
-  open OUTFILE, ">", $inputDirectory."/".$file."Compounds.tsv" or die "Cannot open output file\n";
+  
+# Open input file. Create output file and directory.
+  open INFILE, "<", $outputDirectory."/".$file.".readable" or die "Cannot open input file\n";
+  mkdir "$outputDirectory/$file";
+  open OUTFILE, ">", $outputDirectory."/".$file."/".$file."Compounds.tsv" or die "Cannot open output file\n";
 
   select STDOUT;
 
@@ -102,4 +121,9 @@ foreach my $file (@modelFiles) {
   $iter = $iter + 1;
   close INFILE;
   close OUTFILE;
+
+  # Move .xml file and delete .readable file
+  move("$outputDirectory/$file.xml", "$outputDirectory/$file/$file.xml");
+  unlink("$outputDirectory/$file.readable");
+  
 }
