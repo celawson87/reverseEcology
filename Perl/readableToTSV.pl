@@ -94,7 +94,7 @@ foreach my $file (@modelFiles) {
       # If the charge is neutral, explicitly make it zero
       if ($fields[4]) {} else {$fields[4] = "0";}
       select OUTFILE;
-      print $fields[2], "\t", $fields[1], "\t", $fields[0], "\t", $fields[4], "\n";
+      print $fields[1], "\t", $fields[2], "\t", $fields[0], "\t", $fields[4], "\n";
     }
     
   }
