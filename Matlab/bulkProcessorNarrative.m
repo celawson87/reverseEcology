@@ -8,10 +8,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Each model should be in its own directory. Both xml and txt versions of
 % the model are required.
-% Code also requires:
-%  table.tsv, a tab-delimited version of the SEED DB w/ subsystem info
-%  ModelSEED-reactions-db.csv, a comma-separated version of the SEED DB w/
-%  free energy infor
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 clc
