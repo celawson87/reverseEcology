@@ -30,18 +30,6 @@ results = zeros(4,1);
 fprintf('Reading in the model ... \n');
 model = readCbModel(strcat('../',rawModelDir,'/',pathStr));
 
-%%% Import the subSystem data from SEED
-fileID = fopen(strcat('../',dataDir,'/','reactionTable.tsv'));
-mySeed = textscan(fileID, repmat('%q', 1, 7) , 'delimiter', '\t', 'CollectOutput', true);
-fclose(fileID);
-mySeed = mySeed{1,1};
-
-%%% Import free energy data
-fileID = fopen(strcat('../',dataDir,'/','ModelSEED-reactions-db.csv'));
-dGData = textscan(fileID, repmat('%q', 1, 9) , 'delimiter', ',', 'CollectOutput', true);
-fclose(fileID);
-dGData = dGData{1,1};
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Import the metabolite formulas from the text file
@@ -98,90 +86,6 @@ if any(imBalancedBool)
 else
     fprintf('\nAll reactions are mass- and charge balanced\n');
     results(4) = 1;
-end
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% Import subsystem information
-fprintf('Importing subsystem information ... \n');
-    for j = 1:size(model.rxns,1)
-        % Find the index in the Seed data matching the reaction
-        myRxn = model.rxns{j};
-        myRxn = regexprep(myRxn, '_[a-z]\d', '');
-        myIndex = find(strcmp(mySeed(:,1), myRxn));
-% Add subsystems
-% If the entry exists, add information, otherwise write "None"        
-        if ~isempty(myIndex)
-% Check subsystem info
-            mySub = mySeed(myIndex, 5);
-            mySub = strrep(mySub,'"','');
-            if regexp(mySub{1}, '[a-z]');
-                model.subSystems(j) = mySub;
-            else
-                model.subSystems(j) = cellstr(['None']);
-            end
-% Check EC info
-            myEC = mySeed(myIndex, 7);
-            myEC = strrep(myEC,'"','');
-            if regexp(myEC{1}, '[1-9]');
-                model.rxnECNumbers(j) = myEC;
-            else
-                model.rxnECNumbers(j) = cellstr(['Unknown']);
-            end
-% Check if biomass        
-        elseif regexp(myRxn, 'biomass')
-            model.subSystems(j) = cellstr(['Biomass']);
-            model.rxnECNumbers(j) = cellstr(['None']);
-% Check if exchange
-        elseif regexp(myRxn, 'EX_')
-            model.subSystems(j) = cellstr(['Exchange']);
-            model.rxnECNumbers(j) = cellstr(['None']);
-        else
-            model.subSystems(j) = cellstr(['Unknown']);
-            model.rxnECNumbers(j) = cellstr(['Unknown']);
-        end
-    end
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% For each reaction, look up the reaction in the 'THERMODYNAMIC FEASIBILTY'
-% column. For each of the three cases, perform the appropriate action.
-
-for j = 1:size(model.rxns,1)
-    % Find the index in the Seed data matching the reaction
-    myRxn = model.rxns{j};
-    myRxn = regexprep(myRxn, '_[a-z]\d', '');
-    myIndex = find(strcmp(dGData(:,1), myRxn));
-    if myIndex
-% If bidirectional, set model.rev = 1, set rxn bounds     
-        if strcmp(dGData{myIndex, 9}, '<=>')
-            model.rev(j) = 1;
-            model.LB(j) = -1000;
-            model.UB(j) = 1000;
-% If forward-only, set model.rev = 0;
-        elseif strcmp(dGData{myIndex, 9}, '=>')
-            model.rev(j) = 0;
-            model.LB(j) = 0;
-            model.UB(j) = 1000;
-% If reverse-only, switch reaction stoichiometry and set model.rev = 0;
-        elseif strcmp(dGData{myIndex, 9}, '<=')
-            model.S(:,j) = -model.S(:,j);
-            model.rev(j) = 0;
-            model.LB(j) = 0;
-            model.UB(j) = 1000;
-% If no entry, assume bidirectional, set model.rev = 1;        
-        else 
-            fprintf('No entry. Bidirectional by default.\n');
-            model.rev(j) = 1;
-            model.LB(j) = -1000;
-            model.UB(j) = 1000;
-        end
-% If no entry, assume bidirectional, set model.rev = 1;     
-    else
-        model.rev(j) = 1;
-        model.LB(j) = -1000;
-        model.UB(j) = 1000;
-    end
 end
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
