@@ -373,6 +373,7 @@ def processSBMLforRE(rawModelDir, processedDataDir, summaryStatsDir):
     
 #        print 'Writing to file'
         cobra.io.write_sbml_model(model, '../'+processedDataDir+'/'+curDir+'/'+curDir+'.xml')
+        count = count + 1
     
 # Write the results to file
     modelSizeDF.to_csv('../'+summaryStatsDir+'/modelStats.tsv', sep='\t')
