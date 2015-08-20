@@ -56,14 +56,14 @@ def dirListToAdjacencyList(dirList, externalDataDir, processedDataDir, summarySt
     
     for curDir in dirList:
 # Read in SBML file    
-        model = cobra.io.read_sbml_model('../'+processedDataDir+'/'+curDir+'/'+curDir+'Balanced.xml')
+        model = cobra.io.read_sbml_model('../'+processedDataDir+'/'+curDir+'/'+curDir+'.xml')
 
 # Create dictionary of metabolite names
         for metab in model.metabolites:
             namesDict[metab.id] = metab.name
 
 # Update description field
-        model.description = curDir;
+        model.id = curDir;
 
 # Read model statistics by invoking sbmlFunctions.getModelStats
         modelStatArray[count:] = getModelStats(model)
@@ -125,7 +125,7 @@ def dirListToAdjacencyListWithRemoval(dirList, externalDataDir, processedDataDir
     
     for curDir in dirList:
 # Read in SBML file    
-        model = cobra.io.read_sbml_model('../'+processedDataDir+'/'+curDir+'/'+curDir+'Balanced.xml')
+        model = cobra.io.read_sbml_model('../'+processedDataDir+'/'+curDir+'/'+curDir+'.xml')
 
 # Remove reactions slated for removal
         for rxn in rxnList:
@@ -138,7 +138,7 @@ def dirListToAdjacencyListWithRemoval(dirList, externalDataDir, processedDataDir
             namesDict[metab.id] = metab.name
 
 # Update description field
-        model.description = curDir;
+        model.id = curDir;
 
 # Read model statistics by invoking sbmlFunctions.getModelStats
         modelStatArray[count:] = getModelStats(model)
@@ -173,7 +173,7 @@ def dirListToAdjacencyListWithRemoval(dirList, externalDataDir, processedDataDir
 def adjacencyListFromModel(model, processedDataDir):
 
 # Establish a file for the adjacency list
-    myFile = open('../'+processedDataDir+'/'+model.description+'/'+model.description+'AdjList.txt', 'w')
+    myFile = open('../'+processedDataDir+'/'+model.id+'/'+model.id+'AdjList.txt', 'w')
 
 # For each reaction, loop over the reactants. For each reactant, loop over the 
 # reaction products and create an edge between the reactant and products. If a 
