@@ -238,17 +238,23 @@ def plotSeedStatsForTribes(seedSetList, reducedGraphStatArray):
         myNumSeedSets.append(len(setOfSeedSets))
         for seedSet in setOfSeedSets:
             mySizeOfSeedSets.append(len(seedSet))
-        
+
     myWeight = np.ones_like(myNumSeedSets) / float(len(myNumSeedSets))
     plt.figure(12)
-    plt.hist(myNumSeedSets, weights=myWeight)
+    binWidth = 10
+    binMin = (min(myNumSeedSets) / binWidth)*binWidth
+    binMax = ((max(myNumSeedSets) / binWidth)*binWidth) + binWidth
+    plt.hist(myNumSeedSets, bins=range(binMin, binMax + binWidth, binWidth), weights=myWeight)
     plt.xlabel('Number of Seed Sets')
     plt.ylabel('Fraction of Graphs')
  
 # Histogram of size of individual seed sets
     myWeight = np.ones_like(mySizeOfSeedSets) / float(len(mySizeOfSeedSets))
     plt.figure(13)
-    plt.hist(mySizeOfSeedSets, weights=myWeight)
+    binWidth = 1
+    binMin = min(mySizeOfSeedSets)
+    binMax = max(mySizeOfSeedSets) + binWidth
+    plt.hist(mySizeOfSeedSets, bins=range(binMin, binMax + binWidth, binWidth), weights=myWeight)
     plt.xlabel('Metabolites in Seed Set')
     plt.xlim(0, max(mySizeOfSeedSets))
     plt.ylim(0, 1)
@@ -256,7 +262,7 @@ def plotSeedStatsForTribes(seedSetList, reducedGraphStatArray):
     
 # Zoomed histogram of size of individual seed sets
     plt.figure(14)
-    [n, bins, patches] = plt.hist(mySizeOfSeedSets, weights=myWeight)
+    [n, bins, patches] = plt.hist(mySizeOfSeedSets, bins=range(binMin, binMax + binWidth, binWidth), weights=myWeight)
     plt.xlabel('Metabolites in Seed Set (Zoomed)')
     plt.xlim(0, max(mySizeOfSeedSets))
     plt.ylim(0, 1.1*n[2])
