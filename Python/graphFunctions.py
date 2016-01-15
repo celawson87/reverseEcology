@@ -293,7 +293,7 @@ def createTribalGraph(tribeSampleDict, processedDataDir, rawModelDir):
 
 # Read in adjacency list and convert to digraph object
             myDiGraph = nx.read_adjlist('../'+rawModelDir+'/'+sample+'/'+sample+'AdjList.txt',
-                                delimiter='\t', create_using=nx.DiGraph())
+                                create_using=nx.DiGraph())
 
 # Append to the previous graph
             tribalGraph = nx.compose(tribalGraph, myDiGraph)
@@ -302,7 +302,7 @@ def createTribalGraph(tribeSampleDict, processedDataDir, rawModelDir):
         if not os.path.exists('../'+processedDataDir+'/'+tribe):
             os.makedirs('../'+processedDataDir+'/'+tribe)
     
-        nx.write_adjlist(tribalGraph, '../'+processedDataDir+'/'+tribe+'/'+tribe+'AdjList.txt', delimiter='\t')
+        nx.write_adjlist(tribalGraph, '../'+processedDataDir+'/'+tribe+'/'+tribe+'AdjList.txt')
 
     return
 
@@ -346,11 +346,11 @@ def computeGraphStats(dirList, processedDataDir, summaryStatsDir):
     for curDir in dirList:
 # Read in adjacency list and convert to graph object
         myGraph = nx.read_adjlist('../'+processedDataDir+'/'+curDir+'/'+curDir+'AdjList.txt',
-                              delimiter='\t', create_using=nx.Graph())
+                              create_using=nx.Graph())
 
 # Read in adjacency list and convert to digraph object
         myDiGraph = nx.read_adjlist('../'+processedDataDir+'/'+curDir+'/'+curDir+'AdjList.txt',
-                                delimiter='\t', create_using=nx.DiGraph())                            
+                                create_using=nx.DiGraph())                            
 
 # Append to the appropriate list
         graphList.append(myGraph)
@@ -417,11 +417,11 @@ def reduceToLargeComponent(dirList, processedDataDir, summaryStatsDir):
     
 # Read in adjacency list and convert to graph object
         myGraph = nx.read_adjlist('../'+processedDataDir+'/'+curDir+'/'+curDir+'AdjList.txt',
-                              delimiter='\t', create_using=nx.Graph())
+                              create_using=nx.Graph())
 
 # Read in adjacency list and convert to digraph object
         myDiGraph = nx.read_adjlist('../'+processedDataDir+'/'+curDir+'/'+curDir+'AdjList.txt',
-                                delimiter='\t', create_using=nx.DiGraph())                            
+                                create_using=nx.DiGraph())                            
 
 # Identify the connected components of the graph representation and sort from
 # largest to smallest (subGraphs). Aggregate the nodes in all but the largest 
@@ -498,8 +498,8 @@ def computeSeedSets(dirList, externalDataDir, processedDataDir):
     for curDir in dirList:
 
 # Read in adjacency list and convert to digraph object
-        myDiGraph = nx.read_adjlist('../'+processedDataDir+'/'+curDir+'/'+curDir+'AdjList.txt',
-                                delimiter='\t', create_using=nx.DiGraph())                            
+        myDiGraph = nx.read_adjlist('../'+processedDataDir+'/'+curDir+'/'+curDir+'RedAdjList.txt',
+                                create_using=nx.DiGraph())                            
 
 # Compute the list of SCCs for the digraph as well as its condensation
         mySCCList = list(nx.strongly_connected_components_recursive(myDiGraph))
@@ -522,7 +522,8 @@ def computeSeedSets(dirList, externalDataDir, processedDataDir):
 # the metabolites belonging to a single seed set.
         seedSets = open('../'+processedDataDir+'/'+curDir+'/'+curDir+'SeedSets.txt', 'w')
         writer = csv.writer(seedSets)
-        writer.writerows(mySeeds)
+        for row in mySeeds:
+            writer.writerow(list(row))
         seedSets.close()
     
 # Update the list of seed metabolites: replace the Model SEED metabolite 
