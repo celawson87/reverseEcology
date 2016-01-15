@@ -264,10 +264,17 @@ def processSBMLforRE(rawModelDir, processedDataDir, summaryStatsDir):
 ################################################################################                   
 
     # Before reading in the SBML file, update gene loci so they read in properly
+    # In the old models ...
     # KBase generates gene loci of the form kb|g.######.CDS.###
     # Transform them to be of the form curDir_CDS_###
+
+    # In the new models ...
+    # KBase generates gene loci of the form curDir.genome.CDS.###
+    # Transform them to be of the form curDir_CDS_###
+    
         for myLine in fileinput.FileInput('../'+rawModelDir+'/'+curDir+'/'+curDir+'.xml', inplace = True):
-            print re.sub('kb\|g\.\d+\.CDS\.(\d+)', curDir+'_CDS_\g<1>', myLine).strip()
+#            print re.sub('kb\|g\.\d+\.CDS\.(\d+)', curDir+'_CDS_\g<1>', myLine).strip()
+            print re.sub(curDir+'\.genome\.CDS\.(\d+)', curDir+'_CDS_\g<1>', myLine).strip()
         fileinput.close()
 
 ################################################################################                   
