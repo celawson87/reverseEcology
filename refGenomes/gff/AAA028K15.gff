@@ -1,0 +1,463 @@
+##gff-version 3
+AAA028K15.contig.1	feature	CDS	6773	7357	.	-	0	ID=AAA028K15.genome.CDS.425;Product=
+AAA028K15.contig.1	feature	CDS	5965	6756	.	-	0	ID=AAA028K15.genome.CDS.424;Product=
+AAA028K15.contig.1	feature	CDS	4727	5962	.	+	0	ID=AAA028K15.genome.CDS.423;Product=
+AAA028K15.contig.1	feature	CDS	3701	4645	.	-	0	ID=AAA028K15.genome.CDS.422;Product=
+AAA028K15.contig.1	feature	CDS	2420	3673	.	-	0	ID=AAA028K15.genome.CDS.421;Product=hypothetical protein
+AAA028K15.contig.1	feature	CDS	1679	2386	.	+	0	ID=AAA028K15.genome.CDS.420;Product=3-demethylubiquinone-9 3-methyltransferase %28EC 2.1.1.64%29
+AAA028K15.contig.1	feature	CDS	1	1398	.	-	0	ID=AAA028K15.genome.CDS.419;Product=hypothetical protein
+AAA028K15.contig.10	feature	CDS	13596	14426	.	-	0	ID=AAA028K15.genome.CDS.485;Product=
+AAA028K15.contig.10	feature	CDS	12379	13599	.	+	0	ID=AAA028K15.genome.CDS.484;Product=Butyryl-CoA dehydrogenase %28EC 1.3.99.2%29
+AAA028K15.contig.10	feature	CDS	11566	12342	.	+	0	ID=AAA028K15.genome.CDS.483;Product=
+AAA028K15.contig.10	feature	CDS	10576	11514	.	+	0	ID=AAA028K15.genome.CDS.482;Product=
+AAA028K15.contig.10	feature	CDS	9831	10466	.	-	0	ID=AAA028K15.genome.CDS.481;Product=
+AAA028K15.contig.10	feature	CDS	9536	9820	.	-	0	ID=AAA028K15.genome.CDS.480;Product=
+AAA028K15.contig.10	feature	tRNA	9423	9498	.	+	.	ID=AAA028K15.genome.rna.5;Product=tRNA-Gly-GCC
+AAA028K15.contig.10	feature	CDS	8448	9374	.	+	0	ID=AAA028K15.genome.CDS.479;Product=hypothetical protein
+AAA028K15.contig.10	feature	CDS	8230	8451	.	+	0	ID=AAA028K15.genome.CDS.478;Product=
+AAA028K15.contig.10	feature	CDS	7832	8230	.	+	0	ID=AAA028K15.genome.CDS.477;Product=hypothetical protein
+AAA028K15.contig.10	feature	CDS	6609	7793	.	+	0	ID=AAA028K15.genome.CDS.476;Product=Homoserine O-acetyltransferase %28EC 2.3.1.31%29
+AAA028K15.contig.10	feature	CDS	4787	6415	.	+	0	ID=AAA028K15.genome.CDS.475;Product=Long-chain-fatty-acid--CoA ligase %28EC 6.2.1.3%29
+AAA028K15.contig.10	feature	CDS	3634	4713	.	+	0	ID=AAA028K15.genome.CDS.474;Product=
+AAA028K15.contig.10	feature	CDS	2861	3607	.	-	0	ID=AAA028K15.genome.CDS.473;Product=Cytochrome oxidase biogenesis protein Surf1%2C facilitates heme A insertion
+AAA028K15.contig.10	feature	CDS	1966	2898	.	+	0	ID=AAA028K15.genome.CDS.472;Product=Fumarylacetoacetase %28EC 3.7.1.2%29
+AAA028K15.contig.10	feature	CDS	761	1969	.	+	0	ID=AAA028K15.genome.CDS.471;Product=Choline dehydrogenase %28EC 1.1.99.1%29
+AAA028K15.contig.10	feature	CDS	144	758	.	+	0	ID=AAA028K15.genome.CDS.470;Product=
+AAA028K15.contig.10	feature	CDS	3	119	.	+	0	ID=AAA028K15.genome.CDS.469;Product=carbon monoxide dehydrogenase E protein
+AAA028K15.contig.11	feature	CDS	3446	4006	.	+	0	ID=AAA028K15.genome.CDS.492;Product=
+AAA028K15.contig.11	feature	CDS	2715	3407	.	+	0	ID=AAA028K15.genome.CDS.491;Product=DNA alkylation repair enzyme
+AAA028K15.contig.11	feature	CDS	2228	2701	.	+	0	ID=AAA028K15.genome.CDS.490;Product=3-demethylubiquinone-9 3-methyltransferase
+AAA028K15.contig.11	feature	CDS	1396	2133	.	-	0	ID=AAA028K15.genome.CDS.489;Product=COG2152 predicted glycoside hydrolase
+AAA028K15.contig.11	feature	CDS	919	1335	.	+	0	ID=AAA028K15.genome.CDS.488;Product=
+AAA028K15.contig.11	feature	CDS	397	849	.	-	0	ID=AAA028K15.genome.CDS.487;Product=
+AAA028K15.contig.11	feature	CDS	1	393	.	+	0	ID=AAA028K15.genome.CDS.486;Product=
+AAA028K15.contig.12	feature	CDS	52658	52816	.	+	0	ID=AAA028K15.genome.CDS.551;Product=
+AAA028K15.contig.12	feature	CDS	51594	52658	.	+	0	ID=AAA028K15.genome.CDS.550;Product=NADH-ubiquinone oxidoreductase chain H %28EC 1.6.5.3%29
+AAA028K15.contig.12	feature	CDS	50422	51594	.	+	0	ID=AAA028K15.genome.CDS.549;Product=NADH-ubiquinone oxidoreductase chain D %28EC 1.6.5.3%29
+AAA028K15.contig.12	feature	CDS	49766	50425	.	+	0	ID=AAA028K15.genome.CDS.548;Product=NADH-ubiquinone oxidoreductase chain C %28EC 1.6.5.3%29
+AAA028K15.contig.12	feature	CDS	49234	49791	.	+	0	ID=AAA028K15.genome.CDS.547;Product=NADH-ubiquinone oxidoreductase chain B %28EC 1.6.5.3%29
+AAA028K15.contig.12	feature	CDS	48850	49215	.	+	0	ID=AAA028K15.genome.CDS.546;Product=NADH ubiquinone oxidoreductase chain A %28EC 1.6.5.3%29
+AAA028K15.contig.12	feature	CDS	48240	48797	.	+	0	ID=AAA028K15.genome.CDS.545;Product=
+AAA028K15.contig.12	feature	CDS	48090	48206	.	+	0	ID=AAA028K15.genome.CDS.118;Product=
+AAA028K15.contig.12	feature	CDS	46858	48069	.	-	0	ID=AAA028K15.genome.CDS.544;Product=Threonine dehydratase%2C catabolic %28EC 4.3.1.19%29 %40 L-serine dehydratase%2C %28PLP%29-dependent %28EC 4.3.1.17%29
+AAA028K15.contig.12	feature	CDS	46169	46861	.	-	0	ID=AAA028K15.genome.CDS.543;Product=Glutamine amidotransferase%2C class I
+AAA028K15.contig.12	feature	CDS	44672	46165	.	+	0	ID=AAA028K15.genome.CDS.542;Product=NADH-ubiquinone oxidoreductase chain N %28EC 1.6.5.3%29
+AAA028K15.contig.12	feature	CDS	43071	44672	.	+	0	ID=AAA028K15.genome.CDS.541;Product=NADH-ubiquinone oxidoreductase chain M %28EC 1.6.5.3%29
+AAA028K15.contig.12	feature	CDS	41161	43071	.	+	0	ID=AAA028K15.genome.CDS.540;Product=NADH-ubiquinone oxidoreductase chain L %28EC 1.6.5.3%29
+AAA028K15.contig.12	feature	CDS	40835	41152	.	+	0	ID=AAA028K15.genome.CDS.539;Product=NADH-ubiquinone oxidoreductase chain K %28EC 1.6.5.3%29
+AAA028K15.contig.12	feature	CDS	40290	40829	.	+	0	ID=AAA028K15.genome.CDS.538;Product=NADH-ubiquinone oxidoreductase chain J %28EC 1.6.5.3%29
+AAA028K15.contig.12	feature	CDS	39634	40290	.	+	0	ID=AAA028K15.genome.CDS.537;Product=NADH-ubiquinone oxidoreductase chain I %28EC 1.6.5.3%29
+AAA028K15.contig.12	feature	CDS	38408	39634	.	+	0	ID=AAA028K15.genome.CDS.536;Product=NADH-ubiquinone oxidoreductase chain H %28EC 1.6.5.3%29
+AAA028K15.contig.12	feature	CDS	36039	38408	.	+	0	ID=AAA028K15.genome.CDS.535;Product=NADH-ubiquinone oxidoreductase chain G %28EC 1.6.5.3%29
+AAA028K15.contig.12	feature	CDS	34636	36042	.	+	0	ID=AAA028K15.genome.CDS.534;Product=NADH-ubiquinone oxidoreductase chain F %28EC 1.6.5.3%29
+AAA028K15.contig.12	feature	CDS	34025	34639	.	+	0	ID=AAA028K15.genome.CDS.533;Product=NADH-ubiquinone oxidoreductase chain E %28EC 1.6.5.3%29
+AAA028K15.contig.12	feature	CDS	32694	34025	.	+	0	ID=AAA028K15.genome.CDS.532;Product=NADH-ubiquinone oxidoreductase chain D %28EC 1.6.5.3%29
+AAA028K15.contig.12	feature	CDS	32194	32697	.	+	0	ID=AAA028K15.genome.CDS.531;Product=NADH-ubiquinone oxidoreductase chain C %28EC 1.6.5.3%29
+AAA028K15.contig.12	feature	CDS	31610	32191	.	+	0	ID=AAA028K15.genome.CDS.530;Product=NADH-ubiquinone oxidoreductase chain B %28EC 1.6.5.3%29
+AAA028K15.contig.12	feature	CDS	31140	31610	.	+	0	ID=AAA028K15.genome.CDS.529;Product=NADH ubiquinone oxidoreductase chain A %28EC 1.6.5.3%29
+AAA028K15.contig.12	feature	CDS	30321	31136	.	+	0	ID=AAA028K15.genome.CDS.528;Product=
+AAA028K15.contig.12	feature	CDS	29257	30321	.	+	0	ID=AAA028K15.genome.CDS.527;Product=
+AAA028K15.contig.12	feature	CDS	28412	29254	.	+	0	ID=AAA028K15.genome.CDS.526;Product=hypothetical protein
+AAA028K15.contig.12	feature	CDS	27651	28349	.	+	0	ID=AAA028K15.genome.CDS.525;Product=Ubiquinol--cytochrome c reductase%2C cytochrome B subunit %28EC 1.10.2.2%29
+AAA028K15.contig.12	feature	CDS	26851	27633	.	+	0	ID=AAA028K15.genome.CDS.524;Product=Ubiquinol--cytochrome c reductase%2C cytochrome B subunit %28EC 1.10.2.2%29
+AAA028K15.contig.12	feature	CDS	26426	26839	.	+	0	ID=AAA028K15.genome.CDS.523;Product=
+AAA028K15.contig.12	feature	CDS	25943	26419	.	+	0	ID=AAA028K15.genome.CDS.522;Product=
+AAA028K15.contig.12	feature	CDS	24729	25547	.	-	0	ID=AAA028K15.genome.CDS.521;Product=
+AAA028K15.contig.12	feature	CDS	24082	24687	.	+	0	ID=AAA028K15.genome.CDS.520;Product=hypothetical protein
+AAA028K15.contig.12	feature	CDS	22736	24085	.	+	0	ID=AAA028K15.genome.CDS.519;Product=Glutamate-1-semialdehyde aminotransferase %28EC 5.4.3.8%29
+AAA028K15.contig.12	feature	CDS	21744	22727	.	+	0	ID=AAA028K15.genome.CDS.518;Product=Porphobilinogen synthase %28EC 4.2.1.24%29
+AAA028K15.contig.12	feature	CDS	20946	21686	.	+	0	ID=AAA028K15.genome.CDS.517;Product=Methyl-accepting chemotaxis protein I %28serine chemoreceptor protein%29
+AAA028K15.contig.12	feature	CDS	20062	20943	.	+	0	ID=AAA028K15.genome.CDS.516;Product=Porphobilinogen deaminase %28EC 2.5.1.61%29
+AAA028K15.contig.12	feature	CDS	18793	20052	.	+	0	ID=AAA028K15.genome.CDS.515;Product=Glutamyl-tRNA reductase %28EC 1.2.1.70%29
+AAA028K15.contig.12	feature	CDS	18100	18786	.	+	0	ID=AAA028K15.genome.CDS.514;Product=Redox-sensitive transcriptional regulator %28AT-rich DNA-binding protein%29
+AAA028K15.contig.12	feature	CDS	17281	18078	.	-	0	ID=AAA028K15.genome.CDS.513;Product=hypothetical protein
+AAA028K15.contig.12	feature	CDS	15822	17315	.	+	0	ID=AAA028K15.genome.CDS.512;Product=Long-chain-fatty-acid--CoA ligase %28EC 6.2.1.3%29
+AAA028K15.contig.12	feature	CDS	14739	15716	.	+	0	ID=AAA028K15.genome.CDS.511;Product=hypothetical protein
+AAA028K15.contig.12	feature	CDS	13885	14688	.	+	0	ID=AAA028K15.genome.CDS.510;Product=Pyrroline-5-carboxylate reductase %28EC 1.5.1.2%29
+AAA028K15.contig.12	feature	CDS	13283	13744	.	+	0	ID=AAA028K15.genome.CDS.509;Product=hypothetical protein
+AAA028K15.contig.12	feature	CDS	12069	13280	.	+	0	ID=AAA028K15.genome.CDS.508;Product=Glycosyltransferase MshA involved in mycothiol biosynthesis %28EC 2.4.1.-%29
+AAA028K15.contig.12	feature	CDS	11646	12056	.	+	0	ID=AAA028K15.genome.CDS.507;Product=Transcriptional regulator%2C XRE family
+AAA028K15.contig.12	feature	CDS	11161	11643	.	+	0	ID=AAA028K15.genome.CDS.506;Product=
+AAA028K15.contig.12	feature	CDS	10901	11161	.	+	0	ID=AAA028K15.genome.CDS.505;Product=
+AAA028K15.contig.12	feature	CDS	10239	10784	.	-	0	ID=AAA028K15.genome.CDS.504;Product=
+AAA028K15.contig.12	feature	CDS	9069	10238	.	-	0	ID=AAA028K15.genome.CDS.503;Product=hypothetical protein
+AAA028K15.contig.12	feature	CDS	7423	9090	.	+	0	ID=AAA028K15.genome.CDS.502;Product=NAD synthetase %28EC 6.3.1.5%29 / Glutamine amidotransferase chain of NAD synthetase
+AAA028K15.contig.12	feature	CDS	6216	7229	.	-	0	ID=AAA028K15.genome.CDS.501;Product=Glutamine synthetase type II%2C eukaryotic %28EC 6.3.1.2%29
+AAA028K15.contig.12	feature	CDS	4773	6110	.	-	0	ID=AAA028K15.genome.CDS.500;Product=Glutamine synthetase type I %28EC 6.3.1.2%29
+AAA028K15.contig.12	feature	CDS	4070	4765	.	-	0	ID=AAA028K15.genome.CDS.499;Product=Transcriptional regulatory protein glnR
+AAA028K15.contig.12	feature	CDS	3453	4064	.	+	0	ID=AAA028K15.genome.CDS.498;Product=
+AAA028K15.contig.12	feature	CDS	2086	3456	.	+	0	ID=AAA028K15.genome.CDS.497;Product=Guanine deaminase %28EC 3.5.4.3%29%3B Hydroxydechloroatrazine ethylaminohydrolase %28EC 3.5.99.3%29
+AAA028K15.contig.12	feature	CDS	1904	2059	.	+	0	ID=AAA028K15.genome.CDS.496;Product=
+AAA028K15.contig.12	feature	CDS	1369	1899	.	+	0	ID=AAA028K15.genome.CDS.495;Product=
+AAA028K15.contig.12	feature	CDS	411	1322	.	-	0	ID=AAA028K15.genome.CDS.494;Product=hypothetical protein
+AAA028K15.contig.12	feature	CDS	98	418	.	+	0	ID=AAA028K15.genome.CDS.493;Product=
+AAA028K15.contig.13	feature	CDS	4035	6299	.	-	0	ID=AAA028K15.genome.CDS.556;Product=Glutamate synthase %5BNADPH%5D large chain %28EC 1.4.1.13%29
+AAA028K15.contig.13	feature	CDS	2591	4042	.	-	0	ID=AAA028K15.genome.CDS.555;Product=Glutamate synthase %5BNADPH%5D small chain %28EC 1.4.1.13%29
+AAA028K15.contig.13	feature	CDS	1912	2577	.	-	0	ID=AAA028K15.genome.CDS.554;Product=hypothetical protein
+AAA028K15.contig.13	feature	CDS	829	1908	.	+	0	ID=AAA028K15.genome.CDS.553;Product=D-alanine--D-alanine ligase %28EC 6.3.2.4%29
+AAA028K15.contig.13	feature	CDS	1	795	.	-	0	ID=AAA028K15.genome.CDS.552;Product=UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase %28EC 6.3.2.10%29
+AAA028K15.contig.14	feature	CDS	289	2649	.	-	0	ID=AAA028K15.genome.CDS.558;Product=hypothetical protein
+AAA028K15.contig.14	feature	CDS	26	289	.	-	0	ID=AAA028K15.genome.CDS.557;Product=
+AAA028K15.contig.15	feature	CDS	2693	2914	.	-	0	ID=AAA028K15.genome.CDS.565;Product=
+AAA028K15.contig.15	feature	CDS	2130	2423	.	-	0	ID=AAA028K15.genome.CDS.564;Product=
+AAA028K15.contig.15	feature	CDS	1765	1989	.	-	0	ID=AAA028K15.genome.CDS.563;Product=
+AAA028K15.contig.15	feature	CDS	1402	1683	.	-	0	ID=AAA028K15.genome.CDS.562;Product=
+AAA028K15.contig.15	feature	CDS	1172	1369	.	-	0	ID=AAA028K15.genome.CDS.561;Product=
+AAA028K15.contig.15	feature	CDS	483	1160	.	-	0	ID=AAA028K15.genome.CDS.560;Product=hypothetical protein
+AAA028K15.contig.15	feature	CDS	2	250	.	-	0	ID=AAA028K15.genome.CDS.559;Product=
+AAA028K15.contig.16	feature	CDS	36580	38835	.	+	0	ID=AAA028K15.genome.CDS.592;Product=FUPA23 P-type ATPase
+AAA028K15.contig.16	feature	CDS	36017	36520	.	+	0	ID=AAA028K15.genome.CDS.591;Product=hypothetical protein
+AAA028K15.contig.16	feature	CDS	34663	35916	.	-	0	ID=AAA028K15.genome.CDS.590;Product=Butyryl-CoA dehydrogenase %28EC 1.3.99.2%29
+AAA028K15.contig.16	feature	CDS	33957	34562	.	-	0	ID=AAA028K15.genome.CDS.589;Product=
+AAA028K15.contig.16	feature	CDS	33522	33956	.	+	0	ID=AAA028K15.genome.CDS.588;Product=
+AAA028K15.contig.16	feature	CDS	33044	33517	.	+	0	ID=AAA028K15.genome.CDS.587;Product=
+AAA028K15.contig.16	feature	CDS	32040	32987	.	-	0	ID=AAA028K15.genome.CDS.586;Product=NADH dehydrogenase %28EC 1.6.99.3%29
+AAA028K15.contig.16	feature	CDS	31251	32030	.	-	0	ID=AAA028K15.genome.CDS.585;Product=3-oxoacyl-%5Bacyl-carrier protein%5D reductase %28EC 1.1.1.100%29
+AAA028K15.contig.16	feature	CDS	29788	31242	.	-	0	ID=AAA028K15.genome.CDS.584;Product=
+AAA028K15.contig.16	feature	CDS	29074	29778	.	-	0	ID=AAA028K15.genome.CDS.583;Product=FIG01142684: hypothetical protein
+AAA028K15.contig.16	feature	CDS	28709	29062	.	+	0	ID=AAA028K15.genome.CDS.582;Product=
+AAA028K15.contig.16	feature	CDS	27179	28495	.	-	0	ID=AAA028K15.genome.CDS.581;Product=
+AAA028K15.contig.16	feature	CDS	26790	27161	.	+	0	ID=AAA028K15.genome.CDS.580;Product=
+AAA028K15.contig.16	feature	CDS	25784	26743	.	-	0	ID=AAA028K15.genome.CDS.579;Product=
+AAA028K15.contig.16	feature	CDS	25061	25720	.	+	0	ID=AAA028K15.genome.CDS.150;Product=Sensory subunit of low CO2-induced protein complex%2C putative
+AAA028K15.contig.16	feature	CDS	24892	25044	.	+	0	ID=AAA028K15.genome.CDS.149;Product=hypothetical protein
+AAA028K15.contig.16	feature	CDS	24105	24839	.	+	0	ID=AAA028K15.genome.CDS.577;Product=
+AAA028K15.contig.16	feature	CDS	23944	24075	.	+	0	ID=AAA028K15.genome.CDS.147;Product=
+AAA028K15.contig.16	feature	tRNA	23756	23831	.	-	.	ID=AAA028K15.genome.rna.6;Product=tRNA-Lys-TTT
+AAA028K15.contig.16	feature	CDS	23037	23747	.	+	0	ID=AAA028K15.genome.CDS.576;Product=hypothetical protein
+AAA028K15.contig.16	feature	CDS	14449	22965	.	-	0	ID=AAA028K15.genome.CDS.575;Product=internalin%2C putative
+AAA028K15.contig.16	feature	CDS	11093	14302	.	-	0	ID=AAA028K15.genome.CDS.574;Product=BNR repeat domain protein
+AAA028K15.contig.16	feature	CDS	6370	10995	.	-	0	ID=AAA028K15.genome.CDS.573;Product=hypothetical protein
+AAA028K15.contig.16	feature	CDS	5544	6317	.	-	0	ID=AAA028K15.genome.CDS.572;Product=Enoyl-CoA hydratase %28EC 4.2.1.17%29
+AAA028K15.contig.16	feature	CDS	3291	5537	.	-	0	ID=AAA028K15.genome.CDS.571;Product=Lead%2C cadmium%2C zinc and mercury transporting ATPase %28EC 3.6.3.3%29 %28EC 3.6.3.5%29%3B Copper-translocating P-type ATPase %28EC 3.6.3.4%29
+AAA028K15.contig.16	feature	CDS	2487	3284	.	+	0	ID=AAA028K15.genome.CDS.570;Product=hypothetical protein
+AAA028K15.contig.16	feature	CDS	1741	2403	.	-	0	ID=AAA028K15.genome.CDS.569;Product=hypothetical protein
+AAA028K15.contig.16	feature	CDS	1047	1712	.	+	0	ID=AAA028K15.genome.CDS.568;Product=cAMP-binding proteins - catabolite gene activator and regulatory subunit of cAMP-dependent protein kinases
+AAA028K15.contig.16	feature	CDS	367	1017	.	-	0	ID=AAA028K15.genome.CDS.567;Product=2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase %28EC 2.7.7.60%29
+AAA028K15.contig.16	feature	CDS	2	367	.	-	0	ID=AAA028K15.genome.CDS.566;Product=2-C-methyl-D-erythritol 2%2C4-cyclodiphosphate synthase %28EC 4.6.1.12%29
+AAA028K15.contig.17	feature	CDS	42694	43380	.	+	0	ID=AAA028K15.genome.CDS.635;Product=Undecaprenyl diphosphate synthase %28EC 2.5.1.31%29
+AAA028K15.contig.17	feature	CDS	41996	42616	.	-	0	ID=AAA028K15.genome.CDS.634;Product=Undecaprenyl diphosphate synthase %28EC 2.5.1.31%29
+AAA028K15.contig.17	feature	CDS	41280	41999	.	-	0	ID=AAA028K15.genome.CDS.633;Product=DNA recombination and repair protein RecO
+AAA028K15.contig.17	feature	CDS	39960	41267	.	-	0	ID=AAA028K15.genome.CDS.632;Product=Glycyl-tRNA synthetase %28EC 6.1.1.14%29
+AAA028K15.contig.17	feature	CDS	39588	39893	.	-	0	ID=AAA028K15.genome.CDS.631;Product=
+AAA028K15.contig.17	feature	CDS	38781	39560	.	-	0	ID=AAA028K15.genome.CDS.630;Product=Indole-3-glycerol phosphate synthase %28EC 4.1.1.48%29
+AAA028K15.contig.17	feature	CDS	38086	38739	.	-	0	ID=AAA028K15.genome.CDS.629;Product=Phosphoribosylanthranilate isomerase %28EC 5.3.1.24%29
+AAA028K15.contig.17	feature	CDS	36865	38022	.	-	0	ID=AAA028K15.genome.CDS.628;Product=Tryptophan synthase beta chain %28EC 4.2.1.20%29
+AAA028K15.contig.17	feature	CDS	36089	36868	.	-	0	ID=AAA028K15.genome.CDS.627;Product=Tryptophan synthase alpha chain %28EC 4.2.1.20%29
+AAA028K15.contig.17	feature	CDS	35770	36087	.	-	0	ID=AAA028K15.genome.CDS.197;Product=
+AAA028K15.contig.17	feature	CDS	35311	35760	.	-	0	ID=AAA028K15.genome.CDS.625;Product=Thiol peroxidase%2C Bcp-type %28EC 1.11.1.15%29
+AAA028K15.contig.17	feature	CDS	34886	35314	.	-	0	ID=AAA028K15.genome.CDS.624;Product=3-hydroxyacyl-%5Bacyl-carrier-protein%5D dehydratase%2C FabZ form %28EC 4.2.1.59%29
+AAA028K15.contig.17	feature	CDS	33671	34855	.	+	0	ID=AAA028K15.genome.CDS.623;Product=3-oxoacyl-%5Bacyl-carrier-protein%5D synthase%2C KASII %28EC 2.3.1.179%29
+AAA028K15.contig.17	feature	CDS	33415	33651	.	+	0	ID=AAA028K15.genome.CDS.622;Product=Acyl carrier protein
+AAA028K15.contig.17	feature	CDS	32645	33349	.	+	0	ID=AAA028K15.genome.CDS.621;Product=3-oxoacyl-%5Bacyl-carrier protein%5D reductase %28EC 1.1.1.100%29
+AAA028K15.contig.17	feature	CDS	31698	32648	.	+	0	ID=AAA028K15.genome.CDS.620;Product=3-oxoacyl-%5Bacyl-carrier-protein%5D synthase%2C KASIII %28EC 2.3.1.180%29
+AAA028K15.contig.17	feature	CDS	30508	31683	.	+	0	ID=AAA028K15.genome.CDS.619;Product=Malonyl CoA-acyl carrier protein transacylase %28EC 2.3.1.39%29
+AAA028K15.contig.17	feature	tRNA	30330	30415	.	-	.	ID=AAA028K15.genome.rna.7;Product=tRNA-Leu-CAA
+AAA028K15.contig.17	feature	CDS	30014	30217	.	-	0	ID=AAA028K15.genome.CDS.618;Product=
+AAA028K15.contig.17	feature	CDS	29439	30017	.	-	0	ID=AAA028K15.genome.CDS.617;Product=response regulator
+AAA028K15.contig.17	feature	CDS	26734	29418	.	-	0	ID=AAA028K15.genome.CDS.616;Product=DNA polymerase I %28EC 2.7.7.7%29
+AAA028K15.contig.17	feature	CDS	25985	26728	.	-	0	ID=AAA028K15.genome.CDS.615;Product=hypothetical protein
+AAA028K15.contig.17	feature	CDS	24628	25908	.	-	0	ID=AAA028K15.genome.CDS.614;Product=SSU ribosomal protein S1p
+AAA028K15.contig.17	feature	CDS	23963	24613	.	-	0	ID=AAA028K15.genome.CDS.613;Product=Dephospho-CoA kinase %28EC 2.7.1.24%29
+AAA028K15.contig.17	feature	CDS	21915	23936	.	-	0	ID=AAA028K15.genome.CDS.612;Product=Excinuclease ABC subunit B
+AAA028K15.contig.17	feature	CDS	18925	21894	.	-	0	ID=AAA028K15.genome.CDS.611;Product=Excinuclease ABC subunit A
+AAA028K15.contig.17	feature	CDS	17048	18922	.	-	0	ID=AAA028K15.genome.CDS.610;Product=Excinuclease ABC subunit C
+AAA028K15.contig.17	feature	CDS	16306	17037	.	-	0	ID=AAA028K15.genome.CDS.609;Product=hypothetical protein
+AAA028K15.contig.17	feature	CDS	15459	16313	.	-	0	ID=AAA028K15.genome.CDS.608;Product=
+AAA028K15.contig.17	feature	CDS	14372	15370	.	-	0	ID=AAA028K15.genome.CDS.607;Product=NAD-dependent glyceraldehyde-3-phosphate dehydrogenase %28EC 1.2.1.12%29
+AAA028K15.contig.17	feature	CDS	13247	14362	.	-	0	ID=AAA028K15.genome.CDS.606;Product=Phosphoglycerate kinase %28EC 2.7.2.3%29
+AAA028K15.contig.17	feature	CDS	12469	13257	.	-	0	ID=AAA028K15.genome.CDS.605;Product=Triosephosphate isomerase %28EC 5.3.1.1%29
+AAA028K15.contig.17	feature	CDS	12181	12420	.	-	0	ID=AAA028K15.genome.CDS.604;Product=Preprotein translocase subunit SecG %28TC 3.A.5.1.1%29
+AAA028K15.contig.17	feature	tRNA	12050	12136	.	-	.	ID=AAA028K15.genome.rna.8;Product=tRNA-Leu-AAG
+AAA028K15.contig.17	feature	CDS	10697	12049	.	-	0	ID=AAA028K15.genome.CDS.603;Product=Pyruvate kinase %28EC 2.7.1.40%29
+AAA028K15.contig.17	feature	CDS	9437	10666	.	+	0	ID=AAA028K15.genome.CDS.602;Product=
+AAA028K15.contig.17	feature	CDS	8381	9403	.	+	0	ID=AAA028K15.genome.CDS.601;Product=putative esterase
+AAA028K15.contig.17	feature	CDS	7044	8249	.	+	0	ID=AAA028K15.genome.CDS.600;Product=Acetyl-CoA acetyltransferase
+AAA028K15.contig.17	feature	CDS	6612	7010	.	+	0	ID=AAA028K15.genome.CDS.599;Product=FIG00831317: hypothetical protein
+AAA028K15.contig.17	feature	CDS	5214	6509	.	-	0	ID=AAA028K15.genome.CDS.598;Product=
+AAA028K15.contig.17	feature	CDS	2951	5212	.	+	0	ID=AAA028K15.genome.CDS.597;Product=Xanthine dehydrogenase%2C molybdenum binding subunit %28EC 1.17.1.4%29
+AAA028K15.contig.17	feature	CDS	2466	2954	.	+	0	ID=AAA028K15.genome.CDS.596;Product=Xanthine dehydrogenase iron-sulfur subunit %28EC 1.17.1.4%29
+AAA028K15.contig.17	feature	CDS	1630	2469	.	+	0	ID=AAA028K15.genome.CDS.595;Product=Xanthine dehydrogenase%2C FAD binding subunit %28EC 1.17.1.4%29
+AAA028K15.contig.17	feature	CDS	563	1627	.	+	0	ID=AAA028K15.genome.CDS.594;Product=SsnA protein
+AAA028K15.contig.17	feature	CDS	1	561	.	+	0	ID=AAA028K15.genome.CDS.593;Product=N-carbamoyl-D-amino acid hydrolase %28EC 3.5.1.77%29%2C putative
+AAA028K15.contig.18	feature	CDS	2220	4016	.	-	0	ID=AAA028K15.genome.CDS.638;Product=Xanthine dehydrogenase%2C molybdenum binding subunit %28EC 1.17.1.4%29
+AAA028K15.contig.18	feature	CDS	1193	2194	.	-	0	ID=AAA028K15.genome.CDS.637;Product=F420-dependent N%285%29%2CN%2810%29-methylenetetrahydromethanopterin reductase %28EC 1.5.99.11%29
+AAA028K15.contig.18	feature	CDS	2	1165	.	-	0	ID=AAA028K15.genome.CDS.636;Product=Aspartate aminotransferase %28EC 2.6.1.1%29
+AAA028K15.contig.19	feature	CDS	49163	50890	.	-	0	ID=AAA028K15.genome.CDS.686;Product=Phenylalanyl-tRNA synthetase beta chain %28EC 6.1.1.20%29
+AAA028K15.contig.19	feature	CDS	48738	49157	.	+	0	ID=AAA028K15.genome.CDS.685;Product=UPF0301 protein YqgE
+AAA028K15.contig.19	feature	CDS	47570	48631	.	-	0	ID=AAA028K15.genome.CDS.684;Product=N-acetyl-gamma-glutamyl-phosphate reductase %28EC 1.2.1.38%29
+AAA028K15.contig.19	feature	CDS	46707	47573	.	-	0	ID=AAA028K15.genome.CDS.683;Product=Acetylglutamate kinase %28EC 2.7.2.8%29
+AAA028K15.contig.19	feature	CDS	45502	46710	.	-	0	ID=AAA028K15.genome.CDS.682;Product=Acetylornithine aminotransferase %28EC 2.6.1.11%29
+AAA028K15.contig.19	feature	CDS	44615	45505	.	-	0	ID=AAA028K15.genome.CDS.681;Product=Ornithine carbamoyltransferase %28EC 2.1.3.3%29
+AAA028K15.contig.19	feature	CDS	44101	44613	.	-	0	ID=AAA028K15.genome.CDS.680;Product=Arginine pathway regulatory protein ArgR%2C repressor of arg regulon
+AAA028K15.contig.19	feature	CDS	42696	44108	.	-	0	ID=AAA028K15.genome.CDS.679;Product=Argininosuccinate lyase %28EC 4.3.2.1%29
+AAA028K15.contig.19	feature	CDS	42283	42696	.	-	0	ID=AAA028K15.genome.CDS.678;Product=hypothetical protein
+AAA028K15.contig.19	feature	CDS	41210	42286	.	+	0	ID=AAA028K15.genome.CDS.677;Product=hypothetical protein
+AAA028K15.contig.19	feature	CDS	39880	41154	.	-	0	ID=AAA028K15.genome.CDS.676;Product=Tyrosyl-tRNA synthetase %28EC 6.1.1.1%29
+AAA028K15.contig.19	feature	CDS	39551	39904	.	+	0	ID=AAA028K15.genome.CDS.675;Product=
+AAA028K15.contig.19	feature	misc_RNA	37990	39516	.	-	.	ID=AAA028K15.genome.rna.3;Product=SSU rRNA %23%23 16S rRNA%2C small subunit ribosomal RNA
+AAA028K15.contig.19	feature	misc_RNA	34645	37704	.	-	.	ID=AAA028K15.genome.rna.2;Product=LSU rRNA %23%23 23S rRNA%2C large subunit ribosomal RNA
+AAA028K15.contig.19	feature	misc_RNA	34463	34584	.	-	.	ID=AAA028K15.genome.rna.1;Product=5S rRNA %23%23 5S ribosomal RNA
+AAA028K15.contig.19	feature	CDS	32720	34372	.	-	0	ID=AAA028K15.genome.CDS.673;Product=hypothetical protein
+AAA028K15.contig.19	feature	CDS	32315	32686	.	-	0	ID=AAA028K15.genome.CDS.672;Product=
+AAA028K15.contig.19	feature	CDS	31392	32279	.	-	0	ID=AAA028K15.genome.CDS.671;Product=Fructose-bisphosphate aldolase class I %28EC 4.1.2.13%29
+AAA028K15.contig.19	feature	CDS	30194	31381	.	+	0	ID=AAA028K15.genome.CDS.670;Product=Related to HTH domain of SpoOJ/ParA/ParB/repB family%2C involved in chromosome partitioning
+AAA028K15.contig.19	feature	CDS	29374	30165	.	-	0	ID=AAA028K15.genome.CDS.669;Product=
+AAA028K15.contig.19	feature	CDS	28570	29349	.	-	0	ID=AAA028K15.genome.CDS.668;Product=RNA binding methyltransferase FtsJ like
+AAA028K15.contig.19	feature	CDS	27716	28573	.	-	0	ID=AAA028K15.genome.CDS.667;Product=NAD kinase %28EC 2.7.1.23%29
+AAA028K15.contig.19	feature	CDS	26076	27716	.	-	0	ID=AAA028K15.genome.CDS.666;Product=DNA repair protein RecN
+AAA028K15.contig.19	feature	CDS	24365	26002	.	-	0	ID=AAA028K15.genome.CDS.665;Product=CTP synthase %28EC 6.3.4.2%29
+AAA028K15.contig.19	feature	CDS	23790	24344	.	-	0	ID=AAA028K15.genome.CDS.664;Product=
+AAA028K15.contig.19	feature	CDS	22857	23783	.	-	0	ID=AAA028K15.genome.CDS.663;Product=Site-specific tyrosine recombinase XerD
+AAA028K15.contig.19	feature	CDS	22414	22857	.	-	0	ID=AAA028K15.genome.CDS.662;Product=hypothetical protein
+AAA028K15.contig.19	feature	CDS	21428	22417	.	+	0	ID=AAA028K15.genome.CDS.661;Product=Tryptophanyl-tRNA synthetase %28EC 6.1.1.2%29
+AAA028K15.contig.19	feature	CDS	20572	21348	.	-	0	ID=AAA028K15.genome.CDS.660;Product=Segregation and condensation protein A
+AAA028K15.contig.19	feature	CDS	19910	20566	.	-	0	ID=AAA028K15.genome.CDS.659;Product=Segregation and condensation protein B
+AAA028K15.contig.19	feature	CDS	19085	19909	.	-	0	ID=AAA028K15.genome.CDS.658;Product=Ribosomal large subunit pseudouridine synthase B %28EC 4.2.1.70%29
+AAA028K15.contig.19	feature	CDS	18009	19088	.	-	0	ID=AAA028K15.genome.CDS.657;Product=
+AAA028K15.contig.19	feature	CDS	16735	18003	.	-	0	ID=AAA028K15.genome.CDS.656;Product=5-Enolpyruvylshikimate-3-phosphate synthase %28EC 2.5.1.19%29
+AAA028K15.contig.19	feature	CDS	16100	16723	.	-	0	ID=AAA028K15.genome.CDS.655;Product=Phosphoserine phosphatase %28EC 3.1.3.3%29
+AAA028K15.contig.19	feature	CDS	15234	16103	.	-	0	ID=AAA028K15.genome.CDS.654;Product=hypothetical protein
+AAA028K15.contig.19	feature	CDS	13805	15184	.	-	0	ID=AAA028K15.genome.CDS.653;Product=putative oxidoreductase
+AAA028K15.contig.19	feature	CDS	13044	13808	.	-	0	ID=AAA028K15.genome.CDS.652;Product=oxidoreductase%2C short-chain dehydrogenase/reductase family
+AAA028K15.contig.19	feature	CDS	11844	13040	.	+	0	ID=AAA028K15.genome.CDS.651;Product=
+AAA028K15.contig.19	feature	CDS	10973	11773	.	-	0	ID=AAA028K15.genome.CDS.650;Product=Enoyl-CoA hydratase %28EC 4.2.1.17%29
+AAA028K15.contig.19	feature	CDS	10405	10881	.	-	0	ID=AAA028K15.genome.CDS.649;Product=Xanthine-guanine phosphoribosyltransferase %28EC 2.4.2.22%29
+AAA028K15.contig.19	feature	CDS	8854	10404	.	+	0	ID=AAA028K15.genome.CDS.648;Product=Beta-carotene ketolase
+AAA028K15.contig.19	feature	CDS	8044	8820	.	-	0	ID=AAA028K15.genome.CDS.647;Product=Creatinine amidohydrolase %28EC 3.5.2.10%29
+AAA028K15.contig.19	feature	CDS	6797	7885	.	+	0	ID=AAA028K15.genome.CDS.646;Product=
+AAA028K15.contig.19	feature	CDS	5892	6755	.	+	0	ID=AAA028K15.genome.CDS.645;Product=Hydroxymethylpyrimidine ABC transporter%2C transmembrane component
+AAA028K15.contig.19	feature	CDS	5119	5895	.	+	0	ID=AAA028K15.genome.CDS.644;Product=ABC-type nitrate/sulfonate/bicarbonate transport system%2C ATPase component
+AAA028K15.contig.19	feature	CDS	3848	5056	.	+	0	ID=AAA028K15.genome.CDS.643;Product=Cytosine deaminase %28EC 3.5.4.1%29
+AAA028K15.contig.19	feature	CDS	2687	3844	.	+	0	ID=AAA028K15.genome.CDS.642;Product=luciferase family protein
+AAA028K15.contig.19	feature	CDS	1811	2569	.	+	0	ID=AAA028K15.genome.CDS.641;Product=Glycerophosphoryl diester phosphodiesterase %28EC 3.1.4.46%29
+AAA028K15.contig.19	feature	CDS	255	1811	.	+	0	ID=AAA028K15.genome.CDS.640;Product=Long-chain-fatty-acid--CoA ligase %28EC 6.2.1.3%29
+AAA028K15.contig.19	feature	CDS	2	142	.	-	0	ID=AAA028K15.genome.CDS.639;Product=
+AAA028K15.contig.2	feature	CDS	3203	3892	.	+	0	ID=AAA028K15.genome.CDS.429;Product=1-hydroxy-2-methyl-2-%28E%29-butenyl 4-diphosphate synthase %28EC 1.17.7.1%29
+AAA028K15.contig.2	feature	CDS	1931	3172	.	+	0	ID=AAA028K15.genome.CDS.428;Product=Membrane-associated zinc metalloprotease
+AAA028K15.contig.2	feature	CDS	792	1934	.	+	0	ID=AAA028K15.genome.CDS.427;Product=1-deoxy-D-xylulose 5-phosphate reductoisomerase %28EC 1.1.1.267%29
+AAA028K15.contig.2	feature	CDS	2	739	.	+	0	ID=AAA028K15.genome.CDS.426;Product=Phosphatidate cytidylyltransferase %28EC 2.7.7.41%29
+AAA028K15.contig.20	feature	CDS	11171	13153	.	+	0	ID=AAA028K15.genome.CDS.696;Product=Kup system potassium uptake protein
+AAA028K15.contig.20	feature	CDS	9344	11080	.	-	0	ID=AAA028K15.genome.CDS.695;Product=Long-chain-fatty-acid--CoA ligase %28EC 6.2.1.3%29
+AAA028K15.contig.20	feature	CDS	8691	9341	.	+	0	ID=AAA028K15.genome.CDS.694;Product=
+AAA028K15.contig.20	feature	CDS	7684	8694	.	+	0	ID=AAA028K15.genome.CDS.693;Product=luciferase-like protein
+AAA028K15.contig.20	feature	CDS	6718	7647	.	+	0	ID=AAA028K15.genome.CDS.692;Product=hypothetical protein
+AAA028K15.contig.20	feature	CDS	5085	6491	.	-	0	ID=AAA028K15.genome.CDS.691;Product=NADP-dependent malic enzyme %28EC 1.1.1.40%29
+AAA028K15.contig.20	feature	CDS	2810	4984	.	-	0	ID=AAA028K15.genome.CDS.690;Product=hypothetical protein
+AAA028K15.contig.20	feature	CDS	2564	2785	.	-	0	ID=AAA028K15.genome.CDS.262;Product=
+AAA028K15.contig.20	feature	CDS	1095	2378	.	-	0	ID=AAA028K15.genome.CDS.688;Product=Na%2B/H%2B antiporter NhaA type
+AAA028K15.contig.20	feature	CDS	799	933	.	+	0	ID=AAA028K15.genome.CDS.260;Product=
+AAA028K15.contig.20	feature	CDS	3	602	.	+	0	ID=AAA028K15.genome.CDS.687;Product=tmRNA-binding protein SmpB
+AAA028K15.contig.21	feature	CDS	67497	68081	.	-	0	ID=AAA028K15.genome.CDS.766;Product=UDP-N-acetylmuramoylalanyl-D-glutamyl-2%2C6-diaminopimelate--D-alanyl-D-alanine ligase %28EC 6.3.2.10%29
+AAA028K15.contig.21	feature	CDS	66209	67489	.	+	0	ID=AAA028K15.genome.CDS.765;Product=hypothetical protein
+AAA028K15.contig.21	feature	CDS	64970	66190	.	+	0	ID=AAA028K15.genome.CDS.764;Product=putative cytochrome P450 hydroxylase
+AAA028K15.contig.21	feature	CDS	63675	64817	.	-	0	ID=AAA028K15.genome.CDS.763;Product=Putrescine transport ATP-binding protein PotA %28TC 3.A.1.11.1%29
+AAA028K15.contig.21	feature	CDS	62458	63618	.	-	0	ID=AAA028K15.genome.CDS.762;Product=Putrescine ABC transporter putrescine-binding protein PotF %28TC 3.A.1.11.2%29
+AAA028K15.contig.21	feature	CDS	61372	62433	.	-	0	ID=AAA028K15.genome.CDS.761;Product=Putrescine transport system permease protein PotH %28TC 3.A.1.11.2%29
+AAA028K15.contig.21	feature	CDS	60545	61375	.	-	0	ID=AAA028K15.genome.CDS.760;Product=Putrescine transport system permease protein PotI %28TC 3.A.1.11.2%29
+AAA028K15.contig.21	feature	CDS	59839	60498	.	-	0	ID=AAA028K15.genome.CDS.759;Product=hypothetical protein
+AAA028K15.contig.21	feature	tRNA	59762	59838	.	-	.	ID=AAA028K15.genome.rna.10;Product=tRNA-Val-CAC
+AAA028K15.contig.21	feature	CDS	58732	59157	.	-	0	ID=AAA028K15.genome.CDS.757;Product=Phosphate regulon sensor protein PhoR %28SphS%29 %28EC 2.7.13.3%29
+AAA028K15.contig.21	feature	CDS	57944	58744	.	+	0	ID=AAA028K15.genome.CDS.756;Product=hypothetical protein
+AAA028K15.contig.21	feature	CDS	56943	57911	.	-	0	ID=AAA028K15.genome.CDS.755;Product=FIG00823333: hypothetical protein
+AAA028K15.contig.21	feature	CDS	56605	56946	.	-	0	ID=AAA028K15.genome.CDS.754;Product=
+AAA028K15.contig.21	feature	CDS	55537	56589	.	+	0	ID=AAA028K15.genome.CDS.753;Product=Ribosomal RNA large subunit methyltransferase N %28EC 2.1.1.-%29
+AAA028K15.contig.21	feature	CDS	54635	55540	.	+	0	ID=AAA028K15.genome.CDS.752;Product=Acetyl-CoA:Cys-GlcN-Ins acetyltransferase%2C mycothiol synthase MshD
+AAA028K15.contig.21	feature	CDS	53922	54617	.	-	0	ID=AAA028K15.genome.CDS.751;Product=Endonuclease III %28EC 4.2.99.18%29
+AAA028K15.contig.21	feature	CDS	53703	53897	.	-	0	ID=AAA028K15.genome.CDS.750;Product=
+AAA028K15.contig.21	feature	CDS	52617	53678	.	-	0	ID=AAA028K15.genome.CDS.749;Product=Histidinol-phosphate aminotransferase %28EC 2.6.1.9%29
+AAA028K15.contig.21	feature	CDS	51963	52556	.	-	0	ID=AAA028K15.genome.CDS.748;Product=Imidazoleglycerol-phosphate dehydratase %28EC 4.2.1.19%29
+AAA028K15.contig.21	feature	CDS	51343	51966	.	-	0	ID=AAA028K15.genome.CDS.747;Product=Imidazole glycerol phosphate synthase amidotransferase subunit %28EC 2.4.2.-%29
+AAA028K15.contig.21	feature	CDS	50636	51346	.	-	0	ID=AAA028K15.genome.CDS.746;Product=Phosphoribosylformimino-5-aminoimidazole carboxamide ribotide isomerase %28EC 5.3.1.16%29
+AAA028K15.contig.21	feature	CDS	49863	50639	.	-	0	ID=AAA028K15.genome.CDS.745;Product=Imidazole glycerol phosphate synthase cyclase subunit %28EC 4.1.3.-%29
+AAA028K15.contig.21	feature	CDS	49143	49859	.	+	0	ID=AAA028K15.genome.CDS.744;Product=
+AAA028K15.contig.21	feature	CDS	48728	49096	.	-	0	ID=AAA028K15.genome.CDS.743;Product=Phosphoribosyl-AMP cyclohydrolase %28EC 3.5.4.19%29
+AAA028K15.contig.21	feature	CDS	47196	48728	.	-	0	ID=AAA028K15.genome.CDS.742;Product=Anthranilate synthase%2C aminase component %28EC 4.1.3.27%29
+AAA028K15.contig.21	feature	CDS	46414	47199	.	-	0	ID=AAA028K15.genome.CDS.741;Product=hypothetical protein
+AAA028K15.contig.21	feature	CDS	45480	46421	.	-	0	ID=AAA028K15.genome.CDS.740;Product=Integral membrane protein TerC
+AAA028K15.contig.21	feature	CDS	43713	45452	.	-	0	ID=AAA028K15.genome.CDS.739;Product=DNA primase %28EC 2.7.7.-%29
+AAA028K15.contig.21	feature	CDS	42523	43716	.	-	0	ID=AAA028K15.genome.CDS.738;Product=RNA polymerase sigma factor RpoD
+AAA028K15.contig.21	feature	tRNA	42397	42472	.	-	.	ID=AAA028K15.genome.rna.11;Product=tRNA-Asn-GTT
+AAA028K15.contig.21	feature	tRNA	42296	42372	.	-	.	ID=AAA028K15.genome.rna.12;Product=tRNA-Met-CAT
+AAA028K15.contig.21	feature	CDS	41730	42290	.	+	0	ID=AAA028K15.genome.CDS.737;Product=
+AAA028K15.contig.21	feature	CDS	40831	41733	.	+	0	ID=AAA028K15.genome.CDS.736;Product=
+AAA028K15.contig.21	feature	CDS	40375	40827	.	+	0	ID=AAA028K15.genome.CDS.735;Product=hypothetical protein
+AAA028K15.contig.21	feature	CDS	39809	40375	.	+	0	ID=AAA028K15.genome.CDS.734;Product=hypothetical protein
+AAA028K15.contig.21	feature	CDS	38993	39658	.	-	0	ID=AAA028K15.genome.CDS.733;Product=Phosphate regulon transcriptional regulatory protein PhoB %28SphR%29
+AAA028K15.contig.21	feature	CDS	37602	38996	.	-	0	ID=AAA028K15.genome.CDS.732;Product=hypothetical protein
+AAA028K15.contig.21	feature	CDS	37026	37601	.	+	0	ID=AAA028K15.genome.CDS.731;Product=hypothetical protein
+AAA028K15.contig.21	feature	CDS	36227	37003	.	-	0	ID=AAA028K15.genome.CDS.730;Product=
+AAA028K15.contig.21	feature	CDS	34892	36196	.	-	0	ID=AAA028K15.genome.CDS.729;Product=hypothetical protein
+AAA028K15.contig.21	feature	CDS	33013	34830	.	-	0	ID=AAA028K15.genome.CDS.728;Product=hypothetical protein
+AAA028K15.contig.21	feature	CDS	31364	32974	.	+	0	ID=AAA028K15.genome.CDS.727;Product=DNA polymerase III epsilon subunit %28EC 2.7.7.7%29
+AAA028K15.contig.21	feature	tRNA	31203	31279	.	-	.	ID=AAA028K15.genome.rna.13;Product=tRNA-Val-TAC
+AAA028K15.contig.21	feature	CDS	30618	31043	.	+	0	ID=AAA028K15.genome.CDS.726;Product=hypothetical protein
+AAA028K15.contig.21	feature	CDS	28460	30154	.	-	0	ID=AAA028K15.genome.CDS.725;Product=hypothetical protein
+AAA028K15.contig.21	feature	CDS	26975	28402	.	+	0	ID=AAA028K15.genome.CDS.724;Product=Aldehyde dehydrogenase %28EC 1.2.1.3%29
+AAA028K15.contig.21	feature	CDS	26374	26823	.	-	0	ID=AAA028K15.genome.CDS.723;Product=hypothetical protein
+AAA028K15.contig.21	feature	CDS	25528	26373	.	+	0	ID=AAA028K15.genome.CDS.722;Product=Putative metal chaperone%2C involved in Zn homeostasis%2C GTPase of COG0523 family
+AAA028K15.contig.21	feature	CDS	23861	25531	.	+	0	ID=AAA028K15.genome.CDS.721;Product=Exoenzymes regulatory protein AepA in lipid-linked oligosaccharide synthesis cluster
+AAA028K15.contig.21	feature	CDS	22057	23700	.	+	0	ID=AAA028K15.genome.CDS.719;Product=ATP-dependent RNA helicase
+AAA028K15.contig.21	feature	CDS	21589	21981	.	+	0	ID=AAA028K15.genome.CDS.718;Product=
+AAA028K15.contig.21	feature	tRNA	21493	21568	.	+	.	ID=AAA028K15.genome.rna.9;Product=tRNA-Pro-TGG
+AAA028K15.contig.21	feature	CDS	21255	21452	.	+	0	ID=AAA028K15.genome.CDS.717;Product=
+AAA028K15.contig.21	feature	CDS	19767	21221	.	-	0	ID=AAA028K15.genome.CDS.716;Product=Cell division trigger factor %28EC 5.2.1.8%29
+AAA028K15.contig.21	feature	CDS	19110	19736	.	-	0	ID=AAA028K15.genome.CDS.715;Product=ATP-dependent Clp protease proteolytic subunit %28EC 3.4.21.92%29
+AAA028K15.contig.21	feature	CDS	17801	19084	.	-	0	ID=AAA028K15.genome.CDS.714;Product=ATP-dependent Clp protease ATP-binding subunit ClpX
+AAA028K15.contig.21	feature	CDS	15644	16999	.	+	0	ID=AAA028K15.genome.CDS.712;Product=carbon monoxide dehydrogenase E protein
+AAA028K15.contig.21	feature	CDS	14721	15626	.	+	0	ID=AAA028K15.genome.CDS.711;Product=Carbon monoxide oxidation accessory protein CoxD
+AAA028K15.contig.21	feature	CDS	13080	14663	.	-	0	ID=AAA028K15.genome.CDS.710;Product=hypothetical protein
+AAA028K15.contig.21	feature	CDS	11992	13077	.	+	0	ID=AAA028K15.genome.CDS.709;Product=Glutamate 5-kinase %28EC 2.7.2.11%29 / RNA-binding C-terminal domain PUA
+AAA028K15.contig.21	feature	CDS	10731	11981	.	+	0	ID=AAA028K15.genome.CDS.708;Product=GTP-binding protein Obg
+AAA028K15.contig.21	feature	CDS	9516	10652	.	-	0	ID=AAA028K15.genome.CDS.707;Product=Deoxyguanosinetriphosphate triphosphohydrolase %28EC 3.1.5.1%29
+AAA028K15.contig.21	feature	CDS	9203	9457	.	+	0	ID=AAA028K15.genome.CDS.706;Product=LSU ribosomal protein L27p
+AAA028K15.contig.21	feature	CDS	8885	9196	.	+	0	ID=AAA028K15.genome.CDS.705;Product=
+AAA028K15.contig.21	feature	CDS	7109	8803	.	+	0	ID=AAA028K15.genome.CDS.704;Product=Cytoplasmic axial filament protein CafA and Ribonuclease G %28EC 3.1.4.-%29
+AAA028K15.contig.21	feature	CDS	5809	6999	.	+	0	ID=AAA028K15.genome.CDS.703;Product=Cell division protein FtsW
+AAA028K15.contig.21	feature	CDS	3635	5809	.	+	0	ID=AAA028K15.genome.CDS.702;Product=Cell division protein FtsI %5BPeptidoglycan synthetase%5D %28EC 2.4.1.129%29
+AAA028K15.contig.21	feature	CDS	3120	3638	.	+	0	ID=AAA028K15.genome.CDS.701;Product=hypothetical protein
+AAA028K15.contig.21	feature	CDS	2008	3123	.	+	0	ID=AAA028K15.genome.CDS.700;Product=
+AAA028K15.contig.21	feature	CDS	957	1997	.	+	0	ID=AAA028K15.genome.CDS.699;Product=Rod shape-determining protein MreB
+AAA028K15.contig.21	feature	CDS	488	898	.	+	0	ID=AAA028K15.genome.CDS.698;Product=Nucleoside diphosphate kinase %28EC 2.7.4.6%29
+AAA028K15.contig.21	feature	CDS	1	432	.	+	0	ID=AAA028K15.genome.CDS.697;Product=Dihydrofolate synthase %28EC 6.3.2.12%29 %40 Folylpolyglutamate synthase %28EC 6.3.2.17%29
+AAA028K15.contig.22	feature	CDS	3185	3484	.	-	0	ID=AAA028K15.genome.CDS.772;Product=hypothetical protein
+AAA028K15.contig.22	feature	CDS	2556	3188	.	+	0	ID=AAA028K15.genome.CDS.771;Product=DNA-3-methyladenine glycosylase %28EC 3.2.2.20%29
+AAA028K15.contig.22	feature	CDS	2195	2539	.	+	0	ID=AAA028K15.genome.CDS.770;Product=
+AAA028K15.contig.22	feature	CDS	608	2098	.	-	0	ID=AAA028K15.genome.CDS.769;Product=hypothetical protein
+AAA028K15.contig.22	feature	CDS	148	594	.	+	0	ID=AAA028K15.genome.CDS.768;Product=
+AAA028K15.contig.22	feature	CDS	2	127	.	+	0	ID=AAA028K15.genome.CDS.767;Product=
+AAA028K15.contig.23	feature	CDS	2974	3978	.	-	0	ID=AAA028K15.genome.CDS.777;Product=Lactyl %282%29 diphospho-%285%27%29guanosine:7%2C8-didemethyl-8-hydroxy-5-deazariboflavin 2-phospho-L-lactate transferase
+AAA028K15.contig.23	feature	CDS	2273	2986	.	-	0	ID=AAA028K15.genome.CDS.776;Product=Coenzyme F420-0:L-glutamate ligase %28EC 6.3.2.31%29 %40 F420-1:L-glutamate ligase %28EC 6.3.2.34%29
+AAA028K15.contig.23	feature	CDS	1365	2276	.	+	0	ID=AAA028K15.genome.CDS.775;Product=UDP-glucose 4-epimerase %28EC 5.1.3.2%29
+AAA028K15.contig.23	feature	CDS	361	1365	.	+	0	ID=AAA028K15.genome.CDS.774;Product=D-glycero-D-manno-heptose 1-phosphate guanosyltransferase
+AAA028K15.contig.23	feature	CDS	2	361	.	+	0	ID=AAA028K15.genome.CDS.773;Product=
+AAA028K15.contig.24	feature	CDS	1777	2937	.	-	0	ID=AAA028K15.genome.CDS.781;Product=Mrp protein homolog
+AAA028K15.contig.24	feature	CDS	975	1811	.	+	0	ID=AAA028K15.genome.CDS.780;Product=
+AAA028K15.contig.24	feature	CDS	508	978	.	+	0	ID=AAA028K15.genome.CDS.779;Product=
+AAA028K15.contig.24	feature	CDS	2	502	.	+	0	ID=AAA028K15.genome.CDS.778;Product=hypothetical protein
+AAA028K15.contig.25	feature	CDS	2567	2842	.	-	0	ID=AAA028K15.genome.CDS.785;Product=
+AAA028K15.contig.25	feature	CDS	1546	2565	.	-	0	ID=AAA028K15.genome.CDS.784;Product=PROBABLE OXIDOREDUCTASE
+AAA028K15.contig.25	feature	CDS	846	1487	.	+	0	ID=AAA028K15.genome.CDS.783;Product=hypothetical protein
+AAA028K15.contig.25	feature	CDS	3	842	.	+	0	ID=AAA028K15.genome.CDS.782;Product=Translation initiation factor 2
+AAA028K15.contig.26	feature	CDS	1592	2746	.	+	0	ID=AAA028K15.genome.CDS.788;Product=hypothetical protein
+AAA028K15.contig.26	feature	CDS	1386	1595	.	+	0	ID=AAA028K15.genome.CDS.787;Product=
+AAA028K15.contig.26	feature	CDS	3	1274	.	+	0	ID=AAA028K15.genome.CDS.786;Product=hypothetical protein
+AAA028K15.contig.27	feature	CDS	3	2213	.	+	0	ID=AAA028K15.genome.CDS.789;Product=hypothetical protein
+AAA028K15.contig.28	feature	CDS	1870	2631	.	-	0	ID=AAA028K15.genome.CDS.791;Product=GTP-binding protein Era
+AAA028K15.contig.28	feature	CDS	1	1863	.	+	0	ID=AAA028K15.genome.CDS.790;Product=DinG family ATP-dependent helicase YoaA
+AAA028K15.contig.29	feature	CDS	1932	2093	.	+	0	ID=AAA028K15.genome.CDS.795;Product=
+AAA028K15.contig.29	feature	CDS	690	1610	.	-	0	ID=AAA028K15.genome.CDS.794;Product=
+AAA028K15.contig.29	feature	CDS	137	499	.	-	0	ID=AAA028K15.genome.CDS.793;Product=
+AAA028K15.contig.29	feature	CDS	1	144	.	-	0	ID=AAA028K15.genome.CDS.792;Product=
+AAA028K15.contig.3	feature	CDS	2429	3484	.	-	0	ID=AAA028K15.genome.CDS.433;Product=putative acyl-CoA dehydrogenase
+AAA028K15.contig.3	feature	CDS	2006	2416	.	+	0	ID=AAA028K15.genome.CDS.432;Product=
+AAA028K15.contig.3	feature	CDS	972	2009	.	+	0	ID=AAA028K15.genome.CDS.431;Product=4-hydroxy-3-methylbut-2-enyl diphosphate reductase %28EC 1.17.1.2%29
+AAA028K15.contig.3	feature	CDS	1	924	.	-	0	ID=AAA028K15.genome.CDS.430;Product=Possible Fe-S oxidoreductase
+AAA028K15.contig.30	feature	CDS	1687	2385	.	-	0	ID=AAA028K15.genome.CDS.798;Product=
+AAA028K15.contig.30	feature	CDS	455	1690	.	-	0	ID=AAA028K15.genome.CDS.797;Product=Glycosyltransferase
+AAA028K15.contig.30	feature	CDS	2	415	.	-	0	ID=AAA028K15.genome.CDS.796;Product=
+AAA028K15.contig.31	feature	CDS	618	2429	.	-	0	ID=AAA028K15.genome.CDS.801;Product=DNA polymerase III alpha subunit %28EC 2.7.7.7%29
+AAA028K15.contig.31	feature	CDS	106	606	.	+	0	ID=AAA028K15.genome.CDS.800;Product=
+AAA028K15.contig.31	feature	CDS	2	109	.	+	0	ID=AAA028K15.genome.CDS.799;Product=
+AAA028K15.contig.32	feature	CDS	691	2454	.	-	0	ID=AAA028K15.genome.CDS.803;Product=Prolyl-tRNA synthetase %28EC 6.1.1.15%29%2C bacterial type
+AAA028K15.contig.32	feature	CDS	1	687	.	-	0	ID=AAA028K15.genome.CDS.802;Product=Mannose-6-phosphate isomerase %28EC 5.3.1.8%29
+AAA028K15.contig.33	feature	CDS	1892	2515	.	+	0	ID=AAA028K15.genome.CDS.806;Product=Phenylalanyl-tRNA synthetase beta chain %28EC 6.1.1.20%29
+AAA028K15.contig.33	feature	CDS	858	1895	.	+	0	ID=AAA028K15.genome.CDS.805;Product=Phenylalanyl-tRNA synthetase alpha chain %28EC 6.1.1.20%29
+AAA028K15.contig.33	feature	CDS	1	813	.	+	0	ID=AAA028K15.genome.CDS.804;Product=
+AAA028K15.contig.34	feature	CDS	3642	3992	.	+	0	ID=AAA028K15.genome.CDS.812;Product=
+AAA028K15.contig.34	feature	CDS	2860	3564	.	-	0	ID=AAA028K15.genome.CDS.811;Product=hypothetical protein
+AAA028K15.contig.34	feature	CDS	1435	2835	.	-	0	ID=AAA028K15.genome.CDS.810;Product=Aldehyde dehydrogenase %28EC 1.2.1.3%29
+AAA028K15.contig.34	feature	CDS	820	1431	.	+	0	ID=AAA028K15.genome.CDS.809;Product=Sulfite oxidase and related enzymes
+AAA028K15.contig.34	feature	CDS	314	778	.	-	0	ID=AAA028K15.genome.CDS.808;Product=hypothetical protein
+AAA028K15.contig.34	feature	CDS	2	313	.	+	0	ID=AAA028K15.genome.CDS.807;Product=hypothetical protein
+AAA028K15.contig.35	feature	CDS	2270	2521	.	+	0	ID=AAA028K15.genome.CDS.815;Product=
+AAA028K15.contig.35	feature	CDS	1181	2257	.	+	0	ID=AAA028K15.genome.CDS.814;Product=hypothetical protein
+AAA028K15.contig.35	feature	CDS	1	1014	.	+	0	ID=AAA028K15.genome.CDS.813;Product=hypothetical protein
+AAA028K15.contig.36	feature	CDS	2163	2516	.	+	0	ID=AAA028K15.genome.CDS.819;Product=Glutamate racemase %28EC 5.1.1.3%29
+AAA028K15.contig.36	feature	CDS	1308	2132	.	-	0	ID=AAA028K15.genome.CDS.818;Product=hypothetical protein
+AAA028K15.contig.36	feature	CDS	306	1292	.	+	0	ID=AAA028K15.genome.CDS.817;Product=Cysteine synthase B %28EC 2.5.1.47%29
+AAA028K15.contig.36	feature	CDS	1	213	.	+	0	ID=AAA028K15.genome.CDS.816;Product=
+AAA028K15.contig.37	feature	CDS	1761	2249	.	-	0	ID=AAA028K15.genome.CDS.822;Product=
+AAA028K15.contig.37	feature	CDS	365	1738	.	-	0	ID=AAA028K15.genome.CDS.821;Product=Acetyl-coenzyme A carboxyl transferase alpha chain %28EC 6.4.1.2%29 / Acetyl-coenzyme A carboxyl transferase beta chain %28EC 6.4.1.2%29%3B Propionyl-CoA carboxylase beta chain %28EC 6.4.1.3%29
+AAA028K15.contig.37	feature	CDS	2	253	.	-	0	ID=AAA028K15.genome.CDS.820;Product=Citrate synthase %28si%29 %28EC 2.3.3.1%29
+AAA028K15.contig.38	feature	CDS	12417	13457	.	+	0	ID=AAA028K15.genome.CDS.836;Product=hypothetical protein
+AAA028K15.contig.38	feature	CDS	10766	12208	.	+	0	ID=AAA028K15.genome.CDS.835;Product=hypothetical protein
+AAA028K15.contig.38	feature	CDS	9468	10757	.	+	0	ID=AAA028K15.genome.CDS.834;Product=hypothetical protein
+AAA028K15.contig.38	feature	CDS	9056	9460	.	+	0	ID=AAA028K15.genome.CDS.833;Product=
+AAA028K15.contig.38	feature	CDS	7827	8951	.	+	0	ID=AAA028K15.genome.CDS.832;Product=
+AAA028K15.contig.38	feature	CDS	6507	7697	.	-	0	ID=AAA028K15.genome.CDS.831;Product=Polysaccharide ABC transporter%2C ATP-binding protein
+AAA028K15.contig.38	feature	CDS	5643	6506	.	+	0	ID=AAA028K15.genome.CDS.830;Product=Glucose-1-phosphate thymidylyltransferase %28EC 2.7.7.24%29
+AAA028K15.contig.38	feature	CDS	4602	5582	.	-	0	ID=AAA028K15.genome.CDS.829;Product=dTDP-glucose 4%2C6-dehydratase %28EC 4.2.1.46%29
+AAA028K15.contig.38	feature	CDS	3730	4605	.	-	0	ID=AAA028K15.genome.CDS.828;Product=dTDP-4-dehydrorhamnose reductase %28EC 1.1.1.133%29
+AAA028K15.contig.38	feature	CDS	3167	3733	.	-	0	ID=AAA028K15.genome.CDS.827;Product=dTDP-4-dehydrorhamnose 3%2C5-epimerase %28EC 5.1.3.13%29
+AAA028K15.contig.38	feature	CDS	2230	3159	.	+	0	ID=AAA028K15.genome.CDS.826;Product=GDP-L-fucose synthetase %28EC 1.1.1.271%29
+AAA028K15.contig.38	feature	CDS	1326	2099	.	+	0	ID=AAA028K15.genome.CDS.825;Product=hypothetical protein
+AAA028K15.contig.38	feature	CDS	269	1120	.	-	0	ID=AAA028K15.genome.CDS.824;Product=hypothetical protein
+AAA028K15.contig.38	feature	CDS	1	213	.	+	0	ID=AAA028K15.genome.CDS.823;Product=
+AAA028K15.contig.39	feature	CDS	4449	4715	.	+	0	ID=AAA028K15.genome.CDS.840;Product=
+AAA028K15.contig.39	feature	CDS	2164	4431	.	-	0	ID=AAA028K15.genome.CDS.839;Product=Aconitate hydratase %28EC 4.2.1.3%29
+AAA028K15.contig.39	feature	CDS	703	2127	.	+	0	ID=AAA028K15.genome.CDS.838;Product=1-acyl-sn-glycerol-3-phosphate acyltransferase %28EC 2.3.1.51%29
+AAA028K15.contig.39	feature	CDS	482	634	.	-	0	ID=AAA028K15.genome.CDS.396;Product=
+AAA028K15.contig.39	feature	CDS	1	417	.	-	0	ID=AAA028K15.genome.CDS.837;Product=
+AAA028K15.contig.4	feature	CDS	3668	3874	.	+	0	ID=AAA028K15.genome.CDS.439;Product=
+AAA028K15.contig.4	feature	CDS	2637	3671	.	+	0	ID=AAA028K15.genome.CDS.438;Product=Glycosyl transferase%2C group 1
+AAA028K15.contig.4	feature	CDS	1600	2568	.	-	0	ID=AAA028K15.genome.CDS.437;Product=Nucleoside-diphosphate-sugar epimerases
+AAA028K15.contig.4	feature	CDS	838	1422	.	-	0	ID=AAA028K15.genome.CDS.436;Product=FIG056164: rhomboid family serine protease
+AAA028K15.contig.4	feature	CDS	300	737	.	-	0	ID=AAA028K15.genome.CDS.435;Product=
+AAA028K15.contig.4	feature	CDS	1	303	.	+	0	ID=AAA028K15.genome.CDS.434;Product=
+AAA028K15.contig.40	feature	CDS	7442	7618	.	-	0	ID=AAA028K15.genome.CDS.853;Product=
+AAA028K15.contig.40	feature	CDS	7104	7205	.	-	0	ID=AAA028K15.genome.CDS.852;Product=
+AAA028K15.contig.40	feature	CDS	3907	7104	.	-	0	ID=AAA028K15.genome.CDS.851;Product=
+AAA028K15.contig.40	feature	CDS	3453	3941	.	-	0	ID=AAA028K15.genome.CDS.850;Product=
+AAA028K15.contig.40	feature	CDS	3130	3453	.	-	0	ID=AAA028K15.genome.CDS.849;Product=
+AAA028K15.contig.40	feature	CDS	2879	3133	.	-	0	ID=AAA028K15.genome.CDS.848;Product=
+AAA028K15.contig.40	feature	CDS	2006	2872	.	-	0	ID=AAA028K15.genome.CDS.847;Product=
+AAA028K15.contig.40	feature	CDS	1728	2006	.	-	0	ID=AAA028K15.genome.CDS.846;Product=
+AAA028K15.contig.40	feature	CDS	1457	1696	.	-	0	ID=AAA028K15.genome.CDS.845;Product=
+AAA028K15.contig.40	feature	CDS	1230	1457	.	-	0	ID=AAA028K15.genome.CDS.844;Product=
+AAA028K15.contig.40	feature	CDS	664	1230	.	-	0	ID=AAA028K15.genome.CDS.843;Product=
+AAA028K15.contig.40	feature	CDS	392	673	.	-	0	ID=AAA028K15.genome.CDS.842;Product=
+AAA028K15.contig.40	feature	CDS	1	414	.	-	0	ID=AAA028K15.genome.CDS.841;Product=
+AAA028K15.contig.41	feature	CDS	3489	3890	.	-	0	ID=AAA028K15.genome.CDS.859;Product=
+AAA028K15.contig.41	feature	CDS	3235	3483	.	+	0	ID=AAA028K15.genome.CDS.858;Product=
+AAA028K15.contig.41	feature	CDS	2122	3081	.	+	0	ID=AAA028K15.genome.CDS.857;Product=Electron transfer flavoprotein%2C alpha subunit
+AAA028K15.contig.41	feature	CDS	1319	2095	.	+	0	ID=AAA028K15.genome.CDS.856;Product=Electron transfer flavoprotein%2C beta subunit
+AAA028K15.contig.41	feature	CDS	277	1161	.	-	0	ID=AAA028K15.genome.CDS.855;Product=Transcription regulator %5Bcontains diacylglycerol kinase catalytic domain%5D
+AAA028K15.contig.41	feature	CDS	1	273	.	+	0	ID=AAA028K15.genome.CDS.854;Product=
+AAA028K15.contig.42	feature	CDS	8757	9251	.	-	0	ID=AAA028K15.genome.CDS.866;Product=GDP-mannose 4%2C6-dehydratase %28EC 4.2.1.47%29
+AAA028K15.contig.42	feature	CDS	7480	8760	.	+	0	ID=AAA028K15.genome.CDS.865;Product=Acyl-phosphate:glycerol-3-phosphate O-acyltransferase PlsY
+AAA028K15.contig.42	feature	CDS	7064	7426	.	+	0	ID=AAA028K15.genome.CDS.864;Product=
+AAA028K15.contig.42	feature	CDS	3791	6934	.	-	0	ID=AAA028K15.genome.CDS.863;Product=hypothetical protein
+AAA028K15.contig.42	feature	CDS	2331	3794	.	-	0	ID=AAA028K15.genome.CDS.862;Product=
+AAA028K15.contig.42	feature	CDS	1876	2334	.	-	0	ID=AAA028K15.genome.CDS.861;Product=
+AAA028K15.contig.42	feature	CDS	1	1866	.	+	0	ID=AAA028K15.genome.CDS.860;Product=Cell division protein FtsH %28EC 3.4.24.-%29
+AAA028K15.contig.5	feature	CDS	1788	2864	.	+	0	ID=AAA028K15.genome.CDS.442;Product=
+AAA028K15.contig.5	feature	CDS	270	1700	.	-	0	ID=AAA028K15.genome.CDS.441;Product=
+AAA028K15.contig.5	feature	CDS	1	204	.	-	0	ID=AAA028K15.genome.CDS.440;Product=
+AAA028K15.contig.6	feature	CDS	2743	3132	.	+	0	ID=AAA028K15.genome.CDS.447;Product=Transcription termination protein NusB
+AAA028K15.contig.6	feature	CDS	2180	2743	.	+	0	ID=AAA028K15.genome.CDS.446;Product=Translation elongation factor P
+AAA028K15.contig.6	feature	CDS	1119	2207	.	+	0	ID=AAA028K15.genome.CDS.445;Product=Aminopeptidase YpdF %28MP-%2C MA-%2C MS-%2C AP-%2C NP- specific%29
+AAA028K15.contig.6	feature	CDS	676	1113	.	+	0	ID=AAA028K15.genome.CDS.444;Product=3-dehydroquinate dehydratase II %28EC 4.2.1.10%29
+AAA028K15.contig.6	feature	CDS	1	636	.	+	0	ID=AAA028K15.genome.CDS.443;Product=3-dehydroquinate synthase %28EC 4.2.3.4%29
+AAA028K15.contig.7	feature	CDS	12779	13099	.	-	0	ID=AAA028K15.genome.CDS.461;Product=Non-specific DNA-binding protein Dps / Iron-binding ferritin-like antioxidant protein / Ferroxidase %28EC 1.16.3.1%29
+AAA028K15.contig.7	feature	CDS	12248	12721	.	+	0	ID=AAA028K15.genome.CDS.460;Product=hypothetical protein
+AAA028K15.contig.7	feature	CDS	9887	12145	.	-	0	ID=AAA028K15.genome.CDS.459;Product=Arylsulfatase %28EC 3.1.6.1%29
+AAA028K15.contig.7	feature	CDS	8693	9883	.	+	0	ID=AAA028K15.genome.CDS.458;Product=Butyryl-CoA dehydrogenase %28EC 1.3.99.2%29
+AAA028K15.contig.7	feature	CDS	8177	8554	.	-	0	ID=AAA028K15.genome.CDS.457;Product=
+AAA028K15.contig.7	feature	CDS	7496	8170	.	+	0	ID=AAA028K15.genome.CDS.456;Product=Hemoprotein HemQ%2C essential component of heme biosynthetic pathway in Gram-positive bacteria
+AAA028K15.contig.7	feature	CDS	6595	7482	.	+	0	ID=AAA028K15.genome.CDS.455;Product=FIG00823787: hypothetical protein
+AAA028K15.contig.7	feature	CDS	4947	6569	.	+	0	ID=AAA028K15.genome.CDS.454;Product=Heat shock protein 60 family chaperone GroEL
+AAA028K15.contig.7	feature	CDS	4529	4807	.	+	0	ID=AAA028K15.genome.CDS.453;Product=FIG038648: MoaD and/or ThiS families
+AAA028K15.contig.7	feature	CDS	3059	4507	.	+	0	ID=AAA028K15.genome.CDS.452;Product=Aspartyl-tRNA%28Asn%29 amidotransferase subunit A %28EC 6.3.5.6%29 %40 Glutamyl-tRNA%28Gln%29 amidotransferase subunit A %28EC 6.3.5.7%29
+AAA028K15.contig.7	feature	CDS	2020	3024	.	-	0	ID=AAA028K15.genome.CDS.451;Product=Glycerate kinase %28EC 2.7.1.31%29
+AAA028K15.contig.7	feature	CDS	1378	1983	.	+	0	ID=AAA028K15.genome.CDS.450;Product=hypothetical protein
+AAA028K15.contig.7	feature	tRNA	1203	1277	.	+	.	ID=AAA028K15.genome.rna.4;Product=tRNA-Thr-TGT
+AAA028K15.contig.7	feature	CDS	125	1189	.	+	0	ID=AAA028K15.genome.CDS.449;Product=23S rRNA %28guanosine%282251%29-2%27-O%29-methyltransferase %28EC 2.1.1.185%29
+AAA028K15.contig.7	feature	CDS	3	122	.	+	0	ID=AAA028K15.genome.CDS.448;Product=
+AAA028K15.contig.8	feature	CDS	1835	2224	.	-	0	ID=AAA028K15.genome.CDS.465;Product=3-isopropylmalate dehydratase large subunit %28EC 4.2.1.33%29
+AAA028K15.contig.8	feature	CDS	1251	1838	.	-	0	ID=AAA028K15.genome.CDS.464;Product=3-isopropylmalate dehydratase small subunit %28EC 4.2.1.33%29
+AAA028K15.contig.8	feature	CDS	1062	1223	.	+	0	ID=AAA028K15.genome.CDS.463;Product=
+AAA028K15.contig.8	feature	CDS	1	993	.	+	0	ID=AAA028K15.genome.CDS.462;Product=Exodeoxyribonuclease V alpha chain %28EC 3.1.11.5%29
+AAA028K15.contig.9	feature	CDS	2322	2609	.	-	0	ID=AAA028K15.genome.CDS.468;Product=
+AAA028K15.contig.9	feature	CDS	986	2311	.	+	0	ID=AAA028K15.genome.CDS.467;Product=Metallo-beta-lactamase superfamily protein
+AAA028K15.contig.9	feature	CDS	3	953	.	+	0	ID=AAA028K15.genome.CDS.466;Product=Butyryl-CoA dehydrogenase %28EC 1.3.99.2%29

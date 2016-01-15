@@ -1,0 +1,1303 @@
+##gff-version 3
+acAMD-5.contig.1	feature	CDS	85362	87476	.	-	0	ID=acAMD-5.genome.CDS.1368;Product=Polyphosphate kinase %28EC 2.7.4.1%29
+acAMD-5.contig.1	feature	CDS	84514	85365	.	-	0	ID=acAMD-5.genome.CDS.1367;Product=Hydrolase MutT1 %28EC 3.6.1.-%29
+acAMD-5.contig.1	feature	CDS	83607	84467	.	-	0	ID=acAMD-5.genome.CDS.1366;Product=Methionine aminopeptidase %28EC 3.4.11.18%29
+acAMD-5.contig.1	feature	CDS	83125	83610	.	-	0	ID=acAMD-5.genome.CDS.1365;Product=Transcriptional regulator%2C MarR family
+acAMD-5.contig.1	feature	tRNA	82977	83048	.	-	.	ID=acAMD-5.genome.rna.2;Product=tRNA-Arg-CCG
+acAMD-5.contig.1	feature	CDS	82124	82936	.	-	0	ID=acAMD-5.genome.CDS.1363;Product=hypothetical protein
+acAMD-5.contig.1	feature	CDS	81729	82127	.	+	0	ID=acAMD-5.genome.CDS.1362;Product=
+acAMD-5.contig.1	feature	CDS	81420	81689	.	-	0	ID=acAMD-5.genome.CDS.1361;Product=
+acAMD-5.contig.1	feature	CDS	80644	81408	.	+	0	ID=acAMD-5.genome.CDS.1360;Product=hypothetical protein
+acAMD-5.contig.1	feature	CDS	80295	80567	.	-	0	ID=acAMD-5.genome.CDS.1359;Product=
+acAMD-5.contig.1	feature	CDS	79005	80054	.	-	0	ID=acAMD-5.genome.CDS.1357;Product=Putative membrane protein YeiH
+acAMD-5.contig.1	feature	CDS	77780	78976	.	-	0	ID=acAMD-5.genome.CDS.1356;Product=putative cytochrome P450 hydroxylase
+acAMD-5.contig.1	feature	CDS	76790	77776	.	-	0	ID=acAMD-5.genome.CDS.1355;Product=Thioredoxin reductase %28EC 1.8.1.9%29
+acAMD-5.contig.1	feature	CDS	76032	76751	.	-	0	ID=acAMD-5.genome.CDS.82;Product=hypothetical protein
+acAMD-5.contig.1	feature	tRNA	75943	76016	.	+	.	ID=acAMD-5.genome.rna.1;Product=tRNA-Val-TAC
+acAMD-5.contig.1	feature	CDS	75437	75895	.	+	0	ID=acAMD-5.genome.CDS.1353;Product=Alkyl hydroperoxide reductase subunit C-like protein
+acAMD-5.contig.1	feature	CDS	75009	75428	.	+	0	ID=acAMD-5.genome.CDS.1352;Product=hypothetical protein
+acAMD-5.contig.1	feature	CDS	72125	74860	.	-	0	ID=acAMD-5.genome.CDS.1351;Product=Pyruvate dehydrogenase E1 component %28EC 1.2.4.1%29
+acAMD-5.contig.1	feature	CDS	71125	72063	.	-	0	ID=acAMD-5.genome.CDS.1350;Product=Malonyl CoA-acyl carrier protein transacylase %28EC 2.3.1.39%29
+acAMD-5.contig.1	feature	CDS	70127	71128	.	-	0	ID=acAMD-5.genome.CDS.1349;Product=3-oxoacyl-%5Bacyl-carrier-protein%5D synthase%2C KASIII %28EC 2.3.1.180%29
+acAMD-5.contig.1	feature	CDS	69850	70089	.	-	0	ID=acAMD-5.genome.CDS.1348;Product=Acyl carrier protein
+acAMD-5.contig.1	feature	CDS	68594	69835	.	-	0	ID=acAMD-5.genome.CDS.1347;Product=3-oxoacyl-%5Bacyl-carrier-protein%5D synthase%2C KASII %28EC 2.3.1.179%29
+acAMD-5.contig.1	feature	CDS	68118	68597	.	+	0	ID=acAMD-5.genome.CDS.1346;Product=
+acAMD-5.contig.1	feature	CDS	66274	68121	.	+	0	ID=acAMD-5.genome.CDS.1345;Product=DNA primase %28EC 2.7.7.-%29
+acAMD-5.contig.1	feature	CDS	65044	66258	.	+	0	ID=acAMD-5.genome.CDS.1344;Product=Deoxyguanosinetriphosphate triphosphohydrolase %28EC 3.1.5.1%29
+acAMD-5.contig.1	feature	CDS	64454	65047	.	+	0	ID=acAMD-5.genome.CDS.1343;Product=
+acAMD-5.contig.1	feature	CDS	63276	64454	.	+	0	ID=acAMD-5.genome.CDS.1342;Product=tRNA dihydrouridine synthase B %28EC 1.-.-.-%29
+acAMD-5.contig.1	feature	CDS	61875	63266	.	+	0	ID=acAMD-5.genome.CDS.1341;Product=Glycyl-tRNA synthetase %28EC 6.1.1.14%29
+acAMD-5.contig.1	feature	CDS	61335	61835	.	+	0	ID=acAMD-5.genome.CDS.1340;Product=
+acAMD-5.contig.1	feature	CDS	60956	61345	.	+	0	ID=acAMD-5.genome.CDS.1339;Product=
+acAMD-5.contig.1	feature	CDS	60201	60959	.	+	0	ID=acAMD-5.genome.CDS.1338;Product=Trans%2Cpolycis-decaprenyl diphosphate synthase %28EC 2.5.1.86%29
+acAMD-5.contig.1	feature	CDS	59457	60188	.	+	0	ID=acAMD-5.genome.CDS.1337;Product=DNA recombination and repair protein RecO
+acAMD-5.contig.1	feature	CDS	58169	59368	.	-	0	ID=acAMD-5.genome.CDS.1336;Product=
+acAMD-5.contig.1	feature	CDS	57399	58172	.	+	0	ID=acAMD-5.genome.CDS.1335;Product=Chromosome %28plasmid%29 partitioning protein ParA
+acAMD-5.contig.1	feature	CDS	56529	57308	.	-	0	ID=acAMD-5.genome.CDS.1334;Product=hypothetical protein
+acAMD-5.contig.1	feature	CDS	55182	56537	.	+	0	ID=acAMD-5.genome.CDS.1333;Product=hypothetical protein
+acAMD-5.contig.1	feature	CDS	53905	55074	.	-	0	ID=acAMD-5.genome.CDS.1332;Product=tRNA-guanine transglycosylase %28EC 2.4.2.29%29
+acAMD-5.contig.1	feature	CDS	53258	53914	.	+	0	ID=acAMD-5.genome.CDS.1331;Product=Putative preQ0 transporter
+acAMD-5.contig.1	feature	CDS	52466	53254	.	+	0	ID=acAMD-5.genome.CDS.1330;Product=ABC-type multidrug transport system%2C permease component
+acAMD-5.contig.1	feature	CDS	51480	52469	.	+	0	ID=acAMD-5.genome.CDS.1329;Product=Methionine ABC transporter ATP-binding protein
+acAMD-5.contig.1	feature	CDS	49685	51451	.	+	0	ID=acAMD-5.genome.CDS.1328;Product=COG0488: ATPase components of ABC transporters with duplicated ATPase domains
+acAMD-5.contig.1	feature	CDS	48594	49637	.	+	0	ID=acAMD-5.genome.CDS.1327;Product=putative oxidoreductase protein
+acAMD-5.contig.1	feature	CDS	47555	48133	.	+	0	ID=acAMD-5.genome.CDS.1326;Product=
+acAMD-5.contig.1	feature	CDS	46595	47551	.	+	0	ID=acAMD-5.genome.CDS.1325;Product=
+acAMD-5.contig.1	feature	CDS	45249	46598	.	+	0	ID=acAMD-5.genome.CDS.1324;Product=Maltose-6%27-phosphate glucosidase %28EC 3.2.1.122%29
+acAMD-5.contig.1	feature	CDS	44493	45203	.	+	0	ID=acAMD-5.genome.CDS.1323;Product=hypothetical protein
+acAMD-5.contig.1	feature	CDS	43619	44440	.	+	0	ID=acAMD-5.genome.CDS.1322;Product=N-Acetyl-D-glucosamine ABC transport system%2C permease protein 2
+acAMD-5.contig.1	feature	CDS	42728	43606	.	+	0	ID=acAMD-5.genome.CDS.1321;Product=N-Acetyl-D-glucosamine ABC transport system%2C permease protein 1
+acAMD-5.contig.1	feature	CDS	41362	42633	.	+	0	ID=acAMD-5.genome.CDS.1320;Product=
+acAMD-5.contig.1	feature	CDS	40824	41258	.	+	0	ID=acAMD-5.genome.CDS.1319;Product=
+acAMD-5.contig.1	feature	CDS	40377	40787	.	+	0	ID=acAMD-5.genome.CDS.1318;Product=FIG006762: Phosphoglycerate mutase family
+acAMD-5.contig.1	feature	CDS	39655	40377	.	+	0	ID=acAMD-5.genome.CDS.1317;Product=FIG137478: Hypothetical protein
+acAMD-5.contig.1	feature	CDS	38846	39658	.	+	0	ID=acAMD-5.genome.CDS.1316;Product=FIG137478: Hypothetical protein YbgI
+acAMD-5.contig.1	feature	CDS	38441	38800	.	-	0	ID=acAMD-5.genome.CDS.1315;Product=Possible carboxymuconolactone decarboxylase family protein %28EC 4.1.1.44%29
+acAMD-5.contig.1	feature	CDS	36993	38246	.	-	0	ID=acAMD-5.genome.CDS.1314;Product=Maltose/maltodextrin ABC transporter%2C substrate binding periplasmic protein MalE
+acAMD-5.contig.1	feature	CDS	35357	36913	.	-	0	ID=acAMD-5.genome.CDS.1313;Product=Maltose/maltodextrin ABC transporter%2C permease protein MalF
+acAMD-5.contig.1	feature	CDS	34512	35360	.	-	0	ID=acAMD-5.genome.CDS.1312;Product=Maltose/maltodextrin ABC transporter%2C permease protein MalG
+acAMD-5.contig.1	feature	CDS	32540	34507	.	-	0	ID=acAMD-5.genome.CDS.1311;Product=Neopullulanase %28EC 3.2.1.135%29 / Maltodextrin glucosidase %28EC 3.2.1.20%29
+acAMD-5.contig.1	feature	CDS	32097	32543	.	+	0	ID=acAMD-5.genome.CDS.37;Product=FIG001943: hypothetical protein YajQ
+acAMD-5.contig.1	feature	CDS	30914	32020	.	-	0	ID=acAMD-5.genome.CDS.1309;Product=Acetylspermidine deacetylase %28EC 3.5.1.48%29%3B Deacetylases%2C including yeast histone deacetylase and acetoin utilization protein
+acAMD-5.contig.1	feature	CDS	30050	30925	.	+	0	ID=acAMD-5.genome.CDS.1308;Product=hypothetical protein
+acAMD-5.contig.1	feature	CDS	29531	30013	.	-	0	ID=acAMD-5.genome.CDS.1307;Product=
+acAMD-5.contig.1	feature	CDS	28879	29544	.	-	0	ID=acAMD-5.genome.CDS.1306;Product=tRNA %28guanine46-N7-%29-methyltransferase %28EC 2.1.1.33%29
+acAMD-5.contig.1	feature	CDS	28742	28882	.	+	0	ID=acAMD-5.genome.CDS.1305;Product=
+acAMD-5.contig.1	feature	CDS	27824	28726	.	+	0	ID=acAMD-5.genome.CDS.1304;Product=Transcription regulator %5Bcontains diacylglycerol kinase catalytic domain%5D
+acAMD-5.contig.1	feature	CDS	27708	27824	.	+	0	ID=acAMD-5.genome.CDS.30;Product=
+acAMD-5.contig.1	feature	CDS	26351	27589	.	-	0	ID=acAMD-5.genome.CDS.1303;Product=NADH dehydrogenase %28EC 1.6.99.3%29
+acAMD-5.contig.1	feature	CDS	25862	26290	.	-	0	ID=acAMD-5.genome.CDS.1302;Product=Arsenate reductase %28EC 1.20.4.1%29
+acAMD-5.contig.1	feature	CDS	24719	25861	.	+	0	ID=acAMD-5.genome.CDS.1301;Product=DNA recombination protein RmuC
+acAMD-5.contig.1	feature	CDS	23844	24677	.	+	0	ID=acAMD-5.genome.CDS.1300;Product=hypothetical protein
+acAMD-5.contig.1	feature	CDS	22845	23825	.	+	0	ID=acAMD-5.genome.CDS.1299;Product=hypothetical protein
+acAMD-5.contig.1	feature	CDS	22394	22858	.	+	0	ID=acAMD-5.genome.CDS.1298;Product=
+acAMD-5.contig.1	feature	CDS	21656	22384	.	+	0	ID=acAMD-5.genome.CDS.1297;Product=
+acAMD-5.contig.1	feature	CDS	17943	21572	.	-	0	ID=acAMD-5.genome.CDS.1296;Product=2-oxoglutarate dehydrogenase E1 component %28EC 1.2.4.2%29
+acAMD-5.contig.1	feature	CDS	16555	17937	.	+	0	ID=acAMD-5.genome.CDS.1295;Product=TldE/PmbA family protein%2C Actinobacterial subgroup
+acAMD-5.contig.1	feature	CDS	15065	16558	.	+	0	ID=acAMD-5.genome.CDS.1294;Product=TldD family protein%2C Actinobacterial subgroup
+acAMD-5.contig.1	feature	CDS	13979	15001	.	-	0	ID=acAMD-5.genome.CDS.1293;Product=Low-specificity L-threonine aldolase %28EC 4.1.2.48%29
+acAMD-5.contig.1	feature	CDS	13660	13986	.	+	0	ID=acAMD-5.genome.CDS.1292;Product=Signal peptidase I %28EC 3.4.21.89%29
+acAMD-5.contig.1	feature	CDS	13227	13616	.	-	0	ID=acAMD-5.genome.CDS.1291;Product=Nickel-dependent superoxide dismutase %28EC 1.15.1.1%29
+acAMD-5.contig.1	feature	CDS	12864	13226	.	+	0	ID=acAMD-5.genome.CDS.1290;Product=
+acAMD-5.contig.1	feature	CDS	12411	12668	.	-	0	ID=acAMD-5.genome.CDS.1289;Product=WhiB-like transcription regulator
+acAMD-5.contig.1	feature	CDS	10973	12361	.	+	0	ID=acAMD-5.genome.CDS.1288;Product=Signal transduction histidine kinase%2C subgroup 2
+acAMD-5.contig.1	feature	CDS	10260	10811	.	+	0	ID=acAMD-5.genome.CDS.1287;Product=Serine acetyltransferase %28EC 2.3.1.30%29
+acAMD-5.contig.1	feature	CDS	9325	10257	.	+	0	ID=acAMD-5.genome.CDS.1286;Product=Cysteine synthase %28EC 2.5.1.47%29
+acAMD-5.contig.1	feature	CDS	8399	9097	.	+	0	ID=acAMD-5.genome.CDS.1285;Product=hypothetical protein
+acAMD-5.contig.1	feature	CDS	7088	8356	.	-	0	ID=acAMD-5.genome.CDS.1284;Product=5-Enolpyruvylshikimate-3-phosphate synthase %28EC 2.5.1.19%29
+acAMD-5.contig.1	feature	CDS	6111	7091	.	-	0	ID=acAMD-5.genome.CDS.1283;Product=Ribosome small subunit-stimulated GTPase EngC
+acAMD-5.contig.1	feature	CDS	5635	6114	.	+	0	ID=acAMD-5.genome.CDS.1282;Product=hypothetical protein
+acAMD-5.contig.1	feature	CDS	4787	5608	.	-	0	ID=acAMD-5.genome.CDS.1281;Product=Histidinol-phosphatase %5Balternative form%5D %28EC 3.1.3.15%29
+acAMD-5.contig.1	feature	CDS	3460	4797	.	+	0	ID=acAMD-5.genome.CDS.1280;Product=
+acAMD-5.contig.1	feature	CDS	2772	3386	.	-	0	ID=acAMD-5.genome.CDS.1279;Product=hypothetical protein
+acAMD-5.contig.1	feature	CDS	2032	2742	.	-	0	ID=acAMD-5.genome.CDS.1278;Product=ABC transporter%2C ATP-binding protein
+acAMD-5.contig.1	feature	CDS	1253	2032	.	-	0	ID=acAMD-5.genome.CDS.1277;Product=hypothetical protein
+acAMD-5.contig.1	feature	CDS	1080	1250	.	-	0	ID=acAMD-5.genome.CDS.2;Product=
+acAMD-5.contig.1	feature	CDS	33	956	.	-	0	ID=acAMD-5.genome.CDS.1276;Product=hypothetical protein
+acAMD-5.contig.10	feature	CDS	26394	27503	.	-	0	ID=acAMD-5.genome.CDS.2534;Product=hypothetical protein
+acAMD-5.contig.10	feature	CDS	24762	26378	.	-	0	ID=acAMD-5.genome.CDS.2533;Product=Proposed peptidoglycan lipid II flippase MurJ
+acAMD-5.contig.10	feature	CDS	23287	24744	.	-	0	ID=acAMD-5.genome.CDS.2532;Product=
+acAMD-5.contig.10	feature	CDS	22269	23210	.	-	0	ID=acAMD-5.genome.CDS.2531;Product=Thioredoxin reductase %28EC 1.8.1.9%29
+acAMD-5.contig.10	feature	CDS	21879	22202	.	-	0	ID=acAMD-5.genome.CDS.2530;Product=Thioredoxin
+acAMD-5.contig.10	feature	CDS	20786	21871	.	-	0	ID=acAMD-5.genome.CDS.2529;Product=N-acetylmuramoyl-L-alanine amidase %28EC 3.5.1.28%29
+acAMD-5.contig.10	feature	CDS	19636	20718	.	+	0	ID=acAMD-5.genome.CDS.2528;Product=Chromosome %28plasmid%29 partitioning protein ParB / Stage 0 sporulation protein J
+acAMD-5.contig.10	feature	CDS	18745	19632	.	+	0	ID=acAMD-5.genome.CDS.2527;Product=Chromosome %28plasmid%29 partitioning protein ParA
+acAMD-5.contig.10	feature	CDS	18074	18670	.	+	0	ID=acAMD-5.genome.CDS.2526;Product=rRNA small subunit 7-methylguanosine %28m7G%29 methyltransferase GidB
+acAMD-5.contig.10	feature	CDS	17565	18032	.	+	0	ID=acAMD-5.genome.CDS.2525;Product=RNA-binding protein Jag
+acAMD-5.contig.10	feature	CDS	16575	17477	.	+	0	ID=acAMD-5.genome.CDS.2524;Product=Inner membrane protein translocase component YidC%2C long form
+acAMD-5.contig.10	feature	CDS	16240	16578	.	+	0	ID=acAMD-5.genome.CDS.2523;Product=Protein YidD
+acAMD-5.contig.10	feature	CDS	15908	16243	.	+	0	ID=acAMD-5.genome.CDS.1263;Product=Ribonuclease P protein component %28EC 3.1.26.5%29
+acAMD-5.contig.10	feature	CDS	15748	15885	.	+	0	ID=acAMD-5.genome.CDS.2521;Product=LSU ribosomal protein L34p
+acAMD-5.contig.10	feature	CDS	13963	15408	.	-	0	ID=acAMD-5.genome.CDS.2520;Product=Chromosomal replication initiator protein DnaA
+acAMD-5.contig.10	feature	CDS	13727	13864	.	-	0	ID=acAMD-5.genome.CDS.1260;Product=
+acAMD-5.contig.10	feature	CDS	12381	13508	.	-	0	ID=acAMD-5.genome.CDS.2519;Product=DNA polymerase III beta subunit %28EC 2.7.7.7%29
+acAMD-5.contig.10	feature	CDS	11277	12377	.	-	0	ID=acAMD-5.genome.CDS.2518;Product=DNA recombination and repair protein RecF
+acAMD-5.contig.10	feature	CDS	10763	11272	.	-	0	ID=acAMD-5.genome.CDS.2517;Product=Zn-ribbon-containing%2C possibly RNA-binding protein and truncated derivatives
+acAMD-5.contig.10	feature	CDS	8679	10646	.	-	0	ID=acAMD-5.genome.CDS.2516;Product=DNA gyrase subunit B %28EC 5.99.1.3%29
+acAMD-5.contig.10	feature	CDS	6112	8679	.	-	0	ID=acAMD-5.genome.CDS.2515;Product=DNA gyrase subunit A %28EC 5.99.1.3%29
+acAMD-5.contig.10	feature	CDS	5608	6111	.	-	0	ID=acAMD-5.genome.CDS.2514;Product=hypothetical protein
+acAMD-5.contig.10	feature	tRNA	5440	5514	.	-	.	ID=acAMD-5.genome.rna.36;Product=tRNA-Ile-GAT
+acAMD-5.contig.10	feature	CDS	5280	5393	.	-	0	ID=acAMD-5.genome.CDS.2513;Product=
+acAMD-5.contig.10	feature	tRNA	5177	5252	.	-	.	ID=acAMD-5.genome.rna.37;Product=tRNA-Ala-TGC
+acAMD-5.contig.10	feature	CDS	3841	5082	.	-	0	ID=acAMD-5.genome.CDS.2512;Product=hypothetical protein
+acAMD-5.contig.10	feature	CDS	2199	3554	.	-	0	ID=acAMD-5.genome.CDS.2511;Product=Replicative DNA helicase %28DnaB%29 %28EC 3.6.4.12%29
+acAMD-5.contig.10	feature	CDS	793	2166	.	-	0	ID=acAMD-5.genome.CDS.2510;Product=Aminotransferase class-III
+acAMD-5.contig.10	feature	CDS	1	768	.	-	0	ID=acAMD-5.genome.CDS.2509;Product=
+acAMD-5.contig.2	feature	misc_RNA	221903	222885	.	+	.	ID=acAMD-5.genome.rna.1;Product=SSU rRNA %23 16S rRNA%2C small subunit ribosomal RNA - 3 prime truncation
+acAMD-5.contig.2	feature	CDS	220354	221619	.	+	0	ID=acAMD-5.genome.CDS.1580;Product=Tyrosyl-tRNA synthetase %28EC 6.1.1.1%29
+acAMD-5.contig.2	feature	CDS	218395	220284	.	-	0	ID=acAMD-5.genome.CDS.1579;Product=hypothetical protein
+acAMD-5.contig.2	feature	CDS	217003	218430	.	+	0	ID=acAMD-5.genome.CDS.1578;Product=Argininosuccinate lyase %28EC 4.3.2.1%29
+acAMD-5.contig.2	feature	CDS	215802	217013	.	+	0	ID=acAMD-5.genome.CDS.1577;Product=Argininosuccinate synthase %28EC 6.3.4.5%29
+acAMD-5.contig.2	feature	CDS	215313	215780	.	+	0	ID=acAMD-5.genome.CDS.1576;Product=Arginine pathway regulatory protein ArgR%2C repressor of arg regulon
+acAMD-5.contig.2	feature	CDS	214141	215316	.	+	0	ID=acAMD-5.genome.CDS.1575;Product=Acetylornithine aminotransferase %28EC 2.6.1.11%29
+acAMD-5.contig.2	feature	CDS	213257	214144	.	+	0	ID=acAMD-5.genome.CDS.1574;Product=Acetylglutamate kinase %28EC 2.7.2.8%29
+acAMD-5.contig.2	feature	CDS	212109	213260	.	+	0	ID=acAMD-5.genome.CDS.1573;Product=Glutamate N-acetyltransferase %28EC 2.3.1.35%29 / N-acetylglutamate synthase %28EC 2.3.1.1%29
+acAMD-5.contig.2	feature	CDS	211090	212112	.	+	0	ID=acAMD-5.genome.CDS.1572;Product=N-acetyl-gamma-glutamyl-phosphate reductase %28EC 1.2.1.38%29
+acAMD-5.contig.2	feature	CDS	210404	211012	.	+	0	ID=acAMD-5.genome.CDS.1571;Product=
+acAMD-5.contig.2	feature	CDS	209887	210393	.	+	0	ID=acAMD-5.genome.CDS.1570;Product=
+acAMD-5.contig.2	feature	CDS	209629	209751	.	-	0	ID=acAMD-5.genome.CDS.299;Product=
+acAMD-5.contig.2	feature	CDS	208164	209642	.	-	0	ID=acAMD-5.genome.CDS.1569;Product=FIG004436: Protein related to deoxyribodipyrimidine photolyase
+acAMD-5.contig.2	feature	CDS	205701	208160	.	+	0	ID=acAMD-5.genome.CDS.1568;Product=Phenylalanyl-tRNA synthetase beta chain %28EC 6.1.1.20%29
+acAMD-5.contig.2	feature	CDS	204666	205700	.	+	0	ID=acAMD-5.genome.CDS.1567;Product=Phenylalanyl-tRNA synthetase alpha chain %28EC 6.1.1.20%29
+acAMD-5.contig.2	feature	CDS	203866	204657	.	+	0	ID=acAMD-5.genome.CDS.1566;Product=FIG011178: rRNA methylase
+acAMD-5.contig.2	feature	CDS	203500	203862	.	+	0	ID=acAMD-5.genome.CDS.1565;Product=LSU ribosomal protein L20p
+acAMD-5.contig.2	feature	CDS	203274	203471	.	+	0	ID=acAMD-5.genome.CDS.1564;Product=LSU ribosomal protein L35p
+acAMD-5.contig.2	feature	CDS	202823	203257	.	+	0	ID=acAMD-5.genome.CDS.1563;Product=Translation initiation factor 3
+acAMD-5.contig.2	feature	CDS	201661	202503	.	+	0	ID=acAMD-5.genome.CDS.1562;Product=ATP phosphoribosyltransferase %28EC 2.4.2.17%29
+acAMD-5.contig.2	feature	CDS	201369	201629	.	+	0	ID=acAMD-5.genome.CDS.1561;Product=Phosphoribosyl-ATP pyrophosphatase %28EC 3.6.1.31%29
+acAMD-5.contig.2	feature	CDS	200893	201372	.	+	0	ID=acAMD-5.genome.CDS.1560;Product=6%2C7-dimethyl-8-ribityllumazine synthase %28EC 2.5.1.78%29
+acAMD-5.contig.2	feature	CDS	199663	200868	.	+	0	ID=acAMD-5.genome.CDS.1559;Product=3%2C4-dihydroxy-2-butanone 4-phosphate synthase %28EC 4.1.99.12%29 / GTP cyclohydrolase II %28EC 3.5.4.25%29
+acAMD-5.contig.2	feature	CDS	199067	199666	.	+	0	ID=acAMD-5.genome.CDS.1558;Product=Riboflavin synthase eubacterial/eukaryotic %28EC 2.5.1.9%29
+acAMD-5.contig.2	feature	CDS	198034	199059	.	+	0	ID=acAMD-5.genome.CDS.1557;Product=Diaminohydroxyphosphoribosylaminopyrimidine deaminase %28EC 3.5.4.26%29 / 5-amino-6-%285-phosphoribosylamino%29uracil reductase %28EC 1.1.1.193%29
+acAMD-5.contig.2	feature	CDS	197375	198037	.	+	0	ID=acAMD-5.genome.CDS.1556;Product=Ribulose-phosphate 3-epimerase %28EC 5.1.3.1%29
+acAMD-5.contig.2	feature	CDS	196054	197364	.	+	0	ID=acAMD-5.genome.CDS.1555;Product=16S rRNA %28cytosine%28967%29-C%285%29%29-methyltransferase %28EC 2.1.1.176%29
+acAMD-5.contig.2	feature	CDS	195134	196057	.	+	0	ID=acAMD-5.genome.CDS.1554;Product=Methionyl-tRNA formyltransferase %28EC 2.1.2.9%29
+acAMD-5.contig.2	feature	CDS	194582	195130	.	+	0	ID=acAMD-5.genome.CDS.1553;Product=Peptide deformylase %28EC 3.5.1.88%29
+acAMD-5.contig.2	feature	CDS	192668	194554	.	+	0	ID=acAMD-5.genome.CDS.1552;Product=Helicase PriA essential for oriC/DnaA-independent DNA replication
+acAMD-5.contig.2	feature	CDS	191454	192647	.	+	0	ID=acAMD-5.genome.CDS.1551;Product=S-adenosylmethionine synthetase %28EC 2.5.1.6%29
+acAMD-5.contig.2	feature	CDS	190275	191183	.	-	0	ID=acAMD-5.genome.CDS.279;Product=Rhodanese domain protein UPF0176%2C Actinobacterial subgroup
+acAMD-5.contig.2	feature	CDS	189106	190272	.	+	0	ID=acAMD-5.genome.CDS.1549;Product=Phosphopantothenoylcysteine decarboxylase %28EC 4.1.1.36%29 / Phosphopantothenoylcysteine synthetase %28EC 6.3.2.5%29
+acAMD-5.contig.2	feature	CDS	188801	189088	.	+	0	ID=acAMD-5.genome.CDS.1548;Product=DNA-directed RNA polymerase omega subunit %28EC 2.7.7.6%29
+acAMD-5.contig.2	feature	CDS	188225	188779	.	+	0	ID=acAMD-5.genome.CDS.1547;Product=Guanylate kinase %28EC 2.7.4.8%29
+acAMD-5.contig.2	feature	CDS	187893	188228	.	+	0	ID=acAMD-5.genome.CDS.1546;Product=
+acAMD-5.contig.2	feature	CDS	187210	187896	.	+	0	ID=acAMD-5.genome.CDS.1545;Product=Orotidine 5%27-phosphate decarboxylase %28EC 4.1.1.23%29
+acAMD-5.contig.2	feature	CDS	186218	187213	.	+	0	ID=acAMD-5.genome.CDS.1544;Product=Dihydroorotate dehydrogenase%2C catalytic subunit %28EC 1.3.3.1%29
+acAMD-5.contig.2	feature	CDS	185352	186218	.	+	0	ID=acAMD-5.genome.CDS.1543;Product=Dihydroorotate dehydrogenase electron transfer subunit %28EC 1.3.3.1%29
+acAMD-5.contig.2	feature	CDS	182071	185355	.	+	0	ID=acAMD-5.genome.CDS.1542;Product=Carbamoyl-phosphate synthase large chain %28EC 6.3.5.5%29
+acAMD-5.contig.2	feature	CDS	180944	182071	.	+	0	ID=acAMD-5.genome.CDS.1541;Product=Carbamoyl-phosphate synthase small chain %28EC 6.3.5.5%29
+acAMD-5.contig.2	feature	CDS	179658	180944	.	+	0	ID=acAMD-5.genome.CDS.1540;Product=Dihydroorotase %28EC 3.5.2.3%29
+acAMD-5.contig.2	feature	CDS	178714	179661	.	+	0	ID=acAMD-5.genome.CDS.1539;Product=Aspartate carbamoyltransferase %28EC 2.1.3.2%29
+acAMD-5.contig.2	feature	CDS	178145	178717	.	+	0	ID=acAMD-5.genome.CDS.1538;Product=Uracil phosphoribosyltransferase %28EC 2.4.2.9%29 / Pyrimidine operon regulatory protein PyrR
+acAMD-5.contig.2	feature	CDS	176647	178077	.	+	0	ID=acAMD-5.genome.CDS.1537;Product=Pyruvate kinase %28EC 2.7.1.40%29
+acAMD-5.contig.2	feature	CDS	175155	176618	.	+	0	ID=acAMD-5.genome.CDS.1536;Product=Glutamate synthase %5BNADPH%5D small chain %28EC 1.4.1.13%29
+acAMD-5.contig.2	feature	CDS	170621	175162	.	+	0	ID=acAMD-5.genome.CDS.1535;Product=Glutamate synthase %5BNADPH%5D large chain %28EC 1.4.1.13%29
+acAMD-5.contig.2	feature	CDS	169972	170544	.	+	0	ID=acAMD-5.genome.CDS.1534;Product=
+acAMD-5.contig.2	feature	CDS	169128	169982	.	+	0	ID=acAMD-5.genome.CDS.1533;Product=Prolipoprotein diacylglyceryl transferase %28EC 2.4.99.-%29
+acAMD-5.contig.2	feature	CDS	168367	169125	.	+	0	ID=acAMD-5.genome.CDS.1532;Product=putative membrane protein
+acAMD-5.contig.2	feature	CDS	167532	168332	.	+	0	ID=acAMD-5.genome.CDS.1531;Product=Tryptophan synthase alpha chain %28EC 4.2.1.20%29
+acAMD-5.contig.2	feature	CDS	166327	167532	.	+	0	ID=acAMD-5.genome.CDS.1530;Product=Tryptophan synthase beta chain %28EC 4.2.1.20%29
+acAMD-5.contig.2	feature	CDS	165508	166317	.	+	0	ID=acAMD-5.genome.CDS.1529;Product=Indole-3-glycerol phosphate synthase %28EC 4.1.1.48%29
+acAMD-5.contig.2	feature	CDS	165287	165511	.	+	0	ID=acAMD-5.genome.CDS.1528;Product=
+acAMD-5.contig.2	feature	CDS	164700	165209	.	+	0	ID=acAMD-5.genome.CDS.1527;Product=hypothetical protein
+acAMD-5.contig.2	feature	CDS	163201	164697	.	+	0	ID=acAMD-5.genome.CDS.1526;Product=Anthranilate synthase%2C aminase component %28EC 4.1.3.27%29
+acAMD-5.contig.2	feature	CDS	162863	163201	.	+	0	ID=acAMD-5.genome.CDS.1525;Product=Phosphoribosyl-AMP cyclohydrolase %28EC 3.5.4.19%29 / Phosphoribosyl-ATP pyrophosphatase %28EC 3.6.1.31%29
+acAMD-5.contig.2	feature	CDS	162144	162812	.	-	0	ID=acAMD-5.genome.CDS.1524;Product=hypothetical protein
+acAMD-5.contig.2	feature	CDS	161383	162147	.	+	0	ID=acAMD-5.genome.CDS.1523;Product=Imidazole glycerol phosphate synthase cyclase subunit %28EC 4.1.3.-%29
+acAMD-5.contig.2	feature	CDS	160941	161321	.	-	0	ID=acAMD-5.genome.CDS.1522;Product=
+acAMD-5.contig.2	feature	CDS	160236	160952	.	+	0	ID=acAMD-5.genome.CDS.1521;Product=Phosphoribosylformimino-5-aminoimidazole carboxamide ribotide isomerase %28EC 5.3.1.16%29 %40 Acting phosphoribosylanthranilate isomerase %28EC 5.3.1.24%29
+acAMD-5.contig.2	feature	CDS	159610	160239	.	+	0	ID=acAMD-5.genome.CDS.1520;Product=Imidazole glycerol phosphate synthase amidotransferase subunit %28EC 2.4.2.-%29
+acAMD-5.contig.2	feature	CDS	159026	159613	.	+	0	ID=acAMD-5.genome.CDS.1519;Product=Imidazoleglycerol-phosphate dehydratase %28EC 4.2.1.19%29
+acAMD-5.contig.2	feature	CDS	157938	159026	.	+	0	ID=acAMD-5.genome.CDS.1518;Product=Histidinol-phosphate aminotransferase %28EC 2.6.1.9%29
+acAMD-5.contig.2	feature	CDS	156634	157938	.	+	0	ID=acAMD-5.genome.CDS.1517;Product=Histidinol dehydrogenase %28EC 1.1.1.23%29
+acAMD-5.contig.2	feature	CDS	155915	156598	.	-	0	ID=acAMD-5.genome.CDS.1516;Product=hypothetical protein
+acAMD-5.contig.2	feature	CDS	152383	155922	.	+	0	ID=acAMD-5.genome.CDS.1515;Product=DNA polymerase III alpha subunit %28EC 2.7.7.7%29
+acAMD-5.contig.2	feature	CDS	151363	152301	.	+	0	ID=acAMD-5.genome.CDS.1514;Product=Ribosomal large subunit pseudouridine synthase D %28EC 4.2.1.70%29
+acAMD-5.contig.2	feature	CDS	150867	151370	.	+	0	ID=acAMD-5.genome.CDS.1513;Product=Lipoprotein signal peptidase %28EC 3.4.23.36%29
+acAMD-5.contig.2	feature	CDS	150456	150866	.	+	0	ID=acAMD-5.genome.CDS.1512;Product=
+acAMD-5.contig.2	feature	CDS	147197	150370	.	-	0	ID=acAMD-5.genome.CDS.1511;Product=Isoleucyl-tRNA synthetase %28EC 6.1.1.5%29
+acAMD-5.contig.2	feature	CDS	146919	147200	.	+	0	ID=acAMD-5.genome.CDS.1510;Product=
+acAMD-5.contig.2	feature	CDS	146485	146919	.	+	0	ID=acAMD-5.genome.CDS.1509;Product=FIG021292: hypothetical protein
+acAMD-5.contig.2	feature	CDS	145744	146442	.	+	0	ID=acAMD-5.genome.CDS.1508;Product=Hypothetical protein YggS%2C proline synthase co-transcribed bacterial homolog PROSC
+acAMD-5.contig.2	feature	CDS	145031	145747	.	+	0	ID=acAMD-5.genome.CDS.1507;Product=COG1496: Uncharacterized conserved protein
+acAMD-5.contig.2	feature	CDS	143838	145031	.	+	0	ID=acAMD-5.genome.CDS.1506;Product=Cell division protein FtsZ %28EC 3.4.24.-%29
+acAMD-5.contig.2	feature	CDS	143159	143608	.	-	0	ID=acAMD-5.genome.CDS.1505;Product=
+acAMD-5.contig.2	feature	CDS	142007	143062	.	-	0	ID=acAMD-5.genome.CDS.1504;Product=Glycerol-3-phosphate ABC transporter%2C ATP-binding protein UgpC %28TC 3.A.1.1.3%29
+acAMD-5.contig.2	feature	CDS	140905	141951	.	+	0	ID=acAMD-5.genome.CDS.1503;Product=
+acAMD-5.contig.2	feature	CDS	140172	140840	.	+	0	ID=acAMD-5.genome.CDS.1502;Product=Cell division protein FtsQ
+acAMD-5.contig.2	feature	CDS	138778	140169	.	+	0	ID=acAMD-5.genome.CDS.1501;Product=UDP-N-acetylmuramate--alanine ligase %28EC 6.3.2.8%29
+acAMD-5.contig.2	feature	CDS	137696	138781	.	+	0	ID=acAMD-5.genome.CDS.1500;Product=UDP-N-acetylglucosamine--N-acetylmuramyl-%28pentapeptide%29 pyrophosphoryl-undecaprenol N-acetylglucosamine transferase %28EC 2.4.1.227%29
+acAMD-5.contig.2	feature	CDS	136608	137693	.	+	0	ID=acAMD-5.genome.CDS.1499;Product=Cell division protein FtsW
+acAMD-5.contig.2	feature	CDS	134928	136433	.	-	0	ID=acAMD-5.genome.CDS.1498;Product=Succinate-semialdehyde dehydrogenase %5BNAD%28P%29%2B%5D %28EC 1.2.1.16%29
+acAMD-5.contig.2	feature	CDS	133498	134931	.	+	0	ID=acAMD-5.genome.CDS.1497;Product=UDP-N-acetylmuramoylalanine--D-glutamate ligase %28EC 6.3.2.9%29
+acAMD-5.contig.2	feature	CDS	132446	133513	.	+	0	ID=acAMD-5.genome.CDS.1496;Product=Phospho-N-acetylmuramoyl-pentapeptide-transferase %28EC 2.7.8.13%29
+acAMD-5.contig.2	feature	CDS	131052	132443	.	+	0	ID=acAMD-5.genome.CDS.1495;Product=UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase %28EC 6.3.2.10%29
+acAMD-5.contig.2	feature	CDS	129595	131055	.	+	0	ID=acAMD-5.genome.CDS.1494;Product=UDP-N-acetylmuramoylalanyl-D-glutamate--2%2C6-diaminopimelate ligase %28EC 6.3.2.13%29
+acAMD-5.contig.2	feature	CDS	127835	129595	.	+	0	ID=acAMD-5.genome.CDS.1493;Product=Cell division protein FtsI %5BPeptidoglycan synthetase%5D %28EC 2.4.1.129%29
+acAMD-5.contig.2	feature	CDS	127440	127838	.	+	0	ID=acAMD-5.genome.CDS.1492;Product=
+acAMD-5.contig.2	feature	CDS	126463	127443	.	+	0	ID=acAMD-5.genome.CDS.1491;Product=rRNA small subunit methyltransferase H
+acAMD-5.contig.2	feature	CDS	125757	126188	.	+	0	ID=acAMD-5.genome.CDS.1490;Product=Cell division protein MraZ
+acAMD-5.contig.2	feature	CDS	125203	125568	.	+	0	ID=acAMD-5.genome.CDS.1489;Product=hypothetical protein
+acAMD-5.contig.2	feature	CDS	123908	125143	.	+	0	ID=acAMD-5.genome.CDS.1488;Product=DNA polymerase IV %28EC 2.7.7.7%29
+acAMD-5.contig.2	feature	CDS	120219	123908	.	+	0	ID=acAMD-5.genome.CDS.1487;Product=DNA polymerase III alpha subunit %28EC 2.7.7.7%29
+acAMD-5.contig.2	feature	CDS	120013	120219	.	+	0	ID=acAMD-5.genome.CDS.214;Product=
+acAMD-5.contig.2	feature	CDS	118618	119787	.	+	0	ID=acAMD-5.genome.CDS.1486;Product=hypothetical protein
+acAMD-5.contig.2	feature	CDS	118485	118613	.	+	0	ID=acAMD-5.genome.CDS.212;Product=
+acAMD-5.contig.2	feature	CDS	117148	118335	.	-	0	ID=acAMD-5.genome.CDS.1485;Product=Methyltransferase %28EC 2.1.1.-%29
+acAMD-5.contig.2	feature	CDS	116284	117147	.	+	0	ID=acAMD-5.genome.CDS.1484;Product=membrane protein%2C putative
+acAMD-5.contig.2	feature	CDS	115722	116234	.	-	0	ID=acAMD-5.genome.CDS.1483;Product=Uncharacterized protein SCO3165
+acAMD-5.contig.2	feature	CDS	115012	115725	.	-	0	ID=acAMD-5.genome.CDS.1482;Product=Spheroidene monooxygenase
+acAMD-5.contig.2	feature	CDS	114209	115003	.	-	0	ID=acAMD-5.genome.CDS.1481;Product=
+acAMD-5.contig.2	feature	CDS	113049	114188	.	-	0	ID=acAMD-5.genome.CDS.1480;Product=Glycosyl transferase%2C family 2
+acAMD-5.contig.2	feature	CDS	111559	113052	.	-	0	ID=acAMD-5.genome.CDS.1479;Product=Phytoene dehydrogenase %28EC 1.14.99.-%29
+acAMD-5.contig.2	feature	CDS	110950	111603	.	+	0	ID=acAMD-5.genome.CDS.1478;Product=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase %28EC 2.7.8.5%29
+acAMD-5.contig.2	feature	CDS	110102	110953	.	+	0	ID=acAMD-5.genome.CDS.1477;Product=5%2C10-methylenetetrahydrofolate reductase %28EC 1.5.1.20%29
+acAMD-5.contig.2	feature	CDS	108999	110057	.	-	0	ID=acAMD-5.genome.CDS.1476;Product=Geranylgeranyl diphosphate synthase %28EC 2.5.1.29%29
+acAMD-5.contig.2	feature	CDS	107463	108995	.	-	0	ID=acAMD-5.genome.CDS.1475;Product=Phytoene dehydrogenase %28EC 1.14.99.-%29
+acAMD-5.contig.2	feature	CDS	106553	107461	.	-	0	ID=acAMD-5.genome.CDS.1474;Product=Phytoene synthase %28EC 2.5.1.32%29
+acAMD-5.contig.2	feature	CDS	105799	106542	.	+	0	ID=acAMD-5.genome.CDS.1473;Product=3-oxoacyl-%5Bacyl-carrier protein%5D reductase %28EC 1.1.1.100%29
+acAMD-5.contig.2	feature	CDS	105011	105796	.	+	0	ID=acAMD-5.genome.CDS.1472;Product=Hydroxymethylpyrimidine ABC transporter%2C transmembrane component
+acAMD-5.contig.2	feature	CDS	104189	105001	.	+	0	ID=acAMD-5.genome.CDS.1471;Product=Hydroxymethylpyrimidine ABC transporter%2C ATPase component
+acAMD-5.contig.2	feature	CDS	102928	104157	.	+	0	ID=acAMD-5.genome.CDS.1470;Product=hypothetical protein
+acAMD-5.contig.2	feature	CDS	100739	102730	.	-	0	ID=acAMD-5.genome.CDS.1469;Product=NADPH dehydrogenase
+acAMD-5.contig.2	feature	CDS	100358	100729	.	-	0	ID=acAMD-5.genome.CDS.1468;Product=
+acAMD-5.contig.2	feature	CDS	98997	100361	.	+	0	ID=acAMD-5.genome.CDS.1467;Product=Fumarate reductase flavoprotein subunit %28EC 1.3.99.1%29
+acAMD-5.contig.2	feature	CDS	98365	99000	.	+	0	ID=acAMD-5.genome.CDS.1466;Product=hypothetical protein
+acAMD-5.contig.2	feature	CDS	97047	98234	.	-	0	ID=acAMD-5.genome.CDS.1465;Product=L-carnitine dehydratase/bile acid-inducible protein F %28EC 2.8.3.16%29
+acAMD-5.contig.2	feature	CDS	96192	97043	.	-	0	ID=acAMD-5.genome.CDS.1464;Product=
+acAMD-5.contig.2	feature	CDS	95374	96183	.	-	0	ID=acAMD-5.genome.CDS.1463;Product=Cyclase family protein
+acAMD-5.contig.2	feature	CDS	93968	95371	.	-	0	ID=acAMD-5.genome.CDS.1462;Product=Immune-responsive protein 1
+acAMD-5.contig.2	feature	CDS	92395	93861	.	-	0	ID=acAMD-5.genome.CDS.1461;Product=Allantoinase %28EC 3.5.2.5%29
+acAMD-5.contig.2	feature	CDS	91996	92391	.	+	0	ID=acAMD-5.genome.CDS.1460;Product=
+acAMD-5.contig.2	feature	CDS	91664	91999	.	+	0	ID=acAMD-5.genome.CDS.1459;Product=hypothetical protein
+acAMD-5.contig.2	feature	CDS	91040	91654	.	+	0	ID=acAMD-5.genome.CDS.1458;Product=hypothetical protein
+acAMD-5.contig.2	feature	CDS	90492	91064	.	+	0	ID=acAMD-5.genome.CDS.1457;Product=
+acAMD-5.contig.2	feature	CDS	89495	90376	.	-	0	ID=acAMD-5.genome.CDS.1456;Product=Permease of the drug/metabolite transporter %28DMT%29 superfamily
+acAMD-5.contig.2	feature	CDS	87710	89035	.	+	0	ID=acAMD-5.genome.CDS.1454;Product=2-keto-3-deoxy-D-arabino-heptulosonate-7-phosphate synthase II %28EC 2.5.1.54%29
+acAMD-5.contig.2	feature	CDS	86865	87683	.	+	0	ID=acAMD-5.genome.CDS.1453;Product=Twin-arginine translocation protein TatC
+acAMD-5.contig.2	feature	CDS	86667	86849	.	+	0	ID=acAMD-5.genome.CDS.1452;Product=Twin-arginine translocation protein TatA
+acAMD-5.contig.2	feature	CDS	85854	86600	.	+	0	ID=acAMD-5.genome.CDS.1451;Product=1-acyl-sn-glycerol-3-phosphate acyltransferase %28EC 2.3.1.51%29
+acAMD-5.contig.2	feature	CDS	85026	85775	.	-	0	ID=acAMD-5.genome.CDS.1450;Product=putative esterase/lipase
+acAMD-5.contig.2	feature	CDS	84067	85029	.	+	0	ID=acAMD-5.genome.CDS.1449;Product=
+acAMD-5.contig.2	feature	CDS	83126	84070	.	+	0	ID=acAMD-5.genome.CDS.1448;Product=hypothetical protein
+acAMD-5.contig.2	feature	CDS	82692	83129	.	+	0	ID=acAMD-5.genome.CDS.1447;Product=
+acAMD-5.contig.2	feature	CDS	81564	82682	.	+	0	ID=acAMD-5.genome.CDS.1446;Product=Poly%28glycerol-phosphate%29 alpha-glucosyltransferase %28EC 2.4.1.52%29
+acAMD-5.contig.2	feature	CDS	81030	81503	.	-	0	ID=acAMD-5.genome.CDS.1445;Product=
+acAMD-5.contig.2	feature	CDS	80040	81026	.	+	0	ID=acAMD-5.genome.CDS.1444;Product=Fructose-1%2C6-bisphosphatase%2C GlpX type %28EC 3.1.3.11%29
+acAMD-5.contig.2	feature	CDS	78559	80043	.	+	0	ID=acAMD-5.genome.CDS.1443;Product=Glycerol kinase %28EC 2.7.1.30%29
+acAMD-5.contig.2	feature	CDS	77246	78337	.	-	0	ID=acAMD-5.genome.CDS.1442;Product=Glycerol-3-phosphate ABC transporter%2C ATP-binding protein UgpC %28TC 3.A.1.1.3%29
+acAMD-5.contig.2	feature	CDS	76160	77245	.	-	0	ID=acAMD-5.genome.CDS.1441;Product=Glycerol-3-phosphate ABC transporter%2C ATP-binding protein UgpC %28TC 3.A.1.1.3%29
+acAMD-5.contig.2	feature	CDS	75283	76158	.	-	0	ID=acAMD-5.genome.CDS.1440;Product=Glycerol-3-phosphate ABC transporter%2C permease protein UgpA %28TC 3.A.1.1.3%29
+acAMD-5.contig.2	feature	CDS	74432	75286	.	-	0	ID=acAMD-5.genome.CDS.1439;Product=Glycerol-3-phosphate ABC transporter%2C permease protein UgpE %28TC 3.A.1.1.3%29
+acAMD-5.contig.2	feature	CDS	74153	74428	.	-	0	ID=acAMD-5.genome.CDS.1438;Product=
+acAMD-5.contig.2	feature	CDS	72255	74030	.	-	0	ID=acAMD-5.genome.CDS.1437;Product=Glycerol-3-phosphate ABC transporter%2C permease protein UgpA %28TC 3.A.1.1.3%29
+acAMD-5.contig.2	feature	CDS	70618	72159	.	-	0	ID=acAMD-5.genome.CDS.1436;Product=Aerobic glycerol-3-phosphate dehydrogenase %28EC 1.1.5.3%29
+acAMD-5.contig.2	feature	CDS	69894	70625	.	+	0	ID=acAMD-5.genome.CDS.1435;Product=3-oxoacyl-%5Bacyl-carrier protein%5D reductase %28EC 1.1.1.100%29
+acAMD-5.contig.2	feature	CDS	68971	69894	.	+	0	ID=acAMD-5.genome.CDS.1434;Product=Ribokinase %28EC 2.7.1.15%29
+acAMD-5.contig.2	feature	CDS	68719	68958	.	+	0	ID=acAMD-5.genome.CDS.1433;Product=
+acAMD-5.contig.2	feature	CDS	68045	68668	.	-	0	ID=acAMD-5.genome.CDS.1432;Product=DNA polymerase III epsilon subunit %28EC 2.7.7.7%29
+acAMD-5.contig.2	feature	CDS	66997	68040	.	+	0	ID=acAMD-5.genome.CDS.1431;Product=Anthranilate phosphoribosyltransferase %28EC 2.4.2.18%29
+acAMD-5.contig.2	feature	CDS	66581	66997	.	+	0	ID=acAMD-5.genome.CDS.1430;Product=PROBABLE RESPONSE REGULATOR
+acAMD-5.contig.2	feature	CDS	65828	66421	.	-	0	ID=acAMD-5.genome.CDS.1429;Product=Cytochrome c oxidase polypeptide III %28EC 1.9.3.1%29
+acAMD-5.contig.2	feature	CDS	64976	65809	.	-	0	ID=acAMD-5.genome.CDS.1428;Product=ubiquinol cytochrome C oxidoreductase%2C cytochrome C1 subunit
+acAMD-5.contig.2	feature	CDS	63936	64979	.	-	0	ID=acAMD-5.genome.CDS.1427;Product=Ubiquinol-cytochrome C reductase iron-sulfur subunit %28EC 1.10.2.2%29
+acAMD-5.contig.2	feature	CDS	62248	63939	.	-	0	ID=acAMD-5.genome.CDS.1426;Product=Ubiquinol--cytochrome c reductase%2C cytochrome B subunit %28EC 1.10.2.2%29
+acAMD-5.contig.2	feature	CDS	60881	62203	.	-	0	ID=acAMD-5.genome.CDS.1425;Product=major facilitator superfamily MFS_1
+acAMD-5.contig.2	feature	CDS	59818	60687	.	-	0	ID=acAMD-5.genome.CDS.1424;Product=amino acid ABC transporter%2C periplasmic amino acid-binding protein
+acAMD-5.contig.2	feature	CDS	58917	59813	.	-	0	ID=acAMD-5.genome.CDS.1423;Product=polar amino acid ABC transporter%2C inner membrane subunit
+acAMD-5.contig.2	feature	CDS	58171	58917	.	-	0	ID=acAMD-5.genome.CDS.1422;Product=Glutamate transport ATP-binding protein
+acAMD-5.contig.2	feature	CDS	57165	58091	.	-	0	ID=acAMD-5.genome.CDS.1421;Product=
+acAMD-5.contig.2	feature	CDS	55408	57162	.	-	0	ID=acAMD-5.genome.CDS.1420;Product=hypothetical protein
+acAMD-5.contig.2	feature	CDS	54789	55424	.	-	0	ID=acAMD-5.genome.CDS.1419;Product=hypothetical protein
+acAMD-5.contig.2	feature	CDS	54407	54808	.	+	0	ID=acAMD-5.genome.CDS.1418;Product=
+acAMD-5.contig.2	feature	CDS	52719	54407	.	+	0	ID=acAMD-5.genome.CDS.1417;Product=Cytochrome c oxidase polypeptide I %28EC 1.9.3.1%29
+acAMD-5.contig.2	feature	CDS	51901	52722	.	+	0	ID=acAMD-5.genome.CDS.1416;Product=Cytochrome c oxidase polypeptide II %28EC 1.9.3.1%29
+acAMD-5.contig.2	feature	CDS	50866	51837	.	+	0	ID=acAMD-5.genome.CDS.1415;Product=putative Adenosine kinase %28EC 2.7.1.20%29
+acAMD-5.contig.2	feature	CDS	50484	50828	.	+	0	ID=acAMD-5.genome.CDS.1414;Product=probable iron binding protein from the HesB_IscA_SufA family
+acAMD-5.contig.2	feature	CDS	49339	50460	.	+	0	ID=acAMD-5.genome.CDS.1413;Product=Glycerate kinase %28EC 2.7.1.31%29
+acAMD-5.contig.2	feature	CDS	48768	49313	.	-	0	ID=acAMD-5.genome.CDS.1412;Product=CblZ%2C a non-orthologous displasment for Alpha-ribazole-5%27-phosphate phosphatase
+acAMD-5.contig.2	feature	CDS	47768	48766	.	-	0	ID=acAMD-5.genome.CDS.1411;Product=Potassium channel beta chain
+acAMD-5.contig.2	feature	CDS	46799	47446	.	-	0	ID=acAMD-5.genome.CDS.1410;Product=
+acAMD-5.contig.2	feature	CDS	45742	46797	.	-	0	ID=acAMD-5.genome.CDS.1409;Product=hypothetical protein
+acAMD-5.contig.2	feature	CDS	44139	45749	.	-	0	ID=acAMD-5.genome.CDS.1408;Product=Duplicated ATPase component CbrU of energizing module of predicted cobalamin ECF transporter
+acAMD-5.contig.2	feature	CDS	43343	44149	.	-	0	ID=acAMD-5.genome.CDS.133;Product=Substrate-specific component CbrT of predicted cobalamin ECF transporter
+acAMD-5.contig.2	feature	CDS	42618	43379	.	-	0	ID=acAMD-5.genome.CDS.1406;Product=hypothetical protein
+acAMD-5.contig.2	feature	CDS	41107	42585	.	-	0	ID=acAMD-5.genome.CDS.1405;Product=Cytosol aminopeptidase PepA %28EC 3.4.11.1%29
+acAMD-5.contig.2	feature	CDS	39629	41005	.	-	0	ID=acAMD-5.genome.CDS.1404;Product=Dihydrolipoamide dehydrogenase of branched-chain alpha-keto acid dehydrogenase %28EC 1.8.1.4%29
+acAMD-5.contig.2	feature	CDS	38183	39580	.	-	0	ID=acAMD-5.genome.CDS.1403;Product=Dihydrolipoamide acyltransferase component of branched-chain alpha-keto acid dehydrogenase complex %28EC 2.3.1.168%29
+acAMD-5.contig.2	feature	CDS	37282	38175	.	-	0	ID=acAMD-5.genome.CDS.1402;Product=Cell division inhibitor
+acAMD-5.contig.2	feature	CDS	36040	37281	.	-	0	ID=acAMD-5.genome.CDS.1401;Product=hypothetical protein
+acAMD-5.contig.2	feature	CDS	35309	36043	.	-	0	ID=acAMD-5.genome.CDS.1400;Product=Peptidase E %28EC 3.4.11.2%29
+acAMD-5.contig.2	feature	CDS	32903	35071	.	+	0	ID=acAMD-5.genome.CDS.1399;Product=possible membrane protein
+acAMD-5.contig.2	feature	CDS	32098	32769	.	-	0	ID=acAMD-5.genome.CDS.1398;Product=Octanoate-%5Bacyl-carrier-protein%5D-protein-N-octanoyltransferase
+acAMD-5.contig.2	feature	CDS	31133	32101	.	-	0	ID=acAMD-5.genome.CDS.1397;Product=Lipoate synthase
+acAMD-5.contig.2	feature	CDS	30439	31113	.	-	0	ID=acAMD-5.genome.CDS.1396;Product=Transmembrane protein MT2276%2C clustered with lipoate gene
+acAMD-5.contig.2	feature	CDS	30016	30438	.	+	0	ID=acAMD-5.genome.CDS.1395;Product=PROBABLE MEMBRANE PROTEIN
+acAMD-5.contig.2	feature	CDS	28432	29865	.	-	0	ID=acAMD-5.genome.CDS.1394;Product=Glutamine synthetase type I %28EC 6.3.1.2%29
+acAMD-5.contig.2	feature	CDS	27433	28380	.	+	0	ID=acAMD-5.genome.CDS.1393;Product=Inosine-uridine preferring nucleoside hydrolase %28EC 3.2.2.1%29
+acAMD-5.contig.2	feature	CDS	26735	27382	.	-	0	ID=acAMD-5.genome.CDS.1392;Product=FIG01964566: Predicted membrane protein%2C hemolysin III homolog
+acAMD-5.contig.2	feature	CDS	25666	26655	.	-	0	ID=acAMD-5.genome.CDS.1391;Product=Alpha/beta hydrolase family
+acAMD-5.contig.2	feature	CDS	24739	25629	.	-	0	ID=acAMD-5.genome.CDS.1390;Product=
+acAMD-5.contig.2	feature	CDS	24120	24737	.	-	0	ID=acAMD-5.genome.CDS.1389;Product=Membrane protein%2C MarC family
+acAMD-5.contig.2	feature	CDS	21926	24139	.	+	0	ID=acAMD-5.genome.CDS.1388;Product=hypothetical protein
+acAMD-5.contig.2	feature	CDS	21251	21892	.	-	0	ID=acAMD-5.genome.CDS.1387;Product=
+acAMD-5.contig.2	feature	CDS	20433	21209	.	-	0	ID=acAMD-5.genome.CDS.1386;Product=probable secreted protein
+acAMD-5.contig.2	feature	CDS	19722	20426	.	-	0	ID=acAMD-5.genome.CDS.1385;Product=hypothetical protein
+acAMD-5.contig.2	feature	CDS	18640	19632	.	-	0	ID=acAMD-5.genome.CDS.1384;Product=Phosphate transport system permease protein PstC %28TC 3.A.1.7.1%29
+acAMD-5.contig.2	feature	CDS	17594	18637	.	-	0	ID=acAMD-5.genome.CDS.1383;Product=Phosphate transport system permease protein PstA %28TC 3.A.1.7.1%29
+acAMD-5.contig.2	feature	CDS	16749	17588	.	-	0	ID=acAMD-5.genome.CDS.1382;Product=Phosphate transport ATP-binding protein PstB %28TC 3.A.1.7.1%29
+acAMD-5.contig.2	feature	CDS	15561	16592	.	-	0	ID=acAMD-5.genome.CDS.1381;Product=Phosphate ABC transporter%2C periplasmic phosphate-binding protein PstS %28TC 3.A.1.7.1%29
+acAMD-5.contig.2	feature	CDS	14372	15472	.	-	0	ID=acAMD-5.genome.CDS.1380;Product=hypothetical protein
+acAMD-5.contig.2	feature	CDS	11472	14375	.	+	0	ID=acAMD-5.genome.CDS.1379;Product=Glutamate-ammonia-ligase adenylyltransferase %28EC 2.7.7.42%29
+acAMD-5.contig.2	feature	CDS	10128	11462	.	+	0	ID=acAMD-5.genome.CDS.1378;Product=Glutamine synthetase type I %28EC 6.3.1.2%29
+acAMD-5.contig.2	feature	CDS	8395	10068	.	-	0	ID=acAMD-5.genome.CDS.1377;Product=NAD synthetase %28EC 6.3.1.5%29 / Glutamine amidotransferase chain of NAD synthetase
+acAMD-5.contig.2	feature	CDS	7438	8394	.	+	0	ID=acAMD-5.genome.CDS.1376;Product=
+acAMD-5.contig.2	feature	CDS	6302	7438	.	+	0	ID=acAMD-5.genome.CDS.1375;Product=
+acAMD-5.contig.2	feature	CDS	5184	6302	.	+	0	ID=acAMD-5.genome.CDS.100;Product=hypothetical protein
+acAMD-5.contig.2	feature	CDS	4324	5052	.	-	0	ID=acAMD-5.genome.CDS.1373;Product=Phosphoserine phosphatase %28EC 3.1.3.3%29
+acAMD-5.contig.2	feature	CDS	3041	4219	.	-	0	ID=acAMD-5.genome.CDS.1372;Product=
+acAMD-5.contig.2	feature	CDS	1459	3039	.	+	0	ID=acAMD-5.genome.CDS.1371;Product=putative integral membrane protein
+acAMD-5.contig.2	feature	CDS	487	1326	.	-	0	ID=acAMD-5.genome.CDS.1370;Product=3-methyl-2-oxobutanoate hydroxymethyltransferase %28EC 2.1.2.11%29
+acAMD-5.contig.2	feature	CDS	6	290	.	-	0	ID=acAMD-5.genome.CDS.1369;Product=Histone H1-like protein
+acAMD-5.contig.3	feature	CDS	57224	58165	.	-	0	ID=acAMD-5.genome.CDS.1638;Product=Cell division protein FtsW
+acAMD-5.contig.3	feature	CDS	55764	57227	.	-	0	ID=acAMD-5.genome.CDS.1637;Product=Cell division protein FtsI %5BPeptidoglycan synthetase%5D %28EC 2.4.1.129%29
+acAMD-5.contig.3	feature	CDS	54063	55727	.	-	0	ID=acAMD-5.genome.CDS.1636;Product=Serine/threonine protein kinase PrkC%2C regulator of stationary phase
+acAMD-5.contig.3	feature	CDS	52686	54053	.	-	0	ID=acAMD-5.genome.CDS.1635;Product=hypothetical protein
+acAMD-5.contig.3	feature	CDS	52037	52657	.	+	0	ID=acAMD-5.genome.CDS.1634;Product=Anthranilate synthase%2C amidotransferase component %28EC 4.1.3.27%29 %40 Para-aminobenzoate synthase%2C amidotransferase component %28EC 2.6.1.85%29
+acAMD-5.contig.3	feature	CDS	51325	52032	.	+	0	ID=acAMD-5.genome.CDS.1633;Product=
+acAMD-5.contig.3	feature	CDS	51040	51273	.	-	0	ID=acAMD-5.genome.CDS.1632;Product=
+acAMD-5.contig.3	feature	CDS	50349	50984	.	+	0	ID=acAMD-5.genome.CDS.1631;Product=hypothetical protein
+acAMD-5.contig.3	feature	CDS	49792	50304	.	+	0	ID=acAMD-5.genome.CDS.1630;Product=Peptidyl-prolyl cis-trans isomerase %28EC 5.2.1.8%29
+acAMD-5.contig.3	feature	tRNA	49691	49766	.	+	.	ID=acAMD-5.genome.rna.4;Product=tRNA-Ala-TGC
+acAMD-5.contig.3	feature	CDS	49548	49685	.	+	0	ID=acAMD-5.genome.CDS.1629;Product=
+acAMD-5.contig.3	feature	tRNA	49442	49516	.	+	.	ID=acAMD-5.genome.rna.3;Product=tRNA-Ile-GAT
+acAMD-5.contig.3	feature	CDS	48992	49369	.	+	0	ID=acAMD-5.genome.CDS.1628;Product=hypothetical protein
+acAMD-5.contig.3	feature	CDS	46515	48989	.	+	0	ID=acAMD-5.genome.CDS.1627;Product=DNA gyrase subunit A %28EC 5.99.1.3%29
+acAMD-5.contig.3	feature	CDS	44557	46497	.	+	0	ID=acAMD-5.genome.CDS.1626;Product=DNA gyrase subunit B %28EC 5.99.1.3%29
+acAMD-5.contig.3	feature	CDS	43890	44318	.	+	0	ID=acAMD-5.genome.CDS.1625;Product=
+acAMD-5.contig.3	feature	CDS	42764	43897	.	+	0	ID=acAMD-5.genome.CDS.1624;Product=DNA recombination and repair protein RecF
+acAMD-5.contig.3	feature	CDS	41649	42764	.	+	0	ID=acAMD-5.genome.CDS.1623;Product=DNA polymerase III beta subunit %28EC 2.7.7.7%29
+acAMD-5.contig.3	feature	CDS	39851	41281	.	+	0	ID=acAMD-5.genome.CDS.1622;Product=Chromosomal replication initiator protein DnaA
+acAMD-5.contig.3	feature	CDS	39461	39601	.	-	0	ID=acAMD-5.genome.CDS.353;Product=LSU ribosomal protein L34p
+acAMD-5.contig.3	feature	CDS	39111	39452	.	-	0	ID=acAMD-5.genome.CDS.1621;Product=
+acAMD-5.contig.3	feature	CDS	38807	39118	.	-	0	ID=acAMD-5.genome.CDS.1620;Product=Protein YidD
+acAMD-5.contig.3	feature	CDS	37868	38806	.	-	0	ID=acAMD-5.genome.CDS.1619;Product=Inner membrane protein translocase component YidC%2C long form
+acAMD-5.contig.3	feature	CDS	37363	37836	.	-	0	ID=acAMD-5.genome.CDS.1618;Product=RNA-binding protein Jag
+acAMD-5.contig.3	feature	CDS	36740	37366	.	-	0	ID=acAMD-5.genome.CDS.1617;Product=
+acAMD-5.contig.3	feature	CDS	35818	36690	.	-	0	ID=acAMD-5.genome.CDS.1616;Product=Chromosome %28plasmid%29 partitioning protein ParA
+acAMD-5.contig.3	feature	CDS	34892	35821	.	-	0	ID=acAMD-5.genome.CDS.1615;Product=Chromosome %28plasmid%29 partitioning protein ParB
+acAMD-5.contig.3	feature	CDS	33662	34891	.	+	0	ID=acAMD-5.genome.CDS.1614;Product=Aspartate aminotransferase %28AspB-4%29 %28EC 2.6.1.1%29
+acAMD-5.contig.3	feature	CDS	32450	33502	.	+	0	ID=acAMD-5.genome.CDS.1613;Product=N-acetylmuramoyl-L-alanine amidase %28EC 3.5.1.28%29
+acAMD-5.contig.3	feature	CDS	32117	32443	.	+	0	ID=acAMD-5.genome.CDS.1612;Product=Thioredoxin
+acAMD-5.contig.3	feature	CDS	31141	32082	.	+	0	ID=acAMD-5.genome.CDS.1611;Product=Thioredoxin reductase %28EC 1.8.1.9%29
+acAMD-5.contig.3	feature	CDS	29819	31126	.	+	0	ID=acAMD-5.genome.CDS.1610;Product=hypothetical protein
+acAMD-5.contig.3	feature	CDS	28212	29819	.	+	0	ID=acAMD-5.genome.CDS.1609;Product=Proposed peptidoglycan lipid II flippase MurJ
+acAMD-5.contig.3	feature	CDS	26431	28215	.	+	0	ID=acAMD-5.genome.CDS.1608;Product=hypothetical protein
+acAMD-5.contig.3	feature	CDS	25937	26431	.	+	0	ID=acAMD-5.genome.CDS.1607;Product=MutT/nudix family protein
+acAMD-5.contig.3	feature	CDS	24467	25903	.	-	0	ID=acAMD-5.genome.CDS.1606;Product=tRNA nucleotidyltransferase %28EC 2.7.7.27%29
+acAMD-5.contig.3	feature	CDS	23244	24470	.	+	0	ID=acAMD-5.genome.CDS.1605;Product=hypothetical protein
+acAMD-5.contig.3	feature	CDS	22725	23186	.	-	0	ID=acAMD-5.genome.CDS.1604;Product=
+acAMD-5.contig.3	feature	CDS	20732	22720	.	-	0	ID=acAMD-5.genome.CDS.1603;Product=Multimodular transpeptidase-transglycosylase %28EC 2.4.1.129%29 %28EC 3.4.-.-%29
+acAMD-5.contig.3	feature	CDS	19341	20690	.	-	0	ID=acAMD-5.genome.CDS.1602;Product=Aminotransferase class-III
+acAMD-5.contig.3	feature	CDS	18315	19352	.	+	0	ID=acAMD-5.genome.CDS.1601;Product=
+acAMD-5.contig.3	feature	CDS	17206	18318	.	+	0	ID=acAMD-5.genome.CDS.1600;Product=tRNA-dependent lipid II--amino acid ligase
+acAMD-5.contig.3	feature	CDS	16424	17206	.	+	0	ID=acAMD-5.genome.CDS.1599;Product=Endonuclease IV %28EC 3.1.21.2%29
+acAMD-5.contig.3	feature	CDS	15520	16404	.	+	0	ID=acAMD-5.genome.CDS.1598;Product=hypothetical protein
+acAMD-5.contig.3	feature	CDS	14765	15523	.	+	0	ID=acAMD-5.genome.CDS.1597;Product=D-beta-hydroxybutyrate dehydrogenase %28EC 1.1.1.30%29
+acAMD-5.contig.3	feature	CDS	13355	14560	.	-	0	ID=acAMD-5.genome.CDS.1596;Product=Branched-chain amino acid ABC transporter%2C amino acid-binding protein %28TC 3.A.1.4.1%29
+acAMD-5.contig.3	feature	CDS	12556	13311	.	-	0	ID=acAMD-5.genome.CDS.1595;Product=Branched-chain amino acid transport ATP-binding protein LivG %28TC 3.A.1.4.1%29
+acAMD-5.contig.3	feature	CDS	11858	12559	.	-	0	ID=acAMD-5.genome.CDS.1594;Product=Branched-chain amino acid transport ATP-binding protein LivF %28TC 3.A.1.4.1%29
+acAMD-5.contig.3	feature	CDS	10977	11858	.	-	0	ID=acAMD-5.genome.CDS.1593;Product=High-affinity branched-chain amino acid transport system permease protein LivH %28TC 3.A.1.4.1%29
+acAMD-5.contig.3	feature	CDS	9967	10977	.	-	0	ID=acAMD-5.genome.CDS.1592;Product=Branched-chain amino acid transport system permease protein LivM %28TC 3.A.1.4.1%29
+acAMD-5.contig.3	feature	CDS	8066	9958	.	-	0	ID=acAMD-5.genome.CDS.1591;Product=Acetoacetyl-CoA synthetase %28EC 6.2.1.16%29
+acAMD-5.contig.3	feature	CDS	7715	8065	.	+	0	ID=acAMD-5.genome.CDS.1590;Product=HspR%2C transcriptional repressor of DnaK operon
+acAMD-5.contig.3	feature	CDS	7194	7715	.	+	0	ID=acAMD-5.genome.CDS.1589;Product=Heat shock protein GrpE
+acAMD-5.contig.3	feature	CDS	5359	7197	.	+	0	ID=acAMD-5.genome.CDS.1588;Product=Chaperone protein DnaK
+acAMD-5.contig.3	feature	CDS	4828	5121	.	-	0	ID=acAMD-5.genome.CDS.1587;Product=SSU ribosomal protein S6p
+acAMD-5.contig.3	feature	CDS	4346	4828	.	-	0	ID=acAMD-5.genome.CDS.1586;Product=Single-stranded DNA-binding protein
+acAMD-5.contig.3	feature	CDS	4043	4318	.	-	0	ID=acAMD-5.genome.CDS.1585;Product=SSU ribosomal protein S18p %40 SSU ribosomal protein S18p%2C zinc-independent
+acAMD-5.contig.3	feature	CDS	3574	4020	.	-	0	ID=acAMD-5.genome.CDS.1584;Product=LSU ribosomal protein L9p
+acAMD-5.contig.3	feature	CDS	3368	3484	.	+	0	ID=acAMD-5.genome.CDS.314;Product=
+acAMD-5.contig.3	feature	CDS	1912	3324	.	-	0	ID=acAMD-5.genome.CDS.1583;Product=Replicative DNA helicase %28DnaB%29 %28EC 3.6.4.12%29
+acAMD-5.contig.3	feature	CDS	499	1911	.	+	0	ID=acAMD-5.genome.CDS.1582;Product=
+acAMD-5.contig.4	feature	CDS	14813	15058	.	+	0	ID=acAMD-5.genome.CDS.1652;Product=
+acAMD-5.contig.4	feature	CDS	14094	14675	.	+	0	ID=acAMD-5.genome.CDS.1651;Product=Deoxycytidine triphosphate deaminase %28EC 3.5.4.13%29
+acAMD-5.contig.4	feature	tRNA	13964	14037	.	-	.	ID=acAMD-5.genome.rna.5;Product=tRNA-Gly-CCC
+acAMD-5.contig.4	feature	CDS	12786	13868	.	-	0	ID=acAMD-5.genome.CDS.1650;Product=hypothetical protein
+acAMD-5.contig.4	feature	CDS	11464	12729	.	-	0	ID=acAMD-5.genome.CDS.1649;Product=Phosphoribosylamine--glycine ligase %28EC 6.3.4.13%29
+acAMD-5.contig.4	feature	CDS	10059	11480	.	-	0	ID=acAMD-5.genome.CDS.1648;Product=Adenylosuccinate lyase %28EC 4.3.2.2%29
+acAMD-5.contig.4	feature	CDS	9181	10062	.	-	0	ID=acAMD-5.genome.CDS.1647;Product=Phosphoribosylaminoimidazole-succinocarboxamide synthase %28EC 6.3.2.6%29
+acAMD-5.contig.4	feature	CDS	8875	9132	.	-	0	ID=acAMD-5.genome.CDS.1646;Product=Phosphoribosylformylglycinamidine synthase%2C PurS subunit %28EC 6.3.5.3%29
+acAMD-5.contig.4	feature	CDS	8210	8878	.	-	0	ID=acAMD-5.genome.CDS.1645;Product=Phosphoribosylformylglycinamidine synthase%2C glutamine amidotransferase subunit %28EC 6.3.5.3%29
+acAMD-5.contig.4	feature	CDS	5964	8210	.	-	0	ID=acAMD-5.genome.CDS.1644;Product=Phosphoribosylformylglycinamidine synthase%2C synthetase subunit %28EC 6.3.5.3%29
+acAMD-5.contig.4	feature	CDS	4870	5871	.	-	0	ID=acAMD-5.genome.CDS.1643;Product=Ferric iron ABC transporter%2C iron-binding protein
+acAMD-5.contig.4	feature	CDS	3281	4873	.	-	0	ID=acAMD-5.genome.CDS.1642;Product=Ferric iron ABC transporter%2C permease protein
+acAMD-5.contig.4	feature	CDS	2253	3284	.	-	0	ID=acAMD-5.genome.CDS.1641;Product=
+acAMD-5.contig.4	feature	CDS	762	2231	.	-	0	ID=acAMD-5.genome.CDS.1640;Product=Amidophosphoribosyltransferase %28EC 2.4.2.14%29
+acAMD-5.contig.4	feature	CDS	2	769	.	-	0	ID=acAMD-5.genome.CDS.1639;Product=Phosphoribosylformylglycinamidine cyclo-ligase %28EC 6.3.3.1%29
+acAMD-5.contig.5	feature	CDS	172219	172797	.	-	0	ID=acAMD-5.genome.CDS.1826;Product=Solanesyl diphosphate synthase %28EC 2.5.1.11%29
+acAMD-5.contig.5	feature	tRNA	171223	171304	.	-	.	ID=acAMD-5.genome.rna.6;Product=tRNA-Tyr-GTA
+acAMD-5.contig.5	feature	tRNA	171067	171139	.	-	.	ID=acAMD-5.genome.rna.7;Product=tRNA-Thr-GGT
+acAMD-5.contig.5	feature	tRNA	170964	171039	.	-	.	ID=acAMD-5.genome.rna.8;Product=tRNA-Met-CAT
+acAMD-5.contig.5	feature	CDS	170297	170722	.	-	0	ID=acAMD-5.genome.CDS.1824;Product=
+acAMD-5.contig.5	feature	CDS	169887	170300	.	-	0	ID=acAMD-5.genome.CDS.1823;Product=hypothetical protein
+acAMD-5.contig.5	feature	CDS	169135	169890	.	-	0	ID=acAMD-5.genome.CDS.1822;Product=
+acAMD-5.contig.5	feature	CDS	168114	169124	.	-	0	ID=acAMD-5.genome.CDS.1821;Product=UDP-N-acetylenolpyruvoylglucosamine reductase %28EC 1.3.1.98%29
+acAMD-5.contig.5	feature	CDS	166897	168117	.	+	0	ID=acAMD-5.genome.CDS.1820;Product=Aspartate aminotransferase %28EC 2.6.1.1%29
+acAMD-5.contig.5	feature	tRNA	166730	166802	.	-	.	ID=acAMD-5.genome.rna.9;Product=tRNA-Trp-CCA
+acAMD-5.contig.5	feature	CDS	166415	166654	.	-	0	ID=acAMD-5.genome.CDS.1819;Product=Preprotein translocase subunit SecE %28TC 3.A.5.1.1%29
+acAMD-5.contig.5	feature	CDS	165560	166399	.	-	0	ID=acAMD-5.genome.CDS.1818;Product=Transcription antitermination protein NusG
+acAMD-5.contig.5	feature	CDS	165108	165539	.	-	0	ID=acAMD-5.genome.CDS.1817;Product=LSU ribosomal protein L11p %28L12e%29
+acAMD-5.contig.5	feature	CDS	164295	165005	.	-	0	ID=acAMD-5.genome.CDS.1816;Product=LSU ribosomal protein L1p %28L10Ae%29
+acAMD-5.contig.5	feature	CDS	163419	164087	.	-	0	ID=acAMD-5.genome.CDS.1815;Product=LSU ribosomal protein L10p %28P0%29
+acAMD-5.contig.5	feature	CDS	162975	163358	.	-	0	ID=acAMD-5.genome.CDS.1814;Product=LSU ribosomal protein L7/L12 %28P1/P2%29
+acAMD-5.contig.5	feature	CDS	159313	162765	.	-	0	ID=acAMD-5.genome.CDS.1813;Product=DNA-directed RNA polymerase beta subunit %28EC 2.7.7.6%29
+acAMD-5.contig.5	feature	CDS	155369	159256	.	-	0	ID=acAMD-5.genome.CDS.1812;Product=DNA-directed RNA polymerase beta%27 subunit %28EC 2.7.7.6%29
+acAMD-5.contig.5	feature	CDS	154468	155325	.	+	0	ID=acAMD-5.genome.CDS.1811;Product=hypothetical protein
+acAMD-5.contig.5	feature	CDS	153976	154350	.	-	0	ID=acAMD-5.genome.CDS.1810;Product=SSU ribosomal protein S12p %28S23e%29
+acAMD-5.contig.5	feature	CDS	153506	153976	.	-	0	ID=acAMD-5.genome.CDS.1809;Product=SSU ribosomal protein S7p %28S5e%29
+acAMD-5.contig.5	feature	CDS	151388	153484	.	-	0	ID=acAMD-5.genome.CDS.1808;Product=Translation elongation factor G
+acAMD-5.contig.5	feature	CDS	150076	151269	.	-	0	ID=acAMD-5.genome.CDS.1807;Product=Translation elongation factor Tu
+acAMD-5.contig.5	feature	CDS	149677	149985	.	-	0	ID=acAMD-5.genome.CDS.1806;Product=SSU ribosomal protein S10p %28S20e%29
+acAMD-5.contig.5	feature	CDS	149010	149654	.	-	0	ID=acAMD-5.genome.CDS.1805;Product=LSU ribosomal protein L3p %28L3e%29
+acAMD-5.contig.5	feature	CDS	148330	149007	.	-	0	ID=acAMD-5.genome.CDS.1804;Product=LSU ribosomal protein L4p %28L1e%29
+acAMD-5.contig.5	feature	CDS	148034	148330	.	-	0	ID=acAMD-5.genome.CDS.1803;Product=LSU ribosomal protein L23p %28L23Ae%29
+acAMD-5.contig.5	feature	CDS	147175	148011	.	-	0	ID=acAMD-5.genome.CDS.1802;Product=LSU ribosomal protein L2p %28L8e%29
+acAMD-5.contig.5	feature	CDS	146882	147163	.	-	0	ID=acAMD-5.genome.CDS.1801;Product=SSU ribosomal protein S19p %28S15e%29
+acAMD-5.contig.5	feature	CDS	146271	146849	.	-	0	ID=acAMD-5.genome.CDS.1800;Product=LSU ribosomal protein L22p %28L17e%29
+acAMD-5.contig.5	feature	CDS	145474	146268	.	-	0	ID=acAMD-5.genome.CDS.1799;Product=SSU ribosomal protein S3p %28S3e%29
+acAMD-5.contig.5	feature	CDS	145052	145471	.	-	0	ID=acAMD-5.genome.CDS.1798;Product=LSU ribosomal protein L16p %28L10e%29
+acAMD-5.contig.5	feature	CDS	144825	145052	.	-	0	ID=acAMD-5.genome.CDS.1797;Product=LSU ribosomal protein L29p %28L35e%29
+acAMD-5.contig.5	feature	CDS	144559	144828	.	-	0	ID=acAMD-5.genome.CDS.1796;Product=SSU ribosomal protein S17p %28S11e%29
+acAMD-5.contig.5	feature	CDS	144149	144517	.	-	0	ID=acAMD-5.genome.CDS.1795;Product=LSU ribosomal protein L14p %28L23e%29
+acAMD-5.contig.5	feature	CDS	143787	144146	.	-	0	ID=acAMD-5.genome.CDS.1794;Product=LSU ribosomal protein L24p %28L26e%29
+acAMD-5.contig.5	feature	CDS	143227	143787	.	-	0	ID=acAMD-5.genome.CDS.1793;Product=LSU ribosomal protein L5p %28L11e%29
+acAMD-5.contig.5	feature	CDS	142922	143227	.	-	0	ID=acAMD-5.genome.CDS.1792;Product=SSU ribosomal protein S14p %28S29e%29 %40 SSU ribosomal protein S14p %28S29e%29%2C zinc-independent
+acAMD-5.contig.5	feature	CDS	142458	142856	.	-	0	ID=acAMD-5.genome.CDS.1791;Product=SSU ribosomal protein S8p %28S15Ae%29
+acAMD-5.contig.5	feature	CDS	141896	142441	.	-	0	ID=acAMD-5.genome.CDS.1790;Product=LSU ribosomal protein L6p %28L9e%29
+acAMD-5.contig.5	feature	CDS	141516	141899	.	-	0	ID=acAMD-5.genome.CDS.1789;Product=LSU ribosomal protein L18p %28L5e%29
+acAMD-5.contig.5	feature	CDS	140897	141505	.	-	0	ID=acAMD-5.genome.CDS.1788;Product=SSU ribosomal protein S5p %28S2e%29
+acAMD-5.contig.5	feature	CDS	140715	140897	.	-	0	ID=acAMD-5.genome.CDS.1787;Product=LSU ribosomal protein L30p %28L7e%29
+acAMD-5.contig.5	feature	CDS	140266	140712	.	-	0	ID=acAMD-5.genome.CDS.1786;Product=LSU ribosomal protein L15p %28L27Ae%29
+acAMD-5.contig.5	feature	CDS	138942	140237	.	-	0	ID=acAMD-5.genome.CDS.1785;Product=Preprotein translocase secY subunit %28TC 3.A.5.1.1%29
+acAMD-5.contig.5	feature	CDS	138376	138939	.	-	0	ID=acAMD-5.genome.CDS.1784;Product=Adenylate kinase %28EC 2.7.4.3%29
+acAMD-5.contig.5	feature	CDS	138002	138181	.	-	0	ID=acAMD-5.genome.CDS.511;Product=Translation initiation factor 1
+acAMD-5.contig.5	feature	CDS	137320	137697	.	-	0	ID=acAMD-5.genome.CDS.1782;Product=SSU ribosomal protein S13p %28S18e%29
+acAMD-5.contig.5	feature	CDS	136869	137300	.	-	0	ID=acAMD-5.genome.CDS.1781;Product=SSU ribosomal protein S11p %28S14e%29
+acAMD-5.contig.5	feature	CDS	136225	136851	.	-	0	ID=acAMD-5.genome.CDS.1780;Product=SSU ribosomal protein S4p %28S9e%29 %40 SSU ribosomal protein S4p %28S9e%29%2C zinc-independent
+acAMD-5.contig.5	feature	CDS	135094	136119	.	-	0	ID=acAMD-5.genome.CDS.1779;Product=DNA-directed RNA polymerase alpha subunit %28EC 2.7.7.6%29
+acAMD-5.contig.5	feature	CDS	134643	135068	.	-	0	ID=acAMD-5.genome.CDS.1778;Product=LSU ribosomal protein L17p
+acAMD-5.contig.5	feature	CDS	133762	134610	.	-	0	ID=acAMD-5.genome.CDS.1777;Product=tRNA pseudouridine synthase A %28EC 4.2.1.70%29
+acAMD-5.contig.5	feature	CDS	132155	133762	.	-	0	ID=acAMD-5.genome.CDS.1776;Product=ABC transporter ATP-binding protein
+acAMD-5.contig.5	feature	CDS	131609	132052	.	-	0	ID=acAMD-5.genome.CDS.1775;Product=LSU ribosomal protein L13p %28L13Ae%29
+acAMD-5.contig.5	feature	CDS	131127	131579	.	-	0	ID=acAMD-5.genome.CDS.1774;Product=SSU ribosomal protein S9p %28S16e%29
+acAMD-5.contig.5	feature	CDS	129781	131115	.	-	0	ID=acAMD-5.genome.CDS.1773;Product=Phosphoglucosamine mutase %28EC 5.4.2.10%29
+acAMD-5.contig.5	feature	CDS	127921	129771	.	-	0	ID=acAMD-5.genome.CDS.1772;Product=Glucosamine--fructose-6-phosphate aminotransferase %5Bisomerizing%5D %28EC 2.6.1.16%29
+acAMD-5.contig.5	feature	CDS	127540	127914	.	-	0	ID=acAMD-5.genome.CDS.1771;Product=Holo-%5Bacyl-carrier protein%5D synthase %28EC 2.7.8.7%29
+acAMD-5.contig.5	feature	CDS	126449	127543	.	-	0	ID=acAMD-5.genome.CDS.1770;Product=Alanine racemase %28EC 5.1.1.1%29
+acAMD-5.contig.5	feature	CDS	125988	126452	.	-	0	ID=acAMD-5.genome.CDS.1769;Product=TsaE protein%2C required for threonylcarbamoyladenosine t%286%29A37 formation in tRNA
+acAMD-5.contig.5	feature	CDS	125297	125986	.	-	0	ID=acAMD-5.genome.CDS.1768;Product=TsaB protein%2C required for threonylcarbamoyladenosine %28t%286%29A%29 formation in tRNA
+acAMD-5.contig.5	feature	CDS	124839	125300	.	-	0	ID=acAMD-5.genome.CDS.1767;Product=
+acAMD-5.contig.5	feature	CDS	123845	124846	.	-	0	ID=acAMD-5.genome.CDS.494;Product=Kinase-Associated Endopeptidase %28Kae1%29%2C required for threonylcarbamoyladenosine t%286%29A37 formation in tRNA
+acAMD-5.contig.5	feature	CDS	123442	123741	.	-	0	ID=acAMD-5.genome.CDS.1765;Product=Heat shock protein 60 family co-chaperone GroES
+acAMD-5.contig.5	feature	CDS	121735	123363	.	-	0	ID=acAMD-5.genome.CDS.1764;Product=Heat shock protein 60 family chaperone GroEL
+acAMD-5.contig.5	feature	CDS	121303	121605	.	+	0	ID=acAMD-5.genome.CDS.1763;Product=Sporulation regulatory protein WhiD
+acAMD-5.contig.5	feature	CDS	120211	121158	.	-	0	ID=acAMD-5.genome.CDS.1762;Product=hypothetical protein
+acAMD-5.contig.5	feature	CDS	119474	120139	.	-	0	ID=acAMD-5.genome.CDS.1761;Product=
+acAMD-5.contig.5	feature	CDS	117917	119431	.	-	0	ID=acAMD-5.genome.CDS.1760;Product=Inosine-5%27-monophosphate dehydrogenase %28EC 1.1.1.205%29 / CBS domain
+acAMD-5.contig.5	feature	CDS	116799	117908	.	-	0	ID=acAMD-5.genome.CDS.1759;Product=Inosine-5%27-monophosphate dehydrogenase%2C catalytic domain %28EC 1.1.1.205%29
+acAMD-5.contig.5	feature	CDS	115225	116787	.	-	0	ID=acAMD-5.genome.CDS.1758;Product=GMP synthase %5Bglutamine-hydrolyzing%5D %28EC 6.3.5.2%29
+acAMD-5.contig.5	feature	CDS	114841	115212	.	-	0	ID=acAMD-5.genome.CDS.1757;Product=
+acAMD-5.contig.5	feature	CDS	114130	114840	.	+	0	ID=acAMD-5.genome.CDS.1756;Product=LmbE family protein
+acAMD-5.contig.5	feature	CDS	111569	114028	.	-	0	ID=acAMD-5.genome.CDS.1755;Product=hypothetical protein
+acAMD-5.contig.5	feature	CDS	109343	111547	.	-	0	ID=acAMD-5.genome.CDS.1754;Product=ATP-dependent DNA helicase UvrD/PcrA
+acAMD-5.contig.5	feature	CDS	108567	109346	.	+	0	ID=acAMD-5.genome.CDS.1753;Product=hypothetical protein
+acAMD-5.contig.5	feature	CDS	108000	108398	.	-	0	ID=acAMD-5.genome.CDS.1752;Product=B12 binding domain of Methylmalonyl-CoA mutase %28EC 5.4.99.2%29
+acAMD-5.contig.5	feature	CDS	106785	107960	.	-	0	ID=acAMD-5.genome.CDS.1751;Product=Succinyl-CoA ligase %5BADP-forming%5D beta chain %28EC 6.2.1.5%29
+acAMD-5.contig.5	feature	CDS	105888	106775	.	-	0	ID=acAMD-5.genome.CDS.1750;Product=Succinyl-CoA ligase %5BADP-forming%5D alpha chain %28EC 6.2.1.5%29
+acAMD-5.contig.5	feature	CDS	104712	105884	.	-	0	ID=acAMD-5.genome.CDS.1749;Product=hypothetical protein
+acAMD-5.contig.5	feature	CDS	104143	104715	.	-	0	ID=acAMD-5.genome.CDS.1748;Product=Phosphoribosylglycinamide formyltransferase %28EC 2.1.2.2%29
+acAMD-5.contig.5	feature	CDS	102605	104137	.	-	0	ID=acAMD-5.genome.CDS.1747;Product=IMP cyclohydrolase %28EC 3.5.4.10%29 / Phosphoribosylaminoimidazolecarboxamide formyltransferase %28EC 2.1.2.3%29
+acAMD-5.contig.5	feature	CDS	101756	102592	.	-	0	ID=acAMD-5.genome.CDS.1746;Product=Methylenetetrahydrofolate dehydrogenase %28NADP%2B%29 %28EC 1.5.1.5%29 / Methenyltetrahydrofolate cyclohydrolase %28EC 3.5.4.9%29
+acAMD-5.contig.5	feature	CDS	101499	101759	.	-	0	ID=acAMD-5.genome.CDS.1745;Product=
+acAMD-5.contig.5	feature	CDS	100466	101422	.	-	0	ID=acAMD-5.genome.CDS.1744;Product=Malate dehydrogenase %28EC 1.1.1.37%29
+acAMD-5.contig.5	feature	CDS	99224	100438	.	-	0	ID=acAMD-5.genome.CDS.1743;Product=Isocitrate dehydrogenase %5BNADP%5D %28EC 1.1.1.42%29
+acAMD-5.contig.5	feature	CDS	97930	99174	.	-	0	ID=acAMD-5.genome.CDS.1742;Product=Hemolysins and related proteins containing CBS domains
+acAMD-5.contig.5	feature	CDS	96879	97886	.	-	0	ID=acAMD-5.genome.CDS.1741;Product=Tryptophanyl-tRNA synthetase %28EC 6.1.1.2%29
+acAMD-5.contig.5	feature	CDS	95974	96765	.	-	0	ID=acAMD-5.genome.CDS.1740;Product=putative succinate dehydrogenase %5Bmembrane anchor subunit%5D %28succinic dehydrogenase%29
+acAMD-5.contig.5	feature	CDS	94063	95958	.	-	0	ID=acAMD-5.genome.CDS.1739;Product=Succinate dehydrogenase flavoprotein subunit %28EC 1.3.99.1%29
+acAMD-5.contig.5	feature	CDS	93311	94063	.	-	0	ID=acAMD-5.genome.CDS.1738;Product=Succinate dehydrogenase iron-sulfur protein %28EC 1.3.99.1%29
+acAMD-5.contig.5	feature	CDS	91687	93279	.	-	0	ID=acAMD-5.genome.CDS.1737;Product=Methylmalonyl-CoA mutase %28EC 5.4.99.2%29
+acAMD-5.contig.5	feature	CDS	90495	91547	.	-	0	ID=acAMD-5.genome.CDS.1736;Product=basic membrane lipoprotein
+acAMD-5.contig.5	feature	CDS	88883	90397	.	-	0	ID=acAMD-5.genome.CDS.1735;Product=Nucleoside ABC transporter%2C ATP-binding protein
+acAMD-5.contig.5	feature	CDS	87806	88882	.	-	0	ID=acAMD-5.genome.CDS.1734;Product=Nucleoside ABC transporter%2C permease protein 1
+acAMD-5.contig.5	feature	CDS	86568	87809	.	-	0	ID=acAMD-5.genome.CDS.1733;Product=Nucleoside ABC transporter%2C permease protein 2
+acAMD-5.contig.5	feature	CDS	86164	86568	.	-	0	ID=acAMD-5.genome.CDS.1732;Product=Cytidine deaminase %28EC 3.5.4.5%29
+acAMD-5.contig.5	feature	CDS	84878	86167	.	-	0	ID=acAMD-5.genome.CDS.1731;Product=Thymidine phosphorylase %28EC 2.4.2.4%29
+acAMD-5.contig.5	feature	CDS	84524	84877	.	-	0	ID=acAMD-5.genome.CDS.1730;Product=
+acAMD-5.contig.5	feature	CDS	83035	84471	.	+	0	ID=acAMD-5.genome.CDS.1729;Product=Xanthine/uracil/thiamine/ascorbate permease family protein
+acAMD-5.contig.5	feature	CDS	81797	82885	.	-	0	ID=acAMD-5.genome.CDS.1728;Product=Adenosine deaminase %28EC 3.5.4.4%29
+acAMD-5.contig.5	feature	CDS	80964	81800	.	+	0	ID=acAMD-5.genome.CDS.1727;Product=Aldehyde dehydrogenase %28EC 1.2.1.3%29
+acAMD-5.contig.5	feature	CDS	79526	80971	.	+	0	ID=acAMD-5.genome.CDS.1726;Product=Aldehyde dehydrogenase %28EC 1.2.1.3%29
+acAMD-5.contig.5	feature	CDS	78564	79523	.	+	0	ID=acAMD-5.genome.CDS.1725;Product=Deoxyribose-phosphate aldolase %28EC 4.1.2.4%29
+acAMD-5.contig.5	feature	CDS	76909	78537	.	+	0	ID=acAMD-5.genome.CDS.1724;Product=Phosphoglucosamine mutase %28EC 5.4.2.10%29
+acAMD-5.contig.5	feature	CDS	76100	76912	.	+	0	ID=acAMD-5.genome.CDS.1723;Product=Purine nucleoside phosphorylase %28EC 2.4.2.1%29
+acAMD-5.contig.5	feature	CDS	74630	76042	.	-	0	ID=acAMD-5.genome.CDS.1722;Product=Dihydrolipoamide dehydrogenase %28EC 1.8.1.4%29
+acAMD-5.contig.5	feature	CDS	74034	74630	.	-	0	ID=acAMD-5.genome.CDS.1721;Product=Substrate-specific component BioY of biotin ECF transporter
+acAMD-5.contig.5	feature	CDS	73730	74044	.	-	0	ID=acAMD-5.genome.CDS.1720;Product=
+acAMD-5.contig.5	feature	CDS	71989	73740	.	+	0	ID=acAMD-5.genome.CDS.1719;Product=Biotin carboxylase of acetyl-CoA carboxylase %28EC 6.3.4.14%29 / Biotin carboxyl carrier protein of acetyl-CoA carboxylase
+acAMD-5.contig.5	feature	CDS	71334	71948	.	+	0	ID=acAMD-5.genome.CDS.1718;Product=Septum formation protein Maf
+acAMD-5.contig.5	feature	CDS	71133	71330	.	+	0	ID=acAMD-5.genome.CDS.1717;Product=
+acAMD-5.contig.5	feature	CDS	69553	71136	.	+	0	ID=acAMD-5.genome.CDS.1716;Product=Acetyl-coenzyme A carboxyl transferase alpha chain %28EC 6.4.1.2%29 / Acetyl-coenzyme A carboxyl transferase beta chain %28EC 6.4.1.2%29%3B Propionyl-CoA carboxylase beta chain %28EC 6.4.1.3%29
+acAMD-5.contig.5	feature	CDS	68745	69479	.	-	0	ID=acAMD-5.genome.CDS.1715;Product=
+acAMD-5.contig.5	feature	CDS	67604	68755	.	-	0	ID=acAMD-5.genome.CDS.1714;Product=Phosphoribosylaminoimidazole carboxylase ATPase subunit %28EC 4.1.1.21%29
+acAMD-5.contig.5	feature	CDS	67082	67585	.	-	0	ID=acAMD-5.genome.CDS.1713;Product=Phosphoribosylaminoimidazole carboxylase catalytic subunit %28EC 4.1.1.21%29
+acAMD-5.contig.5	feature	CDS	65238	67085	.	+	0	ID=acAMD-5.genome.CDS.1712;Product=Adenylylsulfate kinase %28EC 2.7.1.25%29
+acAMD-5.contig.5	feature	CDS	64321	65238	.	+	0	ID=acAMD-5.genome.CDS.1711;Product=Sulfate adenylyltransferase subunit 2 %28EC 2.7.7.4%29
+acAMD-5.contig.5	feature	CDS	62999	64324	.	+	0	ID=acAMD-5.genome.CDS.1710;Product=UDP-glucose 6-dehydrogenase %28EC 1.1.1.22%29
+acAMD-5.contig.5	feature	CDS	62109	62960	.	-	0	ID=acAMD-5.genome.CDS.1709;Product=
+acAMD-5.contig.5	feature	CDS	61047	62138	.	+	0	ID=acAMD-5.genome.CDS.1708;Product=hypothetical protein
+acAMD-5.contig.5	feature	CDS	59991	60992	.	-	0	ID=acAMD-5.genome.CDS.1707;Product=Dolichol-phosphate mannosyltransferase %28EC 2.4.1.83%29 in lipid-linked oligosaccharide synthesis cluster
+acAMD-5.contig.5	feature	CDS	58940	60022	.	+	0	ID=acAMD-5.genome.CDS.1706;Product=hypothetical protein
+acAMD-5.contig.5	feature	CDS	58176	58937	.	+	0	ID=acAMD-5.genome.CDS.1705;Product=Teichoic acid export ATP-binding protein TagH %28EC 3.6.3.40%29
+acAMD-5.contig.5	feature	CDS	57353	58189	.	+	0	ID=acAMD-5.genome.CDS.1704;Product=
+acAMD-5.contig.5	feature	CDS	56097	57356	.	+	0	ID=acAMD-5.genome.CDS.1703;Product=UDP-glucose 6-dehydrogenase %28EC 1.1.1.22%29
+acAMD-5.contig.5	feature	CDS	54627	56078	.	+	0	ID=acAMD-5.genome.CDS.1702;Product=Glycosyl transferase%2C group 1
+acAMD-5.contig.5	feature	CDS	53447	54547	.	-	0	ID=acAMD-5.genome.CDS.1701;Product=UDP-N-acetylglucosamine 2-epimerase %28EC 5.1.3.14%29
+acAMD-5.contig.5	feature	CDS	52824	53450	.	-	0	ID=acAMD-5.genome.CDS.1700;Product=hypothetical protein
+acAMD-5.contig.5	feature	CDS	50602	52827	.	-	0	ID=acAMD-5.genome.CDS.1699;Product=glycosyl transferase%2C group 1 family protein
+acAMD-5.contig.5	feature	CDS	49194	50609	.	+	0	ID=acAMD-5.genome.CDS.1698;Product=Cell envelope-associated transcriptional attenuator LytR-CpsA-Psr%2C subfamily A1 %28as in PMID19099556%29
+acAMD-5.contig.5	feature	CDS	47848	49032	.	-	0	ID=acAMD-5.genome.CDS.1697;Product=
+acAMD-5.contig.5	feature	CDS	46760	47818	.	-	0	ID=acAMD-5.genome.CDS.1696;Product=D-glycero-D-manno-heptose 1-phosphate guanosyltransferase
+acAMD-5.contig.5	feature	CDS	46373	46630	.	-	0	ID=acAMD-5.genome.CDS.1695;Product=Sporulation regulatory protein WhiB
+acAMD-5.contig.5	feature	CDS	45999	46376	.	+	0	ID=acAMD-5.genome.CDS.1694;Product=
+acAMD-5.contig.5	feature	CDS	45654	45926	.	-	0	ID=acAMD-5.genome.CDS.1693;Product=hypothetical protein
+acAMD-5.contig.5	feature	CDS	44254	45630	.	-	0	ID=acAMD-5.genome.CDS.1692;Product=Phosphomannomutase %28EC 5.4.2.8%29
+acAMD-5.contig.5	feature	CDS	44067	44231	.	-	0	ID=acAMD-5.genome.CDS.1691;Product=
+acAMD-5.contig.5	feature	CDS	42937	44070	.	-	0	ID=acAMD-5.genome.CDS.1690;Product=hypothetical protein
+acAMD-5.contig.5	feature	CDS	41363	42865	.	-	0	ID=acAMD-5.genome.CDS.1689;Product=Adenosylhomocysteinase %28EC 3.3.1.1%29
+acAMD-5.contig.5	feature	CDS	40404	41366	.	+	0	ID=acAMD-5.genome.CDS.1688;Product=hypothetical protein
+acAMD-5.contig.5	feature	CDS	39661	40341	.	-	0	ID=acAMD-5.genome.CDS.1687;Product=Two component sensory transduction transcriptional regulatory protein MtrA
+acAMD-5.contig.5	feature	CDS	38159	39664	.	-	0	ID=acAMD-5.genome.CDS.1686;Product=Sensor histidine kinase MtrB %28EC 2.7.3.-%29
+acAMD-5.contig.5	feature	CDS	36508	38169	.	-	0	ID=acAMD-5.genome.CDS.1685;Product=hypothetical protein
+acAMD-5.contig.5	feature	CDS	35827	36369	.	-	0	ID=acAMD-5.genome.CDS.1684;Product=
+acAMD-5.contig.5	feature	CDS	35212	35781	.	-	0	ID=acAMD-5.genome.CDS.1683;Product=
+acAMD-5.contig.5	feature	CDS	32445	35132	.	-	0	ID=acAMD-5.genome.CDS.1682;Product=Protein export cytoplasm protein SecA ATPase RNA helicase %28TC 3.A.5.1.1%29
+acAMD-5.contig.5	feature	CDS	31927	32448	.	+	0	ID=acAMD-5.genome.CDS.1681;Product=
+acAMD-5.contig.5	feature	CDS	31239	31796	.	-	0	ID=acAMD-5.genome.CDS.1680;Product=
+acAMD-5.contig.5	feature	CDS	30569	31231	.	-	0	ID=acAMD-5.genome.CDS.1679;Product=hypothetical protein
+acAMD-5.contig.5	feature	CDS	29352	30572	.	-	0	ID=acAMD-5.genome.CDS.1678;Product=
+acAMD-5.contig.5	feature	CDS	28883	29359	.	+	0	ID=acAMD-5.genome.CDS.1677;Product=putative integral membrane protein
+acAMD-5.contig.5	feature	CDS	27646	28890	.	+	0	ID=acAMD-5.genome.CDS.1676;Product=Mg/Co/Ni transporter MgtE%2C CBS domain-containing
+acAMD-5.contig.5	feature	CDS	26696	27604	.	-	0	ID=acAMD-5.genome.CDS.1675;Product=
+acAMD-5.contig.5	feature	CDS	25882	26736	.	+	0	ID=acAMD-5.genome.CDS.1674;Product=
+acAMD-5.contig.5	feature	CDS	24527	25885	.	+	0	ID=acAMD-5.genome.CDS.1673;Product=putative ATP-dependent RNA helicase
+acAMD-5.contig.5	feature	CDS	24308	24526	.	+	0	ID=acAMD-5.genome.CDS.1672;Product=putative ATP-binding protein
+acAMD-5.contig.5	feature	CDS	23664	24287	.	+	0	ID=acAMD-5.genome.CDS.1671;Product=Transcriptional regulator%2C TetR family
+acAMD-5.contig.5	feature	CDS	21224	23611	.	+	0	ID=acAMD-5.genome.CDS.1670;Product=hypothetical protein
+acAMD-5.contig.5	feature	CDS	18110	21214	.	-	0	ID=acAMD-5.genome.CDS.1669;Product=ATP-dependent DNA helicase SCO5183
+acAMD-5.contig.5	feature	CDS	15078	18113	.	-	0	ID=acAMD-5.genome.CDS.1668;Product=ATP-dependent DNA helicase SCO5184
+acAMD-5.contig.5	feature	CDS	14273	15088	.	+	0	ID=acAMD-5.genome.CDS.1667;Product=
+acAMD-5.contig.5	feature	CDS	13300	14208	.	-	0	ID=acAMD-5.genome.CDS.1666;Product=NADH pyrophosphatase %28EC 3.6.1.22%29
+acAMD-5.contig.5	feature	CDS	13135	13311	.	+	0	ID=acAMD-5.genome.CDS.1665;Product=
+acAMD-5.contig.5	feature	CDS	12348	13007	.	-	0	ID=acAMD-5.genome.CDS.1664;Product=Aquaporin Z
+acAMD-5.contig.5	feature	CDS	10579	12321	.	-	0	ID=acAMD-5.genome.CDS.1663;Product=ATP-dependent DNA helicase UvrD/PcrA%2C actinomycete paralog
+acAMD-5.contig.5	feature	CDS	9272	10615	.	+	0	ID=acAMD-5.genome.CDS.391;Product=Uncharacterized ABC1 family protein SCO5192
+acAMD-5.contig.5	feature	CDS	8188	9228	.	+	0	ID=acAMD-5.genome.CDS.1661;Product=
+acAMD-5.contig.5	feature	CDS	7930	8085	.	+	0	ID=acAMD-5.genome.CDS.1660;Product=hypothetical protein
+acAMD-5.contig.5	feature	CDS	6925	7473	.	-	0	ID=acAMD-5.genome.CDS.1659;Product=hypothetical protein
+acAMD-5.contig.5	feature	CDS	5729	6928	.	+	0	ID=acAMD-5.genome.CDS.1658;Product=
+acAMD-5.contig.5	feature	CDS	5413	5604	.	-	0	ID=acAMD-5.genome.CDS.1657;Product=
+acAMD-5.contig.5	feature	CDS	4361	5416	.	-	0	ID=acAMD-5.genome.CDS.1656;Product=Lon-like protease with PDZ domain
+acAMD-5.contig.5	feature	CDS	1463	4336	.	-	0	ID=acAMD-5.genome.CDS.1655;Product=INTEGRAL MEMBRANE PROTEIN %28Rhomboid family%29
+acAMD-5.contig.5	feature	tRNA	1361	1437	.	-	.	ID=acAMD-5.genome.rna.10;Product=tRNA-Met-CAT
+acAMD-5.contig.5	feature	CDS	906	1316	.	+	0	ID=acAMD-5.genome.CDS.1654;Product=hypothetical protein
+acAMD-5.contig.5	feature	CDS	192	713	.	-	0	ID=acAMD-5.genome.CDS.1653;Product=
+acAMD-5.contig.5	feature	tRNA	78	153	.	-	.	ID=acAMD-5.genome.rna.11;Product=tRNA-Asn-GTT
+acAMD-5.contig.6	feature	CDS	155201	155713	.	-	0	ID=acAMD-5.genome.CDS.1998;Product=hypothetical protein
+acAMD-5.contig.6	feature	CDS	154319	155086	.	-	0	ID=acAMD-5.genome.CDS.1997;Product=membrane protein%2C putative
+acAMD-5.contig.6	feature	CDS	153081	154307	.	+	0	ID=acAMD-5.genome.CDS.1996;Product=hypothetical protein
+acAMD-5.contig.6	feature	CDS	151496	152950	.	+	0	ID=acAMD-5.genome.CDS.1995;Product=hypothetical protein
+acAMD-5.contig.6	feature	CDS	150288	151310	.	-	0	ID=acAMD-5.genome.CDS.1994;Product=Magnesium and cobalt transport protein CorA
+acAMD-5.contig.6	feature	CDS	149963	150139	.	-	0	ID=acAMD-5.genome.CDS.1993;Product=
+acAMD-5.contig.6	feature	CDS	148601	149836	.	+	0	ID=acAMD-5.genome.CDS.1992;Product=NAD-specific glutamate dehydrogenase %28EC 1.4.1.2%29%3B NADP-specific glutamate dehydrogenase %28EC 1.4.1.4%29
+acAMD-5.contig.6	feature	CDS	147895	148461	.	+	0	ID=acAMD-5.genome.CDS.1991;Product=
+acAMD-5.contig.6	feature	CDS	147430	147804	.	-	0	ID=acAMD-5.genome.CDS.1990;Product=
+acAMD-5.contig.6	feature	CDS	147303	147425	.	-	0	ID=acAMD-5.genome.CDS.725;Product=
+acAMD-5.contig.6	feature	CDS	145777	147270	.	+	0	ID=acAMD-5.genome.CDS.1989;Product=Methylmalonate-semialdehyde dehydrogenase %5Binositol%5D %28EC 1.2.1.27%29
+acAMD-5.contig.6	feature	CDS	144743	145741	.	+	0	ID=acAMD-5.genome.CDS.1988;Product=Myo-inositol 2-dehydrogenase 1 %28EC 1.1.1.18%29
+acAMD-5.contig.6	feature	CDS	143905	144693	.	+	0	ID=acAMD-5.genome.CDS.1987;Product=Inositol transport system ATP-binding protein
+acAMD-5.contig.6	feature	CDS	142877	143908	.	+	0	ID=acAMD-5.genome.CDS.1986;Product=Inositol transport system permease protein
+acAMD-5.contig.6	feature	CDS	141796	142776	.	+	0	ID=acAMD-5.genome.CDS.1985;Product=Inositol transport system sugar-binding protein
+acAMD-5.contig.6	feature	CDS	140652	141632	.	+	0	ID=acAMD-5.genome.CDS.1984;Product=Myo-inositol 2-dehydrogenase %28EC 1.1.1.18%29
+acAMD-5.contig.6	feature	CDS	139660	140562	.	-	0	ID=acAMD-5.genome.CDS.1983;Product=Inosose dehydratase %28EC 4.2.1.44%29
+acAMD-5.contig.6	feature	CDS	138700	139653	.	-	0	ID=acAMD-5.genome.CDS.1982;Product=5-keto-2-deoxygluconokinase %28EC 2.7.1.92%29
+acAMD-5.contig.6	feature	CDS	137801	138697	.	-	0	ID=acAMD-5.genome.CDS.1981;Product=5-keto-2-deoxy-D-gluconate-6 phosphate aldolase %5Bform 2%5D %28EC 4.1.2.29%29
+acAMD-5.contig.6	feature	CDS	136914	137804	.	-	0	ID=acAMD-5.genome.CDS.1980;Product=5-deoxy-glucuronate isomerase %28EC 5.3.1.-%29
+acAMD-5.contig.6	feature	tRNA	135650	135725	.	-	.	ID=acAMD-5.genome.rna.15;Product=tRNA-Lys-CTT
+acAMD-5.contig.6	feature	CDS	134185	135573	.	+	0	ID=acAMD-5.genome.CDS.1978;Product=hypothetical protein
+acAMD-5.contig.6	feature	CDS	132198	134042	.	+	0	ID=acAMD-5.genome.CDS.1977;Product=
+acAMD-5.contig.6	feature	CDS	131862	132110	.	+	0	ID=acAMD-5.genome.CDS.1976;Product=unknown
+acAMD-5.contig.6	feature	CDS	131205	131690	.	-	0	ID=acAMD-5.genome.CDS.1975;Product=
+acAMD-5.contig.6	feature	CDS	129512	131113	.	-	0	ID=acAMD-5.genome.CDS.1974;Product=hypothetical protein
+acAMD-5.contig.6	feature	CDS	128476	129282	.	-	0	ID=acAMD-5.genome.CDS.1973;Product=
+acAMD-5.contig.6	feature	CDS	127780	128457	.	+	0	ID=acAMD-5.genome.CDS.1972;Product=
+acAMD-5.contig.6	feature	CDS	127285	127683	.	+	0	ID=acAMD-5.genome.CDS.1971;Product=
+acAMD-5.contig.6	feature	CDS	126033	127232	.	+	0	ID=acAMD-5.genome.CDS.1970;Product=hypothetical protein
+acAMD-5.contig.6	feature	CDS	125609	125836	.	+	0	ID=acAMD-5.genome.CDS.1969;Product=
+acAMD-5.contig.6	feature	CDS	124943	125485	.	+	0	ID=acAMD-5.genome.CDS.1968;Product=hypothetical protein
+acAMD-5.contig.6	feature	CDS	123955	124881	.	+	0	ID=acAMD-5.genome.CDS.1967;Product=Permease of the drug/metabolite transporter %28DMT%29 superfamily
+acAMD-5.contig.6	feature	CDS	122020	123918	.	+	0	ID=acAMD-5.genome.CDS.1966;Product=hypothetical protein
+acAMD-5.contig.6	feature	CDS	121848	121979	.	+	0	ID=acAMD-5.genome.CDS.700;Product=
+acAMD-5.contig.6	feature	CDS	120896	121813	.	-	0	ID=acAMD-5.genome.CDS.1965;Product=D-alanyl-D-alanine carboxypeptidase %28EC 3.4.16.4%29
+acAMD-5.contig.6	feature	CDS	120166	120840	.	-	0	ID=acAMD-5.genome.CDS.1964;Product=
+acAMD-5.contig.6	feature	CDS	118823	120169	.	+	0	ID=acAMD-5.genome.CDS.1963;Product=PLP-dependent aminotransferase NCgl2355 %28class III%29
+acAMD-5.contig.6	feature	CDS	116811	118676	.	-	0	ID=acAMD-5.genome.CDS.1962;Product=Lipid A export ATP-binding/permease protein MsbA
+acAMD-5.contig.6	feature	CDS	115699	116835	.	+	0	ID=acAMD-5.genome.CDS.1961;Product=
+acAMD-5.contig.6	feature	CDS	114593	115552	.	-	0	ID=acAMD-5.genome.CDS.1960;Product=dTDP-4-dehydrorhamnose reductase %28EC 1.1.1.133%29
+acAMD-5.contig.6	feature	CDS	113145	114596	.	+	0	ID=acAMD-5.genome.CDS.1959;Product=Homospermidine synthase%28 EC:2.5.1.44 %29
+acAMD-5.contig.6	feature	CDS	112565	113035	.	-	0	ID=acAMD-5.genome.CDS.1958;Product=
+acAMD-5.contig.6	feature	CDS	111681	112568	.	+	0	ID=acAMD-5.genome.CDS.1957;Product=Ribokinase %28EC 2.7.1.15%29
+acAMD-5.contig.6	feature	CDS	110767	111684	.	+	0	ID=acAMD-5.genome.CDS.1956;Product=Indigoidine synthase A-like protein%2C uncharacterized enzyme involved in pigment biosynthesis
+acAMD-5.contig.6	feature	CDS	110247	110738	.	+	0	ID=acAMD-5.genome.CDS.1955;Product=
+acAMD-5.contig.6	feature	CDS	109942	110178	.	+	0	ID=acAMD-5.genome.CDS.1954;Product=
+acAMD-5.contig.6	feature	CDS	109170	109922	.	+	0	ID=acAMD-5.genome.CDS.1953;Product=ATPase component NikO of energizing module of nickel ECF transporter
+acAMD-5.contig.6	feature	CDS	108514	109173	.	+	0	ID=acAMD-5.genome.CDS.1952;Product=Transmembrane component NikQ of energizing module of nickel ECF transporter
+acAMD-5.contig.6	feature	CDS	108105	108395	.	+	0	ID=acAMD-5.genome.CDS.1951;Product=
+acAMD-5.contig.6	feature	CDS	107416	108102	.	+	0	ID=acAMD-5.genome.CDS.1950;Product=Substrate-specific component NikM of nickel ECF transporter
+acAMD-5.contig.6	feature	tRNA	107218	107302	.	-	.	ID=acAMD-5.genome.rna.16;Product=tRNA-Leu-TAG
+acAMD-5.contig.6	feature	CDS	106589	107191	.	+	0	ID=acAMD-5.genome.CDS.1949;Product=Nucleoside 5-triphosphatase RdgB %28dHAPTP%2C dITP%2C XTP-specific%29 %28EC 3.6.1.15%29
+acAMD-5.contig.6	feature	CDS	105867	106589	.	+	0	ID=acAMD-5.genome.CDS.1948;Product=Ribonuclease PH %28EC 2.7.7.56%29
+acAMD-5.contig.6	feature	CDS	105028	105837	.	+	0	ID=acAMD-5.genome.CDS.1947;Product=Glutamate racemase %28EC 5.1.1.3%29
+acAMD-5.contig.6	feature	CDS	103986	104789	.	-	0	ID=acAMD-5.genome.CDS.1946;Product=Proteorhodopsin
+acAMD-5.contig.6	feature	CDS	103383	103925	.	+	0	ID=acAMD-5.genome.CDS.1945;Product=
+acAMD-5.contig.6	feature	CDS	103102	103383	.	+	0	ID=acAMD-5.genome.CDS.1944;Product=ATP-dependent Clp protease adaptor protein ClpS
+acAMD-5.contig.6	feature	CDS	100983	103064	.	+	0	ID=acAMD-5.genome.CDS.1943;Product=D-3-phosphoglycerate dehydrogenase %28EC 1.1.1.95%29
+acAMD-5.contig.6	feature	CDS	100752	100982	.	+	0	ID=acAMD-5.genome.CDS.1942;Product=FIG01050400: hypothetical protein
+acAMD-5.contig.6	feature	CDS	100215	100592	.	-	0	ID=acAMD-5.genome.CDS.1941;Product=
+acAMD-5.contig.6	feature	CDS	99169	100173	.	-	0	ID=acAMD-5.genome.CDS.1940;Product=Ornithine carbamoyltransferase %28EC 2.1.3.3%29
+acAMD-5.contig.6	feature	CDS	97401	99188	.	+	0	ID=acAMD-5.genome.CDS.1939;Product=Phosphoenolpyruvate carboxykinase %5BGTP%5D %28EC 4.1.1.32%29
+acAMD-5.contig.6	feature	CDS	96606	97259	.	-	0	ID=acAMD-5.genome.CDS.1938;Product=hypothetical protein
+acAMD-5.contig.6	feature	CDS	95278	96558	.	-	0	ID=acAMD-5.genome.CDS.1937;Product=probable peptidase
+acAMD-5.contig.6	feature	CDS	94321	94785	.	+	0	ID=acAMD-5.genome.CDS.1936;Product=tmRNA-binding protein SmpB
+acAMD-5.contig.6	feature	CDS	93476	94318	.	+	0	ID=acAMD-5.genome.CDS.1935;Product=Carboxyl-terminal protease %28EC 3.4.21.102%29
+acAMD-5.contig.6	feature	CDS	92195	93418	.	+	0	ID=acAMD-5.genome.CDS.1934;Product=hypothetical protein
+acAMD-5.contig.6	feature	CDS	91281	92189	.	+	0	ID=acAMD-5.genome.CDS.1933;Product=Cell division protein FtsX
+acAMD-5.contig.6	feature	CDS	90591	91277	.	+	0	ID=acAMD-5.genome.CDS.1932;Product=Cell division transporter%2C ATP-binding protein FtsE %28TC 3.A.5.1.1%29
+acAMD-5.contig.6	feature	CDS	89485	90594	.	+	0	ID=acAMD-5.genome.CDS.1931;Product=Peptide chain release factor 2
+acAMD-5.contig.6	feature	CDS	89012	89449	.	+	0	ID=acAMD-5.genome.CDS.1930;Product=hypothetical protein
+acAMD-5.contig.6	feature	CDS	88593	89009	.	+	0	ID=acAMD-5.genome.CDS.1929;Product=
+acAMD-5.contig.6	feature	CDS	88234	88596	.	+	0	ID=acAMD-5.genome.CDS.660;Product=hypothetical protein
+acAMD-5.contig.6	feature	CDS	88065	88229	.	+	0	ID=acAMD-5.genome.CDS.1927;Product=hypothetical protein
+acAMD-5.contig.6	feature	CDS	87193	88050	.	+	0	ID=acAMD-5.genome.CDS.1926;Product=
+acAMD-5.contig.6	feature	CDS	86519	87193	.	+	0	ID=acAMD-5.genome.CDS.1925;Product=hypothetical protein
+acAMD-5.contig.6	feature	CDS	85491	86519	.	+	0	ID=acAMD-5.genome.CDS.1924;Product=type II secretion system protein E
+acAMD-5.contig.6	feature	CDS	84783	85343	.	-	0	ID=acAMD-5.genome.CDS.1923;Product=
+acAMD-5.contig.6	feature	CDS	84095	84742	.	+	0	ID=acAMD-5.genome.CDS.1922;Product=HAD-superfamily hydrolase subfamily IA%2C variant 3
+acAMD-5.contig.6	feature	CDS	82906	84030	.	-	0	ID=acAMD-5.genome.CDS.1921;Product=Mrp protein homolog
+acAMD-5.contig.6	feature	CDS	82640	82909	.	+	0	ID=acAMD-5.genome.CDS.1920;Product=
+acAMD-5.contig.6	feature	CDS	81491	82639	.	+	0	ID=acAMD-5.genome.CDS.1919;Product=
+acAMD-5.contig.6	feature	CDS	80774	81406	.	-	0	ID=acAMD-5.genome.CDS.1918;Product=
+acAMD-5.contig.6	feature	CDS	80594	80773	.	+	0	ID=acAMD-5.genome.CDS.1917;Product=hypothetical protein
+acAMD-5.contig.6	feature	CDS	80059	80499	.	+	0	ID=acAMD-5.genome.CDS.1916;Product=hypothetical protein
+acAMD-5.contig.6	feature	CDS	79432	80058	.	+	0	ID=acAMD-5.genome.CDS.1915;Product=Lysine decarboxylase family
+acAMD-5.contig.6	feature	CDS	78511	79419	.	-	0	ID=acAMD-5.genome.CDS.1914;Product=2%2C3%2C4%2C5-tetrahydropyridine-2%2C6-dicarboxylate N-succinyltransferase %28EC 2.3.1.117%29
+acAMD-5.contig.6	feature	CDS	77419	78519	.	+	0	ID=acAMD-5.genome.CDS.1913;Product=N-succinyl-L%2CL-diaminopimelate aminotransferase %28EC 2.6.1.17%29%2C type 2
+acAMD-5.contig.6	feature	CDS	77095	77415	.	+	0	ID=acAMD-5.genome.CDS.1912;Product=Ferredoxin
+acAMD-5.contig.6	feature	CDS	75621	77003	.	-	0	ID=acAMD-5.genome.CDS.1911;Product=Cysteinyl-tRNA synthetase %28EC 6.1.1.16%29
+acAMD-5.contig.6	feature	CDS	75321	75629	.	+	0	ID=acAMD-5.genome.CDS.1910;Product=
+acAMD-5.contig.6	feature	CDS	73154	75208	.	-	0	ID=acAMD-5.genome.CDS.1909;Product=Dipeptidyl peptidase IV
+acAMD-5.contig.6	feature	CDS	72039	73157	.	+	0	ID=acAMD-5.genome.CDS.1908;Product=GTP-binding and nucleic acid-binding protein YchF
+acAMD-5.contig.6	feature	CDS	71545	72015	.	-	0	ID=acAMD-5.genome.CDS.1907;Product=hypothetical protein
+acAMD-5.contig.6	feature	CDS	70960	71484	.	+	0	ID=acAMD-5.genome.CDS.1906;Product=
+acAMD-5.contig.6	feature	CDS	69860	70816	.	+	0	ID=acAMD-5.genome.CDS.1905;Product=4-hydroxy-3-methylbut-2-enyl diphosphate reductase %28EC 1.17.1.2%29
+acAMD-5.contig.6	feature	CDS	68624	69826	.	+	0	ID=acAMD-5.genome.CDS.1904;Product=Exodeoxyribonuclease VII large subunit %28EC 3.1.11.6%29
+acAMD-5.contig.6	feature	CDS	68370	68591	.	-	0	ID=acAMD-5.genome.CDS.1903;Product=
+acAMD-5.contig.6	feature	CDS	66706	68373	.	-	0	ID=acAMD-5.genome.CDS.1902;Product=Fumarate hydratase class I %28EC 4.2.1.2%29
+acAMD-5.contig.6	feature	CDS	66179	66709	.	+	0	ID=acAMD-5.genome.CDS.1901;Product=hypothetical protein
+acAMD-5.contig.6	feature	CDS	64659	66059	.	+	0	ID=acAMD-5.genome.CDS.1900;Product=Predicted ATPase related to phosphate starvation-inducible protein PhoH
+acAMD-5.contig.6	feature	CDS	63805	64569	.	+	0	ID=acAMD-5.genome.CDS.1899;Product=%282E%2C6Z%29-farnesyl diphosphate synthase %28EC 2.5.1.68%29
+acAMD-5.contig.6	feature	CDS	63643	63804	.	+	0	ID=acAMD-5.genome.CDS.1898;Product=
+acAMD-5.contig.6	feature	CDS	62809	63633	.	+	0	ID=acAMD-5.genome.CDS.1897;Product=Mycothiol S-conjugate amidase Mca
+acAMD-5.contig.6	feature	CDS	62234	62734	.	-	0	ID=acAMD-5.genome.CDS.1896;Product=
+acAMD-5.contig.6	feature	CDS	61735	62214	.	-	0	ID=acAMD-5.genome.CDS.1895;Product=Transcription elongation factor GreA
+acAMD-5.contig.6	feature	CDS	60454	61677	.	-	0	ID=acAMD-5.genome.CDS.1894;Product=putative multidrug resistance protein
+acAMD-5.contig.6	feature	CDS	59791	60429	.	-	0	ID=acAMD-5.genome.CDS.1893;Product=Peptide methionine sulfoxide reductase MsrA %28EC 1.8.4.11%29
+acAMD-5.contig.6	feature	tRNA	59712	59787	.	+	.	ID=acAMD-5.genome.rna.14;Product=tRNA-Leu-TAA
+acAMD-5.contig.6	feature	CDS	59150	59695	.	+	0	ID=acAMD-5.genome.CDS.1892;Product=Peptide deformylase %28EC 3.5.1.88%29
+acAMD-5.contig.6	feature	CDS	58633	59148	.	+	0	ID=acAMD-5.genome.CDS.1891;Product=hypothetical protein
+acAMD-5.contig.6	feature	CDS	57779	58615	.	+	0	ID=acAMD-5.genome.CDS.1890;Product=Uracil-DNA glycosylase%2C family 5
+acAMD-5.contig.6	feature	CDS	56825	57772	.	+	0	ID=acAMD-5.genome.CDS.1889;Product=Exopolyphosphatase %28EC 3.6.1.11%29
+acAMD-5.contig.6	feature	CDS	56350	56847	.	+	0	ID=acAMD-5.genome.CDS.1888;Product=FIG004853: possible toxin to DivIC
+acAMD-5.contig.6	feature	CDS	55868	56353	.	+	0	ID=acAMD-5.genome.CDS.1887;Product=
+acAMD-5.contig.6	feature	CDS	54588	55865	.	+	0	ID=acAMD-5.genome.CDS.1886;Product=Enolase %28EC 4.2.1.11%29
+acAMD-5.contig.6	feature	CDS	54128	54319	.	-	0	ID=acAMD-5.genome.CDS.1885;Product=
+acAMD-5.contig.6	feature	CDS	53839	54138	.	-	0	ID=acAMD-5.genome.CDS.1884;Product=
+acAMD-5.contig.6	feature	CDS	52913	53770	.	-	0	ID=acAMD-5.genome.CDS.1883;Product=FIG00953497: hypothetical protein
+acAMD-5.contig.6	feature	CDS	52255	52923	.	+	0	ID=acAMD-5.genome.CDS.1882;Product=Nucleoside triphosphate pyrophosphohydrolase MazG %28EC 3.6.1.8%29
+acAMD-5.contig.6	feature	CDS	51651	52244	.	+	0	ID=acAMD-5.genome.CDS.1881;Product=
+acAMD-5.contig.6	feature	CDS	48172	51654	.	+	0	ID=acAMD-5.genome.CDS.1880;Product=Transcription-repair coupling factor
+acAMD-5.contig.6	feature	CDS	47403	48167	.	+	0	ID=acAMD-5.genome.CDS.1879;Product=Protein cysQ homolog
+acAMD-5.contig.6	feature	CDS	46816	47406	.	+	0	ID=acAMD-5.genome.CDS.1878;Product=Peptidyl-tRNA hydrolase %28EC 3.1.1.29%29
+acAMD-5.contig.6	feature	CDS	46499	46813	.	+	0	ID=acAMD-5.genome.CDS.1877;Product=LSU ribosomal protein L25p
+acAMD-5.contig.6	feature	CDS	45371	46360	.	+	0	ID=acAMD-5.genome.CDS.1876;Product=Ribose-phosphate pyrophosphokinase %28EC 2.7.6.1%29
+acAMD-5.contig.6	feature	CDS	43920	45371	.	+	0	ID=acAMD-5.genome.CDS.1875;Product=N-acetylglucosamine-1-phosphate uridyltransferase %28EC 2.7.7.23%29 / Glucosamine-1-phosphate N-acetyltransferase %28EC 2.3.1.157%29
+acAMD-5.contig.6	feature	tRNA	43811	43881	.	+	.	ID=acAMD-5.genome.rna.13;Product=tRNA-Gln-TTG
+acAMD-5.contig.6	feature	CDS	43062	43712	.	-	0	ID=acAMD-5.genome.CDS.1874;Product=Transcriptional regulator%2C TetR family
+acAMD-5.contig.6	feature	CDS	42559	43065	.	-	0	ID=acAMD-5.genome.CDS.1873;Product=Transcriptional regulator%2C MarR family
+acAMD-5.contig.6	feature	CDS	41645	42562	.	+	0	ID=acAMD-5.genome.CDS.1872;Product=4-diphosphocytidyl-2-C-methyl-D-erythritol kinase %28EC 2.7.1.148%29
+acAMD-5.contig.6	feature	CDS	40799	41635	.	+	0	ID=acAMD-5.genome.CDS.602;Product=SSU rRNA %28adenine%281518%29-N%286%29/adenine%281519%29-N%286%29%29-dimethyltransferase %28EC 2.1.1.182%29
+acAMD-5.contig.6	feature	CDS	39925	40785	.	+	0	ID=acAMD-5.genome.CDS.1870;Product=Putative deoxyribonuclease YcfH
+acAMD-5.contig.6	feature	CDS	38334	39932	.	+	0	ID=acAMD-5.genome.CDS.1869;Product=Methionyl-tRNA synthetase %28EC 6.1.1.10%29
+acAMD-5.contig.6	feature	CDS	37470	38324	.	+	0	ID=acAMD-5.genome.CDS.1868;Product=rRNA small subunit methyltransferase I
+acAMD-5.contig.6	feature	CDS	36825	37439	.	+	0	ID=acAMD-5.genome.CDS.1867;Product=
+acAMD-5.contig.6	feature	CDS	36149	36775	.	+	0	ID=acAMD-5.genome.CDS.1866;Product=Ribosomal-protein-S5p-alanine acetyltransferase
+acAMD-5.contig.6	feature	CDS	35280	36152	.	+	0	ID=acAMD-5.genome.CDS.1865;Product=hypothetical protein
+acAMD-5.contig.6	feature	CDS	34375	35277	.	+	0	ID=acAMD-5.genome.CDS.1864;Product=UTP--glucose-1-phosphate uridylyltransferase %28EC 2.7.7.9%29
+acAMD-5.contig.6	feature	CDS	33793	34326	.	-	0	ID=acAMD-5.genome.CDS.1863;Product=5-formyltetrahydrofolate cyclo-ligase %28EC 6.3.3.2%29
+acAMD-5.contig.6	feature	CDS	33492	33809	.	+	0	ID=acAMD-5.genome.CDS.1862;Product=CrcB protein
+acAMD-5.contig.6	feature	CDS	33139	33495	.	+	0	ID=acAMD-5.genome.CDS.1861;Product=
+acAMD-5.contig.6	feature	CDS	32870	32992	.	-	0	ID=acAMD-5.genome.CDS.591;Product=
+acAMD-5.contig.6	feature	CDS	32367	32804	.	-	0	ID=acAMD-5.genome.CDS.1860;Product=
+acAMD-5.contig.6	feature	CDS	31959	32339	.	-	0	ID=acAMD-5.genome.CDS.1859;Product=Large-conductance mechanosensitive channel
+acAMD-5.contig.6	feature	CDS	31645	31962	.	+	0	ID=acAMD-5.genome.CDS.1858;Product=
+acAMD-5.contig.6	feature	CDS	31511	31651	.	+	0	ID=acAMD-5.genome.CDS.587;Product=
+acAMD-5.contig.6	feature	CDS	30394	31512	.	-	0	ID=acAMD-5.genome.CDS.1857;Product=hypothetical protein
+acAMD-5.contig.6	feature	CDS	29370	30362	.	-	0	ID=acAMD-5.genome.CDS.1856;Product=hypothetical protein
+acAMD-5.contig.6	feature	tRNA	29251	29322	.	-	.	ID=acAMD-5.genome.rna.17;Product=tRNA-Arg-CCT
+acAMD-5.contig.6	feature	CDS	27206	29170	.	-	0	ID=acAMD-5.genome.CDS.1855;Product=5%27-nucleotidase %28EC 3.1.3.5%29
+acAMD-5.contig.6	feature	CDS	25777	27060	.	-	0	ID=acAMD-5.genome.CDS.1854;Product=Citrate synthase %28si%29 %28EC 2.3.3.1%29
+acAMD-5.contig.6	feature	CDS	24248	25630	.	+	0	ID=acAMD-5.genome.CDS.1853;Product=hypothetical protein
+acAMD-5.contig.6	feature	CDS	23533	24243	.	+	0	ID=acAMD-5.genome.CDS.1852;Product=
+acAMD-5.contig.6	feature	CDS	22073	23464	.	+	0	ID=acAMD-5.genome.CDS.1851;Product=NAD%28P%29 transhydrogenase subunit beta %28EC 1.6.1.2%29
+acAMD-5.contig.6	feature	CDS	21792	22076	.	+	0	ID=acAMD-5.genome.CDS.1850;Product=NAD%28P%29 transhydrogenase alpha subunit %28EC 1.6.1.2%29
+acAMD-5.contig.6	feature	CDS	20656	21795	.	+	0	ID=acAMD-5.genome.CDS.1849;Product=NAD%28P%29 transhydrogenase alpha subunit %28EC 1.6.1.2%29
+acAMD-5.contig.6	feature	CDS	20056	20616	.	+	0	ID=acAMD-5.genome.CDS.1848;Product=hypothetical protein
+acAMD-5.contig.6	feature	CDS	18626	19975	.	-	0	ID=acAMD-5.genome.CDS.1847;Product=Deoxyribodipyrimidine photolyase %28EC 4.1.99.3%29
+acAMD-5.contig.6	feature	CDS	17673	18629	.	+	0	ID=acAMD-5.genome.CDS.1846;Product=1-phosphofructokinase %28EC 2.7.1.56%29
+acAMD-5.contig.6	feature	CDS	16946	17632	.	+	0	ID=acAMD-5.genome.CDS.1845;Product=Pyridoxamine 5%27-phosphate oxidase %28EC 1.4.3.5%29
+acAMD-5.contig.6	feature	CDS	15762	16862	.	-	0	ID=acAMD-5.genome.CDS.1844;Product=Phosphoserine aminotransferase %28EC 2.6.1.52%29
+acAMD-5.contig.6	feature	CDS	14538	15485	.	+	0	ID=acAMD-5.genome.CDS.1842;Product=hypothetical protein
+acAMD-5.contig.6	feature	CDS	14155	14535	.	+	0	ID=acAMD-5.genome.CDS.1841;Product=Cold shock protein CspC
+acAMD-5.contig.6	feature	CDS	13496	14113	.	+	0	ID=acAMD-5.genome.CDS.1840;Product=hypothetical protein
+acAMD-5.contig.6	feature	CDS	11196	13463	.	-	0	ID=acAMD-5.genome.CDS.1839;Product=probable DNA-binding protein
+acAMD-5.contig.6	feature	CDS	10097	11179	.	-	0	ID=acAMD-5.genome.CDS.1838;Product=putative peptidase
+acAMD-5.contig.6	feature	CDS	8412	10046	.	-	0	ID=acAMD-5.genome.CDS.1837;Product=DNA repair helicase
+acAMD-5.contig.6	feature	CDS	6727	8343	.	+	0	ID=acAMD-5.genome.CDS.1836;Product=Heat shock protein 60 family chaperone GroEL
+acAMD-5.contig.6	feature	CDS	6342	6611	.	+	0	ID=acAMD-5.genome.CDS.1835;Product=hypothetical protein
+acAMD-5.contig.6	feature	tRNA	6190	6264	.	+	.	ID=acAMD-5.genome.rna.12;Product=tRNA-Thr-TGT
+acAMD-5.contig.6	feature	CDS	5123	6073	.	+	0	ID=acAMD-5.genome.CDS.1834;Product=23S rRNA %28guanosine%282251%29-2%27-O%29-methyltransferase %28EC 2.1.1.185%29
+acAMD-5.contig.6	feature	CDS	3653	5023	.	+	0	ID=acAMD-5.genome.CDS.1833;Product=PTS system%2C galactitol-specific IIC component %28EC 2.7.1.69%29
+acAMD-5.contig.6	feature	CDS	3338	3616	.	+	0	ID=acAMD-5.genome.CDS.1832;Product=PTS system%2C galactitol-specific IIB component %28EC 2.7.1.69%29
+acAMD-5.contig.6	feature	CDS	2779	3243	.	-	0	ID=acAMD-5.genome.CDS.1831;Product=PTS system%2C galactitol-specific IIA component %28EC 2.7.1.69%29
+acAMD-5.contig.6	feature	CDS	1395	2774	.	+	0	ID=acAMD-5.genome.CDS.1830;Product=Cysteinyl-tRNA synthetase %28EC 6.1.1.16%29
+acAMD-5.contig.6	feature	CDS	922	1386	.	+	0	ID=acAMD-5.genome.CDS.1829;Product=2-C-methyl-D-erythritol 2%2C4-cyclodiphosphate synthase %28EC 4.6.1.12%29
+acAMD-5.contig.6	feature	CDS	637	912	.	+	0	ID=acAMD-5.genome.CDS.1828;Product=Phosphocarrier protein of PTS system
+acAMD-5.contig.6	feature	CDS	1	537	.	-	0	ID=acAMD-5.genome.CDS.1827;Product=Acetoin dehydrogenase E1 component alpha-subunit %28EC 1.2.4.-%29
+acAMD-5.contig.7	feature	CDS	114521	115039	.	+	0	ID=acAMD-5.genome.CDS.2113;Product=Solanesyl diphosphate synthase %28EC 2.5.1.11%29
+acAMD-5.contig.7	feature	CDS	112969	114516	.	+	0	ID=acAMD-5.genome.CDS.2112;Product=NADH-ubiquinone oxidoreductase chain N %28EC 1.6.5.3%29
+acAMD-5.contig.7	feature	CDS	111443	112969	.	+	0	ID=acAMD-5.genome.CDS.2111;Product=NADH-ubiquinone oxidoreductase chain M %28EC 1.6.5.3%29
+acAMD-5.contig.7	feature	CDS	109510	111441	.	+	0	ID=acAMD-5.genome.CDS.2110;Product=NADH-ubiquinone oxidoreductase chain L %28EC 1.6.5.3%29
+acAMD-5.contig.7	feature	CDS	109189	109488	.	+	0	ID=acAMD-5.genome.CDS.2109;Product=NADH-ubiquinone oxidoreductase chain K %28EC 1.6.5.3%29
+acAMD-5.contig.7	feature	CDS	108405	109202	.	+	0	ID=acAMD-5.genome.CDS.2108;Product=NADH-ubiquinone oxidoreductase chain J %28EC 1.6.5.3%29
+acAMD-5.contig.7	feature	CDS	107860	108405	.	+	0	ID=acAMD-5.genome.CDS.2107;Product=NADH-ubiquinone oxidoreductase chain I %28EC 1.6.5.3%29
+acAMD-5.contig.7	feature	CDS	106593	107867	.	+	0	ID=acAMD-5.genome.CDS.2106;Product=NADH-ubiquinone oxidoreductase chain H %28EC 1.6.5.3%29
+acAMD-5.contig.7	feature	CDS	104221	106596	.	+	0	ID=acAMD-5.genome.CDS.2105;Product=NADH-ubiquinone oxidoreductase chain G %28EC 1.6.5.3%29
+acAMD-5.contig.7	feature	CDS	102959	104224	.	+	0	ID=acAMD-5.genome.CDS.2104;Product=NADH-ubiquinone oxidoreductase chain F %28EC 1.6.5.3%29
+acAMD-5.contig.7	feature	CDS	102327	102959	.	+	0	ID=acAMD-5.genome.CDS.2103;Product=NADH-ubiquinone oxidoreductase chain E %28EC 1.6.5.3%29
+acAMD-5.contig.7	feature	CDS	100987	102327	.	+	0	ID=acAMD-5.genome.CDS.2102;Product=NADH-ubiquinone oxidoreductase chain D %28EC 1.6.5.3%29
+acAMD-5.contig.7	feature	CDS	100295	100990	.	+	0	ID=acAMD-5.genome.CDS.2101;Product=NADH-ubiquinone oxidoreductase chain C %28EC 1.6.5.3%29
+acAMD-5.contig.7	feature	CDS	99732	100286	.	+	0	ID=acAMD-5.genome.CDS.2100;Product=NADH-ubiquinone oxidoreductase chain B %28EC 1.6.5.3%29
+acAMD-5.contig.7	feature	CDS	99438	99731	.	+	0	ID=acAMD-5.genome.CDS.836;Product=NADH ubiquinone oxidoreductase chain A %28EC 1.6.5.3%29
+acAMD-5.contig.7	feature	CDS	98566	99264	.	+	0	ID=acAMD-5.genome.CDS.2098;Product=Demethylmenaquinone methyltransferase %28EC 2.1.1.163%29
+acAMD-5.contig.7	feature	CDS	97233	98501	.	-	0	ID=acAMD-5.genome.CDS.2097;Product=Isochorismate synthase %28EC 5.4.4.2%29 %40 Menaquinone-specific isochorismate synthase %28EC 5.4.4.2%29
+acAMD-5.contig.7	feature	CDS	95654	97249	.	+	0	ID=acAMD-5.genome.CDS.2096;Product=2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylic-acid synthase %28EC 2.2.1.9%29
+acAMD-5.contig.7	feature	CDS	94674	95651	.	+	0	ID=acAMD-5.genome.CDS.2095;Product=
+acAMD-5.contig.7	feature	CDS	93811	94677	.	+	0	ID=acAMD-5.genome.CDS.2094;Product=Naphthoate synthase %28EC 4.1.3.36%29
+acAMD-5.contig.7	feature	CDS	92663	93763	.	-	0	ID=acAMD-5.genome.CDS.2093;Product=
+acAMD-5.contig.7	feature	CDS	91797	92666	.	-	0	ID=acAMD-5.genome.CDS.2092;Product=1%2C4-dihydroxy-2-naphthoate polyprenyltransferase %28EC 2.5.1.74%29
+acAMD-5.contig.7	feature	CDS	90685	91518	.	+	0	ID=acAMD-5.genome.CDS.2090;Product=Cytochrome c-type biogenesis protein CcsA/ResC
+acAMD-5.contig.7	feature	CDS	89180	90688	.	+	0	ID=acAMD-5.genome.CDS.2089;Product=Ccs1/ResB-related putative cytochrome C-type biogenesis protein
+acAMD-5.contig.7	feature	CDS	88470	89183	.	+	0	ID=acAMD-5.genome.CDS.2088;Product=Cytochrome c-type biogenesis protein CcdA %28DsbD analog%29
+acAMD-5.contig.7	feature	CDS	87931	88470	.	+	0	ID=acAMD-5.genome.CDS.2087;Product=Thiol:disulfide oxidoreductase related to ResA
+acAMD-5.contig.7	feature	CDS	87314	87931	.	+	0	ID=acAMD-5.genome.CDS.2086;Product=Hypothetical%2C related to broad specificity phosphatases COG0406
+acAMD-5.contig.7	feature	CDS	85727	87286	.	+	0	ID=acAMD-5.genome.CDS.2085;Product=Uroporphyrinogen-III methyltransferase %28EC 2.1.1.107%29 / Uroporphyrinogen-III synthase %28EC 4.2.1.75%29
+acAMD-5.contig.7	feature	CDS	85047	85730	.	+	0	ID=acAMD-5.genome.CDS.2084;Product=Redox-sensitive transcriptional regulator %28AT-rich DNA-binding protein%29
+acAMD-5.contig.7	feature	CDS	84792	84977	.	+	0	ID=acAMD-5.genome.CDS.2083;Product=
+acAMD-5.contig.7	feature	CDS	83769	84557	.	+	0	ID=acAMD-5.genome.CDS.2082;Product=Pyrroline-5-carboxylate reductase %28EC 1.5.1.2%29
+acAMD-5.contig.7	feature	CDS	82830	83759	.	+	0	ID=acAMD-5.genome.CDS.2081;Product=Exopolyphosphatase %28EC 3.6.1.11%29
+acAMD-5.contig.7	feature	CDS	82017	82727	.	-	0	ID=acAMD-5.genome.CDS.2080;Product=FIG01122970: hypothetical protein
+acAMD-5.contig.7	feature	CDS	80648	82006	.	-	0	ID=acAMD-5.genome.CDS.2079;Product=DNA repair protein RadA
+acAMD-5.contig.7	feature	CDS	78153	80651	.	+	0	ID=acAMD-5.genome.CDS.2078;Product=ATP-dependent Clp protease%2C ATP-binding subunit ClpC / Negative regulator of genetic competence clcC/mecB
+acAMD-5.contig.7	feature	CDS	75322	78048	.	-	0	ID=acAMD-5.genome.CDS.2077;Product=Phosphoenolpyruvate carboxylase %28EC 4.1.1.31%29
+acAMD-5.contig.7	feature	CDS	74819	75325	.	+	0	ID=acAMD-5.genome.CDS.2076;Product=
+acAMD-5.contig.7	feature	CDS	73317	74813	.	+	0	ID=acAMD-5.genome.CDS.2075;Product=Lysyl-tRNA synthetase %28class II%29 %28EC 6.1.1.6%29
+acAMD-5.contig.7	feature	CDS	72525	73280	.	+	0	ID=acAMD-5.genome.CDS.2074;Product=Pantothenate kinase type III%2C CoaX-like %28EC 2.7.1.33%29
+acAMD-5.contig.7	feature	CDS	71707	72516	.	+	0	ID=acAMD-5.genome.CDS.2073;Product=Pantoate--beta-alanine ligase %28EC 6.3.2.1%29
+acAMD-5.contig.7	feature	CDS	71261	71710	.	+	0	ID=acAMD-5.genome.CDS.2072;Product=
+acAMD-5.contig.7	feature	CDS	70773	71264	.	+	0	ID=acAMD-5.genome.CDS.2071;Product=2-amino-4-hydroxy-6-hydroxymethyldihydropteridine pyrophosphokinase %28EC 2.7.6.3%29
+acAMD-5.contig.7	feature	CDS	70414	70776	.	+	0	ID=acAMD-5.genome.CDS.2070;Product=Dihydroneopterin aldolase %28EC 4.1.2.25%29
+acAMD-5.contig.7	feature	CDS	69597	70421	.	+	0	ID=acAMD-5.genome.CDS.2069;Product=Dihydropteroate synthase %28EC 2.5.1.15%29
+acAMD-5.contig.7	feature	CDS	68968	69594	.	+	0	ID=acAMD-5.genome.CDS.2068;Product=GTP cyclohydrolase I %28EC 3.5.4.16%29 type 1
+acAMD-5.contig.7	feature	CDS	67027	68958	.	+	0	ID=acAMD-5.genome.CDS.2067;Product=Cell division protein FtsH %28EC 3.4.24.-%29
+acAMD-5.contig.7	feature	CDS	66388	66939	.	+	0	ID=acAMD-5.genome.CDS.2066;Product=Hypoxanthine-guanine phosphoribosyltransferase %28EC 2.4.2.8%29
+acAMD-5.contig.7	feature	CDS	65420	66391	.	+	0	ID=acAMD-5.genome.CDS.2065;Product=tRNA%28Ile%29-lysidine synthetase %28EC 6.3.4.19%29
+acAMD-5.contig.7	feature	CDS	62965	65241	.	-	0	ID=acAMD-5.genome.CDS.2064;Product=Pyrophosphate-energized proton pump %28EC 3.6.1.1%29
+acAMD-5.contig.7	feature	CDS	60990	62933	.	+	0	ID=acAMD-5.genome.CDS.2063;Product=Copper resistance protein D
+acAMD-5.contig.7	feature	CDS	60378	60914	.	+	0	ID=acAMD-5.genome.CDS.2062;Product=Low molecular weight protein tyrosine phosphatase %28EC 3.1.3.48%29
+acAMD-5.contig.7	feature	CDS	59867	60262	.	-	0	ID=acAMD-5.genome.CDS.2061;Product=
+acAMD-5.contig.7	feature	CDS	57879	59768	.	-	0	ID=acAMD-5.genome.CDS.2060;Product=GTP-binding protein TypA/BipA
+acAMD-5.contig.7	feature	CDS	57376	57867	.	+	0	ID=acAMD-5.genome.CDS.2059;Product=Inorganic pyrophosphatase %28EC 3.6.1.1%29
+acAMD-5.contig.7	feature	tRNA	57268	57342	.	+	.	ID=acAMD-5.genome.rna.19;Product=tRNA-Thr-CGT
+acAMD-5.contig.7	feature	CDS	55754	57253	.	+	0	ID=acAMD-5.genome.CDS.2058;Product=probable exported protease %5BEC:3.4.-.-%5D
+acAMD-5.contig.7	feature	CDS	54578	55753	.	+	0	ID=acAMD-5.genome.CDS.2057;Product=DNA polymerase III delta prime subunit %28EC 2.7.7.7%29
+acAMD-5.contig.7	feature	CDS	53928	54581	.	+	0	ID=acAMD-5.genome.CDS.2056;Product=Thymidylate kinase %28EC 2.7.4.9%29
+acAMD-5.contig.7	feature	CDS	51226	53898	.	+	0	ID=acAMD-5.genome.CDS.2055;Product=DNA topoisomerase I %28EC 5.99.1.2%29
+acAMD-5.contig.7	feature	CDS	50764	51108	.	+	0	ID=acAMD-5.genome.CDS.2054;Product=
+acAMD-5.contig.7	feature	CDS	50420	50767	.	+	0	ID=acAMD-5.genome.CDS.2053;Product=
+acAMD-5.contig.7	feature	CDS	50181	50426	.	+	0	ID=acAMD-5.genome.CDS.788;Product=Glycolate dehydrogenase %28EC 1.1.99.14%29%2C iron-sulfur subunit GlcF
+acAMD-5.contig.7	feature	CDS	49422	50105	.	+	0	ID=acAMD-5.genome.CDS.2051;Product=hypothetical protein
+acAMD-5.contig.7	feature	CDS	48805	49425	.	+	0	ID=acAMD-5.genome.CDS.2050;Product=hypothetical protein
+acAMD-5.contig.7	feature	CDS	47705	48811	.	+	0	ID=acAMD-5.genome.CDS.2049;Product=Flp pilus assembly protein%2C ATPase CpaF
+acAMD-5.contig.7	feature	CDS	46704	47708	.	+	0	ID=acAMD-5.genome.CDS.2048;Product=hypothetical protein
+acAMD-5.contig.7	feature	CDS	44601	46550	.	-	0	ID=acAMD-5.genome.CDS.2047;Product=Acetyl-coenzyme A synthetase %28EC 6.2.1.1%29
+acAMD-5.contig.7	feature	CDS	44144	44539	.	-	0	ID=acAMD-5.genome.CDS.2046;Product=hypothetical protein
+acAMD-5.contig.7	feature	CDS	43216	44139	.	-	0	ID=acAMD-5.genome.CDS.2045;Product=Epoxide hydrolase %28EC 3.3.2.9%29
+acAMD-5.contig.7	feature	CDS	42700	43239	.	+	0	ID=acAMD-5.genome.CDS.2044;Product=
+acAMD-5.contig.7	feature	CDS	42073	42699	.	+	0	ID=acAMD-5.genome.CDS.2043;Product=
+acAMD-5.contig.7	feature	CDS	41402	42076	.	+	0	ID=acAMD-5.genome.CDS.2042;Product=Endonuclease III %28EC 4.2.99.18%29
+acAMD-5.contig.7	feature	CDS	40650	41324	.	-	0	ID=acAMD-5.genome.CDS.2041;Product=cAMP-binding proteins - catabolite gene activator and regulatory subunit of cAMP-dependent protein kinases
+acAMD-5.contig.7	feature	CDS	40192	40653	.	+	0	ID=acAMD-5.genome.CDS.2040;Product=RidA/YER057c/UK114 superfamily%2C group 1
+acAMD-5.contig.7	feature	CDS	40040	40195	.	+	0	ID=acAMD-5.genome.CDS.2039;Product=FIG011121: hypothetical protein
+acAMD-5.contig.7	feature	CDS	39709	39996	.	+	0	ID=acAMD-5.genome.CDS.2038;Product=WhiB-type transcription regulator
+acAMD-5.contig.7	feature	CDS	37489	39681	.	-	0	ID=acAMD-5.genome.CDS.2037;Product=Multimodular transpeptidase-transglycosylase %28EC 2.4.1.129%29 %28EC 3.4.-.-%29
+acAMD-5.contig.7	feature	CDS	37032	37484	.	+	0	ID=acAMD-5.genome.CDS.2036;Product=Transamidase GatB domain protein
+acAMD-5.contig.7	feature	CDS	36108	37022	.	-	0	ID=acAMD-5.genome.CDS.2035;Product=putative secreted protein
+acAMD-5.contig.7	feature	tRNA	35924	36016	.	-	.	ID=acAMD-5.genome.rna.20;Product=tRNA-Ser-TGA
+acAMD-5.contig.7	feature	tRNA	35768	35857	.	-	.	ID=acAMD-5.genome.rna.21;Product=tRNA-Ser-GCT
+acAMD-5.contig.7	feature	tRNA	35612	35687	.	-	.	ID=acAMD-5.genome.rna.22;Product=tRNA-Arg-ACG
+acAMD-5.contig.7	feature	CDS	34736	35341	.	-	0	ID=acAMD-5.genome.CDS.2034;Product=Pyrrolidone-carboxylate peptidase %28EC 3.4.19.3%29
+acAMD-5.contig.7	feature	CDS	33582	34739	.	+	0	ID=acAMD-5.genome.CDS.2033;Product=PQQ-dependent oxidoreductase%2C gdhB family
+acAMD-5.contig.7	feature	CDS	32352	33569	.	+	0	ID=acAMD-5.genome.CDS.2032;Product=Na%2B/H%2B antiporter NhaA type
+acAMD-5.contig.7	feature	CDS	32082	32342	.	+	0	ID=acAMD-5.genome.CDS.2031;Product=
+acAMD-5.contig.7	feature	CDS	30100	32052	.	+	0	ID=acAMD-5.genome.CDS.2030;Product=Metallopeptidase
+acAMD-5.contig.7	feature	CDS	27120	29987	.	-	0	ID=acAMD-5.genome.CDS.2029;Product=Glycine dehydrogenase %5Bdecarboxylating%5D %28glycine cleavage system P protein%29 %28EC 1.4.4.2%29
+acAMD-5.contig.7	feature	CDS	26029	27120	.	-	0	ID=acAMD-5.genome.CDS.2028;Product=Aminomethyltransferase %28glycine cleavage system T protein%29 %28EC 2.1.2.10%29
+acAMD-5.contig.7	feature	CDS	25655	26023	.	-	0	ID=acAMD-5.genome.CDS.2027;Product=Glycine cleavage system H protein
+acAMD-5.contig.7	feature	CDS	25025	25585	.	-	0	ID=acAMD-5.genome.CDS.2026;Product=LemA family protein
+acAMD-5.contig.7	feature	CDS	24114	25016	.	-	0	ID=acAMD-5.genome.CDS.760;Product=hypothetical protein
+acAMD-5.contig.7	feature	CDS	23158	24117	.	-	0	ID=acAMD-5.genome.CDS.2024;Product=
+acAMD-5.contig.7	feature	CDS	22669	23076	.	-	0	ID=acAMD-5.genome.CDS.2023;Product=DoxX family protein
+acAMD-5.contig.7	feature	CDS	21839	22618	.	+	0	ID=acAMD-5.genome.CDS.2022;Product=
+acAMD-5.contig.7	feature	CDS	21471	21674	.	-	0	ID=acAMD-5.genome.CDS.2021;Product=Cold shock protein CspA
+acAMD-5.contig.7	feature	CDS	20052	21419	.	+	0	ID=acAMD-5.genome.CDS.2020;Product=Aromatic-L-amino-acid decarboxylase %28EC 4.1.1.28%29
+acAMD-5.contig.7	feature	CDS	18723	19952	.	-	0	ID=acAMD-5.genome.CDS.2019;Product=Saccharopine dehydrogenase and related proteins
+acAMD-5.contig.7	feature	CDS	17638	18726	.	+	0	ID=acAMD-5.genome.CDS.2018;Product=Transaldolase %28EC 2.2.1.2%29
+acAMD-5.contig.7	feature	CDS	16997	17635	.	+	0	ID=acAMD-5.genome.CDS.2017;Product=Uracil phosphoribosyltransferase %28EC 2.4.2.9%29
+acAMD-5.contig.7	feature	CDS	16482	16943	.	-	0	ID=acAMD-5.genome.CDS.2016;Product=tRNA-specific adenosine-34 deaminase %28EC 3.5.4.-%29
+acAMD-5.contig.7	feature	tRNA	16390	16479	.	+	.	ID=acAMD-5.genome.rna.18;Product=tRNA-Ser-CGA
+acAMD-5.contig.7	feature	tRNA	16125	16212	.	-	.	ID=acAMD-5.genome.rna.23;Product=tRNA-Ser-GGA
+acAMD-5.contig.7	feature	CDS	14379	16082	.	-	0	ID=acAMD-5.genome.CDS.2015;Product=DNA polymerase III subunits gamma and tau %28EC 2.7.7.7%29
+acAMD-5.contig.7	feature	CDS	13779	14375	.	-	0	ID=acAMD-5.genome.CDS.2014;Product=Recombination protein RecR
+acAMD-5.contig.7	feature	CDS	12451	13722	.	-	0	ID=acAMD-5.genome.CDS.2013;Product=Aspartokinase %28EC 2.7.2.4%29
+acAMD-5.contig.7	feature	CDS	11398	12450	.	-	0	ID=acAMD-5.genome.CDS.2012;Product=Aspartate-semialdehyde dehydrogenase %28EC 1.2.1.11%29
+acAMD-5.contig.7	feature	CDS	10847	11401	.	+	0	ID=acAMD-5.genome.CDS.2011;Product=
+acAMD-5.contig.7	feature	CDS	9445	10755	.	-	0	ID=acAMD-5.genome.CDS.2010;Product=Seryl-tRNA synthetase %28EC 6.1.1.11%29
+acAMD-5.contig.7	feature	CDS	8603	9448	.	-	0	ID=acAMD-5.genome.CDS.2009;Product=
+acAMD-5.contig.7	feature	CDS	8368	8583	.	-	0	ID=acAMD-5.genome.CDS.743;Product=
+acAMD-5.contig.7	feature	CDS	6195	8363	.	-	0	ID=acAMD-5.genome.CDS.2007;Product=Lead%2C cadmium%2C zinc and mercury transporting ATPase %28EC 3.6.3.3%29 %28EC 3.6.3.5%29%3B Copper-translocating P-type ATPase %28EC 3.6.3.4%29
+acAMD-5.contig.7	feature	CDS	5281	6198	.	+	0	ID=acAMD-5.genome.CDS.2006;Product=Prephenate dehydratase %28EC 4.2.1.51%29
+acAMD-5.contig.7	feature	CDS	4430	5218	.	+	0	ID=acAMD-5.genome.CDS.2005;Product=Glycerophosphoryl diester phosphodiesterase %28EC 3.1.4.46%29
+acAMD-5.contig.7	feature	CDS	3156	4391	.	-	0	ID=acAMD-5.genome.CDS.2004;Product=4-hydroxybutyrate coenzyme A transferase
+acAMD-5.contig.7	feature	CDS	2779	3141	.	-	0	ID=acAMD-5.genome.CDS.2003;Product=
+acAMD-5.contig.7	feature	CDS	2047	2712	.	-	0	ID=acAMD-5.genome.CDS.2002;Product=hypothetical protein
+acAMD-5.contig.7	feature	CDS	1598	2050	.	-	0	ID=acAMD-5.genome.CDS.2001;Product=hypothetical protein
+acAMD-5.contig.7	feature	CDS	474	1601	.	-	0	ID=acAMD-5.genome.CDS.2000;Product=Protein serine/threonine phosphatase PrpC%2C regulation of stationary phase
+acAMD-5.contig.7	feature	CDS	1	471	.	-	0	ID=acAMD-5.genome.CDS.1999;Product=hypothetical protein
+acAMD-5.contig.8	feature	CDS	290553	291743	.	-	0	ID=acAMD-5.genome.CDS.2410;Product=Ribosomal large subunit pseudouridine synthase B %28EC 4.2.1.70%29
+acAMD-5.contig.8	feature	CDS	290223	290504	.	-	0	ID=acAMD-5.genome.CDS.2409;Product=
+acAMD-5.contig.8	feature	CDS	290038	290223	.	-	0	ID=acAMD-5.genome.CDS.2408;Product=
+acAMD-5.contig.8	feature	CDS	289243	290031	.	-	0	ID=acAMD-5.genome.CDS.2407;Product=RNA binding methyltransferase FtsJ like
+acAMD-5.contig.8	feature	CDS	288372	289250	.	-	0	ID=acAMD-5.genome.CDS.2406;Product=NAD kinase %28EC 2.7.1.23%29
+acAMD-5.contig.8	feature	CDS	286669	288369	.	-	0	ID=acAMD-5.genome.CDS.2405;Product=DNA repair protein RecN
+acAMD-5.contig.8	feature	CDS	284967	286619	.	-	0	ID=acAMD-5.genome.CDS.2404;Product=CTP synthase %28EC 6.3.4.2%29
+acAMD-5.contig.8	feature	CDS	283800	284909	.	-	0	ID=acAMD-5.genome.CDS.2403;Product=Alanine dehydrogenase %28EC 1.4.1.1%29
+acAMD-5.contig.8	feature	CDS	282870	283676	.	-	0	ID=acAMD-5.genome.CDS.2402;Product=Site-specific tyrosine recombinase XerD
+acAMD-5.contig.8	feature	CDS	281938	282777	.	-	0	ID=acAMD-5.genome.CDS.2401;Product=Chromosome %28plasmid%29 partitioning protein ParA
+acAMD-5.contig.8	feature	CDS	281102	281941	.	-	0	ID=acAMD-5.genome.CDS.2400;Product=Segregation and condensation protein A
+acAMD-5.contig.8	feature	CDS	280495	281109	.	-	0	ID=acAMD-5.genome.CDS.2399;Product=Segregation and condensation protein B
+acAMD-5.contig.8	feature	CDS	279758	280498	.	-	0	ID=acAMD-5.genome.CDS.2398;Product=Ribosomal large subunit pseudouridine synthase B %28EC 4.2.1.70%29
+acAMD-5.contig.8	feature	CDS	279377	279739	.	-	0	ID=acAMD-5.genome.CDS.2397;Product=Chorismate mutase II %28EC 5.4.99.5%29
+acAMD-5.contig.8	feature	CDS	278322	279380	.	-	0	ID=acAMD-5.genome.CDS.2396;Product=Arogenate dehydrogenase %28EC 1.3.1.43%29
+acAMD-5.contig.8	feature	CDS	276269	278329	.	-	0	ID=acAMD-5.genome.CDS.2395;Product=GTP-binding protein EngA
+acAMD-5.contig.8	feature	CDS	275755	276276	.	+	0	ID=acAMD-5.genome.CDS.2394;Product=Adenine phosphoribosyltransferase %28EC 2.4.2.7%29
+acAMD-5.contig.8	feature	CDS	275165	275728	.	-	0	ID=acAMD-5.genome.CDS.2393;Product=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase %28EC 2.7.8.5%29
+acAMD-5.contig.8	feature	CDS	274338	275168	.	-	0	ID=acAMD-5.genome.CDS.2392;Product=FIG030330: hypothetical protein
+acAMD-5.contig.8	feature	CDS	274006	274338	.	-	0	ID=acAMD-5.genome.CDS.2391;Product=
+acAMD-5.contig.8	feature	CDS	273334	274002	.	-	0	ID=acAMD-5.genome.CDS.2390;Product=Division initiation protein
+acAMD-5.contig.8	feature	CDS	272855	273280	.	-	0	ID=acAMD-5.genome.CDS.2389;Product=
+acAMD-5.contig.8	feature	CDS	272118	272855	.	-	0	ID=acAMD-5.genome.CDS.2388;Product=transcriptional regulator%2C MerR family
+acAMD-5.contig.8	feature	CDS	271624	272091	.	-	0	ID=acAMD-5.genome.CDS.2387;Product=FIG01121484: hypothetical protein
+acAMD-5.contig.8	feature	CDS	270941	271507	.	-	0	ID=acAMD-5.genome.CDS.2386;Product=transcriptional regulator%2C MerR family
+acAMD-5.contig.8	feature	CDS	269825	270889	.	-	0	ID=acAMD-5.genome.CDS.2385;Product=hypothetical protein
+acAMD-5.contig.8	feature	CDS	269109	269825	.	-	0	ID=acAMD-5.genome.CDS.2384;Product=Glycerophosphoryl diester phosphodiesterase %28EC 3.1.4.46%29
+acAMD-5.contig.8	feature	CDS	267638	269128	.	+	0	ID=acAMD-5.genome.CDS.2383;Product=Apolipoprotein N-acyltransferase %28EC 2.3.1.-%29 / Copper homeostasis protein CutE
+acAMD-5.contig.8	feature	CDS	266523	267641	.	+	0	ID=acAMD-5.genome.CDS.2382;Product=
+acAMD-5.contig.8	feature	CDS	265552	266466	.	-	0	ID=acAMD-5.genome.CDS.2381;Product=DNA polymerase I %28EC 2.7.7.7%29
+acAMD-5.contig.8	feature	CDS	262855	265578	.	+	0	ID=acAMD-5.genome.CDS.2380;Product=FIG005666: putative helicase
+acAMD-5.contig.8	feature	CDS	261962	262858	.	+	0	ID=acAMD-5.genome.CDS.2379;Product=
+acAMD-5.contig.8	feature	CDS	261033	261965	.	+	0	ID=acAMD-5.genome.CDS.2378;Product=FIG005453: Putative DeoR-family transcriptional regulator
+acAMD-5.contig.8	feature	CDS	260528	261028	.	+	0	ID=acAMD-5.genome.CDS.2377;Product=FKBP-type peptidyl-prolyl cis-trans isomerases 1
+acAMD-5.contig.8	feature	CDS	259677	260531	.	+	0	ID=acAMD-5.genome.CDS.2376;Product=tRNA %28adenine%2858%29-N%281%29%29-methyltransferase %28EC 2.1.1.220%29
+acAMD-5.contig.8	feature	CDS	259000	259680	.	+	0	ID=acAMD-5.genome.CDS.1113;Product=hypothetical protein
+acAMD-5.contig.8	feature	CDS	255579	259010	.	+	0	ID=acAMD-5.genome.CDS.2374;Product=5-methyltetrahydrofolate--homocysteine methyltransferase %28EC 2.1.1.13%29
+acAMD-5.contig.8	feature	CDS	254606	255427	.	-	0	ID=acAMD-5.genome.CDS.2373;Product=PFIG00823557: AC2 %28Proteasome assembly chaperone%29 family
+acAMD-5.contig.8	feature	CDS	253075	254613	.	+	0	ID=acAMD-5.genome.CDS.2372;Product=Glucose-6-phosphate isomerase %28EC 5.3.1.9%29
+acAMD-5.contig.8	feature	CDS	251861	253075	.	+	0	ID=acAMD-5.genome.CDS.2371;Product=L-cysteine:1D-myo-inosityl 2-amino-2-deoxy-alpha-D-glucopyranoside ligase MshC
+acAMD-5.contig.8	feature	CDS	251084	251842	.	+	0	ID=acAMD-5.genome.CDS.2370;Product=hypothetical protein
+acAMD-5.contig.8	feature	CDS	250554	251087	.	+	0	ID=acAMD-5.genome.CDS.2369;Product=FIG01121520: hypothetical protein
+acAMD-5.contig.8	feature	CDS	249923	250570	.	+	0	ID=acAMD-5.genome.CDS.2368;Product=hypothetical protein
+acAMD-5.contig.8	feature	CDS	249077	249913	.	+	0	ID=acAMD-5.genome.CDS.2367;Product=Undecaprenyl-diphosphatase %28EC 3.6.1.27%29
+acAMD-5.contig.8	feature	CDS	247773	249077	.	+	0	ID=acAMD-5.genome.CDS.2366;Product=peptidase M20
+acAMD-5.contig.8	feature	tRNA	247607	247693	.	-	.	ID=acAMD-5.genome.rna.27;Product=tRNA-Leu-GAG
+acAMD-5.contig.8	feature	CDS	247040	247606	.	+	0	ID=acAMD-5.genome.CDS.2365;Product=
+acAMD-5.contig.8	feature	CDS	246510	247043	.	+	0	ID=acAMD-5.genome.CDS.2364;Product=ADP-ribose pyrophosphatase
+acAMD-5.contig.8	feature	CDS	245769	246500	.	+	0	ID=acAMD-5.genome.CDS.2363;Product=
+acAMD-5.contig.8	feature	CDS	244913	245701	.	+	0	ID=acAMD-5.genome.CDS.2362;Product=
+acAMD-5.contig.8	feature	CDS	244238	244816	.	-	0	ID=acAMD-5.genome.CDS.2361;Product=hypothetical protein
+acAMD-5.contig.8	feature	CDS	243496	244227	.	-	0	ID=acAMD-5.genome.CDS.2360;Product=Phosphoserine phosphatase %28EC 3.1.3.3%29
+acAMD-5.contig.8	feature	CDS	242735	243499	.	+	0	ID=acAMD-5.genome.CDS.2359;Product=Enoyl-%5Bacyl-carrier-protein%5D reductase %5BNADH%5D %28EC 1.3.1.9%29
+acAMD-5.contig.8	feature	CDS	242022	242735	.	+	0	ID=acAMD-5.genome.CDS.2358;Product=3-oxoacyl-%5Bacyl-carrier protein%5D reductase %28EC 1.1.1.100%29
+acAMD-5.contig.8	feature	CDS	241655	241852	.	-	0	ID=acAMD-5.genome.CDS.2357;Product=
+acAMD-5.contig.8	feature	CDS	240951	241628	.	-	0	ID=acAMD-5.genome.CDS.2356;Product=
+acAMD-5.contig.8	feature	CDS	240647	240961	.	+	0	ID=acAMD-5.genome.CDS.2355;Product=PaaD-like protein %28DUF59%29 involved in Fe-S cluster assembly
+acAMD-5.contig.8	feature	CDS	240216	240650	.	+	0	ID=acAMD-5.genome.CDS.2354;Product=Putative iron-sulfur cluster assembly scaffold protein for SUF system%2C SufE2
+acAMD-5.contig.8	feature	CDS	238942	240216	.	+	0	ID=acAMD-5.genome.CDS.2353;Product=Cysteine desulfurase %28EC 2.8.1.7%29%2C SufS subfamily
+acAMD-5.contig.8	feature	CDS	238184	238945	.	+	0	ID=acAMD-5.genome.CDS.2352;Product=Iron-sulfur cluster assembly ATPase protein SufC
+acAMD-5.contig.8	feature	CDS	237852	238187	.	+	0	ID=acAMD-5.genome.CDS.2351;Product=Ferredoxin%2C 2Fe-2S
+acAMD-5.contig.8	feature	CDS	236725	237855	.	+	0	ID=acAMD-5.genome.CDS.2350;Product=Iron-sulfur cluster assembly protein SufD
+acAMD-5.contig.8	feature	CDS	235319	236728	.	+	0	ID=acAMD-5.genome.CDS.2349;Product=Iron-sulfur cluster assembly protein SufB
+acAMD-5.contig.8	feature	CDS	234630	235322	.	+	0	ID=acAMD-5.genome.CDS.2348;Product=
+acAMD-5.contig.8	feature	CDS	233703	234566	.	-	0	ID=acAMD-5.genome.CDS.2347;Product=Cytochrome oxidase assembly protein
+acAMD-5.contig.8	feature	CDS	232854	233723	.	+	0	ID=acAMD-5.genome.CDS.2346;Product=
+acAMD-5.contig.8	feature	CDS	231955	232851	.	+	0	ID=acAMD-5.genome.CDS.2345;Product=Heme O synthase%2C protoheme IX farnesyltransferase %28EC 2.5.1.-%29 COX10-CtaB
+acAMD-5.contig.8	feature	CDS	229881	231878	.	-	0	ID=acAMD-5.genome.CDS.2344;Product=Transketolase %28EC 2.2.1.1%29
+acAMD-5.contig.8	feature	CDS	229553	229891	.	+	0	ID=acAMD-5.genome.CDS.2343;Product=putative electron transport protein
+acAMD-5.contig.8	feature	CDS	229313	229537	.	+	0	ID=acAMD-5.genome.CDS.2342;Product=Preprotein translocase subunit SecG %28TC 3.A.5.1.1%29
+acAMD-5.contig.8	feature	CDS	228497	229276	.	+	0	ID=acAMD-5.genome.CDS.2341;Product=Triosephosphate isomerase %28EC 5.3.1.1%29
+acAMD-5.contig.8	feature	CDS	227309	228496	.	+	0	ID=acAMD-5.genome.CDS.2340;Product=Phosphoglycerate kinase %28EC 2.7.2.3%29
+acAMD-5.contig.8	feature	CDS	226266	227306	.	+	0	ID=acAMD-5.genome.CDS.2339;Product=NAD-dependent glyceraldehyde-3-phosphate dehydrogenase %28EC 1.2.1.12%29
+acAMD-5.contig.8	feature	CDS	225216	226199	.	+	0	ID=acAMD-5.genome.CDS.2338;Product=FIG001886: Cytoplasmic hypothetical protein
+acAMD-5.contig.8	feature	CDS	224349	225194	.	+	0	ID=acAMD-5.genome.CDS.2337;Product=Hypothetical ATP-binding protein UPF0042%2C contains P-loop
+acAMD-5.contig.8	feature	CDS	222488	224326	.	+	0	ID=acAMD-5.genome.CDS.2336;Product=Excinuclease ABC subunit C
+acAMD-5.contig.8	feature	CDS	219642	222476	.	+	0	ID=acAMD-5.genome.CDS.2335;Product=Excinuclease ABC subunit A
+acAMD-5.contig.8	feature	CDS	218644	219642	.	+	0	ID=acAMD-5.genome.CDS.2334;Product=Integral membrane protein TerC
+acAMD-5.contig.8	feature	CDS	216520	218643	.	+	0	ID=acAMD-5.genome.CDS.2333;Product=Excinuclease ABC subunit B
+acAMD-5.contig.8	feature	CDS	215948	216523	.	+	0	ID=acAMD-5.genome.CDS.2332;Product=
+acAMD-5.contig.8	feature	CDS	214604	215926	.	+	0	ID=acAMD-5.genome.CDS.2331;Product=SSU ribosomal protein S1p
+acAMD-5.contig.8	feature	CDS	213672	214445	.	-	0	ID=acAMD-5.genome.CDS.2330;Product=
+acAMD-5.contig.8	feature	CDS	211152	213692	.	+	0	ID=acAMD-5.genome.CDS.2329;Product=DNA polymerase I %28EC 2.7.7.7%29
+acAMD-5.contig.8	feature	CDS	210668	211102	.	-	0	ID=acAMD-5.genome.CDS.2328;Product=
+acAMD-5.contig.8	feature	CDS	210100	210693	.	+	0	ID=acAMD-5.genome.CDS.2327;Product=
+acAMD-5.contig.8	feature	tRNA	209996	210082	.	+	.	ID=acAMD-5.genome.rna.26;Product=tRNA-Leu-CAA
+acAMD-5.contig.8	feature	CDS	209563	209982	.	+	0	ID=acAMD-5.genome.CDS.2326;Product=Transcription termination protein NusB
+acAMD-5.contig.8	feature	CDS	209005	209562	.	+	0	ID=acAMD-5.genome.CDS.2325;Product=Translation elongation factor P
+acAMD-5.contig.8	feature	CDS	208517	208954	.	+	0	ID=acAMD-5.genome.CDS.2324;Product=3-dehydroquinate dehydratase II %28EC 4.2.1.10%29
+acAMD-5.contig.8	feature	CDS	207441	208520	.	+	0	ID=acAMD-5.genome.CDS.2323;Product=3-dehydroquinate synthase %28EC 4.2.3.4%29
+acAMD-5.contig.8	feature	CDS	206932	207444	.	+	0	ID=acAMD-5.genome.CDS.2322;Product=Shikimate kinase I %28EC 2.7.1.71%29
+acAMD-5.contig.8	feature	CDS	205757	206935	.	+	0	ID=acAMD-5.genome.CDS.2321;Product=Chorismate synthase %28EC 4.2.3.5%29
+acAMD-5.contig.8	feature	CDS	205319	205744	.	+	0	ID=acAMD-5.genome.CDS.2320;Product=
+acAMD-5.contig.8	feature	CDS	204380	205282	.	+	0	ID=acAMD-5.genome.CDS.2319;Product=Shikimate 5-dehydrogenase I alpha %28EC 1.1.1.25%29
+acAMD-5.contig.8	feature	CDS	203376	204380	.	+	0	ID=acAMD-5.genome.CDS.2318;Product=FIG004453: protein YceG like
+acAMD-5.contig.8	feature	CDS	202907	203350	.	+	0	ID=acAMD-5.genome.CDS.2317;Product=
+acAMD-5.contig.8	feature	CDS	200235	202904	.	+	0	ID=acAMD-5.genome.CDS.2316;Product=Alanyl-tRNA synthetase %28EC 6.1.1.7%29
+acAMD-5.contig.8	feature	CDS	198484	200238	.	+	0	ID=acAMD-5.genome.CDS.2315;Product=Aspartyl-tRNA synthetase %28EC 6.1.1.12%29 %40 Aspartyl-tRNA%28Asn%29 synthetase %28EC 6.1.1.23%29
+acAMD-5.contig.8	feature	CDS	197216	198499	.	+	0	ID=acAMD-5.genome.CDS.2314;Product=Histidyl-tRNA synthetase %28EC 6.1.1.21%29
+acAMD-5.contig.8	feature	CDS	196542	197213	.	+	0	ID=acAMD-5.genome.CDS.2313;Product=Hydroxyacylglutathione hydrolase %28EC 3.1.2.6%29
+acAMD-5.contig.8	feature	CDS	195675	196421	.	-	0	ID=acAMD-5.genome.CDS.2312;Product=Peptidyl-prolyl cis-trans isomerase %28EC 5.2.1.8%29
+acAMD-5.contig.8	feature	CDS	194415	195653	.	-	0	ID=acAMD-5.genome.CDS.2311;Product=ATPase involved in DNA repair
+acAMD-5.contig.8	feature	CDS	192175	194418	.	+	0	ID=acAMD-5.genome.CDS.2310;Product=GTP pyrophosphokinase %28EC 2.7.6.5%29%2C %28p%29ppGpp synthetase I
+acAMD-5.contig.8	feature	CDS	191053	192129	.	+	0	ID=acAMD-5.genome.CDS.2309;Product=Protein-export membrane protein SecF %28TC 3.A.5.1.1%29
+acAMD-5.contig.8	feature	CDS	189518	191056	.	+	0	ID=acAMD-5.genome.CDS.2308;Product=Protein-export membrane protein SecD %28TC 3.A.5.1.1%29
+acAMD-5.contig.8	feature	CDS	188369	189382	.	+	0	ID=acAMD-5.genome.CDS.2307;Product=Holliday junction DNA helicase RuvB
+acAMD-5.contig.8	feature	CDS	187812	188372	.	+	0	ID=acAMD-5.genome.CDS.2306;Product=Holliday junction DNA helicase RuvA
+acAMD-5.contig.8	feature	CDS	187282	187815	.	+	0	ID=acAMD-5.genome.CDS.2305;Product=Crossover junction endodeoxyribonuclease RuvC %28EC 3.1.22.4%29
+acAMD-5.contig.8	feature	CDS	186536	187282	.	+	0	ID=acAMD-5.genome.CDS.2304;Product=FIG000859: hypothetical protein YebC
+acAMD-5.contig.8	feature	CDS	185900	186499	.	+	0	ID=acAMD-5.genome.CDS.2303;Product=Pyridoxine biosynthesis glutamine amidotransferase%2C glutaminase subunit %28EC 2.4.2.-%29
+acAMD-5.contig.8	feature	CDS	184999	185892	.	+	0	ID=acAMD-5.genome.CDS.2302;Product=Pyridoxine biosynthesis glutamine amidotransferase%2C synthase subunit %28EC 2.4.2.-%29
+acAMD-5.contig.8	feature	CDS	184535	184882	.	+	0	ID=acAMD-5.genome.CDS.2301;Product=
+acAMD-5.contig.8	feature	CDS	183957	184427	.	+	0	ID=acAMD-5.genome.CDS.2300;Product=
+acAMD-5.contig.8	feature	CDS	182782	183960	.	+	0	ID=acAMD-5.genome.CDS.2299;Product=Phosphatidylinositol alpha-mannosyltransferase %28EC 2.4.1.57%29
+acAMD-5.contig.8	feature	CDS	181932	182789	.	+	0	ID=acAMD-5.genome.CDS.2298;Product=hypothetical protein
+acAMD-5.contig.8	feature	CDS	181333	181935	.	+	0	ID=acAMD-5.genome.CDS.2297;Product=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase %28EC 2.7.8.5%29
+acAMD-5.contig.8	feature	CDS	180827	181327	.	+	0	ID=acAMD-5.genome.CDS.2296;Product=
+acAMD-5.contig.8	feature	CDS	178845	180827	.	+	0	ID=acAMD-5.genome.CDS.2295;Product=Threonyl-tRNA synthetase %28EC 6.1.1.3%29
+acAMD-5.contig.8	feature	CDS	178367	178783	.	+	0	ID=acAMD-5.genome.CDS.1032;Product=hypothetical protein
+acAMD-5.contig.8	feature	CDS	177527	178351	.	+	0	ID=acAMD-5.genome.CDS.2293;Product=Aminodeoxychorismate lyase %28EC 4.1.3.38%29
+acAMD-5.contig.8	feature	CDS	176516	177526	.	+	0	ID=acAMD-5.genome.CDS.2292;Product=Para-aminobenzoate synthase%2C aminase component %28EC 2.6.1.85%29
+acAMD-5.contig.8	feature	tRNA	176340	176411	.	-	.	ID=acAMD-5.genome.rna.28;Product=tRNA-Gly-GCC
+acAMD-5.contig.8	feature	tRNA	176245	176315	.	-	.	ID=acAMD-5.genome.rna.29;Product=tRNA-Cys-GCA
+acAMD-5.contig.8	feature	tRNA	176150	176226	.	-	.	ID=acAMD-5.genome.rna.30;Product=tRNA-Val-GAC
+acAMD-5.contig.8	feature	CDS	175483	176088	.	-	0	ID=acAMD-5.genome.CDS.2291;Product=
+acAMD-5.contig.8	feature	CDS	175049	175483	.	-	0	ID=acAMD-5.genome.CDS.2290;Product=Peptide methionine sulfoxide reductase MsrB %28EC 1.8.4.12%29
+acAMD-5.contig.8	feature	CDS	174418	174960	.	-	0	ID=acAMD-5.genome.CDS.2289;Product=
+acAMD-5.contig.8	feature	CDS	173711	174406	.	-	0	ID=acAMD-5.genome.CDS.2288;Product=
+acAMD-5.contig.8	feature	CDS	172462	173679	.	-	0	ID=acAMD-5.genome.CDS.2287;Product=Ribonuclease D %28EC 3.1.26.3%29
+acAMD-5.contig.8	feature	CDS	172257	172451	.	+	0	ID=acAMD-5.genome.CDS.2286;Product=
+acAMD-5.contig.8	feature	CDS	171510	172238	.	-	0	ID=acAMD-5.genome.CDS.2285;Product=hypothetical protein
+acAMD-5.contig.8	feature	CDS	170118	171374	.	-	0	ID=acAMD-5.genome.CDS.2284;Product=ATP-dependent RNA helicase
+acAMD-5.contig.8	feature	CDS	169547	169861	.	+	0	ID=acAMD-5.genome.CDS.2283;Product=hypothetical protein
+acAMD-5.contig.8	feature	CDS	168474	169547	.	+	0	ID=acAMD-5.genome.CDS.2282;Product=FIG00816906: hypothetical protein
+acAMD-5.contig.8	feature	CDS	165713	168373	.	+	0	ID=acAMD-5.genome.CDS.2281;Product=Aconitate hydratase %28EC 4.2.1.3%29
+acAMD-5.contig.8	feature	CDS	164522	165667	.	+	0	ID=acAMD-5.genome.CDS.2280;Product=RNA methyltransferase%2C TrmA family
+acAMD-5.contig.8	feature	CDS	162600	164525	.	+	0	ID=acAMD-5.genome.CDS.2279;Product=PROBABLE CONSERVED INTEGRAL MEMBRANE ALANINE AND VALINE AND LEUCINE RICH PROTEIN
+acAMD-5.contig.8	feature	CDS	161857	162519	.	-	0	ID=acAMD-5.genome.CDS.2278;Product=Trk system potassium uptake protein TrkA
+acAMD-5.contig.8	feature	CDS	161165	161860	.	-	0	ID=acAMD-5.genome.CDS.2277;Product=Trk system potassium uptake protein TrkA
+acAMD-5.contig.8	feature	CDS	160237	160596	.	+	0	ID=acAMD-5.genome.CDS.2275;Product=hypothetical protein
+acAMD-5.contig.8	feature	CDS	159800	160237	.	+	0	ID=acAMD-5.genome.CDS.2274;Product=Deoxyuridine 5%27-triphosphate nucleotidohydrolase %28EC 3.6.1.23%29
+acAMD-5.contig.8	feature	CDS	159299	159730	.	-	0	ID=acAMD-5.genome.CDS.2273;Product=hypothetical protein
+acAMD-5.contig.8	feature	CDS	159000	159302	.	+	0	ID=acAMD-5.genome.CDS.2272;Product=hypothetical protein
+acAMD-5.contig.8	feature	CDS	158356	158874	.	-	0	ID=acAMD-5.genome.CDS.2271;Product=
+acAMD-5.contig.8	feature	CDS	157559	158359	.	+	0	ID=acAMD-5.genome.CDS.2270;Product=Inositol-1-monophosphatase %28EC 3.1.3.25%29
+acAMD-5.contig.8	feature	CDS	156347	157540	.	-	0	ID=acAMD-5.genome.CDS.2269;Product=hypothetical protein
+acAMD-5.contig.8	feature	CDS	155480	156295	.	-	0	ID=acAMD-5.genome.CDS.2268;Product=hypothetical protein
+acAMD-5.contig.8	feature	CDS	154456	155430	.	-	0	ID=acAMD-5.genome.CDS.2267;Product=
+acAMD-5.contig.8	feature	CDS	153775	154449	.	+	0	ID=acAMD-5.genome.CDS.2266;Product=Thymidine kinase %28EC 2.7.1.21%29
+acAMD-5.contig.8	feature	CDS	151243	153666	.	-	0	ID=acAMD-5.genome.CDS.2265;Product=Topoisomerase IV subunit A %28EC 5.99.1.-%29
+acAMD-5.contig.8	feature	CDS	151059	151238	.	+	0	ID=acAMD-5.genome.CDS.2264;Product=
+acAMD-5.contig.8	feature	CDS	148874	150934	.	+	0	ID=acAMD-5.genome.CDS.2263;Product=Topoisomerase IV subunit B %28EC 5.99.1.-%29
+acAMD-5.contig.8	feature	CDS	148508	148714	.	-	0	ID=acAMD-5.genome.CDS.2262;Product=
+acAMD-5.contig.8	feature	CDS	146712	148511	.	+	0	ID=acAMD-5.genome.CDS.2261;Product=RNA polymerase sigma factor RpoD
+acAMD-5.contig.8	feature	CDS	146034	146600	.	+	0	ID=acAMD-5.genome.CDS.2260;Product=hypothetical protein
+acAMD-5.contig.8	feature	CDS	145194	146018	.	+	0	ID=acAMD-5.genome.CDS.2259;Product=hypothetical protein
+acAMD-5.contig.8	feature	CDS	144035	145144	.	+	0	ID=acAMD-5.genome.CDS.2258;Product=Homoserine O-acetyltransferase %28EC 2.3.1.31%29
+acAMD-5.contig.8	feature	CDS	142737	144032	.	+	0	ID=acAMD-5.genome.CDS.2257;Product=O-acetylhomoserine sulfhydrylase %28EC 2.5.1.49%29 / O-succinylhomoserine sulfhydrylase %28EC 2.5.1.48%29
+acAMD-5.contig.8	feature	CDS	141694	142533	.	-	0	ID=acAMD-5.genome.CDS.2256;Product=SERINE PROTEASE %28EC 3.4.21.-%29
+acAMD-5.contig.8	feature	CDS	140756	141697	.	+	0	ID=acAMD-5.genome.CDS.2255;Product=hypothetical protein
+acAMD-5.contig.8	feature	CDS	140052	140678	.	+	0	ID=acAMD-5.genome.CDS.2254;Product=Putative threonine efflux protein
+acAMD-5.contig.8	feature	CDS	139603	140049	.	+	0	ID=acAMD-5.genome.CDS.2253;Product=hypothetical protein
+acAMD-5.contig.8	feature	CDS	139017	139550	.	-	0	ID=acAMD-5.genome.CDS.2252;Product=hypothetical protein
+acAMD-5.contig.8	feature	CDS	138477	138992	.	-	0	ID=acAMD-5.genome.CDS.2251;Product=Carbonic anhydrase %28EC 4.2.1.1%29
+acAMD-5.contig.8	feature	CDS	136849	138474	.	+	0	ID=acAMD-5.genome.CDS.2250;Product=Phosphoenolpyruvate-protein phosphotransferase of PTS system %28EC 2.7.3.9%29
+acAMD-5.contig.8	feature	CDS	134926	136761	.	+	0	ID=acAMD-5.genome.CDS.2249;Product=putative ABC transporter
+acAMD-5.contig.8	feature	CDS	133220	134929	.	+	0	ID=acAMD-5.genome.CDS.2248;Product=hypothetical protein
+acAMD-5.contig.8	feature	CDS	130286	133093	.	+	0	ID=acAMD-5.genome.CDS.2247;Product=Ribonucleotide reductase of class II %28coenzyme B12-dependent%29 %28EC 1.17.4.1%29
+acAMD-5.contig.8	feature	CDS	129702	130232	.	+	0	ID=acAMD-5.genome.CDS.2246;Product=Ribonucleotide reductase transcriptional regulator NrdR
+acAMD-5.contig.8	feature	CDS	129044	129451	.	-	0	ID=acAMD-5.genome.CDS.2245;Product=hypothetical protein
+acAMD-5.contig.8	feature	CDS	128741	129064	.	+	0	ID=acAMD-5.genome.CDS.2244;Product=
+acAMD-5.contig.8	feature	CDS	127946	128599	.	-	0	ID=acAMD-5.genome.CDS.2243;Product=SOS-response repressor and protease LexA %28EC 3.4.21.88%29
+acAMD-5.contig.8	feature	CDS	127584	127907	.	-	0	ID=acAMD-5.genome.CDS.2242;Product=hypothetical protein
+acAMD-5.contig.8	feature	CDS	126968	127615	.	-	0	ID=acAMD-5.genome.CDS.979;Product=Zinc ABC transporter%2C periplasmic-binding protein ZnuA
+acAMD-5.contig.8	feature	CDS	126234	126965	.	-	0	ID=acAMD-5.genome.CDS.2240;Product=
+acAMD-5.contig.8	feature	CDS	125404	126222	.	-	0	ID=acAMD-5.genome.CDS.2239;Product=Zinc ABC transporter%2C inner membrane permease protein ZnuB
+acAMD-5.contig.8	feature	CDS	125009	125407	.	-	0	ID=acAMD-5.genome.CDS.2238;Product=Zinc uptake regulation protein ZUR
+acAMD-5.contig.8	feature	CDS	123009	125012	.	+	0	ID=acAMD-5.genome.CDS.2237;Product=DinG family ATP-dependent helicase YoaA
+acAMD-5.contig.8	feature	CDS	121643	123016	.	+	0	ID=acAMD-5.genome.CDS.2236;Product=GTP-binding protein HflX
+acAMD-5.contig.8	feature	CDS	120849	121646	.	+	0	ID=acAMD-5.genome.CDS.973;Product=Diaminopimelate epimerase %28EC 5.1.1.7%29
+acAMD-5.contig.8	feature	CDS	119930	120844	.	+	0	ID=acAMD-5.genome.CDS.2234;Product=tRNA dimethylallyltransferase %28EC 2.5.1.75%29
+acAMD-5.contig.8	feature	CDS	118500	119933	.	+	0	ID=acAMD-5.genome.CDS.2233;Product=tRNA-i%286%29A37 methylthiotransferase
+acAMD-5.contig.8	feature	CDS	117251	118471	.	+	0	ID=acAMD-5.genome.CDS.2232;Product=major facilitator superfamily MFS_1
+acAMD-5.contig.8	feature	CDS	116361	117248	.	+	0	ID=acAMD-5.genome.CDS.2231;Product=Permease of the drug/metabolite transporter %28DMT%29 superfamily
+acAMD-5.contig.8	feature	CDS	116090	116215	.	-	0	ID=acAMD-5.genome.CDS.968;Product=
+acAMD-5.contig.8	feature	CDS	115777	116064	.	-	0	ID=acAMD-5.genome.CDS.967;Product=
+acAMD-5.contig.8	feature	CDS	113809	115773	.	+	0	ID=acAMD-5.genome.CDS.2229;Product=Epi-inositol hydrolase %28EC 3.7.1.-%29
+acAMD-5.contig.8	feature	CDS	113123	113677	.	-	0	ID=acAMD-5.genome.CDS.2228;Product=hypothetical protein
+acAMD-5.contig.8	feature	CDS	111877	113118	.	+	0	ID=acAMD-5.genome.CDS.2227;Product=CAAX prenyl protease 1%2C putative
+acAMD-5.contig.8	feature	CDS	109831	111867	.	+	0	ID=acAMD-5.genome.CDS.2226;Product=Oligopeptide transport ATP-binding protein OppF %28TC 3.A.1.5.1%29
+acAMD-5.contig.8	feature	CDS	108911	109834	.	+	0	ID=acAMD-5.genome.CDS.2225;Product=Oligopeptide transport system permease protein OppC %28TC 3.A.1.5.1%29
+acAMD-5.contig.8	feature	CDS	107937	108914	.	+	0	ID=acAMD-5.genome.CDS.2224;Product=Oligopeptide transport system permease protein OppB %28TC 3.A.1.5.1%29
+acAMD-5.contig.8	feature	CDS	106011	107738	.	-	0	ID=acAMD-5.genome.CDS.2223;Product=Oligopeptide ABC transporter%2C periplasmic oligopeptide-binding protein OppA %28TC 3.A.1.5.1%29
+acAMD-5.contig.8	feature	CDS	105104	105865	.	+	0	ID=acAMD-5.genome.CDS.959;Product=Nitroreductase
+acAMD-5.contig.8	feature	CDS	104581	105078	.	+	0	ID=acAMD-5.genome.CDS.2221;Product=
+acAMD-5.contig.8	feature	CDS	104383	104547	.	+	0	ID=acAMD-5.genome.CDS.2220;Product=hypothetical protein
+acAMD-5.contig.8	feature	CDS	103861	104358	.	+	0	ID=acAMD-5.genome.CDS.2219;Product=
+acAMD-5.contig.8	feature	CDS	103074	103799	.	-	0	ID=acAMD-5.genome.CDS.2218;Product=probable DNA alkylation repair enzyme
+acAMD-5.contig.8	feature	CDS	102505	102951	.	+	0	ID=acAMD-5.genome.CDS.2217;Product=
+acAMD-5.contig.8	feature	CDS	101986	102309	.	+	0	ID=acAMD-5.genome.CDS.2216;Product=
+acAMD-5.contig.8	feature	CDS	101710	101946	.	+	0	ID=acAMD-5.genome.CDS.2215;Product=
+acAMD-5.contig.8	feature	CDS	101000	101668	.	-	0	ID=acAMD-5.genome.CDS.2214;Product=putative integral membrane protein
+acAMD-5.contig.8	feature	CDS	100452	101003	.	+	0	ID=acAMD-5.genome.CDS.2213;Product=
+acAMD-5.contig.8	feature	CDS	99417	100451	.	+	0	ID=acAMD-5.genome.CDS.2212;Product=RecA protein
+acAMD-5.contig.8	feature	CDS	99081	99263	.	+	0	ID=acAMD-5.genome.CDS.2211;Product=
+acAMD-5.contig.8	feature	CDS	98743	99084	.	+	0	ID=acAMD-5.genome.CDS.948;Product=
+acAMD-5.contig.8	feature	CDS	98275	98739	.	+	0	ID=acAMD-5.genome.CDS.2209;Product=hypothetical protein
+acAMD-5.contig.8	feature	CDS	97751	98278	.	+	0	ID=acAMD-5.genome.CDS.2208;Product=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase %28EC 2.7.8.5%29
+acAMD-5.contig.8	feature	CDS	96360	97754	.	+	0	ID=acAMD-5.genome.CDS.2207;Product=Ribosomal protein S12p Asp88 %28E. coli%29 methylthiotransferase
+acAMD-5.contig.8	feature	CDS	95589	96335	.	+	0	ID=acAMD-5.genome.CDS.2206;Product=hypothetical protein
+acAMD-5.contig.8	feature	CDS	92870	95443	.	+	0	ID=acAMD-5.genome.CDS.2205;Product=DNA translocase FtsK
+acAMD-5.contig.8	feature	CDS	91112	92794	.	+	0	ID=acAMD-5.genome.CDS.2204;Product=Ribonuclease J2 %28endoribonuclease in RNA processing%29
+acAMD-5.contig.8	feature	CDS	90237	91115	.	+	0	ID=acAMD-5.genome.CDS.2203;Product=4-hydroxy-tetrahydrodipicolinate synthase %28EC 4.3.3.7%29
+acAMD-5.contig.8	feature	CDS	89499	90212	.	+	0	ID=acAMD-5.genome.CDS.2202;Product=Thymidylate synthase thyX %28EC 2.1.1.-%29
+acAMD-5.contig.8	feature	CDS	88733	89404	.	-	0	ID=acAMD-5.genome.CDS.2201;Product=AzlC protein
+acAMD-5.contig.8	feature	CDS	88422	88733	.	-	0	ID=acAMD-5.genome.CDS.2200;Product=
+acAMD-5.contig.8	feature	CDS	87686	88429	.	+	0	ID=acAMD-5.genome.CDS.2199;Product=4-hydroxy-tetrahydrodipicolinate reductase %28EC 1.17.1.8%29
+acAMD-5.contig.8	feature	CDS	85343	87541	.	+	0	ID=acAMD-5.genome.CDS.2198;Product=Polyribonucleotide nucleotidyltransferase %28EC 2.7.7.8%29
+acAMD-5.contig.8	feature	CDS	84944	85210	.	+	0	ID=acAMD-5.genome.CDS.2197;Product=SSU ribosomal protein S15p %28S13e%29
+acAMD-5.contig.8	feature	CDS	83960	84865	.	+	0	ID=acAMD-5.genome.CDS.2196;Product=Riboflavin kinase %28EC 2.7.1.26%29 / FMN adenylyltransferase %28EC 2.7.7.2%29
+acAMD-5.contig.8	feature	CDS	83068	83967	.	+	0	ID=acAMD-5.genome.CDS.2195;Product=tRNA pseudouridine synthase B %28EC 4.2.1.70%29
+acAMD-5.contig.8	feature	CDS	82627	83058	.	+	0	ID=acAMD-5.genome.CDS.2194;Product=Ribosome-binding factor A
+acAMD-5.contig.8	feature	CDS	79978	82626	.	+	0	ID=acAMD-5.genome.CDS.2193;Product=Translation initiation factor 2
+acAMD-5.contig.8	feature	CDS	79590	79856	.	+	0	ID=acAMD-5.genome.CDS.2192;Product=
+acAMD-5.contig.8	feature	CDS	78572	79582	.	+	0	ID=acAMD-5.genome.CDS.2191;Product=Transcription termination protein NusA
+acAMD-5.contig.8	feature	CDS	78102	78572	.	+	0	ID=acAMD-5.genome.CDS.2190;Product=FIG000325: clustered with transcription termination protein NusA
+acAMD-5.contig.8	feature	CDS	76298	78049	.	+	0	ID=acAMD-5.genome.CDS.2189;Product=Prolyl-tRNA synthetase %28EC 6.1.1.15%29%2C bacterial type
+acAMD-5.contig.8	feature	CDS	75405	76235	.	+	0	ID=acAMD-5.genome.CDS.2188;Product=GCN5-related N-acetyltransferase%2C FIGfam019367
+acAMD-5.contig.8	feature	CDS	74241	75401	.	+	0	ID=acAMD-5.genome.CDS.2187;Product=1-hydroxy-2-methyl-2-%28E%29-butenyl 4-diphosphate synthase %28EC 1.17.7.1%29
+acAMD-5.contig.8	feature	CDS	72952	74193	.	+	0	ID=acAMD-5.genome.CDS.2186;Product=Membrane-associated zinc metalloprotease
+acAMD-5.contig.8	feature	CDS	71507	72847	.	-	0	ID=acAMD-5.genome.CDS.2185;Product=Gamma-aminobutyrate:alpha-ketoglutarate aminotransferase %28EC 2.6.1.19%29
+acAMD-5.contig.8	feature	CDS	70509	71510	.	+	0	ID=acAMD-5.genome.CDS.2184;Product=Agmatinase %28EC 3.5.3.11%29
+acAMD-5.contig.8	feature	CDS	69709	70509	.	+	0	ID=acAMD-5.genome.CDS.2183;Product=Putrescine transport system permease protein PotI %28TC 3.A.1.11.2%29
+acAMD-5.contig.8	feature	CDS	68813	69709	.	+	0	ID=acAMD-5.genome.CDS.2182;Product=Putrescine transport system permease protein PotH %28TC 3.A.1.11.2%29
+acAMD-5.contig.8	feature	CDS	67656	68813	.	+	0	ID=acAMD-5.genome.CDS.2181;Product=Putrescine transport ATP-binding protein PotG %28TC 3.A.1.11.2%29
+acAMD-5.contig.8	feature	CDS	66411	67628	.	+	0	ID=acAMD-5.genome.CDS.2180;Product=Putrescine ABC transporter putrescine-binding protein PotF %28TC 3.A.1.11.2%29
+acAMD-5.contig.8	feature	CDS	64913	66358	.	+	0	ID=acAMD-5.genome.CDS.2179;Product=4-aminobutyraldehyde dehydrogenase %28EC 1.2.1.19%29
+acAMD-5.contig.8	feature	CDS	64300	64863	.	-	0	ID=acAMD-5.genome.CDS.2178;Product=Transcriptional regulator%2C AsnC family
+acAMD-5.contig.8	feature	CDS	62903	64303	.	-	0	ID=acAMD-5.genome.CDS.2177;Product=Omega-amino acid--pyruvate aminotransferase %28EC 2.6.1.18%29
+acAMD-5.contig.8	feature	CDS	62259	62906	.	-	0	ID=acAMD-5.genome.CDS.2176;Product=hypothetical protein
+acAMD-5.contig.8	feature	CDS	60901	62262	.	-	0	ID=acAMD-5.genome.CDS.2175;Product=hypothetical protein
+acAMD-5.contig.8	feature	CDS	59780	60904	.	+	0	ID=acAMD-5.genome.CDS.2174;Product=Ribosomal RNA large subunit methyltransferase N %28EC 2.1.1.-%29
+acAMD-5.contig.8	feature	CDS	58959	59783	.	+	0	ID=acAMD-5.genome.CDS.2173;Product=Phosphatidate cytidylyltransferase %28EC 2.7.7.41%29
+acAMD-5.contig.8	feature	CDS	58399	58956	.	+	0	ID=acAMD-5.genome.CDS.2172;Product=Ribosome recycling factor
+acAMD-5.contig.8	feature	CDS	57649	58383	.	+	0	ID=acAMD-5.genome.CDS.2171;Product=Uridine monophosphate kinase %28EC 2.7.4.22%29
+acAMD-5.contig.8	feature	CDS	56778	57608	.	+	0	ID=acAMD-5.genome.CDS.2170;Product=Translation elongation factor Ts
+acAMD-5.contig.8	feature	CDS	55944	56747	.	+	0	ID=acAMD-5.genome.CDS.2169;Product=SSU ribosomal protein S2p %28SAe%29
+acAMD-5.contig.8	feature	CDS	55228	55680	.	-	0	ID=acAMD-5.genome.CDS.2168;Product=
+acAMD-5.contig.8	feature	CDS	54330	55238	.	+	0	ID=acAMD-5.genome.CDS.2167;Product=Site-specific tyrosine recombinase XerC
+acAMD-5.contig.8	feature	CDS	53433	54272	.	+	0	ID=acAMD-5.genome.CDS.2166;Product=Rossmann fold nucleotide-binding protein Smf possibly involved in DNA uptake
+acAMD-5.contig.8	feature	CDS	53062	53376	.	+	0	ID=acAMD-5.genome.CDS.2165;Product=Protein often found in Actinomycetes clustered with signal peptidase and/or RNaseHII
+acAMD-5.contig.8	feature	CDS	52454	53065	.	+	0	ID=acAMD-5.genome.CDS.2164;Product=Ribonuclease HII %28EC 3.1.26.4%29
+acAMD-5.contig.8	feature	CDS	51767	52450	.	+	0	ID=acAMD-5.genome.CDS.2163;Product=Signal peptidase I %28EC 3.4.21.89%29
+acAMD-5.contig.8	feature	CDS	51029	51757	.	+	0	ID=acAMD-5.genome.CDS.2162;Product=LSU ribosomal protein L19p
+acAMD-5.contig.8	feature	CDS	50322	51011	.	+	0	ID=acAMD-5.genome.CDS.2161;Product=tRNA %28Guanine37-N1%29 -methyltransferase %28EC 2.1.1.31%29
+acAMD-5.contig.8	feature	CDS	49802	50332	.	+	0	ID=acAMD-5.genome.CDS.2160;Product=16S rRNA processing protein RimM
+acAMD-5.contig.8	feature	CDS	49558	49797	.	+	0	ID=acAMD-5.genome.CDS.2159;Product=KH domain RNA binding protein YlqC
+acAMD-5.contig.8	feature	CDS	49001	49555	.	+	0	ID=acAMD-5.genome.CDS.2158;Product=SSU ribosomal protein S16p
+acAMD-5.contig.8	feature	CDS	47450	48856	.	+	0	ID=acAMD-5.genome.CDS.2157;Product=Signal recognition particle%2C subunit Ffh SRP54 %28TC 3.A.5.1.1%29
+acAMD-5.contig.8	feature	CDS	45157	47439	.	+	0	ID=acAMD-5.genome.CDS.2156;Product=%5BProtein-PII%5D uridylyltransferase %28EC 2.7.7.59%29
+acAMD-5.contig.8	feature	CDS	44729	45067	.	+	0	ID=acAMD-5.genome.CDS.2155;Product=Nitrogen regulatory protein P-II
+acAMD-5.contig.8	feature	CDS	43443	44726	.	+	0	ID=acAMD-5.genome.CDS.2154;Product=Ammonium transporter
+acAMD-5.contig.8	feature	CDS	42459	43325	.	+	0	ID=acAMD-5.genome.CDS.2153;Product=Signal recognition particle receptor protein FtsY %28%3Dalpha subunit%29 %28TC 3.A.5.1.1%29
+acAMD-5.contig.8	feature	CDS	42067	42462	.	+	0	ID=acAMD-5.genome.CDS.2152;Product=
+acAMD-5.contig.8	feature	CDS	38492	42070	.	+	0	ID=acAMD-5.genome.CDS.2151;Product=Chromosome partition protein smc
+acAMD-5.contig.8	feature	CDS	37586	38443	.	+	0	ID=acAMD-5.genome.CDS.2150;Product=Formamidopyrimidine-DNA glycosylase %28EC 3.2.2.23%29
+acAMD-5.contig.8	feature	CDS	36844	37593	.	+	0	ID=acAMD-5.genome.CDS.2149;Product=Ribonuclease III %28EC 3.1.26.3%29
+acAMD-5.contig.8	feature	CDS	36665	36841	.	+	0	ID=acAMD-5.genome.CDS.2148;Product=
+acAMD-5.contig.8	feature	CDS	36119	36646	.	+	0	ID=acAMD-5.genome.CDS.2147;Product=COG1399 protein%2C clustered with ribosomal protein L32p
+acAMD-5.contig.8	feature	CDS	35580	36044	.	+	0	ID=acAMD-5.genome.CDS.2146;Product=
+acAMD-5.contig.8	feature	CDS	35066	35572	.	+	0	ID=acAMD-5.genome.CDS.2145;Product=Phosphopantetheine adenylyltransferase %28EC 2.7.7.3%29
+acAMD-5.contig.8	feature	CDS	34524	35069	.	+	0	ID=acAMD-5.genome.CDS.2144;Product=
+acAMD-5.contig.8	feature	CDS	32311	34527	.	+	0	ID=acAMD-5.genome.CDS.2143;Product=ATP-dependent DNA helicase RecG %28EC 3.6.1.-%29
+acAMD-5.contig.8	feature	CDS	32014	32205	.	-	0	ID=acAMD-5.genome.CDS.2142;Product=LSU ribosomal protein L28p
+acAMD-5.contig.8	feature	CDS	31080	32024	.	+	0	ID=acAMD-5.genome.CDS.2141;Product=Thiamine-monophosphate kinase %28EC 2.7.4.16%29
+acAMD-5.contig.8	feature	CDS	30610	31041	.	-	0	ID=acAMD-5.genome.CDS.2140;Product=
+acAMD-5.contig.8	feature	CDS	29671	30630	.	+	0	ID=acAMD-5.genome.CDS.2139;Product=D-alanine--D-alanine ligase %28EC 6.3.2.4%29
+acAMD-5.contig.8	feature	CDS	28441	29640	.	-	0	ID=acAMD-5.genome.CDS.2138;Product=Cystathionine gamma-synthase %28EC 2.5.1.48%29
+acAMD-5.contig.8	feature	CDS	27681	28418	.	+	0	ID=acAMD-5.genome.CDS.2137;Product=1-acyl-sn-glycerol-3-phosphate acyltransferase %28EC 2.3.1.51%29
+acAMD-5.contig.8	feature	CDS	27297	27581	.	+	0	ID=acAMD-5.genome.CDS.2136;Product=DNA-binding protein HU-beta
+acAMD-5.contig.8	feature	CDS	26590	27180	.	+	0	ID=acAMD-5.genome.CDS.2135;Product=3-isopropylmalate dehydratase small subunit %28EC 4.2.1.33%29
+acAMD-5.contig.8	feature	CDS	25179	26579	.	+	0	ID=acAMD-5.genome.CDS.2134;Product=3-isopropylmalate dehydratase large subunit %28EC 4.2.1.33%29
+acAMD-5.contig.8	feature	tRNA	25012	25087	.	+	.	ID=acAMD-5.genome.rna.25;Product=tRNA-Glu-CTC
+acAMD-5.contig.8	feature	tRNA	24925	24999	.	+	.	ID=acAMD-5.genome.rna.24;Product=tRNA-Gln-CTG
+acAMD-5.contig.8	feature	CDS	23392	24867	.	+	0	ID=acAMD-5.genome.CDS.2133;Product=Glutamyl-tRNA synthetase %28EC 6.1.1.17%29 %40 Glutamyl-tRNA%28Gln%29 synthetase %28EC 6.1.1.24%29
+acAMD-5.contig.8	feature	CDS	22635	23399	.	+	0	ID=acAMD-5.genome.CDS.2132;Product=Fumarylacetoacetate hydrolase family protein
+acAMD-5.contig.8	feature	CDS	21011	22594	.	+	0	ID=acAMD-5.genome.CDS.2131;Product=%28R%29-citramalate synthase %28EC 2.3.1.182%29
+acAMD-5.contig.8	feature	CDS	19923	21011	.	+	0	ID=acAMD-5.genome.CDS.2130;Product=Branched-chain amino acid aminotransferase %28EC 2.6.1.42%29
+acAMD-5.contig.8	feature	CDS	18880	19920	.	+	0	ID=acAMD-5.genome.CDS.2129;Product=3-isopropylmalate dehydrogenase %28EC 1.1.1.85%29
+acAMD-5.contig.8	feature	CDS	16968	18704	.	-	0	ID=acAMD-5.genome.CDS.2128;Product=2-isopropylmalate synthase %28EC 2.3.3.13%29
+acAMD-5.contig.8	feature	CDS	16012	16971	.	+	0	ID=acAMD-5.genome.CDS.2127;Product=putative secreted protein
+acAMD-5.contig.8	feature	CDS	14401	15990	.	+	0	ID=acAMD-5.genome.CDS.2126;Product=D-3-phosphoglycerate dehydrogenase %28EC 1.1.1.95%29
+acAMD-5.contig.8	feature	CDS	14119	14310	.	+	0	ID=acAMD-5.genome.CDS.2125;Product=hypothetical protein
+acAMD-5.contig.8	feature	CDS	13091	14119	.	+	0	ID=acAMD-5.genome.CDS.2124;Product=Ketol-acid reductoisomerase %28EC 1.1.1.86%29
+acAMD-5.contig.8	feature	CDS	12528	13052	.	+	0	ID=acAMD-5.genome.CDS.2123;Product=Acetolactate synthase small subunit %28EC 2.2.1.6%29
+acAMD-5.contig.8	feature	CDS	10771	12531	.	+	0	ID=acAMD-5.genome.CDS.2122;Product=Acetolactate synthase large subunit %28EC 2.2.1.6%29
+acAMD-5.contig.8	feature	CDS	8873	10546	.	+	0	ID=acAMD-5.genome.CDS.2121;Product=Dihydroxy-acid dehydratase %28EC 4.2.1.9%29
+acAMD-5.contig.8	feature	CDS	7345	8853	.	+	0	ID=acAMD-5.genome.CDS.2120;Product=Aspartyl-tRNA%28Asn%29 amidotransferase subunit B %28EC 6.3.5.6%29 %40 Glutamyl-tRNA%28Gln%29 amidotransferase subunit B %28EC 6.3.5.7%29
+acAMD-5.contig.8	feature	CDS	5858	7348	.	+	0	ID=acAMD-5.genome.CDS.2119;Product=Aspartyl-tRNA%28Asn%29 amidotransferase subunit A %28EC 6.3.5.6%29 %40 Glutamyl-tRNA%28Gln%29 amidotransferase subunit A %28EC 6.3.5.7%29
+acAMD-5.contig.8	feature	CDS	5561	5857	.	+	0	ID=acAMD-5.genome.CDS.2118;Product=Aspartyl-tRNA%28Asn%29 amidotransferase subunit C %28EC 6.3.5.6%29 %40 Glutamyl-tRNA%28Gln%29 amidotransferase subunit C %28EC 6.3.5.7%29
+acAMD-5.contig.8	feature	CDS	3388	5550	.	+	0	ID=acAMD-5.genome.CDS.2117;Product=DNA ligase %28EC 6.5.1.2%29
+acAMD-5.contig.8	feature	CDS	2133	3296	.	+	0	ID=acAMD-5.genome.CDS.2116;Product=Indoleamine 2%2C3-dioxygenase %28EC 1.13.11.52%29
+acAMD-5.contig.8	feature	CDS	994	2070	.	+	0	ID=acAMD-5.genome.CDS.2115;Product=tRNA-specific 2-thiouridylase MnmA
+acAMD-5.contig.8	feature	CDS	2	997	.	+	0	ID=acAMD-5.genome.CDS.2114;Product=Cysteine desulfurase %28EC 2.8.1.7%29
+acAMD-5.contig.9	feature	CDS	95302	95484	.	+	0	ID=acAMD-5.genome.CDS.2508;Product=
+acAMD-5.contig.9	feature	CDS	94393	95259	.	+	0	ID=acAMD-5.genome.CDS.2507;Product=COG3118: Thioredoxin domain-containing protein EC-YbbN
+acAMD-5.contig.9	feature	CDS	93671	94396	.	+	0	ID=acAMD-5.genome.CDS.2506;Product=putative periplasmic protein kinase ArgK and related GTPases of G3E family
+acAMD-5.contig.9	feature	CDS	92472	93668	.	+	0	ID=acAMD-5.genome.CDS.2505;Product=3-ketoacyl-CoA thiolase %28EC 2.3.1.16%29 %40 Acetyl-CoA acetyltransferase %28EC 2.3.1.9%29
+acAMD-5.contig.9	feature	CDS	91998	92420	.	-	0	ID=acAMD-5.genome.CDS.2504;Product=Methylmalonyl-CoA epimerase %28EC 5.1.99.1%29%3B Ethylmalonyl-CoA epimerase
+acAMD-5.contig.9	feature	CDS	91255	92001	.	+	0	ID=acAMD-5.genome.CDS.2503;Product=Predicted hydrolase of the alpha/beta superfamily
+acAMD-5.contig.9	feature	CDS	90945	91253	.	+	0	ID=acAMD-5.genome.CDS.2502;Product=Putative ATP/GTP-binding protein%2C doubtful CDS
+acAMD-5.contig.9	feature	CDS	90574	90897	.	-	0	ID=acAMD-5.genome.CDS.2501;Product=
+acAMD-5.contig.9	feature	CDS	89307	90581	.	+	0	ID=acAMD-5.genome.CDS.2500;Product=UDP-N-acetylglucosamine 1-carboxyvinyltransferase %28EC 2.5.1.7%29
+acAMD-5.contig.9	feature	CDS	88685	89254	.	-	0	ID=acAMD-5.genome.CDS.2499;Product=ATP:Cob%28I%29alamin adenosyltransferase %28EC 2.5.1.17%29
+acAMD-5.contig.9	feature	CDS	88476	88670	.	+	0	ID=acAMD-5.genome.CDS.2498;Product=
+acAMD-5.contig.9	feature	CDS	88090	88458	.	+	0	ID=acAMD-5.genome.CDS.2497;Product=ATP synthase epsilon chain %28EC 3.6.3.14%29
+acAMD-5.contig.9	feature	CDS	86660	88087	.	+	0	ID=acAMD-5.genome.CDS.2496;Product=ATP synthase beta chain %28EC 3.6.3.14%29
+acAMD-5.contig.9	feature	CDS	85722	86654	.	+	0	ID=acAMD-5.genome.CDS.2495;Product=ATP synthase gamma chain %28EC 3.6.3.14%29
+acAMD-5.contig.9	feature	CDS	84066	85700	.	+	0	ID=acAMD-5.genome.CDS.2494;Product=ATP synthase alpha chain %28EC 3.6.3.14%29
+acAMD-5.contig.9	feature	CDS	83222	84028	.	+	0	ID=acAMD-5.genome.CDS.2493;Product=ATP synthase delta chain %28EC 3.6.3.14%29
+acAMD-5.contig.9	feature	CDS	82662	83219	.	+	0	ID=acAMD-5.genome.CDS.2492;Product=
+acAMD-5.contig.9	feature	CDS	82406	82630	.	+	0	ID=acAMD-5.genome.CDS.2491;Product=ATP synthase F0 sector subunit c %28EC 3.6.3.14%29
+acAMD-5.contig.9	feature	CDS	81668	82363	.	+	0	ID=acAMD-5.genome.CDS.2490;Product=ATP synthase F0 sector subunit a %28EC 3.6.3.14%29
+acAMD-5.contig.9	feature	CDS	81288	81536	.	+	0	ID=acAMD-5.genome.CDS.2489;Product=
+acAMD-5.contig.9	feature	CDS	80831	81232	.	+	0	ID=acAMD-5.genome.CDS.2488;Product=hypothetical protein
+acAMD-5.contig.9	feature	CDS	79749	80834	.	+	0	ID=acAMD-5.genome.CDS.2487;Product=Undecaprenyl-phosphate N-acetylglucosaminyl 1-phosphate transferase %28EC 2.7.8.-%29
+acAMD-5.contig.9	feature	CDS	78464	79732	.	+	0	ID=acAMD-5.genome.CDS.2486;Product=Serine hydroxymethyltransferase %28EC 2.1.2.1%29
+acAMD-5.contig.9	feature	CDS	78263	78403	.	-	0	ID=acAMD-5.genome.CDS.1225;Product=
+acAMD-5.contig.9	feature	CDS	76993	78237	.	-	0	ID=acAMD-5.genome.CDS.2485;Product=Branched-chain amino acid ABC transporter%2C amino acid-binding protein %28TC 3.A.1.4.1%29
+acAMD-5.contig.9	feature	CDS	76169	76921	.	+	0	ID=acAMD-5.genome.CDS.2484;Product=Branched-chain amino acid transport ATP-binding protein LivF %28TC 3.A.1.4.1%29
+acAMD-5.contig.9	feature	CDS	75294	76169	.	+	0	ID=acAMD-5.genome.CDS.2483;Product=Branched-chain amino acid transport ATP-binding protein LivG %28TC 3.A.1.4.1%29
+acAMD-5.contig.9	feature	CDS	74315	75310	.	+	0	ID=acAMD-5.genome.CDS.2482;Product=Branched-chain amino acid transport system permease protein LivM %28TC 3.A.1.4.1%29
+acAMD-5.contig.9	feature	CDS	73041	74312	.	+	0	ID=acAMD-5.genome.CDS.2481;Product=High-affinity branched-chain amino acid transport system permease protein LivH %28TC 3.A.1.4.1%29
+acAMD-5.contig.9	feature	CDS	72247	72999	.	+	0	ID=acAMD-5.genome.CDS.2480;Product=
+acAMD-5.contig.9	feature	CDS	71598	72254	.	+	0	ID=acAMD-5.genome.CDS.2479;Product=TsaC protein %28YrdC domain%29 required for threonylcarbamoyladenosine t%286%29A37 modification in tRNA
+acAMD-5.contig.9	feature	CDS	70702	71598	.	+	0	ID=acAMD-5.genome.CDS.2478;Product=Protein-N%285%29-glutamine methyltransferase PrmC%2C methylates polypeptide chain release factors RF1 and RF2
+acAMD-5.contig.9	feature	CDS	69632	70705	.	+	0	ID=acAMD-5.genome.CDS.2477;Product=Peptide chain release factor 1
+acAMD-5.contig.9	feature	CDS	69318	69566	.	+	0	ID=acAMD-5.genome.CDS.2476;Product=LSU ribosomal protein L31p %40 LSU ribosomal protein L31p%2C zinc-independent
+acAMD-5.contig.9	feature	CDS	67566	69239	.	+	0	ID=acAMD-5.genome.CDS.2475;Product=Transcription termination factor Rho
+acAMD-5.contig.9	feature	CDS	66510	67412	.	+	0	ID=acAMD-5.genome.CDS.2474;Product=Homoserine kinase %28EC 2.7.1.39%29
+acAMD-5.contig.9	feature	CDS	65425	66507	.	+	0	ID=acAMD-5.genome.CDS.2473;Product=Threonine synthase %28EC 4.2.3.1%29
+acAMD-5.contig.9	feature	CDS	64139	65428	.	+	0	ID=acAMD-5.genome.CDS.2472;Product=Homoserine dehydrogenase %28EC 1.1.1.3%29
+acAMD-5.contig.9	feature	CDS	62731	64074	.	+	0	ID=acAMD-5.genome.CDS.2471;Product=Diaminopimelate decarboxylase %28EC 4.1.1.20%29
+acAMD-5.contig.9	feature	CDS	61011	62678	.	+	0	ID=acAMD-5.genome.CDS.2470;Product=Arginyl-tRNA synthetase %28EC 6.1.1.19%29
+acAMD-5.contig.9	feature	CDS	59883	60962	.	-	0	ID=acAMD-5.genome.CDS.2469;Product=hypothetical protein
+acAMD-5.contig.9	feature	CDS	58975	59886	.	+	0	ID=acAMD-5.genome.CDS.2468;Product=GTP-binding protein Era
+acAMD-5.contig.9	feature	CDS	58088	58975	.	+	0	ID=acAMD-5.genome.CDS.2467;Product=Permease of the drug/metabolite transporter %28DMT%29 superfamily
+acAMD-5.contig.9	feature	CDS	56806	58095	.	+	0	ID=acAMD-5.genome.CDS.2466;Product=Magnesium and cobalt efflux protein CorC
+acAMD-5.contig.9	feature	CDS	56354	56809	.	+	0	ID=acAMD-5.genome.CDS.2465;Product=Metal-dependent hydrolase YbeY%2C involved in rRNA and/or ribosome maturation and assembly
+acAMD-5.contig.9	feature	CDS	55353	56357	.	+	0	ID=acAMD-5.genome.CDS.2464;Product=Phosphate starvation-inducible protein PhoH%2C predicted ATPase
+acAMD-5.contig.9	feature	CDS	54972	55310	.	+	0	ID=acAMD-5.genome.CDS.2463;Product=Histidine triad %28HIT%29 nucleotide-binding protein%2C cyanobacterial subgroup
+acAMD-5.contig.9	feature	CDS	54250	54975	.	+	0	ID=acAMD-5.genome.CDS.2462;Product=Ribosomal RNA small subunit methyltransferase E %28EC 2.1.1.-%29
+acAMD-5.contig.9	feature	CDS	53111	54250	.	+	0	ID=acAMD-5.genome.CDS.2461;Product=Chaperone protein DnaJ
+acAMD-5.contig.9	feature	CDS	52088	53101	.	+	0	ID=acAMD-5.genome.CDS.2460;Product=Heat-inducible transcription repressor HrcA
+acAMD-5.contig.9	feature	CDS	50820	52034	.	+	0	ID=acAMD-5.genome.CDS.2459;Product=Hypothetical radical SAM family enzyme in heat shock gene cluster%2C similarity with CPO of BS HemN-type
+acAMD-5.contig.9	feature	CDS	49025	50845	.	+	0	ID=acAMD-5.genome.CDS.2458;Product=Long-chain-fatty-acid--CoA ligase %28EC 6.2.1.3%29
+acAMD-5.contig.9	feature	CDS	47108	48955	.	+	0	ID=acAMD-5.genome.CDS.2457;Product=Translation elongation factor LepA
+acAMD-5.contig.9	feature	CDS	46725	46991	.	-	0	ID=acAMD-5.genome.CDS.2456;Product=SSU ribosomal protein S20p
+acAMD-5.contig.9	feature	CDS	45735	46724	.	+	0	ID=acAMD-5.genome.CDS.2455;Product=hypothetical protein
+acAMD-5.contig.9	feature	CDS	43558	45714	.	+	0	ID=acAMD-5.genome.CDS.2454;Product=hypothetical protein
+acAMD-5.contig.9	feature	CDS	42983	43561	.	+	0	ID=acAMD-5.genome.CDS.2453;Product=Late competence protein ComEA%2C DNA receptor
+acAMD-5.contig.9	feature	CDS	40431	42911	.	+	0	ID=acAMD-5.genome.CDS.2452;Product=Leucyl-tRNA synthetase %28EC 6.1.1.4%29
+acAMD-5.contig.9	feature	CDS	39937	40350	.	-	0	ID=acAMD-5.genome.CDS.2451;Product=
+acAMD-5.contig.9	feature	CDS	38699	39940	.	+	0	ID=acAMD-5.genome.CDS.2450;Product=
+acAMD-5.contig.9	feature	CDS	37431	38696	.	+	0	ID=acAMD-5.genome.CDS.2449;Product=hypothetical protein
+acAMD-5.contig.9	feature	tRNA	37281	37353	.	+	.	ID=acAMD-5.genome.rna.32;Product=tRNA-Ala-GGC
+acAMD-5.contig.9	feature	CDS	36576	37244	.	+	0	ID=acAMD-5.genome.CDS.2448;Product=hypothetical protein
+acAMD-5.contig.9	feature	CDS	36201	36575	.	+	0	ID=acAMD-5.genome.CDS.2447;Product=Ribosomal silencing factor RsfA
+acAMD-5.contig.9	feature	CDS	35557	36204	.	+	0	ID=acAMD-5.genome.CDS.2446;Product=Nicotinate-nucleotide adenylyltransferase %28EC 2.7.7.18%29
+acAMD-5.contig.9	feature	CDS	35375	35557	.	+	0	ID=acAMD-5.genome.CDS.2445;Product=
+acAMD-5.contig.9	feature	CDS	34107	35378	.	+	0	ID=acAMD-5.genome.CDS.2444;Product=Gamma-glutamyl phosphate reductase %28EC 1.2.1.41%29
+acAMD-5.contig.9	feature	CDS	32968	34110	.	+	0	ID=acAMD-5.genome.CDS.2443;Product=Glutamate 5-kinase %28EC 2.7.2.11%29 / RNA-binding C-terminal domain PUA
+acAMD-5.contig.9	feature	CDS	31586	32971	.	+	0	ID=acAMD-5.genome.CDS.2442;Product=GTP-binding protein Obg
+acAMD-5.contig.9	feature	CDS	31253	31501	.	+	0	ID=acAMD-5.genome.CDS.2441;Product=LSU ribosomal protein L27p
+acAMD-5.contig.9	feature	CDS	30932	31246	.	+	0	ID=acAMD-5.genome.CDS.2440;Product=LSU ribosomal protein L21p
+acAMD-5.contig.9	feature	CDS	28716	30833	.	+	0	ID=acAMD-5.genome.CDS.2439;Product=Cytoplasmic axial filament protein CafA and Ribonuclease G %28EC 3.1.4.-%29
+acAMD-5.contig.9	feature	CDS	27340	28515	.	+	0	ID=acAMD-5.genome.CDS.2438;Product=Rod shape-determining protein RodA
+acAMD-5.contig.9	feature	CDS	25223	27343	.	+	0	ID=acAMD-5.genome.CDS.2437;Product=Penicillin-binding protein 2 %28PBP-2%29
+acAMD-5.contig.9	feature	CDS	24711	25226	.	+	0	ID=acAMD-5.genome.CDS.2436;Product=
+acAMD-5.contig.9	feature	CDS	23841	24707	.	+	0	ID=acAMD-5.genome.CDS.2435;Product=
+acAMD-5.contig.9	feature	CDS	22809	23834	.	+	0	ID=acAMD-5.genome.CDS.2434;Product=Rod shape-determining protein MreB
+acAMD-5.contig.9	feature	CDS	22373	22783	.	+	0	ID=acAMD-5.genome.CDS.2433;Product=Nucleoside diphosphate kinase %28EC 2.7.4.6%29
+acAMD-5.contig.9	feature	CDS	21974	22330	.	+	0	ID=acAMD-5.genome.CDS.2432;Product=
+acAMD-5.contig.9	feature	CDS	20656	21969	.	+	0	ID=acAMD-5.genome.CDS.2431;Product=Dihydrofolate synthase %28EC 6.3.2.12%29 %40 Folylpolyglutamate synthase %28EC 6.3.2.17%29
+acAMD-5.contig.9	feature	CDS	18070	20613	.	-	0	ID=acAMD-5.genome.CDS.2430;Product=Valyl-tRNA synthetase %28EC 6.1.1.9%29
+acAMD-5.contig.9	feature	CDS	16797	18065	.	+	0	ID=acAMD-5.genome.CDS.2429;Product=ATP-dependent Clp protease ATP-binding subunit ClpX
+acAMD-5.contig.9	feature	CDS	16069	16689	.	+	0	ID=acAMD-5.genome.CDS.2428;Product=ATP-dependent Clp protease proteolytic subunit %28EC 3.4.21.92%29
+acAMD-5.contig.9	feature	CDS	15433	16068	.	+	0	ID=acAMD-5.genome.CDS.2427;Product=ATP-dependent Clp protease proteolytic subunit %28EC 3.4.21.92%29
+acAMD-5.contig.9	feature	CDS	14085	15353	.	+	0	ID=acAMD-5.genome.CDS.2426;Product=Cell division trigger factor %28EC 5.2.1.8%29
+acAMD-5.contig.9	feature	tRNA	13983	14058	.	+	.	ID=acAMD-5.genome.rna.31;Product=tRNA-Pro-TGG
+acAMD-5.contig.9	feature	tRNA	13782	13855	.	-	.	ID=acAMD-5.genome.rna.33;Product=tRNA-Gly-TCC
+acAMD-5.contig.9	feature	CDS	13324	13770	.	+	0	ID=acAMD-5.genome.CDS.2425;Product=Ribose 5-phosphate isomerase B %28EC 5.3.1.6%29 / Galactose 6-phosphate isomerase
+acAMD-5.contig.9	feature	CDS	12719	13315	.	+	0	ID=acAMD-5.genome.CDS.2424;Product=hypothetical protein
+acAMD-5.contig.9	feature	CDS	10097	12646	.	-	0	ID=acAMD-5.genome.CDS.2423;Product=Membrane alanine aminopeptidase N %28EC 3.4.11.2%29
+acAMD-5.contig.9	feature	CDS	9851	10093	.	+	0	ID=acAMD-5.genome.CDS.2422;Product=
+acAMD-5.contig.9	feature	CDS	8887	9780	.	-	0	ID=acAMD-5.genome.CDS.2421;Product=
+acAMD-5.contig.9	feature	CDS	7315	8832	.	-	0	ID=acAMD-5.genome.CDS.2420;Product=Putative nucleoside-diphosphate-sugar epimerase
+acAMD-5.contig.9	feature	CDS	6922	7305	.	-	0	ID=acAMD-5.genome.CDS.2419;Product=Hemoglobin-like protein HbO
+acAMD-5.contig.9	feature	CDS	5214	6911	.	-	0	ID=acAMD-5.genome.CDS.2418;Product=Alpha-glucosidase %28EC 3.2.1.20%29
+acAMD-5.contig.9	feature	CDS	4555	5217	.	+	0	ID=acAMD-5.genome.CDS.2417;Product=
+acAMD-5.contig.9	feature	CDS	2892	4562	.	+	0	ID=acAMD-5.genome.CDS.2416;Product=ABC transporter ATP-binding protein
+acAMD-5.contig.9	feature	CDS	2418	2870	.	+	0	ID=acAMD-5.genome.CDS.2415;Product=Single-stranded DNA-binding protein
+acAMD-5.contig.9	feature	tRNA	2210	2285	.	-	.	ID=acAMD-5.genome.rna.34;Product=tRNA-Arg-TCT
+acAMD-5.contig.9	feature	CDS	1554	2195	.	-	0	ID=acAMD-5.genome.CDS.2414;Product=3%27-to-5%27 oligoribonuclease %28orn%29
+acAMD-5.contig.9	feature	tRNA	1430	1505	.	-	.	ID=acAMD-5.genome.rna.35;Product=tRNA-His-GTG
+acAMD-5.contig.9	feature	CDS	867	1391	.	-	0	ID=acAMD-5.genome.CDS.2413;Product=
+acAMD-5.contig.9	feature	CDS	168	857	.	-	0	ID=acAMD-5.genome.CDS.2412;Product=
+acAMD-5.contig.9	feature	CDS	2	109	.	-	0	ID=acAMD-5.genome.CDS.2411;Product=
