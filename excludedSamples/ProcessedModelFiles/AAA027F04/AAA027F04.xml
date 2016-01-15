@@ -1,5 +1,5 @@
 <sbml xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" level="3" sboTerm="SBO:0000624" version="1" xmlns="http://www.sbml.org/sbml/level3/version1/core" fbc:required="false">
-  <model fbc:strict="true" id="kb_g_261673_fbamdl0">
+  <model fbc:strict="true" id="AAA027F04_genome_fbamdl0">
     <listOfUnitDefinitions>
       <unitDefinition id="mmol_per_gDW_per_hr">
         <listOfUnits>
@@ -44,6 +44,10 @@
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00008_c" name="ADP" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C10H13N5O10P2"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00157_c" name="Glycerone" compartment="c" fbc:charge="0" fbc:chemicalFormula="C3H6O3"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00095_c" name="Glycerone_phosphate" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C3H6O6P"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00006_c" name="NADP" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C21H26N7O17P3"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11558_c" name="10_methyl_3_oxo_undecanoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C23H41N2O9PRS"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11559_c" name="10_methyl_3_hydroxy_undecanoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C23H43N2O9PRS"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00005_c" name="NADPH" compartment="c" fbc:charge="-3" fbc:chemicalFormula="C21H27N7O17P3"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00003_c" name="NAD" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C21H26N7O14P2"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00004_c" name="NADH" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C21H27N7O14P2"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11560_c" name="10_methyl_trans_undec_2_enoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C23H41N2O8PRS"/>
@@ -51,6 +55,8 @@
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00239_c" name="H2S" compartment="c" fbc:charge="0" fbc:chemicalFormula="H2S"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11476_c" name="hexadecanoyl_acp" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C27H51N2O8PRS"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11477_c" name="2E_Hexadecenoyl_acp" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C27H49N2O8PRS"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11509_c" name="10_methyl_3_hydroxy_dodecanoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C24H45N2O9PRS"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11508_c" name="10_methyl_3_oxo_dodecanoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C24H43N2O9PRS"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00001_c" name="H2O" compartment="c" fbc:charge="0" fbc:chemicalFormula="H2O"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00061_c" name="Phosphoenolpyruvate" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C3H3O6P"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00482_c" name="2_Phospho_D_glycerate" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C3H5O7P"/>
@@ -58,6 +64,8 @@
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00080_c" name="Glycerol_3_phosphate" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C3H8O6P"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd15716_c" name="Diisoheptadecanoylphosphatidylglycerophosphate" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C40H78O13P2"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00046_c" name="CMP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C9H13N3O8P"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11483_c" name="R_3_Hydroxyoctanoyl_acyl_carrier_protein" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C19H35N2O9PRS"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11490_c" name="3_oxooctanoyl_acp" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C19H33N2O9PRS"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00072_c" name="D_fructose_6_phosphate" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C6H12O9P"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00079_c" name="D_glucose_6_phosphate" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C6H12O9P"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00238_c" name="Sedoheptulose7_phosphate" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C7H14O10P"/>
@@ -69,13 +77,16 @@
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00009_c" name="Phosphate" compartment="c" fbc:charge="-2" fbc:chemicalFormula="HO4P"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00264_c" name="Spermidine" compartment="c" fbc:charge="3" fbc:chemicalFormula="C7H22N3"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00264_e" name="Spermidine" compartment="e" fbc:charge="3" fbc:chemicalFormula="C7H22N3"/>
-      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00006_c" name="NADP" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C21H26N7O17P3"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00297_c" name="dTDP" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C10H14N2O11P2"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00011_c" name="CO2" compartment="c" fbc:charge="0" fbc:chemicalFormula="CO2"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11830_c" name="S_Aminomethyldihydrolipoylprotein" compartment="c" fbc:charge="1" fbc:chemicalFormula="C2H7NRS2"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd12005_c" name="Lipoylprotein" compartment="c" fbc:charge="0" fbc:chemicalFormula="CHRS2"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00033_c" name="Glycine" compartment="c" fbc:charge="0" fbc:chemicalFormula="C2H5NO2"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00100_c" name="Glycerol" compartment="c" fbc:charge="0" fbc:chemicalFormula="C3H8O3"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11513_c" name="12_methyl_3_hydroxy_tetra_decanoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C26H49N2O9PRS"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11512_c" name="12_methyl_3_oxo_tetra_decanoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C26H47N2O9PRS"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11484_c" name="HMA" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C25H47N2O9PRS"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11491_c" name="3_oxotetradecanoyl_acp" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C25H45N2O9PRS"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11515_c" name="12_methyl_tetra_decanoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C26H49N2O8PRS"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11514_c" name="12_methyl_trans_tetra_dec_2_enoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C26H47N2O8PRS"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11469_c" name="2E_Dodecenoyl_acp" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C23H41N2O8PRS"/>
@@ -85,10 +96,14 @@
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11464_c" name="Butyryl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C15H27N2O8PRS"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11465_c" name="But_2_enoyl_acyl_carrier_protein" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C15H25N2O8PRS"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00521_c" name="dTDP_4_oxo_6_deoxy_D_glucose" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C16H22N2O15P2"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11486_c" name="3_Oxohexanoyl_acp" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C17H29N2O9PRS"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11479_c" name="D_3_Hydroxyhexanoyl_acp" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C17H31N2O9PRS"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd15545_c" name="Phosphatidylglycerophosphate_dihexadecanoyl" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C38H74O13P2"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd15419_c" name="CDP_1_2_dihexadecanoylglycerol" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C44H79N3O15P2"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00504_c" name="LL_2_6_Diaminopimelate" compartment="c" fbc:charge="0" fbc:chemicalFormula="C7H14N2O4"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00516_c" name="meso_2_6_Diaminopimelate" compartment="c" fbc:charge="0" fbc:chemicalFormula="C7H14N2O4"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11521_c" name="5_methyl_3_oxo_hexanoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C18H31N2O9PRS"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11522_c" name="5_methyl_3_hydroxy_hexanoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C18H33N2O9PRS"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11540_c" name="13_methyl_tetra_decanoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C26H49N2O8PRS"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11539_c" name="13_methyl_trans_tetra_dec_2_enoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C26H47N2O8PRS"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11503_c" name="6_methyl_octanoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C20H37N2O8PRS"/>
@@ -100,6 +115,8 @@
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11511_c" name="10_methyl_dodecanoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C24H45N2O8PRS"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11510_c" name="10_methyl_trans_dodec_2_enoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C24H43N2O8PRS"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd02090_c" name="Glycerophosphoglycerol" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C6H14O8P"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11534_c" name="11_methyl_3_hydroxy_dodecanoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C24H45N2O9PRS"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11533_c" name="11_methyl_3_oxo_dodecanoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C24H43N2O9PRS"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00358_c" name="dUTP" compartment="c" fbc:charge="-3" fbc:chemicalFormula="C9H12N2O14P3"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00299_c" name="dUMP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C9H12N2O8P"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd15720_c" name="Dianteisopentadecanoylphosphatidylglycerophosphate" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C36H70O13P2"/>
@@ -108,15 +125,28 @@
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00863_c" name="beta_D_Glucose_6_phosphate" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C6H12O9P"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd15420_c" name="CDP_1_2_dioctadec_11_enoylglycerol" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C48H83N3O15P2"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd15548_c" name="Phosphatidylglycerophosphate_dioctadec_11_enoyl" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C42H78O13P2"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11489_c" name="3_oxododecanoyl_acp" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C23H41N2O9PRS"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11480_c" name="D_3_Hydroxydodecanoyl_acp" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C23H43N2O9PRS"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00175_c" name="UDP_N_acetyl_D_galactosamine" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C17H25N3O17P2"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00037_c" name="UDP_N_acetylglucosamine" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C17H25N3O17P2"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00206_c" name="dCMP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C9H13N3O7P"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00533_c" name="dCDP" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C9H13N3O10P2"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11571_c" name="3_Hydroxyoctodecanoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C29H55N2O9PRS"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11570_c" name="3_Oxooctodecanoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C29H53N2O9PRS"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00105_c" name="D_Ribose" compartment="c" fbc:charge="0" fbc:chemicalFormula="C5H10O5"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00013_c" name="NH3" compartment="c" fbc:charge="1" fbc:chemicalFormula="H4N"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00062_c" name="UTP" compartment="c" fbc:charge="-3" fbc:chemicalFormula="C9H12N2O15P3"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00052_c" name="CTP" compartment="c" fbc:charge="-3" fbc:chemicalFormula="C9H13N3O14P3"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11505_c" name="8_methyl_3_hydroxy_decanoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C22H41N2O9PRS"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11504_c" name="8_methyl_3_oxo_decanoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C22H39N2O9PRS"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11555_c" name="8_methyl_3_hydroxy_nonanoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C21H39N2O9PRS"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11554_c" name="8_methyl_3_oxo_nonanoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C21H37N2O9PRS"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00448_c" name="D_Glyceraldehyde" compartment="c" fbc:charge="0" fbc:chemicalFormula="C3H6O3"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11529_c" name="9_methyl_3_oxo_decanoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C22H39N2O9PRS"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11530_c" name="9_methyl_3_hydroxy_decanoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C22H41N2O9PRS"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd02851_c" name="AICAR" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C9H14N4O8P"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00106_c" name="Fumarate" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C4H2O4"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd02921_c" name="SAICAR" compartment="c" fbc:charge="-3" fbc:chemicalFormula="C13H16N4O12P"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11527_c" name="7_methyl_trans_oct_2_enoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C20H35N2O8PRS"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11528_c" name="7_methyl_octanoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C20H37N2O8PRS"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00020_c" name="Pyruvate" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C3H3O3"/>
@@ -132,6 +162,8 @@
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11499_c" name="4_methyl_hexanoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C18H33N2O8PRS"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00507_c" name="Glycerophosphocholine" compartment="c" fbc:charge="0" fbc:chemicalFormula="C8H20NO6P"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00098_c" name="Choline" compartment="c" fbc:charge="1" fbc:chemicalFormula="C5H14NO"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11481_c" name="R_3_hydroxypalmitoyl_acyl_carrierprotein_" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C27H51N2O9PRS"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11485_c" name="3_oxohexadecanoyl_acp" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C27H49N2O9PRS"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11471_c" name="2E_Octenoyl_acp" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C19H33N2O8PRS"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11470_c" name="Octanoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C19H35N2O8PRS"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00510_c" name="deoxyribose_5_phosphate" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C5H10O7P"/>
@@ -144,6 +176,9 @@
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd15669_c" name="glycerol_teichoic_acid_n45__linked__glucose_substituted" compartment="c" fbc:charge="-48" fbc:chemicalFormula="C461H809N10O484P46R"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd15666_c" name="Peptidoglycan_polymer_n_1_subunits" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C40H63N8O21R"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd15662_c" name="Prenol_45n_teichoic_acid_glucose_substituted" compartment="c" fbc:charge="-47" fbc:chemicalFormula="C476H836N2O467P47"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00028_c" name="Heme" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C34H30FeN4O4"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11313_c" name="hemeO" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C49H56FeN4O5"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00350_c" name="Farnesyldiphosphate" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C15H26O7P2"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00203_c" name="1_3_Bisphospho_D_glycerate" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C3H6O10P2"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00900_c" name="GDP_4_dehydro_D_rhamnose" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C16H21N5O15P2"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00083_c" name="GDP_mannose" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C16H23N5O16P2"/>
@@ -151,8 +186,16 @@
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd15421_c" name="CDP_1_2_dioctadecanoylglycerol" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C48H87N3O15P2"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd15547_c" name="Phosphatidylglycerophosphate_dioctadecanoyl" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C42H82O13P2"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd02147_c" name="4_Phosphoerythronate" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C4H7O8P"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00018_c" name="AMP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C10H13N5O7P"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd02375_c" name="Adenylosuccinate" compartment="c" fbc:charge="-3" fbc:chemicalFormula="C14H15N5O11P"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11532_c" name="9_methyl_decanoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C22H41N2O8PRS"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11531_c" name="9_methyl_trans_dec_2_enoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C22H39N2O8PRS"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11562_c" name="12_methyl_3_oxo_tridecanoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C25H45N2O9PRS"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11563_c" name="12_methyl_3_hydroxy_tridecanoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C25H47N2O9PRS"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11501_c" name="6_methyl_3_hydroxy_octanoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C20H37N2O9PRS"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11500_c" name="6_methyl_3_oxo_octanoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C20H35N2O9PRS"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11566_c" name="14_methyl_3_oxo_pentadecanoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C27H49N2O9PRS"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11567_c" name="14_methyl_3_hydroxy_pentadecanoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C27H51N2O9PRS"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00023_c" name="L_Glutamate" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C5H8NO4"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00053_c" name="L_Glutamine" compartment="c" fbc:charge="0" fbc:chemicalFormula="C5H10N2O3"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd15688_c" name="CDP_1_2_diisohexadecanoylglycerol" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C44H79N3O15P2"/>
@@ -168,10 +211,11 @@
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00227_c" name="L_Homoserine" compartment="c" fbc:charge="0" fbc:chemicalFormula="C4H9NO3"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd15685_c" name="CDP_1_2_diisotetradecanoylglycerol" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C40H71N3O15P2"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd15718_c" name="Diisotetradecanoylphosphatidylglycerophosphate" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C34H66O13P2"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11547_c" name="4_methyl_3_hydroxy_pentanoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C17H31N2O9PRS"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11546_c" name="4_methyl_3_oxo_pentanoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C17H29N2O9PRS"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00035_c" name="L_Alanine" compartment="c" fbc:charge="0" fbc:chemicalFormula="C3H7NO2"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11472_c" name="Hexanoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C17H31N2O8PRS"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11473_c" name="2E_Hexenoyl_acp" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C17H29N2O8PRS"/>
-      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00018_c" name="AMP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C10H13N5O7P"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00103_c" name="PRPP" compartment="c" fbc:charge="-3" fbc:chemicalFormula="C5H10O14P3"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00026_c" name="UDP_glucose" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C15H22N2O17P2"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00144_c" name="UDPglucuronate" compartment="c" fbc:charge="-3" fbc:chemicalFormula="C15H19N2O18P2"/>
@@ -180,9 +224,15 @@
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00867_c" name="Inositol_1_phosphate" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C6H12O9P"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11524_c" name="5_methyl_hexanoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C18H33N2O8PRS"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11523_c" name="5_methyl_trans_hex_2_enoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C18H31N2O8PRS"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11478_c" name="R_3_Hydroxybutanoyl_acyl_carrier_protein" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C15H27N2O9PRS"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11488_c" name="Acetoacetyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C15H25N2O9PRS"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00036_c" name="Succinate" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C4H4O4"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00822_c" name="O_Succinyl_L_homoserine" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C8H12NO6"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd08210_c" name="ADC" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C10H10NO5"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11537_c" name="13_methyl_3_oxo_tetra_decanoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C26H47N2O9PRS"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11538_c" name="13_methyl_3_hydroxy_tetra_decanoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C26H49N2O9PRS"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11482_c" name="R_3_Hydroxydecanoyl_acyl_carrier_protein" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C21H39N2O9PRS"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11487_c" name="3_oxodecanoyl_acp" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C21H37N2O9PRS"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd15546_c" name="Phosphatidylglycerophosphate_dihexadec_9_enoyl" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C38H70O13P2"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd15418_c" name="CDP_1_2_dihexadec_9_enoylglycerol" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C44H75N3O15P2"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11536_c" name="11_methyl_dodecanoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C24H45N2O8PRS"/>
@@ -190,7 +240,6 @@
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00114_c" name="IMP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C10H12N4O8P"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00041_c" name="L_Aspartate" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C4H6NO4"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00038_c" name="GTP" compartment="c" fbc:charge="-3" fbc:chemicalFormula="C10H13N5O14P3"/>
-      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd02375_c" name="Adenylosuccinate" compartment="c" fbc:charge="-3" fbc:chemicalFormula="C14H15N5O11P"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00031_c" name="GDP" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C10H13N5O11P2"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd01977_c" name="4_Phospho_L_aspartate" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C4H7NO7P"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00171_c" name="D_Ribulose5_phosphate" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C5H10O8P"/>
@@ -198,6 +247,8 @@
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd15667_c" name="glycerol_teichoic_acid_n45__linked__unsubstituted" compartment="c" fbc:charge="-48" fbc:chemicalFormula="C191H359N10O259P46R"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11557_c" name="8_methyl_nonanoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C21H39N2O8PRS"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11556_c" name="8_methyl_trans_non_2_enoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C21H37N2O8PRS"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11496_c" name="4_methyl_3_oxo_hexanoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C18H31N2O9PRS"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11497_c" name="4_methyl_3_hydroxy_hexanoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C18H33N2O9PRS"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00043_c" name="UDP_galactose" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C15H22N2O17P2"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00087_c" name="Tetrahydrofolate" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C19H21N7O6"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00125_c" name="5_10_Methylenetetrahydrofolate" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C20H21N7O6"/>
@@ -206,12 +257,17 @@
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11519_c" name="14_methyl_hexa_decanoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C28H53N2O8PRS"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd15423_c" name="CDP_1_2_ditetradecanoylglycerol" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C40H71N3O15P2"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd15543_c" name="Phosphatidylglycerophosphate_ditetradecanoyl" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C34H66O13P2"/>
-      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00005_c" name="NADPH" compartment="c" fbc:charge="-3" fbc:chemicalFormula="C21H27N7O17P3"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00434_c" name="4_Aminobutanal" compartment="c" fbc:charge="1" fbc:chemicalFormula="C4H10NO"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00281_c" name="GABA" compartment="c" fbc:charge="0" fbc:chemicalFormula="C4H9NO2"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11550_c" name="6_methyl_3_oxo_heptanoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C19H33N2O9PRS"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11551_c" name="6_methyl_3_hydroxy_heptanoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C19H35N2O9PRS"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11541_c" name="15_methyl_3_oxo_hexa_decanoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C28H51N2O9PRS"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11542_c" name="15_methyl_3_hydroxy_hexa_decanoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C28H53N2O9PRS"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11475_c" name="2E_Decenoyl_acp" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C21H37N2O8PRS"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11474_c" name="Decanoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C21H39N2O8PRS"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00346_c" name="L_Aspartate4_semialdehyde" compartment="c" fbc:charge="0" fbc:chemicalFormula="C4H7NO3"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00347_c" name="5_10_Methenyltetrahydrofolate" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C20H20N7O6"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd02197_c" name="5_Formyltetrahydrofolate" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C20H21N7O7"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11569_c" name="14_methyl_pentadecanoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C27H51N2O8PRS"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11568_c" name="14_methyl_trans_pentadec_2_enoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C27H49N2O8PRS"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd15719_c" name="Diisopentadecanoylphosphatidylglycerophosphate" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C36H70O13P2"/>
@@ -221,71 +277,81 @@
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd15668_c" name="glycerol_teichoic_acid_n45__linked__D_ala_substituted" compartment="c" fbc:charge="-48" fbc:chemicalFormula="C326H584N55O304P46R"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd15663_c" name="Prenol_45n_teichoic_acid_alanine_substituted" compartment="c" fbc:charge="-47" fbc:chemicalFormula="C341H611N47O287P47"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00169_c" name="3_Phosphoglycerate" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C3H5O7P"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11526_c" name="7_methyl_3_hydroxy_octanoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C20H37N2O9PRS"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11525_c" name="7_methyl_3_oxo_octanoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C20H35N2O9PRS"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00118_c" name="Putrescine" compartment="c" fbc:charge="2" fbc:chemicalFormula="C4H14N2"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00118_e" name="Putrescine" compartment="e" fbc:charge="2" fbc:chemicalFormula="C4H14N2"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00367_c" name="Cytidine" compartment="c" fbc:charge="0" fbc:chemicalFormula="C9H13N3O5"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00068_c" name="ITP" compartment="c" fbc:charge="-3" fbc:chemicalFormula="C10H12N4O14P3"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00090_c" name="IDP" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C10H12N4O11P2"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11517_c" name="14_methyl_3_hydroxy_hexa_decanoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C28H53N2O9PRS"/>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd11516_c" name="14_methyl_3_oxo_hexa_decanoyl_ACP" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C28H51N2O9PRS"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd00522_c" name="dTDP_4_oxo_L_rhamnose" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C16H22N2O15P2"/>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cpd02113_c" name="dTDP_rhamnose" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C16H24N2O15P2"/>
     </listOfSpecies>
     <fbc:listOfGeneProducts>
-      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_282" fbc:label="AAA027F04_CDS_282"/>
-      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_15" fbc:label="AAA027F04_CDS_15"/>
-      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_341" fbc:label="AAA027F04_CDS_341"/>
-      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_344" fbc:label="AAA027F04_CDS_344"/>
-      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_178" fbc:label="AAA027F04_CDS_178"/>
-      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_120" fbc:label="AAA027F04_CDS_120"/>
-      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_91" fbc:label="AAA027F04_CDS_91"/>
-      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_291" fbc:label="AAA027F04_CDS_291"/>
-      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_34" fbc:label="AAA027F04_CDS_34"/>
-      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_48" fbc:label="AAA027F04_CDS_48"/>
-      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_79" fbc:label="AAA027F04_CDS_79"/>
-      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_315" fbc:label="AAA027F04_CDS_315"/>
-      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_189" fbc:label="AAA027F04_CDS_189"/>
-      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_134" fbc:label="AAA027F04_CDS_134"/>
-      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_131" fbc:label="AAA027F04_CDS_131"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_649" fbc:label="AAA027F04_CDS_649"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_374" fbc:label="AAA027F04_CDS_374"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_716" fbc:label="AAA027F04_CDS_716"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_720" fbc:label="AAA027F04_CDS_720"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_542" fbc:label="AAA027F04_CDS_542"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_482" fbc:label="AAA027F04_CDS_482"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_454" fbc:label="AAA027F04_CDS_454"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_453" fbc:label="AAA027F04_CDS_453"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_658" fbc:label="AAA027F04_CDS_658"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_408" fbc:label="AAA027F04_CDS_408"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_393" fbc:label="AAA027F04_CDS_393"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_441" fbc:label="AAA027F04_CDS_441"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_685" fbc:label="AAA027F04_CDS_685"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_552" fbc:label="AAA027F04_CDS_552"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_495" fbc:label="AAA027F04_CDS_495"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_494" fbc:label="AAA027F04_CDS_494"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_493" fbc:label="AAA027F04_CDS_493"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_496" fbc:label="AAA027F04_CDS_496"/>
       <fbc:geneProduct fbc:id="G_Unknown" fbc:label="Unknown"/>
-      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_133" fbc:label="AAA027F04_CDS_133"/>
-      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_165" fbc:label="AAA027F04_CDS_165"/>
-      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_132" fbc:label="AAA027F04_CDS_132"/>
-      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_297" fbc:label="AAA027F04_CDS_297"/>
-      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_57" fbc:label="AAA027F04_CDS_57"/>
-      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_144" fbc:label="AAA027F04_CDS_144"/>
-      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_177" fbc:label="AAA027F04_CDS_177"/>
-      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_20" fbc:label="AAA027F04_CDS_20"/>
-      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_84" fbc:label="AAA027F04_CDS_84"/>
-      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_280" fbc:label="AAA027F04_CDS_280"/>
-      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_71" fbc:label="AAA027F04_CDS_71"/>
-      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_146" fbc:label="AAA027F04_CDS_146"/>
-      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_339" fbc:label="AAA027F04_CDS_339"/>
-      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_342" fbc:label="AAA027F04_CDS_342"/>
-      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_307" fbc:label="AAA027F04_CDS_307"/>
-      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_125" fbc:label="AAA027F04_CDS_125"/>
-      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_299" fbc:label="AAA027F04_CDS_299"/>
-      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_151" fbc:label="AAA027F04_CDS_151"/>
-      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_179" fbc:label="AAA027F04_CDS_179"/>
-      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_305" fbc:label="AAA027F04_CDS_305"/>
-      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_171" fbc:label="AAA027F04_CDS_171"/>
-      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_121" fbc:label="AAA027F04_CDS_121"/>
-      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_310" fbc:label="AAA027F04_CDS_310"/>
-      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_259" fbc:label="AAA027F04_CDS_259"/>
-      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_14" fbc:label="AAA027F04_CDS_14"/>
-      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_300" fbc:label="AAA027F04_CDS_300"/>
-      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_283" fbc:label="AAA027F04_CDS_283"/>
-      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_218" fbc:label="AAA027F04_CDS_218"/>
-      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_156" fbc:label="AAA027F04_CDS_156"/>
-      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_255" fbc:label="AAA027F04_CDS_255"/>
-      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_168" fbc:label="AAA027F04_CDS_168"/>
-      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_110" fbc:label="AAA027F04_CDS_110"/>
-      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_52" fbc:label="AAA027F04_CDS_52"/>
-      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_8" fbc:label="AAA027F04_CDS_8"/>
-      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_136" fbc:label="AAA027F04_CDS_136"/>
-      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_272" fbc:label="AAA027F04_CDS_272"/>
-      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_169" fbc:label="AAA027F04_CDS_169"/>
-      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_311" fbc:label="AAA027F04_CDS_311"/>
-      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_312" fbc:label="AAA027F04_CDS_312"/>
-      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_176" fbc:label="AAA027F04_CDS_176"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_527" fbc:label="AAA027F04_CDS_527"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_665" fbc:label="AAA027F04_CDS_665"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_417" fbc:label="AAA027F04_CDS_417"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_506" fbc:label="AAA027F04_CDS_506"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_541" fbc:label="AAA027F04_CDS_541"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_379" fbc:label="AAA027F04_CDS_379"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_446" fbc:label="AAA027F04_CDS_446"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_647" fbc:label="AAA027F04_CDS_647"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_433" fbc:label="AAA027F04_CDS_433"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_508" fbc:label="AAA027F04_CDS_508"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_714" fbc:label="AAA027F04_CDS_714"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_718" fbc:label="AAA027F04_CDS_718"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_675" fbc:label="AAA027F04_CDS_675"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_487" fbc:label="AAA027F04_CDS_487"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_667" fbc:label="AAA027F04_CDS_667"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_513" fbc:label="AAA027F04_CDS_513"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_529" fbc:label="AAA027F04_CDS_529"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_543" fbc:label="AAA027F04_CDS_543"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_673" fbc:label="AAA027F04_CDS_673"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_535" fbc:label="AAA027F04_CDS_535"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_468" fbc:label="AAA027F04_CDS_468"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_316" fbc:label="AAA027F04_CDS_316"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_483" fbc:label="AAA027F04_CDS_483"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_680" fbc:label="AAA027F04_CDS_680"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_624" fbc:label="AAA027F04_CDS_624"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_373" fbc:label="AAA027F04_CDS_373"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_668" fbc:label="AAA027F04_CDS_668"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_650" fbc:label="AAA027F04_CDS_650"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_581" fbc:label="AAA027F04_CDS_581"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_518" fbc:label="AAA027F04_CDS_518"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_692" fbc:label="AAA027F04_CDS_692"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_620" fbc:label="AAA027F04_CDS_620"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_532" fbc:label="AAA027F04_CDS_532"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_472" fbc:label="AAA027F04_CDS_472"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_412" fbc:label="AAA027F04_CDS_412"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_368" fbc:label="AAA027F04_CDS_368"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_498" fbc:label="AAA027F04_CDS_498"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_639" fbc:label="AAA027F04_CDS_639"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_533" fbc:label="AAA027F04_CDS_533"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_638" fbc:label="AAA027F04_CDS_638"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_681" fbc:label="AAA027F04_CDS_681"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_682" fbc:label="AAA027F04_CDS_682"/>
+      <fbc:geneProduct fbc:id="G_AAA027F04_CDS_540" fbc:label="AAA027F04_CDS_540"/>
     </fbc:listOfGeneProducts>
     <listOfReactions>
       <reaction fast="false" id="R_rxn03638_c" reversible="false" name="Acetyl_CoA_D_glucosamine_1_phosphate_N_acetyltransferase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
@@ -300,8 +366,8 @@
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:and>
-            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_282"/>
-            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_282"/>
+            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_649"/>
+            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_649"/>
           </fbc:and>
         </fbc:geneProductAssociation>
       </reaction>
@@ -318,7 +384,7 @@
           <speciesReference constant="true" species="M_cpd11420_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_15"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_374"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn01675_c" reversible="true" name="dTTP_alpha_D_glucose_1_phosphate_thymidylyltransferase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
@@ -332,9 +398,9 @@
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_178"/>
-            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_341"/>
-            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_344"/>
+            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_716"/>
+            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_542"/>
+            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_720"/>
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
@@ -348,7 +414,21 @@
           <speciesReference constant="true" species="M_cpd00095_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_120"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_482"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction fast="false" id="R_rxn05422_c" reversible="true" name="10_methyl_3_oxo_undecanoyl_ACP_NADP_oxidoreductase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
+        <listOfReactants>
+          <speciesReference constant="true" species="M_cpd00005_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd00067_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd11558_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" species="M_cpd00006_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd11559_c" stoichiometry="1"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_454"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn05448_c" reversible="false" name="10_methyl_trans_undec_2_enoyl_ACP_NAD_oxidoreductase_A_specific" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
@@ -362,7 +442,7 @@
           <speciesReference constant="true" species="M_cpd11561_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_91"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_453"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn00952_c" reversible="false" name="O_Acetyl_L_homoserine_acetate_lyase_adding_methanethiol" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
@@ -376,7 +456,7 @@
           <speciesReference constant="true" species="M_cpd00135_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_15"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_374"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn05328_c" reversible="false" name="Hexadecanoyl_acyl_carrier_protein_malonyl_CoA" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
@@ -390,7 +470,21 @@
           <speciesReference constant="true" species="M_cpd11476_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_91"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_453"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction fast="false" id="R_rxn05372_c" reversible="true" name="10_methyl_3_oxo_dodecanoyl_ACP_NADP_oxidoreductase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
+        <listOfReactants>
+          <speciesReference constant="true" species="M_cpd00005_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd00067_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd11508_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" species="M_cpd00006_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd11509_c" stoichiometry="1"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_454"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn00459_c" reversible="true" name="2_Phospho_D_glycerate_hydro_lyase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
@@ -402,7 +496,7 @@
           <speciesReference constant="true" species="M_cpd00061_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_291"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_658"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn10259_c" reversible="true" name="isoheptadecanoyl_CDPdiacylglycerol_sn_glycerol_3_phosphate_3_phosphatidyltransferase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
@@ -416,9 +510,23 @@
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_48"/>
-            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_34"/>
+            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_393"/>
+            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_408"/>
           </fbc:or>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction fast="false" id="R_rxn05341_c" reversible="true" name="3R_3_Hydroxyoctanoyl_acyl_carrier_protein_NADP_oxidoreductase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
+        <listOfReactants>
+          <speciesReference constant="true" species="M_cpd00006_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd11483_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" species="M_cpd00005_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd00067_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd11490_c" stoichiometry="1"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_454"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn00558_c" reversible="true" name="D_Glucose_6_phosphate_ketol_isomerase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
@@ -429,7 +537,7 @@
           <speciesReference constant="true" species="M_cpd00072_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_79"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_441"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn01200_c" reversible="true" name="Sedoheptulose_7_phosphate_D_glyceraldehyde_3_phosphate" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
@@ -442,7 +550,7 @@
           <speciesReference constant="true" species="M_cpd00198_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_315"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_685"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn01073_c" reversible="false" name="sn_Glycero_3_phosphoethanolamine_glycerophosphohydrolase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
@@ -455,7 +563,7 @@
           <speciesReference constant="true" species="M_cpd00162_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_189"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_552"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn05175_c" reversible="false" name="Spermidine_ABC_transport" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
@@ -473,14 +581,14 @@
         <fbc:geneProductAssociation>
           <fbc:and>
             <fbc:geneProductRef fbc:geneProduct="G_Unknown"/>
-            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_134"/>
+            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_496"/>
             <fbc:geneProductRef fbc:geneProduct="G_Unknown"/>
-            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_133"/>
-            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_132"/>
+            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_495"/>
+            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_494"/>
             <fbc:geneProductRef fbc:geneProduct="G_Unknown"/>
             <fbc:or>
-              <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_131"/>
-              <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_165"/>
+              <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_493"/>
+              <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_527"/>
             </fbc:or>
           </fbc:and>
         </fbc:geneProductAssociation>
@@ -495,7 +603,7 @@
           <speciesReference constant="true" species="M_cpd00297_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_297"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_665"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn06377_c" reversible="false" name="glycine_lipoylprotein_oxidoreductase_decarboxylating_and" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
@@ -509,7 +617,7 @@
           <speciesReference constant="true" species="M_cpd11830_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_57"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_417"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn00762_c" reversible="true" name="Glycerol_NAD_oxidoreductase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
@@ -523,7 +631,35 @@
           <speciesReference constant="true" species="M_cpd00157_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_144"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_506"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction fast="false" id="R_rxn05376_c" reversible="true" name="12_methyl_3_oxo_tetra_decanoyl_ACP_NADP_oxidoreductase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
+        <listOfReactants>
+          <speciesReference constant="true" species="M_cpd00005_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd00067_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd11512_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" species="M_cpd00006_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd11513_c" stoichiometry="1"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_454"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction fast="false" id="R_rxn05342_c" reversible="true" name="3R_3_Hydroxytetradecanoyl_acyl_carrier_protein_NADP" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
+        <listOfReactants>
+          <speciesReference constant="true" species="M_cpd00006_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd11484_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" species="M_cpd00005_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd00067_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd11491_c" stoichiometry="1"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_454"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn05437_c" reversible="false" name="12_methyl_trans_tetra_dec_2_enoyl_ACP_NAD_oxidoreductase_A_specific" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
@@ -537,7 +673,7 @@
           <speciesReference constant="true" species="M_cpd11515_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_91"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_453"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn05324_c" reversible="false" name="Dodecanoyl_acyl_carrier_protein_malonyl_CoA" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
@@ -551,7 +687,7 @@
           <speciesReference constant="true" species="M_cpd11468_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_91"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_453"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn05464_c" reversible="false" name="trans_Octodec_2_enoyl_ACP_NAD_oxidoreductase_A_specific" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
@@ -565,7 +701,7 @@
           <speciesReference constant="true" species="M_cpd11573_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_91"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_453"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn05322_c" reversible="false" name="Butyryl_acyl_carrier_protein_malonyl_CoA" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
@@ -579,7 +715,7 @@
           <speciesReference constant="true" species="M_cpd11464_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_91"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_453"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn01997_c" reversible="false" name="dTDPglucose_4_6_hydro_lyase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
@@ -591,7 +727,21 @@
           <speciesReference constant="true" species="M_cpd00521_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_177"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_541"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction fast="false" id="R_rxn05337_c" reversible="true" name="3R_3_Hydroxyhexanoyl_acyl_carrier_protein_NADP_oxidoreductase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
+        <listOfReactants>
+          <speciesReference constant="true" species="M_cpd00006_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd11479_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" species="M_cpd00005_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd00067_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd11486_c" stoichiometry="1"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_454"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn09111_c" reversible="true" name="Phosphatidylglycerol_synthase_n_C16_0" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
@@ -605,8 +755,8 @@
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_48"/>
-            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_34"/>
+            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_393"/>
+            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_408"/>
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
@@ -618,7 +768,21 @@
           <speciesReference constant="true" species="M_cpd00516_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_20"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_379"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction fast="false" id="R_rxn05385_c" reversible="true" name="5_methyl_3_oxo_hexanoyl_ACP_NADP_oxidoreductase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
+        <listOfReactants>
+          <speciesReference constant="true" species="M_cpd00005_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd00067_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd11521_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" species="M_cpd00006_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd11522_c" stoichiometry="1"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_454"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn05443_c" reversible="false" name="13_methyl_trans_tetra_dec_2_enoyl_ACP_NAD_oxidoreductase_A_specific" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
@@ -632,7 +796,7 @@
           <speciesReference constant="true" species="M_cpd11540_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_91"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_453"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn05434_c" reversible="false" name="6_methyl_trans_oct_2_enoyl_ACP_NAD_oxidoreductase_A_specific" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
@@ -646,7 +810,7 @@
           <speciesReference constant="true" species="M_cpd11503_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_91"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_453"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn03901_c" reversible="false" name="Undecaprenyl_diphosphate_phosphohydrolase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
@@ -660,7 +824,7 @@
           <speciesReference constant="true" species="M_cpd00286_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_84"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_446"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn03908_c" reversible="true" name="ATP__4_Cytidine_5_diphospho_2_C_methyl_D_erythritol" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
@@ -673,7 +837,7 @@
           <speciesReference constant="true" species="M_cpd08288_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_280"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_647"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn05436_c" reversible="false" name="10_methyl_trans_dodec_2_enoyl_ACP_NAD_oxidoreductase_A_specific" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
@@ -687,7 +851,7 @@
           <speciesReference constant="true" species="M_cpd11511_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_91"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_453"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn08669_c" reversible="false" name="Glycerophosphodiester_phosphodiesterase_Glycerophosphoglycerol" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
@@ -700,7 +864,21 @@
           <speciesReference constant="true" species="M_cpd00100_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_189"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_552"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction fast="false" id="R_rxn05397_c" reversible="true" name="11_methyl_3_oxo_dodecanoyl_ACP_NADP_oxidoreductase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
+        <listOfReactants>
+          <speciesReference constant="true" species="M_cpd00005_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd00067_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd11533_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" species="M_cpd00006_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd11534_c" stoichiometry="1"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_454"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn01519_c" reversible="false" name="dUTP_nucleotidohydrolase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
@@ -713,7 +891,7 @@
           <speciesReference constant="true" species="M_cpd00299_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_71"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_433"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn10263_c" reversible="true" name="anteisopentadecanoyl_CDPdiacylglycerol_sn_glycerol_3_phosphate_3_phosphatidyltransferase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
@@ -727,8 +905,8 @@
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_48"/>
-            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_34"/>
+            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_393"/>
+            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_408"/>
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
@@ -740,7 +918,7 @@
           <speciesReference constant="true" species="M_cpd00072_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_146"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_508"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn02380_c" reversible="true" name="beta_D_Glucose_6_phosphate_ketol_isomerase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
@@ -751,7 +929,7 @@
           <speciesReference constant="true" species="M_cpd00072_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_79"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_441"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn09114_c" reversible="true" name="Phosphatidylglycerol_synthase_n_C18_1" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
@@ -765,9 +943,23 @@
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_48"/>
-            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_34"/>
+            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_393"/>
+            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_408"/>
           </fbc:or>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction fast="false" id="R_rxn05340_c" reversible="true" name="3R_3_Hydroxydodecanoyl_acyl_carrier_protein_NADP_oxidoreductase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
+        <listOfReactants>
+          <speciesReference constant="true" species="M_cpd00006_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd11480_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" species="M_cpd00005_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd00067_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd11489_c" stoichiometry="1"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_454"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn00295_c" reversible="true" name="UDP_N_acetyl_D_glucosamine_4_epimerase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
@@ -779,8 +971,8 @@
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_342"/>
-            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_339"/>
+            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_718"/>
+            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_714"/>
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
@@ -794,7 +986,21 @@
           <speciesReference constant="true" species="M_cpd00533_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_307"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_675"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction fast="false" id="R_rxn05461_c" reversible="true" name="3_Hydroxyoctodecanoyl_ACP_NADP_oxidoreductase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
+        <listOfReactants>
+          <speciesReference constant="true" species="M_cpd00005_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd00067_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd11570_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" species="M_cpd00006_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd11571_c" stoichiometry="1"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_454"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn00772_c" reversible="true" name="ATP_D_ribose_5_phosphotransferase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
@@ -807,7 +1013,7 @@
           <speciesReference constant="true" species="M_cpd00101_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_125"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_487"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn00410_c" reversible="true" name="UTP_ammonia_ligaseADP_forming" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
@@ -823,7 +1029,35 @@
           <speciesReference constant="true" species="M_cpd00067_c" stoichiometry="2"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_299"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_667"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction fast="false" id="R_rxn05368_c" reversible="true" name="8_methyl_3_oxo_decanoyl_ACP_NADP_oxidoreductase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
+        <listOfReactants>
+          <speciesReference constant="true" species="M_cpd00005_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd00067_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd11504_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" species="M_cpd00006_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd11505_c" stoichiometry="1"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_454"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction fast="false" id="R_rxn05418_c" reversible="true" name="8_methyl_3_oxo_nonanoyl_ACP_NADP_oxidoreductase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
+        <listOfReactants>
+          <speciesReference constant="true" species="M_cpd00005_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd00067_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd11554_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" species="M_cpd00006_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd11555_c" stoichiometry="1"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_454"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn00763_c" reversible="true" name="Glycerol_NAD_oxidoreductase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
@@ -837,7 +1071,33 @@
           <speciesReference constant="true" species="M_cpd00448_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_151"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_513"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction fast="false" id="R_rxn05393_c" reversible="true" name="9_methyl_3_oxo_decanoyl_ACP_NADP_oxidoreductase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
+        <listOfReactants>
+          <speciesReference constant="true" species="M_cpd00005_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd00067_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd11529_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" species="M_cpd00006_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd11530_c" stoichiometry="1"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_454"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction fast="false" id="R_rxn03136_c" reversible="true" name="1_5_Phosphoribosyl_5_amino_4_N_succinocarboxamide_imidazole" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
+        <listOfReactants>
+          <speciesReference constant="true" species="M_cpd02921_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" species="M_cpd00106_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd02851_c" stoichiometry="1"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_529"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn05440_c" reversible="false" name="7_methyl_trans_oct_2_enoyl_ACP_NAD_oxidoreductase_A_specific" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
@@ -851,7 +1111,7 @@
           <speciesReference constant="true" species="M_cpd11528_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_91"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_453"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn00726_c" reversible="false" name="Chorismate_pyruvate_lyase_amino_accepting" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
@@ -867,7 +1127,7 @@
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:and>
-            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_179"/>
+            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_543"/>
             <fbc:geneProductRef fbc:geneProduct="G_Unknown"/>
           </fbc:and>
         </fbc:geneProductAssociation>
@@ -883,7 +1143,7 @@
           <speciesReference constant="true" species="M_cpd11544_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_91"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_453"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn00776_c" reversible="false" name="Uracil_hydro_lyase_adding_D_ribose_5_phosphate" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
@@ -902,7 +1162,7 @@
             <fbc:geneProductRef fbc:geneProduct="G_Unknown"/>
             <fbc:geneProductRef fbc:geneProduct="G_Unknown"/>
             <fbc:geneProductRef fbc:geneProduct="G_Unknown"/>
-            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_305"/>
+            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_673"/>
           </fbc:and>
         </fbc:geneProductAssociation>
       </reaction>
@@ -917,8 +1177,8 @@
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_48"/>
-            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_34"/>
+            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_393"/>
+            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_408"/>
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
@@ -933,7 +1193,7 @@
           <speciesReference constant="true" species="M_cpd11499_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_91"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_453"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn00758_c" reversible="false" name="sn_Glycero_3_phosphocholine_glycerophosphohydrolase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
@@ -946,7 +1206,21 @@
           <speciesReference constant="true" species="M_cpd00098_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_189"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_552"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction fast="false" id="R_rxn05336_c" reversible="true" name="3R_3_Hydroxypalmitoyl_acyl_carrier_protein_NADP_oxidoreductase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
+        <listOfReactants>
+          <speciesReference constant="true" species="M_cpd00006_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd11481_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" species="M_cpd00005_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd00067_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd11485_c" stoichiometry="1"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_454"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn05325_c" reversible="false" name="Octanoyl_acyl_carrier_protein_malonyl_CoA" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
@@ -960,7 +1234,7 @@
           <speciesReference constant="true" species="M_cpd11470_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_91"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_453"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn01987_c" reversible="true" name="Deoxyribokinase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
@@ -973,7 +1247,7 @@
           <speciesReference constant="true" species="M_cpd01242_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_125"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_487"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn05449_c" reversible="false" name="12_methyl_trans_tridec_2_enoyl_ACP_NAD_oxidoreductase_A_specific" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
@@ -987,7 +1261,7 @@
           <speciesReference constant="true" species="M_cpd11565_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_91"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_453"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn00785_c" reversible="true" name="D_Fructose_6_phosphate_D_glyceraldehyde_3_phosphate_glycolaldehyde" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
@@ -1000,7 +1274,7 @@
           <speciesReference constant="true" species="M_cpd00236_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_315"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_685"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn05323_c" reversible="false" name="Tetradecanoyl_acyl_carrier_protein_malonyl_CoA" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
@@ -1014,7 +1288,7 @@
           <speciesReference constant="true" species="M_cpd11466_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_91"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_453"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn10195_c" reversible="true" name="Teichoic_acid_glucose_substituted_export" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
@@ -1028,9 +1302,26 @@
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:and>
-            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_171"/>
+            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_535"/>
             <fbc:geneProductRef fbc:geneProduct="G_Unknown"/>
           </fbc:and>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction fast="false" id="R_rxn08707_c" reversible="true" name="Heme_O_synthase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
+        <listOfReactants>
+          <speciesReference constant="true" species="M_cpd00001_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd00028_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd00350_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" species="M_cpd00012_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd11313_c" stoichiometry="1"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:or>
+            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_468"/>
+            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_316"/>
+          </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn00745_c" reversible="true" name="Phosphoenolpyruvate_glycerone_phosphotransferase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
@@ -1043,7 +1334,7 @@
           <speciesReference constant="true" species="M_cpd00095_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_121"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_483"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn00781_c" reversible="true" name="D_Glyceraldehyde_3_phosphate_NAD_oxidoreductasephosphorylating" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
@@ -1057,7 +1348,7 @@
           <speciesReference constant="true" species="M_cpd00203_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_310"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_680"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn00642_c" reversible="false" name="GDPmannose_4_6_hydro_lyase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
@@ -1069,7 +1360,7 @@
           <speciesReference constant="true" species="M_cpd00900_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_259"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_624"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn00364_c" reversible="true" name="ATP_CMP_phosphotransferase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
@@ -1082,7 +1373,7 @@
           <speciesReference constant="true" species="M_cpd00096_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_307"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_675"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn09113_c" reversible="true" name="Phosphatidylglycerol_synthase_n_C18_0" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
@@ -1096,8 +1387,8 @@
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_48"/>
-            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_34"/>
+            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_393"/>
+            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_408"/>
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
@@ -1113,7 +1404,19 @@
           <speciesReference constant="true" species="M_cpd02147_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_310"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_680"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction fast="false" id="R_rxn00800_c" reversible="true" name="N6_1_2_DicarboxyethylAMP_AMP_lyase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
+        <listOfReactants>
+          <speciesReference constant="true" species="M_cpd02375_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" species="M_cpd00018_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd00106_c" stoichiometry="1"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_529"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn05441_c" reversible="false" name="9_methyl_trans_dec_2_enoyl_ACP_NAD_oxidoreductase_A_specific" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
@@ -1127,7 +1430,49 @@
           <speciesReference constant="true" species="M_cpd11532_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_91"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_453"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction fast="false" id="R_rxn05426_c" reversible="true" name="12_methyl_3_oxo_tridecanoyl_ACP_NADP_oxidoreductase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
+        <listOfReactants>
+          <speciesReference constant="true" species="M_cpd00005_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd00067_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd11562_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" species="M_cpd00006_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd11563_c" stoichiometry="1"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_454"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction fast="false" id="R_rxn05364_c" reversible="true" name="6_methyl_3_oxo_octanoyl_ACP_NADP_oxidoreductase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
+        <listOfReactants>
+          <speciesReference constant="true" species="M_cpd00005_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd00067_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd11500_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" species="M_cpd00006_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd11501_c" stoichiometry="1"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_454"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction fast="false" id="R_rxn05430_c" reversible="true" name="14_methyl_3_oxo_pentadecanoyl_ACP_NADP_oxidoreductase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
+        <listOfReactants>
+          <speciesReference constant="true" species="M_cpd00005_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd00067_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd11566_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" species="M_cpd00006_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd11567_c" stoichiometry="1"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_454"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn00727_c" reversible="false" name="Chorismate_pyruvate_lyase_amino_accepting" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
@@ -1143,7 +1488,7 @@
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:and>
-            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_179"/>
+            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_543"/>
             <fbc:geneProductRef fbc:geneProduct="G_Unknown"/>
           </fbc:and>
         </fbc:geneProductAssociation>
@@ -1159,8 +1504,8 @@
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_48"/>
-            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_34"/>
+            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_393"/>
+            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_408"/>
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
@@ -1175,7 +1520,7 @@
           <speciesReference constant="true" species="M_cpd11549_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_91"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_453"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn05446_c" reversible="false" name="6_methyl_trans_hept_2_enoyl_ACP_NAD_oxidoreductase_A_specific" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
@@ -1189,7 +1534,7 @@
           <speciesReference constant="true" species="M_cpd11553_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_91"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_453"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn05435_c" reversible="false" name="8_methyl_trans_dec_2_enoyl_ACP_NAD_oxidoreductase_A_specific" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
@@ -1203,7 +1548,7 @@
           <speciesReference constant="true" species="M_cpd11507_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_91"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_453"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn09108_c" reversible="true" name="Phosphatidylglycerol_synthase_n_C12_0" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
@@ -1217,8 +1562,8 @@
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_48"/>
-            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_34"/>
+            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_393"/>
+            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_408"/>
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
@@ -1232,7 +1577,7 @@
           <speciesReference constant="true" species="M_cpd00790_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_14"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_373"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn10261_c" reversible="true" name="isotetradecanoyl_CDPdiacylglycerol_sn_glycerol_3_phosphate_3_phosphatidyltransferase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
@@ -1246,9 +1591,23 @@
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_48"/>
-            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_34"/>
+            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_393"/>
+            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_408"/>
           </fbc:or>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction fast="false" id="R_rxn05410_c" reversible="true" name="4_methyl_3_oxo_pentanoyl_ACP_NADP_oxidoreductase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
+        <listOfReactants>
+          <speciesReference constant="true" species="M_cpd00005_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd00067_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd11546_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" species="M_cpd00006_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd11547_c" stoichiometry="1"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_454"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn00278_c" reversible="true" name="L_Alanine_NAD_oxidoreductase_deaminating" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
@@ -1264,7 +1623,7 @@
           <speciesReference constant="true" species="M_cpd00067_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_300"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_668"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn05326_c" reversible="false" name="Hexanoyl_acyl_carrier_protein_malonyl_CoA" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
@@ -1278,7 +1637,7 @@
           <speciesReference constant="true" species="M_cpd11472_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_91"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_453"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn00770_c" reversible="true" name="ATP_D_ribose_5_phosphate_pyrophosphotransferase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
@@ -1291,7 +1650,7 @@
           <speciesReference constant="true" species="M_cpd00103_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_283"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_650"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn00211_c" reversible="true" name="UDPglucose_NAD_oxidoreductase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
@@ -1306,7 +1665,7 @@
           <speciesReference constant="true" species="M_cpd00144_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_218"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_581"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn00543_c" reversible="true" name="Ethanol_NAD_oxidoreductase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
@@ -1320,7 +1679,7 @@
           <speciesReference constant="true" species="M_cpd00071_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_151"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_513"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn00609_c" reversible="true" name="1L_myo_Inositol_1_phosphate_lyase_isomerizing" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
@@ -1331,7 +1690,7 @@
           <speciesReference constant="true" species="M_cpd00079_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_156"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_518"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn05439_c" reversible="false" name="5_methyl_trans_hex_2_enoyl_ACP_NAD_oxidoreductase_A_specific" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
@@ -1345,7 +1704,21 @@
           <speciesReference constant="true" species="M_cpd11524_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_91"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_453"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction fast="false" id="R_rxn05339_c" reversible="true" name="3R_3_Hydroxybutanoyl_acyl_carrier_protein_NADP_oxidoreductase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
+        <listOfReactants>
+          <speciesReference constant="true" species="M_cpd00006_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd11478_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" species="M_cpd00005_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd00067_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd11488_c" stoichiometry="1"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_454"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn05957_c" reversible="false" name="O_Succinyl_L_homoserine_succinate_lyase_adding_cysteine" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
@@ -1359,7 +1732,7 @@
           <speciesReference constant="true" species="M_cpd00135_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_15"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_374"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn01257_c" reversible="true" name="chorismate_L_glutamine_aminotransferase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
@@ -1373,9 +1746,51 @@
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_179"/>
-            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_179"/>
+            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_543"/>
+            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_543"/>
           </fbc:or>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction fast="false" id="R_rxn05401_c" reversible="true" name="13_methyl_3_oxo_tetra_decanoyl_ACP_NADP_oxidoreductase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
+        <listOfReactants>
+          <speciesReference constant="true" species="M_cpd00005_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd00067_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd11537_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" species="M_cpd00006_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd11538_c" stoichiometry="1"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_454"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction fast="false" id="R_rxn01217_c" reversible="false" name="dCMP_aminohydrolase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
+        <listOfReactants>
+          <speciesReference constant="true" species="M_cpd00001_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd00067_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd00206_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" species="M_cpd00013_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd00299_c" stoichiometry="1"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_692"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction fast="false" id="R_rxn05338_c" reversible="true" name="3R_3_Hydroxydecanoyl_acyl_carrier_protein_NADP_oxidoreductase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
+        <listOfReactants>
+          <speciesReference constant="true" species="M_cpd00006_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd11482_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" species="M_cpd00005_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd00067_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd11487_c" stoichiometry="1"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_454"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn09112_c" reversible="true" name="Phosphatidylglycerol_synthase_n_C16_1" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
@@ -1389,8 +1804,8 @@
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_48"/>
-            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_34"/>
+            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_393"/>
+            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_408"/>
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
@@ -1405,7 +1820,7 @@
           <speciesReference constant="true" species="M_cpd11536_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_91"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_453"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn00838_c" reversible="false" name="IMP_L_aspartate_ligase_GDP_forming" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
@@ -1421,7 +1836,7 @@
           <speciesReference constant="true" species="M_cpd02375_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_255"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_620"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn00337_c" reversible="true" name="ATP_L_aspartate_4_phosphotransferase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
@@ -1435,7 +1850,7 @@
           <speciesReference constant="true" species="M_cpd01977_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_168"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_532"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn00777_c" reversible="true" name="D_Ribose_5_phosphate_ketol_isomerase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
@@ -1446,7 +1861,7 @@
           <speciesReference constant="true" species="M_cpd00171_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_110"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_472"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn00293_c" reversible="true" name="UTP_N_acetyl_alpha_D_glucosamine_1_phosphate_uridylyltransferase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
@@ -1460,8 +1875,8 @@
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:and>
-            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_282"/>
-            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_282"/>
+            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_649"/>
+            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_649"/>
           </fbc:and>
         </fbc:geneProductAssociation>
       </reaction>
@@ -1476,7 +1891,7 @@
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:and>
-            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_171"/>
+            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_535"/>
             <fbc:geneProductRef fbc:geneProduct="G_Unknown"/>
           </fbc:and>
         </fbc:geneProductAssociation>
@@ -1492,7 +1907,21 @@
           <speciesReference constant="true" species="M_cpd11557_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_91"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_453"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction fast="false" id="R_rxn05360_c" reversible="true" name="4_methyl_3_oxo_hexanoyl_ACP_NADP_oxidoreductase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
+        <listOfReactants>
+          <speciesReference constant="true" species="M_cpd00005_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd00067_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd11496_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" species="M_cpd00006_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd11497_c" stoichiometry="1"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_454"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn00214_c" reversible="true" name="UDPglucose_4_epimerase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
@@ -1504,8 +1933,8 @@
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_342"/>
-            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_339"/>
+            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_718"/>
+            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_714"/>
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
@@ -1521,7 +1950,7 @@
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:and>
-            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_52"/>
+            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_412"/>
             <fbc:geneProductRef fbc:geneProduct="G_Unknown"/>
           </fbc:and>
         </fbc:geneProductAssociation>
@@ -1537,7 +1966,7 @@
           <speciesReference constant="true" species="M_cpd11519_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_91"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_453"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn09109_c" reversible="true" name="Phosphatidylglycerol_synthase_n_C14_0" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
@@ -1551,8 +1980,8 @@
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_48"/>
-            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_34"/>
+            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_393"/>
+            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_408"/>
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
@@ -1567,7 +1996,7 @@
           <speciesReference constant="true" species="M_cpd11421_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_8"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_368"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn01977_c" reversible="true" name="alpha_D_Glucose_6_phosphate_ketol_isomerase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
@@ -1578,7 +2007,7 @@
           <speciesReference constant="true" species="M_cpd00863_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_79"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_441"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn01851_c" reversible="false" name="4_aminobutanal_NAD_1_oxidoreductase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
@@ -1593,7 +2022,7 @@
           <speciesReference constant="true" species="M_cpd00281_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_136"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_498"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn00213_c" reversible="true" name="UTP_alpha_D_glucose_1_phosphate_uridylyltransferase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
@@ -1606,7 +2035,35 @@
           <speciesReference constant="true" species="M_cpd00026_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_272"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_639"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction fast="false" id="R_rxn05414_c" reversible="true" name="6_methyl_3_oxo_heptanoyl_ACP_NADP_oxidoreductase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
+        <listOfReactants>
+          <speciesReference constant="true" species="M_cpd00005_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd00067_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd11550_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" species="M_cpd00006_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd11551_c" stoichiometry="1"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_454"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction fast="false" id="R_rxn05405_c" reversible="true" name="15_methyl_3_oxo_hexa_decanoyl_ACP_NADP_oxidoreductase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
+        <listOfReactants>
+          <speciesReference constant="true" species="M_cpd00005_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd00067_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd11541_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" species="M_cpd00006_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd11542_c" stoichiometry="1"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_454"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn05327_c" reversible="false" name="Decanoyl_acyl_carrier_protein_malonyl_CoA" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
@@ -1620,7 +2077,7 @@
           <speciesReference constant="true" species="M_cpd11474_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_91"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_453"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn01643_c" reversible="false" name="L_Aspartate_4_semialdehyde_NADP_oxidoreductase_phosphorylating" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
@@ -1634,7 +2091,21 @@
           <speciesReference constant="true" species="M_cpd00346_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_169"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_533"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction fast="false" id="R_rxn01653_c" reversible="false" name="5_Formyltetrahydrofolate_cyclo_ligase_ADP_forming" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
+        <listOfReactants>
+          <speciesReference constant="true" species="M_cpd00002_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd02197_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" species="M_cpd00008_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd00009_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd00347_c" stoichiometry="1"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_638"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn05450_c" reversible="false" name="14_methyl_trans_pentadec_2_enoyl_ACP_NAD_oxidoreductase_A_specific" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
@@ -1648,7 +2119,7 @@
           <speciesReference constant="true" species="M_cpd11569_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_91"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_453"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn06493_c" reversible="true" name="dihydrolipoylprotein_NAD_oxidoreductase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
@@ -1664,13 +2135,13 @@
         <fbc:geneProductAssociation>
           <fbc:or>
             <fbc:and>
-              <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_52"/>
+              <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_412"/>
               <fbc:geneProductRef fbc:geneProduct="G_Unknown"/>
               <fbc:geneProductRef fbc:geneProduct="G_Unknown"/>
             </fbc:and>
             <fbc:and>
-              <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_52"/>
-              <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_57"/>
+              <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_412"/>
+              <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_417"/>
             </fbc:and>
           </fbc:or>
         </fbc:geneProductAssociation>
@@ -1686,8 +2157,8 @@
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_48"/>
-            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_34"/>
+            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_393"/>
+            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_408"/>
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
@@ -1706,7 +2177,7 @@
           <speciesReference constant="true" species="M_cpd00067_c" stoichiometry="2"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_299"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_667"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn10260_c" reversible="true" name="anteisoheptadecanoyl_CDPdiacylglycerol_sn_glycerol_3_phosphate_3_phosphatidyltransferase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
@@ -1720,8 +2191,8 @@
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_48"/>
-            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_34"/>
+            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_393"/>
+            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_408"/>
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
@@ -1735,7 +2206,7 @@
           <speciesReference constant="true" species="M_cpd00008_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_297"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_665"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn10196_c" reversible="true" name="Teichoic_acid_D_alanine_substituted_export" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
@@ -1749,7 +2220,7 @@
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:and>
-            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_171"/>
+            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_535"/>
             <fbc:geneProductRef fbc:geneProduct="G_Unknown"/>
           </fbc:and>
         </fbc:geneProductAssociation>
@@ -1765,7 +2236,21 @@
           <speciesReference constant="true" species="M_cpd00203_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_311"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_681"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction fast="false" id="R_rxn05389_c" reversible="true" name="7_methyl_3_oxo_octanoyl_ACP_NADP_oxidoreductase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
+        <listOfReactants>
+          <speciesReference constant="true" species="M_cpd00005_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd00067_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd11525_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" species="M_cpd00006_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd11526_c" stoichiometry="1"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_454"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn05163_c" reversible="false" name="Putrescine_ABC_transport" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
@@ -1783,14 +2268,14 @@
         <fbc:geneProductAssociation>
           <fbc:and>
             <fbc:geneProductRef fbc:geneProduct="G_Unknown"/>
-            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_134"/>
+            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_496"/>
             <fbc:geneProductRef fbc:geneProduct="G_Unknown"/>
-            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_133"/>
-            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_132"/>
+            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_495"/>
+            <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_494"/>
             <fbc:geneProductRef fbc:geneProduct="G_Unknown"/>
             <fbc:or>
-              <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_131"/>
-              <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_165"/>
+              <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_493"/>
+              <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_527"/>
             </fbc:or>
           </fbc:and>
         </fbc:geneProductAssociation>
@@ -1803,7 +2288,7 @@
           <speciesReference constant="true" species="M_cpd00095_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_312"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_682"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn00707_c" reversible="true" name="ITP_cytidine_5_phosphotransferase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
@@ -1816,7 +2301,21 @@
           <speciesReference constant="true" species="M_cpd00090_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_307"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_675"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction fast="false" id="R_rxn05380_c" reversible="true" name="14_methyl_3_oxo_hexa_decanoyl_ACP_NADP_oxidoreductase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
+        <listOfReactants>
+          <speciesReference constant="true" species="M_cpd00005_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd00067_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd11516_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" species="M_cpd00006_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_cpd11517_c" stoichiometry="1"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_454"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_rxn02003_c" reversible="true" name="dTDP_6_deoxy_L_mannose_NADP_4_oxidoreductase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
@@ -1830,7 +2329,7 @@
           <speciesReference constant="true" species="M_cpd00522_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_176"/>
+          <fbc:geneProductRef fbc:geneProduct="G_AAA027F04_CDS_540"/>
         </fbc:geneProductAssociation>
       </reaction>
     </listOfReactions>

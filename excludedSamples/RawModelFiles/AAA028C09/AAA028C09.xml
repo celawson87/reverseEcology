@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sbml xmlns="http://www.sbml.org/sbml/level2" level="2" version="1" xmlns:html="http://www.w3.org/1999/xhtml">
-<model id="kb_g_261677_fbamdl0" name="AAA028C09_SEED_model">
+<model id="AAA028C09_genome_fbamdl0" name="AAA028C09_SEED_model">
 <listOfUnitDefinitions>
 <unitDefinition id="mmol_per_gDW_per_hr">
 <listOfUnits>
@@ -19,8 +19,10 @@
 <species id="cpd00002_c0" name="ATP_c0" compartment="c0" charge="-3" boundaryCondition="false"/>
 <species id="cpd00001_c0" name="H2O_c0" compartment="c0" charge="0" boundaryCondition="false"/>
 <species id="cpd00009_c0" name="Phosphate_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
-<species id="cpd00009_e0" name="Phosphate_e0" compartment="e0" charge="-2" boundaryCondition="false"/>
+<species id="cpd11576_c0" name="L_methionine_R_oxide_c0" compartment="c0" charge="0" boundaryCondition="false"/>
+<species id="cpd11576_e0" name="L_methionine_R_oxide_e0" compartment="e0" charge="0" boundaryCondition="false"/>
 <species id="cpd00008_c0" name="ADP_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
+<species id="cpd00009_e0" name="Phosphate_e0" compartment="e0" charge="-2" boundaryCondition="false"/>
 <species id="cpd11493_c0" name="ACP_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
 <species id="cpd11476_c0" name="hexadecanoyl_acp_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
 <species id="cpd00011_c0" name="CO2_c0" compartment="c0" charge="0" boundaryCondition="false"/>
@@ -28,33 +30,55 @@
 <species id="cpd11570_c0" name="3_Oxooctodecanoyl_ACP_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
 <species id="cpd11464_c0" name="Butyryl_ACP_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
 <species id="cpd11486_c0" name="3_Oxohexanoyl_acp_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
+<species id="cpd00358_c0" name="dUTP_c0" compartment="c0" charge="-3" boundaryCondition="false"/>
+<species id="cpd00978_c0" name="dUDP_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
 <species id="cpd03831_c0" name="ADP_L_glycero_D_manno_heptose_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
 <species id="cpd03830_c0" name="ADP_D_glycero_D_manno_heptose_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
 <species id="cpd11472_c0" name="Hexanoyl_ACP_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
 <species id="cpd11490_c0" name="3_oxooctanoyl_acp_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
+<species id="cpd00012_c0" name="PPi_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
+<species id="cpd04920_c0" name="D_Glycero_D_manno_heptose1_phosphate_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
 <species id="cpd11532_c0" name="9_methyl_decanoyl_ACP_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
 <species id="cpd11533_c0" name="11_methyl_3_oxo_dodecanoyl_ACP_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
+<species id="cpd17041_c0" name="Protein_biosynthesis_c0" compartment="c0" charge="0" boundaryCondition="false"/>
 <species id="cpd11499_c0" name="4_methyl_hexanoyl_ACP_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
 <species id="cpd11500_c0" name="6_methyl_3_oxo_octanoyl_ACP_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
 <species id="cpd11496_c0" name="4_methyl_3_oxo_hexanoyl_ACP_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
 <species id="cpd11495_c0" name="2_methylbutyryl_ACP_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
+<species id="cpd00014_c0" name="UDP_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
+<species id="cpd00062_c0" name="UTP_c0" compartment="c0" charge="-3" boundaryCondition="false"/>
+<species id="cpd00521_c0" name="dTDP_4_oxo_6_deoxy_D_glucose_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
+<species id="cpd00626_c0" name="dTDPglucose_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
+<species id="cpd00060_c0" name="L_Methionine_c0" compartment="c0" charge="0" boundaryCondition="false"/>
+<species id="cpd00060_e0" name="L_Methionine_e0" compartment="e0" charge="0" boundaryCondition="false"/>
 <species id="cpd11503_c0" name="6_methyl_octanoyl_ACP_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
 <species id="cpd11504_c0" name="8_methyl_3_oxo_decanoyl_ACP_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
 <species id="cpd17042_c0" name="DNA_replication_c0" compartment="c0" charge="0" boundaryCondition="false"/>
+<species id="cpd00177_c0" name="dADP_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
+<species id="cpd00115_c0" name="dATP_c0" compartment="c0" charge="-3" boundaryCondition="false"/>
 <species id="cpd11554_c0" name="8_methyl_3_oxo_nonanoyl_ACP_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
 <species id="cpd11553_c0" name="6_methyl_heptanoyl_ACP_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
+<species id="cpd00096_c0" name="CDP_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
+<species id="cpd00052_c0" name="CTP_c0" compartment="c0" charge="-3" boundaryCondition="false"/>
 <species id="cpd11557_c0" name="8_methyl_nonanoyl_ACP_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
 <species id="cpd11558_c0" name="10_methyl_3_oxo_undecanoyl_ACP_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
-<species id="cpd00358_c0" name="dUTP_c0" compartment="c0" charge="-3" boundaryCondition="false"/>
-<species id="cpd00012_c0" name="PPi_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
 <species id="cpd00299_c0" name="dUMP_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
 <species id="cpd11529_c0" name="9_methyl_3_oxo_decanoyl_ACP_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
 <species id="cpd11528_c0" name="7_methyl_octanoyl_ACP_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
+<species id="cpd00533_c0" name="dCDP_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
+<species id="cpd00356_c0" name="dCTP_c0" compartment="c0" charge="-3" boundaryCondition="false"/>
 <species id="cpd00175_c0" name="UDP_N_acetyl_D_galactosamine_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
 <species id="cpd00037_c0" name="UDP_N_acetylglucosamine_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
 <species id="cpd11468_c0" name="Dodecanoyl_ACP_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
 <species id="cpd11491_c0" name="3_oxotetradecanoyl_acp_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
+<species id="cpd11420_c0" name="trdox_c0" compartment="c0" charge="0" boundaryCondition="false"/>
+<species id="cpd11421_c0" name="trdrd_c0" compartment="c0" charge="0" boundaryCondition="false"/>
+<species id="cpd00025_c0" name="H2O2_c0" compartment="c0" charge="0" boundaryCondition="false"/>
 <species id="cpd17043_c0" name="RNA_transcription_c0" compartment="c0" charge="0" boundaryCondition="false"/>
+<species id="cpd00900_c0" name="GDP_4_dehydro_D_rhamnose_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
+<species id="cpd00083_c0" name="GDP_mannose_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
+<species id="cpd00068_c0" name="ITP_c0" compartment="c0" charge="-3" boundaryCondition="false"/>
+<species id="cpd00090_c0" name="IDP_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
 <species id="cpd10515_c0" name="Fe2_c0" compartment="c0" charge="2" boundaryCondition="false"/>
 <species id="cpd10515_e0" name="Fe2_e0" compartment="e0" charge="2" boundaryCondition="false"/>
 <species id="cpd11550_c0" name="6_methyl_3_oxo_heptanoyl_ACP_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
@@ -63,6 +87,8 @@
 <species id="cpd11474_c0" name="Decanoyl_ACP_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
 <species id="cpd00099_c0" name="Cl__c0" compartment="c0" charge="-1" boundaryCondition="false"/>
 <species id="cpd00099_e0" name="Cl__e0" compartment="e0" charge="-1" boundaryCondition="false"/>
+<species id="cpd08316_c0" name="D_Glycero_D_manno_heptose1_7_bisphosphate_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
+<species id="cpd04918_c0" name="D_Glycero_D_manno_heptose7_phosphate_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
 <species id="cpd11485_c0" name="3_oxohexadecanoyl_acp_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
 <species id="cpd11466_c0" name="Myristoyl_ACP_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
 <species id="cpd00010_c0" name="CoA_c0" compartment="c0" charge="-3" boundaryCondition="false"/>
@@ -74,6 +100,12 @@
 <species id="cpd11566_c0" name="14_methyl_3_oxo_pentadecanoyl_ACP_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
 <species id="cpd01012_e0" name="Cd2_e0" compartment="e0" charge="2" boundaryCondition="false"/>
 <species id="cpd01012_c0" name="Cd2_c0" compartment="c0" charge="2" boundaryCondition="false"/>
+<species id="cpd03494_c0" name="Undecaprenyl_diphospho_N_acetylmuramoyl_L_alanyl_D_glutamyl_meso_2_6_diaminopimeloyl_D_alanyl_D_alanine_c0" compartment="c0" charge="-4" boundaryCondition="false"/>
+<species id="cpd00091_c0" name="UMP_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
+<species id="cpd02968_c0" name="UDP_N_acetylmuramoyl_L_alanyl_D_glutamyl_6_carboxy_L_lysyl_D_alanyl__D_alanine_c0" compartment="c0" charge="-4" boundaryCondition="false"/>
+<species id="cpd00286_c0" name="Undecaprenylphosphate_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
+<species id="cpd01914_c0" name="L_Methionine_S_oxide_c0" compartment="c0" charge="0" boundaryCondition="false"/>
+<species id="cpd01914_e0" name="L_Methionine_S_oxide_e0" compartment="e0" charge="0" boundaryCondition="false"/>
 <species id="cpd11507_c0" name="8_methyl_decanoyl_ACP_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
 <species id="cpd11508_c0" name="10_methyl_3_oxo_dodecanoyl_ACP_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
 <species id="cpd11488_c0" name="Acetoacetyl_ACP_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
@@ -86,9 +118,13 @@
 <species id="cpd00048_e0" name="Sulfate_e0" compartment="e0" charge="-2" boundaryCondition="false"/>
 <species id="cpd11562_c0" name="12_methyl_3_oxo_tridecanoyl_ACP_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
 <species id="cpd11561_c0" name="10_methyl_undecanoyl_ACP_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
+<species id="cpd00357_c0" name="TTP_c0" compartment="c0" charge="-3" boundaryCondition="false"/>
+<species id="cpd00297_c0" name="dTDP_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
 <species id="cpd00102_c0" name="Glyceraldehyde3_phosphate_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
 <species id="cpd00510_c0" name="deoxyribose_5_phosphate_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
 <species id="cpd00071_c0" name="Acetaldehyde_c0" compartment="c0" charge="0" boundaryCondition="false"/>
+<species id="cpd02862_c0" name="UDPMurAcoyl_L_Ala_D_gamma_Glu_L_Lys_D_Ala_D_Ala_c0" compartment="c0" charge="-3" boundaryCondition="false"/>
+<species id="cpd02948_c0" name="MurAcoyl_L_Ala_D_gamma_Glu_L_Lys_D_Ala_D_Ala_diphospho__undecaprenol_c0" compartment="c0" charge="-3" boundaryCondition="false"/>
 <species id="cpd00043_c0" name="UDP_galactose_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
 <species id="cpd00026_c0" name="UDP_glucose_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
 <species id="cpd11546_c0" name="4_methyl_3_oxo_pentanoyl_ACP_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
@@ -104,12 +140,22 @@
 <species id="cpd02083_c0" name="CoproporphyrinogenIII_c0" compartment="c0" charge="-4" boundaryCondition="false"/>
 <species id="cpd00007_c0" name="O2_c0" compartment="c0" charge="0" boundaryCondition="false"/>
 <species id="cpd00791_c0" name="ProtoporphyrinogenIX_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
+<species id="cpd00241_c0" name="dGTP_c0" compartment="c0" charge="-3" boundaryCondition="false"/>
+<species id="cpd00295_c0" name="dGDP_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
 <species id="cpd11515_c0" name="12_methyl_tetra_decanoyl_ACP_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
 <species id="cpd11516_c0" name="14_methyl_3_oxo_hexa_decanoyl_ACP_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
 <species id="cpd00073_c0" name="Urea_c0" compartment="c0" charge="0" boundaryCondition="false"/>
 <species id="cpd00073_e0" name="Urea_e0" compartment="e0" charge="0" boundaryCondition="false"/>
 <species id="cpd11521_c0" name="5_methyl_3_oxo_hexanoyl_ACP_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
 <species id="cpd11520_c0" name="isovaleryl_ACP_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
+<species id="cpd00637_c0" name="D_Methionine_c0" compartment="c0" charge="0" boundaryCondition="false"/>
+<species id="cpd00637_e0" name="D_Methionine_e0" compartment="e0" charge="0" boundaryCondition="false"/>
+<species id="cpd00038_c0" name="GTP_c0" compartment="c0" charge="-3" boundaryCondition="false"/>
+<species id="cpd00031_c0" name="GDP_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
+<species id="cpd00522_c0" name="dTDP_4_oxo_L_rhamnose_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
+<species id="cpd00006_c0" name="NADP_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
+<species id="cpd02113_c0" name="dTDP_rhamnose_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
+<species id="cpd00005_c0" name="NADPH_c0" compartment="c0" charge="-3" boundaryCondition="false"/>
 <species id="cpd11470_c0" name="Octanoyl_ACP_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
 <species id="cpd11487_c0" name="3_oxodecanoyl_acp_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
 <species id="cpd00254_c0" name="Mg_c0" compartment="c0" charge="2" boundaryCondition="false"/>
@@ -145,26 +191,20 @@
 <species id="cpd00322_c0" name="L_Isoleucine_c0" compartment="c0" charge="0" boundaryCondition="false"/>
 <species id="cpd00033_c0" name="Glycine_c0" compartment="c0" charge="0" boundaryCondition="false"/>
 <species id="cpd15695_c0" name="Diisoheptadecanoylphosphatidylethanolamine_c0" compartment="c0" charge="0" boundaryCondition="false"/>
-<species id="cpd00006_c0" name="NADP_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
 <species id="cpd00035_c0" name="L_Alanine_c0" compartment="c0" charge="0" boundaryCondition="false"/>
-<species id="cpd17041_c0" name="Protein_biosynthesis_c0" compartment="c0" charge="0" boundaryCondition="false"/>
 <species id="cpd00084_c0" name="L_Cysteine_c0" compartment="c0" charge="0" boundaryCondition="false"/>
 <species id="cpd15722_c0" name="Diisoheptadecanoylphosphatidylglycerol_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
 <species id="cpd00034_c0" name="Zn2_c0" compartment="c0" charge="2" boundaryCondition="false"/>
 <species id="cpd15432_c0" name="core_oligosaccharide_lipid_A_c0" compartment="c0" charge="-7" boundaryCondition="false"/>
-<species id="cpd00060_c0" name="L_Methionine_c0" compartment="c0" charge="0" boundaryCondition="false"/>
 <species id="cpd00066_c0" name="L_Phenylalanine_c0" compartment="c0" charge="0" boundaryCondition="false"/>
-<species id="cpd00241_c0" name="dGTP_c0" compartment="c0" charge="-3" boundaryCondition="false"/>
 <species id="cpd15665_c0" name="Peptidoglycan_polymer_n_subunits_c0" compartment="c0" charge="-4" boundaryCondition="false"/>
 <species id="cpd00069_c0" name="L_Tyrosine_c0" compartment="c0" charge="0" boundaryCondition="false"/>
 <species id="cpd15666_c0" name="Peptidoglycan_polymer_n_1_subunits_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
 <species id="cpd15696_c0" name="Dianteisoheptadecanoylphosphatidylethanolamine_c0" compartment="c0" charge="0" boundaryCondition="false"/>
 <species id="cpd01997_c0" name="Dimethylbenzimidazole_c0" compartment="c0" charge="0" boundaryCondition="false"/>
 <species id="cpd00557_c0" name="Siroheme_c0" compartment="c0" charge="-8" boundaryCondition="false"/>
-<species id="cpd00038_c0" name="GTP_c0" compartment="c0" charge="-3" boundaryCondition="false"/>
 <species id="cpd00345_c0" name="5_Methyltetrahydrofolate_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
 <species id="cpd00129_c0" name="L_Proline_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
-<species id="cpd00062_c0" name="UTP_c0" compartment="c0" charge="-3" boundaryCondition="false"/>
 <species id="cpd00087_c0" name="Tetrahydrofolate_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
 <species id="cpd03422_c0" name="Cobinamide_c0" compartment="c0" charge="3" boundaryCondition="false"/>
 <species id="cpd00156_c0" name="L_Valine_c0" compartment="c0" charge="0" boundaryCondition="false"/>
@@ -188,7 +228,6 @@
 <species id="cpd00053_c0" name="L_Glutamine_c0" compartment="c0" charge="0" boundaryCondition="false"/>
 <species id="cpd00220_c0" name="Riboflavin_c0" compartment="c0" charge="0" boundaryCondition="false"/>
 <species id="cpd00063_c0" name="Ca2_c0" compartment="c0" charge="2" boundaryCondition="false"/>
-<species id="cpd00356_c0" name="dCTP_c0" compartment="c0" charge="-3" boundaryCondition="false"/>
 <species id="cpd12370_c0" name="apo_ACP_c0" compartment="c0" charge="0" boundaryCondition="false"/>
 <species id="cpd15795_c0" name="Anteisoheptadecanoylcardiolipin_B_subtilis_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
 <species id="cpd00042_c0" name="GSH_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
@@ -198,27 +237,28 @@
 <species id="cpd00003_c0" name="NAD_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
 <species id="cpd00166_c0" name="Calomide_c0" compartment="c0" charge="1" boundaryCondition="false"/>
 <species id="cpd15500_c0" name="Menaquinone_8_c0" compartment="c0" charge="0" boundaryCondition="false"/>
-<species id="cpd00357_c0" name="TTP_c0" compartment="c0" charge="-3" boundaryCondition="false"/>
 <species id="cpd00149_c0" name="Co2_c0" compartment="c0" charge="2" boundaryCondition="false"/>
 <species id="cpd00205_c0" name="K_c0" compartment="c0" charge="1" boundaryCondition="false"/>
-<species id="cpd00115_c0" name="dATP_c0" compartment="c0" charge="-3" boundaryCondition="false"/>
 <species id="cpd15560_c0" name="Ubiquinone_8_c0" compartment="c0" charge="0" boundaryCondition="false"/>
 <species id="cpd00017_c0" name="S_Adenosyl_L_methionine_c0" compartment="c0" charge="1" boundaryCondition="false"/>
-<species id="cpd00052_c0" name="CTP_c0" compartment="c0" charge="-3" boundaryCondition="false"/>
 <species id="cpd15533_c0" name="phosphatidylethanolamine_dioctadecanoyl_c0" compartment="c0" charge="0" boundaryCondition="false"/>
 <species id="cpd00051_c0" name="L_Arginine_c0" compartment="c0" charge="1" boundaryCondition="false"/>
 <species id="cpd00028_c0" name="Heme_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
 <species id="cpd00023_c0" name="L_Glutamate_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
+<species id="cpd11576_b" name="L_methionine_R_oxide_b" compartment="e0" charge="0" boundaryCondition="true"/>
 <species id="cpd00009_b" name="Phosphate_b" compartment="e0" charge="-2" boundaryCondition="true"/>
+<species id="cpd00060_b" name="L_Methionine_b" compartment="e0" charge="0" boundaryCondition="true"/>
 <species id="cpd10515_b" name="Fe2_b" compartment="e0" charge="2" boundaryCondition="true"/>
 <species id="cpd00099_b" name="Cl__b" compartment="e0" charge="-1" boundaryCondition="true"/>
 <species id="cpd01012_b" name="Cd2_b" compartment="e0" charge="2" boundaryCondition="true"/>
+<species id="cpd01914_b" name="L_Methionine_S_oxide_b" compartment="e0" charge="0" boundaryCondition="true"/>
 <species id="cpd00531_b" name="Hg2_b" compartment="e0" charge="2" boundaryCondition="true"/>
 <species id="cpd00067_b" name="H_b" compartment="e0" charge="1" boundaryCondition="true"/>
 <species id="cpd00048_b" name="Sulfate_b" compartment="e0" charge="-2" boundaryCondition="true"/>
 <species id="cpd00058_b" name="Cu2_b" compartment="e0" charge="2" boundaryCondition="true"/>
 <species id="cpd04097_b" name="Pb_b" compartment="e0" charge="2" boundaryCondition="true"/>
 <species id="cpd00073_b" name="Urea_b" compartment="e0" charge="0" boundaryCondition="true"/>
+<species id="cpd00637_b" name="D_Methionine_b" compartment="e0" charge="0" boundaryCondition="true"/>
 <species id="cpd00254_b" name="Mg_b" compartment="e0" charge="2" boundaryCondition="true"/>
 <species id="cpd10516_b" name="fe3_b" compartment="e0" charge="3" boundaryCondition="true"/>
 <species id="cpd00001_b" name="H2O_b" compartment="e0" charge="0" boundaryCondition="true"/>
@@ -226,10 +266,38 @@
 <species id="cpd00007_b" name="O2_b" compartment="e0" charge="0" boundaryCondition="true"/>
 </listOfSpecies>
 <listOfReactions>
+<reaction id="rxn05614_c0" name="L_methionine_R_oxide_transport_via_ABC_system_c0" reversible="false">
+<notes>
+<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_540 and Unknown and Unknown)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_540 and Unknown and Unknown)</html:p>
+</notes>
+<listOfReactants>
+<speciesReference species="cpd00002_c0" stoichiometry="1"/>
+<speciesReference species="cpd00001_c0" stoichiometry="1"/>
+<speciesReference species="cpd11576_e0" stoichiometry="1"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference species="cpd00067_c0" stoichiometry="1"/>
+<speciesReference species="cpd00009_c0" stoichiometry="1"/>
+<speciesReference species="cpd11576_c0" stoichiometry="1"/>
+<speciesReference species="cpd00008_c0" stoichiometry="1"/>
+</listOfProducts>
+<kineticLaw>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<ci> FLUX_VALUE </ci>
+</math>
+<listOfParameters>
+<parameter id="LOWER_BOUND" value="0" name="mmol_per_gDW_per_hr"/>
+<parameter id="UPPER_BOUND" value="1000" name="mmol_per_gDW_per_hr"/>
+<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+<parameter id="FLUX_VALUE" value="0.0" name="mmol_per_gDW_per_hr"/>
+</listOfParameters>
+</kineticLaw>
+</reaction>
 <reaction id="rxn05145_c0" name="Orthophosphate_ABC_transport_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:(Unknown and AAA028C09_CDS_93 and Unknown and Unknown)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(Unknown and AAA028C09_CDS_93 and Unknown and Unknown)</html:p>
+<html:p>GENE_ASSOCIATION:(Unknown and AAA028C09_CDS_471 and AAA028C09_CDS_470 and Unknown)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(Unknown and AAA028C09_CDS_471 and AAA028C09_CDS_470 and Unknown)</html:p>
 <html:p>PROTEIN_CLASS:TC-3.A.1.7</html:p>
 </notes>
 <listOfReactants>
@@ -256,8 +324,8 @@
 </reaction>
 <reaction id="rxn05460_c0" name="3_Oxooctodecanoyl_ACP_malonyl_acyl_carrier_protein_C_acyltransferase_decarboxylating_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_123 and Unknown)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_123 and Unknown)</html:p>
+<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_505 and Unknown)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_505 and Unknown)</html:p>
 <html:p>PROTEIN_CLASS:2.3.1.0</html:p>
 </notes>
 <listOfReactants>
@@ -284,8 +352,8 @@
 </reaction>
 <reaction id="rxn05346_c0" name="butyryl_acyl_carrier_protein_malonyl_acyl_carrier_protein_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_123 and Unknown)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_123 and Unknown)</html:p>
+<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_505 and Unknown)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_505 and Unknown)</html:p>
 <html:p>KEGG_RID:R04952</html:p>
 <html:p>PROTEIN_CLASS:2.3.1.86</html:p>
 </notes>
@@ -311,10 +379,37 @@
 </listOfParameters>
 </kineticLaw>
 </reaction>
+<reaction id="rxn01678_c0" name="ATP_nucleoside_diphosphate_phosphatransferase_c0" reversible="true">
+<notes>
+<html:p>GENE_ASSOCIATION:AAA028C09_CDS_565</html:p>
+<html:p>PROTEIN_ASSOCIATION:AAA028C09_CDS_565</html:p>
+<html:p>KEGG_RID:R02331</html:p>
+<html:p>PROTEIN_CLASS:2.7.4.6</html:p>
+</notes>
+<listOfReactants>
+<speciesReference species="cpd00002_c0" stoichiometry="1"/>
+<speciesReference species="cpd00978_c0" stoichiometry="1"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference species="cpd00358_c0" stoichiometry="1"/>
+<speciesReference species="cpd00008_c0" stoichiometry="1"/>
+</listOfProducts>
+<kineticLaw>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<ci> FLUX_VALUE </ci>
+</math>
+<listOfParameters>
+<parameter id="LOWER_BOUND" value="-1000" name="mmol_per_gDW_per_hr"/>
+<parameter id="UPPER_BOUND" value="1000" name="mmol_per_gDW_per_hr"/>
+<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+<parameter id="FLUX_VALUE" value="0.0" name="mmol_per_gDW_per_hr"/>
+</listOfParameters>
+</kineticLaw>
+</reaction>
 <reaction id="rxn03511_c0" name="ADP_D_glycero_D_manno_heptose_6_epimerase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:AAA028C09_CDS_271</html:p>
-<html:p>PROTEIN_ASSOCIATION:AAA028C09_CDS_271</html:p>
+<html:p>GENE_ASSOCIATION:AAA028C09_CDS_655</html:p>
+<html:p>PROTEIN_ASSOCIATION:AAA028C09_CDS_655</html:p>
 <html:p>KEGG_RID:R05176</html:p>
 <html:p>PROTEIN_CLASS:5.1.3.20</html:p>
 </notes>
@@ -338,8 +433,8 @@
 </reaction>
 <reaction id="rxn05350_c0" name="hexanoyl_acyl_carrier_protein_malonyl_acyl_carrier_protein_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_123 and Unknown)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_123 and Unknown)</html:p>
+<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_505 and Unknown)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_505 and Unknown)</html:p>
 <html:p>KEGG_RID:R04957</html:p>
 <html:p>PROTEIN_CLASS:2.3.1.86</html:p>
 </notes>
@@ -365,10 +460,37 @@
 </listOfParameters>
 </kineticLaw>
 </reaction>
+<reaction id="rxn03916_c0" name="D_glycero_D_manno_hepose_1_phosphate_adenyltransferase_c0" reversible="true">
+<notes>
+<html:p>GENE_ASSOCIATION:AAA028C09_CDS_653</html:p>
+<html:p>PROTEIN_ASSOCIATION:AAA028C09_CDS_653</html:p>
+<html:p>KEGG_RID:R05644</html:p>
+<html:p>PROTEIN_CLASS:2.7.-.-</html:p>
+</notes>
+<listOfReactants>
+<speciesReference species="cpd00002_c0" stoichiometry="1"/>
+<speciesReference species="cpd04920_c0" stoichiometry="1"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference species="cpd03830_c0" stoichiometry="1"/>
+<speciesReference species="cpd00012_c0" stoichiometry="1"/>
+</listOfProducts>
+<kineticLaw>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<ci> FLUX_VALUE </ci>
+</math>
+<listOfParameters>
+<parameter id="LOWER_BOUND" value="-1000" name="mmol_per_gDW_per_hr"/>
+<parameter id="UPPER_BOUND" value="1000" name="mmol_per_gDW_per_hr"/>
+<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+<parameter id="FLUX_VALUE" value="0.0" name="mmol_per_gDW_per_hr"/>
+</listOfParameters>
+</kineticLaw>
+</reaction>
 <reaction id="rxn05396_c0" name="9_methyl_decanoyl_ACP_malonyl_acyl_carrier_protein_C_acyltransferase_decarboxylating_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_123 and Unknown)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_123 and Unknown)</html:p>
+<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_505 and Unknown)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_505 and Unknown)</html:p>
 <html:p>PROTEIN_CLASS:2.3.1.0</html:p>
 </notes>
 <listOfReactants>
@@ -393,10 +515,30 @@
 </listOfParameters>
 </kineticLaw>
 </reaction>
+<reaction id="rxn13782_c0" name="Protein_biosynthesis_c0" reversible="false">
+<notes>
+<html:p>GENE_ASSOCIATION:(Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and AAA028C09_CDS_568 and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and AAA028C09_CDS_568 and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown)</html:p>
+</notes>
+<listOfProducts>
+<speciesReference species="cpd17041_c0" stoichiometry="1"/>
+</listOfProducts>
+<kineticLaw>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<ci> FLUX_VALUE </ci>
+</math>
+<listOfParameters>
+<parameter id="LOWER_BOUND" value="0" name="mmol_per_gDW_per_hr"/>
+<parameter id="UPPER_BOUND" value="1000" name="mmol_per_gDW_per_hr"/>
+<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+<parameter id="FLUX_VALUE" value="0.0" name="mmol_per_gDW_per_hr"/>
+</listOfParameters>
+</kineticLaw>
+</reaction>
 <reaction id="rxn05363_c0" name="4_methyl_hexanoyl_ACP_malonyl_acyl_carrier_protein_C_acyltransferase_decarboxylating_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_123 and Unknown)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_123 and Unknown)</html:p>
+<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_505 and Unknown)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_505 and Unknown)</html:p>
 <html:p>PROTEIN_CLASS:2.3.1.0</html:p>
 </notes>
 <listOfReactants>
@@ -423,8 +565,8 @@
 </reaction>
 <reaction id="rxn05359_c0" name="4_methyl_3_oxo_hexanoyl_ACP_malonyl_acyl_carrier_protein_C_acyltransferase_decarboxylating_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_123 and Unknown)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_123 and Unknown)</html:p>
+<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_505 and Unknown)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_505 and Unknown)</html:p>
 <html:p>PROTEIN_CLASS:2.3.1.0</html:p>
 </notes>
 <listOfReactants>
@@ -449,10 +591,91 @@
 </listOfParameters>
 </kineticLaw>
 </reaction>
+<reaction id="rxn00117_c0" name="ATP_nucleoside_diphosphate_phosphatransferase_c0" reversible="true">
+<notes>
+<html:p>GENE_ASSOCIATION:AAA028C09_CDS_565</html:p>
+<html:p>PROTEIN_ASSOCIATION:AAA028C09_CDS_565</html:p>
+<html:p>KEGG_RID:R00156</html:p>
+<html:p>PROTEIN_CLASS:2.7.4.6</html:p>
+</notes>
+<listOfReactants>
+<speciesReference species="cpd00002_c0" stoichiometry="1"/>
+<speciesReference species="cpd00014_c0" stoichiometry="1"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference species="cpd00062_c0" stoichiometry="1"/>
+<speciesReference species="cpd00008_c0" stoichiometry="1"/>
+</listOfProducts>
+<kineticLaw>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<ci> FLUX_VALUE </ci>
+</math>
+<listOfParameters>
+<parameter id="LOWER_BOUND" value="-1000" name="mmol_per_gDW_per_hr"/>
+<parameter id="UPPER_BOUND" value="1000" name="mmol_per_gDW_per_hr"/>
+<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+<parameter id="FLUX_VALUE" value="0.0" name="mmol_per_gDW_per_hr"/>
+</listOfParameters>
+</kineticLaw>
+</reaction>
+<reaction id="rxn01997_c0" name="dTDPglucose_4_6_hydro_lyase_c0" reversible="false">
+<notes>
+<html:p>GENE_ASSOCIATION:AAA028C09_CDS_526</html:p>
+<html:p>PROTEIN_ASSOCIATION:AAA028C09_CDS_526</html:p>
+<html:p>KEGG_RID:R06513</html:p>
+<html:p>PROTEIN_CLASS:4.2.1.46</html:p>
+</notes>
+<listOfReactants>
+<speciesReference species="cpd00626_c0" stoichiometry="1"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference species="cpd00521_c0" stoichiometry="1"/>
+<speciesReference species="cpd00001_c0" stoichiometry="1"/>
+</listOfProducts>
+<kineticLaw>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<ci> FLUX_VALUE </ci>
+</math>
+<listOfParameters>
+<parameter id="LOWER_BOUND" value="0" name="mmol_per_gDW_per_hr"/>
+<parameter id="UPPER_BOUND" value="1000" name="mmol_per_gDW_per_hr"/>
+<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+<parameter id="FLUX_VALUE" value="0.0" name="mmol_per_gDW_per_hr"/>
+</listOfParameters>
+</kineticLaw>
+</reaction>
+<reaction id="rxn05219_c0" name="L_Methionine_ABC_transport_c0" reversible="false">
+<notes>
+<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_540 and Unknown and Unknown)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_540 and Unknown and Unknown)</html:p>
+</notes>
+<listOfReactants>
+<speciesReference species="cpd00060_e0" stoichiometry="1"/>
+<speciesReference species="cpd00002_c0" stoichiometry="1"/>
+<speciesReference species="cpd00001_c0" stoichiometry="1"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference species="cpd00067_c0" stoichiometry="1"/>
+<speciesReference species="cpd00060_c0" stoichiometry="1"/>
+<speciesReference species="cpd00009_c0" stoichiometry="1"/>
+<speciesReference species="cpd00008_c0" stoichiometry="1"/>
+</listOfProducts>
+<kineticLaw>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<ci> FLUX_VALUE </ci>
+</math>
+<listOfParameters>
+<parameter id="LOWER_BOUND" value="0" name="mmol_per_gDW_per_hr"/>
+<parameter id="UPPER_BOUND" value="1000" name="mmol_per_gDW_per_hr"/>
+<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+<parameter id="FLUX_VALUE" value="0.0" name="mmol_per_gDW_per_hr"/>
+</listOfParameters>
+</kineticLaw>
+</reaction>
 <reaction id="rxn05367_c0" name="6_methyl_octanoyl_ACP_malonyl_acyl_carrier_protein_C_acyltransferase_decarboxylating_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_123 and Unknown)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_123 and Unknown)</html:p>
+<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_505 and Unknown)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_505 and Unknown)</html:p>
 <html:p>PROTEIN_CLASS:2.3.1.0</html:p>
 </notes>
 <listOfReactants>
@@ -479,8 +702,8 @@
 </reaction>
 <reaction id="rxn13783_c0" name="DNA_replication_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and AAA028C09_CDS_77 and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and AAA028C09_CDS_1 and Unknown)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and AAA028C09_CDS_77 and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and AAA028C09_CDS_1 and Unknown)</html:p>
+<html:p>GENE_ASSOCIATION:(Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and AAA028C09_CDS_452 and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and AAA028C09_CDS_373 and Unknown and AAA028C09_CDS_372 and Unknown)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and AAA028C09_CDS_452 and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and AAA028C09_CDS_373 and Unknown and AAA028C09_CDS_372 and Unknown)</html:p>
 </notes>
 <listOfProducts>
 <speciesReference species="cpd17042_c0" stoichiometry="1"/>
@@ -497,10 +720,37 @@
 </listOfParameters>
 </kineticLaw>
 </reaction>
+<reaction id="rxn00839_c0" name="ATP_nucleoside_diphosphate_phosphatransferase_c0" reversible="true">
+<notes>
+<html:p>GENE_ASSOCIATION:AAA028C09_CDS_565</html:p>
+<html:p>PROTEIN_ASSOCIATION:AAA028C09_CDS_565</html:p>
+<html:p>KEGG_RID:R01137</html:p>
+<html:p>PROTEIN_CLASS:2.7.4.6</html:p>
+</notes>
+<listOfReactants>
+<speciesReference species="cpd00002_c0" stoichiometry="1"/>
+<speciesReference species="cpd00177_c0" stoichiometry="1"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference species="cpd00115_c0" stoichiometry="1"/>
+<speciesReference species="cpd00008_c0" stoichiometry="1"/>
+</listOfProducts>
+<kineticLaw>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<ci> FLUX_VALUE </ci>
+</math>
+<listOfParameters>
+<parameter id="LOWER_BOUND" value="-1000" name="mmol_per_gDW_per_hr"/>
+<parameter id="UPPER_BOUND" value="1000" name="mmol_per_gDW_per_hr"/>
+<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+<parameter id="FLUX_VALUE" value="0.0" name="mmol_per_gDW_per_hr"/>
+</listOfParameters>
+</kineticLaw>
+</reaction>
 <reaction id="rxn05417_c0" name="6_methyl_heptanoyl_ACP_malonyl_acyl_carrier_protein_C_acyltransferase_decarboxylating_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_123 and Unknown)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_123 and Unknown)</html:p>
+<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_505 and Unknown)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_505 and Unknown)</html:p>
 <html:p>PROTEIN_CLASS:2.3.1.0</html:p>
 </notes>
 <listOfReactants>
@@ -525,10 +775,37 @@
 </listOfParameters>
 </kineticLaw>
 </reaction>
+<reaction id="rxn00409_c0" name="ATP_nucleoside_diphosphate_phosphatransferase_c0" reversible="true">
+<notes>
+<html:p>GENE_ASSOCIATION:AAA028C09_CDS_565</html:p>
+<html:p>PROTEIN_ASSOCIATION:AAA028C09_CDS_565</html:p>
+<html:p>KEGG_RID:R00570</html:p>
+<html:p>PROTEIN_CLASS:2.7.4.6</html:p>
+</notes>
+<listOfReactants>
+<speciesReference species="cpd00002_c0" stoichiometry="1"/>
+<speciesReference species="cpd00096_c0" stoichiometry="1"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference species="cpd00008_c0" stoichiometry="1"/>
+<speciesReference species="cpd00052_c0" stoichiometry="1"/>
+</listOfProducts>
+<kineticLaw>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<ci> FLUX_VALUE </ci>
+</math>
+<listOfParameters>
+<parameter id="LOWER_BOUND" value="-1000" name="mmol_per_gDW_per_hr"/>
+<parameter id="UPPER_BOUND" value="1000" name="mmol_per_gDW_per_hr"/>
+<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+<parameter id="FLUX_VALUE" value="0.0" name="mmol_per_gDW_per_hr"/>
+</listOfParameters>
+</kineticLaw>
+</reaction>
 <reaction id="rxn05421_c0" name="8_methyl_nonanoyl_ACP_malonyl_acyl_carrier_protein_C_acyltransferase_decarboxylating_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_123 and Unknown)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_123 and Unknown)</html:p>
+<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_505 and Unknown)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_505 and Unknown)</html:p>
 <html:p>PROTEIN_CLASS:2.3.1.0</html:p>
 </notes>
 <listOfReactants>
@@ -555,8 +832,8 @@
 </reaction>
 <reaction id="rxn01519_c0" name="dUTP_nucleotidohydrolase_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:AAA028C09_CDS_21</html:p>
-<html:p>PROTEIN_ASSOCIATION:AAA028C09_CDS_21</html:p>
+<html:p>GENE_ASSOCIATION:AAA028C09_CDS_394</html:p>
+<html:p>PROTEIN_ASSOCIATION:AAA028C09_CDS_394</html:p>
 <html:p>KEGG_RID:R02100</html:p>
 <html:p>PROTEIN_CLASS:3.6.1.23</html:p>
 </notes>
@@ -582,8 +859,8 @@
 </reaction>
 <reaction id="rxn05392_c0" name="7_methyl_octanoyl_ACP_malonyl_acyl_carrier_protein_C_acyltransferase_decarboxylating_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_123 and Unknown)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_123 and Unknown)</html:p>
+<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_505 and Unknown)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_505 and Unknown)</html:p>
 <html:p>PROTEIN_CLASS:2.3.1.0</html:p>
 </notes>
 <listOfReactants>
@@ -608,10 +885,37 @@
 </listOfParameters>
 </kineticLaw>
 </reaction>
+<reaction id="rxn01673_c0" name="ATP_nucleoside_diphosphate_phosphatransferase_c0" reversible="true">
+<notes>
+<html:p>GENE_ASSOCIATION:AAA028C09_CDS_565</html:p>
+<html:p>PROTEIN_ASSOCIATION:AAA028C09_CDS_565</html:p>
+<html:p>KEGG_RID:R02326</html:p>
+<html:p>PROTEIN_CLASS:2.7.4.6</html:p>
+</notes>
+<listOfReactants>
+<speciesReference species="cpd00002_c0" stoichiometry="1"/>
+<speciesReference species="cpd00533_c0" stoichiometry="1"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference species="cpd00356_c0" stoichiometry="1"/>
+<speciesReference species="cpd00008_c0" stoichiometry="1"/>
+</listOfProducts>
+<kineticLaw>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<ci> FLUX_VALUE </ci>
+</math>
+<listOfParameters>
+<parameter id="LOWER_BOUND" value="-1000" name="mmol_per_gDW_per_hr"/>
+<parameter id="UPPER_BOUND" value="1000" name="mmol_per_gDW_per_hr"/>
+<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+<parameter id="FLUX_VALUE" value="0.0" name="mmol_per_gDW_per_hr"/>
+</listOfParameters>
+</kineticLaw>
+</reaction>
 <reaction id="rxn00295_c0" name="UDP_N_acetyl_D_glucosamine_4_epimerase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_163 or AAA028C09_CDS_120)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_163 or AAA028C09_CDS_120)</html:p>
+<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_502 or AAA028C09_CDS_545)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_502 or AAA028C09_CDS_545)</html:p>
 <html:p>KEGG_RID:R00418</html:p>
 <html:p>PROTEIN_CLASS:5.1.3.7</html:p>
 </notes>
@@ -635,8 +939,8 @@
 </reaction>
 <reaction id="rxn05345_c0" name="dodecanoyl_acyl_carrier_protein_malonyl_acyl_carrier_protein_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_123 and Unknown)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_123 and Unknown)</html:p>
+<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_505 and Unknown)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_505 and Unknown)</html:p>
 <html:p>KEGG_RID:R04726</html:p>
 <html:p>PROTEIN_CLASS:2.3.1.86</html:p>
 </notes>
@@ -662,10 +966,35 @@
 </listOfParameters>
 </kineticLaw>
 </reaction>
+<reaction id="rxn09296_c0" name="hydrogen_peroxide_reductase_thioredoxin_c0" reversible="false">
+<notes>
+<html:p>GENE_ASSOCIATION:AAA028C09_CDS_522</html:p>
+<html:p>PROTEIN_ASSOCIATION:AAA028C09_CDS_522</html:p>
+</notes>
+<listOfReactants>
+<speciesReference species="cpd11421_c0" stoichiometry="1"/>
+<speciesReference species="cpd00025_c0" stoichiometry="1"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference species="cpd11420_c0" stoichiometry="1"/>
+<speciesReference species="cpd00001_c0" stoichiometry="2"/>
+</listOfProducts>
+<kineticLaw>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<ci> FLUX_VALUE </ci>
+</math>
+<listOfParameters>
+<parameter id="LOWER_BOUND" value="0" name="mmol_per_gDW_per_hr"/>
+<parameter id="UPPER_BOUND" value="1000" name="mmol_per_gDW_per_hr"/>
+<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+<parameter id="FLUX_VALUE" value="0.0" name="mmol_per_gDW_per_hr"/>
+</listOfParameters>
+</kineticLaw>
+</reaction>
 <reaction id="rxn13784_c0" name="RNA_transcription_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(Unknown and Unknown and AAA028C09_CDS_75 and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(Unknown and Unknown and AAA028C09_CDS_75 and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown)</html:p>
+<html:p>GENE_ASSOCIATION:(Unknown and Unknown and AAA028C09_CDS_449 and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(Unknown and Unknown and AAA028C09_CDS_449 and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown)</html:p>
 </notes>
 <listOfProducts>
 <speciesReference species="cpd17043_c0" stoichiometry="1"/>
@@ -676,6 +1005,59 @@
 </math>
 <listOfParameters>
 <parameter id="LOWER_BOUND" value="0" name="mmol_per_gDW_per_hr"/>
+<parameter id="UPPER_BOUND" value="1000" name="mmol_per_gDW_per_hr"/>
+<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+<parameter id="FLUX_VALUE" value="0.0" name="mmol_per_gDW_per_hr"/>
+</listOfParameters>
+</kineticLaw>
+</reaction>
+<reaction id="rxn00642_c0" name="GDPmannose_4_6_hydro_lyase_c0" reversible="false">
+<notes>
+<html:p>GENE_ASSOCIATION:AAA028C09_CDS_524</html:p>
+<html:p>PROTEIN_ASSOCIATION:AAA028C09_CDS_524</html:p>
+<html:p>KEGG_RID:R00888</html:p>
+<html:p>PROTEIN_CLASS:4.2.1.47</html:p>
+</notes>
+<listOfReactants>
+<speciesReference species="cpd00083_c0" stoichiometry="1"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference species="cpd00001_c0" stoichiometry="1"/>
+<speciesReference species="cpd00900_c0" stoichiometry="1"/>
+</listOfProducts>
+<kineticLaw>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<ci> FLUX_VALUE </ci>
+</math>
+<listOfParameters>
+<parameter id="LOWER_BOUND" value="0" name="mmol_per_gDW_per_hr"/>
+<parameter id="UPPER_BOUND" value="1000" name="mmol_per_gDW_per_hr"/>
+<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+<parameter id="FLUX_VALUE" value="0.0" name="mmol_per_gDW_per_hr"/>
+</listOfParameters>
+</kineticLaw>
+</reaction>
+<reaction id="rxn00515_c0" name="ATP_nucleoside_diphosphate_phosphatransferase_c0" reversible="true">
+<notes>
+<html:p>GENE_ASSOCIATION:AAA028C09_CDS_565</html:p>
+<html:p>PROTEIN_ASSOCIATION:AAA028C09_CDS_565</html:p>
+<html:p>KEGG_RID:R00722</html:p>
+<html:p>PROTEIN_CLASS:2.7.4.6</html:p>
+</notes>
+<listOfReactants>
+<speciesReference species="cpd00002_c0" stoichiometry="1"/>
+<speciesReference species="cpd00090_c0" stoichiometry="1"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference species="cpd00068_c0" stoichiometry="1"/>
+<speciesReference species="cpd00008_c0" stoichiometry="1"/>
+</listOfProducts>
+<kineticLaw>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<ci> FLUX_VALUE </ci>
+</math>
+<listOfParameters>
+<parameter id="LOWER_BOUND" value="-1000" name="mmol_per_gDW_per_hr"/>
 <parameter id="UPPER_BOUND" value="1000" name="mmol_per_gDW_per_hr"/>
 <parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
 <parameter id="FLUX_VALUE" value="0.0" name="mmol_per_gDW_per_hr"/>
@@ -712,8 +1094,8 @@
 </reaction>
 <reaction id="rxn05413_c0" name="4_methyl_pentanoyl_ACP_malonyl_acyl_carrier_protein_C_acyltransferase_decarboxylating_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_123 and Unknown)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_123 and Unknown)</html:p>
+<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_505 and Unknown)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_505 and Unknown)</html:p>
 <html:p>PROTEIN_CLASS:2.3.1.0</html:p>
 </notes>
 <listOfReactants>
@@ -740,8 +1122,8 @@
 </reaction>
 <reaction id="rxn05348_c0" name="Decanoyl_acyl_carrier_protein_malonyl_acyl_carrier_protein_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_123 and Unknown)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_123 and Unknown)</html:p>
+<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_505 and Unknown)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_505 and Unknown)</html:p>
 <html:p>KEGG_RID:R04963</html:p>
 <html:p>PROTEIN_CLASS:2.3.1.86</html:p>
 </notes>
@@ -790,10 +1172,37 @@
 </listOfParameters>
 </kineticLaw>
 </reaction>
+<reaction id="rxn03918_c0" name="D_glycero_D_manno_heptose_7_phosphate_kinase_c0" reversible="true">
+<notes>
+<html:p>GENE_ASSOCIATION:AAA028C09_CDS_653</html:p>
+<html:p>PROTEIN_ASSOCIATION:AAA028C09_CDS_653</html:p>
+<html:p>KEGG_RID:R05646</html:p>
+<html:p>PROTEIN_CLASS:2.7.-.-</html:p>
+</notes>
+<listOfReactants>
+<speciesReference species="cpd00002_c0" stoichiometry="1"/>
+<speciesReference species="cpd04918_c0" stoichiometry="1"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference species="cpd08316_c0" stoichiometry="1"/>
+<speciesReference species="cpd00008_c0" stoichiometry="1"/>
+</listOfProducts>
+<kineticLaw>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<ci> FLUX_VALUE </ci>
+</math>
+<listOfParameters>
+<parameter id="LOWER_BOUND" value="-1000" name="mmol_per_gDW_per_hr"/>
+<parameter id="UPPER_BOUND" value="1000" name="mmol_per_gDW_per_hr"/>
+<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+<parameter id="FLUX_VALUE" value="0.0" name="mmol_per_gDW_per_hr"/>
+</listOfParameters>
+</kineticLaw>
+</reaction>
 <reaction id="rxn05344_c0" name="Tetradecanoyl_acyl_carrier_protein_malonyl_acyl_carrier_protein_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_123 and Unknown)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_123 and Unknown)</html:p>
+<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_505 and Unknown)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_505 and Unknown)</html:p>
 <html:p>KEGG_RID:R04968</html:p>
 <html:p>PROTEIN_CLASS:2.3.1.86</html:p>
 </notes>
@@ -821,8 +1230,8 @@
 </reaction>
 <reaction id="rxn05349_c0" name="acetyl_CoA_acyl_carrier_protein_S_acetyltransferase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_123 and Unknown)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_123 and Unknown)</html:p>
+<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_505 and Unknown)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_505 and Unknown)</html:p>
 <html:p>KEGG_RID:R01624</html:p>
 <html:p>PROTEIN_CLASS:2.3.1.86</html:p>
 </notes>
@@ -848,8 +1257,8 @@
 </reaction>
 <reaction id="rxn05388_c0" name="5_methyl_hexanoyl_ACP_malonyl_acyl_carrier_protein_C_acyltransferase_decarboxylating_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_123 and Unknown)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_123 and Unknown)</html:p>
+<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_505 and Unknown)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_505 and Unknown)</html:p>
 <html:p>PROTEIN_CLASS:2.3.1.0</html:p>
 </notes>
 <listOfReactants>
@@ -876,8 +1285,8 @@
 </reaction>
 <reaction id="rxn05429_c0" name="12_methyl_tridecanoyl_ACP_malonyl_acyl_carrier_protein_C_acyltransferase_decarboxylating_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_123 and Unknown)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_123 and Unknown)</html:p>
+<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_505 and Unknown)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_505 and Unknown)</html:p>
 <html:p>PROTEIN_CLASS:2.3.1.0</html:p>
 </notes>
 <listOfReactants>
@@ -904,8 +1313,8 @@
 </reaction>
 <reaction id="rxn05516_c0" name="cadmium_transport_out_via_ABC_system_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:AAA028C09_CDS_78</html:p>
-<html:p>PROTEIN_ASSOCIATION:AAA028C09_CDS_78</html:p>
+<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_453 or AAA028C09_CDS_487)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_453 or AAA028C09_CDS_487)</html:p>
 <html:p>PROTEIN_CLASS:3.A.3</html:p>
 </notes>
 <listOfReactants>
@@ -931,10 +1340,65 @@
 </listOfParameters>
 </kineticLaw>
 </reaction>
+<reaction id="rxn03904_c0" name="UDPMurAcoyl_L_Ala_D_gamma_Glu_L_Lys_D_Ala_D_Ala_undecaprenyl__c0" reversible="true">
+<notes>
+<html:p>GENE_ASSOCIATION:AAA028C09_CDS_564</html:p>
+<html:p>PROTEIN_ASSOCIATION:AAA028C09_CDS_564</html:p>
+<html:p>KEGG_RID:R05630</html:p>
+<html:p>PROTEIN_CLASS:2.7.8.13</html:p>
+</notes>
+<listOfReactants>
+<speciesReference species="cpd02968_c0" stoichiometry="1"/>
+<speciesReference species="cpd00286_c0" stoichiometry="1"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference species="cpd03494_c0" stoichiometry="1"/>
+<speciesReference species="cpd00091_c0" stoichiometry="1"/>
+</listOfProducts>
+<kineticLaw>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<ci> FLUX_VALUE </ci>
+</math>
+<listOfParameters>
+<parameter id="LOWER_BOUND" value="-1000" name="mmol_per_gDW_per_hr"/>
+<parameter id="UPPER_BOUND" value="1000" name="mmol_per_gDW_per_hr"/>
+<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+<parameter id="FLUX_VALUE" value="0.0" name="mmol_per_gDW_per_hr"/>
+</listOfParameters>
+</kineticLaw>
+</reaction>
+<reaction id="rxn05613_c0" name="L_methionine_S_oxide_transport_via_ABC_system_c0" reversible="false">
+<notes>
+<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_540 and Unknown and Unknown)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_540 and Unknown and Unknown)</html:p>
+</notes>
+<listOfReactants>
+<speciesReference species="cpd00002_c0" stoichiometry="1"/>
+<speciesReference species="cpd00001_c0" stoichiometry="1"/>
+<speciesReference species="cpd01914_e0" stoichiometry="1"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference species="cpd00067_c0" stoichiometry="1"/>
+<speciesReference species="cpd00009_c0" stoichiometry="1"/>
+<speciesReference species="cpd01914_c0" stoichiometry="1"/>
+<speciesReference species="cpd00008_c0" stoichiometry="1"/>
+</listOfProducts>
+<kineticLaw>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<ci> FLUX_VALUE </ci>
+</math>
+<listOfParameters>
+<parameter id="LOWER_BOUND" value="0" name="mmol_per_gDW_per_hr"/>
+<parameter id="UPPER_BOUND" value="1000" name="mmol_per_gDW_per_hr"/>
+<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+<parameter id="FLUX_VALUE" value="0.0" name="mmol_per_gDW_per_hr"/>
+</listOfParameters>
+</kineticLaw>
+</reaction>
 <reaction id="rxn05371_c0" name="8_methyl_decanoyl_ACP_malonyl_acyl_carrier_protein_C_acyltransferase_decarboxylating_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_123 and Unknown)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_123 and Unknown)</html:p>
+<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_505 and Unknown)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_505 and Unknown)</html:p>
 <html:p>PROTEIN_CLASS:2.3.1.0</html:p>
 </notes>
 <listOfReactants>
@@ -961,8 +1425,8 @@
 </reaction>
 <reaction id="rxn05347_c0" name="Acyl_acyl_carrier_protein_malonyl_acyl_carrier_protein_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_123 and Unknown)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_123 and Unknown)</html:p>
+<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_505 and Unknown)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_505 and Unknown)</html:p>
 <html:p>KEGG_RID:R04355</html:p>
 <html:p>PROTEIN_CLASS:2.3.1.86</html:p>
 </notes>
@@ -990,8 +1454,8 @@
 </reaction>
 <reaction id="rxn05400_c0" name="11_methyl_dodecanoyl_ACP_malonyl_acyl_carrier_protein_C_acyltransferase_decarboxylating_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_123 and Unknown)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_123 and Unknown)</html:p>
+<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_505 and Unknown)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_505 and Unknown)</html:p>
 <html:p>PROTEIN_CLASS:2.3.1.0</html:p>
 </notes>
 <listOfReactants>
@@ -1018,8 +1482,8 @@
 </reaction>
 <reaction id="rxn10343_c0" name="Mercury_Hg2_ABC_transporter_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:AAA028C09_CDS_78</html:p>
-<html:p>PROTEIN_ASSOCIATION:AAA028C09_CDS_78</html:p>
+<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_453 or AAA028C09_CDS_487)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_453 or AAA028C09_CDS_487)</html:p>
 </notes>
 <listOfReactants>
 <speciesReference species="cpd00002_c0" stoichiometry="1"/>
@@ -1072,8 +1536,8 @@
 </reaction>
 <reaction id="rxn05425_c0" name="10_methyl_undecanoyl_ACP_malonyl_acyl_carrier_protein_C_acyltransferase_decarboxylating_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_123 and Unknown)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_123 and Unknown)</html:p>
+<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_505 and Unknown)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_505 and Unknown)</html:p>
 <html:p>PROTEIN_CLASS:2.3.1.0</html:p>
 </notes>
 <listOfReactants>
@@ -1098,10 +1562,37 @@
 </listOfParameters>
 </kineticLaw>
 </reaction>
+<reaction id="rxn01512_c0" name="ATP_nucleoside_diphosphate_phosphatransferase_c0" reversible="true">
+<notes>
+<html:p>GENE_ASSOCIATION:AAA028C09_CDS_565</html:p>
+<html:p>PROTEIN_ASSOCIATION:AAA028C09_CDS_565</html:p>
+<html:p>KEGG_RID:R02093</html:p>
+<html:p>PROTEIN_CLASS:2.7.4.6</html:p>
+</notes>
+<listOfReactants>
+<speciesReference species="cpd00002_c0" stoichiometry="1"/>
+<speciesReference species="cpd00297_c0" stoichiometry="1"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference species="cpd00357_c0" stoichiometry="1"/>
+<speciesReference species="cpd00008_c0" stoichiometry="1"/>
+</listOfProducts>
+<kineticLaw>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<ci> FLUX_VALUE </ci>
+</math>
+<listOfParameters>
+<parameter id="LOWER_BOUND" value="-1000" name="mmol_per_gDW_per_hr"/>
+<parameter id="UPPER_BOUND" value="1000" name="mmol_per_gDW_per_hr"/>
+<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+<parameter id="FLUX_VALUE" value="0.0" name="mmol_per_gDW_per_hr"/>
+</listOfParameters>
+</kineticLaw>
+</reaction>
 <reaction id="rxn00784_c0" name="2_Deoxy_D_ribose_5_phosphate_acetaldehyde_lyase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:AAA028C09_CDS_79</html:p>
-<html:p>PROTEIN_ASSOCIATION:AAA028C09_CDS_79</html:p>
+<html:p>GENE_ASSOCIATION:AAA028C09_CDS_454</html:p>
+<html:p>PROTEIN_ASSOCIATION:AAA028C09_CDS_454</html:p>
 <html:p>KEGG_RID:R01066</html:p>
 <html:p>PROTEIN_CLASS:4.1.2.4</html:p>
 </notes>
@@ -1124,10 +1615,37 @@
 </listOfParameters>
 </kineticLaw>
 </reaction>
+<reaction id="rxn03903_c0" name="UDPMurAcoyl_L_Ala_D_gamma_Glu_L_Lys_D_Ala_D_Ala_undecaprenyl__c0" reversible="true">
+<notes>
+<html:p>GENE_ASSOCIATION:AAA028C09_CDS_564</html:p>
+<html:p>PROTEIN_ASSOCIATION:AAA028C09_CDS_564</html:p>
+<html:p>KEGG_RID:R05629</html:p>
+<html:p>PROTEIN_CLASS:2.7.8.13</html:p>
+</notes>
+<listOfReactants>
+<speciesReference species="cpd02862_c0" stoichiometry="1"/>
+<speciesReference species="cpd00286_c0" stoichiometry="1"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference species="cpd00091_c0" stoichiometry="1"/>
+<speciesReference species="cpd02948_c0" stoichiometry="1"/>
+</listOfProducts>
+<kineticLaw>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<ci> FLUX_VALUE </ci>
+</math>
+<listOfParameters>
+<parameter id="LOWER_BOUND" value="-1000" name="mmol_per_gDW_per_hr"/>
+<parameter id="UPPER_BOUND" value="1000" name="mmol_per_gDW_per_hr"/>
+<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+<parameter id="FLUX_VALUE" value="0.0" name="mmol_per_gDW_per_hr"/>
+</listOfParameters>
+</kineticLaw>
+</reaction>
 <reaction id="rxn00214_c0" name="UDPglucose_4_epimerase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_163 or AAA028C09_CDS_120)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_163 or AAA028C09_CDS_120)</html:p>
+<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_502 or AAA028C09_CDS_545)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_502 or AAA028C09_CDS_545)</html:p>
 <html:p>KEGG_RID:R00291</html:p>
 <html:p>PROTEIN_CLASS:5.1.3.2</html:p>
 </notes>
@@ -1151,8 +1669,8 @@
 </reaction>
 <reaction id="rxn05409_c0" name="2_methylpropionyl_ACP_malonyl_acyl_carrier_protein_C_acyltransferase_decarboxylating_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_123 and Unknown)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_123 and Unknown)</html:p>
+<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_505 and Unknown)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_505 and Unknown)</html:p>
 <html:p>PROTEIN_CLASS:2.3.1.0</html:p>
 </notes>
 <listOfReactants>
@@ -1179,8 +1697,8 @@
 </reaction>
 <reaction id="rxn10481_c0" name="Copper_transport_via_ABC_system_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:AAA028C09_CDS_78</html:p>
-<html:p>PROTEIN_ASSOCIATION:AAA028C09_CDS_78</html:p>
+<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_453 or AAA028C09_CDS_611 or AAA028C09_CDS_487)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_453 or AAA028C09_CDS_611 or AAA028C09_CDS_487)</html:p>
 </notes>
 <listOfReactants>
 <speciesReference species="cpd00058_e0" stoichiometry="1"/>
@@ -1207,8 +1725,8 @@
 </reaction>
 <reaction id="rxn10344_c0" name="Lead_Pb2_ABC_transporter_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:AAA028C09_CDS_78</html:p>
-<html:p>PROTEIN_ASSOCIATION:AAA028C09_CDS_78</html:p>
+<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_453 or AAA028C09_CDS_487)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_453 or AAA028C09_CDS_487)</html:p>
 </notes>
 <listOfReactants>
 <speciesReference species="cpd00002_c0" stoichiometry="1"/>
@@ -1235,8 +1753,8 @@
 </reaction>
 <reaction id="rxn05404_c0" name="13_methyl_tetra_decanoyl_ACP_malonyl_acyl_carrier_protein_C_acyltransferase_decarboxylating_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_123 and Unknown)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_123 and Unknown)</html:p>
+<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_505 and Unknown)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_505 and Unknown)</html:p>
 <html:p>PROTEIN_CLASS:2.3.1.0</html:p>
 </notes>
 <listOfReactants>
@@ -1263,8 +1781,8 @@
 </reaction>
 <reaction id="rxn05375_c0" name="10_methyl_dodecanoyl_ACP_malonyl_acyl_carrier_protein_C_acyltransferase_decarboxylating_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_123 and Unknown)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_123 and Unknown)</html:p>
+<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_505 and Unknown)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_505 and Unknown)</html:p>
 <html:p>PROTEIN_CLASS:2.3.1.0</html:p>
 </notes>
 <listOfReactants>
@@ -1291,8 +1809,8 @@
 </reaction>
 <reaction id="rxn02303_c0" name="Coproporphyrinogen_oxygen_oxidoreductasedecarboxylating_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:AAA028C09_CDS_68</html:p>
-<html:p>PROTEIN_ASSOCIATION:AAA028C09_CDS_68</html:p>
+<html:p>GENE_ASSOCIATION:AAA028C09_CDS_440</html:p>
+<html:p>PROTEIN_ASSOCIATION:AAA028C09_CDS_440</html:p>
 <html:p>KEGG_RID:R03220</html:p>
 <html:p>PROTEIN_CLASS:1.3.3.3</html:p>
 </notes>
@@ -1318,10 +1836,37 @@
 </listOfParameters>
 </kineticLaw>
 </reaction>
+<reaction id="rxn01353_c0" name="ATP_nucleoside_diphosphate_phosphatransferase_c0" reversible="true">
+<notes>
+<html:p>GENE_ASSOCIATION:AAA028C09_CDS_565</html:p>
+<html:p>PROTEIN_ASSOCIATION:AAA028C09_CDS_565</html:p>
+<html:p>KEGG_RID:R01857</html:p>
+<html:p>PROTEIN_CLASS:2.7.4.6</html:p>
+</notes>
+<listOfReactants>
+<speciesReference species="cpd00002_c0" stoichiometry="1"/>
+<speciesReference species="cpd00295_c0" stoichiometry="1"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference species="cpd00241_c0" stoichiometry="1"/>
+<speciesReference species="cpd00008_c0" stoichiometry="1"/>
+</listOfProducts>
+<kineticLaw>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<ci> FLUX_VALUE </ci>
+</math>
+<listOfParameters>
+<parameter id="LOWER_BOUND" value="-1000" name="mmol_per_gDW_per_hr"/>
+<parameter id="UPPER_BOUND" value="1000" name="mmol_per_gDW_per_hr"/>
+<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+<parameter id="FLUX_VALUE" value="0.0" name="mmol_per_gDW_per_hr"/>
+</listOfParameters>
+</kineticLaw>
+</reaction>
 <reaction id="rxn05379_c0" name="12_methyl_tetra_decanoyl_ACP_malonyl_acyl_carrier_protein_C_acyltransferase_decarboxylating_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_123 and Unknown)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_123 and Unknown)</html:p>
+<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_505 and Unknown)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_505 and Unknown)</html:p>
 <html:p>PROTEIN_CLASS:2.3.1.0</html:p>
 </notes>
 <listOfReactants>
@@ -1371,8 +1916,8 @@
 </reaction>
 <reaction id="rxn05384_c0" name="3_methylbutanoyl_ACP_malonyl_acyl_carrier_protein_C_acyltransferase_decarboxylating_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_123 and Unknown)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_123 and Unknown)</html:p>
+<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_505 and Unknown)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_505 and Unknown)</html:p>
 <html:p>PROTEIN_CLASS:2.3.1.0</html:p>
 </notes>
 <listOfReactants>
@@ -1397,10 +1942,38 @@
 </listOfParameters>
 </kineticLaw>
 </reaction>
+<reaction id="rxn05183_c0" name="D_Methionine_ABC_transport_c0" reversible="false">
+<notes>
+<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_540 and Unknown and Unknown)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_540 and Unknown and Unknown)</html:p>
+</notes>
+<listOfReactants>
+<speciesReference species="cpd00002_c0" stoichiometry="1"/>
+<speciesReference species="cpd00001_c0" stoichiometry="1"/>
+<speciesReference species="cpd00637_e0" stoichiometry="1"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference species="cpd00067_c0" stoichiometry="1"/>
+<speciesReference species="cpd00009_c0" stoichiometry="1"/>
+<speciesReference species="cpd00008_c0" stoichiometry="1"/>
+<speciesReference species="cpd00637_c0" stoichiometry="1"/>
+</listOfProducts>
+<kineticLaw>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<ci> FLUX_VALUE </ci>
+</math>
+<listOfParameters>
+<parameter id="LOWER_BOUND" value="0" name="mmol_per_gDW_per_hr"/>
+<parameter id="UPPER_BOUND" value="1000" name="mmol_per_gDW_per_hr"/>
+<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+<parameter id="FLUX_VALUE" value="0.0" name="mmol_per_gDW_per_hr"/>
+</listOfParameters>
+</kineticLaw>
+</reaction>
 <reaction id="rxn05528_c0" name="Copper_export_via_ATPase_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:AAA028C09_CDS_78</html:p>
-<html:p>PROTEIN_ASSOCIATION:AAA028C09_CDS_78</html:p>
+<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_453 or AAA028C09_CDS_611 or AAA028C09_CDS_487)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_453 or AAA028C09_CDS_611 or AAA028C09_CDS_487)</html:p>
 <html:p>PROTEIN_CLASS:3.A.3</html:p>
 </notes>
 <listOfReactants>
@@ -1426,10 +1999,65 @@
 </listOfParameters>
 </kineticLaw>
 </reaction>
+<reaction id="rxn00237_c0" name="ATP_nucleoside_diphosphate_phosphatransferase_c0" reversible="true">
+<notes>
+<html:p>GENE_ASSOCIATION:AAA028C09_CDS_565</html:p>
+<html:p>PROTEIN_ASSOCIATION:AAA028C09_CDS_565</html:p>
+<html:p>KEGG_RID:R00330</html:p>
+<html:p>PROTEIN_CLASS:2.7.4.6</html:p>
+</notes>
+<listOfReactants>
+<speciesReference species="cpd00002_c0" stoichiometry="1"/>
+<speciesReference species="cpd00031_c0" stoichiometry="1"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference species="cpd00038_c0" stoichiometry="1"/>
+<speciesReference species="cpd00008_c0" stoichiometry="1"/>
+</listOfProducts>
+<kineticLaw>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<ci> FLUX_VALUE </ci>
+</math>
+<listOfParameters>
+<parameter id="LOWER_BOUND" value="-1000" name="mmol_per_gDW_per_hr"/>
+<parameter id="UPPER_BOUND" value="1000" name="mmol_per_gDW_per_hr"/>
+<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+<parameter id="FLUX_VALUE" value="0.0" name="mmol_per_gDW_per_hr"/>
+</listOfParameters>
+</kineticLaw>
+</reaction>
+<reaction id="rxn02003_c0" name="dTDP_6_deoxy_L_mannose_NADP_4_oxidoreductase_c0" reversible="true">
+<notes>
+<html:p>GENE_ASSOCIATION:AAA028C09_CDS_489</html:p>
+<html:p>PROTEIN_ASSOCIATION:AAA028C09_CDS_489</html:p>
+<html:p>KEGG_RID:R02777</html:p>
+<html:p>PROTEIN_CLASS:1.1.1.133</html:p>
+</notes>
+<listOfReactants>
+<speciesReference species="cpd00006_c0" stoichiometry="1"/>
+<speciesReference species="cpd02113_c0" stoichiometry="1"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference species="cpd00522_c0" stoichiometry="1"/>
+<speciesReference species="cpd00067_c0" stoichiometry="1"/>
+<speciesReference species="cpd00005_c0" stoichiometry="1"/>
+</listOfProducts>
+<kineticLaw>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<ci> FLUX_VALUE </ci>
+</math>
+<listOfParameters>
+<parameter id="LOWER_BOUND" value="-1000" name="mmol_per_gDW_per_hr"/>
+<parameter id="UPPER_BOUND" value="1000" name="mmol_per_gDW_per_hr"/>
+<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+<parameter id="FLUX_VALUE" value="0.0" name="mmol_per_gDW_per_hr"/>
+</listOfParameters>
+</kineticLaw>
+</reaction>
 <reaction id="rxn05343_c0" name="Octanoyl_acyl_carrier_protein_malonyl_acyl_carrier_protein_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_123 and Unknown)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_123 and Unknown)</html:p>
+<html:p>GENE_ASSOCIATION:(AAA028C09_CDS_505 and Unknown)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(AAA028C09_CDS_505 and Unknown)</html:p>
 <html:p>KEGG_RID:R04960</html:p>
 <html:p>PROTEIN_CLASS:2.3.1.86</html:p>
 </notes>
@@ -1945,7 +2573,7 @@
 <speciesReference species="cpd00001_c0" stoichiometry="35.5403092430435"/>
 <speciesReference species="cpd00060_c0" stoichiometry="0.127801422590767"/>
 <speciesReference species="cpd00066_c0" stoichiometry="0.154519490031345"/>
-<speciesReference species="cpd00241_c0" stoichiometry="0.0103167470280341"/>
+<speciesReference species="cpd00241_c0" stoichiometry="0.0160206718346253"/>
 <speciesReference species="cpd15665_c0" stoichiometry="0.0250105977108944"/>
 <speciesReference species="cpd00069_c0" stoichiometry="0.120676604606612"/>
 <speciesReference species="cpd00010_c0" stoichiometry="0.00309646685192537"/>
@@ -1983,7 +2611,7 @@
 <speciesReference species="cpd17042_c0" stoichiometry="1"/>
 <speciesReference species="cpd00220_c0" stoichiometry="0.00309646685192537"/>
 <speciesReference species="cpd00063_c0" stoichiometry="0.00309646685192537"/>
-<speciesReference species="cpd00356_c0" stoichiometry="0.0103167470280341"/>
+<speciesReference species="cpd00356_c0" stoichiometry="0.0160206718346253"/>
 <speciesReference species="cpd10515_c0" stoichiometry="0.00309646685192537"/>
 <speciesReference species="cpd15795_c0" stoichiometry="0.0106480421341882"/>
 <speciesReference species="cpd00042_c0" stoichiometry="0.00309646685192537"/>
@@ -1991,10 +2619,10 @@
 <speciesReference species="cpd00003_c0" stoichiometry="0.00309646685192537"/>
 <speciesReference species="cpd00166_c0" stoichiometry="0.00309646685192537"/>
 <speciesReference species="cpd15500_c0" stoichiometry="0.00309646685192537"/>
-<speciesReference species="cpd00357_c0" stoichiometry="0.0217304952190931"/>
+<speciesReference species="cpd00357_c0" stoichiometry="0.0160206718346253"/>
 <speciesReference species="cpd00149_c0" stoichiometry="0.00309646685192537"/>
 <speciesReference species="cpd00205_c0" stoichiometry="0.00309646685192537"/>
-<speciesReference species="cpd00115_c0" stoichiometry="0.0217304952190931"/>
+<speciesReference species="cpd00115_c0" stoichiometry="0.0160206718346253"/>
 <speciesReference species="cpd15560_c0" stoichiometry="0.00309646685192537"/>
 <speciesReference species="cpd00002_c0" stoichiometry="40.1101757365074"/>
 <speciesReference species="cpd10516_c0" stoichiometry="0.00309646685192537"/>
@@ -2014,7 +2642,7 @@
 <speciesReference species="cpd03422_c0" stoichiometry="0.00309646685192537"/>
 <speciesReference species="cpd12370_c0" stoichiometry="0.00309646685192537"/>
 <speciesReference species="cpd11416_c0" stoichiometry="1"/>
-<speciesReference species="cpd00012_c0" stoichiometry="0.484612562766686"/>
+<speciesReference species="cpd00012_c0" stoichiometry="0.484600765610933"/>
 <speciesReference species="cpd00009_c0" stoichiometry="39.9969035331481"/>
 </listOfProducts>
 <kineticLaw>
@@ -2029,6 +2657,30 @@
 </listOfParameters>
 </kineticLaw>
 </reaction>
+<reaction id="EX_cpd11576_e0" name="EX_L_methionine_R_oxide_e0" reversible="true">
+<notes>
+<html:p>GENE_ASSOCIATION: </html:p>
+<html:p>PROTEIN_ASSOCIATION: </html:p>
+<html:p>PROTEIN_CLASS: </html:p>
+</notes>
+<listOfReactants>
+<speciesReference species="cpd11576_e0" stoichiometry="1.000000"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference species="cpd11576_b" stoichiometry="1.000000"/>
+</listOfProducts>
+<kineticLaw>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<ci> FLUX_VALUE </ci>
+</math>
+<listOfParameters>
+<parameter id="LOWER_BOUND" value="-1000" units="mmol_per_gDW_per_hr"/>
+<parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+<parameter id="FLUX_VALUE" value="0.000000" units="mmol_per_gDW_per_hr"/>
+</listOfParameters>
+</kineticLaw>
+</reaction>
 <reaction id="EX_cpd00009_e0" name="EX_Phosphate_e0" reversible="true">
 <notes>
 <html:p>GENE_ASSOCIATION: </html:p>
@@ -2040,6 +2692,30 @@
 </listOfReactants>
 <listOfProducts>
 <speciesReference species="cpd00009_b" stoichiometry="1.000000"/>
+</listOfProducts>
+<kineticLaw>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<ci> FLUX_VALUE </ci>
+</math>
+<listOfParameters>
+<parameter id="LOWER_BOUND" value="-1000" units="mmol_per_gDW_per_hr"/>
+<parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+<parameter id="FLUX_VALUE" value="0.000000" units="mmol_per_gDW_per_hr"/>
+</listOfParameters>
+</kineticLaw>
+</reaction>
+<reaction id="EX_cpd00060_e0" name="EX_L_Methionine_e0" reversible="true">
+<notes>
+<html:p>GENE_ASSOCIATION: </html:p>
+<html:p>PROTEIN_ASSOCIATION: </html:p>
+<html:p>PROTEIN_CLASS: </html:p>
+</notes>
+<listOfReactants>
+<speciesReference species="cpd00060_e0" stoichiometry="1.000000"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference species="cpd00060_b" stoichiometry="1.000000"/>
 </listOfProducts>
 <kineticLaw>
 <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -2112,6 +2788,30 @@
 </listOfReactants>
 <listOfProducts>
 <speciesReference species="cpd01012_b" stoichiometry="1.000000"/>
+</listOfProducts>
+<kineticLaw>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<ci> FLUX_VALUE </ci>
+</math>
+<listOfParameters>
+<parameter id="LOWER_BOUND" value="-1000" units="mmol_per_gDW_per_hr"/>
+<parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+<parameter id="FLUX_VALUE" value="0.000000" units="mmol_per_gDW_per_hr"/>
+</listOfParameters>
+</kineticLaw>
+</reaction>
+<reaction id="EX_cpd01914_e0" name="EX_L_Methionine_S_oxide_e0" reversible="true">
+<notes>
+<html:p>GENE_ASSOCIATION: </html:p>
+<html:p>PROTEIN_ASSOCIATION: </html:p>
+<html:p>PROTEIN_CLASS: </html:p>
+</notes>
+<listOfReactants>
+<speciesReference species="cpd01914_e0" stoichiometry="1.000000"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference species="cpd01914_b" stoichiometry="1.000000"/>
 </listOfProducts>
 <kineticLaw>
 <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -2256,6 +2956,30 @@
 </listOfReactants>
 <listOfProducts>
 <speciesReference species="cpd00073_b" stoichiometry="1.000000"/>
+</listOfProducts>
+<kineticLaw>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<ci> FLUX_VALUE </ci>
+</math>
+<listOfParameters>
+<parameter id="LOWER_BOUND" value="-1000" units="mmol_per_gDW_per_hr"/>
+<parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+<parameter id="FLUX_VALUE" value="0.000000" units="mmol_per_gDW_per_hr"/>
+</listOfParameters>
+</kineticLaw>
+</reaction>
+<reaction id="EX_cpd00637_e0" name="EX_D_Methionine_e0" reversible="true">
+<notes>
+<html:p>GENE_ASSOCIATION: </html:p>
+<html:p>PROTEIN_ASSOCIATION: </html:p>
+<html:p>PROTEIN_CLASS: </html:p>
+</notes>
+<listOfReactants>
+<speciesReference species="cpd00637_e0" stoichiometry="1.000000"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference species="cpd00637_b" stoichiometry="1.000000"/>
 </listOfProducts>
 <kineticLaw>
 <math xmlns="http://www.w3.org/1998/Math/MathML">
