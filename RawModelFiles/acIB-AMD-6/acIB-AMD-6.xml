@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sbml xmlns="http://www.sbml.org/sbml/level2" level="2" version="1" xmlns:html="http://www.w3.org/1999/xhtml">
-<model id="kb_g_261712_fbamdl0" name="acIB-AMD-6_SEED_model">
+<model id="acIB_AMD_6_genome_fbamdl0" name="acIB-AMD-6_SEED_model">
 <listOfUnitDefinitions>
 <unitDefinition id="mmol_per_gDW_per_hr">
 <listOfUnits>
@@ -15,6 +15,10 @@
 <compartment id="e0" name="Extracellular_0" />
 </listOfCompartments>
 <listOfSpecies>
+<species id="cpd00113_c0" name="Isopentenyldiphosphate_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
+<species id="cpd02590_c0" name="all_trans_Heptaprenyl_diphosphate_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
+<species id="cpd02557_c0" name="Farnesylfarnesylgeraniol_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
+<species id="cpd00012_c0" name="PPi_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
 <species id="cpd00161_c0" name="L_Threonine_c0" compartment="c0" charge="0" boundaryCondition="false"/>
 <species id="cpd00071_c0" name="Acetaldehyde_c0" compartment="c0" charge="0" boundaryCondition="false"/>
 <species id="cpd00033_c0" name="Glycine_c0" compartment="c0" charge="0" boundaryCondition="false"/>
@@ -56,9 +60,6 @@
 <species id="cpd00040_c0" name="Glyoxalate_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
 <species id="cpd00346_c0" name="L_Aspartate4_semialdehyde_c0" compartment="c0" charge="0" boundaryCondition="false"/>
 <species id="cpd00227_c0" name="L_Homoserine_c0" compartment="c0" charge="0" boundaryCondition="false"/>
-<species id="cpd02964_c0" name="UDP_N_acetylmuramoyl_L_alanyl_D_gamma_glutamyl_meso_2_6_diaminopimelate_c0" compartment="c0" charge="-4" boundaryCondition="false"/>
-<species id="cpd00731_c0" name="Ala_Ala_c0" compartment="c0" charge="0" boundaryCondition="false"/>
-<species id="cpd02968_c0" name="UDP_N_acetylmuramoyl_L_alanyl_D_glutamyl_6_carboxy_L_lysyl_D_alanyl__D_alanine_c0" compartment="c0" charge="-4" boundaryCondition="false"/>
 <species id="cpd11589_c0" name="gly_asp_L_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
 <species id="cpd00041_c0" name="L_Aspartate_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
 <species id="cpd00102_c0" name="Glyceraldehyde3_phosphate_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
@@ -67,7 +68,6 @@
 <species id="cpd03052_c0" name="Imidazole_acetaldehyde_c0" compartment="c0" charge="0" boundaryCondition="false"/>
 <species id="cpd01831_c0" name="4_Imidazoleacetate_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
 <species id="cpd03205_c0" name="Phytoene_c0" compartment="c0" charge="0" boundaryCondition="false"/>
-<species id="cpd00012_c0" name="PPi_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
 <species id="cpd02168_c0" name="Prephytoene_diphosphate_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
 <species id="cpd15683_c0" name="CDP_1_2_diisoheptadecanoylglycerol_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
 <species id="cpd00080_c0" name="Glycerol_3_phosphate_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
@@ -102,6 +102,8 @@
 <species id="cpd00023_c0" name="L_Glutamate_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
 <species id="cpd00024_c0" name="2_Oxoglutarate_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
 <species id="cpd00107_c0" name="L_Leucine_c0" compartment="c0" charge="0" boundaryCondition="false"/>
+<species id="cpd02979_c0" name="phosphoribosylformiminoaicar_phosphate_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
+<species id="cpd02991_c0" name="phosphoribulosylformimino_AICAR_phosphate_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
 <species id="cpd00412_c0" name="Deoxyuridine_c0" compartment="c0" charge="0" boundaryCondition="false"/>
 <species id="cpd00299_c0" name="dUMP_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
 <species id="cpd15682_c0" name="1_2_diisohexadecanoyl_sn_glycerol_3_phosphate_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
@@ -131,6 +133,7 @@
 <species id="cpd00359_c0" name="indol_c0" compartment="c0" charge="0" boundaryCondition="false"/>
 <species id="cpd15768_c0" name="Anteisoheptadecanoyllipoteichoic_acid_n24__linked__N_acetyl_D_glucosamine_c0" compartment="c0" charge="-24" boundaryCondition="false"/>
 <species id="cpd15750_c0" name="Anteisoheptadecanoyllipoteichoic_acid_n24__linked__unsubstituted_c0" compartment="c0" charge="-24" boundaryCondition="false"/>
+<species id="cpd00350_c0" name="Farnesyldiphosphate_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
 <species id="cpd00123_c0" name="3_Methyl_2_oxobutanoate_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
 <species id="cpd02498_c0" name="2_3_Dihydroxy_isovalerate_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
 <species id="cpd00809_c0" name="O_Phospho_L_homoserine_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
@@ -208,6 +211,8 @@
 <species id="cpd00367_c0" name="Cytidine_c0" compartment="c0" charge="0" boundaryCondition="false"/>
 <species id="cpd02569_c0" name="2_Oxo_3_hydroxyisovalerate_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
 <species id="cpd00668_c0" name="ALCTT_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
+<species id="cpd00906_c0" name="all_trans_Hexaprenyl_diphosphate_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
+<species id="cpd02591_c0" name="pendp_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
 <species id="cpd00105_c0" name="D_Ribose_c0" compartment="c0" charge="0" boundaryCondition="false"/>
 <species id="cpd00105_e0" name="D_Ribose_e0" compartment="e0" charge="0" boundaryCondition="false"/>
 <species id="cpd00128_c0" name="Adenine_c0" compartment="c0" charge="0" boundaryCondition="false"/>
@@ -225,7 +230,6 @@
 <species id="cpd15748_c0" name="Stearoyllipoteichoic_acid_n24__linked__unsubstituted_c0" compartment="c0" charge="-24" boundaryCondition="false"/>
 <species id="cpd15766_c0" name="Stearoyllipoteichoic_acid_n24__linked__N_acetyl_D_glucosamine_c0" compartment="c0" charge="-24" boundaryCondition="false"/>
 <species id="cpd11593_c0" name="ala_L_asp_L_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
-<species id="cpd00113_c0" name="Isopentenyldiphosphate_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
 <species id="cpd08615_c0" name="1_Hydroxy_2_methyl_2_butenyl_4_diphosphate_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
 <species id="cpd00159_c0" name="L_Lactate_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
 <species id="cpd00448_c0" name="D_Glyceraldehyde_c0" compartment="c0" charge="0" boundaryCondition="false"/>
@@ -266,8 +270,11 @@
 <species id="cpd00226_c0" name="HYXN_c0" compartment="c0" charge="0" boundaryCondition="false"/>
 <species id="cpd00068_c0" name="ITP_c0" compartment="c0" charge="-3" boundaryCondition="false"/>
 <species id="cpd00090_c0" name="IDP_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
+<species id="cpd02964_c0" name="UDP_N_acetylmuramoyl_L_alanyl_D_gamma_glutamyl_meso_2_6_diaminopimelate_c0" compartment="c0" charge="-4" boundaryCondition="false"/>
 <species id="cpd15421_c0" name="CDP_1_2_dioctadecanoylglycerol_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
 <species id="cpd15547_c0" name="Phosphatidylglycerophosphate_dioctadecanoyl_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
+<species id="cpd00427_c0" name="L_Arabinonate_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
+<species id="cpd00520_c0" name="2_Dehydro_3_deoxy_L_pentonate_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
 <species id="cpd15605_c0" name="Gly_Phe_c0" compartment="c0" charge="0" boundaryCondition="false"/>
 <species id="cpd00226_e0" name="HYXN_e0" compartment="e0" charge="0" boundaryCondition="false"/>
 <species id="cpd01710_c0" name="2_Isopropylmaleate_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
@@ -318,10 +325,9 @@
 <species id="cpd15239_c0" name="Hexadecenoyl_ACP_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
 <species id="cpd15326_c0" name="1_hexadec_9_enoyl_sn_glycerol_3_phosphate_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
 <species id="cpd15525_c0" name="1_2_dihexadec_9_enoyl_sn_glycerol_3_phosphate_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
-<species id="cpd00026_c0" name="UDP_glucose_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
-<species id="cpd00144_c0" name="UDPglucuronate_c0" compartment="c0" charge="-3" boundaryCondition="false"/>
 <species id="cpd00110_c0" name="Cytochrome_c2_c0" compartment="c0" charge="4" boundaryCondition="false"/>
 <species id="cpd00109_c0" name="Cytochrome_c3_c0" compartment="c0" charge="5" boundaryCondition="false"/>
+<species id="cpd02172_c0" name="Solanesyl_diphosphate_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
 <species id="cpd00363_c0" name="Ethanol_c0" compartment="c0" charge="0" boundaryCondition="false"/>
 <species id="cpd00242_c0" name="H2CO3_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
 <species id="cpd12227_c0" name="L_Glutamyl_tRNA_Glu_c0" compartment="c0" charge="0" boundaryCondition="false"/>
@@ -333,8 +339,10 @@
 <species id="cpd01012_c0" name="Cd2_c0" compartment="c0" charge="2" boundaryCondition="false"/>
 <species id="cpd01262_c0" name="Amylotriose_c0" compartment="c0" charge="0" boundaryCondition="false"/>
 <species id="cpd01262_e0" name="Amylotriose_e0" compartment="e0" charge="0" boundaryCondition="false"/>
+<species id="cpd02968_c0" name="UDP_N_acetylmuramoyl_L_alanyl_D_glutamyl_6_carboxy_L_lysyl_D_alanyl__D_alanine_c0" compartment="c0" charge="-4" boundaryCondition="false"/>
 <species id="cpd00918_c0" name="2_Acetamido_5_oxopentanoate_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
 <species id="cpd02552_c0" name="n_acetylglutamyl_phosphate_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
+<species id="cpd00383_c0" name="Shikimate_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
 <species id="cpd15606_c0" name="Gly_Tyr_c0" compartment="c0" charge="0" boundaryCondition="false"/>
 <species id="cpd15546_c0" name="Phosphatidylglycerophosphate_dihexadec_9_enoyl_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
 <species id="cpd15418_c0" name="CDP_1_2_dihexadec_9_enoylglycerol_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
@@ -349,11 +357,14 @@
 <species id="cpd15767_c0" name="Isoheptadecanoyllipoteichoic_acid_n24__linked__N_acetyl_D_glucosamine_c0" compartment="c0" charge="-24" boundaryCondition="false"/>
 <species id="cpd15749_c0" name="Isoheptadecanoyllipoteichoic_acid_n24__linked__unsubstituted_c0" compartment="c0" charge="-24" boundaryCondition="false"/>
 <species id="cpd00851_c0" name="trans_4_Hydroxy_L_proline_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
+<species id="cpd00135_c0" name="Homocysteine_c0" compartment="c0" charge="0" boundaryCondition="false"/>
+<species id="cpd00019_c0" name="S_Adenosyl_homocysteine_c0" compartment="c0" charge="0" boundaryCondition="false"/>
 <species id="cpd00048_c0" name="Sulfate_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
 <species id="cpd00048_e0" name="Sulfate_e0" compartment="e0" charge="-2" boundaryCondition="false"/>
 <species id="cpd03211_c0" name="15_cis_Phytoene_c0" compartment="c0" charge="0" boundaryCondition="false"/>
 <species id="cpd00357_c0" name="TTP_c0" compartment="c0" charge="-3" boundaryCondition="false"/>
 <species id="cpd00297_c0" name="dTDP_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
+<species id="cpd00283_c0" name="Geranyldiphosphate_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
 <species id="cpd00510_c0" name="deoxyribose_5_phosphate_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
 <species id="cpd00133_c0" name="Nicotinamide_c0" compartment="c0" charge="0" boundaryCondition="false"/>
 <species id="cpd02016_c0" name="N_Ribosylnicotinamide_c0" compartment="c0" charge="1" boundaryCondition="false"/>
@@ -393,7 +404,6 @@
 <species id="cpd00791_c0" name="ProtoporphyrinogenIX_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
 <species id="cpd15684_c0" name="CDP_1_2_dianteisoheptadecanoylglycerol_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
 <species id="cpd15717_c0" name="Dianteisoheptadecanoylphosphatidylglycerophosphate_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
-<species id="cpd02698_c0" name="N_Succinyl_L_2_6_diaminopimelate_c0" compartment="c0" charge="-2" boundaryCondition="false"/>
 <species id="cpd00485_c0" name="D_Mannose1_phosphate_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
 <species id="cpd00235_c0" name="D_mannose_6_phosphate_c0" compartment="c0" charge="-1" boundaryCondition="false"/>
 <species id="cpd00241_c0" name="dGTP_c0" compartment="c0" charge="-3" boundaryCondition="false"/>
@@ -412,6 +422,8 @@
 <species id="cpd15770_c0" name="Isopentadecanoyllipoteichoic_acid_n24__linked__N_acetyl_D_glucosamine_c0" compartment="c0" charge="-24" boundaryCondition="false"/>
 <species id="cpd15752_c0" name="Isopentadecanoyllipoteichoic_acid_n24__linked__unsubstituted_c0" compartment="c0" charge="-24" boundaryCondition="false"/>
 <species id="cpd03524_c0" name="10_Formyl_THF_L_glutamate_c0" compartment="c0" charge="-3" boundaryCondition="false"/>
+<species id="cpd00731_c0" name="Ala_Ala_c0" compartment="c0" charge="0" boundaryCondition="false"/>
+<species id="cpd00117_c0" name="D_Alanine_c0" compartment="c0" charge="0" boundaryCondition="false"/>
 <species id="cpd00254_c0" name="Mg_c0" compartment="c0" charge="2" boundaryCondition="false"/>
 <species id="cpd00254_e0" name="Mg_e0" compartment="e0" charge="2" boundaryCondition="false"/>
 <species id="cpd10516_c0" name="fe3_c0" compartment="c0" charge="3" boundaryCondition="false"/>
@@ -492,10 +504,36 @@
 <species id="cpd00007_b" name="O2_b" compartment="e0" charge="0" boundaryCondition="true"/>
 </listOfSpecies>
 <listOfReactions>
+<reaction id="rxn12008_c0" name="rxn12008_c0" reversible="false">
+<notes>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_896 or acIB-AMD-6_CDS_831)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_896 or acIB-AMD-6_CDS_831)</html:p>
+<html:p>KEGG_RID:R05611</html:p>
+</notes>
+<listOfReactants>
+<speciesReference species="cpd00113_c0" stoichiometry="1"/>
+<speciesReference species="cpd02590_c0" stoichiometry="1"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference species="cpd02557_c0" stoichiometry="1"/>
+<speciesReference species="cpd00012_c0" stoichiometry="1"/>
+</listOfProducts>
+<kineticLaw>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<ci> FLUX_VALUE </ci>
+</math>
+<listOfParameters>
+<parameter id="LOWER_BOUND" value="0" name="mmol_per_gDW_per_hr"/>
+<parameter id="UPPER_BOUND" value="1000" name="mmol_per_gDW_per_hr"/>
+<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+<parameter id="FLUX_VALUE" value="0.0" name="mmol_per_gDW_per_hr"/>
+</listOfParameters>
+</kineticLaw>
+</reaction>
 <reaction id="rxn00541_c0" name="L_Threonine_acetaldehyde_lyase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_100</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_100</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_642</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_642</html:p>
 <html:p>KEGG_RID:R00751</html:p>
 <html:p>PROTEIN_CLASS:4.1.2.5</html:p>
 </notes>
@@ -520,8 +558,8 @@
 </reaction>
 <reaction id="rxn10215_c0" name="anteisoheptadecanoyl_1_acylglycerol_3_phosphate_O_acyltransferase_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_181</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_181</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_725</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_725</html:p>
 <html:p>PROTEIN_CLASS:2.3.1.51</html:p>
 </notes>
 <listOfReactants>
@@ -546,8 +584,8 @@
 </reaction>
 <reaction id="rxn00802_c0" name="N_L_Argininosuccinate_arginie_lyase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_51</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_51</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_593</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_593</html:p>
 <html:p>KEGG_RID:R01086</html:p>
 <html:p>PROTEIN_CLASS:4.3.2.1</html:p>
 </notes>
@@ -572,8 +610,8 @@
 </reaction>
 <reaction id="rxn12636_c0" name="aminopeptidase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_24</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_24</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_566</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_566</html:p>
 </notes>
 <listOfReactants>
 <speciesReference species="cpd00067_c0" stoichiometry="1"/>
@@ -598,8 +636,8 @@
 </reaction>
 <reaction id="rxn12644_c0" name="aminopeptidase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_24</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_24</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_566</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_566</html:p>
 </notes>
 <listOfReactants>
 <speciesReference species="cpd00001_c0" stoichiometry="1"/>
@@ -623,8 +661,8 @@
 </reaction>
 <reaction id="rxn01387_c0" name="Isocitrate_NADP_oxidoreductase_decarboxylating_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_420</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_420</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_975</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_975</html:p>
 <html:p>KEGG_RID:R01899</html:p>
 <html:p>PROTEIN_CLASS:1.1.1.42</html:p>
 </notes>
@@ -651,8 +689,8 @@
 </reaction>
 <reaction id="rxn05549_c0" name="Deoxyribose_transport_via_ABC_system_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(Unknown and acIB-AMD-6_CDS_409 and acIB-AMD-6_CDS_408 and Unknown)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(Unknown and acIB-AMD-6_CDS_409 and acIB-AMD-6_CDS_408 and Unknown)</html:p>
+<html:p>GENE_ASSOCIATION:(Unknown and acIB-AMD-6_CDS_964 and acIB-AMD-6_CDS_963 and Unknown)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(Unknown and acIB-AMD-6_CDS_964 and acIB-AMD-6_CDS_963 and Unknown)</html:p>
 </notes>
 <listOfReactants>
 <speciesReference species="cpd00002_c0" stoichiometry="1"/>
@@ -679,8 +717,8 @@
 </reaction>
 <reaction id="rxn02212_c0" name="2_Dehydro_3_deoxy_D_arabino_heptonate_7_phosphate_phosphate_lyase_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_518 or acIB-AMD-6_CDS_169)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_518 or acIB-AMD-6_CDS_169)</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_1078 or acIB-AMD-6_CDS_711)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_1078 or acIB-AMD-6_CDS_711)</html:p>
 <html:p>KEGG_RID:R03083</html:p>
 <html:p>PROTEIN_CLASS:4.6.1.3</html:p>
 </notes>
@@ -706,8 +744,8 @@
 </reaction>
 <reaction id="rxn10125_c0" name="NADP_transhydrogenase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_476 and (acIB-AMD-6_CDS_478 or acIB-AMD-6_CDS_477))</html:p>
-<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_476 and (acIB-AMD-6_CDS_478 or acIB-AMD-6_CDS_477))</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_1032 and (acIB-AMD-6_CDS_1034 or acIB-AMD-6_CDS_1033))</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_1032 and (acIB-AMD-6_CDS_1034 or acIB-AMD-6_CDS_1033))</html:p>
 <html:p>PROTEIN_CLASS:1.6.1.1</html:p>
 </notes>
 <listOfReactants>
@@ -734,8 +772,8 @@
 </reaction>
 <reaction id="rxn00497_c0" name="L_Phenylalanine_carboxy_lyase_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_360</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_360</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_914</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_914</html:p>
 <html:p>KEGG_RID:R00699</html:p>
 <html:p>PROTEIN_CLASS:4.1.1.53</html:p>
 </notes>
@@ -761,8 +799,8 @@
 </reaction>
 <reaction id="rxn00883_c0" name="1D_myo_Inositol_3_phosphate_phosphahydrolase_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_481</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_481</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_1038</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_1038</html:p>
 <html:p>KEGG_RID:R01187</html:p>
 <html:p>PROTEIN_CLASS:3.1.3.25</html:p>
 </notes>
@@ -789,8 +827,8 @@
 </reaction>
 <reaction id="rxn00248_c0" name="S_malate_NAD_oxidoreductase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_421</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_421</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_976</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_976</html:p>
 <html:p>KEGG_RID:R00342</html:p>
 <html:p>PROTEIN_CLASS:1.1.1.37</html:p>
 </notes>
@@ -817,8 +855,8 @@
 </reaction>
 <reaction id="rxn05734_c0" name="aldehyde_dehydrogenase_glyoxylate__NAD_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_40 or acIB-AMD-6_CDS_41)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_40 or acIB-AMD-6_CDS_41)</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_582 or acIB-AMD-6_CDS_583)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_582 or acIB-AMD-6_CDS_583)</html:p>
 </notes>
 <listOfReactants>
 <speciesReference species="cpd00001_c0" stoichiometry="1"/>
@@ -844,8 +882,8 @@
 </reaction>
 <reaction id="rxn01302_c0" name="L_Homoserine_NADP_oxidoreductase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_233</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_233</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_779</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_779</html:p>
 <html:p>KEGG_RID:R01775</html:p>
 <html:p>PROTEIN_CLASS:1.1.1.3</html:p>
 </notes>
@@ -870,40 +908,10 @@
 </listOfParameters>
 </kineticLaw>
 </reaction>
-<reaction id="rxn03164_c0" name="UDP_N_acetylmuramoyl_L_alanyl_D_glutamyl_meso_2_6__c0" reversible="false">
-<notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_140</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_140</html:p>
-<html:p>KEGG_RID:R04617</html:p>
-<html:p>PROTEIN_CLASS:6.3.2.10</html:p>
-</notes>
-<listOfReactants>
-<speciesReference species="cpd00002_c0" stoichiometry="1"/>
-<speciesReference species="cpd02964_c0" stoichiometry="1"/>
-<speciesReference species="cpd00731_c0" stoichiometry="1"/>
-</listOfReactants>
-<listOfProducts>
-<speciesReference species="cpd00067_c0" stoichiometry="1"/>
-<speciesReference species="cpd00009_c0" stoichiometry="1"/>
-<speciesReference species="cpd00008_c0" stoichiometry="1"/>
-<speciesReference species="cpd02968_c0" stoichiometry="1"/>
-</listOfProducts>
-<kineticLaw>
-<math xmlns="http://www.w3.org/1998/Math/MathML">
-<ci> FLUX_VALUE </ci>
-</math>
-<listOfParameters>
-<parameter id="LOWER_BOUND" value="0" name="mmol_per_gDW_per_hr"/>
-<parameter id="UPPER_BOUND" value="1000" name="mmol_per_gDW_per_hr"/>
-<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
-<parameter id="FLUX_VALUE" value="0.0" name="mmol_per_gDW_per_hr"/>
-</listOfParameters>
-</kineticLaw>
-</reaction>
 <reaction id="rxn12637_c0" name="aminopeptidase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_24</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_24</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_566</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_566</html:p>
 </notes>
 <listOfReactants>
 <speciesReference species="cpd11589_c0" stoichiometry="1"/>
@@ -927,8 +935,8 @@
 </reaction>
 <reaction id="rxn03909_c0" name="1_Deoxy_D_xylulose_5_phosphate_pyruvate_lyase_carboxylating_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_385</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_385</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_940</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_940</html:p>
 <html:p>KEGG_RID:R05636</html:p>
 <html:p>PROTEIN_CLASS:2.2.1.7</html:p>
 </notes>
@@ -955,8 +963,8 @@
 </reaction>
 <reaction id="rxn02853_c0" name="Imidazole_acetaldehyde_NAD_oxidoreductase_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_40 or acIB-AMD-6_CDS_41)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_40 or acIB-AMD-6_CDS_41)</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_582 or acIB-AMD-6_CDS_583)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_582 or acIB-AMD-6_CDS_583)</html:p>
 <html:p>KEGG_RID:R04065</html:p>
 <html:p>PROTEIN_CLASS:1.2.1.3</html:p>
 </notes>
@@ -984,8 +992,8 @@
 </reaction>
 <reaction id="rxn05031_c0" name="prephytoene_diphosphate_geranylgeranyl_diphosphate_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_445 or acIB-AMD-6_CDS_92)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_445 or acIB-AMD-6_CDS_92)</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_634 or acIB-AMD-6_CDS_1001)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_634 or acIB-AMD-6_CDS_1001)</html:p>
 <html:p>KEGG_RID:R07270</html:p>
 <html:p>PROTEIN_CLASS:2.5.1.32</html:p>
 </notes>
@@ -1010,8 +1018,8 @@
 </reaction>
 <reaction id="rxn10259_c0" name="isoheptadecanoyl_CDPdiacylglycerol_sn_glycerol_3_phosphate_3_phosphatidyltransferase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_439</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_439</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_994 or acIB-AMD-6_CDS_630)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_994 or acIB-AMD-6_CDS_630)</html:p>
 <html:p>PROTEIN_CLASS:2.7.8.5</html:p>
 </notes>
 <listOfReactants>
@@ -1036,8 +1044,8 @@
 </reaction>
 <reaction id="rxn01101_c0" name="3_Phospho_D_glycerate_NAD_2_oxidoreductase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_495</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_495</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_1052</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_1052</html:p>
 <html:p>KEGG_RID:R01513</html:p>
 <html:p>PROTEIN_CLASS:1.1.1.95</html:p>
 </notes>
@@ -1064,8 +1072,8 @@
 </reaction>
 <reaction id="rxn05145_c0" name="Orthophosphate_ABC_transport_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_505 and acIB-AMD-6_CDS_507 and acIB-AMD-6_CDS_506 and acIB-AMD-6_CDS_504)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_505 and acIB-AMD-6_CDS_507 and acIB-AMD-6_CDS_506 and acIB-AMD-6_CDS_504)</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_1063 and acIB-AMD-6_CDS_1065 and acIB-AMD-6_CDS_1064 and acIB-AMD-6_CDS_1062)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_1063 and acIB-AMD-6_CDS_1065 and acIB-AMD-6_CDS_1064 and acIB-AMD-6_CDS_1062)</html:p>
 <html:p>PROTEIN_CLASS:TC-3.A.1.7</html:p>
 </notes>
 <listOfReactants>
@@ -1092,8 +1100,8 @@
 </reaction>
 <reaction id="rxn01446_c0" name="Deoxyguanosine_orthophosphate_ribosyltransferase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_36</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_36</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_578</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_578</html:p>
 <html:p>KEGG_RID:R01969</html:p>
 <html:p>PROTEIN_CLASS:2.4.2.4</html:p>
 </notes>
@@ -1120,8 +1128,8 @@
 </reaction>
 <reaction id="rxn00558_c0" name="D_Glucose_6_phosphate_ketol_isomerase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_75</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_75</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_617</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_617</html:p>
 <html:p>KEGG_RID:R02740</html:p>
 <html:p>PROTEIN_CLASS:5.3.1.9</html:p>
 </notes>
@@ -1145,8 +1153,8 @@
 </reaction>
 <reaction id="rxn10122_c0" name="NADH_dehydrogenase_ubiquinone_8__35_protons_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:((acIB-AMD-6_CDS_340 or acIB-AMD-6_CDS_285) and (acIB-AMD-6_CDS_341 or acIB-AMD-6_CDS_284) and (acIB-AMD-6_CDS_339 or acIB-AMD-6_CDS_286) and (acIB-AMD-6_CDS_281 or acIB-AMD-6_CDS_343 or acIB-AMD-6_CDS_282) and acIB-AMD-6_CDS_291 and (acIB-AMD-6_CDS_288 or acIB-AMD-6_CDS_337) and Unknown and (acIB-AMD-6_CDS_338 or acIB-AMD-6_CDS_287) and (acIB-AMD-6_CDS_283 or acIB-AMD-6_CDS_342) and acIB-AMD-6_CDS_290 and (acIB-AMD-6_CDS_336 or acIB-AMD-6_CDS_289) and Unknown and Unknown and Unknown)</html:p>
-<html:p>PROTEIN_ASSOCIATION:((acIB-AMD-6_CDS_340 or acIB-AMD-6_CDS_285) and (acIB-AMD-6_CDS_341 or acIB-AMD-6_CDS_284) and (acIB-AMD-6_CDS_339 or acIB-AMD-6_CDS_286) and (acIB-AMD-6_CDS_281 or acIB-AMD-6_CDS_343 or acIB-AMD-6_CDS_282) and acIB-AMD-6_CDS_291 and (acIB-AMD-6_CDS_288 or acIB-AMD-6_CDS_337) and Unknown and (acIB-AMD-6_CDS_338 or acIB-AMD-6_CDS_287) and (acIB-AMD-6_CDS_283 or acIB-AMD-6_CDS_342) and acIB-AMD-6_CDS_290 and (acIB-AMD-6_CDS_336 or acIB-AMD-6_CDS_289) and Unknown and Unknown and Unknown)</html:p>
+<html:p>GENE_ASSOCIATION:((acIB-AMD-6_CDS_892 or acIB-AMD-6_CDS_835) and (acIB-AMD-6_CDS_893 or acIB-AMD-6_CDS_834) and (acIB-AMD-6_CDS_891 or acIB-AMD-6_CDS_836) and (acIB-AMD-6_CDS_282 or acIB-AMD-6_CDS_895 or acIB-AMD-6_CDS_281) and acIB-AMD-6_CDS_291 and (acIB-AMD-6_CDS_889 or acIB-AMD-6_CDS_838) and Unknown and (acIB-AMD-6_CDS_890 or acIB-AMD-6_CDS_837) and (acIB-AMD-6_CDS_894 or acIB-AMD-6_CDS_833) and acIB-AMD-6_CDS_840 and (acIB-AMD-6_CDS_839 or acIB-AMD-6_CDS_888) and Unknown and Unknown and Unknown)</html:p>
+<html:p>PROTEIN_ASSOCIATION:((acIB-AMD-6_CDS_892 or acIB-AMD-6_CDS_835) and (acIB-AMD-6_CDS_893 or acIB-AMD-6_CDS_834) and (acIB-AMD-6_CDS_891 or acIB-AMD-6_CDS_836) and (acIB-AMD-6_CDS_282 or acIB-AMD-6_CDS_895 or acIB-AMD-6_CDS_281) and acIB-AMD-6_CDS_291 and (acIB-AMD-6_CDS_889 or acIB-AMD-6_CDS_838) and Unknown and (acIB-AMD-6_CDS_890 or acIB-AMD-6_CDS_837) and (acIB-AMD-6_CDS_894 or acIB-AMD-6_CDS_833) and acIB-AMD-6_CDS_840 and (acIB-AMD-6_CDS_839 or acIB-AMD-6_CDS_888) and Unknown and Unknown and Unknown)</html:p>
 <html:p>PROTEIN_CLASS:1.6.5.3</html:p>
 </notes>
 <listOfReactants>
@@ -1173,8 +1181,8 @@
 </reaction>
 <reaction id="rxn01200_c0" name="Sedoheptulose_7_phosphate_D_glyceraldehyde_3_phosphate_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_73</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_73</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_615</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_615</html:p>
 <html:p>KEGG_RID:R01641</html:p>
 <html:p>PROTEIN_CLASS:2.2.1.1</html:p>
 </notes>
@@ -1200,8 +1208,8 @@
 </reaction>
 <reaction id="rxn12844_c0" name="Gly_Cys_aminopeptidase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_24</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_24</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_566</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_566</html:p>
 <html:p>PROTEIN_CLASS:3.4.11.2</html:p>
 </notes>
 <listOfReactants>
@@ -1226,8 +1234,8 @@
 </reaction>
 <reaction id="rxn01678_c0" name="ATP_nucleoside_diphosphate_phosphatransferase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_524</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_524</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_1085</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_1085</html:p>
 <html:p>KEGG_RID:R02331</html:p>
 <html:p>PROTEIN_CLASS:2.7.4.6</html:p>
 </notes>
@@ -1253,8 +1261,8 @@
 </reaction>
 <reaction id="rxn01332_c0" name="Phosphoenolpyruvate_D_erythrose_4_phosphate_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(Unknown and Unknown and acIB-AMD-6_CDS_102)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(Unknown and Unknown and acIB-AMD-6_CDS_102)</html:p>
+<html:p>GENE_ASSOCIATION:(Unknown and Unknown and acIB-AMD-6_CDS_644)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(Unknown and Unknown and acIB-AMD-6_CDS_644)</html:p>
 <html:p>KEGG_RID:R01826</html:p>
 <html:p>PROTEIN_CLASS:2.5.1.54</html:p>
 </notes>
@@ -1282,8 +1290,8 @@
 </reaction>
 <reaction id="rxn01858_c0" name="Deoxyadenosine_aminohydrolase_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_42</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_42</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_584</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_584</html:p>
 <html:p>KEGG_RID:R02556</html:p>
 <html:p>PROTEIN_CLASS:3.5.4.4</html:p>
 </notes>
@@ -1310,8 +1318,8 @@
 </reaction>
 <reaction id="rxn00100_c0" name="ATP_dephospho_CoA_3_phosphotransferase_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_201</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_201</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_746</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_746</html:p>
 <html:p>KEGG_RID:R00130</html:p>
 <html:p>PROTEIN_CLASS:2.7.1.24</html:p>
 </notes>
@@ -1337,8 +1345,8 @@
 </reaction>
 <reaction id="rxn01018_c0" name="Carbamoyl_phosphate_L_aspartate_carbamoyltransferase_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_175 or acIB-AMD-6_CDS_512)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_175 or acIB-AMD-6_CDS_512)</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_717 or acIB-AMD-6_CDS_1072)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_717 or acIB-AMD-6_CDS_1072)</html:p>
 <html:p>KEGG_RID:R01397</html:p>
 <html:p>PROTEIN_CLASS:2.1.3.2</html:p>
 </notes>
@@ -1365,8 +1373,8 @@
 </reaction>
 <reaction id="rxn00806_c0" name="L_Leucine_2_oxoglutarate_aminotransferase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_497</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_497</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_1054</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_1054</html:p>
 <html:p>KEGG_RID:R01090</html:p>
 <html:p>PROTEIN_CLASS:2.6.1.6</html:p>
 </notes>
@@ -1390,10 +1398,35 @@
 </listOfParameters>
 </kineticLaw>
 </reaction>
+<reaction id="rxn03175_c0" name="N_5_Phospho_D_ribosylformimino_5_amino_1__c0" reversible="true">
+<notes>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_698</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_698</html:p>
+<html:p>KEGG_RID:R04640</html:p>
+<html:p>PROTEIN_CLASS:5.3.1.16</html:p>
+</notes>
+<listOfReactants>
+<speciesReference species="cpd02979_c0" stoichiometry="1"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference species="cpd02991_c0" stoichiometry="1"/>
+</listOfProducts>
+<kineticLaw>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<ci> FLUX_VALUE </ci>
+</math>
+<listOfParameters>
+<parameter id="LOWER_BOUND" value="-1000" name="mmol_per_gDW_per_hr"/>
+<parameter id="UPPER_BOUND" value="1000" name="mmol_per_gDW_per_hr"/>
+<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+<parameter id="FLUX_VALUE" value="0.0" name="mmol_per_gDW_per_hr"/>
+</listOfParameters>
+</kineticLaw>
+</reaction>
 <reaction id="rxn01518_c0" name="ATP_deoxyuridine_5_phosphotransferase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_458</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_458</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_1014 or acIB-AMD-6_CDS_827)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_1014 or acIB-AMD-6_CDS_827)</html:p>
 <html:p>KEGG_RID:R02099</html:p>
 <html:p>PROTEIN_CLASS:2.7.1.21</html:p>
 </notes>
@@ -1419,8 +1452,8 @@
 </reaction>
 <reaction id="rxn10219_c0" name="isohexadecanoyl_1_acylglycerol_3_phosphate_O_acyltransferase_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_181</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_181</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_725</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_725</html:p>
 <html:p>PROTEIN_CLASS:2.3.1.51</html:p>
 </notes>
 <listOfReactants>
@@ -1445,8 +1478,8 @@
 </reaction>
 <reaction id="rxn05158_c0" name="sn_Glycerol_ABC_transport_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_419</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_419</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_974</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_974</html:p>
 </notes>
 <listOfReactants>
 <speciesReference species="cpd00002_c0" stoichiometry="1"/>
@@ -1473,8 +1506,8 @@
 </reaction>
 <reaction id="rxn00689_c0" name="Tetrahydrofolate_L_glutamate_gamma_ligase_ADP_forming_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_526 and acIB-AMD-6_CDS_526)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_526 and acIB-AMD-6_CDS_526)</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_1087 and acIB-AMD-6_CDS_1087)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_1087 and acIB-AMD-6_CDS_1087)</html:p>
 <html:p>KEGG_RID:R00942</html:p>
 <html:p>PROTEIN_CLASS:6.3.2.17</html:p>
 </notes>
@@ -1503,8 +1536,8 @@
 </reaction>
 <reaction id="rxn12640_c0" name="aminopeptidase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_24</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_24</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_566</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_566</html:p>
 </notes>
 <listOfReactants>
 <speciesReference species="cpd00001_c0" stoichiometry="1"/>
@@ -1528,8 +1561,8 @@
 </reaction>
 <reaction id="rxn05596_c0" name="potassium_transport_out_via_proton_antiport_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_382 or acIB-AMD-6_CDS_381)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_382 or acIB-AMD-6_CDS_381)</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_382 or acIB-AMD-6_CDS_936)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_382 or acIB-AMD-6_CDS_936)</html:p>
 <html:p>PROTEIN_CLASS:2.A.37</html:p>
 </notes>
 <listOfReactants>
@@ -1554,8 +1587,8 @@
 </reaction>
 <reaction id="rxn01489_c0" name="Geranylgeranyl_diphosphate_geranylgeranyl_diphosphate_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_445 or acIB-AMD-6_CDS_92)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_445 or acIB-AMD-6_CDS_92)</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_634 or acIB-AMD-6_CDS_1001)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_634 or acIB-AMD-6_CDS_1001)</html:p>
 <html:p>KEGG_RID:R02065</html:p>
 <html:p>PROTEIN_CLASS:2.5.1.32</html:p>
 </notes>
@@ -1580,8 +1613,8 @@
 </reaction>
 <reaction id="rxn00545_c0" name="ATP_D_fructose_6_phosphate_1_phosphotransferase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_103</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_103</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_645</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_645</html:p>
 <html:p>KEGG_RID:R00756</html:p>
 <html:p>PROTEIN_CLASS:2.7.1.11</html:p>
 </notes>
@@ -1607,8 +1640,8 @@
 </reaction>
 <reaction id="rxn10308_c0" name="myristoyl_lipoteichoic_acid_synthesis_n24__linked__N_acetylglucosamine_substituted_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_224</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_224</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_770</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_770</html:p>
 <html:p>PROTEIN_CLASS:2.7.8.-</html:p>
 </notes>
 <listOfReactants>
@@ -1633,8 +1666,8 @@
 </reaction>
 <reaction id="rxn01649_c0" name="Xanthosine_orthophosphate_ribosyltransferase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_36</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_36</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_578</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_578</html:p>
 <html:p>KEGG_RID:R02297</html:p>
 <html:p>PROTEIN_CLASS:2.4.2.1</html:p>
 </notes>
@@ -1661,8 +1694,8 @@
 </reaction>
 <reaction id="rxn01301_c0" name="L_Homoserine_NAD_oxidoreductase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_233</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_233</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_779</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_779</html:p>
 <html:p>KEGG_RID:R01773</html:p>
 <html:p>PROTEIN_CLASS:1.1.1.3</html:p>
 </notes>
@@ -1689,8 +1722,8 @@
 </reaction>
 <reaction id="rxn13782_c0" name="Protein_biosynthesis_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and acIB-AMD-6_CDS_11 and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and acIB-AMD-6_CDS_417 and acIB-AMD-6_CDS_55 and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and acIB-AMD-6_CDS_56 and Unknown and acIB-AMD-6_CDS_50 and Unknown and Unknown and Unknown and Unknown and acIB-AMD-6_CDS_160 and Unknown and Unknown and Unknown and Unknown and acIB-AMD-6_CDS_238 and acIB-AMD-6_CDS_59 and Unknown and acIB-AMD-6_CDS_58 and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and acIB-AMD-6_CDS_152 and Unknown and Unknown and Unknown and Unknown and Unknown and acIB-AMD-6_CDS_490 and Unknown and acIB-AMD-6_CDS_162 and acIB-AMD-6_CDS_159 and (acIB-AMD-6_CDS_186 or acIB-AMD-6_CDS_316) and acIB-AMD-6_CDS_527 and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and (acIB-AMD-6_CDS_197 or acIB-AMD-6_CDS_305) and Unknown and Unknown and Unknown and Unknown and acIB-AMD-6_CDS_235 and acIB-AMD-6_CDS_480 and Unknown and Unknown and (acIB-AMD-6_CDS_252 or acIB-AMD-6_CDS_110) and Unknown and Unknown and Unknown)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and acIB-AMD-6_CDS_11 and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and acIB-AMD-6_CDS_417 and acIB-AMD-6_CDS_55 and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and acIB-AMD-6_CDS_56 and Unknown and acIB-AMD-6_CDS_50 and Unknown and Unknown and Unknown and Unknown and acIB-AMD-6_CDS_160 and Unknown and Unknown and Unknown and Unknown and acIB-AMD-6_CDS_238 and acIB-AMD-6_CDS_59 and Unknown and acIB-AMD-6_CDS_58 and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and acIB-AMD-6_CDS_152 and Unknown and Unknown and Unknown and Unknown and Unknown and acIB-AMD-6_CDS_490 and Unknown and acIB-AMD-6_CDS_162 and acIB-AMD-6_CDS_159 and (acIB-AMD-6_CDS_186 or acIB-AMD-6_CDS_316) and acIB-AMD-6_CDS_527 and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and (acIB-AMD-6_CDS_197 or acIB-AMD-6_CDS_305) and Unknown and Unknown and Unknown and Unknown and acIB-AMD-6_CDS_235 and acIB-AMD-6_CDS_480 and Unknown and Unknown and (acIB-AMD-6_CDS_252 or acIB-AMD-6_CDS_110) and Unknown and Unknown and Unknown)</html:p>
+<html:p>GENE_ASSOCIATION:(Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and acIB-AMD-6_CDS_553 and Unknown and Unknown and Unknown and Unknown and acIB-AMD-6_CDS_775 and Unknown and acIB-AMD-6_CDS_972 and acIB-AMD-6_CDS_597 and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and acIB-AMD-6_CDS_598 and Unknown and acIB-AMD-6_CDS_592 and Unknown and Unknown and Unknown and Unknown and acIB-AMD-6_CDS_702 and Unknown and Unknown and Unknown and Unknown and acIB-AMD-6_CDS_785 and acIB-AMD-6_CDS_601 and acIB-AMD-6_CDS_660 and acIB-AMD-6_CDS_600 and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and acIB-AMD-6_CDS_693 and Unknown and Unknown and Unknown and Unknown and Unknown and acIB-AMD-6_CDS_1047 and Unknown and acIB-AMD-6_CDS_704 and acIB-AMD-6_CDS_701 and (acIB-AMD-6_CDS_866 or acIB-AMD-6_CDS_730) and acIB-AMD-6_CDS_1088 and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and (acIB-AMD-6_CDS_855 or acIB-AMD-6_CDS_741) and Unknown and Unknown and Unknown and Unknown and acIB-AMD-6_CDS_781 and acIB-AMD-6_CDS_1037 and Unknown and Unknown and (acIB-AMD-6_CDS_652 or acIB-AMD-6_CDS_799) and Unknown and Unknown and Unknown)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and acIB-AMD-6_CDS_553 and Unknown and Unknown and Unknown and Unknown and acIB-AMD-6_CDS_775 and Unknown and acIB-AMD-6_CDS_972 and acIB-AMD-6_CDS_597 and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and acIB-AMD-6_CDS_598 and Unknown and acIB-AMD-6_CDS_592 and Unknown and Unknown and Unknown and Unknown and acIB-AMD-6_CDS_702 and Unknown and Unknown and Unknown and Unknown and acIB-AMD-6_CDS_785 and acIB-AMD-6_CDS_601 and acIB-AMD-6_CDS_660 and acIB-AMD-6_CDS_600 and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and acIB-AMD-6_CDS_693 and Unknown and Unknown and Unknown and Unknown and Unknown and acIB-AMD-6_CDS_1047 and Unknown and acIB-AMD-6_CDS_704 and acIB-AMD-6_CDS_701 and (acIB-AMD-6_CDS_866 or acIB-AMD-6_CDS_730) and acIB-AMD-6_CDS_1088 and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and (acIB-AMD-6_CDS_855 or acIB-AMD-6_CDS_741) and Unknown and Unknown and Unknown and Unknown and acIB-AMD-6_CDS_781 and acIB-AMD-6_CDS_1037 and Unknown and Unknown and (acIB-AMD-6_CDS_652 or acIB-AMD-6_CDS_799) and Unknown and Unknown and Unknown)</html:p>
 </notes>
 <listOfProducts>
 <speciesReference species="cpd17041_c0" stoichiometry="1"/>
@@ -1709,8 +1742,8 @@
 </reaction>
 <reaction id="rxn00910_c0" name="5_methyltetrahydrofolate_NADP_oxidoreductase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_89</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_89</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_631</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_631</html:p>
 <html:p>KEGG_RID:R01224</html:p>
 <html:p>PROTEIN_CLASS:1.7.99.5</html:p>
 </notes>
@@ -1737,8 +1770,8 @@
 </reaction>
 <reaction id="rxn02286_c0" name="UDP_N_acetylmuramate_L_alanine_ligase_ADP_forming_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_145</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_145</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_686</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_686</html:p>
 <html:p>KEGG_RID:R03193</html:p>
 <html:p>PROTEIN_CLASS:6.3.2.8</html:p>
 </notes>
@@ -1767,8 +1800,8 @@
 </reaction>
 <reaction id="rxn01682_c0" name="1S_2R_1_C_indol_3_ylglycerol_3_phosphate_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:((acIB-AMD-6_CDS_353 or acIB-AMD-6_CDS_214) and (acIB-AMD-6_CDS_354 or acIB-AMD-6_CDS_215))</html:p>
-<html:p>PROTEIN_ASSOCIATION:((acIB-AMD-6_CDS_353 or acIB-AMD-6_CDS_214) and (acIB-AMD-6_CDS_354 or acIB-AMD-6_CDS_215))</html:p>
+<html:p>GENE_ASSOCIATION:((acIB-AMD-6_CDS_907 or acIB-AMD-6_CDS_759) and (acIB-AMD-6_CDS_760 or acIB-AMD-6_CDS_908))</html:p>
+<html:p>PROTEIN_ASSOCIATION:((acIB-AMD-6_CDS_907 or acIB-AMD-6_CDS_759) and (acIB-AMD-6_CDS_760 or acIB-AMD-6_CDS_908))</html:p>
 <html:p>KEGG_RID:R02340</html:p>
 <html:p>PROTEIN_CLASS:4.2.1.20</html:p>
 </notes>
@@ -1793,8 +1826,8 @@
 </reaction>
 <reaction id="rxn10311_c0" name="anteisoheptadecanoyl_lipoteichoic_acid_synthesis_n24__linked__N_acetylglucosamine_substituted_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_224</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_224</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_770</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_770</html:p>
 <html:p>PROTEIN_CLASS:2.7.8.-</html:p>
 </notes>
 <listOfReactants>
@@ -1817,10 +1850,37 @@
 </listOfParameters>
 </kineticLaw>
 </reaction>
+<reaction id="rxn01486_c0" name="trans_trans_Farnesyl_diphosphate_isopentenyl_diphosphate_c0" reversible="false">
+<notes>
+<html:p>GENE_ASSOCIATION:((acIB-AMD-6_CDS_896 or acIB-AMD-6_CDS_831) or (acIB-AMD-6_CDS_632 or acIB-AMD-6_CDS_999))</html:p>
+<html:p>PROTEIN_ASSOCIATION:((acIB-AMD-6_CDS_896 or acIB-AMD-6_CDS_831) or (acIB-AMD-6_CDS_632 or acIB-AMD-6_CDS_999))</html:p>
+<html:p>KEGG_RID:R02061</html:p>
+<html:p>PROTEIN_CLASS:2.5.1.29</html:p>
+</notes>
+<listOfReactants>
+<speciesReference species="cpd00113_c0" stoichiometry="1"/>
+<speciesReference species="cpd00350_c0" stoichiometry="1"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference species="cpd00289_c0" stoichiometry="1"/>
+<speciesReference species="cpd00012_c0" stoichiometry="1"/>
+</listOfProducts>
+<kineticLaw>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<ci> FLUX_VALUE </ci>
+</math>
+<listOfParameters>
+<parameter id="LOWER_BOUND" value="0" name="mmol_per_gDW_per_hr"/>
+<parameter id="UPPER_BOUND" value="1000" name="mmol_per_gDW_per_hr"/>
+<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+<parameter id="FLUX_VALUE" value="0.0" name="mmol_per_gDW_per_hr"/>
+</listOfParameters>
+</kineticLaw>
+</reaction>
 <reaction id="rxn00898_c0" name="2_3_Dihydroxy_3_methylbutanoate_hydro_lyase_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_491</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_491</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_1048</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_1048</html:p>
 <html:p>KEGG_RID:R01209</html:p>
 <html:p>PROTEIN_CLASS:4.2.1.9</html:p>
 </notes>
@@ -1845,8 +1905,8 @@
 </reaction>
 <reaction id="rxn01069_c0" name="O_Phospho_L_homoserine_phospho_lyase_adding_water_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_232</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_232</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_778</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_778</html:p>
 <html:p>KEGG_RID:R01466</html:p>
 <html:p>PROTEIN_CLASS:4.2.99.2</html:p>
 </notes>
@@ -1873,8 +1933,8 @@
 </reaction>
 <reaction id="rxn00117_c0" name="ATP_nucleoside_diphosphate_phosphatransferase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_524</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_524</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_1085</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_1085</html:p>
 <html:p>KEGG_RID:R00156</html:p>
 <html:p>PROTEIN_CLASS:2.7.4.6</html:p>
 </notes>
@@ -1900,8 +1960,8 @@
 </reaction>
 <reaction id="rxn13783_c0" name="DNA_replication_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(Unknown and Unknown and Unknown and Unknown and Unknown and (acIB-AMD-6_CDS_304 or acIB-AMD-6_CDS_198) and (acIB-AMD-6_CDS_157 or acIB-AMD-6_CDS_358) and (acIB-AMD-6_CDS_115 or acIB-AMD-6_CDS_247) and Unknown and Unknown and Unknown and Unknown and Unknown and acIB-AMD-6_CDS_486 and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and acIB-AMD-6_CDS_484)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(Unknown and Unknown and Unknown and Unknown and Unknown and (acIB-AMD-6_CDS_304 or acIB-AMD-6_CDS_198) and (acIB-AMD-6_CDS_157 or acIB-AMD-6_CDS_358) and (acIB-AMD-6_CDS_115 or acIB-AMD-6_CDS_247) and Unknown and Unknown and Unknown and Unknown and Unknown and acIB-AMD-6_CDS_486 and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and acIB-AMD-6_CDS_484)</html:p>
+<html:p>GENE_ASSOCIATION:(Unknown and Unknown and Unknown and Unknown and Unknown and (acIB-AMD-6_CDS_742 or acIB-AMD-6_CDS_854) and (acIB-AMD-6_CDS_697 or acIB-AMD-6_CDS_912) and (acIB-AMD-6_CDS_794 or acIB-AMD-6_CDS_657) and Unknown and Unknown and Unknown and Unknown and Unknown and acIB-AMD-6_CDS_1043 and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and acIB-AMD-6_CDS_1041)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(Unknown and Unknown and Unknown and Unknown and Unknown and (acIB-AMD-6_CDS_742 or acIB-AMD-6_CDS_854) and (acIB-AMD-6_CDS_697 or acIB-AMD-6_CDS_912) and (acIB-AMD-6_CDS_794 or acIB-AMD-6_CDS_657) and Unknown and Unknown and Unknown and Unknown and Unknown and acIB-AMD-6_CDS_1043 and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and Unknown and acIB-AMD-6_CDS_1041)</html:p>
 </notes>
 <listOfProducts>
 <speciesReference species="cpd17042_c0" stoichiometry="1"/>
@@ -1920,8 +1980,8 @@
 </reaction>
 <reaction id="rxn09111_c0" name="Phosphatidylglycerol_synthase_n_C16_0_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_439</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_439</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_994 or acIB-AMD-6_CDS_630)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_994 or acIB-AMD-6_CDS_630)</html:p>
 <html:p>PROTEIN_CLASS:2.7.8.5</html:p>
 </notes>
 <listOfReactants>
@@ -1946,8 +2006,8 @@
 </reaction>
 <reaction id="rxn01974_c0" name="LL_2_6_Diaminoheptanedioate_2_epimerase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_328</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_328</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_879</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_879</html:p>
 <html:p>KEGG_RID:R02735</html:p>
 <html:p>PROTEIN_CLASS:5.1.1.7</html:p>
 </notes>
@@ -1971,8 +2031,8 @@
 </reaction>
 <reaction id="rxn01274_c0" name="S_2_Hydroxyacylglutathione_hydrolase_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_158</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_158</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_700</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_700</html:p>
 <html:p>KEGG_RID:R01736</html:p>
 <html:p>PROTEIN_CLASS:3.1.2.6</html:p>
 </notes>
@@ -1999,8 +2059,8 @@
 </reaction>
 <reaction id="rxn12645_c0" name="aminopeptidase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_24</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_24</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_566</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_566</html:p>
 </notes>
 <listOfReactants>
 <speciesReference species="cpd11581_c0" stoichiometry="1"/>
@@ -2054,8 +2114,8 @@
 </reaction>
 <reaction id="rxn00839_c0" name="ATP_nucleoside_diphosphate_phosphatransferase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_524</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_524</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_1085</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_1085</html:p>
 <html:p>KEGG_RID:R01137</html:p>
 <html:p>PROTEIN_CLASS:2.7.4.6</html:p>
 </notes>
@@ -2081,8 +2141,8 @@
 </reaction>
 <reaction id="rxn00461_c0" name="Phosphoenolpyruvate_UDP_N_acetyl_D_glucosamine_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_392</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_392</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_947</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_947</html:p>
 <html:p>KEGG_RID:R00660</html:p>
 <html:p>PROTEIN_CLASS:2.5.1.7</html:p>
 </notes>
@@ -2109,8 +2169,8 @@
 </reaction>
 <reaction id="rxn08089_c0" name="1_octadec_7_enoyl_sn_glycerol_3_phosphate_O_acyltransferase_n_C18_1_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_181</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_181</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_725</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_725</html:p>
 <html:p>PROTEIN_CLASS:2.3.1.51</html:p>
 </notes>
 <listOfReactants>
@@ -2135,8 +2195,8 @@
 </reaction>
 <reaction id="rxn10212_c0" name="myristoyl_1_acylglycerol_3_phosphate_O_acyltransferase_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_181</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_181</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_725</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_725</html:p>
 <html:p>PROTEIN_CLASS:2.3.1.51</html:p>
 </notes>
 <listOfReactants>
@@ -2161,8 +2221,8 @@
 </reaction>
 <reaction id="rxn03437_c0" name="R_2_3_Dihydroxy_3_methylpentanoate_hydro_lyase_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_491</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_491</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_1048</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_1048</html:p>
 <html:p>KEGG_RID:R05070</html:p>
 <html:p>PROTEIN_CLASS:4.2.1.9</html:p>
 </notes>
@@ -2187,8 +2247,8 @@
 </reaction>
 <reaction id="rxn00882_c0" name="myo_Inositol_4_phosphate_phosphahydrolase_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_481</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_481</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_1038</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_1038</html:p>
 <html:p>KEGG_RID:R01186</html:p>
 <html:p>PROTEIN_CLASS:3.1.3.25</html:p>
 </notes>
@@ -2215,8 +2275,8 @@
 </reaction>
 <reaction id="rxn08083_c0" name="1_tetradecanoyl_sn_glycerol_3_phosphate_O_acyltransferase_n_C12_0_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_181</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_181</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_725</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_725</html:p>
 <html:p>PROTEIN_CLASS:2.3.1.51</html:p>
 </notes>
 <listOfReactants>
@@ -2241,8 +2301,8 @@
 </reaction>
 <reaction id="rxn02507_c0" name="1_2_Carboxyphenylamino_1_deoxy_D_ribulose_5_phosphate_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_216 or acIB-AMD-6_CDS_355)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_216 or acIB-AMD-6_CDS_355)</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_761 or acIB-AMD-6_CDS_909)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_761 or acIB-AMD-6_CDS_909)</html:p>
 <html:p>KEGG_RID:R03508</html:p>
 <html:p>PROTEIN_CLASS:4.1.1.48</html:p>
 </notes>
@@ -2269,8 +2329,8 @@
 </reaction>
 <reaction id="rxn03901_c0" name="Undecaprenyl_diphosphate_phosphohydrolase_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_455</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_455</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_1011</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_1011</html:p>
 <html:p>KEGG_RID:R05627</html:p>
 <html:p>PROTEIN_CLASS:3.6.1.27</html:p>
 </notes>
@@ -2297,8 +2357,8 @@
 </reaction>
 <reaction id="rxn02071_c0" name="D_Proline_oxygen_oxidoreductase_deaminating_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_334</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_334</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_885</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_885</html:p>
 <html:p>KEGG_RID:R02894</html:p>
 <html:p>PROTEIN_CLASS:1.4.3.3</html:p>
 </notes>
@@ -2324,8 +2384,8 @@
 </reaction>
 <reaction id="rxn03933_c0" name="UDP_N_acetylglucosamine_N_acetylmuramyl_pentapeptidepyrophosphoryl_undecaprenol_N_acetylglucosamine_transferase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_144</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_144</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_685</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_685</html:p>
 <html:p>KEGG_RID:R05662</html:p>
 <html:p>PROTEIN_CLASS:2.4.1.227</html:p>
 </notes>
@@ -2351,8 +2411,8 @@
 </reaction>
 <reaction id="rxn01333_c0" name="Sedoheptulose_7_phosphate_D_glyceraldehyde_3_phosphate_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_74</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_74</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_616</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_616</html:p>
 <html:p>KEGG_RID:R08575</html:p>
 <html:p>PROTEIN_CLASS:2.2.1.2</html:p>
 </notes>
@@ -2378,8 +2438,8 @@
 </reaction>
 <reaction id="rxn01434_c0" name="L_Citrulline_L_aspartate_ligase_AMP_forming_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_473</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_473</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_1029</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_1029</html:p>
 <html:p>KEGG_RID:R01954</html:p>
 <html:p>PROTEIN_CLASS:6.3.4.5</html:p>
 </notes>
@@ -2407,8 +2467,8 @@
 </reaction>
 <reaction id="rxn00409_c0" name="ATP_nucleoside_diphosphate_phosphatransferase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_524</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_524</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_1085</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_1085</html:p>
 <html:p>KEGG_RID:R00570</html:p>
 <html:p>PROTEIN_CLASS:2.7.4.6</html:p>
 </notes>
@@ -2434,8 +2494,8 @@
 </reaction>
 <reaction id="rxn02213_c0" name="3_Dehydroquinate_hydro_lyase_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_517 or acIB-AMD-6_CDS_170)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_517 or acIB-AMD-6_CDS_170)</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_170 or acIB-AMD-6_CDS_1077)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_170 or acIB-AMD-6_CDS_1077)</html:p>
 <html:p>KEGG_RID:R03084</html:p>
 <html:p>PROTEIN_CLASS:4.2.1.10</html:p>
 </notes>
@@ -2460,8 +2520,8 @@
 </reaction>
 <reaction id="rxn03062_c0" name="3_Isopropylmalate_NAD_oxidoreductase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_496</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_496</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_1053</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_1053</html:p>
 <html:p>KEGG_RID:R04426</html:p>
 <html:p>PROTEIN_CLASS:1.1.1.85</html:p>
 </notes>
@@ -2488,8 +2548,8 @@
 </reaction>
 <reaction id="rxn00506_c0" name="Acetaldehyde_NAD_oxidoreductase_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_40 or acIB-AMD-6_CDS_41)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_40 or acIB-AMD-6_CDS_41)</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_582 or acIB-AMD-6_CDS_583)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_582 or acIB-AMD-6_CDS_583)</html:p>
 <html:p>KEGG_RID:R00710</html:p>
 <html:p>PROTEIN_CLASS:1.2.1.3</html:p>
 </notes>
@@ -2517,8 +2577,8 @@
 </reaction>
 <reaction id="rxn01388_c0" name="isocitrate_hydro_lyase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:(Unknown and acIB-AMD-6_CDS_384)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(Unknown and acIB-AMD-6_CDS_384)</html:p>
+<html:p>GENE_ASSOCIATION:(Unknown and acIB-AMD-6_CDS_939)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(Unknown and acIB-AMD-6_CDS_939)</html:p>
 <html:p>KEGG_RID:R01900</html:p>
 <html:p>PROTEIN_CLASS:4.2.1.3</html:p>
 </notes>
@@ -2543,8 +2603,8 @@
 </reaction>
 <reaction id="rxn10214_c0" name="isoheptadecanoyl_1_acylglycerol_3_phosphate_O_acyltransferase_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_181</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_181</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_725</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_725</html:p>
 <html:p>PROTEIN_CLASS:2.3.1.51</html:p>
 </notes>
 <listOfReactants>
@@ -2569,8 +2629,8 @@
 </reaction>
 <reaction id="rxn03446_c0" name="O_Phospho_4_hydroxy_L_threonine_phospho_lyase_adding_water_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_232</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_232</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_778</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_778</html:p>
 <html:p>KEGG_RID:R05086</html:p>
 <html:p>PROTEIN_CLASS:4.2.3.1</html:p>
 </notes>
@@ -2597,8 +2657,8 @@
 </reaction>
 <reaction id="rxn01519_c0" name="dUTP_nucleotidohydrolase_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_379</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_379</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_934</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_934</html:p>
 <html:p>KEGG_RID:R02100</html:p>
 <html:p>PROTEIN_CLASS:3.6.1.23</html:p>
 </notes>
@@ -2624,8 +2684,8 @@
 </reaction>
 <reaction id="rxn01143_c0" name="ATP_thymidine_5_phosphotransferase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_458</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_458</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_1014 or acIB-AMD-6_CDS_827)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_1014 or acIB-AMD-6_CDS_827)</html:p>
 <html:p>KEGG_RID:R01567</html:p>
 <html:p>PROTEIN_CLASS:2.7.1.21</html:p>
 </notes>
@@ -2651,8 +2711,8 @@
 </reaction>
 <reaction id="rxn10263_c0" name="anteisopentadecanoyl_CDPdiacylglycerol_sn_glycerol_3_phosphate_3_phosphatidyltransferase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_439</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_439</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_994 or acIB-AMD-6_CDS_630)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_994 or acIB-AMD-6_CDS_630)</html:p>
 <html:p>PROTEIN_CLASS:2.7.8.5</html:p>
 </notes>
 <listOfReactants>
@@ -2677,8 +2737,8 @@
 </reaction>
 <reaction id="rxn01964_c0" name="L_Serine_hydro_lyase_adding_indoleglycerol_phosphate_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:((acIB-AMD-6_CDS_353 or acIB-AMD-6_CDS_214) and (acIB-AMD-6_CDS_354 or acIB-AMD-6_CDS_215))</html:p>
-<html:p>PROTEIN_ASSOCIATION:((acIB-AMD-6_CDS_353 or acIB-AMD-6_CDS_214) and (acIB-AMD-6_CDS_354 or acIB-AMD-6_CDS_215))</html:p>
+<html:p>GENE_ASSOCIATION:((acIB-AMD-6_CDS_907 or acIB-AMD-6_CDS_759) and (acIB-AMD-6_CDS_760 or acIB-AMD-6_CDS_908))</html:p>
+<html:p>PROTEIN_ASSOCIATION:((acIB-AMD-6_CDS_907 or acIB-AMD-6_CDS_759) and (acIB-AMD-6_CDS_760 or acIB-AMD-6_CDS_908))</html:p>
 <html:p>KEGG_RID:R02722</html:p>
 <html:p>PROTEIN_CLASS:4.2.1.20</html:p>
 </notes>
@@ -2705,8 +2765,8 @@
 </reaction>
 <reaction id="rxn00208_c0" name="Pyridoxamine_5_phosphate_oxygen_oxidoreductase_deaminating_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_367</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_367</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_921</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_921</html:p>
 <html:p>KEGG_RID:R00277</html:p>
 <html:p>PROTEIN_CLASS:1.4.3.5</html:p>
 </notes>
@@ -2734,8 +2794,8 @@
 </reaction>
 <reaction id="rxn02380_c0" name="beta_D_Glucose_6_phosphate_ketol_isomerase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_75</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_75</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_617</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_617</html:p>
 <html:p>KEGG_RID:R03321</html:p>
 <html:p>PROTEIN_CLASS:5.3.1.9</html:p>
 </notes>
@@ -2759,8 +2819,8 @@
 </reaction>
 <reaction id="rxn00474_c0" name="L_Serine_hydro_lyase_adding_indoleglycerol_phosphate_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:((acIB-AMD-6_CDS_353 or acIB-AMD-6_CDS_214) and (acIB-AMD-6_CDS_354 or acIB-AMD-6_CDS_215))</html:p>
-<html:p>PROTEIN_ASSOCIATION:((acIB-AMD-6_CDS_353 or acIB-AMD-6_CDS_214) and (acIB-AMD-6_CDS_354 or acIB-AMD-6_CDS_215))</html:p>
+<html:p>GENE_ASSOCIATION:((acIB-AMD-6_CDS_907 or acIB-AMD-6_CDS_759) and (acIB-AMD-6_CDS_760 or acIB-AMD-6_CDS_908))</html:p>
+<html:p>PROTEIN_ASSOCIATION:((acIB-AMD-6_CDS_907 or acIB-AMD-6_CDS_759) and (acIB-AMD-6_CDS_760 or acIB-AMD-6_CDS_908))</html:p>
 <html:p>KEGG_RID:R00674</html:p>
 <html:p>PROTEIN_CLASS:4.2.1.20</html:p>
 </notes>
@@ -2786,8 +2846,8 @@
 </reaction>
 <reaction id="rxn09114_c0" name="Phosphatidylglycerol_synthase_n_C18_1_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_439</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_439</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_994 or acIB-AMD-6_CDS_630)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_994 or acIB-AMD-6_CDS_630)</html:p>
 <html:p>PROTEIN_CLASS:2.7.8.5</html:p>
 </notes>
 <listOfReactants>
@@ -2812,8 +2872,8 @@
 </reaction>
 <reaction id="rxn03435_c0" name="R_2_3_Dihydroxy_3_methylpentanoate_NADP_oxidoreductase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_494</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_494</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_1051</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_1051</html:p>
 <html:p>KEGG_RID:R05068</html:p>
 <html:p>PROTEIN_CLASS:1.1.1.86</html:p>
 </notes>
@@ -2840,8 +2900,8 @@
 </reaction>
 <reaction id="rxn01635_c0" name="1_Pyrroline_4_hydroxy_2_carboxylate_aminohydrolase_decyclizing_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_331</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_331</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_882</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_882</html:p>
 <html:p>KEGG_RID:R02280</html:p>
 <html:p>PROTEIN_CLASS:3.5.4.22</html:p>
 </notes>
@@ -2868,8 +2928,8 @@
 </reaction>
 <reaction id="rxn01673_c0" name="ATP_nucleoside_diphosphate_phosphatransferase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_524</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_524</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_1085</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_1085</html:p>
 <html:p>KEGG_RID:R02326</html:p>
 <html:p>PROTEIN_CLASS:2.7.4.6</html:p>
 </notes>
@@ -2895,8 +2955,8 @@
 </reaction>
 <reaction id="rxn12845_c0" name="Gly_Leu_aminopeptidase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_24</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_24</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_566</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_566</html:p>
 <html:p>PROTEIN_CLASS:3.4.11.2</html:p>
 </notes>
 <listOfReactants>
@@ -2921,8 +2981,8 @@
 </reaction>
 <reaction id="rxn00085_c0" name="L_Glutamate_NADP_oxidoreductase_transaminating_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_208 and (acIB-AMD-6_CDS_348 or acIB-AMD-6_CDS_209))</html:p>
-<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_208 and (acIB-AMD-6_CDS_348 or acIB-AMD-6_CDS_209))</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_753 and (acIB-AMD-6_CDS_754 or acIB-AMD-6_CDS_901 or acIB-AMD-6_CDS_902))</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_753 and (acIB-AMD-6_CDS_754 or acIB-AMD-6_CDS_901 or acIB-AMD-6_CDS_902))</html:p>
 <html:p>KEGG_RID:R00114</html:p>
 <html:p>PROTEIN_CLASS:1.4.1.13</html:p>
 </notes>
@@ -2950,8 +3010,8 @@
 </reaction>
 <reaction id="rxn01368_c0" name="Cytidine_aminohydrolase_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_44</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_44</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_586</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_586</html:p>
 <html:p>KEGG_RID:R01878</html:p>
 <html:p>PROTEIN_CLASS:3.5.4.5</html:p>
 </notes>
@@ -2978,8 +3038,8 @@
 </reaction>
 <reaction id="rxn02187_c0" name="2_Acetolactate_methylmutase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_494</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_494</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_1051</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_1051</html:p>
 <html:p>KEGG_RID:R05071</html:p>
 <html:p>PROTEIN_CLASS:5.4.99.3</html:p>
 </notes>
@@ -3001,10 +3061,37 @@
 </listOfParameters>
 </kineticLaw>
 </reaction>
+<reaction id="rxn03892_c0" name="PPTT_c0" reversible="false">
+<notes>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_896 or acIB-AMD-6_CDS_831)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_896 or acIB-AMD-6_CDS_831)</html:p>
+<html:p>KEGG_RID:R05613</html:p>
+<html:p>PROTEIN_CLASS:2.5.1.33</html:p>
+</notes>
+<listOfReactants>
+<speciesReference species="cpd02591_c0" stoichiometry="1"/>
+<speciesReference species="cpd00113_c0" stoichiometry="1"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference species="cpd00906_c0" stoichiometry="1"/>
+<speciesReference species="cpd00012_c0" stoichiometry="1"/>
+</listOfProducts>
+<kineticLaw>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<ci> FLUX_VALUE </ci>
+</math>
+<listOfParameters>
+<parameter id="LOWER_BOUND" value="0" name="mmol_per_gDW_per_hr"/>
+<parameter id="UPPER_BOUND" value="1000" name="mmol_per_gDW_per_hr"/>
+<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+<parameter id="FLUX_VALUE" value="0.0" name="mmol_per_gDW_per_hr"/>
+</listOfParameters>
+</kineticLaw>
+</reaction>
 <reaction id="rxn05160_c0" name="D_Ribose_ABC_transport_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(Unknown and acIB-AMD-6_CDS_409 and acIB-AMD-6_CDS_408 and Unknown)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(Unknown and acIB-AMD-6_CDS_409 and acIB-AMD-6_CDS_408 and Unknown)</html:p>
+<html:p>GENE_ASSOCIATION:(Unknown and acIB-AMD-6_CDS_964 and acIB-AMD-6_CDS_963 and Unknown)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(Unknown and acIB-AMD-6_CDS_964 and acIB-AMD-6_CDS_963 and Unknown)</html:p>
 <html:p>PROTEIN_CLASS:3.A.1.2</html:p>
 </notes>
 <listOfReactants>
@@ -3032,8 +3119,8 @@
 </reaction>
 <reaction id="rxn01138_c0" name="Adenosine_orthophosphate_ribosyltransferase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_36</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_36</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_578</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_578</html:p>
 <html:p>KEGG_RID:R01561</html:p>
 <html:p>PROTEIN_CLASS:2.4.2.1</html:p>
 </notes>
@@ -3060,8 +3147,8 @@
 </reaction>
 <reaction id="rxn10211_c0" name="palmitoyl_1_acylglycerol_3_phosphate_O_acyltransferase_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_181</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_181</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_725</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_725</html:p>
 <html:p>PROTEIN_CLASS:2.3.1.51</html:p>
 </notes>
 <listOfReactants>
@@ -3086,8 +3173,8 @@
 </reaction>
 <reaction id="rxn12641_c0" name="aminopeptidase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_24</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_24</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_566</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_566</html:p>
 </notes>
 <listOfReactants>
 <speciesReference species="cpd00001_c0" stoichiometry="1"/>
@@ -3111,8 +3198,8 @@
 </reaction>
 <reaction id="rxn10315_c0" name="isohexadecanoyl_lipoteichoic_acid_synthesis_n24__linked__N_acetylglucosamine_substituted_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_224</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_224</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_770</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_770</html:p>
 <html:p>PROTEIN_CLASS:2.7.8.-</html:p>
 </notes>
 <listOfReactants>
@@ -3137,8 +3224,8 @@
 </reaction>
 <reaction id="rxn00612_c0" name="sn_Glycerol_3_phosphate_NADP_2_oxidoreductase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_180</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_180</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_724</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_724</html:p>
 <html:p>KEGG_RID:R05680</html:p>
 <html:p>PROTEIN_CLASS:1.1.1.261</html:p>
 </notes>
@@ -3165,8 +3252,8 @@
 </reaction>
 <reaction id="rxn00711_c0" name="UMP_pyrophosphate_phosphoribosyltransferase_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:((acIB-AMD-6_CDS_513 or acIB-AMD-6_CDS_174) and (acIB-AMD-6_CDS_513 or acIB-AMD-6_CDS_174))</html:p>
-<html:p>PROTEIN_ASSOCIATION:((acIB-AMD-6_CDS_513 or acIB-AMD-6_CDS_174) and (acIB-AMD-6_CDS_513 or acIB-AMD-6_CDS_174))</html:p>
+<html:p>GENE_ASSOCIATION:((acIB-AMD-6_CDS_1073 or acIB-AMD-6_CDS_716) and (acIB-AMD-6_CDS_1073 or acIB-AMD-6_CDS_716))</html:p>
+<html:p>PROTEIN_ASSOCIATION:((acIB-AMD-6_CDS_1073 or acIB-AMD-6_CDS_716) and (acIB-AMD-6_CDS_1073 or acIB-AMD-6_CDS_716))</html:p>
 <html:p>KEGG_RID:R00966</html:p>
 <html:p>PROTEIN_CLASS:2.4.2.9</html:p>
 </notes>
@@ -3192,8 +3279,8 @@
 </reaction>
 <reaction id="rxn10309_c0" name="stearoyl_lipoteichoic_acid_synthesis_n24__linked__N_acetylglucosamine_substituted_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_224</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_224</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_770</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_770</html:p>
 <html:p>PROTEIN_CLASS:2.7.8.-</html:p>
 </notes>
 <listOfReactants>
@@ -3218,8 +3305,8 @@
 </reaction>
 <reaction id="rxn12633_c0" name="aminopeptidase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_24</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_24</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_566</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_566</html:p>
 </notes>
 <listOfReactants>
 <speciesReference species="cpd00001_c0" stoichiometry="1"/>
@@ -3243,8 +3330,8 @@
 </reaction>
 <reaction id="rxn04113_c0" name="isopentenyl_diphosphate_NADP_oxidoreductase_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_530 or acIB-AMD-6_CDS_531)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_530 or acIB-AMD-6_CDS_531)</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_1091 or acIB-AMD-6_CDS_1092)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_1091 or acIB-AMD-6_CDS_1092)</html:p>
 <html:p>KEGG_RID:R05884</html:p>
 <html:p>PROTEIN_CLASS:1.17.1.2</html:p>
 </notes>
@@ -3272,8 +3359,8 @@
 </reaction>
 <reaction id="rxn00499_c0" name="S_Lactate_NAD_oxidoreductase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_403 or acIB-AMD-6_CDS_347)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_403 or acIB-AMD-6_CDS_347)</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_958 or acIB-AMD-6_CDS_899 or acIB-AMD-6_CDS_828)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_958 or acIB-AMD-6_CDS_899 or acIB-AMD-6_CDS_828)</html:p>
 <html:p>KEGG_RID:R00703</html:p>
 <html:p>PROTEIN_CLASS:1.1.1.27</html:p>
 </notes>
@@ -3300,8 +3387,8 @@
 </reaction>
 <reaction id="rxn00763_c0" name="Glycerol_NAD_oxidoreductase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_457</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_457</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_1013</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_1013</html:p>
 <html:p>KEGG_RID:R01036</html:p>
 <html:p>PROTEIN_CLASS:1.1.1.1</html:p>
 </notes>
@@ -3328,8 +3415,8 @@
 </reaction>
 <reaction id="rxn10174_c0" name="maltohexaose_transport_via_ABC_system_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_369 or acIB-AMD-6_CDS_370)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_369 or acIB-AMD-6_CDS_370)</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_923 or acIB-AMD-6_CDS_924 or acIB-AMD-6_CDS_925)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_923 or acIB-AMD-6_CDS_924 or acIB-AMD-6_CDS_925)</html:p>
 </notes>
 <listOfReactants>
 <speciesReference species="cpd00002_c0" stoichiometry="1"/>
@@ -3356,8 +3443,8 @@
 </reaction>
 <reaction id="rxn01137_c0" name="Adenosine_aminohydrolase_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_42</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_42</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_584</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_584</html:p>
 <html:p>KEGG_RID:R01560</html:p>
 <html:p>PROTEIN_CLASS:3.5.4.4</html:p>
 </notes>
@@ -3384,8 +3471,8 @@
 </reaction>
 <reaction id="rxn04996_c0" name="dimethyallyl_diphosphate_NADP_oxidoreductase_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_530 or acIB-AMD-6_CDS_531)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_530 or acIB-AMD-6_CDS_531)</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_1091 or acIB-AMD-6_CDS_1092)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_1091 or acIB-AMD-6_CDS_1092)</html:p>
 <html:p>KEGG_RID:R07219</html:p>
 <html:p>PROTEIN_CLASS:1.17.1.2</html:p>
 </notes>
@@ -3413,8 +3500,8 @@
 </reaction>
 <reaction id="rxn00726_c0" name="Chorismate_pyruvate_lyase_amino_accepting_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(Unknown and acIB-AMD-6_CDS_357)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(Unknown and acIB-AMD-6_CDS_357)</html:p>
+<html:p>GENE_ASSOCIATION:(Unknown and acIB-AMD-6_CDS_911)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(Unknown and acIB-AMD-6_CDS_911)</html:p>
 <html:p>KEGG_RID:R00985</html:p>
 <html:p>PROTEIN_CLASS:4.1.3.27</html:p>
 </notes>
@@ -3440,10 +3527,36 @@
 </listOfParameters>
 </kineticLaw>
 </reaction>
+<reaction id="rxn05287_c0" name="GGTT_c0" reversible="false">
+<notes>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_896 or acIB-AMD-6_CDS_831)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_896 or acIB-AMD-6_CDS_831)</html:p>
+<html:p>KEGG_RID:R07475</html:p>
+</notes>
+<listOfReactants>
+<speciesReference species="cpd00113_c0" stoichiometry="1"/>
+<speciesReference species="cpd00289_c0" stoichiometry="1"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference species="cpd02591_c0" stoichiometry="1"/>
+<speciesReference species="cpd00012_c0" stoichiometry="1"/>
+</listOfProducts>
+<kineticLaw>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<ci> FLUX_VALUE </ci>
+</math>
+<listOfParameters>
+<parameter id="LOWER_BOUND" value="0" name="mmol_per_gDW_per_hr"/>
+<parameter id="UPPER_BOUND" value="1000" name="mmol_per_gDW_per_hr"/>
+<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+<parameter id="FLUX_VALUE" value="0.0" name="mmol_per_gDW_per_hr"/>
+</listOfParameters>
+</kineticLaw>
+</reaction>
 <reaction id="rxn10218_c0" name="anteisopentadecanoyl_1_acylglycerol_3_phosphate_O_acyltransferase_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_181</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_181</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_725</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_725</html:p>
 <html:p>PROTEIN_CLASS:2.3.1.51</html:p>
 </notes>
 <listOfReactants>
@@ -3468,8 +3581,8 @@
 </reaction>
 <reaction id="rxn01211_c0" name="5_10_Methenyltetrahydrofolate_5_hydrolasedecyclizing_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_423 and acIB-AMD-6_CDS_423)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_423 and acIB-AMD-6_CDS_423)</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_978 and acIB-AMD-6_CDS_978)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_978 and acIB-AMD-6_CDS_978)</html:p>
 <html:p>KEGG_RID:R01655</html:p>
 <html:p>PROTEIN_CLASS:3.5.4.9</html:p>
 </notes>
@@ -3495,8 +3608,8 @@
 </reaction>
 <reaction id="rxn00650_c0" name="membrane_alanyl_aminopeptidase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_24</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_24</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_566</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_566</html:p>
 <html:p>KEGG_RID:R00899</html:p>
 <html:p>PROTEIN_CLASS:3.4.13.3</html:p>
 </notes>
@@ -3522,8 +3635,8 @@
 </reaction>
 <reaction id="rxn00776_c0" name="Uracil_hydro_lyase_adding_D_ribose_5_phosphate_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(Unknown and Unknown and Unknown and (acIB-AMD-6_CDS_156 or acIB-AMD-6_CDS_359) and Unknown and Unknown)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(Unknown and Unknown and Unknown and (acIB-AMD-6_CDS_156 or acIB-AMD-6_CDS_359) and Unknown and Unknown)</html:p>
+<html:p>GENE_ASSOCIATION:(Unknown and Unknown and Unknown and (acIB-AMD-6_CDS_696 or acIB-AMD-6_CDS_913) and Unknown and Unknown)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(Unknown and Unknown and Unknown and (acIB-AMD-6_CDS_696 or acIB-AMD-6_CDS_913) and Unknown and Unknown)</html:p>
 <html:p>KEGG_RID:R01055</html:p>
 <html:p>PROTEIN_CLASS:4.2.1.70</html:p>
 </notes>
@@ -3549,8 +3662,8 @@
 </reaction>
 <reaction id="rxn09110_c0" name="Phosphatidylglycerol_synthase_n_C14_1_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_439</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_439</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_994 or acIB-AMD-6_CDS_630)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_994 or acIB-AMD-6_CDS_630)</html:p>
 <html:p>PROTEIN_CLASS:2.7.8.5</html:p>
 </notes>
 <listOfReactants>
@@ -3575,8 +3688,8 @@
 </reaction>
 <reaction id="rxn12646_c0" name="aminopeptidase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_24</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_24</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_566</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_566</html:p>
 </notes>
 <listOfReactants>
 <speciesReference species="cpd00001_c0" stoichiometry="1"/>
@@ -3600,8 +3713,8 @@
 </reaction>
 <reaction id="rxn01255_c0" name="5_O_1_Carboxyvinyl_3_phosphoshikimate_phosphate_lyase_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_167</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_167</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_709</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_709</html:p>
 <html:p>KEGG_RID:R01714</html:p>
 <html:p>PROTEIN_CLASS:4.2.3.5</html:p>
 </notes>
@@ -3627,8 +3740,8 @@
 </reaction>
 <reaction id="rxn03194_c0" name="S_2_Aceto_2_hydroxybutanoate_pyruvate_lyase_carboxylating_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_492 and acIB-AMD-6_CDS_493)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_492 and acIB-AMD-6_CDS_493)</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_1049 and acIB-AMD-6_CDS_1050)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_1049 and acIB-AMD-6_CDS_1050)</html:p>
 <html:p>KEGG_RID:R04673</html:p>
 <html:p>PROTEIN_CLASS:2.2.1.6</html:p>
 </notes>
@@ -3654,8 +3767,8 @@
 </reaction>
 <reaction id="rxn03408_c0" name="UDP_N_acetylglucosamine_N_acetylmuramyl_pentapeptidepyrophosphoryl_undecaprenol_N_acetylglucosamine_transferase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_144</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_144</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_685</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_685</html:p>
 <html:p>KEGG_RID:R05032</html:p>
 <html:p>PROTEIN_CLASS:2.4.1.227</html:p>
 </notes>
@@ -3681,8 +3794,8 @@
 </reaction>
 <reaction id="rxn13784_c0" name="RNA_transcription_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(Unknown and Unknown and acIB-AMD-6_CDS_489 and Unknown and Unknown and Unknown and Unknown and acIB-AMD-6_CDS_375 and Unknown and Unknown and (acIB-AMD-6_CDS_117 or acIB-AMD-6_CDS_245) and Unknown and Unknown)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(Unknown and Unknown and acIB-AMD-6_CDS_489 and Unknown and Unknown and Unknown and Unknown and acIB-AMD-6_CDS_375 and Unknown and Unknown and (acIB-AMD-6_CDS_117 or acIB-AMD-6_CDS_245) and Unknown and Unknown)</html:p>
+<html:p>GENE_ASSOCIATION:(Unknown and Unknown and acIB-AMD-6_CDS_1046 and Unknown and Unknown and Unknown and Unknown and acIB-AMD-6_CDS_930 and Unknown and Unknown and (acIB-AMD-6_CDS_117 or acIB-AMD-6_CDS_792) and Unknown and Unknown)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(Unknown and Unknown and acIB-AMD-6_CDS_1046 and Unknown and Unknown and Unknown and Unknown and acIB-AMD-6_CDS_930 and Unknown and Unknown and (acIB-AMD-6_CDS_117 or acIB-AMD-6_CDS_792) and Unknown and Unknown)</html:p>
 </notes>
 <listOfProducts>
 <speciesReference species="cpd17043_c0" stoichiometry="1"/>
@@ -3701,8 +3814,8 @@
 </reaction>
 <reaction id="rxn08086_c0" name="1_hexadecanoyl_sn_glycerol_3_phosphate_O_acyltransferase_n_C16_0_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_181</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_181</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_725</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_725</html:p>
 <html:p>PROTEIN_CLASS:2.3.1.51</html:p>
 </notes>
 <listOfReactants>
@@ -3727,8 +3840,8 @@
 </reaction>
 <reaction id="rxn01548_c0" name="guanosine_orthophosphate_ribosyltransferase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_36</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_36</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_578</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_578</html:p>
 <html:p>KEGG_RID:R02147</html:p>
 <html:p>PROTEIN_CLASS:2.4.2.15</html:p>
 </notes>
@@ -3755,8 +3868,8 @@
 </reaction>
 <reaction id="rxn02946_c0" name="cis_4_Hydroxy_D_proline_oxygen_oxidoreductase_deaminating_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_334</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_334</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_885</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_885</html:p>
 <html:p>KEGG_RID:R04221</html:p>
 <html:p>PROTEIN_CLASS:1.4.3.3</html:p>
 </notes>
@@ -3782,8 +3895,8 @@
 </reaction>
 <reaction id="rxn00785_c0" name="D_Fructose_6_phosphate_D_glyceraldehyde_3_phosphate_glycolaldehyde_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_73</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_73</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_615</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_615</html:p>
 <html:p>KEGG_RID:R01830</html:p>
 <html:p>PROTEIN_CLASS:2.2.1.1</html:p>
 </notes>
@@ -3809,8 +3922,8 @@
 </reaction>
 <reaction id="rxn00011_c0" name="pyruvate_thiamin_diphosphate_acetaldehydetransferase_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_492 and acIB-AMD-6_CDS_493)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_492 and acIB-AMD-6_CDS_493)</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_1049 and acIB-AMD-6_CDS_1050)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_1049 and acIB-AMD-6_CDS_1050)</html:p>
 <html:p>KEGG_RID:R00014</html:p>
 <html:p>PROTEIN_CLASS:2.2.1.6</html:p>
 </notes>
@@ -3837,8 +3950,8 @@
 </reaction>
 <reaction id="rxn00196_c0" name="2_5_dioxopentanoate_NADP_5_oxidoreductase_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_400</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_400</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_954</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_954</html:p>
 <html:p>KEGG_RID:R00264</html:p>
 <html:p>PROTEIN_CLASS:1.2.1.26</html:p>
 </notes>
@@ -3866,8 +3979,8 @@
 </reaction>
 <reaction id="rxn05466_c0" name="Ammonia_transport_via_diffusion_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_249 or acIB-AMD-6_CDS_113)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_249 or acIB-AMD-6_CDS_113)</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_796 or acIB-AMD-6_CDS_655)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_796 or acIB-AMD-6_CDS_655)</html:p>
 </notes>
 <listOfReactants>
 <speciesReference species="cpd00013_e0" stoichiometry="1"/>
@@ -3889,8 +4002,8 @@
 </reaction>
 <reaction id="rxn04954_c0" name="5_methyltetrahydrofolate_NAD_oxidoreductase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_89</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_89</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_631</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_631</html:p>
 <html:p>KEGG_RID:R07168</html:p>
 <html:p>PROTEIN_CLASS:1.5.1.20</html:p>
 </notes>
@@ -3917,8 +4030,8 @@
 </reaction>
 <reaction id="rxn01575_c0" name="L_Isoleucine_2_oxoglutarate_aminotransferase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_497</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_497</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_1054</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_1054</html:p>
 <html:p>KEGG_RID:R02199</html:p>
 <html:p>PROTEIN_CLASS:2.6.1.42</html:p>
 </notes>
@@ -3944,8 +4057,8 @@
 </reaction>
 <reaction id="rxn00781_c0" name="D_Glyceraldehyde_3_phosphate_NAD_oxidoreductasephosphorylating_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_80</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_80</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_622</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_622</html:p>
 <html:p>KEGG_RID:R01061</html:p>
 <html:p>PROTEIN_CLASS:1.2.1.13</html:p>
 </notes>
@@ -3972,8 +4085,8 @@
 </reaction>
 <reaction id="rxn00973_c0" name="citrate_hydro_lyase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:(Unknown and Unknown and Unknown and Unknown and acIB-AMD-6_CDS_384)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(Unknown and Unknown and Unknown and Unknown and acIB-AMD-6_CDS_384)</html:p>
+<html:p>GENE_ASSOCIATION:(Unknown and Unknown and Unknown and Unknown and acIB-AMD-6_CDS_939)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(Unknown and Unknown and Unknown and Unknown and acIB-AMD-6_CDS_939)</html:p>
 <html:p>KEGG_RID:R01324</html:p>
 <html:p>PROTEIN_CLASS:4.2.1.3</html:p>
 </notes>
@@ -3997,8 +4110,8 @@
 </reaction>
 <reaction id="rxn00529_c0" name="L_Tyrosine_carboxy_lyase_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_360</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_360</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_914</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_914</html:p>
 <html:p>KEGG_RID:R00736</html:p>
 <html:p>PROTEIN_CLASS:4.1.1.28</html:p>
 </notes>
@@ -4024,8 +4137,8 @@
 </reaction>
 <reaction id="rxn01985_c0" name="Deoxyinosine_orthophosphate_ribosyltransferase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_36</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_36</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_578</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_578</html:p>
 <html:p>KEGG_RID:R02748</html:p>
 <html:p>PROTEIN_CLASS:2.4.2.4</html:p>
 </notes>
@@ -4052,8 +4165,8 @@
 </reaction>
 <reaction id="rxn00515_c0" name="ATP_nucleoside_diphosphate_phosphatransferase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_524</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_524</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_1085</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_1085</html:p>
 <html:p>KEGG_RID:R00722</html:p>
 <html:p>PROTEIN_CLASS:2.7.4.6</html:p>
 </notes>
@@ -4079,8 +4192,8 @@
 </reaction>
 <reaction id="rxn02011_c0" name="UDP_N_acetylmuramoyl_L_alanyl_D_glutamate_meso_2_6__c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_139</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_139</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_680</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_680</html:p>
 <html:p>KEGG_RID:R02788</html:p>
 <html:p>PROTEIN_CLASS:6.3.2.13</html:p>
 </notes>
@@ -4109,8 +4222,8 @@
 </reaction>
 <reaction id="rxn02186_c0" name="2_3_Dihydroxy_3_methylbutanoate_NADP_oxidoreductase_isomerizing_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_494</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_494</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_1051</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_1051</html:p>
 <html:p>KEGG_RID:R03051</html:p>
 <html:p>PROTEIN_CLASS:1.1.1.86</html:p>
 </notes>
@@ -4137,8 +4250,8 @@
 </reaction>
 <reaction id="rxn09113_c0" name="Phosphatidylglycerol_synthase_n_C18_0_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_439</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_439</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_994 or acIB-AMD-6_CDS_630)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_994 or acIB-AMD-6_CDS_630)</html:p>
 <html:p>PROTEIN_CLASS:2.7.8.5</html:p>
 </notes>
 <listOfReactants>
@@ -4161,10 +4274,36 @@
 </listOfParameters>
 </kineticLaw>
 </reaction>
+<reaction id="rxn01828_c0" name="L_Arabinonate_hydro_lyase_c0" reversible="false">
+<notes>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_956</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_956</html:p>
+<html:p>KEGG_RID:R02522</html:p>
+<html:p>PROTEIN_CLASS:4.2.1.25</html:p>
+</notes>
+<listOfReactants>
+<speciesReference species="cpd00427_c0" stoichiometry="1"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference species="cpd00001_c0" stoichiometry="1"/>
+<speciesReference species="cpd00520_c0" stoichiometry="1"/>
+</listOfProducts>
+<kineticLaw>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<ci> FLUX_VALUE </ci>
+</math>
+<listOfParameters>
+<parameter id="LOWER_BOUND" value="0" name="mmol_per_gDW_per_hr"/>
+<parameter id="UPPER_BOUND" value="1000" name="mmol_per_gDW_per_hr"/>
+<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+<parameter id="FLUX_VALUE" value="0.0" name="mmol_per_gDW_per_hr"/>
+</listOfParameters>
+</kineticLaw>
+</reaction>
 <reaction id="rxn12846_c0" name="Gly_Phe_aminopeptidase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_24</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_24</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_566</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_566</html:p>
 <html:p>PROTEIN_CLASS:3.4.11.2</html:p>
 </notes>
 <listOfReactants>
@@ -4189,8 +4328,8 @@
 </reaction>
 <reaction id="rxn05201_c0" name="Hypoxanthine_ion_coupled_transport_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_453</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_453</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_1009</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_1009</html:p>
 </notes>
 <listOfReactants>
 <speciesReference species="cpd00226_e0" stoichiometry="1"/>
@@ -4214,8 +4353,8 @@
 </reaction>
 <reaction id="rxn02789_c0" name="2_Isopropylmalate_hydro_lyase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_183 or acIB-AMD-6_CDS_184)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_183 or acIB-AMD-6_CDS_184)</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_727 or acIB-AMD-6_CDS_728)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_727 or acIB-AMD-6_CDS_728)</html:p>
 <html:p>KEGG_RID:R03968</html:p>
 <html:p>PROTEIN_CLASS:4.2.1.33</html:p>
 </notes>
@@ -4240,8 +4379,8 @@
 </reaction>
 <reaction id="rxn01331_c0" name="D_erythrose_4_phosphate_NAD_oxidoreductase_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_80</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_80</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_622</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_622</html:p>
 <html:p>KEGG_RID:R01825</html:p>
 <html:p>PROTEIN_CLASS:1.2.1.72</html:p>
 </notes>
@@ -4269,8 +4408,8 @@
 </reaction>
 <reaction id="rxn10042_c0" name="ATP_synthase_four_protons_for_one_ATP_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:(Unknown and Unknown and acIB-AMD-6_CDS_218 and (acIB-AMD-6_CDS_223 or acIB-AMD-6_CDS_222) and (acIB-AMD-6_CDS_388 or acIB-AMD-6_CDS_389) and acIB-AMD-6_CDS_387 and acIB-AMD-6_CDS_217 and Unknown and acIB-AMD-6_CDS_390)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(Unknown and Unknown and acIB-AMD-6_CDS_218 and (acIB-AMD-6_CDS_223 or acIB-AMD-6_CDS_222) and (acIB-AMD-6_CDS_388 or acIB-AMD-6_CDS_389) and acIB-AMD-6_CDS_387 and acIB-AMD-6_CDS_217 and Unknown and acIB-AMD-6_CDS_390)</html:p>
+<html:p>GENE_ASSOCIATION:(Unknown and Unknown and acIB-AMD-6_CDS_764 and (acIB-AMD-6_CDS_768 or acIB-AMD-6_CDS_769) and (acIB-AMD-6_CDS_943 or acIB-AMD-6_CDS_944) and (acIB-AMD-6_CDS_387 or acIB-AMD-6_CDS_762) and acIB-AMD-6_CDS_763 and Unknown and acIB-AMD-6_CDS_945)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(Unknown and Unknown and acIB-AMD-6_CDS_764 and (acIB-AMD-6_CDS_768 or acIB-AMD-6_CDS_769) and (acIB-AMD-6_CDS_943 or acIB-AMD-6_CDS_944) and (acIB-AMD-6_CDS_387 or acIB-AMD-6_CDS_762) and acIB-AMD-6_CDS_763 and Unknown and acIB-AMD-6_CDS_945)</html:p>
 <html:p>PROTEIN_CLASS:3.6.3.14</html:p>
 </notes>
 <listOfReactants>
@@ -4297,8 +4436,8 @@
 </reaction>
 <reaction id="rxn01343_c0" name="ATP_Sedoheptulose_7_phosphate_1_phosphotransferase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_103</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_103</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_645</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_645</html:p>
 <html:p>KEGG_RID:R01843</html:p>
 <html:p>PROTEIN_CLASS:2.7.1.11</html:p>
 </notes>
@@ -4324,8 +4463,8 @@
 </reaction>
 <reaction id="rxn00484_c0" name="L_Tryptophan_decarboxy_lyase_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_360</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_360</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_914</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_914</html:p>
 <html:p>KEGG_RID:R00685</html:p>
 <html:p>PROTEIN_CLASS:4.1.1.28</html:p>
 </notes>
@@ -4351,8 +4490,8 @@
 </reaction>
 <reaction id="rxn08792_c0" name="L_Lactate_dehydrogenase_ubiquinone_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_403 or acIB-AMD-6_CDS_347)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_403 or acIB-AMD-6_CDS_347)</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_958 or acIB-AMD-6_CDS_899 or acIB-AMD-6_CDS_828)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_958 or acIB-AMD-6_CDS_899 or acIB-AMD-6_CDS_828)</html:p>
 <html:p>PROTEIN_CLASS:1.1.2.3</html:p>
 </notes>
 <listOfReactants>
@@ -4377,8 +4516,8 @@
 </reaction>
 <reaction id="rxn02314_c0" name="ATP_D_tagatose_6_phosphate_1_phosphotransferase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_103</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_103</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_645</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_645</html:p>
 <html:p>KEGG_RID:R03236</html:p>
 <html:p>PROTEIN_CLASS:2.7.1.145</html:p>
 </notes>
@@ -4404,8 +4543,8 @@
 </reaction>
 <reaction id="rxn01465_c0" name="S_Dihydroorotate_amidohydrolase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_176 or acIB-AMD-6_CDS_511)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_176 or acIB-AMD-6_CDS_511)</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_1071 or acIB-AMD-6_CDS_718)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_1071 or acIB-AMD-6_CDS_718)</html:p>
 <html:p>KEGG_RID:R01993</html:p>
 <html:p>PROTEIN_CLASS:3.5.2.3</html:p>
 </notes>
@@ -4431,8 +4570,8 @@
 </reaction>
 <reaction id="rxn00209_c0" name="Pyridoxine_5_phosphate_oxygen_oxidoreductase_deaminating_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_367</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_367</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_921</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_921</html:p>
 <html:p>KEGG_RID:R00278</html:p>
 <html:p>PROTEIN_CLASS:1.4.3.5</html:p>
 </notes>
@@ -4458,8 +4597,8 @@
 </reaction>
 <reaction id="rxn01800_c0" name="Deoxycytidine_aminohydrolase_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_44</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_44</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_586</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_586</html:p>
 <html:p>KEGG_RID:R02485</html:p>
 <html:p>PROTEIN_CLASS:3.5.4.5</html:p>
 </notes>
@@ -4486,8 +4625,8 @@
 </reaction>
 <reaction id="rxn10217_c0" name="isopentadecanoyl_1_acylglycerol_3_phosphate_O_acyltransferase_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_181</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_181</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_725</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_725</html:p>
 <html:p>PROTEIN_CLASS:2.3.1.51</html:p>
 </notes>
 <listOfReactants>
@@ -4512,8 +4651,8 @@
 </reaction>
 <reaction id="rxn03436_c0" name="S_2_Aceto_2_hydroxybutanoate_NADP_oxidoreductase_isomerizing_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_494</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_494</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_1051</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_1051</html:p>
 <html:p>KEGG_RID:R05069</html:p>
 <html:p>PROTEIN_CLASS:5.4.99.3</html:p>
 </notes>
@@ -4537,8 +4676,8 @@
 </reaction>
 <reaction id="rxn08756_c0" name="1_hydroxy_2_methyl_2_E_butenyl_4_diphosphate_reductase_ipdp_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_530 or acIB-AMD-6_CDS_531)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_530 or acIB-AMD-6_CDS_531)</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_1091 or acIB-AMD-6_CDS_1092)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_1091 or acIB-AMD-6_CDS_1092)</html:p>
 <html:p>KEGG_RID:R08209</html:p>
 </notes>
 <listOfReactants>
@@ -4593,8 +4732,8 @@
 </reaction>
 <reaction id="rxn00727_c0" name="Chorismate_pyruvate_lyase_amino_accepting_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(Unknown and acIB-AMD-6_CDS_357)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(Unknown and acIB-AMD-6_CDS_357)</html:p>
+<html:p>GENE_ASSOCIATION:(Unknown and acIB-AMD-6_CDS_911)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(Unknown and acIB-AMD-6_CDS_911)</html:p>
 <html:p>KEGG_RID:R00986</html:p>
 <html:p>PROTEIN_CLASS:4.1.3.27</html:p>
 </notes>
@@ -4620,10 +4759,37 @@
 </listOfParameters>
 </kineticLaw>
 </reaction>
+<reaction id="rxn03891_c0" name="trans_hexaprenyltranstransferase_c0" reversible="false">
+<notes>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_896 or acIB-AMD-6_CDS_831)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_896 or acIB-AMD-6_CDS_831)</html:p>
+<html:p>KEGG_RID:R05612</html:p>
+<html:p>PROTEIN_CLASS:2.5.1.30</html:p>
+</notes>
+<listOfReactants>
+<speciesReference species="cpd00906_c0" stoichiometry="1"/>
+<speciesReference species="cpd00113_c0" stoichiometry="1"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference species="cpd02590_c0" stoichiometry="1"/>
+<speciesReference species="cpd00012_c0" stoichiometry="1"/>
+</listOfProducts>
+<kineticLaw>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<ci> FLUX_VALUE </ci>
+</math>
+<listOfParameters>
+<parameter id="LOWER_BOUND" value="0" name="mmol_per_gDW_per_hr"/>
+<parameter id="UPPER_BOUND" value="1000" name="mmol_per_gDW_per_hr"/>
+<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+<parameter id="FLUX_VALUE" value="0.0" name="mmol_per_gDW_per_hr"/>
+</listOfParameters>
+</kineticLaw>
+</reaction>
 <reaction id="rxn02914_c0" name="3_Phosphoserine_2_oxoglutarate_aminotransferase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_366</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_366</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_920</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_920</html:p>
 <html:p>KEGG_RID:R04173</html:p>
 <html:p>PROTEIN_CLASS:2.6.1.52</html:p>
 </notes>
@@ -4649,8 +4815,8 @@
 </reaction>
 <reaction id="rxn01300_c0" name="ATP_L_homoserine_O_phosphotransferase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_231</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_231</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_777</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_777</html:p>
 <html:p>KEGG_RID:R01771</html:p>
 <html:p>PROTEIN_CLASS:2.7.1.39</html:p>
 </notes>
@@ -4676,8 +4842,8 @@
 </reaction>
 <reaction id="rxn10264_c0" name="isohexadecanoyl_CDPdiacylglycerol_sn_glycerol_3_phosphate_3_phosphatidyltransferase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_439</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_439</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_994 or acIB-AMD-6_CDS_630)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_994 or acIB-AMD-6_CDS_630)</html:p>
 <html:p>PROTEIN_CLASS:2.7.8.5</html:p>
 </notes>
 <listOfReactants>
@@ -4702,8 +4868,8 @@
 </reaction>
 <reaction id="rxn01647_c0" name="Nicotinate_D_ribonucleoside_orthophosphate_ribosyltransferase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_36</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_36</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_578</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_578</html:p>
 <html:p>KEGG_RID:R02295</html:p>
 <html:p>PROTEIN_CLASS:2.4.2.1</html:p>
 </notes>
@@ -4729,8 +4895,8 @@
 </reaction>
 <reaction id="rxn01146_c0" name="Thymidine_orthophosphate_deoxyribosyltransferase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_43</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_43</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_585</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_585</html:p>
 <html:p>KEGG_RID:R01570</html:p>
 <html:p>PROTEIN_CLASS:2.4.2.4</html:p>
 </notes>
@@ -4757,8 +4923,8 @@
 </reaction>
 <reaction id="rxn12642_c0" name="aminopeptidase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_24</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_24</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_566</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_566</html:p>
 </notes>
 <listOfReactants>
 <speciesReference species="cpd00001_c0" stoichiometry="1"/>
@@ -4782,8 +4948,8 @@
 </reaction>
 <reaction id="rxn00881_c0" name="myo_Inositol_1_phosphate_phosphahydrolase_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_481</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_481</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_1038</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_1038</html:p>
 <html:p>KEGG_RID:R01185</html:p>
 <html:p>PROTEIN_CLASS:3.1.3.25</html:p>
 </notes>
@@ -4833,8 +4999,8 @@
 </reaction>
 <reaction id="rxn01358_c0" name="inosine_orthophosphate_ribosyltransferase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_36</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_36</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_578</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_578</html:p>
 <html:p>KEGG_RID:R01863</html:p>
 <html:p>PROTEIN_CLASS:2.4.2.15</html:p>
 </notes>
@@ -4861,8 +5027,8 @@
 </reaction>
 <reaction id="rxn00692_c0" name="5_10_Methylenetetrahydrofolate_glycine_hydroxymethyltransferase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_225</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_225</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_771</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_771</html:p>
 <html:p>KEGG_RID:R00945</html:p>
 <html:p>PROTEIN_CLASS:2.1.2.1</html:p>
 </notes>
@@ -4889,8 +5055,8 @@
 </reaction>
 <reaction id="rxn09108_c0" name="Phosphatidylglycerol_synthase_n_C12_0_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_439</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_439</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_994 or acIB-AMD-6_CDS_630)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_994 or acIB-AMD-6_CDS_630)</html:p>
 <html:p>PROTEIN_CLASS:2.7.8.5</html:p>
 </notes>
 <listOfReactants>
@@ -4915,8 +5081,8 @@
 </reaction>
 <reaction id="rxn03068_c0" name="R_2_3_Dihydroxy_3_methylbutanoate_NADP_oxidoreductase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_494</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_494</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_1051</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_1051</html:p>
 <html:p>KEGG_RID:R04440</html:p>
 <html:p>PROTEIN_CLASS:1.1.1.86</html:p>
 </notes>
@@ -4943,8 +5109,8 @@
 </reaction>
 <reaction id="rxn12634_c0" name="aminopeptidase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_24</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_24</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_566</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_566</html:p>
 </notes>
 <listOfReactants>
 <speciesReference species="cpd00001_c0" stoichiometry="1"/>
@@ -4968,8 +5134,8 @@
 </reaction>
 <reaction id="rxn10261_c0" name="isotetradecanoyl_CDPdiacylglycerol_sn_glycerol_3_phosphate_3_phosphatidyltransferase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_439</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_439</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_994 or acIB-AMD-6_CDS_630)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_994 or acIB-AMD-6_CDS_630)</html:p>
 <html:p>PROTEIN_CLASS:2.7.8.5</html:p>
 </notes>
 <listOfReactants>
@@ -4994,8 +5160,8 @@
 </reaction>
 <reaction id="rxn00907_c0" name="5_10_methylenetetrahydrofolate_NADP_oxidoreductase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_423 and acIB-AMD-6_CDS_423)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_423 and acIB-AMD-6_CDS_423)</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_978 and acIB-AMD-6_CDS_978)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_978 and acIB-AMD-6_CDS_978)</html:p>
 <html:p>KEGG_RID:R01220</html:p>
 <html:p>PROTEIN_CLASS:1.5.1.5</html:p>
 </notes>
@@ -5021,8 +5187,8 @@
 </reaction>
 <reaction id="rxn12639_c0" name="aminopeptidase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_24</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_24</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_566</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_566</html:p>
 </notes>
 <listOfReactants>
 <speciesReference species="cpd00001_c0" stoichiometry="1"/>
@@ -5046,8 +5212,8 @@
 </reaction>
 <reaction id="rxn00799_c0" name="S_Malate_hydro_lyase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_532</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_532</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_1093</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_1093</html:p>
 <html:p>KEGG_RID:R01082</html:p>
 <html:p>PROTEIN_CLASS:4.2.1.2</html:p>
 </notes>
@@ -5072,8 +5238,8 @@
 </reaction>
 <reaction id="rxn00313_c0" name="meso_2_6_Diaminoheptanedioate_carboxy_lyase_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_234</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_234</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_780</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_780</html:p>
 <html:p>KEGG_RID:R00451</html:p>
 <html:p>PROTEIN_CLASS:4.1.1.20</html:p>
 </notes>
@@ -5099,8 +5265,8 @@
 </reaction>
 <reaction id="rxn02885_c0" name="rxn02885_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_401</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_401</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_955</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_955</html:p>
 <html:p>KEGG_RID:R04134</html:p>
 <html:p>PROTEIN_CLASS:5.3.3.-</html:p>
 </notes>
@@ -5124,8 +5290,8 @@
 </reaction>
 <reaction id="rxn00634_c0" name="D_Glucitol_NAD_2_oxidoreductase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_410</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_410</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_965</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_965</html:p>
 <html:p>KEGG_RID:R00875</html:p>
 <html:p>PROTEIN_CLASS:1.1.1.15</html:p>
 </notes>
@@ -5152,8 +5318,8 @@
 </reaction>
 <reaction id="rxn01459_c0" name="4_Aminobutyraldehyde_NAD_oxidoreductase_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_40 or acIB-AMD-6_CDS_41)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_40 or acIB-AMD-6_CDS_41)</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_582 or acIB-AMD-6_CDS_583)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_582 or acIB-AMD-6_CDS_583)</html:p>
 <html:p>KEGG_RID:R01986</html:p>
 <html:p>PROTEIN_CLASS:1.2.1.3</html:p>
 </notes>
@@ -5181,8 +5347,8 @@
 </reaction>
 <reaction id="rxn00256_c0" name="Citrate_oxaloacetate_lyase_pro_3S_CH2COO____acetyl_CoA_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_368</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_368</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_922</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_922</html:p>
 <html:p>KEGG_RID:R00351</html:p>
 <html:p>PROTEIN_CLASS:2.3.3.1</html:p>
 </notes>
@@ -5210,8 +5376,8 @@
 </reaction>
 <reaction id="rxn03041_c0" name="5_Oxopent_3_ene_1_2_5_tricarboxylate_carboxy_lyase_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_401</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_401</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_955</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_955</html:p>
 <html:p>KEGG_RID:R04380</html:p>
 <html:p>PROTEIN_CLASS:4.1.1.68</html:p>
 </notes>
@@ -5237,8 +5403,8 @@
 </reaction>
 <reaction id="rxn00285_c0" name="Succinate_CoA_ligase_ADP_forming_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_426 and acIB-AMD-6_CDS_425)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_426 and acIB-AMD-6_CDS_425)</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_981 and acIB-AMD-6_CDS_980)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_981 and acIB-AMD-6_CDS_980)</html:p>
 <html:p>KEGG_RID:R00405</html:p>
 <html:p>PROTEIN_CLASS:6.2.1.4</html:p>
 </notes>
@@ -5266,8 +5432,8 @@
 </reaction>
 <reaction id="rxn10307_c0" name="palmitoyl_lipoteichoic_acid_synthesis_n24__linked__N_acetylglucosamine_substituted_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_224</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_224</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_770</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_770</html:p>
 <html:p>PROTEIN_CLASS:2.7.8.-</html:p>
 </notes>
 <listOfReactants>
@@ -5292,8 +5458,8 @@
 </reaction>
 <reaction id="rxn08087_c0" name="1_hexadec_7_enoyl_sn_glycerol_3_phosphate_O_acyltransferase_n_C16_1_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_181</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_181</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_725</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_725</html:p>
 <html:p>PROTEIN_CLASS:2.3.1.51</html:p>
 </notes>
 <listOfReactants>
@@ -5318,8 +5484,8 @@
 </reaction>
 <reaction id="rxn00611_c0" name="sn_Glycerol_3_phosphate_NAD_2_oxidoreductase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_180</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_180</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_724</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_724</html:p>
 <html:p>KEGG_RID:R00842</html:p>
 <html:p>PROTEIN_CLASS:1.1.1.8</html:p>
 </notes>
@@ -5344,39 +5510,10 @@
 </listOfParameters>
 </kineticLaw>
 </reaction>
-<reaction id="rxn00211_c0" name="UDPglucose_NAD_oxidoreductase_c0" reversible="true">
-<notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_32</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_32</html:p>
-<html:p>KEGG_RID:R00286</html:p>
-<html:p>PROTEIN_CLASS:1.1.1.22</html:p>
-</notes>
-<listOfReactants>
-<speciesReference species="cpd00001_c0" stoichiometry="1"/>
-<speciesReference species="cpd00026_c0" stoichiometry="1"/>
-<speciesReference species="cpd00003_c0" stoichiometry="2"/>
-</listOfReactants>
-<listOfProducts>
-<speciesReference species="cpd00067_c0" stoichiometry="3"/>
-<speciesReference species="cpd00004_c0" stoichiometry="2"/>
-<speciesReference species="cpd00144_c0" stoichiometry="1"/>
-</listOfProducts>
-<kineticLaw>
-<math xmlns="http://www.w3.org/1998/Math/MathML">
-<ci> FLUX_VALUE </ci>
-</math>
-<listOfParameters>
-<parameter id="LOWER_BOUND" value="-1000" name="mmol_per_gDW_per_hr"/>
-<parameter id="UPPER_BOUND" value="1000" name="mmol_per_gDW_per_hr"/>
-<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
-<parameter id="FLUX_VALUE" value="0.0" name="mmol_per_gDW_per_hr"/>
-</listOfParameters>
-</kineticLaw>
-</reaction>
 <reaction id="rxn00145_c0" name="S_Lactate_ferricytochrome_c_2_oxidoreductase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_403 or acIB-AMD-6_CDS_347)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_403 or acIB-AMD-6_CDS_347)</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_958 or acIB-AMD-6_CDS_899 or acIB-AMD-6_CDS_828)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_958 or acIB-AMD-6_CDS_899 or acIB-AMD-6_CDS_828)</html:p>
 <html:p>KEGG_RID:R00196</html:p>
 <html:p>PROTEIN_CLASS:1.1.2.3</html:p>
 </notes>
@@ -5401,10 +5538,37 @@
 </listOfParameters>
 </kineticLaw>
 </reaction>
+<reaction id="rxn05028_c0" name="E_octaprenyl_diphosphate_isopentenyl_diphosphate_c0" reversible="false">
+<notes>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_896 or acIB-AMD-6_CDS_831)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_896 or acIB-AMD-6_CDS_831)</html:p>
+<html:p>KEGG_RID:R07267</html:p>
+<html:p>PROTEIN_CLASS:2.5.1.11</html:p>
+</notes>
+<listOfReactants>
+<speciesReference species="cpd00113_c0" stoichiometry="1"/>
+<speciesReference species="cpd02557_c0" stoichiometry="1"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference species="cpd00012_c0" stoichiometry="1"/>
+<speciesReference species="cpd02172_c0" stoichiometry="1"/>
+</listOfProducts>
+<kineticLaw>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<ci> FLUX_VALUE </ci>
+</math>
+<listOfParameters>
+<parameter id="LOWER_BOUND" value="0" name="mmol_per_gDW_per_hr"/>
+<parameter id="UPPER_BOUND" value="1000" name="mmol_per_gDW_per_hr"/>
+<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+<parameter id="FLUX_VALUE" value="0.0" name="mmol_per_gDW_per_hr"/>
+</listOfParameters>
+</kineticLaw>
+</reaction>
 <reaction id="rxn00543_c0" name="Ethanol_NAD_oxidoreductase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_457</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_457</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_1013</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_1013</html:p>
 <html:p>KEGG_RID:R00754</html:p>
 <html:p>PROTEIN_CLASS:1.1.1.1</html:p>
 </notes>
@@ -5431,8 +5595,8 @@
 </reaction>
 <reaction id="rxn00414_c0" name="Carbon_dioxide_L_glutamine_amido_ligase_ADP_forming__c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:((acIB-AMD-6_CDS_510 or acIB-AMD-6_CDS_509 or acIB-AMD-6_CDS_177) and (acIB-AMD-6_CDS_508 or acIB-AMD-6_CDS_178))</html:p>
-<html:p>PROTEIN_ASSOCIATION:((acIB-AMD-6_CDS_510 or acIB-AMD-6_CDS_509 or acIB-AMD-6_CDS_177) and (acIB-AMD-6_CDS_508 or acIB-AMD-6_CDS_178))</html:p>
+<html:p>GENE_ASSOCIATION:((acIB-AMD-6_CDS_1069 or acIB-AMD-6_CDS_719 or acIB-AMD-6_CDS_1070) and (acIB-AMD-6_CDS_720 or acIB-AMD-6_CDS_1068))</html:p>
+<html:p>PROTEIN_ASSOCIATION:((acIB-AMD-6_CDS_1069 or acIB-AMD-6_CDS_719 or acIB-AMD-6_CDS_1070) and (acIB-AMD-6_CDS_720 or acIB-AMD-6_CDS_1068))</html:p>
 <html:p>KEGG_RID:R00575</html:p>
 <html:p>PROTEIN_CLASS:6.3.5.5</html:p>
 </notes>
@@ -5463,8 +5627,8 @@
 </reaction>
 <reaction id="rxn06937_c0" name="L_Glutamate_tRNAGlu_ligase_AMP_forming_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_186 or acIB-AMD-6_CDS_316)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_186 or acIB-AMD-6_CDS_316)</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_866 or acIB-AMD-6_CDS_730)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_866 or acIB-AMD-6_CDS_730)</html:p>
 <html:p>KEGG_RID:R05578</html:p>
 <html:p>PROTEIN_CLASS:6.1.1.24</html:p>
 </notes>
@@ -5493,8 +5657,8 @@
 </reaction>
 <reaction id="rxn03445_c0" name="O_Phospho_4_hydroxy_L_threonine_2_oxoglutarate_aminotransferase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_366</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_366</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_920</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_920</html:p>
 <html:p>KEGG_RID:R05085</html:p>
 <html:p>PROTEIN_CLASS:2.6.1.52</html:p>
 </notes>
@@ -5520,8 +5684,8 @@
 </reaction>
 <reaction id="rxn10312_c0" name="isotetradecanoyl_lipoteichoic_acid_synthesis_n24__linked__N_acetylglucosamine_substituted_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_224</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_224</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_770</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_770</html:p>
 <html:p>PROTEIN_CLASS:2.7.8.-</html:p>
 </notes>
 <listOfReactants>
@@ -5546,8 +5710,8 @@
 </reaction>
 <reaction id="rxn05516_c0" name="cadmium_transport_out_via_ABC_system_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_302</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_302</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_852</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_852</html:p>
 <html:p>PROTEIN_CLASS:3.A.3</html:p>
 </notes>
 <listOfReactants>
@@ -5575,8 +5739,8 @@
 </reaction>
 <reaction id="rxn05608_c0" name="Maltotriose_transport_via_ABC_system_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_370 and acIB-AMD-6_CDS_369 and Unknown and Unknown)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_370 and acIB-AMD-6_CDS_369 and Unknown and Unknown)</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_924 and acIB-AMD-6_CDS_923 and Unknown and acIB-AMD-6_CDS_925)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_924 and acIB-AMD-6_CDS_923 and Unknown and acIB-AMD-6_CDS_925)</html:p>
 </notes>
 <listOfReactants>
 <speciesReference species="cpd00002_c0" stoichiometry="1"/>
@@ -5603,8 +5767,8 @@
 </reaction>
 <reaction id="rxn05644_c0" name="D_ribose_transport_out_via_ABC_system_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(Unknown and acIB-AMD-6_CDS_409 and acIB-AMD-6_CDS_408 and Unknown)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(Unknown and acIB-AMD-6_CDS_409 and acIB-AMD-6_CDS_408 and Unknown)</html:p>
+<html:p>GENE_ASSOCIATION:(Unknown and acIB-AMD-6_CDS_964 and acIB-AMD-6_CDS_963 and Unknown)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(Unknown and acIB-AMD-6_CDS_964 and acIB-AMD-6_CDS_963 and Unknown)</html:p>
 <html:p>PROTEIN_CLASS:3.A.1.2</html:p>
 </notes>
 <listOfReactants>
@@ -5632,8 +5796,8 @@
 </reaction>
 <reaction id="rxn00139_c0" name="AMP_pyrophosphate_phosphoribosyltransferase_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_459 or acIB-AMD-6_CDS_277)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_459 or acIB-AMD-6_CDS_277)</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_826 or acIB-AMD-6_CDS_1015)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_826 or acIB-AMD-6_CDS_1015)</html:p>
 <html:p>KEGG_RID:R00190</html:p>
 <html:p>PROTEIN_CLASS:2.4.2.7</html:p>
 </notes>
@@ -5659,8 +5823,8 @@
 </reaction>
 <reaction id="rxn03904_c0" name="UDPMurAcoyl_L_Ala_D_gamma_Glu_L_Lys_D_Ala_D_Ala_undecaprenyl__c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_141</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_141</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_682</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_682</html:p>
 <html:p>KEGG_RID:R05630</html:p>
 <html:p>PROTEIN_CLASS:2.7.8.13</html:p>
 </notes>
@@ -5686,8 +5850,8 @@
 </reaction>
 <reaction id="rxn02465_c0" name="N_Acetyl_L_glutamate_5_semialdehyde_NADP_5_oxidoreductase_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_54</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_54</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_596</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_596</html:p>
 <html:p>KEGG_RID:R03443</html:p>
 <html:p>PROTEIN_CLASS:1.2.1.38</html:p>
 </notes>
@@ -5714,8 +5878,8 @@
 </reaction>
 <reaction id="rxn00549_c0" name="D_Fructose_1_6_bisphosphate_1_phosphohydrolase_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_391</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_391</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_946</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_946</html:p>
 <html:p>KEGG_RID:R00762</html:p>
 <html:p>PROTEIN_CLASS:3.1.3.11</html:p>
 </notes>
@@ -5740,10 +5904,38 @@
 </listOfParameters>
 </kineticLaw>
 </reaction>
+<reaction id="rxn01740_c0" name="Shikimate_NADP_5_oxidoreductase_c0" reversible="true">
+<notes>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_707</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_707</html:p>
+<html:p>KEGG_RID:R02413</html:p>
+<html:p>PROTEIN_CLASS:1.1.1.25</html:p>
+</notes>
+<listOfReactants>
+<speciesReference species="cpd00006_c0" stoichiometry="1"/>
+<speciesReference species="cpd00383_c0" stoichiometry="1"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference species="cpd00067_c0" stoichiometry="1"/>
+<speciesReference species="cpd01716_c0" stoichiometry="1"/>
+<speciesReference species="cpd00005_c0" stoichiometry="1"/>
+</listOfProducts>
+<kineticLaw>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<ci> FLUX_VALUE </ci>
+</math>
+<listOfParameters>
+<parameter id="LOWER_BOUND" value="-1000" name="mmol_per_gDW_per_hr"/>
+<parameter id="UPPER_BOUND" value="1000" name="mmol_per_gDW_per_hr"/>
+<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+<parameter id="FLUX_VALUE" value="0.0" name="mmol_per_gDW_per_hr"/>
+</listOfParameters>
+</kineticLaw>
+</reaction>
 <reaction id="rxn12847_c0" name="Gly_Try_aminopeptidase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_24</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_24</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_566</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_566</html:p>
 <html:p>PROTEIN_CLASS:3.4.11.2</html:p>
 </notes>
 <listOfReactants>
@@ -5768,8 +5960,8 @@
 </reaction>
 <reaction id="rxn00083_c0" name="NADPH_NAD_oxidoreductase_B_specific_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:((acIB-AMD-6_CDS_478 or acIB-AMD-6_CDS_477) or acIB-AMD-6_CDS_476)</html:p>
-<html:p>PROTEIN_ASSOCIATION:((acIB-AMD-6_CDS_478 or acIB-AMD-6_CDS_477) or acIB-AMD-6_CDS_476)</html:p>
+<html:p>GENE_ASSOCIATION:((acIB-AMD-6_CDS_1034 or acIB-AMD-6_CDS_1033) or acIB-AMD-6_CDS_1032)</html:p>
+<html:p>PROTEIN_ASSOCIATION:((acIB-AMD-6_CDS_1034 or acIB-AMD-6_CDS_1033) or acIB-AMD-6_CDS_1032)</html:p>
 <html:p>KEGG_RID:R00112</html:p>
 <html:p>PROTEIN_CLASS:1.6.1.2</html:p>
 </notes>
@@ -5795,8 +5987,8 @@
 </reaction>
 <reaction id="rxn09112_c0" name="Phosphatidylglycerol_synthase_n_C16_1_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_439</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_439</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_994 or acIB-AMD-6_CDS_630)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_994 or acIB-AMD-6_CDS_630)</html:p>
 <html:p>PROTEIN_CLASS:2.7.8.5</html:p>
 </notes>
 <listOfReactants>
@@ -5821,8 +6013,8 @@
 </reaction>
 <reaction id="rxn00903_c0" name="L_Valine_2_oxoglutarate_aminotransferase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_497</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_497</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_1054</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_1054</html:p>
 <html:p>KEGG_RID:R01214</html:p>
 <html:p>PROTEIN_CLASS:2.6.1.6</html:p>
 </notes>
@@ -5848,8 +6040,8 @@
 </reaction>
 <reaction id="rxn08088_c0" name="1_octadecanoyl_sn_glycerol_3_phosphate_O_acyltransferase_n_C18_0_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_181</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_181</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_725</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_725</html:p>
 <html:p>PROTEIN_CLASS:2.3.1.51</html:p>
 </notes>
 <listOfReactants>
@@ -5874,8 +6066,8 @@
 </reaction>
 <reaction id="rxn10343_c0" name="Mercury_Hg2_ABC_transporter_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_302</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_302</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_852</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_852</html:p>
 </notes>
 <listOfReactants>
 <speciesReference species="cpd00002_c0" stoichiometry="1"/>
@@ -5902,8 +6094,8 @@
 </reaction>
 <reaction id="rxn08793_c0" name="L_Lactate_dehydrogenase_menaquinone_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_403 or acIB-AMD-6_CDS_347)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_403 or acIB-AMD-6_CDS_347)</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_958 or acIB-AMD-6_CDS_899 or acIB-AMD-6_CDS_828)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_958 or acIB-AMD-6_CDS_899 or acIB-AMD-6_CDS_828)</html:p>
 <html:p>PROTEIN_CLASS:1.1.2.3</html:p>
 </notes>
 <listOfReactants>
@@ -5928,8 +6120,8 @@
 </reaction>
 <reaction id="rxn10310_c0" name="isoheptadecanoyl_lipoteichoic_acid_synthesis_n24__linked__N_acetylglucosamine_substituted_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_224</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_224</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_770</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_770</html:p>
 <html:p>PROTEIN_CLASS:2.7.8.-</html:p>
 </notes>
 <listOfReactants>
@@ -5954,8 +6146,8 @@
 </reaction>
 <reaction id="rxn02360_c0" name="trans_4_Hydroxy_L_proline_2_epimerase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_330</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_330</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_881</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_881</html:p>
 <html:p>KEGG_RID:R03296</html:p>
 <html:p>PROTEIN_CLASS:5.1.1.8</html:p>
 </notes>
@@ -5964,6 +6156,33 @@
 </listOfReactants>
 <listOfProducts>
 <speciesReference species="cpd02175_c0" stoichiometry="1"/>
+</listOfProducts>
+<kineticLaw>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<ci> FLUX_VALUE </ci>
+</math>
+<listOfParameters>
+<parameter id="LOWER_BOUND" value="-1000" name="mmol_per_gDW_per_hr"/>
+<parameter id="UPPER_BOUND" value="1000" name="mmol_per_gDW_per_hr"/>
+<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+<parameter id="FLUX_VALUE" value="0.0" name="mmol_per_gDW_per_hr"/>
+</listOfParameters>
+</kineticLaw>
+</reaction>
+<reaction id="rxn00141_c0" name="S_Adenosyl_L_homocysteine_hydrolase_c0" reversible="true">
+<notes>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_543</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_543</html:p>
+<html:p>KEGG_RID:R00192</html:p>
+<html:p>PROTEIN_CLASS:3.3.1.1</html:p>
+</notes>
+<listOfReactants>
+<speciesReference species="cpd00001_c0" stoichiometry="1"/>
+<speciesReference species="cpd00019_c0" stoichiometry="1"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference species="cpd00182_c0" stoichiometry="1"/>
+<speciesReference species="cpd00135_c0" stoichiometry="1"/>
 </listOfProducts>
 <kineticLaw>
 <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -6005,8 +6224,8 @@
 </reaction>
 <reaction id="rxn01859_c0" name="Deoxyadenosine_orthophosphate_ribosyltransferase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_36</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_36</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_578</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_578</html:p>
 <html:p>KEGG_RID:R02557</html:p>
 <html:p>PROTEIN_CLASS:2.4.2.4</html:p>
 </notes>
@@ -6033,8 +6252,8 @@
 </reaction>
 <reaction id="rxn02945_c0" name="prephytoene_diphosphate_geranylgeranyl_diphosphate_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_445 or acIB-AMD-6_CDS_92)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_445 or acIB-AMD-6_CDS_92)</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_634 or acIB-AMD-6_CDS_1001)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_634 or acIB-AMD-6_CDS_1001)</html:p>
 <html:p>KEGG_RID:R04218</html:p>
 <html:p>PROTEIN_CLASS:2.5.1.32</html:p>
 </notes>
@@ -6059,8 +6278,8 @@
 </reaction>
 <reaction id="rxn01512_c0" name="ATP_nucleoside_diphosphate_phosphatransferase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_524</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_524</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_1085</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_1085</html:p>
 <html:p>KEGG_RID:R02093</html:p>
 <html:p>PROTEIN_CLASS:2.7.4.6</html:p>
 </notes>
@@ -6084,10 +6303,37 @@
 </listOfParameters>
 </kineticLaw>
 </reaction>
+<reaction id="rxn01466_c0" name="Geranyl_diphosphate_isopentenyl_diphosphate_geranyltrans_transferase_c0" reversible="false">
+<notes>
+<html:p>GENE_ASSOCIATION:((acIB-AMD-6_CDS_896 or acIB-AMD-6_CDS_831) or (Unknown and Unknown and (acIB-AMD-6_CDS_632 or acIB-AMD-6_CDS_999) and Unknown))</html:p>
+<html:p>PROTEIN_ASSOCIATION:((acIB-AMD-6_CDS_896 or acIB-AMD-6_CDS_831) or (Unknown and Unknown and (acIB-AMD-6_CDS_632 or acIB-AMD-6_CDS_999) and Unknown))</html:p>
+<html:p>KEGG_RID:R02003</html:p>
+<html:p>PROTEIN_CLASS:2.5.1.1</html:p>
+</notes>
+<listOfReactants>
+<speciesReference species="cpd00113_c0" stoichiometry="1"/>
+<speciesReference species="cpd00283_c0" stoichiometry="1"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference species="cpd00012_c0" stoichiometry="1"/>
+<speciesReference species="cpd00350_c0" stoichiometry="1"/>
+</listOfProducts>
+<kineticLaw>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<ci> FLUX_VALUE </ci>
+</math>
+<listOfParameters>
+<parameter id="LOWER_BOUND" value="0" name="mmol_per_gDW_per_hr"/>
+<parameter id="UPPER_BOUND" value="1000" name="mmol_per_gDW_per_hr"/>
+<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+<parameter id="FLUX_VALUE" value="0.0" name="mmol_per_gDW_per_hr"/>
+</listOfParameters>
+</kineticLaw>
+</reaction>
 <reaction id="rxn02185_c0" name="2_Acetolactate_pyruvate_lyase_carboxylating_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_492 and acIB-AMD-6_CDS_493)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_492 and acIB-AMD-6_CDS_493)</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_1049 and acIB-AMD-6_CDS_1050)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_1049 and acIB-AMD-6_CDS_1050)</html:p>
 <html:p>KEGG_RID:R03050</html:p>
 <html:p>PROTEIN_CLASS:2.2.1.6</html:p>
 </notes>
@@ -6113,8 +6359,8 @@
 </reaction>
 <reaction id="rxn00784_c0" name="2_Deoxy_D_ribose_5_phosphate_acetaldehyde_lyase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_39</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_39</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_581</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_581</html:p>
 <html:p>KEGG_RID:R01066</html:p>
 <html:p>PROTEIN_CLASS:4.1.2.4</html:p>
 </notes>
@@ -6139,8 +6385,8 @@
 </reaction>
 <reaction id="rxn00974_c0" name="citrate_hydro_lyase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:(Unknown and acIB-AMD-6_CDS_384)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(Unknown and acIB-AMD-6_CDS_384)</html:p>
+<html:p>GENE_ASSOCIATION:(Unknown and acIB-AMD-6_CDS_939)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(Unknown and acIB-AMD-6_CDS_939)</html:p>
 <html:p>KEGG_RID:R01325</html:p>
 <html:p>PROTEIN_CLASS:4.2.1.3</html:p>
 </notes>
@@ -6165,8 +6411,8 @@
 </reaction>
 <reaction id="rxn01646_c0" name="N_Ribosylnicotinamide_orthophosphate_ribosyltransferase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_36</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_36</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_578</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_578</html:p>
 <html:p>KEGG_RID:R02294</html:p>
 <html:p>PROTEIN_CLASS:2.4.2.1</html:p>
 </notes>
@@ -6192,8 +6438,8 @@
 </reaction>
 <reaction id="rxn05735_c0" name="aldehyde_dehydrogenase_aminoacetaldehyde__NAD_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_40 or acIB-AMD-6_CDS_41)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_40 or acIB-AMD-6_CDS_41)</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_582 or acIB-AMD-6_CDS_583)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_582 or acIB-AMD-6_CDS_583)</html:p>
 </notes>
 <listOfReactants>
 <speciesReference species="cpd00001_c0" stoichiometry="1"/>
@@ -6219,8 +6465,8 @@
 </reaction>
 <reaction id="rxn12638_c0" name="aminopeptidase_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_24</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_24</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_566</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_566</html:p>
 </notes>
 <listOfReactants>
 <speciesReference species="cpd11588_c0" stoichiometry="1"/>
@@ -6245,8 +6491,8 @@
 </reaction>
 <reaction id="rxn12643_c0" name="aminopeptidase_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_24</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_24</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_566</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_566</html:p>
 </notes>
 <listOfReactants>
 <speciesReference species="cpd00001_c0" stoichiometry="1"/>
@@ -6270,8 +6516,8 @@
 </reaction>
 <reaction id="rxn03903_c0" name="UDPMurAcoyl_L_Ala_D_gamma_Glu_L_Lys_D_Ala_D_Ala_undecaprenyl__c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_141</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_141</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_682</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_682</html:p>
 <html:p>KEGG_RID:R05629</html:p>
 <html:p>PROTEIN_CLASS:2.7.8.13</html:p>
 </notes>
@@ -6297,8 +6543,8 @@
 </reaction>
 <reaction id="rxn08352_c0" name="1_hydroxy_2_methyl_2_E_butenyl_4_diphosphate_reductase_dmpp_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_530 or acIB-AMD-6_CDS_531)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_530 or acIB-AMD-6_CDS_531)</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_1091 or acIB-AMD-6_CDS_1092)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_1091 or acIB-AMD-6_CDS_1092)</html:p>
 <html:p>KEGG_RID:R08210</html:p>
 </notes>
 <listOfReactants>
@@ -6325,8 +6571,8 @@
 </reaction>
 <reaction id="rxn03031_c0" name="Succinyl_CoA_2_3_4_5_tetrahydropyridine_2_6_dicarboxylate_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_29</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_29</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_571</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_571</html:p>
 <html:p>KEGG_RID:R04365</html:p>
 <html:p>PROTEIN_CLASS:2.3.1.117</html:p>
 </notes>
@@ -6353,8 +6599,8 @@
 </reaction>
 <reaction id="rxn00148_c0" name="ATP_pyruvate_O2_phosphotransferase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_207</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_207</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_752</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_752</html:p>
 <html:p>KEGG_RID:R00200</html:p>
 <html:p>PROTEIN_CLASS:2.7.1.40</html:p>
 </notes>
@@ -6380,8 +6626,8 @@
 </reaction>
 <reaction id="rxn05197_c0" name="Uracil_ion_coupled_transport_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_61</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_61</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_603</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_603</html:p>
 <html:p>PROTEIN_CLASS:TC-2.A.40</html:p>
 </notes>
 <listOfReactants>
@@ -6406,8 +6652,8 @@
 </reaction>
 <reaction id="rxn08085_c0" name="1_tetradec_7_enoyl_sn_glycerol_3_phosphate_O_acyltransferase_n_C14_1_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_181</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_181</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_725</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_725</html:p>
 <html:p>PROTEIN_CLASS:2.3.1.51</html:p>
 </notes>
 <listOfReactants>
@@ -6432,8 +6678,8 @@
 </reaction>
 <reaction id="rxn09109_c0" name="Phosphatidylglycerol_synthase_n_C14_0_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_439</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_439</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_994 or acIB-AMD-6_CDS_630)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_994 or acIB-AMD-6_CDS_630)</html:p>
 <html:p>PROTEIN_CLASS:2.7.8.5</html:p>
 </notes>
 <listOfReactants>
@@ -6458,8 +6704,8 @@
 </reaction>
 <reaction id="rxn00022_c0" name="alpha_D_Glucoside_glucohydrolase_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_501</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_501</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_1059</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_1059</html:p>
 <html:p>KEGG_RID:R00028</html:p>
 <html:p>PROTEIN_CLASS:3.2.1.20</html:p>
 </notes>
@@ -6484,8 +6730,8 @@
 </reaction>
 <reaction id="rxn01977_c0" name="alpha_D_Glucose_6_phosphate_ketol_isomerase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_75</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_75</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_617</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_617</html:p>
 <html:p>KEGG_RID:R02739</html:p>
 <html:p>PROTEIN_CLASS:5.1.3.15</html:p>
 </notes>
@@ -6509,8 +6755,8 @@
 </reaction>
 <reaction id="rxn01851_c0" name="4_aminobutanal_NAD_1_oxidoreductase_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_40 or acIB-AMD-6_CDS_41)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_40 or acIB-AMD-6_CDS_41)</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_582 or acIB-AMD-6_CDS_583)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_582 or acIB-AMD-6_CDS_583)</html:p>
 <html:p>KEGG_RID:R02549</html:p>
 <html:p>PROTEIN_CLASS:1.2.1.3</html:p>
 </notes>
@@ -6538,8 +6784,8 @@
 </reaction>
 <reaction id="rxn12635_c0" name="aminopeptidase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_24</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_24</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_566</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_566</html:p>
 </notes>
 <listOfReactants>
 <speciesReference species="cpd11591_c0" stoichiometry="1"/>
@@ -6563,8 +6809,8 @@
 </reaction>
 <reaction id="rxn10314_c0" name="anteisopentadecanoyl_lipoteichoic_acid_synthesis_n24__linked__N_acetylglucosamine_substituted_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_224</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_224</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_770</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_770</html:p>
 <html:p>PROTEIN_CLASS:2.7.8.-</html:p>
 </notes>
 <listOfReactants>
@@ -6589,8 +6835,8 @@
 </reaction>
 <reaction id="rxn10481_c0" name="Copper_transport_via_ABC_system_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_302</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_302</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_852</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_852</html:p>
 </notes>
 <listOfReactants>
 <speciesReference species="cpd00058_e0" stoichiometry="1"/>
@@ -6617,8 +6863,8 @@
 </reaction>
 <reaction id="rxn10216_c0" name="isotetradecanoyl_1_acylglycerol_3_phosphate_O_acyltransferase_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_181</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_181</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_725</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_725</html:p>
 <html:p>PROTEIN_CLASS:2.3.1.51</html:p>
 </notes>
 <listOfReactants>
@@ -6643,8 +6889,8 @@
 </reaction>
 <reaction id="rxn00438_c0" name="ATP_thiamin_phosphate_phosphotransferase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_237 or acIB-AMD-6_CDS_126)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_237 or acIB-AMD-6_CDS_126)</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_784 or acIB-AMD-6_CDS_666)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_784 or acIB-AMD-6_CDS_666)</html:p>
 <html:p>KEGG_RID:R00617</html:p>
 <html:p>PROTEIN_CLASS:2.7.4.16</html:p>
 </notes>
@@ -6670,8 +6916,8 @@
 </reaction>
 <reaction id="rxn10344_c0" name="Lead_Pb2_ABC_transporter_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_302</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_302</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_852</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_852</html:p>
 </notes>
 <listOfReactants>
 <speciesReference species="cpd00002_c0" stoichiometry="1"/>
@@ -6698,8 +6944,8 @@
 </reaction>
 <reaction id="rxn02811_c0" name="3_Isopropylmalate_hydro_lyase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_184 and acIB-AMD-6_CDS_183)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_184 and acIB-AMD-6_CDS_183)</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_728 and acIB-AMD-6_CDS_727)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_728 and acIB-AMD-6_CDS_727)</html:p>
 <html:p>KEGG_RID:R04001</html:p>
 <html:p>PROTEIN_CLASS:4.2.1.33</html:p>
 </notes>
@@ -6724,8 +6970,8 @@
 </reaction>
 <reaction id="rxn10262_c0" name="isopentadecanoyl_CDPdiacylglycerol_sn_glycerol_3_phosphate_3_phosphatidyltransferase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_439</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_439</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_994 or acIB-AMD-6_CDS_630)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_994 or acIB-AMD-6_CDS_630)</html:p>
 <html:p>PROTEIN_CLASS:2.7.8.5</html:p>
 </notes>
 <listOfReactants>
@@ -6750,8 +6996,8 @@
 </reaction>
 <reaction id="rxn01286_c0" name="D_Glyceraldehyde_NAD_oxidoreductase_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_40 or acIB-AMD-6_CDS_41)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_40 or acIB-AMD-6_CDS_41)</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_582 or acIB-AMD-6_CDS_583)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_582 or acIB-AMD-6_CDS_583)</html:p>
 <html:p>KEGG_RID:R01752</html:p>
 <html:p>PROTEIN_CLASS:1.2.1.3</html:p>
 </notes>
@@ -6779,8 +7025,8 @@
 </reaction>
 <reaction id="rxn00199_c0" name="Oxalosuccinate_NADP_oxidoreductase_decarboxylating_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_420</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_420</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_975</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_975</html:p>
 <html:p>KEGG_RID:R00268</html:p>
 <html:p>PROTEIN_CLASS:1.1.1.42</html:p>
 </notes>
@@ -6806,8 +7052,8 @@
 </reaction>
 <reaction id="rxn08040_c0" name="UDP_N_acetylglucosamine_undecaprenylphosphate_N_acetylglucosamine__1_phosphate_transferase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_224</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_224</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_770</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_770</html:p>
 <html:p>KEGG_RID:R08856</html:p>
 </notes>
 <listOfReactants>
@@ -6832,8 +7078,8 @@
 </reaction>
 <reaction id="rxn08084_c0" name="1_tetradecanoyl_sn_glycerol_3_phosphate_O_acyltransferase_n_C14_0_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_181</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_181</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_725</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_725</html:p>
 <html:p>PROTEIN_CLASS:2.3.1.51</html:p>
 </notes>
 <listOfReactants>
@@ -6858,8 +7104,8 @@
 </reaction>
 <reaction id="rxn05170_c0" name="Maltose_ABC_transport_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_370 and acIB-AMD-6_CDS_369 and Unknown)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_370 and acIB-AMD-6_CDS_369 and Unknown)</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_924 and acIB-AMD-6_CDS_923 and acIB-AMD-6_CDS_925)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_924 and acIB-AMD-6_CDS_923 and acIB-AMD-6_CDS_925)</html:p>
 <html:p>PROTEIN_CLASS:3.A.1.1</html:p>
 </notes>
 <listOfReactants>
@@ -6887,8 +7133,8 @@
 </reaction>
 <reaction id="rxn02303_c0" name="Coproporphyrinogen_oxygen_oxidoreductasedecarboxylating_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_307 or acIB-AMD-6_CDS_195)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_307 or acIB-AMD-6_CDS_195)</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_739 or acIB-AMD-6_CDS_857)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_739 or acIB-AMD-6_CDS_857)</html:p>
 <html:p>KEGG_RID:R03220</html:p>
 <html:p>PROTEIN_CLASS:1.3.3.3</html:p>
 </notes>
@@ -6916,8 +7162,8 @@
 </reaction>
 <reaction id="rxn10260_c0" name="anteisoheptadecanoyl_CDPdiacylglycerol_sn_glycerol_3_phosphate_3_phosphatidyltransferase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_439</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_439</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_994 or acIB-AMD-6_CDS_630)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_994 or acIB-AMD-6_CDS_630)</html:p>
 <html:p>PROTEIN_CLASS:2.7.8.5</html:p>
 </notes>
 <listOfReactants>
@@ -6940,37 +7186,10 @@
 </listOfParameters>
 </kineticLaw>
 </reaction>
-<reaction id="rxn03087_c0" name="N_Succinyl_L_2_6_diaminoheptanedioate_2_ocoglytarate_c0" reversible="true">
-<notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_8</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_8</html:p>
-<html:p>KEGG_RID:R04475</html:p>
-<html:p>PROTEIN_CLASS:2.6.1.17</html:p>
-</notes>
-<listOfReactants>
-<speciesReference species="cpd02698_c0" stoichiometry="1"/>
-<speciesReference species="cpd00024_c0" stoichiometry="1"/>
-</listOfReactants>
-<listOfProducts>
-<speciesReference species="cpd00023_c0" stoichiometry="1"/>
-<speciesReference species="cpd02724_c0" stoichiometry="1"/>
-</listOfProducts>
-<kineticLaw>
-<math xmlns="http://www.w3.org/1998/Math/MathML">
-<ci> FLUX_VALUE </ci>
-</math>
-<listOfParameters>
-<parameter id="LOWER_BOUND" value="-1000" name="mmol_per_gDW_per_hr"/>
-<parameter id="UPPER_BOUND" value="1000" name="mmol_per_gDW_per_hr"/>
-<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
-<parameter id="FLUX_VALUE" value="0.0" name="mmol_per_gDW_per_hr"/>
-</listOfParameters>
-</kineticLaw>
-</reaction>
 <reaction id="rxn01329_c0" name="D_Mannose_6_phosphate_1_6_phosphomutase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_2 or acIB-AMD-6_CDS_37 or acIB-AMD-6_CDS_38)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_2 or acIB-AMD-6_CDS_37 or acIB-AMD-6_CDS_38)</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_544 or acIB-AMD-6_CDS_579 or acIB-AMD-6_CDS_580)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_544 or acIB-AMD-6_CDS_579 or acIB-AMD-6_CDS_580)</html:p>
 <html:p>KEGG_RID:R01818</html:p>
 <html:p>PROTEIN_CLASS:5.4.2.8</html:p>
 </notes>
@@ -6994,8 +7213,8 @@
 </reaction>
 <reaction id="rxn01353_c0" name="ATP_nucleoside_diphosphate_phosphatransferase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_524</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_524</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_1085</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_1085</html:p>
 <html:p>KEGG_RID:R01857</html:p>
 <html:p>PROTEIN_CLASS:2.7.4.6</html:p>
 </notes>
@@ -7042,10 +7261,37 @@
 </listOfParameters>
 </kineticLaw>
 </reaction>
+<reaction id="rxn01213_c0" name="Dimethylallyl_diphosphate_isopentenyl_diphosphate_c0" reversible="false">
+<notes>
+<html:p>GENE_ASSOCIATION:(Unknown and Unknown and (acIB-AMD-6_CDS_632 or acIB-AMD-6_CDS_999) and Unknown)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(Unknown and Unknown and (acIB-AMD-6_CDS_632 or acIB-AMD-6_CDS_999) and Unknown)</html:p>
+<html:p>KEGG_RID:R01658</html:p>
+<html:p>PROTEIN_CLASS:2.5.1.1</html:p>
+</notes>
+<listOfReactants>
+<speciesReference species="cpd00113_c0" stoichiometry="1"/>
+<speciesReference species="cpd00202_c0" stoichiometry="1"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference species="cpd00012_c0" stoichiometry="1"/>
+<speciesReference species="cpd00283_c0" stoichiometry="1"/>
+</listOfProducts>
+<kineticLaw>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<ci> FLUX_VALUE </ci>
+</math>
+<listOfParameters>
+<parameter id="LOWER_BOUND" value="0" name="mmol_per_gDW_per_hr"/>
+<parameter id="UPPER_BOUND" value="1000" name="mmol_per_gDW_per_hr"/>
+<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+<parameter id="FLUX_VALUE" value="0.0" name="mmol_per_gDW_per_hr"/>
+</listOfParameters>
+</kineticLaw>
+</reaction>
 <reaction id="rxn01917_c0" name="ATP_N_acetyl_L_glutamate_5_phosphotransferase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_53</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_53</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_595</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_595</html:p>
 <html:p>KEGG_RID:R02649</html:p>
 <html:p>PROTEIN_CLASS:2.7.2.8</html:p>
 </notes>
@@ -7072,8 +7318,8 @@
 </reaction>
 <reaction id="rxn01100_c0" name="ATP_3_phospho_D_glycerate_1_phosphotransferase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_79</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_79</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_621</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_621</html:p>
 <html:p>KEGG_RID:R01512</html:p>
 <html:p>PROTEIN_CLASS:2.7.2.3</html:p>
 </notes>
@@ -7100,8 +7346,8 @@
 </reaction>
 <reaction id="rxn01603_c0" name="7_8_dihydropteroate_L_glutamate_ligase_ADP_forming_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_526 and acIB-AMD-6_CDS_526)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_526 and acIB-AMD-6_CDS_526)</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_1087 and acIB-AMD-6_CDS_1087)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_1087 and acIB-AMD-6_CDS_1087)</html:p>
 <html:p>KEGG_RID:R02237</html:p>
 <html:p>PROTEIN_CLASS:6.3.2.17</html:p>
 </notes>
@@ -7130,8 +7376,8 @@
 </reaction>
 <reaction id="rxn02175_c0" name="ATP_pantetheine_4_phosphate_adenylyltransferase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_242 or acIB-AMD-6_CDS_121)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_242 or acIB-AMD-6_CDS_121)</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_788 or acIB-AMD-6_CDS_663)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_788 or acIB-AMD-6_CDS_663)</html:p>
 <html:p>KEGG_RID:R03035</html:p>
 <html:p>PROTEIN_CLASS:2.7.7.3</html:p>
 </notes>
@@ -7157,8 +7403,8 @@
 </reaction>
 <reaction id="rxn01790_c0" name="R_Pantoate_NADP_2_oxidoreductase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_494</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_494</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_1051</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_1051</html:p>
 <html:p>KEGG_RID:R02472</html:p>
 <html:p>PROTEIN_CLASS:1.1.1.169</html:p>
 </notes>
@@ -7185,8 +7431,8 @@
 </reaction>
 <reaction id="rxn05528_c0" name="Copper_export_via_ATPase_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_302</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_302</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_852</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_852</html:p>
 <html:p>PROTEIN_CLASS:3.A.3</html:p>
 </notes>
 <listOfReactants>
@@ -7214,8 +7460,8 @@
 </reaction>
 <reaction id="rxn00747_c0" name="D_Glyceraldehyde_3_phosphate_ketol_isomerase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_78</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_78</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_620</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_620</html:p>
 <html:p>KEGG_RID:R01015</html:p>
 <html:p>PROTEIN_CLASS:5.3.1.1</html:p>
 </notes>
@@ -7239,8 +7485,8 @@
 </reaction>
 <reaction id="rxn10213_c0" name="stearoyl_1_acylglycerol_3_phosphate_O_acyltransferase_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_181</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_181</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_725</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_725</html:p>
 <html:p>PROTEIN_CLASS:2.3.1.51</html:p>
 </notes>
 <listOfReactants>
@@ -7265,8 +7511,8 @@
 </reaction>
 <reaction id="rxn01799_c0" name="deoxyuridine_orthophosphate_2_deoxy_D_ribosyltransferase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_36</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_36</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_578</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_578</html:p>
 <html:p>KEGG_RID:R02484</html:p>
 <html:p>PROTEIN_CLASS:2.4.2.4</html:p>
 </notes>
@@ -7293,8 +7539,8 @@
 </reaction>
 <reaction id="rxn00237_c0" name="ATP_nucleoside_diphosphate_phosphatransferase_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_524</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_524</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_1085</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_1085</html:p>
 <html:p>KEGG_RID:R00330</html:p>
 <html:p>PROTEIN_CLASS:2.7.4.6</html:p>
 </notes>
@@ -7320,8 +7566,8 @@
 </reaction>
 <reaction id="rxn10313_c0" name="isopentadecanoyl_lipoteichoic_acid_synthesis_n24__linked__N_acetylglucosamine_substituted_c0" reversible="true">
 <notes>
-<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_224</html:p>
-<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_224</html:p>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_770</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_770</html:p>
 <html:p>PROTEIN_CLASS:2.7.8.-</html:p>
 </notes>
 <listOfReactants>
@@ -7346,8 +7592,8 @@
 </reaction>
 <reaction id="rxn01210_c0" name="10_Formyltetrahydrofolate_L_glutamate_ligase_ADP_forming_c0" reversible="false">
 <notes>
-<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_526 and acIB-AMD-6_CDS_526)</html:p>
-<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_526 and acIB-AMD-6_CDS_526)</html:p>
+<html:p>GENE_ASSOCIATION:(acIB-AMD-6_CDS_1087 and acIB-AMD-6_CDS_1087)</html:p>
+<html:p>PROTEIN_ASSOCIATION:(acIB-AMD-6_CDS_1087 and acIB-AMD-6_CDS_1087)</html:p>
 <html:p>KEGG_RID:R01654</html:p>
 <html:p>PROTEIN_CLASS:6.3.2.17</html:p>
 </notes>
@@ -7361,6 +7607,35 @@
 <speciesReference species="cpd00009_c0" stoichiometry="1"/>
 <speciesReference species="cpd00008_c0" stoichiometry="1"/>
 <speciesReference species="cpd03524_c0" stoichiometry="1"/>
+</listOfProducts>
+<kineticLaw>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<ci> FLUX_VALUE </ci>
+</math>
+<listOfParameters>
+<parameter id="LOWER_BOUND" value="0" name="mmol_per_gDW_per_hr"/>
+<parameter id="UPPER_BOUND" value="1000" name="mmol_per_gDW_per_hr"/>
+<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+<parameter id="FLUX_VALUE" value="0.0" name="mmol_per_gDW_per_hr"/>
+</listOfParameters>
+</kineticLaw>
+</reaction>
+<reaction id="rxn00851_c0" name="D_AlanineD_Alanine_ligase_ADP_forming_c0" reversible="false">
+<notes>
+<html:p>GENE_ASSOCIATION:acIB-AMD-6_CDS_723</html:p>
+<html:p>PROTEIN_ASSOCIATION:acIB-AMD-6_CDS_723</html:p>
+<html:p>KEGG_RID:R01150</html:p>
+<html:p>PROTEIN_CLASS:6.3.2.4</html:p>
+</notes>
+<listOfReactants>
+<speciesReference species="cpd00002_c0" stoichiometry="1"/>
+<speciesReference species="cpd00117_c0" stoichiometry="2"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference species="cpd00067_c0" stoichiometry="1"/>
+<speciesReference species="cpd00009_c0" stoichiometry="1"/>
+<speciesReference species="cpd00731_c0" stoichiometry="1"/>
+<speciesReference species="cpd00008_c0" stoichiometry="1"/>
 </listOfProducts>
 <kineticLaw>
 <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -7864,7 +8139,7 @@
 <speciesReference species="cpd00001_c0" stoichiometry="35.5403092430435"/>
 <speciesReference species="cpd00060_c0" stoichiometry="0.127801422590767"/>
 <speciesReference species="cpd00066_c0" stoichiometry="0.154519490031345"/>
-<speciesReference species="cpd00241_c0" stoichiometry="0.0134788681569086"/>
+<speciesReference species="cpd00241_c0" stoichiometry="0.0160206718346253"/>
 <speciesReference species="cpd15665_c0" stoichiometry="0.0250105977108944"/>
 <speciesReference species="cpd00069_c0" stoichiometry="0.120676604606612"/>
 <speciesReference species="cpd00010_c0" stoichiometry="0.00309646685192537"/>
@@ -7902,7 +8177,7 @@
 <speciesReference species="cpd17042_c0" stoichiometry="1"/>
 <speciesReference species="cpd00220_c0" stoichiometry="0.00309646685192537"/>
 <speciesReference species="cpd00063_c0" stoichiometry="0.00309646685192537"/>
-<speciesReference species="cpd00356_c0" stoichiometry="0.0134788681569086"/>
+<speciesReference species="cpd00356_c0" stoichiometry="0.0160206718346253"/>
 <speciesReference species="cpd10515_c0" stoichiometry="0.00309646685192537"/>
 <speciesReference species="cpd15795_c0" stoichiometry="0.0106480421341882"/>
 <speciesReference species="cpd00042_c0" stoichiometry="0.00309646685192537"/>
@@ -7910,10 +8185,10 @@
 <speciesReference species="cpd00003_c0" stoichiometry="0.00309646685192537"/>
 <speciesReference species="cpd00166_c0" stoichiometry="0.00309646685192537"/>
 <speciesReference species="cpd15500_c0" stoichiometry="0.00309646685192537"/>
-<speciesReference species="cpd00357_c0" stoichiometry="0.0185651040580273"/>
+<speciesReference species="cpd00357_c0" stoichiometry="0.0160206718346253"/>
 <speciesReference species="cpd00149_c0" stoichiometry="0.00309646685192537"/>
 <speciesReference species="cpd00205_c0" stoichiometry="0.00309646685192537"/>
-<speciesReference species="cpd00115_c0" stoichiometry="0.0185651040580273"/>
+<speciesReference species="cpd00115_c0" stoichiometry="0.0160206718346253"/>
 <speciesReference species="cpd15560_c0" stoichiometry="0.00309646685192537"/>
 <speciesReference species="cpd00002_c0" stoichiometry="40.1101757365074"/>
 <speciesReference species="cpd10516_c0" stoichiometry="0.00309646685192537"/>
@@ -7933,7 +8208,7 @@
 <speciesReference species="cpd03422_c0" stoichiometry="0.00309646685192537"/>
 <speciesReference species="cpd12370_c0" stoichiometry="0.00309646685192537"/>
 <speciesReference species="cpd11416_c0" stoichiometry="1"/>
-<speciesReference species="cpd00012_c0" stoichiometry="0.484606022702304"/>
+<speciesReference species="cpd00012_c0" stoichiometry="0.484600765610933"/>
 <speciesReference species="cpd00009_c0" stoichiometry="39.9969035331481"/>
 </listOfProducts>
 <kineticLaw>
