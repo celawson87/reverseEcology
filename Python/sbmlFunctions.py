@@ -11,6 +11,7 @@
 
 # Import python modules
 import cobra
+import cobra.core.Formula
 import csv
 import fileinput
 import numpy as np
@@ -309,7 +310,7 @@ def processSBMLforRE(rawModelDir, processedDataDir, summaryStatsDir):
         for curMetab in model.metabolites:
         # Retrieve the metabolite name w/o compartment info
         # Look up the appropriate index in the cpdData DF
-            curMetab.formula.formula = cpdData.loc[re.sub('_[a-z]\d', '', curMetab.id)][1]
+            curMetab.formula = cobra.core.Formula.Formula(cpdData.loc[re.sub('_[a-z]\d', '', curMetab.id)][1])
             curMetab.formula.id = cpdData.loc[re.sub('_[a-z]\d', '', curMetab.id)][1]
 
 ################################################################################                   
@@ -328,9 +329,15 @@ def processSBMLforRE(rawModelDir, processedDataDir, summaryStatsDir):
     # If reaction rxn07295 exists, update its stoichiometry
             if curRxn.id == 'rxn07295_c0':
                 curRxn.reaction = 'cpd00007_c0 + cpd00033_c0 <=> cpd00025_c0 + 3.0 cpd00067_c0 + cpd14545_c0'
+                print 'Manually correcting an imbalance'
     # If reaction rxn08808 exists, update its stoichiometry        
             elif curRxn.id == 'rxn08808_c0':
                 curRxn.reaction = 'cpd00001_c0 + cpd15341_c0 <=> cpd00067_c0 + cpd00908_c0 + cpd01080_c0'
+                print 'Manually correcting an imbalance'
+    # If reaction rxn12822 exists, update its stoichiometry        
+            elif curRxn.id == 'rxn12822_c0':
+                curRxn.reaction = '2.0 cpd00023_c0 + cpd11621_c0 <=> cpd00024_c0 + cpd00053_c0 + 2.0 cpd00067_c0 + cpd11620_c0'
+                print 'Manually correcting an imbalance'
 
     # Heuristic for proton balancing
         for curRxn in model.reactions:
@@ -339,11 +346,11 @@ def processSBMLforRE(rawModelDir, processedDataDir, summaryStatsDir):
             # If imbalancing due to protons alone, correct it
                 if imbalDict['H'] == imbalDict['charge']:
                     curRxn.add_metabolites({model.metabolites.get_by_id('cpd00067_c0'): -1*imbalDict['H']})
-            # Otherwise, indicate unbalanced reactions remain
+                    print 'Re-balancing on the basis of protons'
                 else:
                     imbalCounter = imbalCounter + 1                
                     print 'Reaction ' + str(curRxn.id) + ' remains unbalanced'                
-
+                
     # Inform of results
         if imbalCounter != 0:
             modelSizeDF.loc[curDir][3] = 0
