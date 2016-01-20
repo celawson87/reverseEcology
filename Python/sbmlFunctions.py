@@ -310,6 +310,7 @@ def processSBMLforRE(rawModelDir, processedDataDir, summaryStatsDir):
         # Retrieve the metabolite name w/o compartment info
         # Look up the appropriate index in the cpdData DF
             curMetab.formula.formula = cpdData.loc[re.sub('_[a-z]\d', '', curMetab.id)][1]
+            curMetab.formula.id = cpdData.loc[re.sub('_[a-z]\d', '', curMetab.id)][1]
 
 ################################################################################                   
 
