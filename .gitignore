@@ -1,4 +1,3 @@
-DataSummaries/
 ExternalData/*
 !ExternalData/ANI_out
 !ExternalData/COV_out
@@ -12,9 +11,6 @@ ExternalData/*
 !ExternalData/phylosiftMarkerGenes.csv
 !ExternalData/phylophlanMarkerGenes.csv
 !ExternalData/cogAbundance.csv
-MergedData/
-ProcessedModelFiles/**/*.txt
-excludedSamples/ProcessedModelFiles/**/*.txt
 
 gurobi.log
 *.pyc
