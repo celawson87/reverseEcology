@@ -348,7 +348,7 @@ def computeMetabComplement(dirList, processedDataDir, summaryStatsDir):
 # converts it to a pandas Dataframe. First, the list of nodes is extracted from
 # the graph. The list is then converted to a pandas Series, embedded in a dict,
 # and used to create a dataframe of the nodes.
-            allNodesInner = pd.DataFrame({'Metabolite' : pd.Series(nx.read_adjlist('../'+processedDataDir+'/'+innerDir+'/'+innerDir+'AdjList.txt',delimiter='\t', create_using=nx.DiGraph()).nodes())})
+            allNodesInner = pd.DataFrame({'Metabolite' : pd.Series(nx.read_adjlist('../'+processedDataDir+'/'+innerDir+'/'+innerDir+'AdjList.txt', create_using=nx.DiGraph()).nodes())})
 
 # Compute the list of non-seed compounds for organisms B
             nonSeedsInner = allNodesInner[~allNodesInner.Metabolite.isin(seedWeightInner.Metabolite)]
