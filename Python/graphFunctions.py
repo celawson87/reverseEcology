@@ -481,7 +481,7 @@ def reduceToLargeComponent(dirList, summaryStatsDir):
 # for each seed set. Additional statistics on the reduced graph and digraph
 # are also computed.
     
-def computeSeedSets(dirList, externalDataDir, processedDataDir):
+def computeSeedSets(dirList, summaryStatsDir):
         
 # Create lists to store seed sets
 # seedSetList is a list of lists. Each outer list contains all the seed sets
@@ -498,7 +498,7 @@ def computeSeedSets(dirList, externalDataDir, processedDataDir):
     for curDir in dirList:
 
 # Read in adjacency list and convert to digraph object
-        myDiGraph = nx.read_adjlist('../'+processedDataDir+'/'+curDir+'/'+curDir+'RedAdjList.txt',
+        myDiGraph = nx.read_adjlist('../'+summaryStatsDir+'/'+curDir+'/'+curDir+'RedAdjList.txt',
                                 create_using=nx.DiGraph())                            
 
 # Compute the list of SCCs for the digraph as well as its condensation
@@ -520,7 +520,7 @@ def computeSeedSets(dirList, externalDataDir, processedDataDir):
 
 # Record seed metabolites for each graph. Each row of the output file contains
 # the metabolites belonging to a single seed set.
-        seedSets = open('../'+processedDataDir+'/'+curDir+'/'+curDir+'SeedSets.txt', 'w')
+        seedSets = open('../'+summaryStatsDir+'/'+curDir+'/'+curDir+'SeedSets.txt', 'w')
         writer = csv.writer(seedSets)
         for row in mySeeds:
             writer.writerow(list(row))
@@ -533,7 +533,7 @@ def computeSeedSets(dirList, externalDataDir, processedDataDir):
 # graph.
 
 # First read metabMap.csv in as a dictionary
-        with open('../'+externalDataDir+'/'+'metabMap.csv', mode='rU') as inFile:
+        with open('../'+summaryStatsDir+'/'+'metabMap.csv', mode='rU') as inFile:
             reader = csv.reader(inFile)
             namesDict = dict((rows[0],rows[1]) for rows in reader)
         
@@ -541,7 +541,7 @@ def computeSeedSets(dirList, externalDataDir, processedDataDir):
 # its common name. Then write to file.
         mySeedsNames = [[namesDict[metab] for metab in seed] for seed in mySeeds]    
 
-        seedSets = open('../'+processedDataDir+'/'+curDir+'/'+curDir+'SeedSetsWNames.txt', 'w')
+        seedSets = open('../'+summaryStatsDir+'/'+curDir+'/'+curDir+'SeedSetsWNames.txt', 'w')
         writer = csv.writer(seedSets)
         writer.writerows(mySeedsNames)
         seedSets.close()
@@ -549,14 +549,14 @@ def computeSeedSets(dirList, externalDataDir, processedDataDir):
 # Record weights for each seed metabolite. Each row of the output file contains
 # a metabolite and its weight (1 / size of the seed set). Construct for seeds
 # using both IDs and names.
-        seedWeights = open('../'+processedDataDir+'/'+curDir+'/'+curDir+'SeedWeights.txt', 'w')
+        seedWeights = open('../'+summaryStatsDir+'/'+curDir+'/'+curDir+'SeedWeights.txt', 'w')
         for seed in mySeeds:
             myWeight = 1 / float(len(seed))
             for metab in seed:
                 seedWeights.write('%s,%f\n' % (metab, myWeight) )
         seedWeights.close()
     
-        seedWeights = open('../'+processedDataDir+'/'+curDir+'/'+curDir+'SeedWeightsWNames.txt', 'w')
+        seedWeights = open('../'+summaryStatsDir+'/'+curDir+'/'+curDir+'SeedWeightsWNames.txt', 'w')
         for seed in mySeedsNames:
             myWeight = 1 / float(len(seed))
             for metab in seed:
