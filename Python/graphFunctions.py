@@ -314,7 +314,7 @@ def createTribalGraph(tribeSampleDict, processedDataDir, rawModelDir):
 # objects are created using the networkX package. Summary statistics for the 
 # graph and directed graph are also reported and written to file.
 
-def computeGraphStats(dirList, processedDataDir, summaryStatsDir):
+def computeGraphStats(dirList, summaryStatsDir):
     
     numSubDir = len(dirList)
 
@@ -345,11 +345,11 @@ def computeGraphStats(dirList, processedDataDir, summaryStatsDir):
 
     for curDir in dirList:
 # Read in adjacency list and convert to graph object
-        myGraph = nx.read_adjlist('../'+processedDataDir+'/'+curDir+'/'+curDir+'AdjList.txt',
+        myGraph = nx.read_adjlist('../'+summaryStatsDir+'/'+curDir+'/'+curDir+'AdjList.txt',
                               create_using=nx.Graph())
 
 # Read in adjacency list and convert to digraph object
-        myDiGraph = nx.read_adjlist('../'+processedDataDir+'/'+curDir+'/'+curDir+'AdjList.txt',
+        myDiGraph = nx.read_adjlist('../'+summaryStatsDir+'/'+curDir+'/'+curDir+'AdjList.txt',
                                 create_using=nx.DiGraph())                            
 
 # Append to the appropriate list
@@ -385,7 +385,7 @@ def computeGraphStats(dirList, processedDataDir, summaryStatsDir):
 # component of that genome's network graph. Nodes outside of this component are
 # discarded, and the reduced graph is written to file.
     
-def reduceToLargeComponent(dirList, processedDataDir, summaryStatsDir):
+def reduceToLargeComponent(dirList, summaryStatsDir):
     
     numSubDir = len(dirList)
 
@@ -416,11 +416,11 @@ def reduceToLargeComponent(dirList, processedDataDir, summaryStatsDir):
     for curDir in dirList:
     
 # Read in adjacency list and convert to graph object
-        myGraph = nx.read_adjlist('../'+processedDataDir+'/'+curDir+'/'+curDir+'AdjList.txt',
+        myGraph = nx.read_adjlist('../'+summaryStatsDir+'/'+curDir+'/'+curDir+'AdjList.txt',
                               create_using=nx.Graph())
 
 # Read in adjacency list and convert to digraph object
-        myDiGraph = nx.read_adjlist('../'+processedDataDir+'/'+curDir+'/'+curDir+'AdjList.txt',
+        myDiGraph = nx.read_adjlist('../'+summaryStatsDir+'/'+curDir+'/'+curDir+'AdjList.txt',
                                 create_using=nx.DiGraph())                            
 
 # Identify the connected components of the graph representation and sort from
@@ -450,7 +450,7 @@ def reduceToLargeComponent(dirList, processedDataDir, summaryStatsDir):
                                        reducedDiGraphStatArray[count, 2],
                                        reducedDiGraphStatArray[count, 3] ) )
 # Create adjacency list for the reduced digraph and write to file
-        nx.write_adjlist(myDiGraph, '../'+processedDataDir+'/'+curDir+'/'+curDir+'RedAdjList.txt')
+        nx.write_adjlist(myDiGraph, '../'+summaryStatsDir+'/'+curDir+'/'+curDir+'RedAdjList.txt')
                                        
         count = count + 1
 
