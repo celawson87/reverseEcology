@@ -31,7 +31,7 @@ import metadataFunctions as mf
 # directory. Summary statistics about each graph are written in the
 # summaryStatsDir as well.
 
-def dirListToAdjacencyList(dirList, externalDataDir, processedDataDir, summaryStatsDir):
+def dirListToAdjacencyList(dirList, processedDataDir, summaryStatsDir):
 
     numSubDir = len(dirList)
 
@@ -41,8 +41,8 @@ def dirListToAdjacencyList(dirList, externalDataDir, processedDataDir, summarySt
     modelStatArray = np.empty([numSubDir, 3], dtype = int)
 
 # Create a file to record the summary statistics.
-    modelFile = open('../'+summaryStatsDir+'/'+'ModelStatistics.txt', 'w')
-    modelFile.write('Model,Genes,Metabolites,Reactions\n')
+#    modelFile = open('../'+summaryStatsDir+'/'+'ModelStatistics.txt', 'w')
+#    modelFile.write('Model,Genes,Metabolites,Reactions\n')
 
 # Iterate over the list of genome directories. For each genome, read in the
 # SBML file and update the 'description' field with the genome name. The number
@@ -68,19 +68,26 @@ def dirListToAdjacencyList(dirList, externalDataDir, processedDataDir, summarySt
 
 # Read model statistics by invoking sbmlFunctions.getModelStats
         modelStatArray[count:] = getModelStats(model)
-        modelFile.write('%s,%i,%i,%i\n' % ('../'+processedDataDir+'/'+curDir, modelStatArray[count,0], 
-                                    modelStatArray[count,1], 
-                                    modelStatArray[count, 2] ) )
+#        modelFile.write('%s,%i,%i,%i\n' % ('../'+processedDataDir+'/'+curDir, modelStatArray[count,0], 
+#                                    modelStatArray[count,1], 
+#                                    modelStatArray[count, 2] ) )
 
 # Create adjacency list and write to file
-        adjacencyListFromModel(model, processedDataDir)
+        # Check that external data directory exists and create if necesary
+        if not os.path.exists('../'+summaryStatsDir+'/'+curDir):
+            os.makedirs('../'+summaryStatsDir+'/'+curDir)
+        
+        adjacencyListFromModel(model, summaryStatsDir)
         count = count + 1
 
 # Close files containing summary data
-    modelFile.close()
+#    modelFile.close()
 
-# Write completed dictionary to file as a csv file ExternalData/metabMap.csv
-    writer = csv.writer(open('../'+externalDataDir+'/'+'metabMap.csv', 'wb'))
+# Write completed dictionary to file as a csv file summaryStatsDir/metabMap.csv
+    # Check that external data directory exists and create if necesary
+    if not os.path.exists('../'+summaryStatsDir):
+        os.makedirs('../'+summaryStatsDir)
+    writer = csv.writer(open('../'+summaryStatsDir+'/'+'metabMap.csv', 'wb'))
     for key, value in namesDict.items():
         writer.writerow([key, value])
    
