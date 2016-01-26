@@ -468,7 +468,8 @@ def clusterPairwise(revEcolMatrixDF, dirList, externalDataDir, summaryStatsDir, 
 # This function visualizes a pairwise reverse ecology metric, such 
 # as metabolic complementarity scores. 
 
-def plotDataFrame(revEcolMatrixDF, dirList, externalDataDir, summaryStatsDir, colorFile, fileName):
+#def plotDataFrame(revEcolMatrixDF, dirList, externalDataDir, summaryStatsDir, colorFile, fileName):
+def plotDataFrame(revEcolMatrixDF, dirList, summaryStatsDir, fileName):
 # Python clustering algorithms require the data to be an ndarray, with each
 # row corresponding to a set of observations.
     revEcolMatrix=pd.DataFrame.as_matrix(revEcolMatrixDF)
@@ -489,8 +490,8 @@ def plotDataFrame(revEcolMatrixDF, dirList, externalDataDir, summaryStatsDir, co
 # Import coloration info to map to genome names. Rearrange to same order as
 # leaves of the dendrogram and extract the 'Color' column as a list.
 # The file 'actinoColors.csv' will need to be updated for the specific samples.
-    genomeColors = pd.read_csv('../'+externalDataDir+'/'+colorFile)
-    genomeColors = genomeColors['Color'].tolist()
+#    genomeColors = pd.read_csv('../'+externalDataDir+'/'+colorFile)
+#    genomeColors = genomeColors['Color'].tolist()
 
 # Add genome names to the bottom axis
     axmatrix.set_xticks(range(len(revEcolMatrixT)))
@@ -498,14 +499,14 @@ def plotDataFrame(revEcolMatrixDF, dirList, externalDataDir, summaryStatsDir, co
     axmatrix.xaxis.set_label_position('bottom')
     axmatrix.xaxis.tick_bottom()
     plt.xticks(rotation=-90, fontsize=8)
-    for xtick, color in zip(axmatrix.get_xticklabels(), genomeColors):
-        xtick.set_color(color)
+#    for xtick, color in zip(axmatrix.get_xticklabels(), genomeColors):
+#        xtick.set_color(color)
 
 # Import coloration info to map to genome names. Rearrange to same order as
 # leaves of the dendrogram and extract the 'Color' column as a list.
 # The file 'actinoColors.csv' will need to be updated for the specific samples.
-    genomeColors = pd.read_csv('../'+externalDataDir+'/'+colorFile)
-    genomeColors = genomeColors['Color'].tolist()
+#    genomeColors = pd.read_csv('../'+externalDataDir+'/'+colorFile)
+#    genomeColors = genomeColors['Color'].tolist()
     
 # Add genome names to the right axis
     axmatrix.set_yticks(range(len(revEcolMatrix)))
@@ -513,8 +514,8 @@ def plotDataFrame(revEcolMatrixDF, dirList, externalDataDir, summaryStatsDir, co
     axmatrix.yaxis.set_label_position('right')
     axmatrix.yaxis.tick_right()
     plt.yticks(fontsize=8)
-    for ytick, color in zip(axmatrix.get_yticklabels(), genomeColors):
-        ytick.set_color(color)
+#    for ytick, color in zip(axmatrix.get_yticklabels(), genomeColors):
+#        ytick.set_color(color)
 
 # Plot colorbar.
     axcolor = fig.add_axes([0.9, 0.9, 0.03, 0.1])
