@@ -289,6 +289,7 @@ def computeMetabCompete(dirList, processedDataDir, summaryStatsDir):
 
 # Compute the overlap between seed sets using an inner join
             overlapSeeds = pd.merge(seedWeightOuter, seedWeightInner, on='Metabolite')
+            overlapSeeds.to_csv('../'+processedDataDir+'/'+outerDir+'/'+outerDir+'-'+innerDir+'-Compete.txt', index=False)
 
 # Sum seed compound weights for the overlap between A and B
             upperSum = overlapSeeds.loc[:,'Outer Weight'].sum()
@@ -355,6 +356,7 @@ def computeMetabComplement(dirList, processedDataDir, summaryStatsDir):
 
 # Compute the overlap between A's seeds and B's non-seeds
             overlapSeeds = pd.merge(seedWeightOuter, nonSeedsInner, on='Metabolite')
+            overlapSeeds.to_csv('../'+processedDataDir+'/'+outerDir+'/'+outerDir+'-'+innerDir+'-Complement.txt', index=False)
 
 # Compute the ratio of these two sets
             metabComplement.loc[outerDir, innerDir] = float(len(overlapSeeds)) / float(len(seedWeightOuter))
