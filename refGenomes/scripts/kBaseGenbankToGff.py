@@ -63,7 +63,7 @@ for genome in genomeList:
                 gffSeq = gbkRecord.seq
                 gffRecord = SeqRecord(gffSeq, gbkRecord.id)
                 
-                gffQualifiers = {"source": "feature", "ID": contigFeature.qualifiers['gene'], "Product": contigFeature.qualifiers['function']}
+                gffQualifiers = {"source": "feature", "ID": contigFeature.qualifiers['gene'], "locus_tag": contigFeature.qualifiers['gene'],"Product": contigFeature.qualifiers['function']}
                 
                 gffFeature = SeqFeature(contigFeature.location, type=contigFeature.type,
                              qualifiers=gffQualifiers)
