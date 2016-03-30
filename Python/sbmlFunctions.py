@@ -74,6 +74,7 @@ def dirListToAdjacencyList(dirList, externalDataDir, processedDataDir, summarySt
 
 # Create adjacency list and write to file
         adjacencyListFromModel(model, processedDataDir)
+        reactionEdgesFromModel(model, processedDataDir)
         count = count + 1
 
 # Close files containing summary data
@@ -149,6 +150,7 @@ def dirListToAdjacencyListWithRemoval(dirList, externalDataDir, processedDataDir
 
 # Create adjacency list and write to file
         adjacencyListFromModel(model, processedDataDir)
+        reactionEdgesFromModel(model, processedDataDir)
         count = count + 1
 
 # Close files containing summary data
@@ -192,6 +194,41 @@ def adjacencyListFromModel(model, processedDataDir):
                 for myReactant in myRxn.reactants:
                     myFile.write(myReactant.id+'\t')
                 myFile.write('\n')
+    myFile.close()
+    return
+    
+################################################################################
+
+# reactionEdgesFromModel
+# Function to convert a cobrapy model object to a list of (source, sink) pairs
+# for reaction in the model. For each reaciton, creates an edge between all 
+# (reactant, product) pairs and indicates the reaction. If a reaction is 
+# reversible, also creates edges between all (product, reactant) pairs.
+# Input: cobrapy model object, model directory
+# Output: None.
+
+def reactionEdgesFromModel(model, processedDataDir):
+
+# Establish a file for the adjacency list
+    myFile = open('../'+processedDataDir+'/'+model.id+'/'+model.id+'RxnEdges.txt', 'w')
+
+# For each reaction, loop over the reactants. For each reactant, loop over the 
+# reaction products and create an edge between the reactant and products. If a 
+# reaction is reversible, repeat the process in reverse, creating an edge
+# between each product and reactant. Also record reaction associated with each
+# edge.
+    for myRxn in model.reactions:
+        for myReactant in myRxn.reactants:
+            for myProduct in myRxn.products:
+                myFile.write(myReactant.id+'\t')
+                myFile.write(myProduct.id+'\t')
+                myFile.write(myRxn.id+'\n')
+        if myRxn.reversibility == True:
+            for myProduct in myRxn.products:
+                for myReactant in myRxn.reactants:
+                    myFile.write(myProduct.id+'\t')
+                    myFile.write(myReactant.id+'\t')
+                    myFile.write(myRxn.id+'\n')
     myFile.close()
     return
     
