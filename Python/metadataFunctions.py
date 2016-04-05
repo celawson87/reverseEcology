@@ -39,7 +39,7 @@ def getDirList(inputDir):
 # AAA023D18	acI	acI-B	acI-B1
 # The function could be updated to take (lineage, clade, tribe) as input
 
-def importTaxonomy(taxonFile):
+def importTaxonomy(taxonFile, level):
     
     print 'Importing taxonomy'
 
@@ -48,17 +48,18 @@ def importTaxonomy(taxonFile):
     taxonClass = taxonClass.dropna()
     
 # Extract the unique tribes found in the dataset
-    tribes = pd.unique(taxonClass.Tribe.values)
-    tribes.sort(axis=0)
+    groupList = pd.unique(taxonClass[level].values)
+    groupList.sort(axis=0)
+    groupList = [ group for group in groupList if not group.startswith('Unknown') ]
     
 # For each tribe, return the list of samples. Creates a dict and adds an entry
-    # for each tribe.
-    tribeSampleDict = {}
+# for each tribe.
+    groupSampleDict = {}
 
-    for tribe in tribes:
+    for group in groupList:
 # Identify the samples belonging to this tribe
-        samples = taxonClass.loc[taxonClass['Tribe'] == tribe]
+        samples = taxonClass.loc[taxonClass[level] == group]
         samples = [sample for sample in samples.index]
-        tribeSampleDict[tribe] = samples
+        groupSampleDict[group] = samples
         
-    return tribeSampleDict
+    return groupSampleDict

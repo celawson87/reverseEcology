@@ -272,37 +272,37 @@ def plotSeedStatsForTribes(seedSetList, reducedGraphStatArray):
     
 ################################################################################
     
-# createTribalGraph
+# createMergedGraph
 # In this function, all samples from a tribe are identified. Each sample is
 # converted to a graph object and merged with the previous graph. The final
 # graph is written to file.
 
-def createTribalGraph(tribeSampleDict, processedDataDir, rawModelDir):
+def createMergedGraph(groupSampleDict, processedDataDir, rawModelDir):
 
-    print 'Merging genomes from individual tribes'
+    print 'Merging genomes from specified taxonomic groups (lineage/clade/group)'
     
-# Loop over the keys of the dictionary, one for each tribe
-    for tribe in tribeSampleDict:
+# Loop over the keys of the dictionary, one for each group
+    for group in groupSampleDict:
 
 # Create an empty graph object
-        tribalGraph = nx.DiGraph()
+        mergedGraph = nx.DiGraph()
 
-# Read in the graph of the tribe and merge with the graph from the previous
+# Read in the graph of the group and merge with the graph from the previous
 # iteration
-        for sample in tribeSampleDict[tribe]:
+        for sample in groupSampleDict[group]:
 
 # Read in adjacency list and convert to digraph object
             myDiGraph = nx.read_adjlist('../'+rawModelDir+'/'+sample+'/'+sample+'AdjList.txt',
                                 create_using=nx.DiGraph())
 
 # Append to the previous graph
-            tribalGraph = nx.compose(tribalGraph, myDiGraph)
+            mergedGraph = nx.compose(mergedGraph, myDiGraph)
 
 # Check that the proper output directory exists. It not, create it.
-        if not os.path.exists('../'+processedDataDir+'/'+tribe):
-            os.makedirs('../'+processedDataDir+'/'+tribe)
+        if not os.path.exists('../'+processedDataDir+'/'+group):
+            os.makedirs('../'+processedDataDir+'/'+group)
     
-        nx.write_adjlist(tribalGraph, '../'+processedDataDir+'/'+tribe+'/'+tribe+'AdjList.txt')
+        nx.write_adjlist(mergedGraph, '../'+processedDataDir+'/'+group+'/'+group+'AdjList.txt')
 
     return
 
