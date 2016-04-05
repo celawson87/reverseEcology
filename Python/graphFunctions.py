@@ -256,7 +256,7 @@ def plotSeedStatsForTribes(seedSetList, reducedGraphStatArray):
     binMax = max(mySizeOfSeedSets) + binWidth
     plt.hist(mySizeOfSeedSets, bins=range(binMin, binMax + binWidth, binWidth), weights=myWeight)
     plt.xlabel('Metabolites in Seed Set')
-    plt.xlim(0, max(mySizeOfSeedSets))
+    plt.xlim(0, max(mySizeOfSeedSets)+1)
     plt.ylim(0, 1)
     plt.ylabel('Fraction of Seed Sets')
     
@@ -264,8 +264,8 @@ def plotSeedStatsForTribes(seedSetList, reducedGraphStatArray):
     plt.figure(14)
     [n, bins, patches] = plt.hist(mySizeOfSeedSets, bins=range(binMin, binMax + binWidth, binWidth), weights=myWeight)
     plt.xlabel('Metabolites in Seed Set (Zoomed)')
-    plt.xlim(0, max(mySizeOfSeedSets))
-    plt.ylim(0, 1.1*n[2])
+    plt.xlim(0, max(mySizeOfSeedSets)+1)
+    plt.ylim(0, 1.1*n[1])
     plt.ylabel('Fraction of Seed Sets (Zoomed)')
     
     return
