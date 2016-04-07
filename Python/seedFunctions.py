@@ -28,7 +28,7 @@ import scipy.cluster.hierarchy as sch
 # Columns: graphs
 # Entries: unweighted seed set values
 
-def consolidateSeeds(dirList, externalDataDir, processedDataDir, summaryStatsDir):
+def consolidateSeeds(dirList, externalDataDir, procfessedDataDir, summaryStatsDir):
     
     print 'Consolidate seed sets'
         
@@ -277,10 +277,13 @@ def computeMetabCompete(processedDataDir, summaryStatsDir, level, taxonFile):
     taxonClass = taxonClass.dropna()
     
 # Extract the unique tribes found in the dataset
-    groupList = pd.unique(taxonClass[level].values)
-    groupList.sort(axis=0)
-    groupList = [ group for group in groupList if not group.startswith('Unknown') ]
-    groupList = sorted(groupList, key=str.lower)
+    if level=='Genome':
+        groupList = list(taxonClass.index.values)
+    else:   
+        groupList = pd.unique(taxonClass[level].values)
+        groupList.sort(axis=0)
+        groupList = [ group for group in groupList if not group.startswith('Unknown') ]
+        groupList = sorted(groupList, key=str.lower)
 
     numSubDir = len(groupList)
 
@@ -344,10 +347,13 @@ def computeMetabComplement(processedDataDir, summaryStatsDir, level, taxonFile):
     taxonClass = taxonClass.dropna()
     
 # Extract the unique tribes found in the dataset
-    groupList = pd.unique(taxonClass[level].values)
-    groupList.sort(axis=0)
-    groupList = [ group for group in groupList if not group.startswith('Unknown') ]
-    groupList = sorted(groupList, key=str.lower)
+    if level=='Genome':
+        groupList = list(taxonClass.index.values)
+    else:   
+        groupList = pd.unique(taxonClass[level].values)
+        groupList.sort(axis=0)
+        groupList = [ group for group in groupList if not group.startswith('Unknown') ]
+        groupList = sorted(groupList, key=str.lower)
 
     numSubDir = len(groupList)
     
