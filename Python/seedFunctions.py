@@ -28,7 +28,7 @@ import scipy.cluster.hierarchy as sch
 # Columns: graphs
 # Entries: unweighted seed set values
 
-def consolidateSeeds(dirList, externalDataDir, procfessedDataDir, summaryStatsDir):
+def consolidateSeeds(dirList, externalDataDir, processedDataDir, summaryStatsDir):
     
     print 'Consolidate seed sets'
         
