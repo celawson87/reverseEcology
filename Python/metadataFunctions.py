@@ -40,8 +40,6 @@ def getDirList(inputDir):
 # The function could be updated to take (lineage, clade, tribe) as input
 
 def importTaxonomy(taxonFile, level):
-    
-    print 'Importing taxonomy'
 
 # Read in the taxonomic classification
     taxonClass = pd.DataFrame.from_csv(taxonFile, sep=',')
