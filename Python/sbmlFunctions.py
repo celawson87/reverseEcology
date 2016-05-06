@@ -337,8 +337,19 @@ def processSBMLforRE(rawModelDir, processedDataDir, summaryStatsDir):
                 badRxnList.append(curRxn)
         # Spontaneous reactions, whose GPR is fully 'unknown'
             elif curRxn.gene_reaction_rule == 'Unknown':
-                badRxnList.append(curRxn)        
+                badRxnList.append(curRxn)     
+        # Transport reactions, based on keywords
+            elif re.search('transport', curRxn.name) or re.search('permease', curRxn.name) or re.search('symport', curRxn.name) or re.search('diffusion', curRxn.name) or re.search('excretion', curRxn.name) or re.search('export', curRxn.name) or re.search('secretion', curRxn.name) or re.search('uptake', curRxn.name) or re.search('antiport', curRxn.name):
+                badRxnList.append(curRxn)
+        # Transport reactions which don't get picked up based on keywords
+            elif curRxn.id == 'rxn05226_c0' or curRxn.id == 'rxn05292_c0' or curRxn.id == 'rxn05305_c0' or curRxn.id == 'rxn05312_c0' or curRxn.id == 'rxn05315_c0' or curRxn.id == 'rxn10945_c0':
+                badRxnList.append(curRxn)
         model.remove_reactions(badRxnList, delete=True, remove_orphans=True)                        
+
+        print 'The remaining extracellular metabolites are:'
+        for curMetab in model.metabolites:
+            if re.search('_e0', curMetab.id):
+                print curMetab.id
 
 ################################################################################                   
 
