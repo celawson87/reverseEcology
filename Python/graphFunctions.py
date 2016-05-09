@@ -303,6 +303,7 @@ def createMergedGraph(groupSampleDict, processedDataDir, rawModelDir):
             os.makedirs('../'+processedDataDir+'/'+group)
     
         nx.write_adjlist(mergedGraph, '../'+processedDataDir+'/'+group+'/'+group+'AdjList.txt')
+        nx.write_graphml(mergedGraph, '../'+processedDataDir+'/'+group+'/'+group+'Graph.xml')
 
     return
 
@@ -451,6 +452,7 @@ def reduceToLargeComponent(dirList, processedDataDir, summaryStatsDir):
                                        reducedDiGraphStatArray[count, 3] ) )
 # Create adjacency list for the reduced digraph and write to file
         nx.write_adjlist(myDiGraph, '../'+processedDataDir+'/'+curDir+'/'+curDir+'RedAdjList.txt')
+        nx.write_graphml(myDiGraph, '../'+processedDataDir+'/'+curDir+'/'+curDir+'RedGraph.xml')
                                        
         count = count + 1
 
@@ -504,7 +506,33 @@ def computeSeedSets(dirList, externalDataDir, processedDataDir):
 # Compute the list of SCCs for the digraph as well as its condensation
         mySCCList = list(nx.strongly_connected_components_recursive(myDiGraph))
         myCondensation = nx.condensation(myDiGraph)
+        nx.write_adjlist(myCondensation, '../'+processedDataDir+'/'+curDir+'/'+curDir+'SCCAdjList.txt')
 
+    # For some reason, the condensation cannot be written to GraphML. Instead, re-read the 
+    # adjacency list and write that to GraphML.
+        myTempGraph = nx.read_adjlist('../'+processedDataDir+'/'+curDir+'/'+curDir+'SCCAdjList.txt',
+                                create_using=nx.DiGraph())                            
+        nx.write_graphml(myTempGraph, '../'+processedDataDir+'/'+curDir+'/'+curDir+'SCCGraph.xml')
+
+
+    # Invert the mapping dictionary to map SCC nodes to their original compoundsm
+        mapDict = dict()
+        for key in myCondensation.graph.items()[0][1].keys():
+            value = str(myCondensation.graph.items()[0][1][key])
+        # If the value exists as a key in mapDict, append the new value
+            if value in mapDict.keys():
+                mapDict[value].append(str(key))
+        # Otherwise create it
+            else:
+                mapDict[value] = [str(key)]
+
+        dictFile=open('../'+processedDataDir+'/'+curDir+'/'+curDir+'SCCDict.txt', "w")
+        for key in mapDict.keys():
+            dictFile.write(str(key)+',')
+            dictFile.write(",".join(str(value) for value in mapDict[key]))
+            dictFile.write('\n')
+        dictFile.close()
+        
 # "List of lists" of seed metabolites. Each element is a list of nodes belonging
 # to an SCC which is also a seed set.
         mySeeds = []    
@@ -520,11 +548,11 @@ def computeSeedSets(dirList, externalDataDir, processedDataDir):
 
 # Record seed metabolites for each graph. Each row of the output file contains
 # the metabolites belonging to a single seed set.
-        seedSets = open('../'+processedDataDir+'/'+curDir+'/'+curDir+'SeedSets.txt', 'w')
-        writer = csv.writer(seedSets)
-        for row in mySeeds:
-            writer.writerow(list(row))
-        seedSets.close()
+#    seedSets = open('../'+processedDataDir+'/'+curDir+'/'+curDir+'SeedSets.txt', 'w')
+#    writer = csv.writer(seedSets)
+#    for row in mySeeds:
+#        writer.writerow(list(row))
+#    seedSets.close()
     
 # Update the list of seed metabolites: replace the Model SEED metabolite 
 # identifier with its common name. Note: The file metabMap.csv was created 
@@ -565,4 +593,5 @@ def computeSeedSets(dirList, externalDataDir, processedDataDir):
     
         count = count + 1
 
+#return seedSetList
     return seedSetList
