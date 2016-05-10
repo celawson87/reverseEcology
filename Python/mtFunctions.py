@@ -142,3 +142,44 @@ def compoundsToCOGs(modelList, genomeModelDir, mergedModelDir, taxonFile, metabT
         outFile.close()
 
     return
+    
+################################################################################ 
+
+# COGsToProfiles
+# A function which extracts expression values for all COGs associated with a
+# set of compounds
+
+# modelList: A list of models to perform this analysis on
+# mergedModelDir: Directory contaiing netowrk models and seed lists for 
+# consensus genome models
+# rpkmDir: location of expression data
+# metabType: type of metabolites to perform this analysis on
+
+# Output is a file genomeMetabTypeExpression.txt which lists expression of all
+# COGs associated with metabolism of each compound. One entry per line.
+
+def COGsToProfiles(modelList, mergedModelDir, rpkmDir, metabType):
+    
+    for curDir in modelList:
+        # Read in the compounds and their associated COGs
+        seedToCogDF = pd.read_csv('../'+mergedModelDir+'/'+curDir+'/'+curDir+metabType+'ToCogs.txt', sep=':', header=None, names = ['COGs'], index_col=0)
+        
+        # Create a list of all COGs and flatten
+        cogListOfLists = seedToCogDF['COGs'].tolist()
+        cogList = []
+        for cog in cogListOfLists:
+            cog = cog.split(',')
+            cogList = cogList + cog
+            
+        # Read in the expression values
+        exprDF = pd.read_csv('../'+rpkmDir+'/'+curDir+'.rpkm.out', sep=',', index_col=0)        
+        
+        # Write out the results
+        outFile = open('../'+mergedModelDir+'/'+curDir+'/'+curDir+metabType+'Expression.txt', mode ='w')
+        for seed in seedToCogDF.index:
+            cogList = seedToCogDF.loc[seed]['COGs'].split(',')
+            for cog in cogList:
+                outFile.write(seed+','+cog+','+str(exprDF.loc[cog]['RPKM'])+'\n')
+        outFile.close()
+    
+    return
