@@ -14,6 +14,7 @@
 import networkx as nx
 import numpy as np
 import matplotlib.pyplot as plt
+import pandas as pd
 #from collections import Counter
 
 import csv
@@ -595,3 +596,143 @@ def computeSeedSets(dirList, externalDataDir, processedDataDir):
 
 #return seedSetList
     return seedSetList
+    
+################################################################################
+# definition of Metabolite Groups
+# defineMetabGroups
+
+# The acI metabolic networks have a bow-tie structure, with a single giant
+# connected component (GCC) containing a majority of the metabolites. We 
+# decompose the metabolites in the network into groups, depending on their 
+# relationship to the GCC.
+
+# Seed compounds which point to the GCC
+# The remaining seed compounds
+# Sink compounds (no outward arcs) which come from the GCC
+# The remaining sink compounds
+# All other compounds
+
+def defineMetabGroups(processedDataDir, level, taxonFile):
+
+    # Obtain the groupList
+    taxonClass = pd.DataFrame.from_csv(taxonFile, sep=',')
+    taxonClass = taxonClass.dropna()
+    
+    # Extract the unique tribes found in the dataset
+    if level=='Genome':
+        groupList = list(taxonClass.index.values)
+    else:   
+        groupList = pd.unique(taxonClass[level].values)
+        groupList.sort(axis=0)
+        groupList = [ group for group in groupList if not group.startswith('Unknown') ]
+        groupList = sorted(groupList, key=str.lower)
+        
+    for curDir in groupList:
+        # Read in the clade-level network and compute its condensation
+        myDiGraph = nx.read_adjlist('../'+processedDataDir+'/'+curDir+'/'+curDir+'RedAdjList.txt',
+                                        create_using=nx.DiGraph())                            
+    
+        # Compute the list of SCCs for the digraph as well as its condensation
+        myCondensation = nx.condensation(myDiGraph)    
+       
+       # Invert the mapping dictionary to map SCC nodes to their original compoundsm
+        mapDict = dict()
+        for key in myCondensation.graph.items()[0][1].keys():
+            value = str(myCondensation.graph.items()[0][1][key])
+            # If the value exists as a key in mapDict, append the new value
+            if value in mapDict.keys():
+                mapDict[value].append(str(key))
+                # Otherwise create it
+            else:
+                mapDict[value] = [str(key)]
+    
+        # Compute the seed compounds                    
+        seedSetList = []
+        sccSeedSetList = []
+        GCC = ''
+        for node in myCondensation.nodes():
+            inDeg = myCondensation.in_degree(node)
+            # Check the in-degree. If 0, it's a seed.
+            if inDeg == 0:
+                seedSetList.append(mapDict[str(node)])
+                sccSeedSetList.append(node)
+            # The GCC has the highest in-degree. If the node has a higher in-degree,
+            # is is the new GCC
+            if len(GCC) == 0:
+                GCC = str(node)
+            if inDeg > myCondensation.in_degree(int(GCC)):
+                GCC = str(node)
+        # Flatten the list
+        seedSetList = [seed for seedList in seedSetList for seed in seedList]
+        
+        # Identify the seed compounds which point to the GCC
+        # Work with seeds in the SCC graph, then convert to compounds
+        sccToGccList = []
+        seedToGccList = []
+        
+        for node in sccSeedSetList:
+            if int(GCC) in nx.all_neighbors(myCondensation, node):
+                sccToGccList.append(node)
+        for node in sccToGccList:
+            seedToGccList.append(mapDict[str(node)])
+        seedToGccList = [seed for seedList in seedToGccList for seed in seedList]
+        
+        # And those that don't
+        remainingSeedList = [seed for seed in seedSetList if seed not in seedToGccList]
+        
+        # Write these lists to file
+        with open('../'+processedDataDir+'/'+curDir+'/'+curDir+'seedsToGCC.txt', "w") as outFile:
+            for seed in seedToGccList:
+                outFile.write(seed+'\n')
+        with open('../'+processedDataDir+'/'+curDir+'/'+curDir+'seedsToNotGCC.txt', "w") as outFile:
+            for seed in remainingSeedList:
+                outFile.write(seed+'\n')
+    
+        # Compute the sink compounds                    
+        sinkSetList = []
+        sccSinkSetList = []
+        for node in myCondensation.nodes():
+            outDeg = myCondensation.out_degree(node)
+            # Check the in-degree. If 0, it's a seed.
+            if outDeg == 0:
+                sinkSetList.append(mapDict[str(node)])
+                sccSinkSetList.append(node)
+            # The GCC has the highest in-degree. If the node has a higher in-degree,
+            # is is the new GCC
+        # Flatten the list
+        sinkSetList = [sink for sinkList in sinkSetList for sink in sinkList]
+        
+        # Identify the seed compounds which point to the GCC
+        # Work with seeds in the SCC graph, then convert to compounds
+        sccToGccList = []
+        sinkToGccList = []
+        
+        for node in sccSinkSetList:
+            if int(GCC) in nx.all_neighbors(myCondensation, node):
+                sccToGccList.append(node)
+        for node in sccToGccList:
+            sinkToGccList.append(mapDict[str(node)])
+        sinkToGccList = [sink for sinkList in sinkToGccList for sink in sinkList]
+        
+        # And those that don't
+        remainingSinkList = [sink for sink in sinkSetList if sink not in sinkToGccList]
+        
+        # Write these lists to file
+        with open('../'+processedDataDir+'/'+curDir+'/'+curDir+'sinkFromGCC.txt', "w") as outFile:
+            for sink in sinkToGccList:
+                outFile.write(sink+'\n')
+        with open('../'+processedDataDir+'/'+curDir+'/'+curDir+'sinkFromNotGCC.txt', "w") as outFile:
+            for sink in remainingSinkList:
+                outFile.write(sink+'\n')
+    
+        # Identify the remaining metabolites and write to file
+        remainingMetabList = [str(metab) for metab in myDiGraph.nodes()]
+        remainingMetabList = [metab for metab in remainingMetabList if metab not in seedToGccList]
+        remainingMetabList = [metab for metab in remainingMetabList if metab not in remainingSeedList]
+        remainingMetabList = [metab for metab in remainingMetabList if metab not in sinkToGccList]
+        remainingMetabList = [metab for metab in remainingMetabList if metab not in remainingSinkList]
+        
+        with open('../'+processedDataDir+'/'+curDir+'/'+curDir+'remainingMetabs.txt', "w") as outFile:
+            for metab in remainingMetabList:
+                outFile.write(metab+'\n')
+    return
