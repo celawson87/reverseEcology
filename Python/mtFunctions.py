@@ -44,13 +44,12 @@ def compoundsToCOGs(modelList, genomeModelDir, mergedModelDir, taxonFile, metabT
     sampleDict = dict(lineageDict.items() + cladeDict.items() + tribeDict.items())
     
     # Loop over each merged model...
-    
+
     for curDir in modelList:
     # Read in its seed compounds from the weighted list. Drop the weight and 
     # add a column for the COGs.
     
         seedDF = pd.read_csv('../'+mergedModelDir+'/'+curDir+'/'+curDir+metabType+'.txt', header=None, names=['Metab'], index_col=0)
-    #    seedDF = seedDF.drop('1.000000', 1)
         seedDF = pd.concat([seedDF,pd.DataFrame(columns=['COGs'])])
     
         seedToCogDict = dict.fromkeys(seedDF.index, [])
@@ -59,6 +58,13 @@ def compoundsToCOGs(modelList, genomeModelDir, mergedModelDir, taxonFile, metabT
         mergedDiGraph = nx.read_adjlist('../'+mergedModelDir+'/'+curDir+'/'+curDir+'AdjList.txt',
                                 create_using=nx.DiGraph())    
     
+    # Figure out if we are dealing with sink or source compounds
+    # Seed compounds have zero in-degree, source have zero out-degree
+        if mergedDiGraph.in_degree(seedDF.index[0]) == 0:
+            seedOrSink = 'Seed'
+        elif mergedDiGraph.out_degree(seedDF.index[0]) == 0:
+            seedOrSink = 'Sink'
+            
     # Retrieve the list of genomes associated with the merged model
         genomeList = sampleDict[curDir]
     
@@ -95,13 +101,15 @@ def compoundsToCOGs(modelList, genomeModelDir, mergedModelDir, taxonFile, metabT
         # For all genes, look up the proper COG
             for seed in seedToCogDict.keys():
             # Look up all sink nodes
-                sinkNodeList = mergedDiGraph[seed].keys()
+                sinkNodeList = mergedDiGraph.successors(seed) + mergedDiGraph.predecessors(seed)
     
             # Generate the list of associated reactions
                 reactionList = []
                 for node in sinkNodeList:
-                    if seed+','+node in genomeEdgeMapping.keys():
+                    if seedOrSink == 'Seed' and seed+','+node in genomeEdgeMapping.keys():
                         reactionList.append(genomeEdgeMapping[seed+','+node])
+                    elif seedOrSink == 'Sink' and node+','+seed in genomeEdgeMapping.keys():
+                        reactionList.append(genomeEdgeMapping[node+','+seed])
             # Reduce to unique entries
                 reactionList = list(set(reactionList))
             
