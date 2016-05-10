@@ -35,22 +35,22 @@ import metadataFunctions as mf
 # Output is a file genomeSeedsToCogs.txt which lists all COGs associated with
 # metabolism of each seed compound. One entry per line.
 
-def seedsToCOGs(modelList, genomeModelDir, mergedModelDir, taxonFile):
+def compoundsToCOGs(modelList, genomeModelDir, mergedModelDir, taxonFile, metabType):
 
-# Create a list of genomes belonging to each linage/clade/tribe
+    # Create a list of genomes belonging to each linage/clade/tribe
     lineageDict =  mf.importTaxonomy(taxonFile, 'Lineage')
     cladeDict =  mf.importTaxonomy(taxonFile, 'Clade')
     tribeDict =  mf.importTaxonomy(taxonFile, 'Tribe')
     sampleDict = dict(lineageDict.items() + cladeDict.items() + tribeDict.items())
-
-# Loop over each merged model...
-
+    
+    # Loop over each merged model...
+    
     for curDir in modelList:
     # Read in its seed compounds from the weighted list. Drop the weight and 
     # add a column for the COGs.
     
-        seedDF = pd.read_csv('../'+mergedModelDir+'/'+curDir+'/'+curDir+'SeedWeights.txt', sep=',', index_col=0)
-        seedDF = seedDF.drop('1.000000', 1)
+        seedDF = pd.read_csv('../'+mergedModelDir+'/'+curDir+'/'+curDir+metabType+'.txt', header=None, names=['Metab'], index_col=0)
+    #    seedDF = seedDF.drop('1.000000', 1)
         seedDF = pd.concat([seedDF,pd.DataFrame(columns=['COGs'])])
     
         seedToCogDict = dict.fromkeys(seedDF.index, [])
@@ -64,14 +64,14 @@ def seedsToCOGs(modelList, genomeModelDir, mergedModelDir, taxonFile):
     
     # For each genome ... 
         for genome in genomeList:
-
+    
         # Read in its edge mappings
             genomeEdgeMapping = {}
             with open('../'+genomeModelDir+'/'+genome+'/'+genome+'RxnEdges.txt', mode ='r') as inFile:
                 for line in inFile:
                     edgeMap = line.strip().split('\t')
                     genomeEdgeMapping[edgeMap[0]+','+edgeMap[1]] = edgeMap[2]
-
+    
         # Read in the SBML model containing GPRs
             genomeModel = cobra.io.read_sbml_model('../'+genomeModelDir+'/'+genome+'/'+genome+'.xml')
         
@@ -96,7 +96,7 @@ def seedsToCOGs(modelList, genomeModelDir, mergedModelDir, taxonFile):
             for seed in seedToCogDict.keys():
             # Look up all sink nodes
                 sinkNodeList = mergedDiGraph[seed].keys()
-
+    
             # Generate the list of associated reactions
                 reactionList = []
                 for node in sinkNodeList:
@@ -128,8 +128,9 @@ def seedsToCOGs(modelList, genomeModelDir, mergedModelDir, taxonFile):
             seedToCogDict[seed] = list(set(seedToCogDict[seed]))
         
     # Write the results to file
-        outFile = open('../'+mergedModelDir+'/'+curDir+'/'+curDir+'SeedsToCogs.txt', mode ='w')
+        outFile = open('../'+mergedModelDir+'/'+curDir+'/'+curDir+metabType+'ToCogs.txt', mode ='w')
         for key, value in seedToCogDict.items():
             outFile.write(key+':'+','.join(value)+'\n')
         outFile.close()
+
     return
