@@ -557,3 +557,75 @@ def pruningPhaseTwo(modelDir, removeFile, screenMeFile):
             badRxnFile.write(badRxn+'\n')
 
     return
+    
+################################################################################
+
+# Prior to reverse ecology analysis, we "prune" the network topology to make
+# the arcs in the directed graph more "physiologically realistic." The criteria
+# we use are outlined in 
+
+# Ma, H., & Zeng, A. P. (2003). Reconstruction of metabolic networks from 
+# genome data and analysis of their global structure for various organisms. 
+# Bioinformatics, 19(2) 270-277.
+
+# This section code manually prunes reactions identified by the user.
+
+def pruningPhaseThree(modelDir, cleanupFile):
+
+    # Import the list of models
+    dirList = mf.getDirList('../'+modelDir)
+    numSubDir = len(dirList)
+    
+    # Intialize a counter
+    count = 1
+    
+    # Create a dictionary of reactions requiring pruning
+    badRxnDict = {}
+    
+    with open(cleanupFile) as dictFile:
+        for rxnCpdPair in dictFile:
+           (key, value) = rxnCpdPair.strip().split('\t')
+           badRxnDict[key] = value
+    
+    dirList = ['BIN_10']
+    # Process each model...
+    for curDir in dirList:
+    
+    # Read in model from SBML
+        model = cobra.io.read_sbml_model('../'+modelDir+'/'+curDir+'/'+curDir+'.xml')
+    
+    # Initialize some counters
+        touchCount = 0
+        removeCount = len(model.reactions)
+    
+    #################################################################################                   
+    
+    # Identify reactions containing a metab which needs to be evaluated
+        for curRxn in model.reactions:
+            for badRxn in badRxnDict.keys():        
+                if re.search(badRxn, curRxn.id):
+                    touchCount = touchCount + 1
+                    metabList = badRxnDict[badRxn].split(',')
+                    for metab in metabList:
+                        for curMetab in curRxn.metabolites:                       
+                           if re.search(metab, curMetab.id):
+                               curRxn.pop(model.metabolites.get_by_id(curMetab.id))
+                               break
+                    else:
+                        continue
+                    break
+            else:
+                continue
+            break
+    
+        # Prune the model, dropping any metabolites and empty reactions
+        cobra.manipulation.delete.prune_unused_metabolites(model)
+        cobra.manipulation.delete.prune_unused_reactions(model)
+        removeCount = removeCount - len(model.reactions)
+    
+        print 'Processing model '+str(count)+' of '+str(len(dirList))+'. Cleaned '+str(touchCount)+' of '+str(len(model.reactions))+' bad reactions and removed '+str(removeCount)+' reactions.'
+        print 'NOTHING WRITTEN TO FILE'
+    #    cobra.io.write_sbml_model(model, '../'+modelDir+'/'+curDir+'/'+curDir+'.xml')
+        count = count + 1
+
+    return
