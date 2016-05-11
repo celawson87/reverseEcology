@@ -442,3 +442,53 @@ def processSBMLforRE(rawModelDir, processedDataDir, summaryStatsDir):
     modelSizeDF.to_csv('../'+summaryStatsDir+'/modelStats.tsv', sep='\t')
 
     return
+
+################################################################################
+
+# Prior to reverse ecology analysis, we "prune" the network topology to make
+# the arcs in the directed graph more "physiologically realistic." The criteria
+# we use are outlined in 
+
+# Ma, H., & Zeng, A. P. (2003). Reconstruction of metabolic networks from 
+# genome data and analysis of their global structure for various organisms. 
+# Bioinformatics, 19(2) 270-277.
+
+# This section code removes all currency metabolites which the above protocol
+# specifies should always be removed.
+
+def pruningPhaseOne(modelDir, removeFile):
+    
+    # Import the list of models
+    dirList = mf.getDirList('../'+modelDir)
+    numSubDir = len(dirList)
+    
+    # Intialize a counter
+    count = 1
+        
+    # Process each model...
+    for curDir in dirList:
+    
+    # Read in model from SBML
+        model = cobra.io.read_sbml_model('../'+modelDir+'/'+curDir+'/'+curDir+'.xml')
+    
+    ################################################################################                   
+    
+    # Read in the list of bad metabolites
+        with open(removeFile) as myFile:
+            badMetabList = myFile.read().splitlines()
+    
+    # Remove all bad metablites
+        for curMetab in model.metabolites:
+            for badMetab in badMetabList:
+                if re.search(badMetab, curMetab.id):
+                    curMetab.remove_from_model(method='subtractive')
+    
+    # Prune the model, dropping any metabolites and empty reactions
+        cobra.manipulation.delete.prune_unused_metabolites(model)
+        cobra.manipulation.delete.prune_unused_reactions(model)
+    
+        print 'Processing model '+str(count)+' of '+str(len(dirList))
+        cobra.io.write_sbml_model(model, '../'+modelDir+'/'+curDir+'/'+curDir+'.xml')
+        count = count + 1
+
+    return
