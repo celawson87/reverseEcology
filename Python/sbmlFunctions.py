@@ -492,3 +492,68 @@ def pruningPhaseOne(modelDir, removeFile):
         count = count + 1
 
     return
+    
+################################################################################
+
+# Prior to reverse ecology analysis, we "prune" the network topology to make
+# the arcs in the directed graph more "physiologically realistic." The criteria
+# we use are outlined in 
+
+# Ma, H., & Zeng, A. P. (2003). Reconstruction of metabolic networks from 
+# genome data and analysis of their global structure for various organisms. 
+# Bioinformatics, 19(2) 270-277.
+
+# This section code identifies all reactions which the protocol above indicate
+# should manually be evaluated for pruning.
+
+def pruningPhaseTwo(modelDir, removeFile, screenMeFile):
+
+    # Import the list of models
+    dirList = mf.getDirList('../'+modelDir)
+    numSubDir = len(dirList)
+    
+    # Intialize a counter
+    count = 1
+    
+    # Create a list of reactions to be evaluated
+    badRxnList = []
+        
+    # Process each model...
+    for curDir in dirList:
+        
+        modelBadRxnList = []
+    # Read in model from SBML
+        model = cobra.io.read_sbml_model('../'+modelDir+'/'+curDir+'/'+curDir+'.xml')
+    
+    ################################################################################                   
+    
+    # Read in the list of bad metabolites
+        with open(removeFile) as myFile:
+            badMetabList = myFile.read().splitlines()
+    
+    # Identify reactions containing a metab which needs to be evaluated
+        for curRxn in model.reactions:
+            for curMetab in curRxn.metabolites:
+                for badMetab in badMetabList:
+                    if re.search(badMetab, curMetab.id):
+                        modelBadRxnList.append(curRxn.id)
+                        break         
+                else:
+                    continue
+                break
+        
+        badRxnList = badRxnList + modelBadRxnList
+        print 'Processing model '+str(count)+' of '+str(len(dirList))+'. Found '+str(len(modelBadRxnList))+' of '+str(len(model.reactions))+' bad reactions'
+        count = count + 1
+        
+    # Find all unique entries in the badRxnList and write the results to file
+    badRxnList = set(badRxnList)
+    badRxnList = list(badRxnList)
+    
+    print 'Processing complete. Found '+str(len(badRxnList))+' bad reactions. Listed in '+screenMeFile
+    
+    with open (screenMeFile, "w") as badRxnFile:
+        for badRxn in badRxnList:
+            badRxnFile.write(badRxn+'\n')
+
+    return
