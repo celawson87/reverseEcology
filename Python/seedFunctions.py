@@ -507,7 +507,7 @@ def plotDataFrame(revEcolMatrixDF, groupList, externalDataDir, summaryStatsDir, 
 # Define the size of the plot
     axmatrix = fig.add_axes([0.1, 0.1, 0.8, 0.8])
 # Plot the weight matrix
-    im = axmatrix.matshow(revEcolMatrix, aspect='auto', origin='lower', vmin=0, vmax=1, cmap='Greys')
+    im = axmatrix.matshow(revEcolMatrix, aspect='auto', origin='upper', vmin=0, vmax=revEcolMatrixDF.max().max())
 # No tick marks along axes
     axmatrix.set_xticks([])
     axmatrix.set_yticks([])
