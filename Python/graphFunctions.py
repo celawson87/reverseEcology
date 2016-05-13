@@ -553,11 +553,11 @@ def computeSeedSets(dirList, externalDataDir, processedDataDir):
 
 # Record seed metabolites for each graph. Each row of the output file contains
 # the metabolites belonging to a single seed set.
-#    seedSets = open('../'+processedDataDir+'/'+curDir+'/'+curDir+'SeedSets.txt', 'w')
-#    writer = csv.writer(seedSets)
-#    for row in mySeeds:
-#        writer.writerow(list(row))
-#    seedSets.close()
+        seedSets = open('../'+processedDataDir+'/'+curDir+'/'+curDir+'SeedSets.txt', 'w')
+        writer = csv.writer(seedSets)
+        for row in mySeeds:
+            writer.writerow(list(row))
+        seedSets.close()
     
 # Update the list of seed metabolites: replace the Model SEED metabolite 
 # identifier with its common name. Note: The file metabMap.csv was created 
