@@ -318,6 +318,10 @@ def createMergedGraph(groupSampleDict, processedDataDir, rawModelDir):
 
 def computeGraphStats(dirList, processedDataDir, summaryStatsDir):
     
+# Check that folders exist and create them if necessary
+    if not os.path.exists('../'+summaryStatsDir):
+        os.makedirs('../'+summaryStatsDir)
+        
     numSubDir = len(dirList)
 
 # Create arrays to store summary statistics. Each array has four integer
