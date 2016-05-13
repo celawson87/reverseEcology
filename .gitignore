@@ -12,7 +12,9 @@ ExternalData/*
 !ExternalData/phylophlanMarkerGenes.csv
 !ExternalData/cogAbundance.csv
 !ExternalData/cogAbundance.csv
-!ExternalData/currencyRemove.txt
+!ExternalData/currencyRemoveSingletons.txt
+!ExternalData/currencyRemovePairs.txt
+!ExternalData/currencyAminoPairs.txt
 !ExternalData/currencyScreen.txt
 
 gurobi.log

@@ -453,10 +453,11 @@ def processSBMLforRE(rawModelDir, processedDataDir, summaryStatsDir):
 # genome data and analysis of their global structure for various organisms. 
 # Bioinformatics, 19(2) 270-277.
 
-# This section code removes all currency metabolites which the above protocol
-# specifies should always be removed.
+# Briefly, we first remove all pairs of currency metabolites involved in
+# proton or functional group transfer. Then, we remove additional singletom
+# metabolites (protons and the like.)
 
-def pruningPhaseOne(modelDir, removeFile):
+def pruneCurrencyMetabs(modelDir, singletonFile, pairFile, aminoFile):
     
     # Import the list of models
     dirList = mf.getDirList('../'+modelDir)
@@ -464,168 +465,83 @@ def pruningPhaseOne(modelDir, removeFile):
     
     # Intialize a counter
     count = 1
-        
+    
     # Process each model...
     for curDir in dirList:
     
     # Read in model from SBML
         model = cobra.io.read_sbml_model('../'+modelDir+'/'+curDir+'/'+curDir+'.xml')
     
-    ################################################################################                   
+    # Write the original model to a text file for inspection.
+    #    with open('../'+modelDir+'/'+curDir+'/'+curDir+'Original.txt', 'w') as outFile:
+    #        for curRxn in model.reactions:
+    #            outFile.write(curRxn.id+'\t'+curRxn.build_reaction_string(use_metabolite_names=True)+'\n')
     
-    # Read in the list of bad metabolites
-        with open(removeFile) as myFile:
-            badMetabList = myFile.read().splitlines()
+    #############################
+                    
+    # Read in the list of bad metabolite pairs
+        pairMetabList = []
+        with open(pairFile) as myFile:
+            for line in myFile:
+                pairMetabList.append(line.strip().split('\t'))
     
-    # Remove all bad metablites
+    # Remove all pairs of metabolites
+        for curRxn in model.reactions:
+            for pair in pairMetabList:
+                # List metabolites in the reaction. Needs to be inside loop b/c reaction metabolites will change
+                metabList = []
+                for curMetab in curRxn.metabolites:
+                    metabList.append(curMetab.id)
+                # If both members of the pair participate in the reaction, drop both from the reaction
+                if set(pair) <= set(metabList):
+                    for metab in pair:
+                        curRxn.pop(model.metabolites.get_by_id(metab))
+    
+    #############################
+    
+    # Read in the list of aminotransfer metabolite pairs
+        pairAminoList = []
+        with open(aminoFile) as myFile:
+            for line in myFile:
+                pairAminoList.append(line.strip().split('\t'))
+    
+    # Remove all pairs of metabolites
+        for curRxn in model.reactions:
+            for pair in pairAminoList:
+                # List metabolites in the reaction. Needs to be inside loop b/c reaction metabolites will change
+                metabList = []
+                for curMetab in curRxn.metabolites:
+                    metabList.append(curMetab.id)
+                # If both members of the pair participate in the reaction, drop both from the reaction
+                if (set(pair) <= set(metabList)) and ('cpd00013_c' not in metabList):
+                    for metab in pair:
+                        curRxn.pop(model.metabolites.get_by_id(metab))
+                    
+    #############################
+    
+    # Read in the list of bad metabolite singletons
+        with open(singletonFile) as myFile:
+            singletonMetabList = myFile.read().splitlines()
+    
+    # Remove all bad metabolites
         for curMetab in model.metabolites:
-            for badMetab in badMetabList:
-                if re.search(badMetab, curMetab.id):
-                    curMetab.remove_from_model(method='subtractive')
+            if curMetab.id in singletonMetabList:
+                curMetab.remove_from_model(method='subtractive')
     
-    # Prune the model, dropping any metabolites and empty reactions
-        cobra.manipulation.delete.prune_unused_metabolites(model)
+    # Prune the model, dropping empty reactions and those with only a subtrate or product
         cobra.manipulation.delete.prune_unused_reactions(model)
-    
+        for curRxn in model.reactions:
+            if len(curRxn.reactants) == 0 or len(curRxn.products) == 0:
+                curRxn.remove_from_model(remove_orphans=True)            
+        
+    # Write the final model to a text file for inspection
+    #    with open('../'+modelDir+'/'+curDir+'/'+curDir+'Final.txt', 'w') as outFile:
+    #        for curRxn in model.reactions:
+    #            outFile.write(curRxn.id+'\t'+curRxn.build_reaction_string(use_metabolite_names=True)+'\n')
+                
         print 'Processing model '+str(count)+' of '+str(len(dirList))
         cobra.io.write_sbml_model(model, '../'+modelDir+'/'+curDir+'/'+curDir+'.xml')
         count = count + 1
-
+        
     return
     
-################################################################################
-
-# Prior to reverse ecology analysis, we "prune" the network topology to make
-# the arcs in the directed graph more "physiologically realistic." The criteria
-# we use are outlined in 
-
-# Ma, H., & Zeng, A. P. (2003). Reconstruction of metabolic networks from 
-# genome data and analysis of their global structure for various organisms. 
-# Bioinformatics, 19(2) 270-277.
-
-# This section code identifies all reactions which the protocol above indicate
-# should manually be evaluated for pruning.
-
-def pruningPhaseTwo(modelDir, removeFile, screenMeFile):
-
-    # Import the list of models
-    dirList = mf.getDirList('../'+modelDir)
-    numSubDir = len(dirList)
-    
-    # Intialize a counter
-    count = 1
-    
-    # Create a list of reactions to be evaluated
-    badRxnList = []
-        
-    # Process each model...
-    for curDir in dirList:
-        
-        modelBadRxnList = []
-    # Read in model from SBML
-        model = cobra.io.read_sbml_model('../'+modelDir+'/'+curDir+'/'+curDir+'.xml')
-    
-    ################################################################################                   
-    
-    # Read in the list of bad metabolites
-        with open(removeFile) as myFile:
-            badMetabList = myFile.read().splitlines()
-    
-    # Identify reactions containing a metab which needs to be evaluated
-        for curRxn in model.reactions:
-            for curMetab in curRxn.metabolites:
-                for badMetab in badMetabList:
-                    if re.search(badMetab, curMetab.id):
-                        modelBadRxnList.append(curRxn.id)
-                        break         
-                else:
-                    continue
-                break
-        
-        badRxnList = badRxnList + modelBadRxnList
-        print 'Processing model '+str(count)+' of '+str(len(dirList))+'. Found '+str(len(modelBadRxnList))+' of '+str(len(model.reactions))+' bad reactions'
-        count = count + 1
-        
-    # Find all unique entries in the badRxnList and write the results to file
-    badRxnList = set(badRxnList)
-    badRxnList = list(badRxnList)
-    
-    print 'Processing complete. Found '+str(len(badRxnList))+' bad reactions. Listed in '+screenMeFile
-    
-    with open (screenMeFile, "w") as badRxnFile:
-        for badRxn in badRxnList:
-            badRxnFile.write(badRxn+'\n')
-
-    return
-    
-################################################################################
-
-# Prior to reverse ecology analysis, we "prune" the network topology to make
-# the arcs in the directed graph more "physiologically realistic." The criteria
-# we use are outlined in 
-
-# Ma, H., & Zeng, A. P. (2003). Reconstruction of metabolic networks from 
-# genome data and analysis of their global structure for various organisms. 
-# Bioinformatics, 19(2) 270-277.
-
-# This section code manually prunes reactions identified by the user.
-
-def pruningPhaseThree(modelDir, cleanupFile):
-
-    # Import the list of models
-    dirList = mf.getDirList('../'+modelDir)
-    numSubDir = len(dirList)
-    
-    # Intialize a counter
-    count = 1
-    
-    # Create a dictionary of reactions requiring pruning
-    badRxnDict = {}
-    
-    with open(cleanupFile) as dictFile:
-        for rxnCpdPair in dictFile:
-           (key, value) = rxnCpdPair.strip().split('\t')
-           badRxnDict[key] = value
-    
-    dirList = ['BIN_10']
-    # Process each model...
-    for curDir in dirList:
-    
-    # Read in model from SBML
-        model = cobra.io.read_sbml_model('../'+modelDir+'/'+curDir+'/'+curDir+'.xml')
-    
-    # Initialize some counters
-        touchCount = 0
-        removeCount = len(model.reactions)
-    
-    #################################################################################                   
-    
-    # Identify reactions containing a metab which needs to be evaluated
-        for curRxn in model.reactions:
-            for badRxn in badRxnDict.keys():        
-                if re.search(badRxn, curRxn.id):
-                    touchCount = touchCount + 1
-                    metabList = badRxnDict[badRxn].split(',')
-                    for metab in metabList:
-                        for curMetab in curRxn.metabolites:                       
-                           if re.search(metab, curMetab.id):
-                               curRxn.pop(model.metabolites.get_by_id(curMetab.id))
-                               break
-                    else:
-                        continue
-                    break
-            else:
-                continue
-            break
-    
-        # Prune the model, dropping any metabolites and empty reactions
-        cobra.manipulation.delete.prune_unused_metabolites(model)
-        cobra.manipulation.delete.prune_unused_reactions(model)
-        removeCount = removeCount - len(model.reactions)
-    
-        print 'Processing model '+str(count)+' of '+str(len(dirList))+'. Cleaned '+str(touchCount)+' of '+str(len(model.reactions))+' bad reactions and removed '+str(removeCount)+' reactions.'
-        print 'NOTHING WRITTEN TO FILE'
-    #    cobra.io.write_sbml_model(model, '../'+modelDir+'/'+curDir+'/'+curDir+'.xml')
-        count = count + 1
-
-    return
