@@ -457,18 +457,21 @@ def processSBMLforRE(rawModelDir, processedDataDir, summaryStatsDir):
 # proton or functional group transfer. Then, we remove additional singletom
 # metabolites (protons and the like.)
 
-def pruneCurrencyMetabs(modelDir, singletonFile, pairFile, aminoFile):
+def pruneCurrencyMetabs(modelDir, summaryStatsDir, singletonFile, pairFile, aminoFile):
     
     # Import the list of models
     dirList = mf.getDirList('../'+modelDir)
-    numSubDir = len(dirList)
+    
+    # Create an array to store results
+    # Columns: genes, metabs, rxns, balanced (binary)
+    modelSizeDF = pd.DataFrame(index = dirList, columns=['Genes', 'Metabolites', 'Reactions'])
     
     # Intialize a counter
     count = 1
     
     # Process each model...
     for curDir in dirList:
-    
+
     # Read in model from SBML
         model = cobra.io.read_sbml_model('../'+modelDir+'/'+curDir+'/'+curDir+'.xml')
     
@@ -534,6 +537,11 @@ def pruneCurrencyMetabs(modelDir, singletonFile, pairFile, aminoFile):
             if len(curRxn.reactants) == 0 or len(curRxn.products) == 0:
                 curRxn.remove_from_model(remove_orphans=True)            
         
+        # Store the model properties in the array, write the model output, and increase the counter
+        modelSizeDF.loc[curDir][0] = len(model.genes)
+        modelSizeDF.loc[curDir][1] = len(model.metabolites)
+        modelSizeDF.loc[curDir][2] = len(model.reactions)
+        
     # Write the final model to a text file for inspection
     #    with open('../'+modelDir+'/'+curDir+'/'+curDir+'Final.txt', 'w') as outFile:
     #        for curRxn in model.reactions:
@@ -542,6 +550,9 @@ def pruneCurrencyMetabs(modelDir, singletonFile, pairFile, aminoFile):
         print 'Processing model '+str(count)+' of '+str(len(dirList))
         cobra.io.write_sbml_model(model, '../'+modelDir+'/'+curDir+'/'+curDir+'.xml')
         count = count + 1
-        
+   
+   # Write the results to file
+    modelSizeDF.to_csv('../'+summaryStatsDir+'/prunedModelStats.tsv', sep='\t')
+     
     return
     
