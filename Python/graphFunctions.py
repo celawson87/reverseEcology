@@ -318,6 +318,10 @@ def createMergedGraph(groupSampleDict, processedDataDir, rawModelDir):
 
 def computeGraphStats(dirList, processedDataDir, summaryStatsDir):
     
+# Check that folders exist and create them if necessary
+    if not os.path.exists('../'+summaryStatsDir):
+        os.makedirs('../'+summaryStatsDir)
+        
     numSubDir = len(dirList)
 
 # Create arrays to store summary statistics. Each array has four integer
@@ -544,16 +548,16 @@ def computeSeedSets(dirList, externalDataDir, processedDataDir):
         for node in myCondensation.nodes():
             inDeg = myCondensation.in_degree(node)
             if inDeg == 0:
-                mySeeds.append(mySCCList[node])
+                mySeeds.append(mapDict[str(node)])
         seedSetList.append(mySeeds)
 
 # Record seed metabolites for each graph. Each row of the output file contains
 # the metabolites belonging to a single seed set.
-#    seedSets = open('../'+processedDataDir+'/'+curDir+'/'+curDir+'SeedSets.txt', 'w')
-#    writer = csv.writer(seedSets)
-#    for row in mySeeds:
-#        writer.writerow(list(row))
-#    seedSets.close()
+        seedSets = open('../'+processedDataDir+'/'+curDir+'/'+curDir+'SeedSets.txt', 'w')
+        writer = csv.writer(seedSets)
+        for row in mySeeds:
+            writer.writerow(list(row))
+        seedSets.close()
     
 # Update the list of seed metabolites: replace the Model SEED metabolite 
 # identifier with its common name. Note: The file metabMap.csv was created 
