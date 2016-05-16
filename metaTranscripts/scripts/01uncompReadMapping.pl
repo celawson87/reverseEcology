@@ -52,7 +52,7 @@ foreach my $samplePath (@sampleList) {
       my $genome = $1;
       if ($samplePath =~ /.+\/(.+).fastq/) {
 	my $sample = $1;	
-	push @commandArray, "bbmap.sh t=".$numThreads." in=".$samplePath."/".$sample.".fastq outm=".$mapFolder."/".$sample."-".$genome.".sam ref=".$genomeFolder."/".$genome.".fna ambig=all nodisk sam=1.3"
+       	push @commandArray, "bbmap.sh t=".$numThreads." in=".$mtFolder."/".$sample.".fastq outm=".$mapFolder."/".$sample."-".$genome.".sam ref=".$genomeFolder."/".$genome.".fna ambig=all nodisk sam=1.3"
       }
     }
   }
