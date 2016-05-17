@@ -115,18 +115,16 @@ for mt in mtList:
         
         # Variables to store counts of read types
         alignOutCDS = 0
-        lowQual = 0
         nonUnique = 0
         i = 0   
 
         # Count reads
         for read in readSeqFile:
             i += 1
+            # Skip ambiguous reads
             if read.optional_field("NH") > 1:
                 nonUnique += 1
-            if read.aQual < minQual:
-               lowQual += 1
-               continue
+                continue
             iv_seq = (co.ref_iv for co in read.cigar if co.type == "M" and co.size > 0)
             fs = None
             for iv in iv_seq:
@@ -150,5 +148,4 @@ for mt in mtList:
             for fn in sorted(countDict.keys()):   
                 outFile.write("%s\t%d\n" % (fn, countDict[fn]))
             outFile.write("__align_outside_CDS\t%d\n" % alignOutCDS)
-            outFile.write("__too_low_qual\t%d\n" % lowQual)
             outFile.write("__alignment_not_unique\t%d" % nonUnique)
