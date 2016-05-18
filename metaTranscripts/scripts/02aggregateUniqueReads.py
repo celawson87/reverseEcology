@@ -143,8 +143,8 @@ for mt in mtList:
             else:
                 countDict[list(fs)[0]] += 1
                 # Write the read to file
-                with open(readsDir+'/'+list(fs)[0]+".reads", "a") as myfile:
-                   myfile.write(read.original_sam_line+"\n")
+                with open(readsDir+'/'+mt+'-'+list(fs)[0]+".reads", "a") as myfile:
+                   myfile.write(read.original_sam_line)
             
         print(str(i)+' SAM alignments processed')      
             
@@ -199,3 +199,28 @@ for index in cladeCogToCdsDF.index:
     cladeCogToCdsDF.loc[index] = ','.join(cdsList)
 
 cladeCogToCdsDF.to_csv(countFolder+'/cladesCogsToCDS.csv')
+
+#%%#############################################################################
+### Count total and unique reads which map to each (clade, group) pairing
+### Requires integrating data from taxonomy and cog tables into a single data
+###  structure
+################################################################################
+
+# For each MT, construct the count table and write to file
+for mt in mtList:
+    # Reset columns for total and unique reads
+    cladeCogToCdsDF['Total'] = 0
+    cladeCogToCdsDF['Unique'] = 0
+
+    for index in cladeCogToCdsDF.index:
+        cdsList = cladeCogToCdsDF.loc[index, 'CDS'].split(',')
+        readList = []
+        for cds in cdsList:
+            if os.path.isfile(readsDir+'/'+mt+'-'+cds+'.reads'):
+                readSeqFile = HTSeq.SAM_Reader(readsDir+'/'+mt+'-'+cds+'.reads')
+                for read in readSeqFile:
+                    readList.append(read.read.name)
+        cladeCogToCdsDF.loc[index, 'Total'] = len(readList)
+        cladeCogToCdsDF.loc[index, 'Unique'] = len(set(readList))
+        
+        cladeCogToCdsDF.to_csv(countFolder+'/'+mt+'-'+genome+'.COG.out')
