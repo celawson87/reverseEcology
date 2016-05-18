@@ -1,4 +1,4 @@
-###############################################################################
+#%%#############################################################################
 # countUniqueReads
 # Copyright (c) 2015, Joshua J Hamilton and Katherine D McMahon
 # Affiliation: Department of Bacteriology
@@ -17,6 +17,7 @@
 import HTSeq
 import os
 import pandas as pd
+import subprocess
 
 #%%#############################################################################
 ### Static folder structure
@@ -191,9 +192,9 @@ for index in cladeCogToCdsDF.index:
     innerGenomeList = cladeToGenomeDict[clade]
     cdsList = []
 
-    for genome in innerGenomeList:
-        if not pd.isnull(cogTableDF.loc[cog][genome]):
-            tempList = cogTableDF.loc[cog][genome].split(';')        
+    for innerGenome in innerGenomeList:
+        if not pd.isnull(cogTableDF.loc[cog][innerGenome]):
+            tempList = cogTableDF.loc[cog][innerGenome].split(';')        
             cdsList = cdsList + tempList
 
     cladeCogToCdsDF.loc[index] = ','.join(cdsList)
