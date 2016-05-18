@@ -209,19 +209,20 @@ cladeCogToCdsDF.to_csv(countFolder+'/cladesCogsToCDS.csv')
 
 # For each MT, construct the count table and write to file
 for mt in mtList:
+    for genome in genomeList:    
     # Reset columns for total and unique reads
-    cladeCogToCdsDF['Total'] = 0
-    cladeCogToCdsDF['Unique'] = 0
+        cladeCogToCdsDF['Total'] = 0
+        cladeCogToCdsDF['Unique'] = 0
 
-    for index in cladeCogToCdsDF.index:
-        cdsList = cladeCogToCdsDF.loc[index, 'CDS'].split(',')
-        readList = []
-        for cds in cdsList:
-            if os.path.isfile(readsDir+'/'+mt+'-'+cds+'.reads'):
-                readSeqFile = HTSeq.SAM_Reader(readsDir+'/'+mt+'-'+cds+'.reads')
-                for read in readSeqFile:
-                    readList.append(read.read.name)
-        cladeCogToCdsDF.loc[index, 'Total'] = len(readList)
-        cladeCogToCdsDF.loc[index, 'Unique'] = len(set(readList))
+        for index in cladeCogToCdsDF.index:
+            cdsList = cladeCogToCdsDF.loc[index, 'CDS'].split(',')
+            readList = []
+            for cds in cdsList:
+                if os.path.isfile(readsDir+'/'+mt+'-'+cds+'.reads'):
+                    readSeqFile = HTSeq.SAM_Reader(readsDir+'/'+mt+'-'+cds+'.reads')
+                    for read in readSeqFile:
+                        readList.append(read.read.name)
+            cladeCogToCdsDF.loc[index, 'Total'] = len(readList)
+            cladeCogToCdsDF.loc[index, 'Unique'] = len(set(readList))
         
         cladeCogToCdsDF.to_csv(countFolder+'/'+mt+'-'+genome+'.COG.out')
