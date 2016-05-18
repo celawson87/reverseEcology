@@ -16,6 +16,7 @@
 
 import HTSeq
 import os
+import pandas as pd
 
 #%%#############################################################################
 ### Static folder structure
@@ -26,6 +27,9 @@ sampleFolder = '../rawData'
 mapFolder = '../bamfiles'
 countFolder = '../htseq'
 readsDir = countFolder+'/reads'
+
+cogTable = '../.././externalData/cogTable.csv'
+taxonFile = '../.././externalData/taxonomy.csv'
 
 # Check that the new output directory exists and create if it doesn't
 if not os.path.exists(countFolder):
@@ -76,12 +80,12 @@ genomeList = [genome.replace('.fna', '') for genome in genomeList]
 #                         mapFolder+'/'+mt+'-'+genome+'.sam',
 #                         genomeFolder+'/'+genome+'.gff'], stdout=outFile)
 #        outFile.close()
-#        
-##%%#############################################################################
-#### Obtain the same information for each (genome, COG) pairing
-#################################################################################
+        
+#%%#############################################################################
+### Obtain the same information for each (genome, COG) pairing
+################################################################################
 
-# Portions of this code were borrowed verbatim from HTSeq-count
+# Define parameters for HTSeq-Count script, which we reimplement below.
 minQual = 0
 featureType = 'CDS'
 idAttr = 'locus_tag'
@@ -149,3 +153,49 @@ for mt in mtList:
                 outFile.write("%s\t%d\n" % (fn, countDict[fn]))
             outFile.write("__align_outside_CDS\t%d\n" % alignOutCDS)
             outFile.write("__alignment_not_unique\t%d" % nonUnique)
+                        
+#%%#############################################################################
+### Count total and unique reads which map to each (clade, group) pairing
+### Requires integrating data from taxonomy and cog tables into a single data
+###  structure
+################################################################################
+
+# Read in the taxonomy table and create a list of genomes for each clade
+cladeToGenomeDict = {}
+cladeList = []
+
+for genome in genomeList:
+    taxonClass = pd.DataFrame.from_csv(taxonFile, sep=',')
+    taxonClass = taxonClass.dropna()
+    
+# Extract the unique clades
+    taxonClass = taxonClass.drop(taxonClass[taxonClass['Lineage'] != genome].index)
+    innerCladeList = pd.unique(taxonClass['Clade'].values)
+    
+    for clade in innerCladeList:
+        innerGenomeList = taxonClass[taxonClass['Clade'] == clade].index.tolist()
+        cladeToGenomeDict[clade] = innerGenomeList
+
+    cladeList = cladeList + innerCladeList.tolist()
+
+# Read in the COG table
+cogTableDF = pd.read_csv(cogTable, index_col=0)
+
+# Create and populate the dataframe, indexed by clade and group
+cladeCogToCdsIndex = pd.MultiIndex.from_product([cladeList, cogTableDF.index.tolist()], names=['Clade', 'COG'])
+cladeCogToCdsDF = pd.DataFrame(index=cladeCogToCdsIndex, columns=['CDS'])
+
+for index in cladeCogToCdsDF.index:
+    clade = index[0]
+    cog = index[1]
+    innerGenomeList = cladeToGenomeDict[clade]
+    cdsList = []
+
+    for genome in innerGenomeList:
+        if not pd.isnull(cogTableDF.loc[cog][genome]):
+            tempList = cogTableDF.loc[cog][genome].split(';')        
+            cdsList = cdsList + tempList
+
+    cladeCogToCdsDF.loc[index] = ','.join(cdsList)
+
+cladeCogToCdsDF.to_csv(countFolder+'/cladesCogsToCDS.csv')
