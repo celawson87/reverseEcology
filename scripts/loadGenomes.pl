@@ -73,11 +73,13 @@ foreach my $genome (@genomes) {
 	my $contigseq = {};
 	my $gc = 0;
 	my $numcontigs = 0;
+	my $contigID = "";
 
 	# Process the fasta header and sequence and assign metadata
 	while (my $line = <FILE>) {
 		chomp($line);
 		if ($line =~ m/\>(.+)/) {
+		  $contigID = $1;
 			if (defined($contig)) {
 				$numcontigs++;
 				push(@{$lengths},length($sequence));
@@ -85,12 +87,12 @@ foreach my $genome (@genomes) {
 				$length += length($sequence);
 				$contigseq->{$contig} = $sequence;
 				push(@{$object->{contigs}},{
-					id => $genome.".contig.".$numcontigs,
+					id => $contigID,
 					"length" => length($sequence),
 					md5 => Digest::MD5::md5_hex($sequence),
 					sequence => $sequence,
 					genetic_code => 11,
-					name => $genome.".contig.".$numcontigs,
+					name => $contigID,
 					complete => 1,
 					description => $description
 				});
@@ -147,5 +149,3 @@ foreach my $genome (@genomes) {
 	
 	$iter = $iter + 1;
 };
-
-

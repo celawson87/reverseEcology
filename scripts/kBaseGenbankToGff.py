@@ -1,12 +1,12 @@
 ###############################################################################
-# CodeTitle.py
+# kBaseGenbankToGff.py
 # Copyright (c) 2016, Joshua J Hamilton and Katherine D McMahon
 # Affiliation: Department of Bacteriology
 #              University of Wisconsin-Madison, Madison, Wisconsin, USA
 # URL: http://http://mcmahonlab.wisc.edu/
 # All rights reserved.
 ################################################################################
-# Code description.
+# Converts KBase Genbank files to GFF files
 ################################################################################
 
 #%%#############################################################################
@@ -25,7 +25,9 @@ import os
 gbkDir = '../refGenomes/gbk'
 gffDir = '../refGenomes/gff'
 
-
+if not os.path.exists(gffDir):
+        os.makedirs(gffDir) 
+        
 #%%#############################################################################
 ### Create list of genomes to process
 ################################################################################

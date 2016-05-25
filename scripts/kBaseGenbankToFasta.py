@@ -1,12 +1,12 @@
 ###############################################################################
-# CodeTitle.py
+# kBaseGenbankToFasta.py
 # Copyright (c) 2016, Joshua J Hamilton and Katherine D McMahon
 # Affiliation: Department of Bacteriology
 #              University of Wisconsin-Madison, Madison, Wisconsin, USA
 # URL: http://http://mcmahonlab.wisc.edu/
 # All rights reserved.
 ################################################################################
-# Code description.
+# Converts KBase Genbank files to FFN and FAA files
 ################################################################################
 
 #%%#############################################################################
@@ -14,9 +14,9 @@
 ################################################################################
 
 from Bio import SeqIO
-from Bio.Seq import Seq
-from Bio.SeqRecord import SeqRecord
-from Bio.SeqFeature import SeqFeature, FeatureLocation
+#from Bio.Seq import Seq
+#from Bio.SeqRecord import SeqRecord
+#from Bio.SeqFeature import SeqFeature, FeatureLocation
 import os
 
 #%%#############################################################################
@@ -25,6 +25,12 @@ import os
 faaDir = '../refGenomes/faa'
 ffnDir = '../refGenomes/ffn'
 gbkDir = '../refGenomes/gbk'
+
+if not os.path.exists(faaDir):
+        os.makedirs(faaDir) 
+
+if not os.path.exists(ffnDir):
+        os.makedirs(ffnDir)
 
 #%%#############################################################################
 ### Create list of genomes to process
