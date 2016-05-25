@@ -14,6 +14,7 @@
 import networkx as nx
 import numpy as np
 import matplotlib.pyplot as plt
+import pandas as pd
 #from collections import Counter
 
 import csv
@@ -256,7 +257,7 @@ def plotSeedStatsForTribes(seedSetList, reducedGraphStatArray):
     binMax = max(mySizeOfSeedSets) + binWidth
     plt.hist(mySizeOfSeedSets, bins=range(binMin, binMax + binWidth, binWidth), weights=myWeight)
     plt.xlabel('Metabolites in Seed Set')
-    plt.xlim(0, max(mySizeOfSeedSets))
+    plt.xlim(0, max(mySizeOfSeedSets)+1)
     plt.ylim(0, 1)
     plt.ylabel('Fraction of Seed Sets')
     
@@ -264,45 +265,46 @@ def plotSeedStatsForTribes(seedSetList, reducedGraphStatArray):
     plt.figure(14)
     [n, bins, patches] = plt.hist(mySizeOfSeedSets, bins=range(binMin, binMax + binWidth, binWidth), weights=myWeight)
     plt.xlabel('Metabolites in Seed Set (Zoomed)')
-    plt.xlim(0, max(mySizeOfSeedSets))
-    plt.ylim(0, 1.1*n[2])
+    plt.xlim(0, max(mySizeOfSeedSets)+1)
+    plt.ylim(0, 1.1*n[1])
     plt.ylabel('Fraction of Seed Sets (Zoomed)')
     
     return
     
 ################################################################################
     
-# createTribalGraph
+# createMergedGraph
 # In this function, all samples from a tribe are identified. Each sample is
 # converted to a graph object and merged with the previous graph. The final
 # graph is written to file.
 
-def createTribalGraph(tribeSampleDict, processedDataDir, rawModelDir):
+def createMergedGraph(groupSampleDict, processedDataDir, rawModelDir):
 
-    print 'Merging genomes from individual tribes'
+    print 'Merging genomes from specified taxonomic groups (lineage/clade/group)'
     
-# Loop over the keys of the dictionary, one for each tribe
-    for tribe in tribeSampleDict:
+# Loop over the keys of the dictionary, one for each group
+    for group in groupSampleDict:
 
 # Create an empty graph object
-        tribalGraph = nx.DiGraph()
+        mergedGraph = nx.DiGraph()
 
-# Read in the graph of the tribe and merge with the graph from the previous
+# Read in the graph of the group and merge with the graph from the previous
 # iteration
-        for sample in tribeSampleDict[tribe]:
+        for sample in groupSampleDict[group]:
 
 # Read in adjacency list and convert to digraph object
             myDiGraph = nx.read_adjlist('../'+rawModelDir+'/'+sample+'/'+sample+'AdjList.txt',
                                 create_using=nx.DiGraph())
 
 # Append to the previous graph
-            tribalGraph = nx.compose(tribalGraph, myDiGraph)
+            mergedGraph = nx.compose(mergedGraph, myDiGraph)
 
 # Check that the proper output directory exists. It not, create it.
-        if not os.path.exists('../'+processedDataDir+'/'+tribe):
-            os.makedirs('../'+processedDataDir+'/'+tribe)
+        if not os.path.exists('../'+processedDataDir+'/'+group):
+            os.makedirs('../'+processedDataDir+'/'+group)
     
-        nx.write_adjlist(tribalGraph, '../'+processedDataDir+'/'+tribe+'/'+tribe+'AdjList.txt')
+        nx.write_adjlist(mergedGraph, '../'+processedDataDir+'/'+group+'/'+group+'AdjList.txt')
+        nx.write_graphml(mergedGraph, '../'+processedDataDir+'/'+group+'/'+group+'Graph.xml')
 
     return
 
@@ -314,8 +316,12 @@ def createTribalGraph(tribeSampleDict, processedDataDir, rawModelDir):
 # objects are created using the networkX package. Summary statistics for the 
 # graph and directed graph are also reported and written to file.
 
-def computeGraphStats(dirList, summaryStatsDir):
+def computeGraphStats(dirList, processedDataDir, summaryStatsDir):
     
+# Check that folders exist and create them if necessary
+    if not os.path.exists('../'+summaryStatsDir):
+        os.makedirs('../'+summaryStatsDir)
+        
     numSubDir = len(dirList)
 
 # Create arrays to store summary statistics. Each array has four integer
@@ -345,11 +351,11 @@ def computeGraphStats(dirList, summaryStatsDir):
 
     for curDir in dirList:
 # Read in adjacency list and convert to graph object
-        myGraph = nx.read_adjlist('../'+summaryStatsDir+'/'+curDir+'/'+curDir+'AdjList.txt',
+        myGraph = nx.read_adjlist('../'+processedDataDir+'/'+curDir+'/'+curDir+'AdjList.txt',
                               create_using=nx.Graph())
 
 # Read in adjacency list and convert to digraph object
-        myDiGraph = nx.read_adjlist('../'+summaryStatsDir+'/'+curDir+'/'+curDir+'AdjList.txt',
+        myDiGraph = nx.read_adjlist('../'+processedDataDir+'/'+curDir+'/'+curDir+'AdjList.txt',
                                 create_using=nx.DiGraph())                            
 
 # Append to the appropriate list
@@ -385,7 +391,7 @@ def computeGraphStats(dirList, summaryStatsDir):
 # component of that genome's network graph. Nodes outside of this component are
 # discarded, and the reduced graph is written to file.
     
-def reduceToLargeComponent(dirList, summaryStatsDir):
+def reduceToLargeComponent(dirList, processedDataDir, summaryStatsDir):
     
     numSubDir = len(dirList)
 
@@ -416,11 +422,11 @@ def reduceToLargeComponent(dirList, summaryStatsDir):
     for curDir in dirList:
     
 # Read in adjacency list and convert to graph object
-        myGraph = nx.read_adjlist('../'+summaryStatsDir+'/'+curDir+'/'+curDir+'AdjList.txt',
+        myGraph = nx.read_adjlist('../'+processedDataDir+'/'+curDir+'/'+curDir+'AdjList.txt',
                               create_using=nx.Graph())
 
 # Read in adjacency list and convert to digraph object
-        myDiGraph = nx.read_adjlist('../'+summaryStatsDir+'/'+curDir+'/'+curDir+'AdjList.txt',
+        myDiGraph = nx.read_adjlist('../'+processedDataDir+'/'+curDir+'/'+curDir+'AdjList.txt',
                                 create_using=nx.DiGraph())                            
 
 # Identify the connected components of the graph representation and sort from
@@ -450,7 +456,8 @@ def reduceToLargeComponent(dirList, summaryStatsDir):
                                        reducedDiGraphStatArray[count, 2],
                                        reducedDiGraphStatArray[count, 3] ) )
 # Create adjacency list for the reduced digraph and write to file
-        nx.write_adjlist(myDiGraph, '../'+summaryStatsDir+'/'+curDir+'/'+curDir+'RedAdjList.txt')
+        nx.write_adjlist(myDiGraph, '../'+processedDataDir+'/'+curDir+'/'+curDir+'RedAdjList.txt')
+        nx.write_graphml(myDiGraph, '../'+processedDataDir+'/'+curDir+'/'+curDir+'RedGraph.xml')
                                        
         count = count + 1
 
@@ -481,7 +488,7 @@ def reduceToLargeComponent(dirList, summaryStatsDir):
 # for each seed set. Additional statistics on the reduced graph and digraph
 # are also computed.
     
-def computeSeedSets(dirList, summaryStatsDir):
+def computeSeedSets(dirList, externalDataDir, processedDataDir):
         
 # Create lists to store seed sets
 # seedSetList is a list of lists. Each outer list contains all the seed sets
@@ -498,13 +505,39 @@ def computeSeedSets(dirList, summaryStatsDir):
     for curDir in dirList:
 
 # Read in adjacency list and convert to digraph object
-        myDiGraph = nx.read_adjlist('../'+summaryStatsDir+'/'+curDir+'/'+curDir+'RedAdjList.txt',
+        myDiGraph = nx.read_adjlist('../'+processedDataDir+'/'+curDir+'/'+curDir+'RedAdjList.txt',
                                 create_using=nx.DiGraph())                            
 
 # Compute the list of SCCs for the digraph as well as its condensation
         mySCCList = list(nx.strongly_connected_components_recursive(myDiGraph))
         myCondensation = nx.condensation(myDiGraph)
+        nx.write_adjlist(myCondensation, '../'+processedDataDir+'/'+curDir+'/'+curDir+'SCCAdjList.txt')
 
+    # For some reason, the condensation cannot be written to GraphML. Instead, re-read the 
+    # adjacency list and write that to GraphML.
+        myTempGraph = nx.read_adjlist('../'+processedDataDir+'/'+curDir+'/'+curDir+'SCCAdjList.txt',
+                                create_using=nx.DiGraph())                            
+        nx.write_graphml(myTempGraph, '../'+processedDataDir+'/'+curDir+'/'+curDir+'SCCGraph.xml')
+
+
+    # Invert the mapping dictionary to map SCC nodes to their original compoundsm
+        mapDict = dict()
+        for key in myCondensation.graph.items()[0][1].keys():
+            value = str(myCondensation.graph.items()[0][1][key])
+        # If the value exists as a key in mapDict, append the new value
+            if value in mapDict.keys():
+                mapDict[value].append(str(key))
+        # Otherwise create it
+            else:
+                mapDict[value] = [str(key)]
+
+        dictFile=open('../'+processedDataDir+'/'+curDir+'/'+curDir+'SCCDict.txt', "w")
+        for key in mapDict.keys():
+            dictFile.write(str(key)+',')
+            dictFile.write(",".join(str(value) for value in mapDict[key]))
+            dictFile.write('\n')
+        dictFile.close()
+        
 # "List of lists" of seed metabolites. Each element is a list of nodes belonging
 # to an SCC which is also a seed set.
         mySeeds = []    
@@ -515,12 +548,12 @@ def computeSeedSets(dirList, summaryStatsDir):
         for node in myCondensation.nodes():
             inDeg = myCondensation.in_degree(node)
             if inDeg == 0:
-                mySeeds.append(mySCCList[node])
+                mySeeds.append(mapDict[str(node)])
         seedSetList.append(mySeeds)
 
 # Record seed metabolites for each graph. Each row of the output file contains
 # the metabolites belonging to a single seed set.
-        seedSets = open('../'+summaryStatsDir+'/'+curDir+'/'+curDir+'SeedSets.txt', 'w')
+        seedSets = open('../'+processedDataDir+'/'+curDir+'/'+curDir+'SeedSets.txt', 'w')
         writer = csv.writer(seedSets)
         for row in mySeeds:
             writer.writerow(list(row))
@@ -533,7 +566,7 @@ def computeSeedSets(dirList, summaryStatsDir):
 # graph.
 
 # First read metabMap.csv in as a dictionary
-        with open('../'+summaryStatsDir+'/'+'metabMap.csv', mode='rU') as inFile:
+        with open('../'+externalDataDir+'/'+'metabMap.csv', mode='rU') as inFile:
             reader = csv.reader(inFile)
             namesDict = dict((rows[0],rows[1]) for rows in reader)
         
@@ -541,7 +574,7 @@ def computeSeedSets(dirList, summaryStatsDir):
 # its common name. Then write to file.
         mySeedsNames = [[namesDict[metab] for metab in seed] for seed in mySeeds]    
 
-        seedSets = open('../'+summaryStatsDir+'/'+curDir+'/'+curDir+'SeedSetsWNames.txt', 'w')
+        seedSets = open('../'+processedDataDir+'/'+curDir+'/'+curDir+'SeedSetsWNames.txt', 'w')
         writer = csv.writer(seedSets)
         writer.writerows(mySeedsNames)
         seedSets.close()
@@ -549,14 +582,14 @@ def computeSeedSets(dirList, summaryStatsDir):
 # Record weights for each seed metabolite. Each row of the output file contains
 # a metabolite and its weight (1 / size of the seed set). Construct for seeds
 # using both IDs and names.
-        seedWeights = open('../'+summaryStatsDir+'/'+curDir+'/'+curDir+'SeedWeights.txt', 'w')
+        seedWeights = open('../'+processedDataDir+'/'+curDir+'/'+curDir+'SeedWeights.txt', 'w')
         for seed in mySeeds:
             myWeight = 1 / float(len(seed))
             for metab in seed:
                 seedWeights.write('%s,%f\n' % (metab, myWeight) )
         seedWeights.close()
     
-        seedWeights = open('../'+summaryStatsDir+'/'+curDir+'/'+curDir+'SeedWeightsWNames.txt', 'w')
+        seedWeights = open('../'+processedDataDir+'/'+curDir+'/'+curDir+'SeedWeightsWNames.txt', 'w')
         for seed in mySeedsNames:
             myWeight = 1 / float(len(seed))
             for metab in seed:
@@ -565,4 +598,145 @@ def computeSeedSets(dirList, summaryStatsDir):
     
         count = count + 1
 
+#return seedSetList
     return seedSetList
+    
+################################################################################
+# definition of Metabolite Groups
+# defineMetabGroups
+
+# The acI metabolic networks have a bow-tie structure, with a single giant
+# connected component (GCC) containing a majority of the metabolites. We 
+# decompose the metabolites in the network into groups, depending on their 
+# relationship to the GCC.
+
+# Seed compounds which point to the GCC
+# The remaining seed compounds
+# Sink compounds (no outward arcs) which come from the GCC
+# The remaining sink compounds
+# All other compounds
+
+def defineMetabGroups(processedDataDir, level, taxonFile):
+
+    # Obtain the groupList
+    taxonClass = pd.DataFrame.from_csv(taxonFile, sep=',')
+    taxonClass = taxonClass.dropna()
+    
+    # Extract the unique tribes found in the dataset
+    if level=='Genome':
+        groupList = list(taxonClass.index.values)
+    else:   
+        groupList = pd.unique(taxonClass[level].values)
+        groupList.sort(axis=0)
+        groupList = [ group for group in groupList if not group.startswith('Unknown') ]
+        groupList = sorted(groupList, key=str.lower)
+        
+    for curDir in groupList:
+        # Read in the clade-level network and compute its condensation
+        myDiGraph = nx.read_adjlist('../'+processedDataDir+'/'+curDir+'/'+curDir+'RedAdjList.txt',
+                                        create_using=nx.DiGraph())                            
+    
+        # Compute the list of SCCs for the digraph as well as its condensation
+        myCondensation = nx.condensation(myDiGraph)    
+       
+       # Invert the mapping dictionary to map SCC nodes to their original compoundsm
+        mapDict = dict()
+        for key in myCondensation.graph.items()[0][1].keys():
+            value = str(myCondensation.graph.items()[0][1][key])
+            # If the value exists as a key in mapDict, append the new value
+            if value in mapDict.keys():
+                mapDict[value].append(str(key))
+                # Otherwise create it
+            else:
+                mapDict[value] = [str(key)]
+    
+        # Compute the seed compounds                    
+        seedSetList = []
+        sccSeedSetList = []
+        GCC = ''
+        for node in myCondensation.nodes():
+            inDeg = myCondensation.in_degree(node)
+            # Check the in-degree. If 0, it's a seed.
+            if inDeg == 0:
+                seedSetList.append(mapDict[str(node)])
+                sccSeedSetList.append(node)
+            # The GCC has the highest in-degree. If the node has a higher in-degree,
+            # is is the new GCC
+            if len(GCC) == 0:
+                GCC = str(node)
+            if inDeg > myCondensation.in_degree(int(GCC)):
+                GCC = str(node)
+        # Flatten the list
+        seedSetList = [seed for seedList in seedSetList for seed in seedList]
+        
+        # Identify the seed compounds which point to the GCC
+        # Work with seeds in the SCC graph, then convert to compounds
+        sccToGccList = []
+        seedToGccList = []
+        
+        for node in sccSeedSetList:
+            if int(GCC) in nx.all_neighbors(myCondensation, node):
+                sccToGccList.append(node)
+        for node in sccToGccList:
+            seedToGccList.append(mapDict[str(node)])
+        seedToGccList = [seed for seedList in seedToGccList for seed in seedList]
+        
+        # And those that don't
+        remainingSeedList = [seed for seed in seedSetList if seed not in seedToGccList]
+        
+        # Write these lists to file
+        with open('../'+processedDataDir+'/'+curDir+'/'+curDir+'seedsToGCC.txt', "w") as outFile:
+            for seed in seedToGccList:
+                outFile.write(seed+'\n')
+        with open('../'+processedDataDir+'/'+curDir+'/'+curDir+'seedsToNotGCC.txt', "w") as outFile:
+            for seed in remainingSeedList:
+                outFile.write(seed+'\n')
+    
+        # Compute the sink compounds                    
+        sinkSetList = []
+        sccSinkSetList = []
+        for node in myCondensation.nodes():
+            outDeg = myCondensation.out_degree(node)
+            # Check the in-degree. If 0, it's a seed.
+            if outDeg == 0:
+                sinkSetList.append(mapDict[str(node)])
+                sccSinkSetList.append(node)
+            # The GCC has the highest in-degree. If the node has a higher in-degree,
+            # is is the new GCC
+        # Flatten the list
+        sinkSetList = [sink for sinkList in sinkSetList for sink in sinkList]
+        
+        # Identify the seed compounds which point to the GCC
+        # Work with seeds in the SCC graph, then convert to compounds
+        sccToGccList = []
+        sinkToGccList = []
+        
+        for node in sccSinkSetList:
+            if int(GCC) in nx.all_neighbors(myCondensation, node):
+                sccToGccList.append(node)
+        for node in sccToGccList:
+            sinkToGccList.append(mapDict[str(node)])
+        sinkToGccList = [sink for sinkList in sinkToGccList for sink in sinkList]
+        
+        # And those that don't
+        remainingSinkList = [sink for sink in sinkSetList if sink not in sinkToGccList]
+        
+        # Write these lists to file
+        with open('../'+processedDataDir+'/'+curDir+'/'+curDir+'sinkFromGCC.txt', "w") as outFile:
+            for sink in sinkToGccList:
+                outFile.write(sink+'\n')
+        with open('../'+processedDataDir+'/'+curDir+'/'+curDir+'sinkFromNotGCC.txt', "w") as outFile:
+            for sink in remainingSinkList:
+                outFile.write(sink+'\n')
+    
+        # Identify the remaining metabolites and write to file
+        remainingMetabList = [str(metab) for metab in myDiGraph.nodes()]
+        remainingMetabList = [metab for metab in remainingMetabList if metab not in seedToGccList]
+        remainingMetabList = [metab for metab in remainingMetabList if metab not in remainingSeedList]
+        remainingMetabList = [metab for metab in remainingMetabList if metab not in sinkToGccList]
+        remainingMetabList = [metab for metab in remainingMetabList if metab not in remainingSinkList]
+        
+        with open('../'+processedDataDir+'/'+curDir+'/'+curDir+'remainingMetabs.txt', "w") as outFile:
+            for metab in remainingMetabList:
+                outFile.write(metab+'\n')
+    return

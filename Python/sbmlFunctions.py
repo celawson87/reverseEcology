@@ -31,7 +31,7 @@ import metadataFunctions as mf
 # directory. Summary statistics about each graph are written in the
 # summaryStatsDir as well.
 
-def dirListToAdjacencyList(dirList, processedDataDir, summaryStatsDir):
+def dirListToAdjacencyList(dirList, externalDataDir, processedDataDir, summaryStatsDir):
 
     numSubDir = len(dirList)
 
@@ -41,8 +41,8 @@ def dirListToAdjacencyList(dirList, processedDataDir, summaryStatsDir):
     modelStatArray = np.empty([numSubDir, 3], dtype = int)
 
 # Create a file to record the summary statistics.
-#    modelFile = open('../'+summaryStatsDir+'/'+'ModelStatistics.txt', 'w')
-#    modelFile.write('Model,Genes,Metabolites,Reactions\n')
+    modelFile = open('../'+summaryStatsDir+'/'+'ModelStatistics.txt', 'w')
+    modelFile.write('Model,Genes,Metabolites,Reactions\n')
 
 # Iterate over the list of genome directories. For each genome, read in the
 # SBML file and update the 'description' field with the genome name. The number
@@ -68,26 +68,20 @@ def dirListToAdjacencyList(dirList, processedDataDir, summaryStatsDir):
 
 # Read model statistics by invoking sbmlFunctions.getModelStats
         modelStatArray[count:] = getModelStats(model)
-#        modelFile.write('%s,%i,%i,%i\n' % ('../'+processedDataDir+'/'+curDir, modelStatArray[count,0], 
-#                                    modelStatArray[count,1], 
-#                                    modelStatArray[count, 2] ) )
+        modelFile.write('%s,%i,%i,%i\n' % ('../'+processedDataDir+'/'+curDir, modelStatArray[count,0], 
+                                    modelStatArray[count,1], 
+                                    modelStatArray[count, 2] ) )
 
 # Create adjacency list and write to file
-        # Check that external data directory exists and create if necesary
-        if not os.path.exists('../'+summaryStatsDir+'/'+curDir):
-            os.makedirs('../'+summaryStatsDir+'/'+curDir)
-        
-        adjacencyListFromModel(model, summaryStatsDir)
+        adjacencyListFromModel(model, processedDataDir)
+        reactionEdgesFromModel(model, processedDataDir)
         count = count + 1
 
 # Close files containing summary data
-#    modelFile.close()
+    modelFile.close()
 
-# Write completed dictionary to file as a csv file summaryStatsDir/metabMap.csv
-    # Check that external data directory exists and create if necesary
-    if not os.path.exists('../'+summaryStatsDir):
-        os.makedirs('../'+summaryStatsDir)
-    writer = csv.writer(open('../'+summaryStatsDir+'/'+'metabMap.csv', 'wb'))
+# Write completed dictionary to file as a csv file ExternalData/metabMap.csv
+    writer = csv.writer(open('../'+externalDataDir+'/'+'metabMap.csv', 'wb'))
     for key, value in namesDict.items():
         writer.writerow([key, value])
    
@@ -156,6 +150,7 @@ def dirListToAdjacencyListWithRemoval(dirList, externalDataDir, processedDataDir
 
 # Create adjacency list and write to file
         adjacencyListFromModel(model, processedDataDir)
+        reactionEdgesFromModel(model, processedDataDir)
         count = count + 1
 
 # Close files containing summary data
@@ -199,6 +194,41 @@ def adjacencyListFromModel(model, processedDataDir):
                 for myReactant in myRxn.reactants:
                     myFile.write(myReactant.id+'\t')
                 myFile.write('\n')
+    myFile.close()
+    return
+    
+################################################################################
+
+# reactionEdgesFromModel
+# Function to convert a cobrapy model object to a list of (source, sink) pairs
+# for reaction in the model. For each reaciton, creates an edge between all 
+# (reactant, product) pairs and indicates the reaction. If a reaction is 
+# reversible, also creates edges between all (product, reactant) pairs.
+# Input: cobrapy model object, model directory
+# Output: None.
+
+def reactionEdgesFromModel(model, processedDataDir):
+
+# Establish a file for the adjacency list
+    myFile = open('../'+processedDataDir+'/'+model.id+'/'+model.id+'RxnEdges.txt', 'w')
+
+# For each reaction, loop over the reactants. For each reactant, loop over the 
+# reaction products and create an edge between the reactant and products. If a 
+# reaction is reversible, repeat the process in reverse, creating an edge
+# between each product and reactant. Also record reaction associated with each
+# edge.
+    for myRxn in model.reactions:
+        for myReactant in myRxn.reactants:
+            for myProduct in myRxn.products:
+                myFile.write(myReactant.id+'\t')
+                myFile.write(myProduct.id+'\t')
+                myFile.write(myRxn.id+'\n')
+        if myRxn.reversibility == True:
+            for myProduct in myRxn.products:
+                for myReactant in myRxn.reactants:
+                    myFile.write(myProduct.id+'\t')
+                    myFile.write(myReactant.id+'\t')
+                    myFile.write(myRxn.id+'\n')
     myFile.close()
     return
     
@@ -307,8 +337,19 @@ def processSBMLforRE(rawModelDir, processedDataDir, summaryStatsDir):
                 badRxnList.append(curRxn)
         # Spontaneous reactions, whose GPR is fully 'unknown'
             elif curRxn.gene_reaction_rule == 'Unknown':
-                badRxnList.append(curRxn)        
+                badRxnList.append(curRxn)     
+        # Transport reactions, based on keywords
+            elif re.search('transport', curRxn.name) or re.search('permease', curRxn.name) or re.search('symport', curRxn.name) or re.search('diffusion', curRxn.name) or re.search('excretion', curRxn.name) or re.search('export', curRxn.name) or re.search('secretion', curRxn.name) or re.search('uptake', curRxn.name) or re.search('antiport', curRxn.name):
+                badRxnList.append(curRxn)
+        # Transport reactions which don't get picked up based on keywords
+            elif curRxn.id == 'rxn05226_c0' or curRxn.id == 'rxn05292_c0' or curRxn.id == 'rxn05305_c0' or curRxn.id == 'rxn05312_c0' or curRxn.id == 'rxn05315_c0' or curRxn.id == 'rxn10945_c0':
+                badRxnList.append(curRxn)
         model.remove_reactions(badRxnList, delete=True, remove_orphans=True)                        
+
+        print 'The remaining extracellular metabolites are:'
+        for curMetab in model.metabolites:
+            if re.search('_e0', curMetab.id):
+                print curMetab.id
 
 ################################################################################                   
 

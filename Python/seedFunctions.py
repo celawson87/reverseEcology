@@ -270,26 +270,39 @@ def clusterOnly(revEcolMatrixDF, dirList, externalDataDir, colorFile):
 # overlap between A and B, and the seed set of A. After all pairwise scores 
 # are computed, the output is written to file.
 
-def computeMetabCompete(dirList, processedDataDir, summaryStatsDir):
+def computeMetabCompete(processedDataDir, summaryStatsDir, level, taxonFile):
     
-    numSubDir = len(dirList)
+# Obtain the groupList
+    taxonClass = pd.DataFrame.from_csv(taxonFile, sep=',')
+    taxonClass = taxonClass.dropna()
+    
+# Extract the unique tribes found in the dataset
+    if level=='Genome':
+        groupList = list(taxonClass.index.values)
+    else:   
+        groupList = pd.unique(taxonClass[level].values)
+        groupList.sort(axis=0)
+        groupList = [ group for group in groupList if not group.startswith('Unknown') ]
+        groupList = sorted(groupList, key=str.lower)
+
+    numSubDir = len(groupList)
+
 # Establish a matrix to store MII scores
-    metabCompete = pd.DataFrame(np.zeros((numSubDir, numSubDir)), index=dirList, columns=dirList)
+    metabCompete = pd.DataFrame(np.zeros((numSubDir, numSubDir)), index=groupList, columns=groupList)
 
 # Use a nested loop to loop over all genome pairs. outerDir coresponds to
 # organism A and innerDir to organism B
-    for outerDir in dirList:
-        for innerDir in dirList:
+    for outerDir in groupList:
+        for innerDir in groupList:
 
 # Read in the list of seed sets and their weights for organisms A and B
             seedWeightOuter = pd.read_csv('../'+processedDataDir+'/'+outerDir+'/'+outerDir+'SeedWeights.txt', 
-                                      header=None, names=['Metabolite', 'Outer Weight'])
+                                          header=None, names=['Metabolite', 'Outer Weight'])
             seedWeightInner = pd.read_csv('../'+processedDataDir+'/'+innerDir+'/'+innerDir+'SeedWeights.txt', 
-                                      header=None, names=['Metabolite', 'Inner Weight'])
+                                          header=None, names=['Metabolite', 'Inner Weight'])
 
 # Compute the overlap between seed sets using an inner join
             overlapSeeds = pd.merge(seedWeightOuter, seedWeightInner, on='Metabolite')
-            overlapSeeds.to_csv('../'+processedDataDir+'/'+outerDir+'/'+outerDir+'-'+innerDir+'-Compete.txt', index=False)
 
 # Sum seed compound weights for the overlap between A and B
             upperSum = overlapSeeds.loc[:,'Outer Weight'].sum()
@@ -301,10 +314,10 @@ def computeMetabCompete(dirList, processedDataDir, summaryStatsDir):
             metabCompete.loc[outerDir, innerDir] = upperSum / lowerSum
 
 # When loop complete, write to file
-    metabCompete.to_csv('../'+summaryStatsDir+'/'+'MetabolicCompetitionScores.csv')  
+        metabCompete.to_csv('../'+summaryStatsDir+'/'+'MetabolicCompetitionScores-'+level+'.csv')  
     
-    return metabCompete
-
+    return groupList, metabCompete
+    
 ################################################################################ 
 
 # Reverse Ecology Metric: Metabolic Complementarity Index
@@ -327,17 +340,30 @@ def computeMetabCompete(dirList, processedDataDir, summaryStatsDir):
 # sizes: the size of A's seed set, and the size of the overlap with B's non-
 # seeds. After all pairwise scores are computed, the output is written to file.
 
-def computeMetabComplement(dirList, processedDataDir, summaryStatsDir):
+def computeMetabComplement(processedDataDir, summaryStatsDir, level, taxonFile):
     
-    numSubDir = len(dirList)
+# Obtain the groupList
+    taxonClass = pd.DataFrame.from_csv(taxonFile, sep=',')
+    taxonClass = taxonClass.dropna()
+    
+# Extract the unique tribes found in the dataset
+    if level=='Genome':
+        groupList = list(taxonClass.index.values)
+    else:   
+        groupList = pd.unique(taxonClass[level].values)
+        groupList.sort(axis=0)
+        groupList = [ group for group in groupList if not group.startswith('Unknown') ]
+        groupList = sorted(groupList, key=str.lower)
+
+    numSubDir = len(groupList)
     
 # Establish a matrix to store MCI scores
-    metabComplement = pd.DataFrame(np.zeros((numSubDir, numSubDir)), index=dirList, columns=dirList)
+    metabComplement = pd.DataFrame(np.zeros((numSubDir, numSubDir)), index=groupList, columns=groupList)
 
 # Use a nested loop to loop over all genome pairs. outerDir coresponds to
 # organism A and innerDir to organism B
-    for outerDir in dirList:
-        for innerDir in dirList:
+    for outerDir in groupList:
+        for innerDir in groupList:
 
 # Read in the list of seed sets and their weights for organisms A and B
             seedWeightOuter = pd.read_csv('../'+processedDataDir+'/'+outerDir+'/'+outerDir+'SeedWeights.txt', header=None, names=['Metabolite', 'Outer Weight'])
@@ -356,15 +382,14 @@ def computeMetabComplement(dirList, processedDataDir, summaryStatsDir):
 
 # Compute the overlap between A's seeds and B's non-seeds
             overlapSeeds = pd.merge(seedWeightOuter, nonSeedsInner, on='Metabolite')
-            overlapSeeds.to_csv('../'+processedDataDir+'/'+outerDir+'/'+outerDir+'-'+innerDir+'-Complement.txt', index=False)
 
 # Compute the ratio of these two sets
             metabComplement.loc[outerDir, innerDir] = float(len(overlapSeeds)) / float(len(seedWeightOuter))
 
 # When loop complete, write to file
-    metabComplement.to_csv('../'+summaryStatsDir+'/'+'MetabolicComplementarityScores.csv')
+    metabComplement.to_csv('../'+summaryStatsDir+'/'+'MetabolicComplementarityScores-'+level+'.csv')
     
-    return metabComplement
+    return groupList, metabComplement
     
 ################################################################################ 
     
@@ -467,11 +492,9 @@ def clusterPairwise(revEcolMatrixDF, dirList, externalDataDir, summaryStatsDir, 
 # Visualization of a matrix dataframe
 # plotDataFrame
 
-# This function visualizes a pairwise reverse ecology metric, such 
-# as metabolic complementarity scores. 
+# This function visualizes pairwise competition scores as a heatmap.
 
-#def plotDataFrame(revEcolMatrixDF, dirList, externalDataDir, summaryStatsDir, colorFile, fileName):
-def plotDataFrame(revEcolMatrixDF, dirList, summaryStatsDir, fileName):
+def plotDataFrame(revEcolMatrixDF, groupList, externalDataDir, summaryStatsDir, fileName):
 # Python clustering algorithms require the data to be an ndarray, with each
 # row corresponding to a set of observations.
     revEcolMatrix=pd.DataFrame.as_matrix(revEcolMatrixDF)
@@ -484,40 +507,24 @@ def plotDataFrame(revEcolMatrixDF, dirList, summaryStatsDir, fileName):
 # Define the size of the plot
     axmatrix = fig.add_axes([0.1, 0.1, 0.8, 0.8])
 # Plot the weight matrix
-    im = axmatrix.matshow(revEcolMatrix, aspect='auto', origin='lower')
+    im = axmatrix.matshow(revEcolMatrix, aspect='auto', origin='upper', vmin=0, vmax=revEcolMatrixDF.max().max())
 # No tick marks along axes
     axmatrix.set_xticks([])
     axmatrix.set_yticks([])
 
-# Import coloration info to map to genome names. Rearrange to same order as
-# leaves of the dendrogram and extract the 'Color' column as a list.
-# The file 'actinoColors.csv' will need to be updated for the specific samples.
-#    genomeColors = pd.read_csv('../'+externalDataDir+'/'+colorFile)
-#    genomeColors = genomeColors['Color'].tolist()
-
 # Add genome names to the bottom axis
     axmatrix.set_xticks(range(len(revEcolMatrixT)))
-    axmatrix.set_xticklabels(dirList, minor=False)
+    axmatrix.set_xticklabels(groupList, minor=False)
     axmatrix.xaxis.set_label_position('bottom')
     axmatrix.xaxis.tick_bottom()
     plt.xticks(rotation=-90, fontsize=8)
-#    for xtick, color in zip(axmatrix.get_xticklabels(), genomeColors):
-#        xtick.set_color(color)
 
-# Import coloration info to map to genome names. Rearrange to same order as
-# leaves of the dendrogram and extract the 'Color' column as a list.
-# The file 'actinoColors.csv' will need to be updated for the specific samples.
-#    genomeColors = pd.read_csv('../'+externalDataDir+'/'+colorFile)
-#    genomeColors = genomeColors['Color'].tolist()
-    
 # Add genome names to the right axis
     axmatrix.set_yticks(range(len(revEcolMatrix)))
-    axmatrix.set_yticklabels(dirList, minor=False)
+    axmatrix.set_yticklabels(groupList, minor=False)
     axmatrix.yaxis.set_label_position('right')
     axmatrix.yaxis.tick_right()
     plt.yticks(fontsize=8)
-#    for ytick, color in zip(axmatrix.get_yticklabels(), genomeColors):
-#        ytick.set_color(color)
 
 # Plot colorbar.
     axcolor = fig.add_axes([0.9, 0.9, 0.03, 0.1])
