@@ -1,0 +1,1366 @@
+##gff-version 3
+TBE6-bin-03-scaffold_1029	feature	CDS	1835	2677	.	+	0	ID=TBE6-bin-03.genome.CDS.1423;Product=Ribosomal protein S12p Asp88 %28E. coli%29 methylthiotransferase
+TBE6-bin-03-scaffold_1029	feature	CDS	1276	1833	.	+	0	ID=TBE6-bin-03.genome.CDS.1422;Product=PhbF
+TBE6-bin-03-scaffold_1029	feature	CDS	442	1182	.	+	0	ID=TBE6-bin-03.genome.CDS.1421;Product=Acetoacetyl-CoA reductase %28EC 1.1.1.36%29
+TBE6-bin-03-scaffold_1029	feature	CDS	1	420	.	+	0	ID=TBE6-bin-03.genome.CDS.1420;Product=Polyhydroxyalkanoic acid synthase
+TBE6-bin-03-scaffold_1055	feature	CDS	8284	8679	.	-	0	ID=TBE6-bin-03.genome.CDS.1657;Product=Isoquinoline 1-oxidoreductase alpha subunit %28EC 1.3.99.16%29
+TBE6-bin-03-scaffold_1055	feature	CDS	7183	8274	.	-	0	ID=TBE6-bin-03.genome.CDS.1656;Product=Isoquinoline 1-oxidoreductase beta subunit %28EC 1.3.99.16%29
+TBE6-bin-03-scaffold_1055	feature	CDS	6120	7193	.	-	0	ID=TBE6-bin-03.genome.CDS.382;Product=Isoquinoline 1-oxidoreductase beta subunit %28EC 1.3.99.16%29
+TBE6-bin-03-scaffold_1055	feature	CDS	5142	6041	.	-	0	ID=TBE6-bin-03.genome.CDS.1654;Product=Glutamate N-acetyltransferase %28EC 2.3.1.35%29 / N-acetylglutamate synthase %28EC 2.3.1.1%29
+TBE6-bin-03-scaffold_1055	feature	CDS	4763	5173	.	-	0	ID=TBE6-bin-03.genome.CDS.380;Product=Glutamate N-acetyltransferase %28EC 2.3.1.35%29 / N-acetylglutamate synthase %28EC 2.3.1.1%29
+TBE6-bin-03-scaffold_1055	feature	CDS	3899	4756	.	-	0	ID=TBE6-bin-03.genome.CDS.1652;Product=putative ATP/GTP-binding protein
+TBE6-bin-03-scaffold_1055	feature	CDS	3471	3887	.	-	0	ID=TBE6-bin-03.genome.CDS.1651;Product=Mutator mutT protein %287%2C8-dihydro-8-oxoguanine-triphosphatase%29 %28EC 3.6.1.-%29
+TBE6-bin-03-scaffold_1055	feature	CDS	2722	3474	.	+	0	ID=TBE6-bin-03.genome.CDS.1650;Product=FIG002842: hypothetical protein
+TBE6-bin-03-scaffold_1055	feature	CDS	2024	2695	.	+	0	ID=TBE6-bin-03.genome.CDS.1649;Product=Dephospho-CoA kinase %28EC 2.7.1.24%29
+TBE6-bin-03-scaffold_1055	feature	CDS	1569	2063	.	+	0	ID=TBE6-bin-03.genome.CDS.1648;Product=Leader peptidase %28Prepilin peptidase%29 %28EC 3.4.23.43%29 / N-methyltransferase %28EC 2.1.1.-%29
+TBE6-bin-03-scaffold_1055	feature	CDS	1153	1569	.	+	0	ID=TBE6-bin-03.genome.CDS.1647;Product=Type IV fimbrial assembly protein PilC
+TBE6-bin-03-scaffold_1055	feature	CDS	401	1156	.	+	0	ID=TBE6-bin-03.genome.CDS.1646;Product=Type IV fimbrial assembly protein PilC
+TBE6-bin-03-scaffold_1055	feature	CDS	3	401	.	+	0	ID=TBE6-bin-03.genome.CDS.1645;Product=Type IV fimbrial assembly%2C ATPase PilB
+TBE6-bin-03-scaffold_1058	feature	misc_RNA	1	388	.	+	.	ID=TBE6-bin-03.genome.repeat.4;Product=repeat region
+TBE6-bin-03-scaffold_1058	feature	CDS	3998	5890	.	+	0	ID=TBE6-bin-03.genome.CDS.1309;Product=Translation elongation factor G
+TBE6-bin-03-scaffold_1058	feature	CDS	3500	3970	.	+	0	ID=TBE6-bin-03.genome.CDS.1308;Product=SSU ribosomal protein S7p %28S5e%29
+TBE6-bin-03-scaffold_1058	feature	CDS	2969	3349	.	+	0	ID=TBE6-bin-03.genome.CDS.1307;Product=SSU ribosomal protein S12p %28S23e%29
+TBE6-bin-03-scaffold_1058	feature	CDS	2682	2924	.	+	0	ID=TBE6-bin-03.genome.CDS.1306;Product=SSU ribosomal protein S12p %28S23e%29
+TBE6-bin-03-scaffold_1058	feature	CDS	3	2504	.	+	0	ID=TBE6-bin-03.genome.CDS.1305;Product=DNA-directed RNA polymerase beta%27 subunit %28EC 2.7.7.6%29
+TBE6-bin-03-scaffold_10663	feature	CDS	2713	2919	.	+	0	ID=TBE6-bin-03.genome.CDS.1360;Product=2-amino-4-hydroxy-6-hydroxymethyldihydropteridine pyrophosphokinase %28EC 2.7.6.3%29
+TBE6-bin-03-scaffold_10663	feature	CDS	1250	2671	.	+	0	ID=TBE6-bin-03.genome.CDS.1359;Product=Poly%28A%29 polymerase %28EC 2.7.7.19%29
+TBE6-bin-03-scaffold_10663	feature	CDS	559	1245	.	+	0	ID=TBE6-bin-03.genome.CDS.1358;Product=Phosphoserine phosphatase %28EC 3.1.3.3%29
+TBE6-bin-03-scaffold_10663	feature	CDS	2	562	.	+	0	ID=TBE6-bin-03.genome.CDS.1357;Product=DnaA regulatory inactivator Hda %28Homologous to DnaA%29
+TBE6-bin-03-scaffold_1105	feature	CDS	5224	6306	.	-	0	ID=TBE6-bin-03.genome.CDS.2045;Product=Acyltransferase 3
+TBE6-bin-03-scaffold_1105	feature	CDS	4772	5218	.	+	0	ID=TBE6-bin-03.genome.CDS.2044;Product=FIG138315: Putative alpha helix protein
+TBE6-bin-03-scaffold_1105	feature	CDS	4407	4727	.	+	0	ID=TBE6-bin-03.genome.CDS.2043;Product=FIG138315: Putative alpha helix protein
+TBE6-bin-03-scaffold_1105	feature	CDS	2708	4384	.	-	0	ID=TBE6-bin-03.genome.CDS.2042;Product=Choline dehydrogenase %28EC 1.1.99.1%29
+TBE6-bin-03-scaffold_1105	feature	CDS	1785	2663	.	-	0	ID=TBE6-bin-03.genome.CDS.2041;Product=Permease of the drug/metabolite transporter %28DMT%29 superfamily
+TBE6-bin-03-scaffold_1105	feature	CDS	221	1651	.	-	0	ID=TBE6-bin-03.genome.CDS.2040;Product=Branched-chain amino acid ABC transporter%2C amino acid-binding protein %28TC 3.A.1.4.1%29
+TBE6-bin-03-scaffold_1105	feature	CDS	3	89	.	-	0	ID=TBE6-bin-03.genome.CDS.2039;Product=High-affinity branched-chain amino acid transport system permease protein LivH %28TC 3.A.1.4.1%29
+TBE6-bin-03-scaffold_1106	feature	CDS	5086	6321	.	-	0	ID=TBE6-bin-03.genome.CDS.1670;Product=Carbamoyl-phosphate synthase large chain %28EC 6.3.5.5%29
+TBE6-bin-03-scaffold_1106	feature	CDS	4465	4941	.	-	0	ID=TBE6-bin-03.genome.CDS.1669;Product=Transcription elongation factor GreA
+TBE6-bin-03-scaffold_1106	feature	CDS	3978	4457	.	-	0	ID=TBE6-bin-03.genome.CDS.395;Product=
+TBE6-bin-03-scaffold_1106	feature	CDS	3554	3967	.	+	0	ID=TBE6-bin-03.genome.CDS.394;Product=RNA binding protein
+TBE6-bin-03-scaffold_1106	feature	CDS	3358	3540	.	+	0	ID=TBE6-bin-03.genome.CDS.393;Product=
+TBE6-bin-03-scaffold_1106	feature	CDS	3172	3312	.	-	0	ID=TBE6-bin-03.genome.CDS.392;Product=
+TBE6-bin-03-scaffold_1106	feature	CDS	2484	3158	.	-	0	ID=TBE6-bin-03.genome.CDS.1665;Product=Cell division protein FtsJ / Ribosomal RNA large subunit methyltransferase E %28EC 2.1.1.-%29
+TBE6-bin-03-scaffold_1106	feature	CDS	426	2336	.	-	0	ID=TBE6-bin-03.genome.CDS.1664;Product=Cell division protein FtsH %28EC 3.4.24.-%29
+TBE6-bin-03-scaffold_1106	feature	CDS	2	463	.	-	0	ID=TBE6-bin-03.genome.CDS.1663;Product=Dihydropteroate synthase %28EC 2.5.1.15%29
+TBE6-bin-03-scaffold_1146	feature	CDS	11243	12391	.	+	0	ID=TBE6-bin-03.genome.CDS.2064;Product=%5BProtein-PII%5D uridylyltransferase %28EC 2.7.7.59%29
+TBE6-bin-03-scaffold_1146	feature	CDS	10062	11186	.	+	0	ID=TBE6-bin-03.genome.CDS.2063;Product=%5BProtein-PII%5D uridylyltransferase %28EC 2.7.7.59%29
+TBE6-bin-03-scaffold_1146	feature	CDS	9206	10042	.	+	0	ID=TBE6-bin-03.genome.CDS.2062;Product=Methionine aminopeptidase %28EC 3.4.11.18%29
+TBE6-bin-03-scaffold_1146	feature	CDS	8580	8945	.	-	0	ID=TBE6-bin-03.genome.CDS.2061;Product=SSU ribosomal protein S2p %28SAe%29
+TBE6-bin-03-scaffold_1146	feature	CDS	8119	8607	.	-	0	ID=TBE6-bin-03.genome.CDS.2060;Product=SSU ribosomal protein S2p %28SAe%29
+TBE6-bin-03-scaffold_1146	feature	CDS	7238	8119	.	-	0	ID=TBE6-bin-03.genome.CDS.2059;Product=Translation elongation factor Ts
+TBE6-bin-03-scaffold_1146	feature	CDS	6189	7052	.	-	0	ID=TBE6-bin-03.genome.CDS.2058;Product=Uridine monophosphate kinase %28EC 2.7.4.22%29
+TBE6-bin-03-scaffold_1146	feature	CDS	5617	6177	.	-	0	ID=TBE6-bin-03.genome.CDS.2057;Product=Ribosome recycling factor
+TBE6-bin-03-scaffold_1146	feature	CDS	4809	5582	.	-	0	ID=TBE6-bin-03.genome.CDS.2056;Product=Undecaprenyl diphosphate synthase %28EC 2.5.1.31%29
+TBE6-bin-03-scaffold_1146	feature	CDS	3963	4790	.	-	0	ID=TBE6-bin-03.genome.CDS.2055;Product=Phosphatidate cytidylyltransferase %28EC 2.7.7.41%29
+TBE6-bin-03-scaffold_1146	feature	CDS	3817	3966	.	-	0	ID=TBE6-bin-03.genome.CDS.2054;Product=1-deoxy-D-xylulose 5-phosphate reductoisomerase %28EC 1.1.1.267%29
+TBE6-bin-03-scaffold_1146	feature	CDS	3638	3826	.	-	0	ID=TBE6-bin-03.genome.CDS.2053;Product=Phosphatidate cytidylyltransferase %28EC 2.7.7.41%29
+TBE6-bin-03-scaffold_1146	feature	CDS	2049	3638	.	-	0	ID=TBE6-bin-03.genome.CDS.2052;Product=1-deoxy-D-xylulose 5-phosphate reductoisomerase %28EC 1.1.1.267%29
+TBE6-bin-03-scaffold_1146	feature	CDS	728	2038	.	-	0	ID=TBE6-bin-03.genome.CDS.2051;Product=Intramembrane protease RasP/YluC%2C implicated in cell division based on FtsL cleavage
+TBE6-bin-03-scaffold_1146	feature	CDS	3	731	.	-	0	ID=TBE6-bin-03.genome.CDS.2050;Product=Outer membrane protein assembly factor YaeT precursor
+TBE6-bin-03-scaffold_11477	feature	CDS	1800	3332	.	-	0	ID=TBE6-bin-03.genome.CDS.1356;Product=Proposed peptidoglycan lipid II flippase MurJ
+TBE6-bin-03-scaffold_11477	feature	CDS	952	1794	.	-	0	ID=TBE6-bin-03.genome.CDS.1355;Product=Protein sirB1
+TBE6-bin-03-scaffold_11477	feature	CDS	302	946	.	+	0	ID=TBE6-bin-03.genome.CDS.1354;Product=DedA protein
+TBE6-bin-03-scaffold_11477	feature	CDS	3	227	.	-	0	ID=TBE6-bin-03.genome.CDS.1353;Product=tRNA dimethylallyltransferase %28EC 2.5.1.75%29
+TBE6-bin-03-scaffold_1150	feature	CDS	3666	4091	.	+	0	ID=TBE6-bin-03.genome.CDS.1414;Product=Nitrogen regulation protein NtrC
+TBE6-bin-03-scaffold_1150	feature	CDS	2536	3669	.	+	0	ID=TBE6-bin-03.genome.CDS.1413;Product=Nitrogen regulation protein NtrB %28EC 2.7.13.3%29
+TBE6-bin-03-scaffold_1150	feature	CDS	926	2521	.	+	0	ID=TBE6-bin-03.genome.CDS.1412;Product=Glutamine synthetase type I %28EC 6.3.1.2%29
+TBE6-bin-03-scaffold_1150	feature	CDS	1	750	.	+	0	ID=TBE6-bin-03.genome.CDS.1410;Product=Molybdopterin-binding protein
+TBE6-bin-03-scaffold_1279	feature	CDS	2031	2750	.	-	0	ID=TBE6-bin-03.genome.CDS.1744;Product=tRNA dimethylallyltransferase %28EC 2.5.1.75%29
+TBE6-bin-03-scaffold_1279	feature	CDS	982	2034	.	+	0	ID=TBE6-bin-03.genome.CDS.1743;Product=Phosphoribosylformylglycinamidine cyclo-ligase %28EC 6.3.3.1%29
+TBE6-bin-03-scaffold_1279	feature	CDS	1	909	.	-	0	ID=TBE6-bin-03.genome.CDS.1742;Product=Putative permease often clustered with de novo purine synthesis
+TBE6-bin-03-scaffold_1282	feature	CDS	5356	6723	.	-	0	ID=TBE6-bin-03.genome.CDS.2324;Product=TPR domain protein%2C putative component of TonB system
+TBE6-bin-03-scaffold_1282	feature	CDS	2865	4835	.	+	0	ID=TBE6-bin-03.genome.CDS.1018;Product=DNA internalization-related competence protein ComEC/Rec2
+TBE6-bin-03-scaffold_1282	feature	CDS	2064	2846	.	+	0	ID=TBE6-bin-03.genome.CDS.2322;Product=Putative deoxyribonuclease YjjV
+TBE6-bin-03-scaffold_1282	feature	CDS	1272	1967	.	+	0	ID=TBE6-bin-03.genome.CDS.2321;Product=Lipoprotein releasing system ATP-binding protein LolD
+TBE6-bin-03-scaffold_1282	feature	CDS	17	1279	.	+	0	ID=TBE6-bin-03.genome.CDS.2320;Product=Lipoprotein releasing system transmembrane protein LolE
+TBE6-bin-03-scaffold_12999	feature	CDS	2313	2912	.	+	0	ID=TBE6-bin-03.genome.CDS.1419;Product=probable transmembrane protein
+TBE6-bin-03-scaffold_12999	feature	CDS	1804	2277	.	+	0	ID=TBE6-bin-03.genome.CDS.1418;Product=Probable transmembrane protein
+TBE6-bin-03-scaffold_12999	feature	CDS	1253	1807	.	+	0	ID=TBE6-bin-03.genome.CDS.159;Product=DNA-directed RNA polymerase specialized sigma subunit%2C sigma24-like
+TBE6-bin-03-scaffold_12999	feature	CDS	1021	1281	.	+	0	ID=TBE6-bin-03.genome.CDS.1416;Product=DNA-directed RNA polymerase specialized sigma subunit%2C sigma24-like
+TBE6-bin-03-scaffold_12999	feature	CDS	3	827	.	-	0	ID=TBE6-bin-03.genome.CDS.1415;Product=Acetolactate synthase large subunit %28EC 2.2.1.6%29
+TBE6-bin-03-scaffold_1504	feature	CDS	6222	6755	.	+	0	ID=TBE6-bin-03.genome.CDS.1568;Product=
+TBE6-bin-03-scaffold_1504	feature	CDS	4970	6181	.	+	0	ID=TBE6-bin-03.genome.CDS.1567;Product=L-aspartate oxidase %28EC 1.4.3.16%29
+TBE6-bin-03-scaffold_1504	feature	CDS	4431	5012	.	+	0	ID=TBE6-bin-03.genome.CDS.300;Product=L-aspartate oxidase %28EC 1.4.3.16%29
+TBE6-bin-03-scaffold_1504	feature	CDS	4154	4384	.	+	0	ID=TBE6-bin-03.genome.CDS.1566;Product=
+TBE6-bin-03-scaffold_1504	feature	CDS	2424	4037	.	+	0	ID=TBE6-bin-03.genome.CDS.1565;Product=tungsten-containing formate dehydrogenase alpha subunit
+TBE6-bin-03-scaffold_1504	feature	CDS	1438	2427	.	+	0	ID=TBE6-bin-03.genome.CDS.1564;Product=tungsten-containing formate dehydrogenase alpha subunit
+TBE6-bin-03-scaffold_1504	feature	CDS	560	1474	.	+	0	ID=TBE6-bin-03.genome.CDS.1563;Product=tungsten-containing formate dehydrogenase alpha subunit
+TBE6-bin-03-scaffold_1504	feature	CDS	3	539	.	+	0	ID=TBE6-bin-03.genome.CDS.1562;Product=tungsten-containing formate dehydrogenase beta subunit
+TBE6-bin-03-scaffold_1747	feature	CDS	5204	5590	.	+	0	ID=TBE6-bin-03.genome.CDS.1524;Product=Phosphoenolpyruvate synthase %28EC 2.7.9.2%29
+TBE6-bin-03-scaffold_1747	feature	CDS	4269	5096	.	-	0	ID=TBE6-bin-03.genome.CDS.1523;Product=FIG137360: hypothetical protein
+TBE6-bin-03-scaffold_1747	feature	CDS	4081	4263	.	+	0	ID=TBE6-bin-03.genome.CDS.1522;Product=rRNA methylases
+TBE6-bin-03-scaffold_1747	feature	CDS	3226	4047	.	+	0	ID=TBE6-bin-03.genome.CDS.1521;Product=rRNA methylases
+TBE6-bin-03-scaffold_1747	feature	CDS	2636	3229	.	+	0	ID=TBE6-bin-03.genome.CDS.1520;Product=Ribonuclease HII %28EC 3.1.26.4%29
+TBE6-bin-03-scaffold_1747	feature	CDS	1319	2509	.	+	0	ID=TBE6-bin-03.genome.CDS.1519;Product=Lipid-A-disaccharide synthase %28EC 2.4.1.182%29
+TBE6-bin-03-scaffold_1747	feature	CDS	515	1312	.	+	0	ID=TBE6-bin-03.genome.CDS.1518;Product=Acyl-%5Bacyl-carrier-protein%5D--UDP-N-acetylglucosamine O-acyltransferase %28EC 2.3.1.129%29
+TBE6-bin-03-scaffold_1747	feature	CDS	66	515	.	+	0	ID=TBE6-bin-03.genome.CDS.1517;Product=3-hydroxyacyl-%5Bacyl-carrier-protein%5D dehydratase%2C FabZ form %28EC 4.2.1.59%29
+TBE6-bin-03-scaffold_1849	feature	CDS	6134	6841	.	+	0	ID=TBE6-bin-03.genome.CDS.1953;Product=Phosphate transport system regulatory protein PhoU
+TBE6-bin-03-scaffold_1849	feature	CDS	5273	6121	.	+	0	ID=TBE6-bin-03.genome.CDS.1952;Product=Phosphate transport ATP-binding protein PstB %28TC 3.A.1.7.1%29
+TBE6-bin-03-scaffold_1849	feature	CDS	4401	5267	.	+	0	ID=TBE6-bin-03.genome.CDS.1951;Product=Phosphate transport system permease protein PstA %28TC 3.A.1.7.1%29
+TBE6-bin-03-scaffold_1849	feature	CDS	3415	4404	.	+	0	ID=TBE6-bin-03.genome.CDS.1950;Product=Phosphate transport system permease protein PstC %28TC 3.A.1.7.1%29
+TBE6-bin-03-scaffold_1849	feature	CDS	3093	3371	.	+	0	ID=TBE6-bin-03.genome.CDS.1949;Product=Phosphate transport system permease protein PstC %28TC 3.A.1.7.1%29
+TBE6-bin-03-scaffold_1849	feature	CDS	1990	3018	.	+	0	ID=TBE6-bin-03.genome.CDS.1948;Product=Phosphate ABC transporter%2C periplasmic phosphate-binding protein PstS %28TC 3.A.1.7.1%29
+TBE6-bin-03-scaffold_1849	feature	CDS	1642	1860	.	+	0	ID=TBE6-bin-03.genome.CDS.662;Product=Phosphoglucosamine mutase %28EC 5.4.2.10%29
+TBE6-bin-03-scaffold_1849	feature	CDS	435	1673	.	+	0	ID=TBE6-bin-03.genome.CDS.1946;Product=Phosphoglucosamine mutase %28EC 5.4.2.10%29
+TBE6-bin-03-scaffold_1849	feature	CDS	1	426	.	+	0	ID=TBE6-bin-03.genome.CDS.1945;Product=Dihydropteroate synthase %28EC 2.5.1.15%29
+TBE6-bin-03-scaffold_18798	feature	CDS	2924	3259	.	+	0	ID=TBE6-bin-03.genome.CDS.1352;Product=DNA recombination and repair protein RecO
+TBE6-bin-03-scaffold_18798	feature	CDS	1985	2923	.	+	0	ID=TBE6-bin-03.genome.CDS.1351;Product=GTP-binding protein Era
+TBE6-bin-03-scaffold_18798	feature	CDS	1191	1982	.	+	0	ID=TBE6-bin-03.genome.CDS.1350;Product=Ribonuclease III %28EC 3.1.26.3%29
+TBE6-bin-03-scaffold_18798	feature	CDS	381	1187	.	+	0	ID=TBE6-bin-03.genome.CDS.1349;Product=Signal peptidase I %28EC 3.4.21.89%29
+TBE6-bin-03-scaffold_18798	feature	CDS	1	381	.	+	0	ID=TBE6-bin-03.genome.CDS.1348;Product=Translation elongation factor LepA
+TBE6-bin-03-scaffold_1989	feature	CDS	2210	2746	.	+	0	ID=TBE6-bin-03.genome.CDS.1611;Product=ADP-ribose pyrophosphatase %28EC 3.6.1.13%29
+TBE6-bin-03-scaffold_1989	feature	CDS	1413	2189	.	+	0	ID=TBE6-bin-03.genome.CDS.1610;Product=NADH-ubiquinone oxidoreductase chain N %28EC 1.6.5.3%29
+TBE6-bin-03-scaffold_1989	feature	CDS	410	1426	.	+	0	ID=TBE6-bin-03.genome.CDS.1609;Product=NADH-ubiquinone oxidoreductase chain N %28EC 1.6.5.3%29
+TBE6-bin-03-scaffold_1989	feature	CDS	25	399	.	+	0	ID=TBE6-bin-03.genome.CDS.340;Product=NADH-ubiquinone oxidoreductase chain M %28EC 1.6.5.3%29
+TBE6-bin-03-scaffold_20811	feature	CDS	8405	8587	.	+	0	ID=TBE6-bin-03.genome.CDS.1301;Product=tRNA uridine 5-carboxymethylaminomethyl modification enzyme GidA
+TBE6-bin-03-scaffold_20811	feature	CDS	7310	8239	.	+	0	ID=TBE6-bin-03.genome.CDS.59;Product=Branched-chain amino acid transport system permease protein LivM %28TC 3.A.1.4.1%29
+TBE6-bin-03-scaffold_20811	feature	CDS	6376	7296	.	+	0	ID=TBE6-bin-03.genome.CDS.1299;Product=High-affinity branched-chain amino acid transport system permease protein LivH %28TC 3.A.1.4.1%29
+TBE6-bin-03-scaffold_20811	feature	CDS	4805	6367	.	+	0	ID=TBE6-bin-03.genome.CDS.1298;Product=Leucine-%2C isoleucine-%2C valine-%2C threonine-%2C and alanine-binding protein
+TBE6-bin-03-scaffold_20811	feature	CDS	4079	4783	.	+	0	ID=TBE6-bin-03.genome.CDS.1297;Product=Branched-chain amino acid transport ATP-binding protein LivF %28TC 3.A.1.4.1%29
+TBE6-bin-03-scaffold_20811	feature	CDS	3324	4082	.	+	0	ID=TBE6-bin-03.genome.CDS.1296;Product=Branched-chain amino acid transport ATP-binding protein LivG %28TC 3.A.1.4.1%29
+TBE6-bin-03-scaffold_20811	feature	CDS	3002	3226	.	+	0	ID=TBE6-bin-03.genome.CDS.1295;Product=FIG00934413: hypothetical protein
+TBE6-bin-03-scaffold_20811	feature	CDS	2495	2989	.	+	0	ID=TBE6-bin-03.genome.CDS.1294;Product=Zinc finger protein HRX
+TBE6-bin-03-scaffold_20811	feature	CDS	1	2493	.	+	0	ID=TBE6-bin-03.genome.CDS.1293;Product=DNA gyrase subunit B %28EC 5.99.1.3%29
+TBE6-bin-03-scaffold_21570	feature	CDS	17250	17585	.	-	0	ID=TBE6-bin-03.genome.CDS.1260;Product=putative helicase
+TBE6-bin-03-scaffold_21570	feature	CDS	16509	17237	.	+	0	ID=TBE6-bin-03.genome.CDS.1259;Product=LrgA-associated membrane protein LrgB
+TBE6-bin-03-scaffold_21570	feature	CDS	16102	16452	.	+	0	ID=TBE6-bin-03.genome.CDS.1258;Product=Antiholin-like protein LrgA
+TBE6-bin-03-scaffold_21570	feature	CDS	15498	15947	.	-	0	ID=TBE6-bin-03.genome.CDS.1257;Product=Isoquinoline 1-oxidoreductase alpha subunit %28EC 1.3.99.16%29
+TBE6-bin-03-scaffold_21570	feature	CDS	13904	15487	.	-	0	ID=TBE6-bin-03.genome.CDS.1256;Product=Isoquinoline 1-oxidoreductase beta subunit %28EC 1.3.99.16%29
+TBE6-bin-03-scaffold_21570	feature	CDS	13198	13857	.	-	0	ID=TBE6-bin-03.genome.CDS.16;Product=Isoquinoline 1-oxidoreductase beta subunit %28EC 1.3.99.16%29
+TBE6-bin-03-scaffold_21570	feature	CDS	12710	13168	.	-	0	ID=TBE6-bin-03.genome.CDS.1254;Product=Sulfur oxidation protein SoxX
+TBE6-bin-03-scaffold_21570	feature	CDS	12229	12705	.	-	0	ID=TBE6-bin-03.genome.CDS.1253;Product=Sulfur oxidation protein SoxY
+TBE6-bin-03-scaffold_21570	feature	CDS	11903	12232	.	-	0	ID=TBE6-bin-03.genome.CDS.1252;Product=Sulfur oxidation protein SoxZ
+TBE6-bin-03-scaffold_21570	feature	CDS	11136	11906	.	-	0	ID=TBE6-bin-03.genome.CDS.1251;Product=sulfur oxidation protein SoxA
+TBE6-bin-03-scaffold_21570	feature	CDS	10285	11139	.	+	0	ID=TBE6-bin-03.genome.CDS.1250;Product=Formyltetrahydrofolate deformylase %28EC 3.5.1.10%29
+TBE6-bin-03-scaffold_21570	feature	CDS	9874	10245	.	+	0	ID=TBE6-bin-03.genome.CDS.1249;Product=LrgA-associated membrane protein LrgB
+TBE6-bin-03-scaffold_21570	feature	CDS	9486	9893	.	+	0	ID=TBE6-bin-03.genome.CDS.1248;Product=hypothetical protein
+TBE6-bin-03-scaffold_21570	feature	CDS	6960	9419	.	+	0	ID=TBE6-bin-03.genome.CDS.1247;Product=Penicillin amidase %28EC 3.5.1.11%29
+TBE6-bin-03-scaffold_21570	feature	tRNA	6686	6821	.	-	.	ID=TBE6-bin-03.genome.rna.3;Product=tRNA-Pseudo-TAA
+TBE6-bin-03-scaffold_21570	feature	CDS	6188	6676	.	-	0	ID=TBE6-bin-03.genome.CDS.1246;Product=
+TBE6-bin-03-scaffold_21570	feature	CDS	5791	6204	.	+	0	ID=TBE6-bin-03.genome.CDS.1245;Product=Biopolymer transport protein ExbD/TolR
+TBE6-bin-03-scaffold_21570	feature	CDS	5096	5788	.	+	0	ID=TBE6-bin-03.genome.CDS.1244;Product=MotA/TolQ/ExbB proton channel family protein
+TBE6-bin-03-scaffold_21570	feature	CDS	4372	5091	.	+	0	ID=TBE6-bin-03.genome.CDS.1243;Product=Ferric siderophore transport system%2C periplasmic binding protein TonB
+TBE6-bin-03-scaffold_21570	feature	CDS	3548	4372	.	+	0	ID=TBE6-bin-03.genome.CDS.1242;Product=Glutamate racemase %28EC 5.1.1.3%29
+TBE6-bin-03-scaffold_21570	feature	CDS	1998	3521	.	+	0	ID=TBE6-bin-03.genome.CDS.1241;Product=Fumarate hydratase class I%2C aerobic %28EC 4.2.1.2%29
+TBE6-bin-03-scaffold_21570	feature	CDS	2	1852	.	-	0	ID=TBE6-bin-03.genome.CDS.1240;Product=Acetyl-coenzyme A synthetase %28EC 6.2.1.1%29
+TBE6-bin-03-scaffold_21657	feature	CDS	3793	4230	.	-	0	ID=TBE6-bin-03.genome.CDS.1689;Product=permease YjgP/YjgQ family protein
+TBE6-bin-03-scaffold_21657	feature	CDS	2788	3729	.	-	0	ID=TBE6-bin-03.genome.CDS.1688;Product=Regulatory protein CysB
+TBE6-bin-03-scaffold_21657	feature	CDS	2520	2783	.	+	0	ID=TBE6-bin-03.genome.CDS.1687;Product=YoeB toxin protein
+TBE6-bin-03-scaffold_21657	feature	CDS	2273	2530	.	+	0	ID=TBE6-bin-03.genome.CDS.1686;Product=YefM protein %28antitoxin to YoeB%29
+TBE6-bin-03-scaffold_21657	feature	tRNA	2096	2180	.	+	.	ID=TBE6-bin-03.genome.rna.6;Product=tRNA-Leu-CAA
+TBE6-bin-03-scaffold_21657	feature	CDS	1130	1849	.	-	0	ID=TBE6-bin-03.genome.CDS.1685;Product=FIG000859: hypothetical protein YebC
+TBE6-bin-03-scaffold_21657	feature	CDS	2	1117	.	-	0	ID=TBE6-bin-03.genome.CDS.1684;Product=Phosphoribosylamine--glycine ligase %28EC 6.3.4.13%29
+TBE6-bin-03-scaffold_22180	feature	CDS	3625	4332	.	+	0	ID=TBE6-bin-03.genome.CDS.1853;Product=ATP phosphoribosyltransferase regulatory subunit %28EC 2.4.2.17%29
+TBE6-bin-03-scaffold_22180	feature	CDS	3001	3585	.	+	0	ID=TBE6-bin-03.genome.CDS.1852;Product=HflK protein
+TBE6-bin-03-scaffold_22180	feature	CDS	2759	3004	.	+	0	ID=TBE6-bin-03.genome.CDS.1851;Product=HflK protein
+TBE6-bin-03-scaffold_22180	feature	CDS	1624	2769	.	+	0	ID=TBE6-bin-03.genome.CDS.571;Product=GTP-binding protein HflX
+TBE6-bin-03-scaffold_22180	feature	CDS	1220	1663	.	+	0	ID=TBE6-bin-03.genome.CDS.1849;Product=GTP-binding protein HflX
+TBE6-bin-03-scaffold_22180	feature	CDS	991	1233	.	+	0	ID=TBE6-bin-03.genome.CDS.1848;Product=RNA-binding protein Hfq
+TBE6-bin-03-scaffold_22180	feature	CDS	71	865	.	+	0	ID=TBE6-bin-03.genome.CDS.568;Product=GTP-binding protein EngA
+TBE6-bin-03-scaffold_2287	feature	CDS	1925	2590	.	-	0	ID=TBE6-bin-03.genome.CDS.1409;Product=Putative ABC transport system permease protein
+TBE6-bin-03-scaffold_2287	feature	CDS	1423	1659	.	+	0	ID=TBE6-bin-03.genome.CDS.151;Product=
+TBE6-bin-03-scaffold_2287	feature	CDS	1185	1361	.	-	0	ID=TBE6-bin-03.genome.CDS.1408;Product=ABC transporter%2C ATP-binding protein
+TBE6-bin-03-scaffold_2287	feature	CDS	244	1188	.	-	0	ID=TBE6-bin-03.genome.CDS.1407;Product=Paraquat-inducible protein B
+TBE6-bin-03-scaffold_2287	feature	CDS	2	247	.	-	0	ID=TBE6-bin-03.genome.CDS.1406;Product=
+TBE6-bin-03-scaffold_2395	feature	CDS	6947	7561	.	+	0	ID=TBE6-bin-03.genome.CDS.2385;Product=Anthranilate phosphoribosyltransferase %28EC 2.4.2.18%29
+TBE6-bin-03-scaffold_2395	feature	CDS	6607	6945	.	+	0	ID=TBE6-bin-03.genome.CDS.2384;Product=Anthranilate synthase%2C amidotransferase component %28EC 4.1.3.27%29 %40 Para-aminobenzoate synthase%2C amidotransferase component %28EC 2.6.1.85%29
+TBE6-bin-03-scaffold_2395	feature	CDS	4971	6539	.	+	0	ID=TBE6-bin-03.genome.CDS.1079;Product=Anthranilate synthase%2C aminase component %28EC 4.1.3.27%29
+TBE6-bin-03-scaffold_2395	feature	CDS	4246	4971	.	+	0	ID=TBE6-bin-03.genome.CDS.2383;Product=Ribulose-phosphate 3-epimerase %28EC 5.1.3.1%29
+TBE6-bin-03-scaffold_2395	feature	CDS	3822	4196	.	-	0	ID=TBE6-bin-03.genome.CDS.2382;Product=ApaG protein
+TBE6-bin-03-scaffold_2395	feature	CDS	3701	3814	.	+	0	ID=TBE6-bin-03.genome.CDS.1075;Product=hypothetical protein
+TBE6-bin-03-scaffold_2395	feature	CDS	2548	3702	.	-	0	ID=TBE6-bin-03.genome.CDS.2381;Product=Membrane-bound lytic murein transglycosylase A precursor %28EC 3.2.1.-%29
+TBE6-bin-03-scaffold_2395	feature	CDS	1744	2523	.	-	0	ID=TBE6-bin-03.genome.CDS.2380;Product=Phenylacetate degradation enoyl-CoA hydratase PaaA %28EC 4.2.1.17%29
+TBE6-bin-03-scaffold_2395	feature	CDS	557	1747	.	+	0	ID=TBE6-bin-03.genome.CDS.2379;Product=N-acyl-L-amino acid amidohydrolase %28EC 3.5.1.14%29
+TBE6-bin-03-scaffold_2395	feature	CDS	2	523	.	+	0	ID=TBE6-bin-03.genome.CDS.2378;Product=Dethiobiotin synthetase %28EC 6.3.3.3%29
+TBE6-bin-03-scaffold_2409	feature	CDS	1823	3073	.	-	0	ID=TBE6-bin-03.genome.CDS.1304;Product=NADH-ubiquinone oxidoreductase chain D %28EC 1.6.5.3%29
+TBE6-bin-03-scaffold_2409	feature	CDS	1299	1802	.	-	0	ID=TBE6-bin-03.genome.CDS.1303;Product=NADH-ubiquinone oxidoreductase chain E %28EC 1.6.5.3%29
+TBE6-bin-03-scaffold_2409	feature	CDS	4	1302	.	-	0	ID=TBE6-bin-03.genome.CDS.1302;Product=NADH-ubiquinone oxidoreductase chain F %28EC 1.6.5.3%29
+TBE6-bin-03-scaffold_24170	feature	CDS	2340	3242	.	-	0	ID=TBE6-bin-03.genome.CDS.1694;Product=Glycyl-tRNA synthetase beta chain %28EC 6.1.1.14%29
+TBE6-bin-03-scaffold_24170	feature	CDS	1771	2343	.	-	0	ID=TBE6-bin-03.genome.CDS.1693;Product=Histidinol-phosphatase %28EC 3.1.3.15%29
+TBE6-bin-03-scaffold_24170	feature	CDS	1034	1765	.	-	0	ID=TBE6-bin-03.genome.CDS.1692;Product=Phospholipid and glycerol acyltransferase %28EC 2.3.1.51%29
+TBE6-bin-03-scaffold_24170	feature	CDS	249	1037	.	+	0	ID=TBE6-bin-03.genome.CDS.1691;Product=SSU rRNA %28adenine%281518%29-N%286%29/adenine%281519%29-N%286%29%29-dimethyltransferase %28EC 2.1.1.182%29
+TBE6-bin-03-scaffold_24170	feature	CDS	3	242	.	+	0	ID=TBE6-bin-03.genome.CDS.1690;Product=4-hydroxythreonine-4-phosphate dehydrogenase %28EC 1.1.1.262%29
+TBE6-bin-03-scaffold_2422	feature	CDS	27890	27982	.	+	0	ID=TBE6-bin-03.genome.CDS.2283;Product=
+TBE6-bin-03-scaffold_2422	feature	CDS	26875	27855	.	+	0	ID=TBE6-bin-03.genome.CDS.2282;Product=putative exported protein
+TBE6-bin-03-scaffold_2422	feature	CDS	26491	26793	.	-	0	ID=TBE6-bin-03.genome.CDS.2281;Product=Antibiotic biosynthesis monooxygenase
+TBE6-bin-03-scaffold_2422	feature	CDS	26227	26478	.	+	0	ID=TBE6-bin-03.genome.CDS.2280;Product=Rhodanese domain protein UPF0176%2C Betaproteobacterial subgroup
+TBE6-bin-03-scaffold_2422	feature	CDS	25607	26233	.	+	0	ID=TBE6-bin-03.genome.CDS.2279;Product=Rhodanese domain protein UPF0176%2C Betaproteobacterial subgroup
+TBE6-bin-03-scaffold_2422	feature	CDS	24521	25546	.	-	0	ID=TBE6-bin-03.genome.CDS.2278;Product=putative exported protein
+TBE6-bin-03-scaffold_2422	feature	CDS	23970	24512	.	-	0	ID=TBE6-bin-03.genome.CDS.2277;Product=hypothetical protein
+TBE6-bin-03-scaffold_2422	feature	CDS	23418	23963	.	-	0	ID=TBE6-bin-03.genome.CDS.976;Product=Protein-N%285%29-glutamine methyltransferase PrmC%2C methylates polypeptide chain release factors RF1 and RF2
+TBE6-bin-03-scaffold_2422	feature	CDS	22724	23293	.	-	0	ID=TBE6-bin-03.genome.CDS.975;Product=Protein-N%285%29-glutamine methyltransferase PrmC%2C methylates polypeptide chain release factors RF1 and RF2
+TBE6-bin-03-scaffold_2422	feature	CDS	22280	22510	.	-	0	ID=TBE6-bin-03.genome.CDS.2275;Product=
+TBE6-bin-03-scaffold_2422	feature	CDS	21984	22286	.	+	0	ID=TBE6-bin-03.genome.CDS.2274;Product=
+TBE6-bin-03-scaffold_2422	feature	CDS	21718	21927	.	+	0	ID=TBE6-bin-03.genome.CDS.2273;Product=
+TBE6-bin-03-scaffold_2422	feature	CDS	21597	21707	.	+	0	ID=TBE6-bin-03.genome.CDS.2272;Product=
+TBE6-bin-03-scaffold_2422	feature	CDS	20241	21164	.	-	0	ID=TBE6-bin-03.genome.CDS.2271;Product=hypothetical protein
+TBE6-bin-03-scaffold_2422	feature	CDS	20009	20251	.	-	0	ID=TBE6-bin-03.genome.CDS.2270;Product=hypothetical protein
+TBE6-bin-03-scaffold_2422	feature	CDS	19608	20012	.	-	0	ID=TBE6-bin-03.genome.CDS.2269;Product=hypothetical protein
+TBE6-bin-03-scaffold_2422	feature	CDS	18286	19590	.	-	0	ID=TBE6-bin-03.genome.CDS.2268;Product=phage terminase%2C large subunit%2C putative
+TBE6-bin-03-scaffold_2422	feature	CDS	17706	18272	.	+	0	ID=TBE6-bin-03.genome.CDS.2267;Product=
+TBE6-bin-03-scaffold_2422	feature	CDS	16714	17700	.	+	0	ID=TBE6-bin-03.genome.CDS.2266;Product=hypothetical protein
+TBE6-bin-03-scaffold_2422	feature	CDS	14651	16600	.	-	0	ID=TBE6-bin-03.genome.CDS.2265;Product=hypothetical protein
+TBE6-bin-03-scaffold_2422	feature	CDS	13282	14673	.	-	0	ID=TBE6-bin-03.genome.CDS.2264;Product=hypothetical protein
+TBE6-bin-03-scaffold_2422	feature	CDS	12108	13256	.	+	0	ID=TBE6-bin-03.genome.CDS.2263;Product=Fic domain protein%2C Pden_3305 type
+TBE6-bin-03-scaffold_2422	feature	CDS	10593	11639	.	-	0	ID=TBE6-bin-03.genome.CDS.2262;Product=major virion structural protein
+TBE6-bin-03-scaffold_2422	feature	CDS	10198	10581	.	-	0	ID=TBE6-bin-03.genome.CDS.2261;Product=hypothetical protein
+TBE6-bin-03-scaffold_2422	feature	CDS	9479	10012	.	-	0	ID=TBE6-bin-03.genome.CDS.2260;Product=hypothetical protein
+TBE6-bin-03-scaffold_2422	feature	CDS	9141	9482	.	-	0	ID=TBE6-bin-03.genome.CDS.2259;Product=
+TBE6-bin-03-scaffold_2422	feature	CDS	8593	8946	.	-	0	ID=TBE6-bin-03.genome.CDS.2258;Product=hypothetical protein
+TBE6-bin-03-scaffold_2422	feature	CDS	7958	8449	.	-	0	ID=TBE6-bin-03.genome.CDS.2257;Product=Tol-Pal system peptidoglycan-associated lipoprotein PAL
+TBE6-bin-03-scaffold_2422	feature	CDS	7413	7940	.	-	0	ID=TBE6-bin-03.genome.CDS.2256;Product=hypothetical protein
+TBE6-bin-03-scaffold_2422	feature	CDS	7097	7309	.	-	0	ID=TBE6-bin-03.genome.CDS.952;Product=
+TBE6-bin-03-scaffold_2422	feature	CDS	6839	7084	.	-	0	ID=TBE6-bin-03.genome.CDS.2255;Product=
+TBE6-bin-03-scaffold_2422	feature	CDS	5508	6728	.	-	0	ID=TBE6-bin-03.genome.CDS.2254;Product=putative oxidase
+TBE6-bin-03-scaffold_2422	feature	CDS	5186	5497	.	-	0	ID=TBE6-bin-03.genome.CDS.2253;Product=Cytochrome c551/c552
+TBE6-bin-03-scaffold_2422	feature	CDS	4776	5168	.	-	0	ID=TBE6-bin-03.genome.CDS.2252;Product=putative lipoprotein
+TBE6-bin-03-scaffold_2422	feature	CDS	4052	4360	.	+	0	ID=TBE6-bin-03.genome.CDS.2251;Product=High potential iron-sulfur protein
+TBE6-bin-03-scaffold_2422	feature	CDS	3229	4038	.	+	0	ID=TBE6-bin-03.genome.CDS.2250;Product=membrane protein%2C putative
+TBE6-bin-03-scaffold_2422	feature	CDS	3058	3225	.	+	0	ID=TBE6-bin-03.genome.CDS.2249;Product=Sulfide-quinone reductase
+TBE6-bin-03-scaffold_2422	feature	CDS	1943	3106	.	+	0	ID=TBE6-bin-03.genome.CDS.2248;Product=Sulfide-quinone reductase
+TBE6-bin-03-scaffold_2422	feature	CDS	1210	1797	.	-	0	ID=TBE6-bin-03.genome.CDS.2247;Product=FIG146518: Zn-dependent hydrolases%2C including glyoxylases
+TBE6-bin-03-scaffold_2422	feature	CDS	888	1259	.	-	0	ID=TBE6-bin-03.genome.CDS.2246;Product=FIG146518: Zn-dependent hydrolases%2C including glyoxylases
+TBE6-bin-03-scaffold_2422	feature	CDS	3	848	.	-	0	ID=TBE6-bin-03.genome.CDS.2245;Product=Sulfur oxidation molybdopterin C protein
+TBE6-bin-03-scaffold_2425	feature	CDS	3756	4340	.	+	0	ID=TBE6-bin-03.genome.CDS.2170;Product=membrane protein%2C putative
+TBE6-bin-03-scaffold_2425	feature	CDS	2551	3759	.	+	0	ID=TBE6-bin-03.genome.CDS.2169;Product=BNR/Asp-box repeat protein
+TBE6-bin-03-scaffold_2425	feature	CDS	812	2554	.	+	0	ID=TBE6-bin-03.genome.CDS.2168;Product=Polymyxin resistance protein ArnT%2C undecaprenyl phosphate-alpha-L-Ara4N transferase%3B Melittin resistance protein PqaB
+TBE6-bin-03-scaffold_2425	feature	CDS	433	747	.	-	0	ID=TBE6-bin-03.genome.CDS.2167;Product=cytochrome c subunit of flavocytochrome c sulfide dehydrogenase
+TBE6-bin-03-scaffold_2425	feature	CDS	2	433	.	-	0	ID=TBE6-bin-03.genome.CDS.2166;Product=Sulfide dehydrogenase %5Bflavocytochrome C%5D flavoprotein chain precursor %28EC 1.8.2.-%29
+TBE6-bin-03-scaffold_24857	feature	CDS	4399	5889	.	-	0	ID=TBE6-bin-03.genome.CDS.1347;Product=Glutathione-regulated potassium-efflux system protein KefB
+TBE6-bin-03-scaffold_24857	feature	CDS	1490	4375	.	+	0	ID=TBE6-bin-03.genome.CDS.1346;Product=Excinuclease ABC subunit A
+TBE6-bin-03-scaffold_24857	feature	CDS	277	1452	.	-	0	ID=TBE6-bin-03.genome.CDS.1345;Product=Major facilitator superfamily precursor
+TBE6-bin-03-scaffold_24857	feature	CDS	2	220	.	-	0	ID=TBE6-bin-03.genome.CDS.1344;Product=Single-stranded DNA-binding protein
+TBE6-bin-03-scaffold_2489	feature	CDS	1888	3105	.	-	0	ID=TBE6-bin-03.genome.CDS.1927;Product=tRNA-i%286%29A37 methylthiotransferase
+TBE6-bin-03-scaffold_2489	feature	CDS	1713	1898	.	-	0	ID=TBE6-bin-03.genome.CDS.1926;Product=
+TBE6-bin-03-scaffold_2489	feature	CDS	1367	1684	.	-	0	ID=TBE6-bin-03.genome.CDS.1925;Product=Metal-dependent hydrolase YbeY%2C involved in rRNA and/or ribosome maturation and assembly
+TBE6-bin-03-scaffold_2489	feature	CDS	477	1322	.	-	0	ID=TBE6-bin-03.genome.CDS.1924;Product=Magnesium and cobalt efflux protein CorC
+TBE6-bin-03-scaffold_2489	feature	CDS	1	480	.	-	0	ID=TBE6-bin-03.genome.CDS.1923;Product=Apolipoprotein N-acyltransferase %28EC 2.3.1.-%29 / Copper homeostasis protein CutE
+TBE6-bin-03-scaffold_2616	feature	CDS	5421	5666	.	-	0	ID=TBE6-bin-03.genome.CDS.2213;Product=COG2827: putative endonuclease containing a URI domain
+TBE6-bin-03-scaffold_2616	feature	CDS	4632	5396	.	+	0	ID=TBE6-bin-03.genome.CDS.2212;Product=NAD%28FAD%29-utilizing dehydrogenase%2C sll0175 homolog
+TBE6-bin-03-scaffold_2616	feature	CDS	3745	4668	.	+	0	ID=TBE6-bin-03.genome.CDS.2211;Product=NAD%28FAD%29-utilizing dehydrogenase%2C sll0175 homolog
+TBE6-bin-03-scaffold_2616	feature	CDS	3122	3667	.	-	0	ID=TBE6-bin-03.genome.CDS.2210;Product=YaeQ protein
+TBE6-bin-03-scaffold_2616	feature	CDS	2709	3125	.	-	0	ID=TBE6-bin-03.genome.CDS.906;Product=hypothetical protein
+TBE6-bin-03-scaffold_2616	feature	CDS	2468	2701	.	-	0	ID=TBE6-bin-03.genome.CDS.2208;Product=FIG00934384: hypothetical protein
+TBE6-bin-03-scaffold_2616	feature	CDS	2296	2433	.	-	0	ID=TBE6-bin-03.genome.CDS.2207;Product=FIG00934384: hypothetical protein
+TBE6-bin-03-scaffold_2616	feature	CDS	2099	2299	.	-	0	ID=TBE6-bin-03.genome.CDS.2206;Product=Protein slyX homolog
+TBE6-bin-03-scaffold_2616	feature	CDS	1710	2054	.	-	0	ID=TBE6-bin-03.genome.CDS.2205;Product=putative membrane protein
+TBE6-bin-03-scaffold_2616	feature	CDS	2	1675	.	+	0	ID=TBE6-bin-03.genome.CDS.2204;Product=hypothetical protein
+TBE6-bin-03-scaffold_2691	feature	CDS	2754	4631	.	+	0	ID=TBE6-bin-03.genome.CDS.2084;Product=ABC-type oligopeptide transport system%2C periplasmic component yejA
+TBE6-bin-03-scaffold_2691	feature	CDS	1918	2703	.	-	0	ID=TBE6-bin-03.genome.CDS.2083;Product=Enoyl-%5Bacyl-carrier-protein%5D reductase %5BNADH%5D %28EC 1.3.1.9%29
+TBE6-bin-03-scaffold_2691	feature	CDS	1574	1921	.	-	0	ID=TBE6-bin-03.genome.CDS.2082;Product=Chromate transport protein ChrA
+TBE6-bin-03-scaffold_2691	feature	CDS	489	1601	.	-	0	ID=TBE6-bin-03.genome.CDS.2081;Product=Chromate transport protein ChrA
+TBE6-bin-03-scaffold_2691	feature	CDS	2	451	.	-	0	ID=TBE6-bin-03.genome.CDS.2080;Product=putative exported protein
+TBE6-bin-03-scaffold_2767	feature	CDS	12256	12504	.	+	0	ID=TBE6-bin-03.genome.CDS.1873;Product=Twin-arginine translocation protein TatC
+TBE6-bin-03-scaffold_2767	feature	CDS	11753	12235	.	+	0	ID=TBE6-bin-03.genome.CDS.1872;Product=Twin-arginine translocation protein TatB
+TBE6-bin-03-scaffold_2767	feature	CDS	11508	11729	.	+	0	ID=TBE6-bin-03.genome.CDS.1871;Product=Twin-arginine translocation protein TatA
+TBE6-bin-03-scaffold_2767	feature	CDS	11135	11491	.	+	0	ID=TBE6-bin-03.genome.CDS.1870;Product=FIG146285: Diadenosine tetraphosphate %28Ap4A%29 hydrolase and other HIT family hydrolases
+TBE6-bin-03-scaffold_2767	feature	CDS	10728	11129	.	+	0	ID=TBE6-bin-03.genome.CDS.1869;Product=Phosphoribosyl-ATP pyrophosphatase %28EC 3.6.1.31%29
+TBE6-bin-03-scaffold_2767	feature	CDS	10293	10694	.	+	0	ID=TBE6-bin-03.genome.CDS.1868;Product=Phosphoribosyl-AMP cyclohydrolase %28EC 3.5.4.19%29
+TBE6-bin-03-scaffold_2767	feature	CDS	9519	10277	.	+	0	ID=TBE6-bin-03.genome.CDS.1867;Product=Imidazole glycerol phosphate synthase cyclase subunit %28EC 4.1.3.-%29
+TBE6-bin-03-scaffold_2767	feature	CDS	8752	9513	.	+	0	ID=TBE6-bin-03.genome.CDS.1866;Product=Phosphoribosylformimino-5-aminoimidazole carboxamide ribotide isomerase %28EC 5.3.1.16%29
+TBE6-bin-03-scaffold_2767	feature	CDS	8086	8742	.	+	0	ID=TBE6-bin-03.genome.CDS.1865;Product=Imidazole glycerol phosphate synthase amidotransferase subunit %28EC 2.4.2.-%29
+TBE6-bin-03-scaffold_2767	feature	CDS	7453	8040	.	+	0	ID=TBE6-bin-03.genome.CDS.1864;Product=Imidazoleglycerol-phosphate dehydratase %28EC 4.2.1.19%29
+TBE6-bin-03-scaffold_2767	feature	CDS	6259	7326	.	-	0	ID=TBE6-bin-03.genome.CDS.1863;Product=Histidinol-phosphate aminotransferase %28EC 2.6.1.9%29
+TBE6-bin-03-scaffold_2767	feature	CDS	4928	6250	.	+	0	ID=TBE6-bin-03.genome.CDS.1862;Product=Histidinol dehydrogenase %28EC 1.1.1.23%29
+TBE6-bin-03-scaffold_2767	feature	CDS	4297	4923	.	+	0	ID=TBE6-bin-03.genome.CDS.1861;Product=ATP phosphoribosyltransferase %28EC 2.4.2.17%29
+TBE6-bin-03-scaffold_2767	feature	CDS	3002	4276	.	+	0	ID=TBE6-bin-03.genome.CDS.1860;Product=UDP-N-acetylglucosamine 1-carboxyvinyltransferase %28EC 2.5.1.7%29
+TBE6-bin-03-scaffold_2767	feature	CDS	2764	3009	.	+	0	ID=TBE6-bin-03.genome.CDS.1859;Product=YrbA protein
+TBE6-bin-03-scaffold_2767	feature	CDS	1956	2744	.	+	0	ID=TBE6-bin-03.genome.CDS.1858;Product=ABC-type multidrug transport system%2C permease component
+TBE6-bin-03-scaffold_2767	feature	CDS	1207	1959	.	+	0	ID=TBE6-bin-03.genome.CDS.1857;Product=ABC-type multidrug transport system%2C ATPase component
+TBE6-bin-03-scaffold_2767	feature	CDS	945	1205	.	+	0	ID=TBE6-bin-03.genome.CDS.1856;Product=Adenosylhomocysteinase %28EC 3.3.1.1%29
+TBE6-bin-03-scaffold_2767	feature	CDS	287	934	.	+	0	ID=TBE6-bin-03.genome.CDS.1855;Product=ABC-type transport system involved in resistance to organic solvents%2C auxiliary component
+TBE6-bin-03-scaffold_2767	feature	CDS	1	222	.	+	0	ID=TBE6-bin-03.genome.CDS.1854;Product=VacJ-like lipoprotein
+TBE6-bin-03-scaffold_2768	feature	CDS	3777	4193	.	-	0	ID=TBE6-bin-03.genome.CDS.1405;Product=Cell division protein FtsI %5BPeptidoglycan synthetase%5D %28EC 2.4.1.129%29
+TBE6-bin-03-scaffold_2768	feature	CDS	2242	3780	.	-	0	ID=TBE6-bin-03.genome.CDS.1404;Product=UDP-N-acetylmuramoylalanyl-D-glutamate--2%2C6-diaminopimelate ligase %28EC 6.3.2.13%29
+TBE6-bin-03-scaffold_2768	feature	CDS	1260	1718	.	+	0	ID=TBE6-bin-03.genome.CDS.146;Product=hypothetical protein
+TBE6-bin-03-scaffold_2768	feature	CDS	755	1216	.	-	0	ID=TBE6-bin-03.genome.CDS.1403;Product=UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase %28EC 6.3.2.10%29
+TBE6-bin-03-scaffold_2768	feature	CDS	3	764	.	-	0	ID=TBE6-bin-03.genome.CDS.1402;Product=Phospho-N-acetylmuramoyl-pentapeptide-transferase %28EC 2.7.8.13%29
+TBE6-bin-03-scaffold_2778	feature	CDS	2851	3387	.	+	0	ID=TBE6-bin-03.genome.CDS.2510;Product=DNA primase %28EC 2.7.7.-%29
+TBE6-bin-03-scaffold_2778	feature	CDS	2399	2845	.	+	0	ID=TBE6-bin-03.genome.CDS.2509;Product=Transamidase GatB domain protein
+TBE6-bin-03-scaffold_2778	feature	CDS	1980	2138	.	+	0	ID=TBE6-bin-03.genome.CDS.2507;Product=SSU ribosomal protein S21p
+TBE6-bin-03-scaffold_2778	feature	CDS	839	1903	.	-	0	ID=TBE6-bin-03.genome.CDS.2506;Product=Kinase-Associated Endopeptidase %28Kae1%29%2C required for threonylcarbamoyladenosine t%286%29A37 formation in tRNA
+TBE6-bin-03-scaffold_2778	feature	CDS	1	834	.	+	0	ID=TBE6-bin-03.genome.CDS.2505;Product=GTP cyclohydrolase I %28EC 3.5.4.16%29 type 2
+TBE6-bin-03-scaffold_2792	feature	CDS	1390	3120	.	+	0	ID=TBE6-bin-03.genome.CDS.1659;Product=Carbamoyl-phosphate synthase large chain %28EC 6.3.5.5%29
+TBE6-bin-03-scaffold_2792	feature	CDS	1214	1390	.	+	0	ID=TBE6-bin-03.genome.CDS.386;Product=Carbamoyl-phosphate synthase small chain %28EC 6.3.5.5%29
+TBE6-bin-03-scaffold_2792	feature	CDS	1	1242	.	+	0	ID=TBE6-bin-03.genome.CDS.1658;Product=Carbamoyl-phosphate synthase small chain %28EC 6.3.5.5%29
+TBE6-bin-03-scaffold_2817	feature	CDS	6411	7460	.	-	0	ID=TBE6-bin-03.genome.CDS.2144;Product=2-hydroxy-6-oxo-6-phenylhexa-2%2C4-dienoate hydrolase %28EC 3.7.1.-%29
+TBE6-bin-03-scaffold_2817	feature	CDS	6205	6363	.	-	0	ID=TBE6-bin-03.genome.CDS.2143;Product=
+TBE6-bin-03-scaffold_2817	feature	CDS	5645	6208	.	-	0	ID=TBE6-bin-03.genome.CDS.2142;Product=Putative inner membrane protein
+TBE6-bin-03-scaffold_2817	feature	CDS	4654	5637	.	-	0	ID=TBE6-bin-03.genome.CDS.2141;Product=putative exported protein
+TBE6-bin-03-scaffold_2817	feature	CDS	3768	4187	.	-	0	ID=TBE6-bin-03.genome.CDS.2140;Product=hypothetical protein
+TBE6-bin-03-scaffold_2817	feature	CDS	3302	3730	.	-	0	ID=TBE6-bin-03.genome.CDS.2139;Product=hypothetical protein
+TBE6-bin-03-scaffold_2817	feature	CDS	2787	3281	.	+	0	ID=TBE6-bin-03.genome.CDS.2138;Product=Na%2B-driven multidrug efflux pump
+TBE6-bin-03-scaffold_2817	feature	CDS	1823	2836	.	+	0	ID=TBE6-bin-03.genome.CDS.2137;Product=Na%2B-driven multidrug efflux pump
+TBE6-bin-03-scaffold_2817	feature	CDS	101	1819	.	+	0	ID=TBE6-bin-03.genome.CDS.2136;Product=Probable inner membrane transmembrane protein
+TBE6-bin-03-scaffold_2896	feature	CDS	6782	6994	.	-	0	ID=TBE6-bin-03.genome.CDS.1461;Product=Ribonucleotide reductase of class Ia %28aerobic%29%2C alpha subunit %28EC 1.17.4.1%29
+TBE6-bin-03-scaffold_2896	feature	CDS	5558	6736	.	-	0	ID=TBE6-bin-03.genome.CDS.1460;Product=Ribonucleotide reductase of class Ia %28aerobic%29%2C beta subunit %28EC 1.17.4.1%29
+TBE6-bin-03-scaffold_2896	feature	CDS	5249	5512	.	-	0	ID=TBE6-bin-03.genome.CDS.198;Product=
+TBE6-bin-03-scaffold_2896	feature	CDS	4971	5225	.	-	0	ID=TBE6-bin-03.genome.CDS.1459;Product=hypothetical protein
+TBE6-bin-03-scaffold_2896	feature	CDS	3820	4779	.	+	0	ID=TBE6-bin-03.genome.CDS.1458;Product=Sugar kinases%2C ribokinase family
+TBE6-bin-03-scaffold_2896	feature	CDS	2258	3781	.	+	0	ID=TBE6-bin-03.genome.CDS.1457;Product=Ribosomal protein L11 methyltransferase %28EC 2.1.1.-%29
+TBE6-bin-03-scaffold_2896	feature	CDS	802	2250	.	+	0	ID=TBE6-bin-03.genome.CDS.1456;Product=Biotin carboxylase of acetyl-CoA carboxylase %28EC 6.3.4.14%29
+TBE6-bin-03-scaffold_2896	feature	CDS	319	789	.	+	0	ID=TBE6-bin-03.genome.CDS.1455;Product=Biotin carboxyl carrier protein of acetyl-CoA carboxylase
+TBE6-bin-03-scaffold_2896	feature	CDS	3	293	.	+	0	ID=TBE6-bin-03.genome.CDS.1454;Product=3-dehydroquinate dehydratase II %28EC 4.2.1.10%29
+TBE6-bin-03-scaffold_29066	feature	CDS	1609	2544	.	+	0	ID=TBE6-bin-03.genome.CDS.1343;Product=Acriflavin resistance protein
+TBE6-bin-03-scaffold_29066	feature	CDS	293	1597	.	+	0	ID=TBE6-bin-03.genome.CDS.1342;Product=Probable Co/Zn/Cd efflux system membrane fusion protein
+TBE6-bin-03-scaffold_29066	feature	CDS	1	207	.	+	0	ID=TBE6-bin-03.genome.CDS.1341;Product=Ribonuclease HI %28EC 3.1.26.4%29
+TBE6-bin-03-scaffold_29670	feature	CDS	1915	3162	.	-	0	ID=TBE6-bin-03.genome.CDS.1741;Product=FIG065221: Holliday junction DNA helicase
+TBE6-bin-03-scaffold_29670	feature	CDS	1293	1868	.	-	0	ID=TBE6-bin-03.genome.CDS.1740;Product=Peptidyl-prolyl cis-trans isomerase PpiA precursor %28EC 5.2.1.8%29
+TBE6-bin-03-scaffold_29670	feature	CDS	3	1259	.	-	0	ID=TBE6-bin-03.genome.CDS.1739;Product=Para-aminobenzoate synthase%2C aminase component %28EC 2.6.1.85%29 / Aminodeoxychorismate lyase %28EC 4.1.3.38%29
+TBE6-bin-03-scaffold_29683	feature	CDS	3498	4481	.	-	0	ID=TBE6-bin-03.genome.CDS.1340;Product=Fumarylacetoacetate hydrolase family protein
+TBE6-bin-03-scaffold_29683	feature	CDS	2610	3434	.	-	0	ID=TBE6-bin-03.genome.CDS.1339;Product=3-hydroxy-2-methylpyridine-4%2C5-dicarboxylate 4-decarboxylase %28EC 4.1.1.51%29
+TBE6-bin-03-scaffold_29683	feature	CDS	1780	2565	.	-	0	ID=TBE6-bin-03.genome.CDS.1338;Product=hypothetical protein
+TBE6-bin-03-scaffold_29683	feature	CDS	1505	1777	.	-	0	ID=TBE6-bin-03.genome.CDS.1337;Product=hypothetical protein
+TBE6-bin-03-scaffold_29683	feature	CDS	1293	1451	.	-	0	ID=TBE6-bin-03.genome.CDS.1336;Product=
+TBE6-bin-03-scaffold_29683	feature	CDS	733	1296	.	-	0	ID=TBE6-bin-03.genome.CDS.1335;Product=Putative inner membrane protein
+TBE6-bin-03-scaffold_29683	feature	CDS	3	725	.	-	0	ID=TBE6-bin-03.genome.CDS.1334;Product=putative exported protein
+TBE6-bin-03-scaffold_29764	feature	CDS	2173	2406	.	-	0	ID=TBE6-bin-03.genome.CDS.1333;Product=LSU ribosomal protein L28p %40 LSU ribosomal protein L28p%2C zinc-independent
+TBE6-bin-03-scaffold_29764	feature	CDS	1994	2161	.	-	0	ID=TBE6-bin-03.genome.CDS.1332;Product=LSU ribosomal protein L33p %40 LSU ribosomal protein L33p%2C zinc-independent
+TBE6-bin-03-scaffold_29764	feature	CDS	731	1924	.	+	0	ID=TBE6-bin-03.genome.CDS.1331;Product=Fatty acid desaturase %28EC 1.14.19.1%29%3B Delta-9 fatty acid desaturase %28EC 1.14.19.1%29
+TBE6-bin-03-scaffold_29764	feature	CDS	3	671	.	+	0	ID=TBE6-bin-03.genome.CDS.1330;Product=Fmu %28Sun%29 /eukaryotic nucleolar NOL1/Nop2p%3B tRNA and rRNA cytosine-C5-methylases
+TBE6-bin-03-scaffold_29912	feature	CDS	11271	11621	.	-	0	ID=TBE6-bin-03.genome.CDS.689;Product=hypothetical protein
+TBE6-bin-03-scaffold_29912	feature	CDS	10251	11270	.	+	0	ID=TBE6-bin-03.genome.CDS.1974;Product=hypothetical protein
+TBE6-bin-03-scaffold_29912	feature	CDS	9741	10211	.	+	0	ID=TBE6-bin-03.genome.CDS.1973;Product=
+TBE6-bin-03-scaffold_29912	feature	CDS	8408	9661	.	+	0	ID=TBE6-bin-03.genome.CDS.1972;Product=Oxalate/formate antiporter
+TBE6-bin-03-scaffold_29912	feature	CDS	8035	8139	.	+	0	ID=TBE6-bin-03.genome.CDS.1971;Product=
+TBE6-bin-03-scaffold_29912	feature	tRNA	7824	7899	.	+	.	ID=TBE6-bin-03.genome.rna.10;Product=tRNA-Thr-CGT
+TBE6-bin-03-scaffold_29912	feature	CDS	7333	7806	.	+	0	ID=TBE6-bin-03.genome.CDS.1970;Product=DUF1854 domain-containing protein
+TBE6-bin-03-scaffold_29912	feature	CDS	4985	7333	.	+	0	ID=TBE6-bin-03.genome.CDS.1969;Product=ABC transporter%2C transmembrane region:ABC transporter related
+TBE6-bin-03-scaffold_29912	feature	CDS	2597	4789	.	-	0	ID=TBE6-bin-03.genome.CDS.1968;Product=Cyanophycin synthase %28EC 6.3.2.29%29%28EC 6.3.2.30%29
+TBE6-bin-03-scaffold_29912	feature	CDS	26	2596	.	-	0	ID=TBE6-bin-03.genome.CDS.1967;Product=Cyanophycin synthase %28EC 6.3.2.29%29%28EC 6.3.2.30%29
+TBE6-bin-03-scaffold_3109	feature	misc_RNA	1	101	.	+	.	ID=TBE6-bin-03.genome.repeat.1;Product=repeat region
+TBE6-bin-03-scaffold_3109	feature	CDS	2656	3138	.	-	0	ID=TBE6-bin-03.genome.CDS.1401;Product=tRNA-specific 2-thiouridylase MnmA
+TBE6-bin-03-scaffold_3109	feature	CDS	2028	2642	.	+	0	ID=TBE6-bin-03.genome.CDS.1400;Product=Glutathione S-transferase family protein
+TBE6-bin-03-scaffold_3109	feature	CDS	431	1810	.	-	0	ID=TBE6-bin-03.genome.CDS.1399;Product=Adenylosuccinate lyase %28EC 4.3.2.2%29
+TBE6-bin-03-scaffold_3109	feature	CDS	3	434	.	-	0	ID=TBE6-bin-03.genome.CDS.1398;Product=3-deoxy-D-manno-octulosonic-acid transferase %28EC 2.-.-.-%29
+TBE6-bin-03-scaffold_3147	feature	CDS	10419	10967	.	+	0	ID=TBE6-bin-03.genome.CDS.1639;Product=Similar to cobalamin biosynthesis protein CbiB
+TBE6-bin-03-scaffold_3147	feature	CDS	9676	10422	.	+	0	ID=TBE6-bin-03.genome.CDS.1638;Product=Hypothetical nudix hydrolase YeaB
+TBE6-bin-03-scaffold_3147	feature	CDS	9213	9608	.	+	0	ID=TBE6-bin-03.genome.CDS.1637;Product=LSU ribosomal protein L19p
+TBE6-bin-03-scaffold_3147	feature	CDS	8384	9136	.	+	0	ID=TBE6-bin-03.genome.CDS.1636;Product=tRNA %28Guanine37-N1%29 -methyltransferase %28EC 2.1.1.31%29
+TBE6-bin-03-scaffold_3147	feature	CDS	7820	8377	.	+	0	ID=TBE6-bin-03.genome.CDS.1635;Product=16S rRNA processing protein RimM
+TBE6-bin-03-scaffold_3147	feature	CDS	7493	7738	.	+	0	ID=TBE6-bin-03.genome.CDS.1634;Product=SSU ribosomal protein S16p
+TBE6-bin-03-scaffold_3147	feature	CDS	6711	7256	.	-	0	ID=TBE6-bin-03.genome.CDS.1633;Product=protein of unknown function DUF306%2C Meta and HslJ
+TBE6-bin-03-scaffold_3147	feature	CDS	6268	6714	.	-	0	ID=TBE6-bin-03.genome.CDS.1632;Product=Probable transmembrane protein
+TBE6-bin-03-scaffold_3147	feature	CDS	6127	6255	.	+	0	ID=TBE6-bin-03.genome.CDS.359;Product=Electron transfer flavoprotein%2C alpha subunit
+TBE6-bin-03-scaffold_3147	feature	CDS	4210	5997	.	+	0	ID=TBE6-bin-03.genome.CDS.1631;Product=Acyl-CoA dehydrogenase %28EC 1.3.8.7%29
+TBE6-bin-03-scaffold_3147	feature	CDS	3243	4178	.	+	0	ID=TBE6-bin-03.genome.CDS.1630;Product=Electron transfer flavoprotein%2C alpha subunit
+TBE6-bin-03-scaffold_3147	feature	CDS	2493	3242	.	+	0	ID=TBE6-bin-03.genome.CDS.1629;Product=Electron transfer flavoprotein%2C beta subunit
+TBE6-bin-03-scaffold_3147	feature	CDS	764	2416	.	+	0	ID=TBE6-bin-03.genome.CDS.1628;Product=AMP-dependent synthetase and ligase
+TBE6-bin-03-scaffold_3147	feature	CDS	3	749	.	+	0	ID=TBE6-bin-03.genome.CDS.1627;Product=Deacetylases%2C including yeast histone deacetylase and acetoin utilization protein
+TBE6-bin-03-scaffold_31977	feature	CDS	2838	3488	.	-	0	ID=TBE6-bin-03.genome.CDS.1329;Product=LSU ribosomal protein L25p
+TBE6-bin-03-scaffold_31977	feature	CDS	2161	2751	.	-	0	ID=TBE6-bin-03.genome.CDS.1328;Product=Peptidyl-tRNA hydrolase %28EC 3.1.1.29%29
+TBE6-bin-03-scaffold_31977	feature	CDS	1901	2164	.	+	0	ID=TBE6-bin-03.genome.CDS.1327;Product=4Fe-4S ferredoxin%2C iron-sulfur binding
+TBE6-bin-03-scaffold_31977	feature	CDS	1390	1881	.	+	0	ID=TBE6-bin-03.genome.CDS.1326;Product=Phosphopantetheine adenylyltransferase %28EC 2.7.7.3%29
+TBE6-bin-03-scaffold_31977	feature	CDS	749	1354	.	+	0	ID=TBE6-bin-03.genome.CDS.1325;Product=16S rRNA %28guanine%28966%29-N%282%29%29-methyltransferase %28EC 2.1.1.171%29
+TBE6-bin-03-scaffold_31977	feature	CDS	3	746	.	+	0	ID=TBE6-bin-03.genome.CDS.1324;Product=FIG015287: Zinc protease
+TBE6-bin-03-scaffold_32077	feature	CDS	3607	3729	.	+	0	ID=TBE6-bin-03.genome.CDS.1698;Product=
+TBE6-bin-03-scaffold_32077	feature	CDS	3222	3569	.	+	0	ID=TBE6-bin-03.genome.CDS.1697;Product=
+TBE6-bin-03-scaffold_32077	feature	CDS	696	3155	.	+	0	ID=TBE6-bin-03.genome.CDS.1696;Product=Penicillin amidase %28EC 3.5.1.11%29
+TBE6-bin-03-scaffold_32077	feature	tRNA	470	558	.	-	.	ID=TBE6-bin-03.genome.rna.7;Product=tRNA-Leu-TAA
+TBE6-bin-03-scaffold_32077	feature	CDS	2	460	.	-	0	ID=TBE6-bin-03.genome.CDS.1695;Product=
+TBE6-bin-03-scaffold_3248	feature	CDS	7905	8735	.	-	0	ID=TBE6-bin-03.genome.CDS.2022;Product=Soluble lytic murein transglycosylase precursor %28EC 3.2.1.-%29
+TBE6-bin-03-scaffold_3248	feature	CDS	6980	7888	.	-	0	ID=TBE6-bin-03.genome.CDS.2021;Product=NADH-ubiquinone oxidoreductase%2C putative
+TBE6-bin-03-scaffold_3248	feature	CDS	5852	6976	.	-	0	ID=TBE6-bin-03.genome.CDS.2020;Product=tRNA nucleotidyltransferase %28EC 2.7.7.27%29
+TBE6-bin-03-scaffold_3248	feature	CDS	4664	5851	.	+	0	ID=TBE6-bin-03.genome.CDS.2019;Product=COG1565: Uncharacterized conserved protein
+TBE6-bin-03-scaffold_3248	feature	CDS	3829	4632	.	-	0	ID=TBE6-bin-03.genome.CDS.2018;Product=FolM Alternative dihydrofolate reductase 1
+TBE6-bin-03-scaffold_3248	feature	CDS	3412	3807	.	-	0	ID=TBE6-bin-03.genome.CDS.2017;Product=Dihydroneopterin aldolase %28EC 4.1.2.25%29
+TBE6-bin-03-scaffold_3248	feature	CDS	2491	3399	.	-	0	ID=TBE6-bin-03.genome.CDS.2016;Product=tRNA%28Cytosine32%29-2-thiocytidine synthetase
+TBE6-bin-03-scaffold_3248	feature	CDS	1034	2494	.	-	0	ID=TBE6-bin-03.genome.CDS.2015;Product=N-acetylglucosamine-1-phosphate uridyltransferase %28EC 2.7.7.23%29 / Glucosamine-1-phosphate N-acetyltransferase %28EC 2.3.1.157%29
+TBE6-bin-03-scaffold_3248	feature	CDS	3	1034	.	-	0	ID=TBE6-bin-03.genome.CDS.2014;Product=Glucosamine--fructose-6-phosphate aminotransferase %5Bisomerizing%5D %28EC 2.6.1.16%29
+TBE6-bin-03-scaffold_3294	feature	CDS	5087	5317	.	+	0	ID=TBE6-bin-03.genome.CDS.2189;Product=NADH-ubiquinone oxidoreductase chain C %28EC 1.6.5.3%29
+TBE6-bin-03-scaffold_3294	feature	CDS	4603	5085	.	+	0	ID=TBE6-bin-03.genome.CDS.2188;Product=NADH-ubiquinone oxidoreductase chain B %28EC 1.6.5.3%29
+TBE6-bin-03-scaffold_3294	feature	CDS	4238	4597	.	+	0	ID=TBE6-bin-03.genome.CDS.2187;Product=NADH ubiquinone oxidoreductase chain A %28EC 1.6.5.3%29
+TBE6-bin-03-scaffold_3294	feature	tRNA	4055	4139	.	+	.	ID=TBE6-bin-03.genome.rna.12;Product=tRNA-Leu-GAG
+TBE6-bin-03-scaffold_3294	feature	CDS	3406	3753	.	+	0	ID=TBE6-bin-03.genome.CDS.2186;Product=Preprotein translocase subunit SecG %28TC 3.A.5.1.1%29
+TBE6-bin-03-scaffold_3294	feature	CDS	2626	3384	.	+	0	ID=TBE6-bin-03.genome.CDS.2185;Product=Triosephosphate isomerase %28EC 5.3.1.1%29
+TBE6-bin-03-scaffold_3294	feature	CDS	1519	2613	.	+	0	ID=TBE6-bin-03.genome.CDS.2184;Product=Quinone oxidoreductase %28EC 1.6.5.5%29
+TBE6-bin-03-scaffold_3294	feature	CDS	1	1497	.	+	0	ID=TBE6-bin-03.genome.CDS.2183;Product=Polyribonucleotide nucleotidyltransferase %28EC 2.7.7.8%29
+TBE6-bin-03-scaffold_33	feature	CDS	2732	3625	.	+	0	ID=TBE6-bin-03.genome.CDS.1453;Product=Glutamyl-tRNA reductase %28EC 1.2.1.70%29
+TBE6-bin-03-scaffold_33	feature	CDS	2431	2700	.	-	0	ID=TBE6-bin-03.genome.CDS.1452;Product=
+TBE6-bin-03-scaffold_33	feature	CDS	2083	2442	.	+	0	ID=TBE6-bin-03.genome.CDS.1451;Product=Uracil-DNA glycosylase%2C family 1
+TBE6-bin-03-scaffold_33	feature	CDS	1574	2086	.	+	0	ID=TBE6-bin-03.genome.CDS.1450;Product=Uracil-DNA glycosylase%2C family 1
+TBE6-bin-03-scaffold_33	feature	CDS	1	1563	.	+	0	ID=TBE6-bin-03.genome.CDS.1449;Product=protease%2C putative
+TBE6-bin-03-scaffold_3310	feature	CDS	4131	4436	.	-	0	ID=TBE6-bin-03.genome.CDS.1397;Product=Biotin synthase %28EC 2.8.1.6%29
+TBE6-bin-03-scaffold_3310	feature	CDS	3490	4119	.	-	0	ID=TBE6-bin-03.genome.CDS.1396;Product=Uncharacterized hydroxylase PA0655
+TBE6-bin-03-scaffold_3310	feature	CDS	2552	3217	.	-	0	ID=TBE6-bin-03.genome.CDS.140;Product=Cell division protein MraZ
+TBE6-bin-03-scaffold_3310	feature	CDS	1640	2539	.	-	0	ID=TBE6-bin-03.genome.CDS.139;Product=rRNA small subunit methyltransferase H
+TBE6-bin-03-scaffold_3310	feature	CDS	1310	1576	.	-	0	ID=TBE6-bin-03.genome.CDS.1393;Product=Cell division protein FtsL
+TBE6-bin-03-scaffold_3310	feature	CDS	3	1313	.	-	0	ID=TBE6-bin-03.genome.CDS.1392;Product=Cell division protein FtsI %5BPeptidoglycan synthetase%5D %28EC 2.4.1.129%29
+TBE6-bin-03-scaffold_33806	feature	CDS	2029	4083	.	-	0	ID=TBE6-bin-03.genome.CDS.1323;Product=ATP-dependent Clp protease ATP-binding subunit ClpA
+TBE6-bin-03-scaffold_33806	feature	CDS	1767	2000	.	-	0	ID=TBE6-bin-03.genome.CDS.1322;Product=FIG00934513: hypothetical protein
+TBE6-bin-03-scaffold_33806	feature	CDS	1260	1709	.	+	0	ID=TBE6-bin-03.genome.CDS.1321;Product=Deoxyuridine 5%27-triphosphate nucleotidohydrolase %28EC 3.6.1.23%29
+TBE6-bin-03-scaffold_33806	feature	CDS	20	1231	.	+	0	ID=TBE6-bin-03.genome.CDS.1320;Product=Phosphopantothenoylcysteine decarboxylase %28EC 4.1.1.36%29 / Phosphopantothenoylcysteine synthetase %28EC 6.3.2.5%29
+TBE6-bin-03-scaffold_34144	feature	CDS	4108	4386	.	+	0	ID=TBE6-bin-03.genome.CDS.1897;Product=FIG000325: clustered with transcription termination protein NusA
+TBE6-bin-03-scaffold_34144	feature	CDS	2805	3917	.	+	0	ID=TBE6-bin-03.genome.CDS.1896;Product=Ribosomal large subunit pseudouridine synthase B %28EC 4.2.1.70%29
+TBE6-bin-03-scaffold_34144	feature	CDS	2528	2785	.	+	0	ID=TBE6-bin-03.genome.CDS.1895;Product=Ribosomal large subunit pseudouridine synthase B %28EC 4.2.1.70%29
+TBE6-bin-03-scaffold_34144	feature	CDS	1841	2521	.	+	0	ID=TBE6-bin-03.genome.CDS.1894;Product=Segregation and condensation protein B
+TBE6-bin-03-scaffold_34144	feature	CDS	708	1496	.	-	0	ID=TBE6-bin-03.genome.CDS.1893;Product=UPF0028 protein YchK
+TBE6-bin-03-scaffold_34144	feature	CDS	3	692	.	+	0	ID=TBE6-bin-03.genome.CDS.1892;Product=Cell wall-associated hydrolases %28invasion-associated proteins%29
+TBE6-bin-03-scaffold_34418	feature	CDS	7318	8172	.	+	0	ID=TBE6-bin-03.genome.CDS.2013;Product=Cytochrome c oxidase polypeptide III %28EC 1.9.3.1%29
+TBE6-bin-03-scaffold_34418	feature	CDS	7097	7288	.	+	0	ID=TBE6-bin-03.genome.CDS.2012;Product=Probable transmembrane protein
+TBE6-bin-03-scaffold_34418	feature	CDS	6507	7100	.	+	0	ID=TBE6-bin-03.genome.CDS.2011;Product=Cytochrome oxidase biogenesis protein Cox11-CtaG%2C copper delivery to Cox1
+TBE6-bin-03-scaffold_34418	feature	CDS	5886	6386	.	+	0	ID=TBE6-bin-03.genome.CDS.720;Product=Cytochrome c oxidase polypeptide I %28EC 1.9.3.1%29
+TBE6-bin-03-scaffold_34418	feature	CDS	4634	5899	.	+	0	ID=TBE6-bin-03.genome.CDS.2008;Product=Cytochrome c oxidase polypeptide I %28EC 1.9.3.1%29
+TBE6-bin-03-scaffold_34418	feature	CDS	3437	4594	.	+	0	ID=TBE6-bin-03.genome.CDS.2007;Product=Cytochrome c oxidase polypeptide II %28EC 1.9.3.1%29
+TBE6-bin-03-scaffold_34418	feature	CDS	2381	3259	.	+	0	ID=TBE6-bin-03.genome.CDS.2006;Product=SAM-dependent methyltransferase%2C BioC-like
+TBE6-bin-03-scaffold_34418	feature	CDS	1617	2357	.	-	0	ID=TBE6-bin-03.genome.CDS.2005;Product=Competence protein F homolog%2C phosphoribosyltransferase domain%3B protein YhgH required for utilization of DNA as sole source of carbon and energy
+TBE6-bin-03-scaffold_34418	feature	CDS	1064	1624	.	-	0	ID=TBE6-bin-03.genome.CDS.2004;Product=tRNA %28cytidine%2834%29-2%27-O%29-methyltransferase %28EC 2.1.1.207%29
+TBE6-bin-03-scaffold_34418	feature	CDS	32	1054	.	+	0	ID=TBE6-bin-03.genome.CDS.2003;Product=Glycerol-3-phosphate dehydrogenase %5BNAD%28P%29%2B%5D %28EC 1.1.1.94%29
+TBE6-bin-03-scaffold_3470	feature	CDS	6700	6927	.	+	0	ID=TBE6-bin-03.genome.CDS.1292;Product=ABC transporter ATP-binding protein
+TBE6-bin-03-scaffold_3470	feature	CDS	6377	6601	.	+	0	ID=TBE6-bin-03.genome.CDS.1291;Product=FIG00934413: hypothetical protein
+TBE6-bin-03-scaffold_3470	feature	CDS	5870	6364	.	+	0	ID=TBE6-bin-03.genome.CDS.1290;Product=Zinc finger protein HRX
+TBE6-bin-03-scaffold_3470	feature	CDS	3370	5868	.	+	0	ID=TBE6-bin-03.genome.CDS.1289;Product=DNA gyrase subunit B %28EC 5.99.1.3%29
+TBE6-bin-03-scaffold_3470	feature	CDS	3074	3358	.	+	0	ID=TBE6-bin-03.genome.CDS.48;Product=DNA polymerase III beta subunit %28EC 2.7.7.7%29
+TBE6-bin-03-scaffold_3470	feature	CDS	2100	3077	.	+	0	ID=TBE6-bin-03.genome.CDS.1287;Product=DNA polymerase III beta subunit %28EC 2.7.7.7%29
+TBE6-bin-03-scaffold_3470	feature	CDS	702	1832	.	+	0	ID=TBE6-bin-03.genome.CDS.1286;Product=Chromosomal replication initiator protein DnaA
+TBE6-bin-03-scaffold_3470	feature	CDS	345	479	.	-	0	ID=TBE6-bin-03.genome.CDS.1285;Product=LSU ribosomal protein L34p
+TBE6-bin-03-scaffold_3470	feature	CDS	28	171	.	-	0	ID=TBE6-bin-03.genome.CDS.44;Product=
+TBE6-bin-03-scaffold_3507	feature	CDS	2000	2566	.	-	0	ID=TBE6-bin-03.genome.CDS.1448;Product=Succinyl-CoA ligase %5BADP-forming%5D alpha chain %28EC 6.2.1.5%29
+TBE6-bin-03-scaffold_3507	feature	CDS	1211	1918	.	-	0	ID=TBE6-bin-03.genome.CDS.1447;Product=Integral membrane protein
+TBE6-bin-03-scaffold_3507	feature	CDS	1011	1214	.	+	0	ID=TBE6-bin-03.genome.CDS.1446;Product=
+TBE6-bin-03-scaffold_3507	feature	CDS	476	994	.	-	0	ID=TBE6-bin-03.genome.CDS.1445;Product=Type IV pilin PilA
+TBE6-bin-03-scaffold_3507	feature	CDS	3	446	.	+	0	ID=TBE6-bin-03.genome.CDS.1444;Product=Molybdenum cofactor biosynthesis protein MoaC
+TBE6-bin-03-scaffold_3525	feature	CDS	5618	6919	.	-	0	ID=TBE6-bin-03.genome.CDS.1828;Product=Threonine synthase %28EC 4.2.3.1%29
+TBE6-bin-03-scaffold_3525	feature	CDS	4359	5600	.	-	0	ID=TBE6-bin-03.genome.CDS.1827;Product=Molybdopterin biosynthesis protein MoeA
+TBE6-bin-03-scaffold_3525	feature	CDS	4113	4355	.	-	0	ID=TBE6-bin-03.genome.CDS.1826;Product=
+TBE6-bin-03-scaffold_3525	feature	CDS	3593	4045	.	-	0	ID=TBE6-bin-03.genome.CDS.1825;Product=Molybdenum cofactor biosynthesis protein MoaE
+TBE6-bin-03-scaffold_3525	feature	CDS	2789	3544	.	-	0	ID=TBE6-bin-03.genome.CDS.1824;Product=ABC transporter%2C ATP-binding protein
+TBE6-bin-03-scaffold_3525	feature	CDS	1491	2792	.	-	0	ID=TBE6-bin-03.genome.CDS.1823;Product=ABC transporter related
+TBE6-bin-03-scaffold_3525	feature	CDS	1102	1422	.	+	0	ID=TBE6-bin-03.genome.CDS.1822;Product=Chaperone-modulator protein CbpM
+TBE6-bin-03-scaffold_3525	feature	CDS	120	1097	.	+	0	ID=TBE6-bin-03.genome.CDS.1821;Product=DnaJ-class molecular chaperone CbpA
+TBE6-bin-03-scaffold_3533	feature	CDS	4995	5594	.	+	0	ID=TBE6-bin-03.genome.CDS.1626;Product=Aerobic C4-dicarboxylate transporter for fumarate%2C L-malate%2C D-malate%2C succunate%2C aspartate
+TBE6-bin-03-scaffold_3533	feature	CDS	4487	4885	.	-	0	ID=TBE6-bin-03.genome.CDS.1625;Product=tRNA pseudouridine synthase A %28EC 4.2.1.70%29
+TBE6-bin-03-scaffold_3533	feature	CDS	4048	4443	.	-	0	ID=TBE6-bin-03.genome.CDS.1624;Product=tRNA pseudouridine synthase A %28EC 4.2.1.70%29
+TBE6-bin-03-scaffold_3533	feature	CDS	2266	3807	.	-	0	ID=TBE6-bin-03.genome.CDS.1623;Product=Peptide chain release factor 3
+TBE6-bin-03-scaffold_3533	feature	CDS	2026	2262	.	+	0	ID=TBE6-bin-03.genome.CDS.1622;Product=hypothetical protein
+TBE6-bin-03-scaffold_3533	feature	CDS	1741	1953	.	-	0	ID=TBE6-bin-03.genome.CDS.1621;Product=
+TBE6-bin-03-scaffold_3533	feature	CDS	1121	1696	.	-	0	ID=TBE6-bin-03.genome.CDS.1620;Product=MltA-interacting MipA family protein
+TBE6-bin-03-scaffold_3533	feature	CDS	725	1012	.	-	0	ID=TBE6-bin-03.genome.CDS.1619;Product=MltA-interacting protein precursor
+TBE6-bin-03-scaffold_3533	feature	CDS	476	718	.	+	0	ID=TBE6-bin-03.genome.CDS.1618;Product=Glutamate synthase %5BNADPH%5D large chain %28EC 1.4.1.13%29
+TBE6-bin-03-scaffold_3533	feature	CDS	2	445	.	-	0	ID=TBE6-bin-03.genome.CDS.1617;Product=hypothetical protein
+TBE6-bin-03-scaffold_3605	feature	CDS	1809	2648	.	-	0	ID=TBE6-bin-03.genome.CDS.1386;Product=Molybdopterin biosynthesis protein MoeA
+TBE6-bin-03-scaffold_3605	feature	CDS	1374	1796	.	-	0	ID=TBE6-bin-03.genome.CDS.1385;Product=Permeases of the major facilitator superfamily
+TBE6-bin-03-scaffold_3605	feature	CDS	294	1295	.	+	0	ID=TBE6-bin-03.genome.CDS.1384;Product=Glyoxylate reductase %28EC 1.1.1.79%29 / Glyoxylate reductase %28EC 1.1.1.26%29 / Hydroxypyruvate reductase %28EC 1.1.1.81%29%3B 2-ketoaldonate reductase%2C broad specificity %28EC 1.1.1.215%29 %28EC 1.1.1.-%29
+TBE6-bin-03-scaffold_3605	feature	CDS	1	159	.	-	0	ID=TBE6-bin-03.genome.CDS.1383;Product=4Fe-4S ferredoxin%2C iron-sulfur binding
+TBE6-bin-03-scaffold_363	feature	CDS	5446	5733	.	+	0	ID=TBE6-bin-03.genome.CDS.1966;Product=Probable two-component transmembrane sensor histidine kinase transcription regulator protein %28EC 2.7.3.-%29
+TBE6-bin-03-scaffold_363	feature	CDS	4464	5255	.	-	0	ID=TBE6-bin-03.genome.CDS.1965;Product=Pyruvate dehydrogenase E1 component %28EC 1.2.4.1%29
+TBE6-bin-03-scaffold_363	feature	CDS	3352	4467	.	-	0	ID=TBE6-bin-03.genome.CDS.678;Product=Pyruvate dehydrogenase E1 component %28EC 1.2.4.1%29
+TBE6-bin-03-scaffold_363	feature	CDS	2075	3355	.	-	0	ID=TBE6-bin-03.genome.CDS.1963;Product=Pyruvate dehydrogenase E1 component %28EC 1.2.4.1%29
+TBE6-bin-03-scaffold_363	feature	CDS	606	2051	.	-	0	ID=TBE6-bin-03.genome.CDS.1962;Product=Dihydrolipoamide acetyltransferase component of pyruvate dehydrogenase complex %28EC 2.3.1.12%29
+TBE6-bin-03-scaffold_363	feature	CDS	3	596	.	-	0	ID=TBE6-bin-03.genome.CDS.1961;Product=Dihydrolipoamide dehydrogenase of pyruvate dehydrogenase complex %28EC 1.8.1.4%29
+TBE6-bin-03-scaffold_3656	feature	CDS	9796	10170	.	+	0	ID=TBE6-bin-03.genome.CDS.2079;Product=FIG136845: Rhodanese-related sulfurtransferase
+TBE6-bin-03-scaffold_3656	feature	CDS	9135	9773	.	-	0	ID=TBE6-bin-03.genome.CDS.2078;Product=Phosphoglycerate mutase %28EC 5.4.2.11%29
+TBE6-bin-03-scaffold_3656	feature	CDS	7760	8983	.	-	0	ID=TBE6-bin-03.genome.CDS.2077;Product=Carboxyl-terminal protease %28EC 3.4.21.102%29
+TBE6-bin-03-scaffold_3656	feature	CDS	7315	7809	.	-	0	ID=TBE6-bin-03.genome.CDS.2076;Product=Carboxyl-terminal protease %28EC 3.4.21.102%29
+TBE6-bin-03-scaffold_3656	feature	CDS	6657	7289	.	-	0	ID=TBE6-bin-03.genome.CDS.2075;Product=Sulfur carrier protein adenylyltransferase ThiF
+TBE6-bin-03-scaffold_3656	feature	CDS	6449	6637	.	-	0	ID=TBE6-bin-03.genome.CDS.2074;Product=Dinucleotide-utilizing enzymes involved in molybdopterin and thiamine biosynthesis family 2
+TBE6-bin-03-scaffold_3656	feature	CDS	4490	6442	.	+	0	ID=TBE6-bin-03.genome.CDS.2073;Product=Phosphoenolpyruvate-protein phosphotransferase of PTS system %28EC 2.7.3.9%29
+TBE6-bin-03-scaffold_3656	feature	CDS	4218	4487	.	+	0	ID=TBE6-bin-03.genome.CDS.2072;Product=Phosphocarrier protein%2C nitrogen regulation associated
+TBE6-bin-03-scaffold_3656	feature	CDS	3777	4217	.	+	0	ID=TBE6-bin-03.genome.CDS.2071;Product=Sugar transport PTS system IIa component
+TBE6-bin-03-scaffold_3656	feature	CDS	2833	3774	.	+	0	ID=TBE6-bin-03.genome.CDS.2070;Product=Glutathione synthetase %28EC 6.3.2.3%29
+TBE6-bin-03-scaffold_3656	feature	CDS	1496	2794	.	+	0	ID=TBE6-bin-03.genome.CDS.2069;Product=Glutamate--cysteine ligase %28EC 6.3.2.2%29%2C divergent%2C of Alpha- and Beta-proteobacteria type
+TBE6-bin-03-scaffold_3656	feature	CDS	2	1390	.	+	0	ID=TBE6-bin-03.genome.CDS.2068;Product=Ammonium transporter
+TBE6-bin-03-scaffold_3718	feature	CDS	4275	4928	.	-	0	ID=TBE6-bin-03.genome.CDS.1834;Product=Membrane proteins related to metalloendopeptidases
+TBE6-bin-03-scaffold_3718	feature	CDS	3838	4278	.	+	0	ID=TBE6-bin-03.genome.CDS.1833;Product=Universal stress protein family
+TBE6-bin-03-scaffold_3718	feature	CDS	3063	3740	.	-	0	ID=TBE6-bin-03.genome.CDS.1832;Product=FIG00935161: hypothetical protein
+TBE6-bin-03-scaffold_3718	feature	CDS	1822	3045	.	+	0	ID=TBE6-bin-03.genome.CDS.1831;Product=Niacin transporter NiaP
+TBE6-bin-03-scaffold_3718	feature	CDS	1060	1806	.	+	0	ID=TBE6-bin-03.genome.CDS.1830;Product=FIG00538743: hypothetical protein
+TBE6-bin-03-scaffold_3718	feature	CDS	2	1009	.	-	0	ID=TBE6-bin-03.genome.CDS.1829;Product=Ammonia monooxygenase
+TBE6-bin-03-scaffold_3777	feature	CDS	6264	7373	.	+	0	ID=TBE6-bin-03.genome.CDS.1683;Product=Chorismate synthase %28EC 4.2.3.5%29
+TBE6-bin-03-scaffold_3777	feature	CDS	5776	6231	.	+	0	ID=TBE6-bin-03.genome.CDS.1682;Product=CBS domain protein
+TBE6-bin-03-scaffold_3777	feature	CDS	4845	5693	.	+	0	ID=TBE6-bin-03.genome.CDS.1681;Product=Inner membrane protein YihY%2C formerly thought to be RNase BN
+TBE6-bin-03-scaffold_3777	feature	CDS	4223	4825	.	-	0	ID=TBE6-bin-03.genome.CDS.1680;Product=Flavoprotein WrbA
+TBE6-bin-03-scaffold_3777	feature	CDS	3825	4211	.	-	0	ID=TBE6-bin-03.genome.CDS.1679;Product=Probable transmembrane protein
+TBE6-bin-03-scaffold_3777	feature	CDS	3511	3699	.	-	0	ID=TBE6-bin-03.genome.CDS.1678;Product=hypothetical protein
+TBE6-bin-03-scaffold_3777	feature	CDS	3039	3356	.	-	0	ID=TBE6-bin-03.genome.CDS.1677;Product=hypothetical protein
+TBE6-bin-03-scaffold_3777	feature	CDS	2231	3034	.	-	0	ID=TBE6-bin-03.genome.CDS.1676;Product=UDP-galactose-lipid carrier transferase %28EC 2.-.-.-%29
+TBE6-bin-03-scaffold_3777	feature	CDS	1473	2147	.	-	0	ID=TBE6-bin-03.genome.CDS.1675;Product=Putative outer membrane lipoprotein
+TBE6-bin-03-scaffold_3777	feature	CDS	1188	1460	.	-	0	ID=TBE6-bin-03.genome.CDS.1674;Product=
+TBE6-bin-03-scaffold_3777	feature	CDS	660	1169	.	+	0	ID=TBE6-bin-03.genome.CDS.1673;Product=
+TBE6-bin-03-scaffold_3777	feature	CDS	182	583	.	-	0	ID=TBE6-bin-03.genome.CDS.1672;Product=
+TBE6-bin-03-scaffold_3777	feature	CDS	2	163	.	+	0	ID=TBE6-bin-03.genome.CDS.1671;Product=
+TBE6-bin-03-scaffold_3811	feature	CDS	4421	4930	.	+	0	ID=TBE6-bin-03.genome.CDS.1810;Product=5-methyltetrahydrofolate--homocysteine methyltransferase %28EC 2.1.1.13%29
+TBE6-bin-03-scaffold_3811	feature	CDS	3834	4343	.	-	0	ID=TBE6-bin-03.genome.CDS.1809;Product=hypothetical membrane associated protein
+TBE6-bin-03-scaffold_3811	feature	CDS	2647	2814	.	-	0	ID=TBE6-bin-03.genome.CDS.532;Product=hypothetical protein
+TBE6-bin-03-scaffold_3811	feature	CDS	1468	2451	.	+	0	ID=TBE6-bin-03.genome.CDS.1807;Product=Acryloyl-CoA reductase AcuI/YhdH %28EC 1.3.1.84%29
+TBE6-bin-03-scaffold_3811	feature	CDS	1022	1378	.	-	0	ID=TBE6-bin-03.genome.CDS.1806;Product=hypothetical protein
+TBE6-bin-03-scaffold_3811	feature	CDS	811	1020	.	-	0	ID=TBE6-bin-03.genome.CDS.529;Product=hypothetical protein
+TBE6-bin-03-scaffold_3811	feature	CDS	320	814	.	-	0	ID=TBE6-bin-03.genome.CDS.1804;Product=flavin reductase domain protein%2C FMN-binding
+TBE6-bin-03-scaffold_3811	feature	CDS	3	287	.	-	0	ID=TBE6-bin-03.genome.CDS.1803;Product=Uncharacterized glutathione S-transferase-like protein
+TBE6-bin-03-scaffold_3823	feature	CDS	6365	6514	.	+	0	ID=TBE6-bin-03.genome.CDS.1997;Product=UDP-4-amino-4-deoxy-L-arabinose formyltransferase %28EC 2.1.2.13%29
+TBE6-bin-03-scaffold_3823	feature	CDS	5393	6364	.	+	0	ID=TBE6-bin-03.genome.CDS.1996;Product=Polymyxin resistance protein ArnC%2C glycosyl transferase %28EC 2.4.-.-%29
+TBE6-bin-03-scaffold_3823	feature	CDS	3944	5329	.	+	0	ID=TBE6-bin-03.genome.CDS.1995;Product=UDP-4-amino-4-deoxy-L-arabinose--oxoglutarate aminotransferase %28EC 2.6.1.87%29
+TBE6-bin-03-scaffold_3823	feature	CDS	2384	3937	.	+	0	ID=TBE6-bin-03.genome.CDS.1994;Product=Polymyxin resistance protein ArnT%2C undecaprenyl phosphate-alpha-L-Ara4N transferase%3B Melittin resistance protein PqaB
+TBE6-bin-03-scaffold_3823	feature	CDS	1971	2420	.	+	0	ID=TBE6-bin-03.genome.CDS.1993;Product=Polymyxin resistance protein ArnT%2C undecaprenyl phosphate-alpha-L-Ara4N transferase%3B Melittin resistance protein PqaB
+TBE6-bin-03-scaffold_3823	feature	CDS	1594	1974	.	+	0	ID=TBE6-bin-03.genome.CDS.1992;Product=Membrane protein
+TBE6-bin-03-scaffold_3823	feature	CDS	256	1515	.	-	0	ID=TBE6-bin-03.genome.CDS.1991;Product=Aspartate aminotransferase %28EC 2.6.1.1%29
+TBE6-bin-03-scaffold_3823	feature	CDS	2	259	.	-	0	ID=TBE6-bin-03.genome.CDS.1990;Product=Homoserine dehydrogenase %28EC 1.1.1.3%29
+TBE6-bin-03-scaffold_38274	feature	CDS	2506	2898	.	+	0	ID=TBE6-bin-03.genome.CDS.1319;Product=Cytochrome c-type biogenesis protein ResA
+TBE6-bin-03-scaffold_38274	feature	CDS	1091	2479	.	-	0	ID=TBE6-bin-03.genome.CDS.1318;Product=UDP-N-acetylmuramate:L-alanyl-gamma-D-glutamyl-meso-diaminopimelate ligase %28EC 6.3.2.-%29
+TBE6-bin-03-scaffold_38274	feature	CDS	314	1048	.	-	0	ID=TBE6-bin-03.genome.CDS.1317;Product=3-oxoacyl-%5Bacyl-carrier protein%5D reductase %28EC 1.1.1.100%29
+TBE6-bin-03-scaffold_38274	feature	CDS	3	311	.	-	0	ID=TBE6-bin-03.genome.CDS.1316;Product=Exoribonuclease II %28EC 3.1.13.1%29
+TBE6-bin-03-scaffold_3958	feature	CDS	3952	5928	.	+	0	ID=TBE6-bin-03.genome.CDS.2114;Product=DNA-directed RNA polymerase beta subunit %28EC 2.7.7.6%29
+TBE6-bin-03-scaffold_3958	feature	CDS	3347	3724	.	+	0	ID=TBE6-bin-03.genome.CDS.2113;Product=LSU ribosomal protein L7/L12 %28P1/P2%29
+TBE6-bin-03-scaffold_3958	feature	CDS	2672	3310	.	+	0	ID=TBE6-bin-03.genome.CDS.2112;Product=LSU ribosomal protein L10p %28P0%29
+TBE6-bin-03-scaffold_3958	feature	CDS	2534	2668	.	+	0	ID=TBE6-bin-03.genome.CDS.809;Product=
+TBE6-bin-03-scaffold_3958	feature	CDS	1711	2412	.	+	0	ID=TBE6-bin-03.genome.CDS.2111;Product=LSU ribosomal protein L1p %28L10Ae%29
+TBE6-bin-03-scaffold_3958	feature	CDS	1277	1708	.	+	0	ID=TBE6-bin-03.genome.CDS.2110;Product=LSU ribosomal protein L11p %28L12e%29
+TBE6-bin-03-scaffold_3958	feature	CDS	461	1033	.	+	0	ID=TBE6-bin-03.genome.CDS.2109;Product=Transcription antitermination protein NusG
+TBE6-bin-03-scaffold_3958	feature	CDS	74	451	.	+	0	ID=TBE6-bin-03.genome.CDS.2108;Product=Preprotein translocase subunit SecE %28TC 3.A.5.1.1%29
+TBE6-bin-03-scaffold_396	feature	CDS	10791	10988	.	-	0	ID=TBE6-bin-03.genome.CDS.1542;Product=
+TBE6-bin-03-scaffold_396	feature	CDS	9296	10786	.	-	0	ID=TBE6-bin-03.genome.CDS.1541;Product=TldD protein%2C part of TldE/TldD proteolytic complex
+TBE6-bin-03-scaffold_396	feature	CDS	8052	9176	.	-	0	ID=TBE6-bin-03.genome.CDS.1540;Product=2-keto-3-deoxy-D-arabino-heptulosonate-7-phosphate synthase I alpha %28EC 2.5.1.54%29
+TBE6-bin-03-scaffold_396	feature	CDS	7886	8020	.	+	0	ID=TBE6-bin-03.genome.CDS.1539;Product=ATP:Cob%28I%29alamin adenosyltransferase %28EC 2.5.1.17%29
+TBE6-bin-03-scaffold_396	feature	CDS	7283	7852	.	+	0	ID=TBE6-bin-03.genome.CDS.1538;Product=ATP:Cob%28I%29alamin adenosyltransferase %28EC 2.5.1.17%29 %40 ATP:Cob%28I%29alamin adenosyltransferase %28EC 2.5.1.17%29%2C glycolate utilization
+TBE6-bin-03-scaffold_396	feature	CDS	5751	7241	.	-	0	ID=TBE6-bin-03.genome.CDS.1537;Product=Glycolate dehydrogenase %28EC 1.1.99.14%29%2C subunit GlcD
+TBE6-bin-03-scaffold_396	feature	CDS	4588	5751	.	-	0	ID=TBE6-bin-03.genome.CDS.1536;Product=Glycolate dehydrogenase %28EC 1.1.99.14%29%2C FAD-binding subunit GlcE
+TBE6-bin-03-scaffold_396	feature	CDS	3621	4580	.	-	0	ID=TBE6-bin-03.genome.CDS.1535;Product=Glycolate dehydrogenase %28EC 1.1.99.14%29%2C iron-sulfur subunit GlcF
+TBE6-bin-03-scaffold_396	feature	CDS	3466	3624	.	-	0	ID=TBE6-bin-03.genome.CDS.1534;Product=
+TBE6-bin-03-scaffold_396	feature	CDS	2744	3469	.	-	0	ID=TBE6-bin-03.genome.CDS.1533;Product=Hypothetical protein YggS%2C proline synthase co-transcribed bacterial homolog PROSC
+TBE6-bin-03-scaffold_396	feature	CDS	1905	2747	.	-	0	ID=TBE6-bin-03.genome.CDS.1532;Product=Pyrroline-5-carboxylate reductase %28EC 1.5.1.2%29
+TBE6-bin-03-scaffold_396	feature	CDS	1709	1939	.	-	0	ID=TBE6-bin-03.genome.CDS.1531;Product=Pyrroline-5-carboxylate reductase %28EC 1.5.1.2%29
+TBE6-bin-03-scaffold_396	feature	CDS	866	1723	.	+	0	ID=TBE6-bin-03.genome.CDS.1530;Product=4-hydroxybenzoate polyprenyltransferase %28EC 2.5.1.39%29
+TBE6-bin-03-scaffold_396	feature	CDS	1	873	.	+	0	ID=TBE6-bin-03.genome.CDS.1529;Product=Hydrogen peroxide-inducible genes activator
+TBE6-bin-03-scaffold_40	feature	CDS	5671	6354	.	-	0	ID=TBE6-bin-03.genome.CDS.1510;Product=Transcription-repair coupling factor
+TBE6-bin-03-scaffold_40	feature	CDS	4902	5663	.	-	0	ID=TBE6-bin-03.genome.CDS.245;Product=Phosphoserine phosphatase %28EC 3.1.3.3%29
+TBE6-bin-03-scaffold_40	feature	CDS	4636	4779	.	-	0	ID=TBE6-bin-03.genome.CDS.244;Product=Phosphoserine phosphatase %28EC 3.1.3.3%29
+TBE6-bin-03-scaffold_40	feature	CDS	3455	4639	.	+	0	ID=TBE6-bin-03.genome.CDS.1507;Product=3-ketoacyl-CoA thiolase %28EC 2.3.1.16%29 %40 Acetyl-CoA acetyltransferase %28EC 2.3.1.9%29
+TBE6-bin-03-scaffold_40	feature	CDS	2946	3386	.	+	0	ID=TBE6-bin-03.genome.CDS.1506;Product=Ribosomal protein S12p Asp88 %28E. coli%29 methylthiotransferase
+TBE6-bin-03-scaffold_40	feature	CDS	1927	2949	.	+	0	ID=TBE6-bin-03.genome.CDS.1505;Product=Ribosomal protein S12p Asp88 %28E. coli%29 methylthiotransferase
+TBE6-bin-03-scaffold_40	feature	CDS	1368	1925	.	+	0	ID=TBE6-bin-03.genome.CDS.1504;Product=PhbF
+TBE6-bin-03-scaffold_40	feature	CDS	532	1272	.	+	0	ID=TBE6-bin-03.genome.CDS.1503;Product=Acetoacetyl-CoA reductase %28EC 1.1.1.36%29
+TBE6-bin-03-scaffold_40	feature	CDS	1	513	.	+	0	ID=TBE6-bin-03.genome.CDS.1502;Product=Polyhydroxyalkanoic acid synthase
+TBE6-bin-03-scaffold_40398	feature	CDS	2590	3030	.	+	0	ID=TBE6-bin-03.genome.CDS.1315;Product=NADH-ubiquinone oxidoreductase chain F %28EC 1.6.5.3%29
+TBE6-bin-03-scaffold_40398	feature	CDS	2090	2593	.	+	0	ID=TBE6-bin-03.genome.CDS.1314;Product=NADH-ubiquinone oxidoreductase chain E %28EC 1.6.5.3%29
+TBE6-bin-03-scaffold_40398	feature	CDS	1545	2069	.	+	0	ID=TBE6-bin-03.genome.CDS.1313;Product=NADH-ubiquinone oxidoreductase chain D %28EC 1.6.5.3%29
+TBE6-bin-03-scaffold_40398	feature	CDS	764	1582	.	+	0	ID=TBE6-bin-03.genome.CDS.1312;Product=NADH-ubiquinone oxidoreductase chain D %28EC 1.6.5.3%29
+TBE6-bin-03-scaffold_40398	feature	CDS	161	760	.	+	0	ID=TBE6-bin-03.genome.CDS.1311;Product=NADH-ubiquinone oxidoreductase chain C %28EC 1.6.5.3%29
+TBE6-bin-03-scaffold_40398	feature	CDS	1	159	.	+	0	ID=TBE6-bin-03.genome.CDS.1310;Product=NADH-ubiquinone oxidoreductase chain B %28EC 1.6.5.3%29
+TBE6-bin-03-scaffold_4096	feature	CDS	2116	3306	.	+	0	ID=TBE6-bin-03.genome.CDS.1382;Product=Aconitate hydratase 2 %28EC 4.2.1.3%29
+TBE6-bin-03-scaffold_4096	feature	CDS	1967	2095	.	+	0	ID=TBE6-bin-03.genome.CDS.130;Product=
+TBE6-bin-03-scaffold_4096	feature	CDS	1782	1943	.	+	0	ID=TBE6-bin-03.genome.CDS.1381;Product=
+TBE6-bin-03-scaffold_4096	feature	CDS	1263	1775	.	+	0	ID=TBE6-bin-03.genome.CDS.1380;Product=hypothetical protein
+TBE6-bin-03-scaffold_4096	feature	CDS	1	1107	.	-	0	ID=TBE6-bin-03.genome.CDS.1379;Product=CTP synthase %28EC 6.3.4.2%29
+TBE6-bin-03-scaffold_4100	feature	misc_RNA	1	101	.	+	.	ID=TBE6-bin-03.genome.repeat.6;Product=repeat region
+TBE6-bin-03-scaffold_4100	feature	CDS	5604	6179	.	-	0	ID=TBE6-bin-03.genome.CDS.1751;Product=S-adenosylmethionine:tRNA ribosyltransferase-isomerase %28EC 5.-.-.-%29
+TBE6-bin-03-scaffold_4100	feature	CDS	4434	5591	.	-	0	ID=TBE6-bin-03.genome.CDS.1750;Product=tRNA-guanine transglycosylase %28EC 2.4.2.29%29
+TBE6-bin-03-scaffold_4100	feature	CDS	3965	4291	.	-	0	ID=TBE6-bin-03.genome.CDS.1749;Product=Preprotein translocase subunit YajC %28TC 3.A.5.1.1%29
+TBE6-bin-03-scaffold_4100	feature	CDS	2981	3952	.	-	0	ID=TBE6-bin-03.genome.CDS.1748;Product=Protein-export membrane protein SecD %28TC 3.A.5.1.1%29
+TBE6-bin-03-scaffold_4100	feature	CDS	1992	2918	.	-	0	ID=TBE6-bin-03.genome.CDS.1747;Product=Protein-export membrane protein SecD %28TC 3.A.5.1.1%29
+TBE6-bin-03-scaffold_4100	feature	CDS	1014	1988	.	-	0	ID=TBE6-bin-03.genome.CDS.1746;Product=Protein-export membrane protein SecF %28TC 3.A.5.1.1%29
+TBE6-bin-03-scaffold_4100	feature	CDS	1	1017	.	+	0	ID=TBE6-bin-03.genome.CDS.1745;Product=3-deoxy-D-manno-octulosonic-acid transferase %28EC 2.-.-.-%29
+TBE6-bin-03-scaffold_4112	feature	CDS	16649	17419	.	-	0	ID=TBE6-bin-03.genome.CDS.1607;Product=FIG00934258: hypothetical protein
+TBE6-bin-03-scaffold_4112	feature	CDS	15492	16580	.	-	0	ID=TBE6-bin-03.genome.CDS.1606;Product=Scaffold protein for %5B4Fe-4S%5D cluster assembly ApbC%2C MRP-like
+TBE6-bin-03-scaffold_4112	feature	CDS	14785	15495	.	+	0	ID=TBE6-bin-03.genome.CDS.1605;Product=ABC-type tungstate transport system%2C ATP-binding protein
+TBE6-bin-03-scaffold_4112	feature	CDS	14097	14792	.	+	0	ID=TBE6-bin-03.genome.CDS.1604;Product=ABC-type tungstate transport system%2C permease protein
+TBE6-bin-03-scaffold_4112	feature	CDS	13829	14032	.	-	0	ID=TBE6-bin-03.genome.CDS.1603;Product=hypothetical protein
+TBE6-bin-03-scaffold_4112	feature	CDS	13086	13832	.	-	0	ID=TBE6-bin-03.genome.CDS.1602;Product=Endonuclease/exonuclease/phosphatase family protein
+TBE6-bin-03-scaffold_4112	feature	CDS	11611	13089	.	-	0	ID=TBE6-bin-03.genome.CDS.1601;Product=Cardiolipin synthetase %28EC 2.7.8.-%29
+TBE6-bin-03-scaffold_4112	feature	CDS	11108	11611	.	-	0	ID=TBE6-bin-03.genome.CDS.1600;Product=hypothetical protein
+TBE6-bin-03-scaffold_4112	feature	CDS	10843	11049	.	-	0	ID=TBE6-bin-03.genome.CDS.1599;Product=D-beta-hydroxybutyrate dehydrogenase %28EC 1.1.1.30%29
+TBE6-bin-03-scaffold_4112	feature	CDS	9898	10674	.	-	0	ID=TBE6-bin-03.genome.CDS.1598;Product=D-beta-hydroxybutyrate dehydrogenase %28EC 1.1.1.30%29
+TBE6-bin-03-scaffold_4112	feature	CDS	9163	9756	.	-	0	ID=TBE6-bin-03.genome.CDS.1597;Product=FIG00909566: hypothetical protein
+TBE6-bin-03-scaffold_4112	feature	CDS	8273	8440	.	+	0	ID=TBE6-bin-03.genome.CDS.327;Product=
+TBE6-bin-03-scaffold_4112	feature	CDS	7967	8272	.	-	0	ID=TBE6-bin-03.genome.CDS.1596;Product=
+TBE6-bin-03-scaffold_4112	feature	CDS	7743	7925	.	+	0	ID=TBE6-bin-03.genome.CDS.1595;Product=hypothetical protein
+TBE6-bin-03-scaffold_4112	feature	CDS	7150	7725	.	+	0	ID=TBE6-bin-03.genome.CDS.1594;Product=
+TBE6-bin-03-scaffold_4112	feature	CDS	6901	7089	.	+	0	ID=TBE6-bin-03.genome.CDS.1593;Product=hypothetical protein
+TBE6-bin-03-scaffold_4112	feature	CDS	6190	6867	.	+	0	ID=TBE6-bin-03.genome.CDS.1592;Product=hypothetical protein
+TBE6-bin-03-scaffold_4112	feature	CDS	4924	6069	.	+	0	ID=TBE6-bin-03.genome.CDS.1591;Product=L-lactate dehydrogenase %28EC 1.1.2.3%29
+TBE6-bin-03-scaffold_4112	feature	CDS	3873	4823	.	-	0	ID=TBE6-bin-03.genome.CDS.1590;Product=Permeases of the drug/metabolite transporter %28DMT%29 superfamily
+TBE6-bin-03-scaffold_4112	feature	CDS	2823	3761	.	-	0	ID=TBE6-bin-03.genome.CDS.1589;Product=Fumarylacetoacetate hydrolase family protein
+TBE6-bin-03-scaffold_4112	feature	CDS	1863	2810	.	-	0	ID=TBE6-bin-03.genome.CDS.1588;Product=putative exported protein
+TBE6-bin-03-scaffold_4112	feature	CDS	895	1809	.	-	0	ID=TBE6-bin-03.genome.CDS.1587;Product=Serine-pyruvate aminotransferase/archaeal aspartate aminotransferase
+TBE6-bin-03-scaffold_4112	feature	CDS	536	898	.	-	0	ID=TBE6-bin-03.genome.CDS.316;Product=Serine-pyruvate aminotransferase/archaeal aspartate aminotransferase
+TBE6-bin-03-scaffold_4112	feature	CDS	104	379	.	-	0	ID=TBE6-bin-03.genome.CDS.1585;Product=hypothetical protein
+TBE6-bin-03-scaffold_42014	feature	CDS	15842	15919	.	+	0	ID=TBE6-bin-03.genome.CDS.2165;Product=serine/threonine protein kinase
+TBE6-bin-03-scaffold_42014	feature	CDS	15086	15838	.	+	0	ID=TBE6-bin-03.genome.CDS.2164;Product=Mlr6579 protein
+TBE6-bin-03-scaffold_42014	feature	CDS	14141	15028	.	+	0	ID=TBE6-bin-03.genome.CDS.2163;Product=Lipid A biosynthesis lauroyl acyltransferase %28EC 2.3.1.-%29
+TBE6-bin-03-scaffold_42014	feature	CDS	13407	14090	.	+	0	ID=TBE6-bin-03.genome.CDS.2162;Product=Carbonic anhydrase %28EC 4.2.1.1%29
+TBE6-bin-03-scaffold_42014	feature	CDS	13085	13384	.	-	0	ID=TBE6-bin-03.genome.CDS.2161;Product=hypothetical protein
+TBE6-bin-03-scaffold_42014	feature	CDS	12121	13092	.	+	0	ID=TBE6-bin-03.genome.CDS.2160;Product=Fe%282%2B%29/alpha-ketoglutarate-dependent dioxygenase LpxO
+TBE6-bin-03-scaffold_42014	feature	CDS	11633	12043	.	-	0	ID=TBE6-bin-03.genome.CDS.2159;Product=hypothetical protein
+TBE6-bin-03-scaffold_42014	feature	CDS	11251	11535	.	-	0	ID=TBE6-bin-03.genome.CDS.2158;Product=DNA-binding protein HU
+TBE6-bin-03-scaffold_42014	feature	CDS	10056	11207	.	+	0	ID=TBE6-bin-03.genome.CDS.2157;Product=Rod shape-determining protein RodA
+TBE6-bin-03-scaffold_42014	feature	CDS	9751	10074	.	+	0	ID=TBE6-bin-03.genome.CDS.2156;Product=Penicillin-binding protein 2 %28PBP-2%29
+TBE6-bin-03-scaffold_42014	feature	CDS	8225	9754	.	+	0	ID=TBE6-bin-03.genome.CDS.854;Product=Penicillin-binding protein 2 %28PBP-2%29
+TBE6-bin-03-scaffold_42014	feature	CDS	7692	8216	.	+	0	ID=TBE6-bin-03.genome.CDS.2155;Product=Rod shape-determining protein MreD
+TBE6-bin-03-scaffold_42014	feature	CDS	6757	7695	.	+	0	ID=TBE6-bin-03.genome.CDS.852;Product=Rod shape-determining protein MreC
+TBE6-bin-03-scaffold_42014	feature	CDS	5764	6732	.	+	0	ID=TBE6-bin-03.genome.CDS.2153;Product=Rod shape-determining protein MreB
+TBE6-bin-03-scaffold_42014	feature	CDS	5248	5541	.	-	0	ID=TBE6-bin-03.genome.CDS.2152;Product=Aspartyl-tRNA%28Asn%29 amidotransferase subunit C %28EC 6.3.5.6%29 %40 Glutamyl-tRNA%28Gln%29 amidotransferase subunit C %28EC 6.3.5.7%29
+TBE6-bin-03-scaffold_42014	feature	CDS	3734	5251	.	-	0	ID=TBE6-bin-03.genome.CDS.2151;Product=Aspartyl-tRNA%28Asn%29 amidotransferase subunit A %28EC 6.3.5.6%29 %40 Glutamyl-tRNA%28Gln%29 amidotransferase subunit A %28EC 6.3.5.7%29
+TBE6-bin-03-scaffold_42014	feature	CDS	2265	3734	.	-	0	ID=TBE6-bin-03.genome.CDS.2150;Product=Aspartyl-tRNA%28Asn%29 amidotransferase subunit B %28EC 6.3.5.6%29 %40 Glutamyl-tRNA%28Gln%29 amidotransferase subunit B %28EC 6.3.5.7%29
+TBE6-bin-03-scaffold_42014	feature	CDS	1459	2241	.	-	0	ID=TBE6-bin-03.genome.CDS.2149;Product=Protein of unknown function DUF484
+TBE6-bin-03-scaffold_42014	feature	CDS	486	1478	.	-	0	ID=TBE6-bin-03.genome.CDS.2148;Product=Site-specific tyrosine recombinase XerC
+TBE6-bin-03-scaffold_42014	feature	CDS	3	425	.	-	0	ID=TBE6-bin-03.genome.CDS.2147;Product=Putative metal chaperone%2C involved in Zn homeostasis%2C GTPase of COG0523 family
+TBE6-bin-03-scaffold_4202	feature	CDS	4727	5209	.	+	0	ID=TBE6-bin-03.genome.CDS.2487;Product=Probable component of the lipoprotein assembly complex %28forms a complex with YaeT%2C YfgL%2C and NlpB%29
+TBE6-bin-03-scaffold_4202	feature	CDS	3699	4655	.	-	0	ID=TBE6-bin-03.genome.CDS.2486;Product=Ribosomal large subunit pseudouridine synthase D %28EC 4.2.1.70%29
+TBE6-bin-03-scaffold_4202	feature	CDS	2767	3699	.	-	0	ID=TBE6-bin-03.genome.CDS.2485;Product=COG1496: Uncharacterized conserved protein
+TBE6-bin-03-scaffold_4202	feature	CDS	844	2685	.	-	0	ID=TBE6-bin-03.genome.CDS.2484;Product=Polyhydroxyalkanoic acid synthase
+TBE6-bin-03-scaffold_4202	feature	CDS	83	823	.	-	0	ID=TBE6-bin-03.genome.CDS.2483;Product=Acetoacetyl-CoA reductase %28EC 1.1.1.36%29
+TBE6-bin-03-scaffold_4332	feature	CDS	3514	4206	.	+	0	ID=TBE6-bin-03.genome.CDS.1922;Product=Chromosome partition protein smc
+TBE6-bin-03-scaffold_4332	feature	CDS	2513	3340	.	-	0	ID=TBE6-bin-03.genome.CDS.1921;Product=2%2C3%2C4%2C5-tetrahydropyridine-2%2C6-dicarboxylate N-succinyltransferase %28EC 2.3.1.117%29
+TBE6-bin-03-scaffold_4332	feature	CDS	1356	2507	.	-	0	ID=TBE6-bin-03.genome.CDS.1920;Product=N-succinyl-L%2CL-diaminopimelate desuccinylase %28EC 3.5.1.18%29
+TBE6-bin-03-scaffold_4332	feature	CDS	1044	1328	.	-	0	ID=TBE6-bin-03.genome.CDS.1919;Product=Ribosomal protein L3 N%285%29-glutamine methyltransferase %28EC 2.1.1.n15%29
+TBE6-bin-03-scaffold_4332	feature	CDS	194	961	.	-	0	ID=TBE6-bin-03.genome.CDS.1918;Product=Ribosomal protein L3 N%285%29-glutamine methyltransferase %28EC 2.1.1.n15%29
+TBE6-bin-03-scaffold_4332	feature	CDS	3	197	.	+	0	ID=TBE6-bin-03.genome.CDS.1917;Product=DNA repair protein RadA
+TBE6-bin-03-scaffold_4335	feature	CDS	5529	5933	.	+	0	ID=TBE6-bin-03.genome.CDS.1378;Product=FIG003879: Uncharacterized subgroup of the nitrilase superfamily
+TBE6-bin-03-scaffold_4335	feature	CDS	4235	5512	.	+	0	ID=TBE6-bin-03.genome.CDS.1377;Product=FIG005080: Possible exported protein
+TBE6-bin-03-scaffold_4335	feature	CDS	1968	4241	.	+	0	ID=TBE6-bin-03.genome.CDS.1376;Product=FIG005080: Possible exported protein
+TBE6-bin-03-scaffold_4335	feature	CDS	1289	1954	.	+	0	ID=TBE6-bin-03.genome.CDS.124;Product=
+TBE6-bin-03-scaffold_4335	feature	CDS	2	1120	.	-	0	ID=TBE6-bin-03.genome.CDS.1375;Product=Glutamate-ammonia-ligase adenylyltransferase %28EC 2.7.7.42%29
+TBE6-bin-03-scaffold_440	feature	CDS	1747	2811	.	-	0	ID=TBE6-bin-03.genome.CDS.1443;Product=Octaprenyl diphosphate synthase %28EC 2.5.1.90%29
+TBE6-bin-03-scaffold_440	feature	tRNA	1649	1725	.	-	.	ID=TBE6-bin-03.genome.rna.5;Product=tRNA-Pro-CGG
+TBE6-bin-03-scaffold_440	feature	CDS	678	1598	.	-	0	ID=TBE6-bin-03.genome.CDS.1442;Product=Fumarylacetoacetate hydrolase family protein
+TBE6-bin-03-scaffold_440	feature	CDS	1	648	.	+	0	ID=TBE6-bin-03.genome.CDS.1441;Product=2-dehydropantoate 2-reductase %28EC 1.1.1.169%29
+TBE6-bin-03-scaffold_4475	feature	CDS	11152	11358	.	+	0	ID=TBE6-bin-03.genome.CDS.1916;Product=
+TBE6-bin-03-scaffold_4475	feature	CDS	11033	11155	.	+	0	ID=TBE6-bin-03.genome.CDS.634;Product=
+TBE6-bin-03-scaffold_4475	feature	CDS	9131	10957	.	-	0	ID=TBE6-bin-03.genome.CDS.1915;Product=hypothetical protein
+TBE6-bin-03-scaffold_4475	feature	CDS	8006	9103	.	-	0	ID=TBE6-bin-03.genome.CDS.1914;Product=hypothetical protein
+TBE6-bin-03-scaffold_4475	feature	CDS	7621	7986	.	-	0	ID=TBE6-bin-03.genome.CDS.1913;Product=
+TBE6-bin-03-scaffold_4475	feature	CDS	6565	7605	.	+	0	ID=TBE6-bin-03.genome.CDS.1912;Product=
+TBE6-bin-03-scaffold_4475	feature	CDS	5230	6513	.	-	0	ID=TBE6-bin-03.genome.CDS.1911;Product=
+TBE6-bin-03-scaffold_4475	feature	CDS	4802	5200	.	-	0	ID=TBE6-bin-03.genome.CDS.1910;Product=Distant similarity with leukotriene C4 synthase %28microsomal glutathione S-transferase%29
+TBE6-bin-03-scaffold_4475	feature	CDS	4424	4786	.	-	0	ID=TBE6-bin-03.genome.CDS.1909;Product=Distant similarity with leukotriene C4 synthase %28microsomal glutathione S-transferase%29
+TBE6-bin-03-scaffold_4475	feature	CDS	3979	4392	.	-	0	ID=TBE6-bin-03.genome.CDS.1908;Product=hypothetical protein
+TBE6-bin-03-scaffold_4475	feature	CDS	3611	3964	.	+	0	ID=TBE6-bin-03.genome.CDS.1907;Product=conserved hypothetical protein
+TBE6-bin-03-scaffold_4475	feature	CDS	3198	3572	.	+	0	ID=TBE6-bin-03.genome.CDS.1906;Product=identified by similarity to GB:AAD29263.1
+TBE6-bin-03-scaffold_4475	feature	CDS	2889	3032	.	-	0	ID=TBE6-bin-03.genome.CDS.623;Product=hypothetical protein
+TBE6-bin-03-scaffold_4475	feature	CDS	2446	2871	.	-	0	ID=TBE6-bin-03.genome.CDS.1905;Product=hypothetical protein
+TBE6-bin-03-scaffold_4475	feature	CDS	1779	2462	.	-	0	ID=TBE6-bin-03.genome.CDS.621;Product=Deoxyribodipyrimidine photolyase-related protein
+TBE6-bin-03-scaffold_4475	feature	CDS	839	1825	.	-	0	ID=TBE6-bin-03.genome.CDS.1903;Product=Deoxyribodipyrimidine photolyase-related protein
+TBE6-bin-03-scaffold_4475	feature	CDS	302	610	.	-	0	ID=TBE6-bin-03.genome.CDS.1902;Product=hypothetical protein
+TBE6-bin-03-scaffold_4475	feature	CDS	3	272	.	-	0	ID=TBE6-bin-03.genome.CDS.1901;Product=
+TBE6-bin-03-scaffold_4515	feature	CDS	7151	9343	.	-	0	ID=TBE6-bin-03.genome.CDS.2504;Product=Topoisomerase IV subunit A %28EC 5.99.1.-%29
+TBE6-bin-03-scaffold_4515	feature	CDS	6683	7141	.	+	0	ID=TBE6-bin-03.genome.CDS.2503;Product=RidA/YER057c/UK114 superfamily%2C group 1
+TBE6-bin-03-scaffold_4515	feature	CDS	6169	6540	.	-	0	ID=TBE6-bin-03.genome.CDS.2502;Product=Putative periplasmic cytochrome type-C oxidoreductase signal peptide protein %28EC 1.-.-.-%29
+TBE6-bin-03-scaffold_4515	feature	CDS	5811	6155	.	-	0	ID=TBE6-bin-03.genome.CDS.2501;Product=
+TBE6-bin-03-scaffold_4515	feature	CDS	4992	5630	.	+	0	ID=TBE6-bin-03.genome.CDS.2500;Product=Transcriptional regulator%2C GntR family
+TBE6-bin-03-scaffold_4515	feature	CDS	2714	4897	.	-	0	ID=TBE6-bin-03.genome.CDS.2499;Product=Methylmalonyl-CoA mutase %28EC 5.4.99.2%29
+TBE6-bin-03-scaffold_4515	feature	CDS	1670	2695	.	-	0	ID=TBE6-bin-03.genome.CDS.2498;Product=putative periplasmic protein kinase ArgK and related GTPases of G3E family
+TBE6-bin-03-scaffold_4515	feature	CDS	1097	1660	.	-	0	ID=TBE6-bin-03.genome.CDS.2497;Product=Propionyl-CoA carboxylase carboxyl transferase subunit %28EC 6.4.1.3%29
+TBE6-bin-03-scaffold_4515	feature	CDS	33	1100	.	-	0	ID=TBE6-bin-03.genome.CDS.1188;Product=Propionyl-CoA carboxylase carboxyl transferase subunit %28EC 6.4.1.3%29
+TBE6-bin-03-scaffold_4548	feature	CDS	9666	9875	.	+	0	ID=TBE6-bin-03.genome.CDS.2182;Product=
+TBE6-bin-03-scaffold_4548	feature	CDS	8251	9639	.	-	0	ID=TBE6-bin-03.genome.CDS.2181;Product=UDP-N-acetylmuramate:L-alanyl-gamma-D-glutamyl-meso-diaminopimelate ligase %28EC 6.3.2.-%29
+TBE6-bin-03-scaffold_4548	feature	CDS	7475	8254	.	-	0	ID=TBE6-bin-03.genome.CDS.2180;Product=3-oxoacyl-%5Bacyl-carrier protein%5D reductase %28EC 1.1.1.100%29
+TBE6-bin-03-scaffold_4548	feature	CDS	5484	7472	.	-	0	ID=TBE6-bin-03.genome.CDS.2179;Product=Exoribonuclease II %28EC 3.1.13.1%29
+TBE6-bin-03-scaffold_4548	feature	CDS	4625	5503	.	-	0	ID=TBE6-bin-03.genome.CDS.2178;Product=TonB protein
+TBE6-bin-03-scaffold_4548	feature	CDS	3691	4599	.	-	0	ID=TBE6-bin-03.genome.CDS.2177;Product=Shikimate 5-dehydrogenase I alpha %28EC 1.1.1.25%29
+TBE6-bin-03-scaffold_4548	feature	CDS	2952	3683	.	-	0	ID=TBE6-bin-03.genome.CDS.2176;Product=Monofunctional biosynthetic peptidoglycan transglycosylase %28EC 2.4.2.-%29
+TBE6-bin-03-scaffold_4548	feature	CDS	2108	2950	.	+	0	ID=TBE6-bin-03.genome.CDS.2175;Product=Orotidine 5%27-phosphate decarboxylase %28EC 4.1.1.23%29
+TBE6-bin-03-scaffold_4548	feature	CDS	1865	2095	.	+	0	ID=TBE6-bin-03.genome.CDS.871;Product=
+TBE6-bin-03-scaffold_4548	feature	CDS	1223	1831	.	-	0	ID=TBE6-bin-03.genome.CDS.872;Product=Magnesium and cobalt transport protein CorA
+TBE6-bin-03-scaffold_4548	feature	CDS	743	1222	.	+	0	ID=TBE6-bin-03.genome.CDS.2173;Product=C-terminal domain of CinA type S%3B Protein Implicated in DNA repair function with RecA and MutS
+TBE6-bin-03-scaffold_4548	feature	CDS	178	741	.	+	0	ID=TBE6-bin-03.genome.CDS.2172;Product=Phosphatidylglycerophosphatase A %28EC 3.1.3.27%29
+TBE6-bin-03-scaffold_4548	feature	CDS	2	181	.	+	0	ID=TBE6-bin-03.genome.CDS.2171;Product=
+TBE6-bin-03-scaffold_4551	feature	CDS	7612	9216	.	-	0	ID=TBE6-bin-03.genome.CDS.1935;Product=DNA gyrase subunit A %28EC 5.99.1.3%29
+TBE6-bin-03-scaffold_4551	feature	CDS	6323	7630	.	-	0	ID=TBE6-bin-03.genome.CDS.1934;Product=DNA gyrase subunit A %28EC 5.99.1.3%29
+TBE6-bin-03-scaffold_4551	feature	CDS	5192	6289	.	-	0	ID=TBE6-bin-03.genome.CDS.1933;Product=Phosphoserine aminotransferase %28EC 2.6.1.52%29
+TBE6-bin-03-scaffold_4551	feature	CDS	4110	5192	.	-	0	ID=TBE6-bin-03.genome.CDS.1932;Product=Chorismate mutase I %28EC 5.4.99.5%29 / Prephenate dehydratase %28EC 4.2.1.51%29
+TBE6-bin-03-scaffold_4551	feature	CDS	2992	4107	.	-	0	ID=TBE6-bin-03.genome.CDS.1931;Product=Biosynthetic Aromatic amino acid aminotransferase beta %28EC 2.6.1.57%29
+TBE6-bin-03-scaffold_4551	feature	CDS	2119	2988	.	-	0	ID=TBE6-bin-03.genome.CDS.1930;Product=Cyclohexadienyl dehydrogenase %28EC 1.3.1.12%29%28EC 1.3.1.43%29
+TBE6-bin-03-scaffold_4551	feature	CDS	791	2119	.	-	0	ID=TBE6-bin-03.genome.CDS.1929;Product=5-Enolpyruvylshikimate-3-phosphate synthase %28EC 2.5.1.19%29
+TBE6-bin-03-scaffold_4551	feature	CDS	122	784	.	-	0	ID=TBE6-bin-03.genome.CDS.1928;Product=Cytidylate kinase %28EC 2.7.4.25%29
+TBE6-bin-03-scaffold_4583	feature	CDS	2243	3064	.	+	0	ID=TBE6-bin-03.genome.CDS.1814;Product=UDP-glucuronate decarboxylase %28EC 4.1.1.35%29
+TBE6-bin-03-scaffold_4583	feature	CDS	1762	2223	.	+	0	ID=TBE6-bin-03.genome.CDS.1813;Product=FIG00933993: hypothetical protein
+TBE6-bin-03-scaffold_4583	feature	CDS	822	1745	.	+	0	ID=TBE6-bin-03.genome.CDS.1812;Product=Undecaprenyl-diphosphatase %28EC 3.6.1.27%29
+TBE6-bin-03-scaffold_4583	feature	CDS	2	703	.	-	0	ID=TBE6-bin-03.genome.CDS.1811;Product=Type I secretion outer membrane protein%2C TolC precursor
+TBE6-bin-03-scaffold_4633	feature	CDS	1963	2781	.	-	0	ID=TBE6-bin-03.genome.CDS.1464;Product=Lipopolysaccharide heptosyltransferase III %28EC 2.4.1.-%29
+TBE6-bin-03-scaffold_4633	feature	CDS	1196	1966	.	+	0	ID=TBE6-bin-03.genome.CDS.202;Product=DNA polymerase III alpha subunit %28EC 2.7.7.7%29
+TBE6-bin-03-scaffold_4633	feature	CDS	3	1199	.	+	0	ID=TBE6-bin-03.genome.CDS.1462;Product=DNA polymerase III alpha subunit %28EC 2.7.7.7%29
+TBE6-bin-03-scaffold_4660	feature	CDS	6070	6645	.	+	0	ID=TBE6-bin-03.genome.CDS.2127;Product=Probable transmembrane protein
+TBE6-bin-03-scaffold_4660	feature	CDS	4838	5956	.	+	0	ID=TBE6-bin-03.genome.CDS.2126;Product=Alanine dehydrogenase %28EC 1.4.1.1%29
+TBE6-bin-03-scaffold_4660	feature	CDS	4527	4826	.	+	0	ID=TBE6-bin-03.genome.CDS.2125;Product=putative amino acid permease
+TBE6-bin-03-scaffold_4660	feature	CDS	3235	4548	.	+	0	ID=TBE6-bin-03.genome.CDS.2124;Product=putative amino acid permease
+TBE6-bin-03-scaffold_4660	feature	CDS	2507	2983	.	+	0	ID=TBE6-bin-03.genome.CDS.2123;Product=Molybdopterin biosynthesis protein MoeB
+TBE6-bin-03-scaffold_4660	feature	CDS	1914	2549	.	+	0	ID=TBE6-bin-03.genome.CDS.2122;Product=Molybdopterin biosynthesis protein MoeB
+TBE6-bin-03-scaffold_4660	feature	CDS	1256	1891	.	-	0	ID=TBE6-bin-03.genome.CDS.2121;Product=Pyridoxamine 5%27-phosphate oxidase %28EC 1.4.3.5%29
+TBE6-bin-03-scaffold_4660	feature	CDS	696	1259	.	+	0	ID=TBE6-bin-03.genome.CDS.2120;Product=Peptide methionine sulfoxide reductase MsrA %28EC 1.8.4.11%29
+TBE6-bin-03-scaffold_4660	feature	CDS	3	647	.	-	0	ID=TBE6-bin-03.genome.CDS.2119;Product=Aldehyde dehydrogenase %28EC 1.2.1.3%29%3B Probable coniferyl aldehyde dehydrogenase %28EC 1.2.1.68%29
+TBE6-bin-03-scaffold_4661	feature	CDS	3075	4007	.	-	0	ID=TBE6-bin-03.genome.CDS.1391;Product=Thioredoxin reductase %28EC 1.8.1.9%29
+TBE6-bin-03-scaffold_4661	feature	CDS	2252	3046	.	-	0	ID=TBE6-bin-03.genome.CDS.1390;Product=Thymidylate synthase %28EC 2.1.1.45%29
+TBE6-bin-03-scaffold_4661	feature	CDS	1761	2249	.	-	0	ID=TBE6-bin-03.genome.CDS.1389;Product=Dihydrofolate reductase %28EC 1.5.1.3%29
+TBE6-bin-03-scaffold_4661	feature	CDS	284	1630	.	+	0	ID=TBE6-bin-03.genome.CDS.1388;Product=TldE protein%2C part of TldE/TldD proteolytic complex
+TBE6-bin-03-scaffold_4661	feature	CDS	3	257	.	-	0	ID=TBE6-bin-03.genome.CDS.1387;Product=Molybdopterin biosynthesis molybdochelatase MogA
+TBE6-bin-03-scaffold_4778	feature	CDS	8013	8498	.	-	0	ID=TBE6-bin-03.genome.CDS.1277;Product=DNA-binding response regulator%2C LuxR family%2C near polyamine transporter
+TBE6-bin-03-scaffold_4778	feature	CDS	6689	8005	.	-	0	ID=TBE6-bin-03.genome.CDS.1276;Product=Osmosensitive K%2B channel histidine kinase KdpD %28EC 2.7.3.-%29
+TBE6-bin-03-scaffold_4778	feature	CDS	5365	6555	.	-	0	ID=TBE6-bin-03.genome.CDS.1275;Product=Probable two-component sensor
+TBE6-bin-03-scaffold_4778	feature	CDS	4127	5326	.	-	0	ID=TBE6-bin-03.genome.CDS.1274;Product=D-alanyl-D-alanine carboxypeptidase %28EC 3.4.16.4%29
+TBE6-bin-03-scaffold_4778	feature	CDS	2593	3771	.	+	0	ID=TBE6-bin-03.genome.CDS.1272;Product=TsaC protein %28YrdC-Sua5 domains%29 required for threonylcarbamoyladenosine t%286%29A37 modification in tRNA
+TBE6-bin-03-scaffold_4778	feature	CDS	1399	2589	.	+	0	ID=TBE6-bin-03.genome.CDS.1271;Product=Phosphoribosylaminoimidazole carboxylase ATPase subunit %28EC 4.1.1.21%29
+TBE6-bin-03-scaffold_4778	feature	CDS	1130	1399	.	+	0	ID=TBE6-bin-03.genome.CDS.1270;Product=Phosphoribosylaminoimidazole carboxylase catalytic subunit %28EC 4.1.1.21%29
+TBE6-bin-03-scaffold_4778	feature	CDS	721	1143	.	+	0	ID=TBE6-bin-03.genome.CDS.1269;Product=Phosphoribosylaminoimidazole carboxylase catalytic subunit %28EC 4.1.1.21%29
+TBE6-bin-03-scaffold_4778	feature	CDS	3	647	.	+	0	ID=TBE6-bin-03.genome.CDS.1268;Product=Phosphoribosylaminoimidazole-succinocarboxamide synthase %28EC 6.3.2.6%29
+TBE6-bin-03-scaffold_4795	feature	CDS	5225	5407	.	-	0	ID=TBE6-bin-03.genome.CDS.1717;Product=
+TBE6-bin-03-scaffold_4795	feature	CDS	2591	5224	.	-	0	ID=TBE6-bin-03.genome.CDS.1716;Product=Cyanophycin synthase %28EC 6.3.2.29%29%28EC 6.3.2.30%29
+TBE6-bin-03-scaffold_4795	feature	CDS	2106	2600	.	+	0	ID=TBE6-bin-03.genome.CDS.439;Product=Fructose-1%2C6-bisphosphatase%2C type I %28EC 3.1.3.11%29
+TBE6-bin-03-scaffold_4795	feature	CDS	1507	2115	.	+	0	ID=TBE6-bin-03.genome.CDS.438;Product=Fructose-1%2C6-bisphosphatase%2C type I %28EC 3.1.3.11%29
+TBE6-bin-03-scaffold_4795	feature	CDS	1153	1356	.	-	0	ID=TBE6-bin-03.genome.CDS.1714;Product=hypothetical protein
+TBE6-bin-03-scaffold_4795	feature	CDS	767	1150	.	-	0	ID=TBE6-bin-03.genome.CDS.1713;Product=
+TBE6-bin-03-scaffold_4795	feature	CDS	2	763	.	+	0	ID=TBE6-bin-03.genome.CDS.1712;Product=Membrane alanine aminopeptidase N %28EC 3.4.11.2%29
+TBE6-bin-03-scaffold_4799	feature	misc_RNA	1	110	.	+	.	ID=TBE6-bin-03.genome.repeat.3;Product=repeat region
+TBE6-bin-03-scaffold_4799	feature	CDS	12101	12808	.	+	0	ID=TBE6-bin-03.genome.CDS.2352;Product=Dihydroorotase %28EC 3.5.2.3%29
+TBE6-bin-03-scaffold_4799	feature	CDS	10552	12084	.	+	0	ID=TBE6-bin-03.genome.CDS.2351;Product=D-glycerate 2-kinase %28EC 2.7.1.165%29
+TBE6-bin-03-scaffold_4799	feature	CDS	8719	10542	.	+	0	ID=TBE6-bin-03.genome.CDS.2350;Product=Multidrug resistance ABC transporter ATP-binding and permease protein
+TBE6-bin-03-scaffold_4799	feature	CDS	8273	8722	.	+	0	ID=TBE6-bin-03.genome.CDS.1043;Product=Dihydroneopterin triphosphate pyrophosphohydrolase type 2
+TBE6-bin-03-scaffold_4799	feature	CDS	8092	8262	.	+	0	ID=TBE6-bin-03.genome.CDS.1042;Product=Aspartyl-tRNA synthetase %28EC 6.1.1.12%29 %40 Aspartyl-tRNA%28Asn%29 synthetase %28EC 6.1.1.23%29
+TBE6-bin-03-scaffold_4799	feature	CDS	6177	8081	.	+	0	ID=TBE6-bin-03.genome.CDS.2347;Product=Aspartyl-tRNA synthetase %28EC 6.1.1.12%29 %40 Aspartyl-tRNA%28Asn%29 synthetase %28EC 6.1.1.23%29
+TBE6-bin-03-scaffold_4799	feature	CDS	5507	6160	.	+	0	ID=TBE6-bin-03.genome.CDS.2346;Product=putative membrane protein
+TBE6-bin-03-scaffold_4799	feature	CDS	3873	5453	.	+	0	ID=TBE6-bin-03.genome.CDS.2345;Product=Ubiquinone biosynthesis monooxygenase UbiB
+TBE6-bin-03-scaffold_4799	feature	CDS	3340	3870	.	+	0	ID=TBE6-bin-03.genome.CDS.2344;Product=Protein YigP %28COG3165%29 clustered with ubiquinone biosynthetic genes
+TBE6-bin-03-scaffold_4799	feature	CDS	2311	3198	.	+	0	ID=TBE6-bin-03.genome.CDS.2343;Product=hypothetical protein
+TBE6-bin-03-scaffold_4799	feature	CDS	1517	2260	.	+	0	ID=TBE6-bin-03.genome.CDS.2342;Product=2-methoxy-6-polyprenyl-1%2C4-benzoquinol methylase %28EC 2.1.1.201%29
+TBE6-bin-03-scaffold_4799	feature	CDS	1011	1499	.	+	0	ID=TBE6-bin-03.genome.CDS.2341;Product=FIG00899427: hypothetical protein
+TBE6-bin-03-scaffold_4799	feature	CDS	1	1011	.	+	0	ID=TBE6-bin-03.genome.CDS.2340;Product=FAD/FMN-containing dehydrogenases
+TBE6-bin-03-scaffold_4835	feature	CDS	5702	6193	.	-	0	ID=TBE6-bin-03.genome.CDS.1549;Product=Arsenate reductase %28EC 1.20.4.1%29
+TBE6-bin-03-scaffold_4835	feature	CDS	4872	5642	.	-	0	ID=TBE6-bin-03.genome.CDS.1548;Product=FIG00996748: hypothetical protein
+TBE6-bin-03-scaffold_4835	feature	CDS	4085	4903	.	-	0	ID=TBE6-bin-03.genome.CDS.1547;Product=FIG00975421: hypothetical protein
+TBE6-bin-03-scaffold_4835	feature	CDS	3830	3952	.	-	0	ID=TBE6-bin-03.genome.CDS.281;Product=
+TBE6-bin-03-scaffold_4835	feature	CDS	2170	3732	.	-	0	ID=TBE6-bin-03.genome.CDS.1546;Product=Exopolyphosphatase %28EC 3.6.1.11%29
+TBE6-bin-03-scaffold_4835	feature	CDS	1220	2152	.	+	0	ID=TBE6-bin-03.genome.CDS.1545;Product=Putative hemolysin
+TBE6-bin-03-scaffold_4835	feature	CDS	771	1172	.	+	0	ID=TBE6-bin-03.genome.CDS.1544;Product=Diacylglycerol kinase %28EC 2.7.1.107%29
+TBE6-bin-03-scaffold_4835	feature	CDS	1	723	.	+	0	ID=TBE6-bin-03.genome.CDS.1543;Product=Glycosyltransferase
+TBE6-bin-03-scaffold_4882	feature	CDS	10440	11117	.	+	0	ID=TBE6-bin-03.genome.CDS.1766;Product=FIG00538743: hypothetical protein
+TBE6-bin-03-scaffold_4882	feature	CDS	9265	10374	.	-	0	ID=TBE6-bin-03.genome.CDS.1765;Product=Ammonia monooxygenase
+TBE6-bin-03-scaffold_4882	feature	CDS	8470	9231	.	-	0	ID=TBE6-bin-03.genome.CDS.1764;Product=putative oxidoreductase
+TBE6-bin-03-scaffold_4882	feature	CDS	7276	8460	.	+	0	ID=TBE6-bin-03.genome.CDS.1763;Product=Cytochrome c heme lyase subunit CcmH
+TBE6-bin-03-scaffold_4882	feature	CDS	6797	7279	.	+	0	ID=TBE6-bin-03.genome.CDS.1762;Product=Cytochrome c heme lyase subunit CcmL
+TBE6-bin-03-scaffold_4882	feature	CDS	6282	6800	.	+	0	ID=TBE6-bin-03.genome.CDS.487;Product=Cytochrome c-type biogenesis protein CcmG/DsbE%2C thiol:disulfide oxidoreductase
+TBE6-bin-03-scaffold_4882	feature	CDS	4358	6280	.	+	0	ID=TBE6-bin-03.genome.CDS.1760;Product=Cytochrome c heme lyase subunit CcmF
+TBE6-bin-03-scaffold_4882	feature	CDS	3909	4361	.	+	0	ID=TBE6-bin-03.genome.CDS.1759;Product=Cytochrome c-type biogenesis protein CcmE%2C heme chaperone
+TBE6-bin-03-scaffold_4882	feature	CDS	3724	3912	.	+	0	ID=TBE6-bin-03.genome.CDS.1758;Product=Cytochrome c-type biogenesis protein CcmD%2C interacts with CcmCE
+TBE6-bin-03-scaffold_4882	feature	CDS	2963	3724	.	+	0	ID=TBE6-bin-03.genome.CDS.1757;Product=Cytochrome c-type biogenesis protein CcmC%2C putative heme lyase for CcmE
+TBE6-bin-03-scaffold_4882	feature	CDS	2292	2957	.	+	0	ID=TBE6-bin-03.genome.CDS.1756;Product=ABC transporter involved in cytochrome c biogenesis%2C CcmB subunit
+TBE6-bin-03-scaffold_4882	feature	CDS	1651	2295	.	+	0	ID=TBE6-bin-03.genome.CDS.1755;Product=ABC transporter involved in cytochrome c biogenesis%2C ATPase component CcmA
+TBE6-bin-03-scaffold_4882	feature	CDS	885	1427	.	+	0	ID=TBE6-bin-03.genome.CDS.479;Product=Probable signal peptide protein
+TBE6-bin-03-scaffold_4882	feature	CDS	282	857	.	+	0	ID=TBE6-bin-03.genome.CDS.1753;Product=Probable signal peptide protein
+TBE6-bin-03-scaffold_4882	feature	CDS	1	285	.	+	0	ID=TBE6-bin-03.genome.CDS.1752;Product=Cytochrome B561
+TBE6-bin-03-scaffold_4885	feature	CDS	8250	8453	.	-	0	ID=TBE6-bin-03.genome.CDS.2452;Product=DNA polymerase III chi subunit %28EC 2.7.7.7%29
+TBE6-bin-03-scaffold_4885	feature	CDS	7450	8241	.	-	0	ID=TBE6-bin-03.genome.CDS.2451;Product=Prolipoprotein diacylglyceryl transferase %28EC 2.4.99.-%29
+TBE6-bin-03-scaffold_4885	feature	CDS	6053	7357	.	-	0	ID=TBE6-bin-03.genome.CDS.2450;Product=Malonyl-CoA decarboxylase %28EC 4.1.1.9%29
+TBE6-bin-03-scaffold_4885	feature	CDS	5628	5897	.	-	0	ID=TBE6-bin-03.genome.CDS.2449;Product=TRAP transporter solute receptor%2C unknown substrate 4
+TBE6-bin-03-scaffold_4885	feature	CDS	4780	5631	.	-	0	ID=TBE6-bin-03.genome.CDS.2448;Product=TRAP transporter solute receptor%2C unknown substrate 4
+TBE6-bin-03-scaffold_4885	feature	CDS	4610	4783	.	-	0	ID=TBE6-bin-03.genome.CDS.2447;Product=TRAP dicarboxylate transporter%2C DctQ subunit%2C unknown substrate 4
+TBE6-bin-03-scaffold_4885	feature	CDS	4194	4613	.	-	0	ID=TBE6-bin-03.genome.CDS.2446;Product=TRAP dicarboxylate transporter%2C DctQ subunit%2C unknown substrate 4
+TBE6-bin-03-scaffold_4885	feature	CDS	3034	4191	.	-	0	ID=TBE6-bin-03.genome.CDS.2445;Product=TRAP dicarboxylate transporter%2C DctM subunit%2C unknown substrate 4
+TBE6-bin-03-scaffold_4885	feature	CDS	2559	3026	.	-	0	ID=TBE6-bin-03.genome.CDS.2444;Product=TRAP dicarboxylate transporter%2C DctM subunit%2C unknown substrate 4
+TBE6-bin-03-scaffold_4885	feature	CDS	1658	2530	.	-	0	ID=TBE6-bin-03.genome.CDS.2443;Product=Long-chain-fatty-acid--CoA ligase %28EC 6.2.1.3%29
+TBE6-bin-03-scaffold_4885	feature	CDS	903	1622	.	-	0	ID=TBE6-bin-03.genome.CDS.2442;Product=Long-chain-fatty-acid--CoA ligase %28EC 6.2.1.3%29
+TBE6-bin-03-scaffold_4885	feature	CDS	76	894	.	+	0	ID=TBE6-bin-03.genome.CDS.2441;Product=Protein of unknown function DUF81
+TBE6-bin-03-scaffold_4887	feature	CDS	6025	7215	.	+	0	ID=TBE6-bin-03.genome.CDS.1711;Product=Dihydroxy-acid dehydratase %28EC 4.2.1.9%29
+TBE6-bin-03-scaffold_4887	feature	CDS	4859	5815	.	-	0	ID=TBE6-bin-03.genome.CDS.1710;Product=hypothetical protein
+TBE6-bin-03-scaffold_4887	feature	CDS	4505	4843	.	+	0	ID=TBE6-bin-03.genome.CDS.1709;Product=Nitrogen regulatory protein P-II
+TBE6-bin-03-scaffold_4887	feature	CDS	2806	4425	.	+	0	ID=TBE6-bin-03.genome.CDS.1708;Product=NAD synthetase %28EC 6.3.1.5%29 / Glutamine amidotransferase chain of NAD synthetase
+TBE6-bin-03-scaffold_4887	feature	CDS	2380	2787	.	+	0	ID=TBE6-bin-03.genome.CDS.1707;Product=Inorganic pyrophosphatase %28EC 3.6.1.1%29
+TBE6-bin-03-scaffold_4887	feature	CDS	2024	2371	.	+	0	ID=TBE6-bin-03.genome.CDS.1706;Product=Inorganic pyrophosphatase %28EC 3.6.1.1%29
+TBE6-bin-03-scaffold_4887	feature	CDS	1001	1858	.	-	0	ID=TBE6-bin-03.genome.CDS.1705;Product=Pyrophosphate-energized proton pump %28EC 3.6.1.1%29
+TBE6-bin-03-scaffold_4887	feature	CDS	1	1044	.	-	0	ID=TBE6-bin-03.genome.CDS.1704;Product=Pyrophosphate-energized proton pump %28EC 3.6.1.1%29
+TBE6-bin-03-scaffold_4907	feature	misc_RNA	1	388	.	+	.	ID=TBE6-bin-03.genome.repeat.5;Product=repeat region
+TBE6-bin-03-scaffold_4907	feature	CDS	10499	11125	.	-	0	ID=TBE6-bin-03.genome.CDS.1374;Product=Translation elongation factor Tu
+TBE6-bin-03-scaffold_4907	feature	tRNA	10407	10482	.	-	.	ID=TBE6-bin-03.genome.rna.4;Product=tRNA-Trp-CCA
+TBE6-bin-03-scaffold_4907	feature	CDS	10009	10386	.	-	0	ID=TBE6-bin-03.genome.CDS.1373;Product=Preprotein translocase subunit SecE %28TC 3.A.5.1.1%29
+TBE6-bin-03-scaffold_4907	feature	CDS	9427	9999	.	-	0	ID=TBE6-bin-03.genome.CDS.1372;Product=Transcription antitermination protein NusG
+TBE6-bin-03-scaffold_4907	feature	CDS	8837	9268	.	-	0	ID=TBE6-bin-03.genome.CDS.1371;Product=LSU ribosomal protein L11p %28L12e%29
+TBE6-bin-03-scaffold_4907	feature	CDS	8058	8759	.	-	0	ID=TBE6-bin-03.genome.CDS.1370;Product=LSU ribosomal protein L1p %28L10Ae%29
+TBE6-bin-03-scaffold_4907	feature	CDS	7220	7831	.	-	0	ID=TBE6-bin-03.genome.CDS.1369;Product=LSU ribosomal protein L10p %28P0%29
+TBE6-bin-03-scaffold_4907	feature	CDS	7086	7214	.	-	0	ID=TBE6-bin-03.genome.CDS.117;Product=
+TBE6-bin-03-scaffold_4907	feature	CDS	6706	7083	.	-	0	ID=TBE6-bin-03.genome.CDS.1368;Product=LSU ribosomal protein L7/L12 %28P1/P2%29
+TBE6-bin-03-scaffold_4907	feature	CDS	2343	6479	.	-	0	ID=TBE6-bin-03.genome.CDS.1367;Product=DNA-directed RNA polymerase beta subunit %28EC 2.7.7.6%29
+TBE6-bin-03-scaffold_4907	feature	CDS	3	2186	.	-	0	ID=TBE6-bin-03.genome.CDS.1365;Product=DNA-directed RNA polymerase beta%27 subunit %28EC 2.7.7.6%29
+TBE6-bin-03-scaffold_4965	feature	CDS	1830	2744	.	+	0	ID=TBE6-bin-03.genome.CDS.2038;Product=Tryptophan synthase beta chain %28EC 4.2.1.20%29
+TBE6-bin-03-scaffold_4965	feature	CDS	1124	1801	.	+	0	ID=TBE6-bin-03.genome.CDS.2037;Product=Phosphoribosylanthranilate isomerase %28EC 5.3.1.24%29
+TBE6-bin-03-scaffold_4965	feature	CDS	264	1097	.	+	0	ID=TBE6-bin-03.genome.CDS.2036;Product=tRNA pseudouridine synthase A %28EC 4.2.1.70%29
+TBE6-bin-03-scaffold_4965	feature	CDS	3	254	.	+	0	ID=TBE6-bin-03.genome.CDS.2035;Product=Probable type IV pilus assembly FimV-related transmembrane protein
+TBE6-bin-03-scaffold_4985	feature	CDS	6794	6907	.	-	0	ID=TBE6-bin-03.genome.CDS.2030;Product=ATP-dependent DNA helicase UvrD/PcrA
+TBE6-bin-03-scaffold_4985	feature	CDS	6015	6797	.	+	0	ID=TBE6-bin-03.genome.CDS.2029;Product=FIGfam005179
+TBE6-bin-03-scaffold_4985	feature	CDS	5047	6018	.	+	0	ID=TBE6-bin-03.genome.CDS.2028;Product=Homoserine kinase %28EC 2.7.1.39%29
+TBE6-bin-03-scaffold_4985	feature	CDS	4633	5043	.	+	0	ID=TBE6-bin-03.genome.CDS.2027;Product=hypothetical protein
+TBE6-bin-03-scaffold_4985	feature	CDS	1798	4548	.	-	0	ID=TBE6-bin-03.genome.CDS.2026;Product=DNA polymerase I %28EC 2.7.7.7%29
+TBE6-bin-03-scaffold_4985	feature	CDS	821	1798	.	-	0	ID=TBE6-bin-03.genome.CDS.2025;Product=Dienelactone hydrolase family
+TBE6-bin-03-scaffold_4985	feature	CDS	607	837	.	-	0	ID=TBE6-bin-03.genome.CDS.2024;Product=Dienelactone hydrolase family
+TBE6-bin-03-scaffold_4985	feature	CDS	1	603	.	-	0	ID=TBE6-bin-03.genome.CDS.2023;Product=Zinc transporter%2C ZIP family
+TBE6-bin-03-scaffold_5113	feature	CDS	5025	6938	.	-	0	ID=TBE6-bin-03.genome.CDS.1284;Product=Cytochrome c heme lyase subunit CcmF
+TBE6-bin-03-scaffold_5113	feature	CDS	4505	5035	.	-	0	ID=TBE6-bin-03.genome.CDS.1283;Product=Cytochrome c-type biogenesis protein CcmG/DsbE%2C thiol:disulfide oxidoreductase
+TBE6-bin-03-scaffold_5113	feature	CDS	4023	4508	.	-	0	ID=TBE6-bin-03.genome.CDS.1282;Product=Cytochrome c heme lyase subunit CcmL
+TBE6-bin-03-scaffold_5113	feature	CDS	2572	4026	.	-	0	ID=TBE6-bin-03.genome.CDS.1281;Product=Cytochrome c heme lyase subunit CcmH
+TBE6-bin-03-scaffold_5113	feature	CDS	1564	2562	.	+	0	ID=TBE6-bin-03.genome.CDS.1280;Product=putative oxidoreductase
+TBE6-bin-03-scaffold_5113	feature	CDS	410	1534	.	+	0	ID=TBE6-bin-03.genome.CDS.1279;Product=Ammonia monooxygenase
+TBE6-bin-03-scaffold_5113	feature	CDS	3	359	.	-	0	ID=TBE6-bin-03.genome.CDS.1278;Product=hypothetical protein
+TBE6-bin-03-scaffold_5122	feature	CDS	1964	2590	.	+	0	ID=TBE6-bin-03.genome.CDS.2118;Product=ATP phosphoribosyltransferase %28EC 2.4.2.17%29
+TBE6-bin-03-scaffold_5122	feature	CDS	720	1943	.	+	0	ID=TBE6-bin-03.genome.CDS.815;Product=UDP-N-acetylglucosamine 1-carboxyvinyltransferase %28EC 2.5.1.7%29
+TBE6-bin-03-scaffold_5122	feature	CDS	482	727	.	+	0	ID=TBE6-bin-03.genome.CDS.2116;Product=YrbA protein
+TBE6-bin-03-scaffold_5122	feature	CDS	1	462	.	+	0	ID=TBE6-bin-03.genome.CDS.2115;Product=ABC-type multidrug transport system%2C permease component
+TBE6-bin-03-scaffold_5123	feature	CDS	8488	8754	.	-	0	ID=TBE6-bin-03.genome.CDS.2098;Product=2-oxoglutarate dehydrogenase E1 component %28EC 1.2.4.2%29
+TBE6-bin-03-scaffold_5123	feature	CDS	7240	8448	.	-	0	ID=TBE6-bin-03.genome.CDS.2097;Product=Dihydrolipoamide succinyltransferase component %28E2%29 of 2-oxoglutarate dehydrogenase complex %28EC 2.3.1.61%29
+TBE6-bin-03-scaffold_5123	feature	CDS	6890	7228	.	-	0	ID=TBE6-bin-03.genome.CDS.2096;Product=Dihydrolipoamide dehydrogenase of 2-oxoglutarate dehydrogenase %28EC 1.8.1.4%29
+TBE6-bin-03-scaffold_5123	feature	CDS	5733	6893	.	-	0	ID=TBE6-bin-03.genome.CDS.2095;Product=Dihydrolipoamide dehydrogenase of 2-oxoglutarate dehydrogenase %28EC 1.8.1.4%29
+TBE6-bin-03-scaffold_5123	feature	CDS	4470	5732	.	-	0	ID=TBE6-bin-03.genome.CDS.2094;Product=AFG1-like ATPase
+TBE6-bin-03-scaffold_5123	feature	CDS	3612	4460	.	-	0	ID=TBE6-bin-03.genome.CDS.2093;Product=FIG00031715: Predicted metal-dependent phosphoesterases %28PHP family%29
+TBE6-bin-03-scaffold_5123	feature	CDS	3451	3612	.	-	0	ID=TBE6-bin-03.genome.CDS.791;Product=
+TBE6-bin-03-scaffold_5123	feature	CDS	2221	3423	.	-	0	ID=TBE6-bin-03.genome.CDS.2092;Product=Tryptophanyl-tRNA synthetase %28EC 6.1.1.2%29
+TBE6-bin-03-scaffold_5123	feature	CDS	1590	1940	.	-	0	ID=TBE6-bin-03.genome.CDS.2091;Product=Putative SAM-dependent methyltransferase Bucepa02006346
+TBE6-bin-03-scaffold_5123	feature	CDS	1101	1511	.	-	0	ID=TBE6-bin-03.genome.CDS.2090;Product=4-hydroxy-tetrahydrodipicolinate synthase %28EC 4.3.3.7%29
+TBE6-bin-03-scaffold_5123	feature	CDS	391	1062	.	-	0	ID=TBE6-bin-03.genome.CDS.2089;Product=4-hydroxy-tetrahydrodipicolinate synthase %28EC 4.3.3.7%29
+TBE6-bin-03-scaffold_5123	feature	CDS	2	394	.	-	0	ID=TBE6-bin-03.genome.CDS.2088;Product=Outer membrane protein NlpB%2C lipoprotein component of the protein assembly complex %28forms a complex with YaeT%2C YfiO%2C and YfgL%29%3B Lipoprotein-34 precursor
+TBE6-bin-03-scaffold_5130	feature	CDS	5229	5324	.	-	0	ID=TBE6-bin-03.genome.CDS.1944;Product=Acetolactate synthase small subunit %28EC 2.2.1.6%29
+TBE6-bin-03-scaffold_5130	feature	CDS	4157	5173	.	-	0	ID=TBE6-bin-03.genome.CDS.1943;Product=Ketol-acid reductoisomerase %28EC 1.1.1.86%29
+TBE6-bin-03-scaffold_5130	feature	CDS	3482	4129	.	-	0	ID=TBE6-bin-03.genome.CDS.1942;Product=Phosphatidylserine decarboxylase %28EC 4.1.1.65%29
+TBE6-bin-03-scaffold_5130	feature	CDS	3298	3471	.	-	0	ID=TBE6-bin-03.genome.CDS.1941;Product=CDP-diacylglycerol--serine O-phosphatidyltransferase %28EC 2.7.8.8%29
+TBE6-bin-03-scaffold_5130	feature	CDS	3086	3301	.	-	0	ID=TBE6-bin-03.genome.CDS.1940;Product=Phosphatidylserine decarboxylase %28EC 4.1.1.65%29
+TBE6-bin-03-scaffold_5130	feature	CDS	2218	3075	.	-	0	ID=TBE6-bin-03.genome.CDS.1939;Product=CDP-diacylglycerol--serine O-phosphatidyltransferase %28EC 2.7.8.8%29
+TBE6-bin-03-scaffold_5130	feature	CDS	1818	2012	.	-	0	ID=TBE6-bin-03.genome.CDS.1938;Product=2-isopropylmalate synthase %28EC 2.3.3.13%29
+TBE6-bin-03-scaffold_5130	feature	CDS	397	1821	.	-	0	ID=TBE6-bin-03.genome.CDS.1937;Product=2-isopropylmalate synthase %28EC 2.3.3.13%29
+TBE6-bin-03-scaffold_5130	feature	CDS	3	182	.	-	0	ID=TBE6-bin-03.genome.CDS.1936;Product=SSU ribosomal protein S15p %28S13e%29
+TBE6-bin-03-scaffold_5133	feature	CDS	6365	7276	.	+	0	ID=TBE6-bin-03.genome.CDS.2135;Product=UDP-glucose 6-dehydrogenase %28EC 1.1.1.22%29
+TBE6-bin-03-scaffold_5133	feature	CDS	5167	6282	.	+	0	ID=TBE6-bin-03.genome.CDS.2134;Product=Heat shock %28predicted periplasmic%29 protein YciM%2C precursor
+TBE6-bin-03-scaffold_5133	feature	CDS	4980	5174	.	+	0	ID=TBE6-bin-03.genome.CDS.831;Product=
+TBE6-bin-03-scaffold_5133	feature	CDS	4643	4987	.	+	0	ID=TBE6-bin-03.genome.CDS.2133;Product=Integration host factor beta subunit
+TBE6-bin-03-scaffold_5133	feature	CDS	3599	4591	.	+	0	ID=TBE6-bin-03.genome.CDS.829;Product=SSU ribosomal protein S1p
+TBE6-bin-03-scaffold_5133	feature	CDS	2850	3623	.	+	0	ID=TBE6-bin-03.genome.CDS.828;Product=SSU ribosomal protein S1p
+TBE6-bin-03-scaffold_5133	feature	CDS	2061	2723	.	+	0	ID=TBE6-bin-03.genome.CDS.2130;Product=Cytidylate kinase %28EC 2.7.4.25%29
+TBE6-bin-03-scaffold_5133	feature	CDS	726	2054	.	+	0	ID=TBE6-bin-03.genome.CDS.2129;Product=5-Enolpyruvylshikimate-3-phosphate synthase %28EC 2.5.1.19%29
+TBE6-bin-03-scaffold_5133	feature	CDS	1	726	.	+	0	ID=TBE6-bin-03.genome.CDS.2128;Product=Cyclohexadienyl dehydrogenase %28EC 1.3.1.12%29%28EC 1.3.1.43%29
+TBE6-bin-03-scaffold_5142	feature	CDS	4211	4873	.	-	0	ID=TBE6-bin-03.genome.CDS.2319;Product=Chorismate synthase %28EC 4.2.3.5%29
+TBE6-bin-03-scaffold_5142	feature	CDS	2873	4195	.	-	0	ID=TBE6-bin-03.genome.CDS.2318;Product=Probable 3-phenylpropionic acid transporter
+TBE6-bin-03-scaffold_5142	feature	CDS	1218	2888	.	+	0	ID=TBE6-bin-03.genome.CDS.2317;Product=Electron transfer flavoprotein-ubiquinone oxidoreductase %28EC 1.5.5.1%29
+TBE6-bin-03-scaffold_5142	feature	CDS	374	1072	.	-	0	ID=TBE6-bin-03.genome.CDS.2316;Product=Succinyl-CoA:3-ketoacid-coenzyme A transferase subunit A %28EC 2.8.3.5%29
+TBE6-bin-03-scaffold_5142	feature	CDS	3	344	.	-	0	ID=TBE6-bin-03.genome.CDS.2315;Product=Succinyl-CoA:3-ketoacid-coenzyme A transferase subunit B %28EC 2.8.3.5%29
+TBE6-bin-03-scaffold_5163	feature	CDS	8441	9148	.	+	0	ID=TBE6-bin-03.genome.CDS.2478;Product=Lipid A biosynthesis lauroyl acyltransferase %28EC 2.3.1.-%29
+TBE6-bin-03-scaffold_5163	feature	CDS	7562	8422	.	+	0	ID=TBE6-bin-03.genome.CDS.2477;Product=Lipid A biosynthesis lauroyl acyltransferase %28EC 2.3.1.-%29
+TBE6-bin-03-scaffold_5163	feature	CDS	6190	7356	.	-	0	ID=TBE6-bin-03.genome.CDS.2476;Product=S-adenosylmethionine synthetase %28EC 2.5.1.6%29
+TBE6-bin-03-scaffold_5163	feature	CDS	4435	5886	.	-	0	ID=TBE6-bin-03.genome.CDS.2475;Product=Adenosylhomocysteinase %28EC 3.3.1.1%29
+TBE6-bin-03-scaffold_5163	feature	CDS	3576	4406	.	-	0	ID=TBE6-bin-03.genome.CDS.2474;Product=5%2C10-methylenetetrahydrofolate reductase %28EC 1.5.1.20%29
+TBE6-bin-03-scaffold_5163	feature	CDS	3177	3587	.	+	0	ID=TBE6-bin-03.genome.CDS.1166;Product=5-formyltetrahydrofolate cyclo-ligase %28EC 6.3.3.2%29
+TBE6-bin-03-scaffold_5163	feature	CDS	2966	3154	.	+	0	ID=TBE6-bin-03.genome.CDS.1165;Product=
+TBE6-bin-03-scaffold_5163	feature	CDS	1835	2959	.	-	0	ID=TBE6-bin-03.genome.CDS.2472;Product=Soluble lytic murein transglycosylase precursor %28EC 3.2.1.-%29
+TBE6-bin-03-scaffold_5163	feature	CDS	882	1838	.	-	0	ID=TBE6-bin-03.genome.CDS.2471;Product=Soluble lytic murein transglycosylase precursor %28EC 3.2.1.-%29
+TBE6-bin-03-scaffold_5163	feature	CDS	2	865	.	-	0	ID=TBE6-bin-03.genome.CDS.2470;Product=NADH-ubiquinone oxidoreductase%2C putative
+TBE6-bin-03-scaffold_5198	feature	CDS	1602	3119	.	-	0	ID=TBE6-bin-03.genome.CDS.1494;Product=Ferredoxin-dependent glutamate synthase %28EC 1.4.7.1%29
+TBE6-bin-03-scaffold_5198	feature	CDS	1291	1620	.	-	0	ID=TBE6-bin-03.genome.CDS.1493;Product=Ferredoxin-dependent glutamate synthase %28EC 1.4.7.1%29
+TBE6-bin-03-scaffold_5198	feature	CDS	744	1286	.	+	0	ID=TBE6-bin-03.genome.CDS.1492;Product=FIG002577: Putative lipoprotein precursor
+TBE6-bin-03-scaffold_5198	feature	CDS	190	747	.	+	0	ID=TBE6-bin-03.genome.CDS.1491;Product=
+TBE6-bin-03-scaffold_5198	feature	CDS	2	136	.	+	0	ID=TBE6-bin-03.genome.CDS.1490;Product=haloacid dehalogenase%2C type II%28 EC:3.8.1.2 %29
+TBE6-bin-03-scaffold_5225	feature	CDS	13776	15179	.	+	0	ID=TBE6-bin-03.genome.CDS.2307;Product=Helicase PriA essential for oriC/DnaA-independent DNA replication
+TBE6-bin-03-scaffold_5225	feature	CDS	13264	13770	.	+	0	ID=TBE6-bin-03.genome.CDS.2306;Product=Helicase PriA essential for oriC/DnaA-independent DNA replication
+TBE6-bin-03-scaffold_5225	feature	CDS	12443	13009	.	+	0	ID=TBE6-bin-03.genome.CDS.2305;Product=Uroporphyrinogen III decarboxylase %28EC 4.1.1.37%29
+TBE6-bin-03-scaffold_5225	feature	CDS	11763	12479	.	+	0	ID=TBE6-bin-03.genome.CDS.2304;Product=Uroporphyrinogen III decarboxylase %28EC 4.1.1.37%29
+TBE6-bin-03-scaffold_5225	feature	CDS	11019	11678	.	+	0	ID=TBE6-bin-03.genome.CDS.2303;Product=ATP synthase epsilon chain %28EC 3.6.3.14%29
+TBE6-bin-03-scaffold_5225	feature	CDS	9597	10997	.	+	0	ID=TBE6-bin-03.genome.CDS.2302;Product=ATP synthase beta chain %28EC 3.6.3.14%29
+TBE6-bin-03-scaffold_5225	feature	CDS	8672	9541	.	+	0	ID=TBE6-bin-03.genome.CDS.2301;Product=ATP synthase gamma chain %28EC 3.6.3.14%29
+TBE6-bin-03-scaffold_5225	feature	CDS	7115	8656	.	+	0	ID=TBE6-bin-03.genome.CDS.2300;Product=ATP synthase alpha chain %28EC 3.6.3.14%29
+TBE6-bin-03-scaffold_5225	feature	CDS	6533	7069	.	+	0	ID=TBE6-bin-03.genome.CDS.2299;Product=ATP synthase delta chain %28EC 3.6.3.14%29
+TBE6-bin-03-scaffold_5225	feature	CDS	6061	6531	.	+	0	ID=TBE6-bin-03.genome.CDS.2298;Product=ATP synthase F0 sector subunit b %28EC 3.6.3.14%29
+TBE6-bin-03-scaffold_5225	feature	CDS	5731	5997	.	+	0	ID=TBE6-bin-03.genome.CDS.2297;Product=ATP synthase F0 sector subunit c %28EC 3.6.3.14%29
+TBE6-bin-03-scaffold_5225	feature	CDS	4798	5688	.	+	0	ID=TBE6-bin-03.genome.CDS.2296;Product=ATP synthase F0 sector subunit a %28EC 3.6.3.14%29
+TBE6-bin-03-scaffold_5225	feature	CDS	4274	4768	.	+	0	ID=TBE6-bin-03.genome.CDS.2295;Product=
+TBE6-bin-03-scaffold_5225	feature	CDS	3719	4273	.	+	0	ID=TBE6-bin-03.genome.CDS.2294;Product=Chromosome %28plasmid%29 partitioning protein ParB / Stage 0 sporulation protein J
+TBE6-bin-03-scaffold_5225	feature	CDS	3177	3668	.	+	0	ID=TBE6-bin-03.genome.CDS.2293;Product=Chromosome %28plasmid%29 partitioning protein ParB / Stage 0 sporulation protein J
+TBE6-bin-03-scaffold_5225	feature	CDS	2383	3153	.	+	0	ID=TBE6-bin-03.genome.CDS.2292;Product=Chromosome %28plasmid%29 partitioning protein ParA / Sporulation initiation inhibitor protein Soj
+TBE6-bin-03-scaffold_5225	feature	CDS	1704	2366	.	+	0	ID=TBE6-bin-03.genome.CDS.2291;Product=rRNA small subunit 7-methylguanosine %28m7G%29 methyltransferase GidB
+TBE6-bin-03-scaffold_5225	feature	CDS	1	1707	.	+	0	ID=TBE6-bin-03.genome.CDS.2290;Product=tRNA uridine 5-carboxymethylaminomethyl modification enzyme GidA
+TBE6-bin-03-scaffold_5260	feature	CDS	2398	3375	.	+	0	ID=TBE6-bin-03.genome.CDS.2482;Product=Oligopeptidase A %28EC 3.4.24.70%29
+TBE6-bin-03-scaffold_5260	feature	CDS	1440	2447	.	+	0	ID=TBE6-bin-03.genome.CDS.1174;Product=Oligopeptidase A %28EC 3.4.24.70%29
+TBE6-bin-03-scaffold_5260	feature	CDS	1148	1387	.	+	0	ID=TBE6-bin-03.genome.CDS.1173;Product=Methylenetetrahydrofolate dehydrogenase %28NADP%2B%29 %28EC 1.5.1.5%29 / Methenyltetrahydrofolate cyclohydrolase %28EC 3.5.4.9%29
+TBE6-bin-03-scaffold_5260	feature	CDS	354	1148	.	+	0	ID=TBE6-bin-03.genome.CDS.2480;Product=Methylenetetrahydrofolate dehydrogenase %28NADP%2B%29 %28EC 1.5.1.5%29 / Methenyltetrahydrofolate cyclohydrolase %28EC 3.5.4.9%29
+TBE6-bin-03-scaffold_5260	feature	CDS	1	354	.	+	0	ID=TBE6-bin-03.genome.CDS.2479;Product=Response regulator
+TBE6-bin-03-scaffold_5269	feature	CDS	5818	6285	.	-	0	ID=TBE6-bin-03.genome.CDS.2495;Product=Para-aminobenzoate synthase%2C aminase component %28EC 2.6.1.85%29 / Aminodeoxychorismate lyase %28EC 4.1.3.38%29
+TBE6-bin-03-scaffold_5269	feature	CDS	5248	5808	.	-	0	ID=TBE6-bin-03.genome.CDS.2494;Product=ADP-ribose pyrophosphatase
+TBE6-bin-03-scaffold_5269	feature	CDS	4498	5235	.	-	0	ID=TBE6-bin-03.genome.CDS.2493;Product=Leucyl/phenylalanyl-tRNA--protein transferase %28EC 2.3.2.6%29
+TBE6-bin-03-scaffold_5269	feature	CDS	3755	4501	.	-	0	ID=TBE6-bin-03.genome.CDS.2492;Product=Arginine-tRNA-protein transferase %28EC 2.3.2.8%29
+TBE6-bin-03-scaffold_5269	feature	CDS	2711	3745	.	-	0	ID=TBE6-bin-03.genome.CDS.2491;Product=Dihydroorotate dehydrogenase %28EC 1.3.3.1%29
+TBE6-bin-03-scaffold_5269	feature	CDS	1716	2528	.	-	0	ID=TBE6-bin-03.genome.CDS.2490;Product=Predicted Lactate-responsive regulator%2C IclR family
+TBE6-bin-03-scaffold_5269	feature	CDS	636	1712	.	+	0	ID=TBE6-bin-03.genome.CDS.2489;Product=Murein-DD-endopeptidase %28EC 3.4.99.-%29
+TBE6-bin-03-scaffold_5269	feature	CDS	1	561	.	+	0	ID=TBE6-bin-03.genome.CDS.2488;Product=Permease of the drug/metabolite transporter %28DMT%29 superfamily
+TBE6-bin-03-scaffold_5278	feature	CDS	5623	5850	.	-	0	ID=TBE6-bin-03.genome.CDS.1989;Product=Phosphate transport system regulatory protein PhoU
+TBE6-bin-03-scaffold_5278	feature	CDS	4886	5599	.	-	0	ID=TBE6-bin-03.genome.CDS.1988;Product=Phosphate regulon transcriptional regulatory protein PhoB %28SphR%29
+TBE6-bin-03-scaffold_5278	feature	CDS	3410	4819	.	-	0	ID=TBE6-bin-03.genome.CDS.1987;Product=Phosphate regulon sensor protein PhoR %28SphS%29 %28EC 2.7.13.3%29
+TBE6-bin-03-scaffold_5278	feature	CDS	3201	3401	.	+	0	ID=TBE6-bin-03.genome.CDS.1986;Product=hypothetical protein
+TBE6-bin-03-scaffold_5278	feature	CDS	2607	3086	.	+	0	ID=TBE6-bin-03.genome.CDS.1985;Product=Mg%282%2B%29-transport-ATPase-associated protein MgtC
+TBE6-bin-03-scaffold_5278	feature	CDS	2351	2485	.	-	0	ID=TBE6-bin-03.genome.CDS.698;Product=
+TBE6-bin-03-scaffold_5278	feature	CDS	2039	2341	.	+	0	ID=TBE6-bin-03.genome.CDS.1984;Product=
+TBE6-bin-03-scaffold_5278	feature	CDS	982	1941	.	+	0	ID=TBE6-bin-03.genome.CDS.1983;Product=hypothetical protein
+TBE6-bin-03-scaffold_5278	feature	CDS	183	773	.	-	0	ID=TBE6-bin-03.genome.CDS.1982;Product=hypothetical protein
+TBE6-bin-03-scaffold_5278	feature	CDS	1	129	.	-	0	ID=TBE6-bin-03.genome.CDS.1981;Product=
+TBE6-bin-03-scaffold_5331	feature	CDS	1809	2912	.	+	0	ID=TBE6-bin-03.genome.CDS.1662;Product=GTP pyrophosphokinase %28EC 2.7.6.5%29%2C %28p%29ppGpp synthetase I
+TBE6-bin-03-scaffold_5331	feature	CDS	671	1819	.	+	0	ID=TBE6-bin-03.genome.CDS.1661;Product=GTP pyrophosphokinase %28EC 2.7.6.5%29%2C %28p%29ppGpp synthetase I
+TBE6-bin-03-scaffold_5331	feature	CDS	2	658	.	+	0	ID=TBE6-bin-03.genome.CDS.1660;Product=probable hydrolase
+TBE6-bin-03-scaffold_5365	feature	CDS	11533	11781	.	-	0	ID=TBE6-bin-03.genome.CDS.1891;Product=Cell division protein FtsW
+TBE6-bin-03-scaffold_5365	feature	CDS	10463	11536	.	-	0	ID=TBE6-bin-03.genome.CDS.1890;Product=UDP-N-acetylglucosamine--N-acetylmuramyl-%28pentapeptide%29 pyrophosphoryl-undecaprenol N-acetylglucosamine transferase %28EC 2.4.1.227%29
+TBE6-bin-03-scaffold_5365	feature	CDS	9030	10466	.	-	0	ID=TBE6-bin-03.genome.CDS.1889;Product=UDP-N-acetylmuramate--alanine ligase %28EC 6.3.2.8%29
+TBE6-bin-03-scaffold_5365	feature	CDS	8048	9037	.	-	0	ID=TBE6-bin-03.genome.CDS.1888;Product=D-alanine--D-alanine ligase %28EC 6.3.2.4%29
+TBE6-bin-03-scaffold_5365	feature	CDS	7188	8045	.	-	0	ID=TBE6-bin-03.genome.CDS.1887;Product=Cell division protein FtsQ
+TBE6-bin-03-scaffold_5365	feature	CDS	6234	7166	.	-	0	ID=TBE6-bin-03.genome.CDS.604;Product=Cell division protein FtsA
+TBE6-bin-03-scaffold_5365	feature	CDS	5881	6252	.	-	0	ID=TBE6-bin-03.genome.CDS.1886;Product=Cell division protein FtsA
+TBE6-bin-03-scaffold_5365	feature	CDS	4724	5830	.	-	0	ID=TBE6-bin-03.genome.CDS.1885;Product=Cell division protein FtsZ %28EC 3.4.24.-%29
+TBE6-bin-03-scaffold_5365	feature	CDS	4429	4731	.	-	0	ID=TBE6-bin-03.genome.CDS.1884;Product=Cell division protein FtsZ %28EC 3.4.24.-%29
+TBE6-bin-03-scaffold_5365	feature	CDS	3810	4310	.	-	0	ID=TBE6-bin-03.genome.CDS.1883;Product=Peroxiredoxin
+TBE6-bin-03-scaffold_5365	feature	CDS	2870	3784	.	-	0	ID=TBE6-bin-03.genome.CDS.1882;Product=UDP-3-O-%5B3-hydroxymyristoyl%5D N-acetylglucosamine deacetylase %28EC 3.5.1.108%29
+TBE6-bin-03-scaffold_5365	feature	CDS	2368	2859	.	+	0	ID=TBE6-bin-03.genome.CDS.1881;Product=Zn-ribbon-containing%2C possibly RNA-binding protein and truncated derivatives
+TBE6-bin-03-scaffold_5365	feature	CDS	1	2313	.	-	0	ID=TBE6-bin-03.genome.CDS.1880;Product=Protein export cytoplasm protein SecA ATPase RNA helicase %28TC 3.A.5.1.1%29
+TBE6-bin-03-scaffold_5376	feature	CDS	10014	10172	.	+	0	ID=TBE6-bin-03.genome.CDS.1846;Product=protein of unknown function DUF1255
+TBE6-bin-03-scaffold_5376	feature	CDS	8766	9986	.	+	0	ID=TBE6-bin-03.genome.CDS.567;Product=Argininosuccinate synthase %28EC 6.3.4.5%29
+TBE6-bin-03-scaffold_5376	feature	CDS	7760	8740	.	+	0	ID=TBE6-bin-03.genome.CDS.1844;Product=Ornithine carbamoyltransferase %28EC 2.1.3.3%29
+TBE6-bin-03-scaffold_5376	feature	CDS	7332	7670	.	-	0	ID=TBE6-bin-03.genome.CDS.1843;Product=Histone acetyltransferase HPA2 and related acetyltransferases
+TBE6-bin-03-scaffold_5376	feature	CDS	6985	7251	.	+	0	ID=TBE6-bin-03.genome.CDS.1842;Product=SSU ribosomal protein S20p
+TBE6-bin-03-scaffold_5376	feature	CDS	5266	6819	.	-	0	ID=TBE6-bin-03.genome.CDS.1841;Product=Proposed peptidoglycan lipid II flippase MurJ
+TBE6-bin-03-scaffold_5376	feature	CDS	4418	5260	.	-	0	ID=TBE6-bin-03.genome.CDS.1840;Product=Protein sirB1
+TBE6-bin-03-scaffold_5376	feature	CDS	3782	4411	.	+	0	ID=TBE6-bin-03.genome.CDS.1839;Product=DedA protein
+TBE6-bin-03-scaffold_5376	feature	CDS	2688	3692	.	-	0	ID=TBE6-bin-03.genome.CDS.1838;Product=tRNA dimethylallyltransferase %28EC 2.5.1.75%29
+TBE6-bin-03-scaffold_5376	feature	CDS	1649	2701	.	+	0	ID=TBE6-bin-03.genome.CDS.1837;Product=Phosphoribosylformylglycinamidine cyclo-ligase %28EC 6.3.3.1%29
+TBE6-bin-03-scaffold_5376	feature	CDS	587	1576	.	-	0	ID=TBE6-bin-03.genome.CDS.1836;Product=Putative permease often clustered with de novo purine synthesis
+TBE6-bin-03-scaffold_5376	feature	CDS	2	577	.	-	0	ID=TBE6-bin-03.genome.CDS.1835;Product=DnaA regulatory inactivator Hda %28Homologous to DnaA%29
+TBE6-bin-03-scaffold_5408	feature	CDS	5055	5186	.	+	0	ID=TBE6-bin-03.genome.CDS.900;Product=
+TBE6-bin-03-scaffold_5408	feature	CDS	4628	5056	.	-	0	ID=TBE6-bin-03.genome.CDS.2203;Product=LSU ribosomal protein L13p %28L13Ae%29
+TBE6-bin-03-scaffold_5408	feature	CDS	4217	4618	.	-	0	ID=TBE6-bin-03.genome.CDS.2202;Product=SSU ribosomal protein S9p %28S16e%29
+TBE6-bin-03-scaffold_5408	feature	CDS	3048	3377	.	-	0	ID=TBE6-bin-03.genome.CDS.2201;Product=N-acetyl-gamma-glutamyl-phosphate reductase %28EC 1.2.1.38%29
+TBE6-bin-03-scaffold_5408	feature	CDS	2604	2978	.	-	0	ID=TBE6-bin-03.genome.CDS.2200;Product=probable iron binding protein from the HesB_IscA_SufA family
+TBE6-bin-03-scaffold_5408	feature	CDS	1488	2591	.	+	0	ID=TBE6-bin-03.genome.CDS.2199;Product=Anhydro-N-acetylmuramic acid kinase %28EC 2.7.1.-%29
+TBE6-bin-03-scaffold_5408	feature	CDS	1071	1397	.	-	0	ID=TBE6-bin-03.genome.CDS.2198;Product=Tyrosyl-tRNA synthetase %28EC 6.1.1.1%29
+TBE6-bin-03-scaffold_5408	feature	CDS	3	1064	.	-	0	ID=TBE6-bin-03.genome.CDS.2197;Product=Tyrosyl-tRNA synthetase %28EC 6.1.1.1%29
+TBE6-bin-03-scaffold_5422	feature	CDS	3637	4140	.	-	0	ID=TBE6-bin-03.genome.CDS.1703;Product=Propionyl-CoA carboxylase carboxyl transferase subunit %28EC 6.4.1.3%29
+TBE6-bin-03-scaffold_5422	feature	CDS	1589	3625	.	-	0	ID=TBE6-bin-03.genome.CDS.1702;Product=Propionyl-CoA carboxylase biotin-containing subunit %28EC 6.4.1.3%29
+TBE6-bin-03-scaffold_5422	feature	CDS	1115	1579	.	-	0	ID=TBE6-bin-03.genome.CDS.1701;Product=Methylmalonyl-CoA epimerase %28EC 5.1.99.1%29
+TBE6-bin-03-scaffold_5422	feature	CDS	383	1093	.	-	0	ID=TBE6-bin-03.genome.CDS.1700;Product=TsaB protein%2C required for threonylcarbamoyladenosine %28t%286%29A%29 formation in tRNA
+TBE6-bin-03-scaffold_5422	feature	CDS	3	383	.	-	0	ID=TBE6-bin-03.genome.CDS.1699;Product=Ribosomal-protein-S18p-alanine acetyltransferase %28EC 2.3.1.-%29
+TBE6-bin-03-scaffold_5444	feature	CDS	3127	3777	.	-	0	ID=TBE6-bin-03.genome.CDS.1516;Product=Hydroxymethylpyrimidine phosphate synthase ThiC %28EC 4.1.99.17%29
+TBE6-bin-03-scaffold_5444	feature	CDS	1966	3105	.	-	0	ID=TBE6-bin-03.genome.CDS.1515;Product=Glycine oxidase ThiO %28EC 1.4.3.19%29
+TBE6-bin-03-scaffold_5444	feature	CDS	1778	1966	.	-	0	ID=TBE6-bin-03.genome.CDS.249;Product=Sulfur carrier protein ThiS
+TBE6-bin-03-scaffold_5444	feature	CDS	1278	1769	.	-	0	ID=TBE6-bin-03.genome.CDS.1513;Product=Thiazole biosynthesis protein ThiG
+TBE6-bin-03-scaffold_5444	feature	CDS	845	1243	.	-	0	ID=TBE6-bin-03.genome.CDS.1512;Product=Thiazole biosynthesis protein ThiG
+TBE6-bin-03-scaffold_5444	feature	CDS	1	837	.	-	0	ID=TBE6-bin-03.genome.CDS.1511;Product=Thiamin-phosphate pyrophosphorylase %28EC 2.5.1.3%29
+TBE6-bin-03-scaffold_5584	feature	CDS	3701	4180	.	+	0	ID=TBE6-bin-03.genome.CDS.1501;Product=3-oxoacyl-%5Bacyl-carrier-protein%5D synthase%2C KASIII %28EC 2.3.1.180%29
+TBE6-bin-03-scaffold_5584	feature	CDS	2691	3704	.	+	0	ID=TBE6-bin-03.genome.CDS.1500;Product=Phosphate:acyl-ACP acyltransferase PlsX
+TBE6-bin-03-scaffold_5584	feature	CDS	2428	2607	.	+	0	ID=TBE6-bin-03.genome.CDS.1499;Product=LSU ribosomal protein L32p %40 LSU ribosomal protein L32p%2C zinc-independent
+TBE6-bin-03-scaffold_5584	feature	CDS	1683	2264	.	+	0	ID=TBE6-bin-03.genome.CDS.1498;Product=COG1399 protein%2C clustered with ribosomal protein L32p
+TBE6-bin-03-scaffold_5584	feature	CDS	974	1651	.	-	0	ID=TBE6-bin-03.genome.CDS.1497;Product=Septum formation protein Maf
+TBE6-bin-03-scaffold_5584	feature	CDS	204	977	.	-	0	ID=TBE6-bin-03.genome.CDS.1496;Product=Tetrapyrrole methylase family protein
+TBE6-bin-03-scaffold_5584	feature	CDS	1	207	.	+	0	ID=TBE6-bin-03.genome.CDS.1495;Product=Peptidase S49
+TBE6-bin-03-scaffold_5647	feature	tRNA	6734	6810	.	+	.	ID=TBE6-bin-03.genome.rna.13;Product=tRNA-Pro-GGG
+TBE6-bin-03-scaffold_5647	feature	CDS	6329	6688	.	+	0	ID=TBE6-bin-03.genome.CDS.2332;Product=Transcriptional regulator%2C MerR family
+TBE6-bin-03-scaffold_5647	feature	CDS	6028	6351	.	+	0	ID=TBE6-bin-03.genome.CDS.2331;Product=Integration host factor alpha subunit
+TBE6-bin-03-scaffold_5647	feature	CDS	3225	5969	.	+	0	ID=TBE6-bin-03.genome.CDS.2330;Product=Phenylalanyl-tRNA synthetase beta chain %28EC 6.1.1.20%29
+TBE6-bin-03-scaffold_5647	feature	CDS	2164	3210	.	+	0	ID=TBE6-bin-03.genome.CDS.2329;Product=Phenylalanyl-tRNA synthetase alpha chain %28EC 6.1.1.20%29
+TBE6-bin-03-scaffold_5647	feature	CDS	1772	2137	.	+	0	ID=TBE6-bin-03.genome.CDS.2328;Product=LSU ribosomal protein L20p
+TBE6-bin-03-scaffold_5647	feature	CDS	1549	1746	.	+	0	ID=TBE6-bin-03.genome.CDS.2327;Product=LSU ribosomal protein L35p
+TBE6-bin-03-scaffold_5647	feature	CDS	936	1445	.	+	0	ID=TBE6-bin-03.genome.CDS.2326;Product=Translation initiation factor 3
+TBE6-bin-03-scaffold_5647	feature	CDS	1	879	.	+	0	ID=TBE6-bin-03.genome.CDS.2325;Product=Threonyl-tRNA synthetase %28EC 6.1.1.3%29
+TBE6-bin-03-scaffold_5671	feature	CDS	2878	3402	.	-	0	ID=TBE6-bin-03.genome.CDS.694;Product=Deacetylases%2C including yeast histone deacetylase and acetoin utilization protein
+TBE6-bin-03-scaffold_5671	feature	CDS	2043	2792	.	-	0	ID=TBE6-bin-03.genome.CDS.1979;Product=Electron transfer flavoprotein%2C beta subunit
+TBE6-bin-03-scaffold_5671	feature	CDS	1107	2042	.	-	0	ID=TBE6-bin-03.genome.CDS.1978;Product=Electron transfer flavoprotein%2C alpha subunit
+TBE6-bin-03-scaffold_5671	feature	CDS	648	1094	.	+	0	ID=TBE6-bin-03.genome.CDS.1977;Product=Probable transmembrane protein
+TBE6-bin-03-scaffold_5671	feature	CDS	106	651	.	+	0	ID=TBE6-bin-03.genome.CDS.1976;Product=protein of unknown function DUF306%2C Meta and HslJ
+TBE6-bin-03-scaffold_5796	feature	CDS	3049	3867	.	+	0	ID=TBE6-bin-03.genome.CDS.2196;Product=Cysteine synthase B %28EC 2.5.1.47%29
+TBE6-bin-03-scaffold_5796	feature	CDS	2579	3007	.	+	0	ID=TBE6-bin-03.genome.CDS.2195;Product=Flagellar hook-length control protein FliK
+TBE6-bin-03-scaffold_5796	feature	CDS	1706	2452	.	+	0	ID=TBE6-bin-03.genome.CDS.2194;Product=hypothetical protein
+TBE6-bin-03-scaffold_5796	feature	CDS	600	1697	.	+	0	ID=TBE6-bin-03.genome.CDS.2193;Product=ADP-L-glycero-D-manno-heptose-6-epimerase %28EC 5.1.3.20%29
+TBE6-bin-03-scaffold_5796	feature	CDS	1	603	.	+	0	ID=TBE6-bin-03.genome.CDS.2192;Product=ADP-heptose synthase %28EC 2.7.-.-%29 / D-glycero-beta-D-manno-heptose 7-phosphate kinase
+TBE6-bin-03-scaffold_5850	feature	CDS	3776	4414	.	+	0	ID=TBE6-bin-03.genome.CDS.2459;Product=Lipoate synthase
+TBE6-bin-03-scaffold_5850	feature	CDS	3324	3776	.	+	0	ID=TBE6-bin-03.genome.CDS.2458;Product=Octanoate-%5Bacyl-carrier-protein%5D-protein-N-octanoyltransferase
+TBE6-bin-03-scaffold_5850	feature	CDS	2522	3238	.	+	0	ID=TBE6-bin-03.genome.CDS.2457;Product=Alpha/beta hydrolase
+TBE6-bin-03-scaffold_5850	feature	CDS	2202	2510	.	+	0	ID=TBE6-bin-03.genome.CDS.2456;Product=Ferredoxin%2C 2Fe-2S
+TBE6-bin-03-scaffold_5850	feature	CDS	1920	2186	.	+	0	ID=TBE6-bin-03.genome.CDS.2455;Product=Probable transmembrane protein
+TBE6-bin-03-scaffold_5850	feature	CDS	847	1890	.	+	0	ID=TBE6-bin-03.genome.CDS.2454;Product=Probable transmembrane protein
+TBE6-bin-03-scaffold_5850	feature	CDS	14	808	.	-	0	ID=TBE6-bin-03.genome.CDS.2453;Product=Biotin--protein ligase %28EC 6.3.4.9%29%28EC 6.3.4.10%29%28EC 6.3.4.11%29%28EC 6.3.4.15%29
+TBE6-bin-03-scaffold_5859	feature	CDS	3340	4374	.	+	0	ID=TBE6-bin-03.genome.CDS.1575;Product=Succinate-semialdehyde dehydrogenase %5BNAD%28P%29%2B%5D %28EC 1.2.1.16%29
+TBE6-bin-03-scaffold_5859	feature	CDS	2810	3322	.	+	0	ID=TBE6-bin-03.genome.CDS.1574;Product=Transcription termination protein NusB
+TBE6-bin-03-scaffold_5859	feature	CDS	2292	2810	.	+	0	ID=TBE6-bin-03.genome.CDS.1573;Product=6%2C7-dimethyl-8-ribityllumazine synthase %28EC 2.5.1.78%29
+TBE6-bin-03-scaffold_5859	feature	CDS	1288	2277	.	+	0	ID=TBE6-bin-03.genome.CDS.1572;Product=3%2C4-dihydroxy-2-butanone 4-phosphate synthase %28EC 4.1.99.12%29 / GTP cyclohydrolase II %28EC 3.5.4.25%29
+TBE6-bin-03-scaffold_5859	feature	CDS	1107	1241	.	+	0	ID=TBE6-bin-03.genome.CDS.304;Product=
+TBE6-bin-03-scaffold_5859	feature	CDS	778	984	.	-	0	ID=TBE6-bin-03.genome.CDS.1571;Product=
+TBE6-bin-03-scaffold_5859	feature	CDS	134	781	.	-	0	ID=TBE6-bin-03.genome.CDS.1570;Product=
+TBE6-bin-03-scaffold_5859	feature	CDS	3	137	.	-	0	ID=TBE6-bin-03.genome.CDS.1569;Product=
+TBE6-bin-03-scaffold_593	feature	CDS	3272	4213	.	+	0	ID=TBE6-bin-03.genome.CDS.2311;Product=Histidyl-tRNA synthetase %28EC 6.1.1.21%29
+TBE6-bin-03-scaffold_593	feature	CDS	1918	3258	.	+	0	ID=TBE6-bin-03.genome.CDS.1009;Product=1-hydroxy-2-methyl-2-%28E%29-butenyl 4-diphosphate synthase %28EC 1.17.7.1%29
+TBE6-bin-03-scaffold_593	feature	CDS	554	1921	.	+	0	ID=TBE6-bin-03.genome.CDS.2309;Product=Ribosomal RNA large subunit methyltransferase N %28EC 2.1.1.-%29
+TBE6-bin-03-scaffold_593	feature	CDS	51	476	.	+	0	ID=TBE6-bin-03.genome.CDS.2308;Product=Nucleoside diphosphate kinase %28EC 2.7.4.6%29
+TBE6-bin-03-scaffold_5933	feature	CDS	6904	7221	.	+	0	ID=TBE6-bin-03.genome.CDS.1960;Product=Formyl-coenzyme A transferase %28EC 2.8.3.16%29
+TBE6-bin-03-scaffold_5933	feature	CDS	5129	6838	.	+	0	ID=TBE6-bin-03.genome.CDS.1959;Product=Oxalyl-CoA decarboxylase %28EC 4.1.1.8%29
+TBE6-bin-03-scaffold_5933	feature	CDS	4364	4981	.	+	0	ID=TBE6-bin-03.genome.CDS.1958;Product=cAMP-binding proteins - catabolite gene activator and regulatory subunit of cAMP-dependent protein kinases
+TBE6-bin-03-scaffold_5933	feature	CDS	1697	3820	.	-	0	ID=TBE6-bin-03.genome.CDS.1957;Product=TonB-dependent receptor%3B Outer membrane receptor for ferrienterochelin and colicins
+TBE6-bin-03-scaffold_5933	feature	CDS	1353	1625	.	-	0	ID=TBE6-bin-03.genome.CDS.1956;Product=
+TBE6-bin-03-scaffold_5933	feature	CDS	1019	1372	.	-	0	ID=TBE6-bin-03.genome.CDS.1955;Product=FIG00934632: hypothetical protein
+TBE6-bin-03-scaffold_5933	feature	CDS	17	835	.	-	0	ID=TBE6-bin-03.genome.CDS.1954;Product=Protein of unknown function DUF81
+TBE6-bin-03-scaffold_5934	feature	CDS	3274	4287	.	+	0	ID=TBE6-bin-03.genome.CDS.1820;Product=Glucose-6-phosphate isomerase %28EC 5.3.1.9%29
+TBE6-bin-03-scaffold_5934	feature	CDS	2706	3281	.	+	0	ID=TBE6-bin-03.genome.CDS.1819;Product=Glucose-6-phosphate isomerase %28EC 5.3.1.9%29
+TBE6-bin-03-scaffold_5934	feature	tRNA	2509	2598	.	-	.	ID=TBE6-bin-03.genome.rna.9;Product=tRNA-Ser-TGA
+TBE6-bin-03-scaffold_5934	feature	CDS	2154	2471	.	-	0	ID=TBE6-bin-03.genome.CDS.1818;Product=
+TBE6-bin-03-scaffold_5934	feature	CDS	773	1987	.	+	0	ID=TBE6-bin-03.genome.CDS.1816;Product=L-carnitine dehydratase/bile acid-inducible protein F
+TBE6-bin-03-scaffold_5934	feature	CDS	3	692	.	-	0	ID=TBE6-bin-03.genome.CDS.1815;Product=putative exported protein
+TBE6-bin-03-scaffold_5961	feature	CDS	4475	4657	.	-	0	ID=TBE6-bin-03.genome.CDS.1644;Product=Deoxycytidine triphosphate deaminase %28EC 3.5.4.13%29
+TBE6-bin-03-scaffold_5961	feature	CDS	2183	4432	.	-	0	ID=TBE6-bin-03.genome.CDS.1643;Product=Arginine decarboxylase %28EC 4.1.1.19%29%3B Ornithine decarboxylase %28EC 4.1.1.17%29%3B Lysine decarboxylase %28EC 4.1.1.18%29
+TBE6-bin-03-scaffold_5961	feature	CDS	1089	2174	.	+	0	ID=TBE6-bin-03.genome.CDS.1642;Product=Argininosuccinate lyase %28EC 4.3.2.1%29
+TBE6-bin-03-scaffold_5961	feature	CDS	526	1068	.	+	0	ID=TBE6-bin-03.genome.CDS.1641;Product=Argininosuccinate lyase %28EC 4.3.2.1%29
+TBE6-bin-03-scaffold_5961	feature	CDS	3	482	.	-	0	ID=TBE6-bin-03.genome.CDS.1640;Product=Porphobilinogen deaminase %28EC 2.5.1.61%29
+TBE6-bin-03-scaffold_6014	feature	CDS	2717	3001	.	+	0	ID=TBE6-bin-03.genome.CDS.2217;Product=tRNA%28Ile%29-lysidine synthetase %28EC 6.3.4.19%29
+TBE6-bin-03-scaffold_6014	feature	CDS	1780	2751	.	+	0	ID=TBE6-bin-03.genome.CDS.2216;Product=Acetyl-coenzyme A carboxyl transferase alpha chain %28EC 6.4.1.2%29
+TBE6-bin-03-scaffold_6014	feature	CDS	1017	1685	.	+	0	ID=TBE6-bin-03.genome.CDS.2215;Product=HhH-GPD base excision DNA repair family protein%3B Probable 3-methyladenine DNA glycosylase/8-oxoguanine DNA glycosylase
+TBE6-bin-03-scaffold_6014	feature	CDS	1	1032	.	+	0	ID=TBE6-bin-03.genome.CDS.2214;Product=Cysteinyl-tRNA synthetase %28EC 6.1.1.16%29
+TBE6-bin-03-scaffold_6025	feature	CDS	2799	4115	.	-	0	ID=TBE6-bin-03.genome.CDS.2002;Product=Acetyl-coenzyme A synthetase %28EC 6.2.1.1%29
+TBE6-bin-03-scaffold_6025	feature	tRNA	2661	2751	.	-	.	ID=TBE6-bin-03.genome.rna.11;Product=tRNA-Ser-GGA
+TBE6-bin-03-scaffold_6025	feature	CDS	1851	2630	.	-	0	ID=TBE6-bin-03.genome.CDS.2001;Product=Molybdenum ABC transporter%2C periplasmic molybdenum-binding protein ModA %28TC 3.A.1.8.1%29
+TBE6-bin-03-scaffold_6025	feature	CDS	944	1738	.	-	0	ID=TBE6-bin-03.genome.CDS.2000;Product=Alkyl hydroperoxide reductase subunit C-like protein
+TBE6-bin-03-scaffold_6025	feature	CDS	224	892	.	-	0	ID=TBE6-bin-03.genome.CDS.1999;Product=hypothetical protein
+TBE6-bin-03-scaffold_6025	feature	CDS	3	200	.	-	0	ID=TBE6-bin-03.genome.CDS.1998;Product=
+TBE6-bin-03-scaffold_6038	feature	CDS	9244	9762	.	-	0	ID=TBE6-bin-03.genome.CDS.2526;Product=Guanylate kinase %28EC 2.7.4.8%29
+TBE6-bin-03-scaffold_6038	feature	CDS	8994	9197	.	-	0	ID=TBE6-bin-03.genome.CDS.2525;Product=DNA-directed RNA polymerase omega subunit %28EC 2.7.7.6%29
+TBE6-bin-03-scaffold_6038	feature	CDS	6651	8978	.	-	0	ID=TBE6-bin-03.genome.CDS.2524;Product=GTP pyrophosphokinase %28EC 2.7.6.5%29%2C %28p%29ppGpp synthetase II / Guanosine-3%27%2C5%27-bis%28diphosphate%29 3%27-pyrophosphohydrolase %28EC 3.1.7.2%29
+TBE6-bin-03-scaffold_6038	feature	CDS	6176	6691	.	-	0	ID=TBE6-bin-03.genome.CDS.2523;Product=GTP pyrophosphokinase %28EC 2.7.6.5%29 / Guanosine-3%27%2C5%27-bis%28diphosphate%29 3%27-pyrophosphohydrolase %28EC 3.1.7.2%29
+TBE6-bin-03-scaffold_6038	feature	CDS	5665	6165	.	+	0	ID=TBE6-bin-03.genome.CDS.2522;Product=Transcription elongation factor GreB
+TBE6-bin-03-scaffold_6038	feature	tRNA	5457	5533	.	-	.	ID=TBE6-bin-03.genome.rna.22;Product=tRNA-Pseudo-CAA
+TBE6-bin-03-scaffold_6038	feature	CDS	4198	5382	.	-	0	ID=TBE6-bin-03.genome.CDS.2521;Product=Putative ABC transport system permease protein
+TBE6-bin-03-scaffold_6038	feature	CDS	3434	4198	.	-	0	ID=TBE6-bin-03.genome.CDS.2520;Product=ABC transporter%2C ATP-binding protein
+TBE6-bin-03-scaffold_6038	feature	CDS	2493	3437	.	-	0	ID=TBE6-bin-03.genome.CDS.2519;Product=Paraquat-inducible protein B
+TBE6-bin-03-scaffold_6038	feature	CDS	1840	2496	.	-	0	ID=TBE6-bin-03.genome.CDS.2518;Product=hypothetical protein
+TBE6-bin-03-scaffold_6038	feature	CDS	1302	1838	.	+	0	ID=TBE6-bin-03.genome.CDS.2517;Product=Probable transmembrane protein
+TBE6-bin-03-scaffold_6038	feature	CDS	654	1292	.	+	0	ID=TBE6-bin-03.genome.CDS.2516;Product=Probable transmembrane protein
+TBE6-bin-03-scaffold_6038	feature	CDS	159	620	.	+	0	ID=TBE6-bin-03.genome.CDS.2515;Product=Probable transmembrane protein
+TBE6-bin-03-scaffold_6038	feature	CDS	1	162	.	+	0	ID=TBE6-bin-03.genome.CDS.2514;Product=DNA-directed RNA polymerase specialized sigma subunit%2C sigma24-like
+TBE6-bin-03-scaffold_6040	feature	CDS	36890	37150	.	+	0	ID=TBE6-bin-03.genome.CDS.1802;Product=Citrate synthase %28si%29 %28EC 2.3.3.1%29
+TBE6-bin-03-scaffold_6040	feature	CDS	36568	36837	.	+	0	ID=TBE6-bin-03.genome.CDS.1801;Product=YgfY COG2938
+TBE6-bin-03-scaffold_6040	feature	CDS	35859	36563	.	+	0	ID=TBE6-bin-03.genome.CDS.1800;Product=Succinate dehydrogenase iron-sulfur protein %28EC 1.3.99.1%29
+TBE6-bin-03-scaffold_6040	feature	CDS	35112	35831	.	+	0	ID=TBE6-bin-03.genome.CDS.525;Product=Succinate dehydrogenase flavoprotein subunit %28EC 1.3.99.1%29
+TBE6-bin-03-scaffold_6040	feature	CDS	33913	35091	.	+	0	ID=TBE6-bin-03.genome.CDS.1798;Product=Succinate dehydrogenase flavoprotein subunit %28EC 1.3.99.1%29
+TBE6-bin-03-scaffold_6040	feature	CDS	33543	33908	.	+	0	ID=TBE6-bin-03.genome.CDS.1797;Product=Succinate dehydrogenase hydrophobic membrane anchor protein
+TBE6-bin-03-scaffold_6040	feature	CDS	33114	33533	.	+	0	ID=TBE6-bin-03.genome.CDS.1796;Product=Succinate dehydrogenase cytochrome b-556 subunit
+TBE6-bin-03-scaffold_6040	feature	CDS	32239	32976	.	+	0	ID=TBE6-bin-03.genome.CDS.1795;Product=Transcriptional regulator%2C GntR family
+TBE6-bin-03-scaffold_6040	feature	CDS	31910	32080	.	+	0	ID=TBE6-bin-03.genome.CDS.520;Product=
+TBE6-bin-03-scaffold_6040	feature	CDS	30994	31875	.	-	0	ID=TBE6-bin-03.genome.CDS.1794;Product=Malate dehydrogenase %28EC 1.1.1.37%29
+TBE6-bin-03-scaffold_6040	feature	CDS	30602	30979	.	-	0	ID=TBE6-bin-03.genome.CDS.1793;Product=probable signal peptide protein
+TBE6-bin-03-scaffold_6040	feature	CDS	29338	30549	.	+	0	ID=TBE6-bin-03.genome.CDS.1792;Product=FIG00934811: hypothetical protein
+TBE6-bin-03-scaffold_6040	feature	CDS	28559	29335	.	+	0	ID=TBE6-bin-03.genome.CDS.1791;Product=UPF0246 protein YaaA
+TBE6-bin-03-scaffold_6040	feature	CDS	27719	28450	.	-	0	ID=TBE6-bin-03.genome.CDS.1790;Product=Glutathione S-transferase %28EC 2.5.1.18%29
+TBE6-bin-03-scaffold_6040	feature	CDS	26863	27717	.	-	0	ID=TBE6-bin-03.genome.CDS.1789;Product=3-hydroxybutyryl-CoA dehydrogenase %28EC 1.1.1.157%29
+TBE6-bin-03-scaffold_6040	feature	CDS	26353	26832	.	-	0	ID=TBE6-bin-03.genome.CDS.1788;Product=Permeases of the major facilitator superfamily
+TBE6-bin-03-scaffold_6040	feature	CDS	25028	26341	.	-	0	ID=TBE6-bin-03.genome.CDS.1787;Product=FIG065221: Holliday junction DNA helicase
+TBE6-bin-03-scaffold_6040	feature	CDS	24401	24976	.	-	0	ID=TBE6-bin-03.genome.CDS.1786;Product=Peptidyl-prolyl cis-trans isomerase PpiA precursor %28EC 5.2.1.8%29
+TBE6-bin-03-scaffold_6040	feature	CDS	22537	24366	.	-	0	ID=TBE6-bin-03.genome.CDS.1785;Product=Para-aminobenzoate synthase%2C aminase component %28EC 2.6.1.85%29 / Aminodeoxychorismate lyase %28EC 4.1.3.38%29
+TBE6-bin-03-scaffold_6040	feature	CDS	21958	22527	.	-	0	ID=TBE6-bin-03.genome.CDS.1784;Product=ADP-ribose pyrophosphatase
+TBE6-bin-03-scaffold_6040	feature	CDS	21217	21954	.	-	0	ID=TBE6-bin-03.genome.CDS.1783;Product=Leucyl/phenylalanyl-tRNA--protein transferase %28EC 2.3.2.6%29
+TBE6-bin-03-scaffold_6040	feature	CDS	20474	21220	.	-	0	ID=TBE6-bin-03.genome.CDS.1782;Product=Arginine-tRNA-protein transferase %28EC 2.3.2.8%29
+TBE6-bin-03-scaffold_6040	feature	CDS	19430	20464	.	-	0	ID=TBE6-bin-03.genome.CDS.1781;Product=Dihydroorotate dehydrogenase %28EC 1.3.3.1%29
+TBE6-bin-03-scaffold_6040	feature	CDS	18522	19334	.	-	0	ID=TBE6-bin-03.genome.CDS.1780;Product=Predicted Lactate-responsive regulator%2C IclR family
+TBE6-bin-03-scaffold_6040	feature	CDS	17442	18518	.	+	0	ID=TBE6-bin-03.genome.CDS.1779;Product=Murein-DD-endopeptidase %28EC 3.4.99.-%29
+TBE6-bin-03-scaffold_6040	feature	CDS	16481	17368	.	+	0	ID=TBE6-bin-03.genome.CDS.1778;Product=Permeases of the drug/metabolite transporter %28DMT%29 superfamily
+TBE6-bin-03-scaffold_6040	feature	CDS	15732	16280	.	-	0	ID=TBE6-bin-03.genome.CDS.1777;Product=Granule-associated protein
+TBE6-bin-03-scaffold_6040	feature	CDS	13868	15664	.	+	0	ID=TBE6-bin-03.genome.CDS.1776;Product=Dihydrolipoamide dehydrogenase of pyruvate dehydrogenase complex %28EC 1.8.1.4%29
+TBE6-bin-03-scaffold_6040	feature	CDS	12554	13858	.	+	0	ID=TBE6-bin-03.genome.CDS.1775;Product=Dihydrolipoamide acetyltransferase component of pyruvate dehydrogenase complex %28EC 2.3.1.12%29
+TBE6-bin-03-scaffold_6040	feature	CDS	9829	12525	.	+	0	ID=TBE6-bin-03.genome.CDS.1774;Product=Pyruvate dehydrogenase E1 component %28EC 1.2.4.1%29
+TBE6-bin-03-scaffold_6040	feature	CDS	7058	9532	.	-	0	ID=TBE6-bin-03.genome.CDS.1773;Product=Probable two-component transmembrane sensor histidine kinase transcription regulator protein %28EC 2.7.3.-%29
+TBE6-bin-03-scaffold_6040	feature	CDS	6445	7089	.	-	0	ID=TBE6-bin-03.genome.CDS.1772;Product=Response regulator
+TBE6-bin-03-scaffold_6040	feature	CDS	5591	6445	.	-	0	ID=TBE6-bin-03.genome.CDS.1771;Product=Methylenetetrahydrofolate dehydrogenase %28NADP%2B%29 %28EC 1.5.1.5%29 / Methenyltetrahydrofolate cyclohydrolase %28EC 3.5.4.9%29
+TBE6-bin-03-scaffold_6040	feature	CDS	3424	5538	.	-	0	ID=TBE6-bin-03.genome.CDS.1770;Product=Oligopeptidase A %28EC 3.4.24.70%29
+TBE6-bin-03-scaffold_6040	feature	CDS	2560	3405	.	+	0	ID=TBE6-bin-03.genome.CDS.1769;Product=Exodeoxyribonuclease III %28EC 3.1.11.2%29
+TBE6-bin-03-scaffold_6040	feature	CDS	1116	2567	.	+	0	ID=TBE6-bin-03.genome.CDS.1768;Product=Nitrogen regulation protein NtrC
+TBE6-bin-03-scaffold_6040	feature	CDS	1	1119	.	+	0	ID=TBE6-bin-03.genome.CDS.1767;Product=Nitrogen regulation protein NtrB %28EC 2.7.13.3%29
+TBE6-bin-03-scaffold_6042	feature	CDS	1786	2844	.	-	0	ID=TBE6-bin-03.genome.CDS.1616;Product=N-acetylglutamate synthase %28EC 2.3.1.1%29
+TBE6-bin-03-scaffold_6042	feature	CDS	1501	1773	.	-	0	ID=TBE6-bin-03.genome.CDS.1615;Product=FIG001341: Probable Fe%282%2B%29-trafficking protein YggX
+TBE6-bin-03-scaffold_6042	feature	CDS	1196	1486	.	+	0	ID=TBE6-bin-03.genome.CDS.1614;Product=Ribose 5-phosphate isomerase A %28EC 5.3.1.6%29
+TBE6-bin-03-scaffold_6042	feature	CDS	489	1190	.	+	0	ID=TBE6-bin-03.genome.CDS.1613;Product=Ribose 5-phosphate isomerase A %28EC 5.3.1.6%29
+TBE6-bin-03-scaffold_6042	feature	CDS	3	365	.	-	0	ID=TBE6-bin-03.genome.CDS.1612;Product=Transaldolase %28EC 2.2.1.2%29
+TBE6-bin-03-scaffold_6048	feature	CDS	2482	3042	.	+	0	ID=TBE6-bin-03.genome.CDS.1879;Product=FIG00934759: hypothetical protein
+TBE6-bin-03-scaffold_6048	feature	CDS	1735	1971	.	+	0	ID=TBE6-bin-03.genome.CDS.597;Product=
+TBE6-bin-03-scaffold_6048	feature	CDS	530	1714	.	-	0	ID=TBE6-bin-03.genome.CDS.1878;Product=Excinuclease ABC subunit C
+TBE6-bin-03-scaffold_6048	feature	CDS	2	481	.	-	0	ID=TBE6-bin-03.genome.CDS.1877;Product=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase %28EC 2.7.8.5%29
+TBE6-bin-03-scaffold_6062	feature	CDS	13051	14046	.	-	0	ID=TBE6-bin-03.genome.CDS.2399;Product=Malonyl CoA-acyl carrier protein transacylase %28EC 2.3.1.39%29
+TBE6-bin-03-scaffold_6062	feature	CDS	12269	13012	.	-	0	ID=TBE6-bin-03.genome.CDS.2398;Product=3-oxoacyl-%5Bacyl-carrier protein%5D reductase %28EC 1.1.1.100%29
+TBE6-bin-03-scaffold_6062	feature	CDS	11928	12197	.	+	0	ID=TBE6-bin-03.genome.CDS.1093;Product=
+TBE6-bin-03-scaffold_6062	feature	CDS	10690	11937	.	-	0	ID=TBE6-bin-03.genome.CDS.2397;Product=3-oxoacyl-%5Bacyl-carrier-protein%5D synthase%2C KASII %28EC 2.3.1.179%29
+TBE6-bin-03-scaffold_6062	feature	CDS	9186	10640	.	-	0	ID=TBE6-bin-03.genome.CDS.2396;Product=Serine protease precursor MucD/AlgY associated with sigma factor RpoE
+TBE6-bin-03-scaffold_6062	feature	CDS	7243	9048	.	-	0	ID=TBE6-bin-03.genome.CDS.2395;Product=Translation elongation factor LepA
+TBE6-bin-03-scaffold_6062	feature	CDS	6437	7243	.	-	0	ID=TBE6-bin-03.genome.CDS.2394;Product=Signal peptidase I %28EC 3.4.21.89%29
+TBE6-bin-03-scaffold_6062	feature	CDS	5642	6433	.	-	0	ID=TBE6-bin-03.genome.CDS.2393;Product=Ribonuclease III %28EC 3.1.26.3%29
+TBE6-bin-03-scaffold_6062	feature	CDS	4701	5639	.	-	0	ID=TBE6-bin-03.genome.CDS.2392;Product=GTP-binding protein Era
+TBE6-bin-03-scaffold_6062	feature	CDS	3966	4700	.	-	0	ID=TBE6-bin-03.genome.CDS.2391;Product=DNA recombination and repair protein RecO
+TBE6-bin-03-scaffold_6062	feature	CDS	3189	3935	.	-	0	ID=TBE6-bin-03.genome.CDS.2390;Product=Pyridoxine 5%27-phosphate synthase %28EC 2.6.99.2%29
+TBE6-bin-03-scaffold_6062	feature	CDS	2797	3192	.	-	0	ID=TBE6-bin-03.genome.CDS.2389;Product=Holo-%5Bacyl-carrier protein%5D synthase %28EC 2.7.8.7%29
+TBE6-bin-03-scaffold_6062	feature	CDS	1701	2783	.	-	0	ID=TBE6-bin-03.genome.CDS.2388;Product=Beta N-acetyl-glucosaminidase %28EC 3.2.1.52%29
+TBE6-bin-03-scaffold_6062	feature	CDS	1095	1655	.	+	0	ID=TBE6-bin-03.genome.CDS.2387;Product=Translation elongation factor P
+TBE6-bin-03-scaffold_6062	feature	CDS	1	1008	.	+	0	ID=TBE6-bin-03.genome.CDS.2386;Product=FIG00934759: hypothetical protein
+TBE6-bin-03-scaffold_6068	feature	CDS	2380	3189	.	-	0	ID=TBE6-bin-03.genome.CDS.1900;Product=hypothetical protein
+TBE6-bin-03-scaffold_6068	feature	CDS	1683	2360	.	+	0	ID=TBE6-bin-03.genome.CDS.1899;Product=DNA-binding response regulator
+TBE6-bin-03-scaffold_6068	feature	CDS	1	1680	.	+	0	ID=TBE6-bin-03.genome.CDS.1898;Product=integral membrane sensor signal transduction histidine kinase
+TBE6-bin-03-scaffold_6135	feature	CDS	2473	2715	.	-	0	ID=TBE6-bin-03.genome.CDS.2513;Product=Cell division protein DivIC %28FtsB%29%2C stabilizes FtsL against RasP cleavage
+TBE6-bin-03-scaffold_6135	feature	CDS	1615	2469	.	+	0	ID=TBE6-bin-03.genome.CDS.2512;Product=33 kDa chaperonin
+TBE6-bin-03-scaffold_6135	feature	CDS	38	1435	.	-	0	ID=TBE6-bin-03.genome.CDS.2511;Product=Glutamyl-tRNA synthetase %28EC 6.1.1.17%29
+TBE6-bin-03-scaffold_6146	feature	CDS	4606	5334	.	-	0	ID=TBE6-bin-03.genome.CDS.1724;Product=Cytochrome oxidase biogenesis protein Surf1%2C facilitates heme A insertion
+TBE6-bin-03-scaffold_6146	feature	CDS	4161	4613	.	-	0	ID=TBE6-bin-03.genome.CDS.1723;Product=hypothetical protein in Cytochrome oxidase biogenesis cluster
+TBE6-bin-03-scaffold_6146	feature	CDS	3739	4164	.	-	0	ID=TBE6-bin-03.genome.CDS.447;Product=hypothetical protein in Cytochrome oxidase biogenesis cluster
+TBE6-bin-03-scaffold_6146	feature	CDS	2756	3739	.	-	0	ID=TBE6-bin-03.genome.CDS.1721;Product=Heme A synthase%2C cytochrome oxidase biogenesis protein Cox15-CtaA
+TBE6-bin-03-scaffold_6146	feature	CDS	2533	2697	.	-	0	ID=TBE6-bin-03.genome.CDS.445;Product=Heme A synthase%2C cytochrome oxidase biogenesis protein Cox15-CtaA
+TBE6-bin-03-scaffold_6146	feature	CDS	1643	2536	.	-	0	ID=TBE6-bin-03.genome.CDS.1720;Product=Heme O synthase%2C protoheme IX farnesyltransferase %28EC 2.5.1.-%29 COX10-CtaB
+TBE6-bin-03-scaffold_6146	feature	CDS	1051	1641	.	-	0	ID=TBE6-bin-03.genome.CDS.1719;Product=Cytochrome oxidase biogenesis protein Sco1/SenC/PrrC%2C putative copper metallochaperone
+TBE6-bin-03-scaffold_6146	feature	CDS	99	1040	.	+	0	ID=TBE6-bin-03.genome.CDS.1718;Product=RNA polymerase sigma factor RpoH
+TBE6-bin-03-scaffold_6201	feature	CDS	6833	6910	.	-	0	ID=TBE6-bin-03.genome.CDS.2469;Product=
+TBE6-bin-03-scaffold_6201	feature	CDS	6330	6830	.	+	0	ID=TBE6-bin-03.genome.CDS.2468;Product=
+TBE6-bin-03-scaffold_6201	feature	CDS	4994	6238	.	-	0	ID=TBE6-bin-03.genome.CDS.2467;Product=Sugar transport protein
+TBE6-bin-03-scaffold_6201	feature	CDS	4620	4961	.	-	0	ID=TBE6-bin-03.genome.CDS.2466;Product=Sugar transport protein
+TBE6-bin-03-scaffold_6201	feature	CDS	3906	4592	.	-	0	ID=TBE6-bin-03.genome.CDS.2465;Product=Dienelactone hydrolase family
+TBE6-bin-03-scaffold_6201	feature	CDS	3259	3891	.	-	0	ID=TBE6-bin-03.genome.CDS.2464;Product=hypothetical protein
+TBE6-bin-03-scaffold_6201	feature	CDS	2356	3174	.	-	0	ID=TBE6-bin-03.genome.CDS.2463;Product=hypothetical protein
+TBE6-bin-03-scaffold_6201	feature	CDS	1960	2319	.	-	0	ID=TBE6-bin-03.genome.CDS.2462;Product=hypothetical protein
+TBE6-bin-03-scaffold_6201	feature	CDS	1590	1895	.	-	0	ID=TBE6-bin-03.genome.CDS.2461;Product=hypothetical protein
+TBE6-bin-03-scaffold_6201	feature	tRNA	1498	1584	.	+	.	ID=TBE6-bin-03.genome.rna.21;Product=tRNA-Leu-CAG
+TBE6-bin-03-scaffold_6201	feature	CDS	3	1343	.	-	0	ID=TBE6-bin-03.genome.CDS.2460;Product=3%27-to-5%27 exoribonuclease RNase R
+TBE6-bin-03-scaffold_6274	feature	CDS	9740	10342	.	+	0	ID=TBE6-bin-03.genome.CDS.2107;Product=Glutamine synthetase type I %28EC 6.3.1.2%29
+TBE6-bin-03-scaffold_6274	feature	CDS	9235	9564	.	+	0	ID=TBE6-bin-03.genome.CDS.2106;Product=Molybdopterin-binding protein
+TBE6-bin-03-scaffold_6274	feature	CDS	8618	9250	.	+	0	ID=TBE6-bin-03.genome.CDS.2105;Product=Molybdopterin-binding protein
+TBE6-bin-03-scaffold_6274	feature	CDS	7756	8616	.	+	0	ID=TBE6-bin-03.genome.CDS.2104;Product=Probable transmembrane protein
+TBE6-bin-03-scaffold_6274	feature	CDS	6624	7706	.	+	0	ID=TBE6-bin-03.genome.CDS.2103;Product=Sterol desaturase
+TBE6-bin-03-scaffold_6274	feature	CDS	5838	6620	.	+	0	ID=TBE6-bin-03.genome.CDS.2102;Product=Polysaccharide deacetylase
+TBE6-bin-03-scaffold_6274	feature	CDS	4821	5831	.	+	0	ID=TBE6-bin-03.genome.CDS.2101;Product=Surface antigen
+TBE6-bin-03-scaffold_6274	feature	CDS	796	4803	.	+	0	ID=TBE6-bin-03.genome.CDS.2100;Product=ATP-dependent helicase HrpA
+TBE6-bin-03-scaffold_6274	feature	CDS	2	778	.	-	0	ID=TBE6-bin-03.genome.CDS.2099;Product=N-acetylglutamate synthase %28EC 2.3.1.1%29
+TBE6-bin-03-scaffold_6335	feature	CDS	2828	3001	.	+	0	ID=TBE6-bin-03.genome.CDS.2440;Product=1-deoxy-D-xylulose 5-phosphate synthase %28EC 2.2.1.7%29
+TBE6-bin-03-scaffold_6335	feature	CDS	1912	2802	.	+	0	ID=TBE6-bin-03.genome.CDS.2439;Product=%282E%2C6E%29-farnesyl diphosphate synthase %28EC 2.5.1.10%29
+TBE6-bin-03-scaffold_6335	feature	CDS	1656	1889	.	+	0	ID=TBE6-bin-03.genome.CDS.2438;Product=Exodeoxyribonuclease VII small subunit %28EC 3.1.11.6%29
+TBE6-bin-03-scaffold_6335	feature	CDS	315	1421	.	-	0	ID=TBE6-bin-03.genome.CDS.2437;Product=Phenylpropionate dioxygenase and related ring-hydroxylating dioxygenases%2C large terminal subunit
+TBE6-bin-03-scaffold_6335	feature	CDS	3	272	.	-	0	ID=TBE6-bin-03.genome.CDS.2436;Product=Rhodanese-related sulfurtransferase
+TBE6-bin-03-scaffold_6351	feature	CDS	3384	3917	.	-	0	ID=TBE6-bin-03.genome.CDS.2339;Product=Gamma-glutamyltranspeptidase %28EC 2.3.2.2%29
+TBE6-bin-03-scaffold_6351	feature	CDS	2768	3397	.	+	0	ID=TBE6-bin-03.genome.CDS.2338;Product=protein of unknown function UPF0126
+TBE6-bin-03-scaffold_6351	feature	CDS	2096	2755	.	+	0	ID=TBE6-bin-03.genome.CDS.2337;Product=carbonic anhydrase%2C family 3
+TBE6-bin-03-scaffold_6351	feature	CDS	1639	2001	.	-	0	ID=TBE6-bin-03.genome.CDS.2336;Product=hypothetical protein
+TBE6-bin-03-scaffold_6351	feature	CDS	1325	1612	.	-	0	ID=TBE6-bin-03.genome.CDS.2335;Product=FIG00934678: hypothetical protein
+TBE6-bin-03-scaffold_6351	feature	CDS	791	1183	.	+	0	ID=TBE6-bin-03.genome.CDS.2334;Product=OsmC family protein
+TBE6-bin-03-scaffold_6351	feature	CDS	3	716	.	-	0	ID=TBE6-bin-03.genome.CDS.2333;Product=putative membrane protein
+TBE6-bin-03-scaffold_6354	feature	CDS	6990	7664	.	+	0	ID=TBE6-bin-03.genome.CDS.1267;Product=Cell division protein FtsJ / Ribosomal RNA large subunit methyltransferase E %28EC 2.1.1.-%29
+TBE6-bin-03-scaffold_6354	feature	CDS	6258	6959	.	-	0	ID=TBE6-bin-03.genome.CDS.1266;Product=RNA binding protein
+TBE6-bin-03-scaffold_6354	feature	CDS	5780	6244	.	+	0	ID=TBE6-bin-03.genome.CDS.26;Product=
+TBE6-bin-03-scaffold_6354	feature	CDS	5288	5764	.	+	0	ID=TBE6-bin-03.genome.CDS.1264;Product=Transcription elongation factor GreA
+TBE6-bin-03-scaffold_6354	feature	CDS	1964	5227	.	+	0	ID=TBE6-bin-03.genome.CDS.1263;Product=Carbamoyl-phosphate synthase large chain %28EC 6.3.5.5%29
+TBE6-bin-03-scaffold_6354	feature	CDS	759	1964	.	+	0	ID=TBE6-bin-03.genome.CDS.1262;Product=Carbamoyl-phosphate synthase small chain %28EC 6.3.5.5%29
+TBE6-bin-03-scaffold_6354	feature	CDS	2	562	.	+	0	ID=TBE6-bin-03.genome.CDS.1261;Product=Propionate--CoA ligase %28EC 6.2.1.17%29
+TBE6-bin-03-scaffold_6357	feature	CDS	2056	3201	.	+	0	ID=TBE6-bin-03.genome.CDS.2067;Product=Valyl-tRNA synthetase %28EC 6.1.1.9%29
+TBE6-bin-03-scaffold_6357	feature	CDS	1870	2031	.	-	0	ID=TBE6-bin-03.genome.CDS.2066;Product=ATP-dependent DNA helicase UvrD/PcrA
+TBE6-bin-03-scaffold_6357	feature	CDS	3	1916	.	-	0	ID=TBE6-bin-03.genome.CDS.2065;Product=ATP-dependent DNA helicase UvrD/PcrA
+TBE6-bin-03-scaffold_6370	feature	CDS	7804	7941	.	+	0	ID=TBE6-bin-03.genome.CDS.1474;Product=
+TBE6-bin-03-scaffold_6370	feature	CDS	7380	7739	.	-	0	ID=TBE6-bin-03.genome.CDS.1473;Product=DNA polymerase III subunits gamma and tau %28EC 2.7.7.7%29
+TBE6-bin-03-scaffold_6370	feature	CDS	7023	7343	.	-	0	ID=TBE6-bin-03.genome.CDS.1472;Product=FIG000557: hypothetical protein co-occurring with RecR
+TBE6-bin-03-scaffold_6370	feature	CDS	6415	7002	.	-	0	ID=TBE6-bin-03.genome.CDS.1471;Product=Recombination protein RecR
+TBE6-bin-03-scaffold_6370	feature	CDS	6185	6415	.	-	0	ID=TBE6-bin-03.genome.CDS.208;Product=Recombination protein RecR
+TBE6-bin-03-scaffold_6370	feature	CDS	4646	6055	.	-	0	ID=TBE6-bin-03.genome.CDS.1469;Product=Carbohydrate-selective porin OprB
+TBE6-bin-03-scaffold_6370	feature	CDS	3029	4507	.	-	0	ID=TBE6-bin-03.genome.CDS.1468;Product=Heavy metal RND efflux outer membrane protein%2C CzcC family
+TBE6-bin-03-scaffold_6370	feature	CDS	2657	3028	.	-	0	ID=TBE6-bin-03.genome.CDS.1467;Product=
+TBE6-bin-03-scaffold_6370	feature	CDS	1378	2646	.	-	0	ID=TBE6-bin-03.genome.CDS.1466;Product=efflux transporter%2C RND family%2C MFP subunit
+TBE6-bin-03-scaffold_6370	feature	CDS	1	1368	.	-	0	ID=TBE6-bin-03.genome.CDS.1465;Product=Cobalt-zinc-cadmium resistance protein CzcA%3B Cation efflux system protein CusA
+TBE6-bin-03-scaffold_6438	feature	CDS	8343	8606	.	-	0	ID=TBE6-bin-03.genome.CDS.1583;Product=Rossmann fold nucleotide-binding protein Smf possibly involved in DNA uptake
+TBE6-bin-03-scaffold_6438	feature	CDS	7429	8121	.	-	0	ID=TBE6-bin-03.genome.CDS.1582;Product=DNA topoisomerase III%2C Burkholderia type %28EC 5.99.1.2%29
+TBE6-bin-03-scaffold_6438	feature	CDS	5384	7390	.	-	0	ID=TBE6-bin-03.genome.CDS.1581;Product=DNA topoisomerase III%2C Burkholderia type %28EC 5.99.1.2%29
+TBE6-bin-03-scaffold_6438	feature	CDS	2355	4199	.	+	0	ID=TBE6-bin-03.genome.CDS.1579;Product=Phosphoenolpyruvate carboxykinase %5BGTP%5D %28EC 4.1.1.32%29
+TBE6-bin-03-scaffold_6438	feature	CDS	2236	2379	.	+	0	ID=TBE6-bin-03.genome.CDS.1578;Product=Phosphoenolpyruvate carboxykinase %5BGTP%5D %28EC 4.1.1.32%29
+TBE6-bin-03-scaffold_6438	feature	CDS	777	2150	.	+	0	ID=TBE6-bin-03.genome.CDS.1577;Product=GTPase and tRNA-U34 5-formylation enzyme TrmE
+TBE6-bin-03-scaffold_6438	feature	CDS	3	743	.	+	0	ID=TBE6-bin-03.genome.CDS.1576;Product=Inner membrane protein translocase component YidC%2C long form
+TBE6-bin-03-scaffold_6449	feature	CDS	4020	5276	.	+	0	ID=TBE6-bin-03.genome.CDS.2289;Product=sodium-solute symporter%2C putative
+TBE6-bin-03-scaffold_6449	feature	CDS	3334	3915	.	-	0	ID=TBE6-bin-03.genome.CDS.2288;Product=Squalene synthase %28EC 2.5.1.21%29
+TBE6-bin-03-scaffold_6449	feature	CDS	2556	3377	.	-	0	ID=TBE6-bin-03.genome.CDS.2287;Product=Squalene synthase %28EC 2.5.1.21%29
+TBE6-bin-03-scaffold_6449	feature	CDS	2036	2548	.	+	0	ID=TBE6-bin-03.genome.CDS.2286;Product=Methylated-DNA--protein-cysteine methyltransferase %28EC 2.1.1.63%29
+TBE6-bin-03-scaffold_6449	feature	CDS	631	1920	.	-	0	ID=TBE6-bin-03.genome.CDS.2285;Product=Hemolysins and related proteins containing CBS domains
+TBE6-bin-03-scaffold_6449	feature	CDS	2	634	.	-	0	ID=TBE6-bin-03.genome.CDS.2284;Product=Type IV fimbrial assembly%2C ATPase PilB
+TBE6-bin-03-scaffold_6522	feature	CDS	7568	7744	.	+	0	ID=TBE6-bin-03.genome.CDS.1561;Product=Succinate dehydrogenase flavoprotein subunit %28EC 1.3.99.1%29
+TBE6-bin-03-scaffold_6522	feature	CDS	7198	7563	.	+	0	ID=TBE6-bin-03.genome.CDS.1560;Product=Succinate dehydrogenase hydrophobic membrane anchor protein
+TBE6-bin-03-scaffold_6522	feature	CDS	6769	7188	.	+	0	ID=TBE6-bin-03.genome.CDS.1559;Product=Succinate dehydrogenase cytochrome b-556 subunit
+TBE6-bin-03-scaffold_6522	feature	CDS	6421	6765	.	+	0	ID=TBE6-bin-03.genome.CDS.1558;Product=Succinate dehydrogenase cytochrome b-556 subunit
+TBE6-bin-03-scaffold_6522	feature	CDS	5547	6284	.	+	0	ID=TBE6-bin-03.genome.CDS.1557;Product=Transcriptional regulator%2C GntR family
+TBE6-bin-03-scaffold_6522	feature	CDS	4389	5378	.	-	0	ID=TBE6-bin-03.genome.CDS.1556;Product=Malate dehydrogenase %28EC 1.1.1.37%29
+TBE6-bin-03-scaffold_6522	feature	CDS	3998	4378	.	-	0	ID=TBE6-bin-03.genome.CDS.1555;Product=probable signal peptide protein
+TBE6-bin-03-scaffold_6522	feature	CDS	2651	3943	.	+	0	ID=TBE6-bin-03.genome.CDS.1554;Product=FIG00934811: hypothetical protein
+TBE6-bin-03-scaffold_6522	feature	CDS	1872	2648	.	+	0	ID=TBE6-bin-03.genome.CDS.1553;Product=UPF0246 protein YaaA
+TBE6-bin-03-scaffold_6522	feature	CDS	1032	1763	.	-	0	ID=TBE6-bin-03.genome.CDS.1552;Product=Glutathione S-transferase %28EC 2.5.1.18%29
+TBE6-bin-03-scaffold_6522	feature	CDS	176	1030	.	-	0	ID=TBE6-bin-03.genome.CDS.1551;Product=3-hydroxybutyryl-CoA dehydrogenase %28EC 1.1.1.157%29
+TBE6-bin-03-scaffold_6522	feature	CDS	3	131	.	-	0	ID=TBE6-bin-03.genome.CDS.1550;Product=Permeases of the major facilitator superfamily
+TBE6-bin-03-scaffold_6551	feature	CDS	1944	3764	.	+	0	ID=TBE6-bin-03.genome.CDS.2087;Product=Ribonucleotide reductase of class Ia %28aerobic%29%2C alpha subunit %28EC 1.17.4.1%29
+TBE6-bin-03-scaffold_6551	feature	CDS	702	1520	.	+	0	ID=TBE6-bin-03.genome.CDS.2086;Product=N-acetylmuramoyl-L-alanine amidase %28EC 3.5.1.28%29 AmpD
+TBE6-bin-03-scaffold_6551	feature	CDS	1	705	.	+	0	ID=TBE6-bin-03.genome.CDS.2085;Product=FIG001154: CcsA-related protein
+TBE6-bin-03-scaffold_656	feature	CDS	15380	15883	.	-	0	ID=TBE6-bin-03.genome.CDS.2377;Product=Uroporphyrinogen III decarboxylase %28EC 4.1.1.37%29
+TBE6-bin-03-scaffold_656	feature	CDS	13211	15124	.	-	0	ID=TBE6-bin-03.genome.CDS.2376;Product=Helicase PriA essential for oriC/DnaA-independent DNA replication
+TBE6-bin-03-scaffold_656	feature	CDS	12939	13187	.	-	0	ID=TBE6-bin-03.genome.CDS.2375;Product=Helicase PriA essential for oriC/DnaA-independent DNA replication
+TBE6-bin-03-scaffold_656	feature	CDS	12550	12942	.	+	0	ID=TBE6-bin-03.genome.CDS.2374;Product=Glycine cleavage system H protein
+TBE6-bin-03-scaffold_656	feature	CDS	11642	12469	.	-	0	ID=TBE6-bin-03.genome.CDS.2373;Product=Hypothetical metal-binding enzyme%2C YcbL homolog
+TBE6-bin-03-scaffold_656	feature	CDS	11449	11634	.	+	0	ID=TBE6-bin-03.genome.CDS.1066;Product=
+TBE6-bin-03-scaffold_656	feature	CDS	10224	11408	.	+	0	ID=TBE6-bin-03.genome.CDS.2372;Product=Fatty acid desaturase
+TBE6-bin-03-scaffold_656	feature	tRNA	10018	10093	.	+	.	ID=TBE6-bin-03.genome.rna.14;Product=tRNA-Arg-CCG
+TBE6-bin-03-scaffold_656	feature	CDS	9682	9906	.	-	0	ID=TBE6-bin-03.genome.CDS.2371;Product=Cytochrome c5
+TBE6-bin-03-scaffold_656	feature	CDS	9051	9632	.	+	0	ID=TBE6-bin-03.genome.CDS.1062;Product=rRNA small subunit methyltransferase I
+TBE6-bin-03-scaffold_656	feature	CDS	8588	8992	.	+	0	ID=TBE6-bin-03.genome.CDS.2369;Product=rRNA small subunit methyltransferase I
+TBE6-bin-03-scaffold_656	feature	CDS	7881	8483	.	-	0	ID=TBE6-bin-03.genome.CDS.2368;Product=Phosphoheptose isomerase %28EC 5.3.1.-%29
+TBE6-bin-03-scaffold_656	feature	CDS	7208	7858	.	-	0	ID=TBE6-bin-03.genome.CDS.2367;Product=21 kDa hemolysin precursor
+TBE6-bin-03-scaffold_656	feature	CDS	6836	7183	.	-	0	ID=TBE6-bin-03.genome.CDS.2366;Product=cytochrome c%2C class I
+TBE6-bin-03-scaffold_656	feature	CDS	6184	6834	.	+	0	ID=TBE6-bin-03.genome.CDS.2365;Product=Histone acetyltransferase HPA2 and related acetyltransferases
+TBE6-bin-03-scaffold_656	feature	misc_RNA	4170	5705	.	-	.	ID=TBE6-bin-03.genome.rna.2;Product=SSU rRNA %23%23 16S rRNA%2C small subunit ribosomal RNA
+TBE6-bin-03-scaffold_656	feature	tRNA	4037	4113	.	-	.	ID=TBE6-bin-03.genome.rna.15;Product=tRNA-Ile-GAT
+TBE6-bin-03-scaffold_656	feature	tRNA	3928	4003	.	-	.	ID=TBE6-bin-03.genome.rna.16;Product=tRNA-Ala-TGC
+TBE6-bin-03-scaffold_656	feature	misc_RNA	732	3658	.	-	.	ID=TBE6-bin-03.genome.rna.1;Product=LSU rRNA %23%23 23S rRNA%2C large subunit ribosomal RNA
+TBE6-bin-03-scaffold_656	feature	tRNA	326	410	.	-	.	ID=TBE6-bin-03.genome.rna.17;Product=tRNA-Tyr-GTA
+TBE6-bin-03-scaffold_656	feature	tRNA	246	319	.	-	.	ID=TBE6-bin-03.genome.rna.18;Product=tRNA-Gly-TCC
+TBE6-bin-03-scaffold_656	feature	tRNA	150	224	.	-	.	ID=TBE6-bin-03.genome.rna.19;Product=tRNA-Thr-GGT
+TBE6-bin-03-scaffold_656	feature	CDS	2	88	.	-	0	ID=TBE6-bin-03.genome.CDS.2361;Product=Translation elongation factor Tu
+TBE6-bin-03-scaffold_6572	feature	CDS	2679	3332	.	+	0	ID=TBE6-bin-03.genome.CDS.1528;Product=Biotin synthase %28EC 2.8.1.6%29
+TBE6-bin-03-scaffold_6572	feature	CDS	1868	2590	.	-	0	ID=TBE6-bin-03.genome.CDS.1527;Product=Adenosylmethionine-8-amino-7-oxononanoate aminotransferase %28EC 2.6.1.62%29
+TBE6-bin-03-scaffold_6572	feature	CDS	1108	1884	.	-	0	ID=TBE6-bin-03.genome.CDS.1526;Product=Adenosylmethionine-8-amino-7-oxononanoate aminotransferase %28EC 2.6.1.62%29
+TBE6-bin-03-scaffold_6572	feature	CDS	2	1111	.	-	0	ID=TBE6-bin-03.genome.CDS.1525;Product=8-amino-7-oxononanoate synthase %28EC 2.3.1.47%29
+TBE6-bin-03-scaffold_6573	feature	CDS	3712	4113	.	-	0	ID=TBE6-bin-03.genome.CDS.2360;Product=
+TBE6-bin-03-scaffold_6573	feature	CDS	1955	3715	.	+	0	ID=TBE6-bin-03.genome.CDS.2359;Product=Long-chain-fatty-acid--CoA ligase %28EC 6.2.1.3%29
+TBE6-bin-03-scaffold_6573	feature	CDS	1659	1940	.	+	0	ID=TBE6-bin-03.genome.CDS.2358;Product=hypothetical protein
+TBE6-bin-03-scaffold_6573	feature	CDS	1272	1643	.	+	0	ID=TBE6-bin-03.genome.CDS.2357;Product=putative transmembrane protein
+TBE6-bin-03-scaffold_6573	feature	CDS	1140	1265	.	+	0	ID=TBE6-bin-03.genome.CDS.2356;Product=
+TBE6-bin-03-scaffold_6573	feature	CDS	797	1126	.	+	0	ID=TBE6-bin-03.genome.CDS.2355;Product=
+TBE6-bin-03-scaffold_6573	feature	CDS	413	709	.	+	0	ID=TBE6-bin-03.genome.CDS.2354;Product=
+TBE6-bin-03-scaffold_6573	feature	CDS	232	411	.	+	0	ID=TBE6-bin-03.genome.CDS.2353;Product=
+TBE6-bin-03-scaffold_6585	feature	CDS	919	1323	.	-	0	ID=TBE6-bin-03.genome.CDS.2146;Product=Valyl-tRNA synthetase %28EC 6.1.1.9%29
+TBE6-bin-03-scaffold_6585	feature	CDS	9	893	.	-	0	ID=TBE6-bin-03.genome.CDS.2145;Product=UTP--glucose-1-phosphate uridylyltransferase %28EC 2.7.7.9%29
+TBE6-bin-03-scaffold_6593	feature	CDS	28616	30028	.	-	0	ID=TBE6-bin-03.genome.CDS.2244;Product=Protein containing domains DUF404%2C DUF407
+TBE6-bin-03-scaffold_6593	feature	CDS	27622	28602	.	-	0	ID=TBE6-bin-03.genome.CDS.2243;Product=Protein containing domains DUF403
+TBE6-bin-03-scaffold_6593	feature	CDS	26795	27613	.	-	0	ID=TBE6-bin-03.genome.CDS.2242;Product=Protein containing transglutaminase-like domain%2C putative cysteine protease
+TBE6-bin-03-scaffold_6593	feature	CDS	25868	26758	.	-	0	ID=TBE6-bin-03.genome.CDS.2241;Product=FIG00441227: hypothetical protein
+TBE6-bin-03-scaffold_6593	feature	CDS	23440	25836	.	+	0	ID=TBE6-bin-03.genome.CDS.2240;Product=Phosphoenolpyruvate synthase %28EC 2.7.9.2%29
+TBE6-bin-03-scaffold_6593	feature	CDS	22505	23332	.	-	0	ID=TBE6-bin-03.genome.CDS.2239;Product=FIG137360: hypothetical protein
+TBE6-bin-03-scaffold_6593	feature	CDS	21680	22501	.	+	0	ID=TBE6-bin-03.genome.CDS.2238;Product=rRNA methylases
+TBE6-bin-03-scaffold_6593	feature	CDS	21090	21683	.	+	0	ID=TBE6-bin-03.genome.CDS.2237;Product=Ribonuclease HII %28EC 3.1.26.4%29
+TBE6-bin-03-scaffold_6593	feature	CDS	19888	21093	.	+	0	ID=TBE6-bin-03.genome.CDS.2236;Product=Lipid-A-disaccharide synthase %28EC 2.4.1.182%29
+TBE6-bin-03-scaffold_6593	feature	CDS	19084	19881	.	+	0	ID=TBE6-bin-03.genome.CDS.2235;Product=Acyl-%5Bacyl-carrier-protein%5D--UDP-N-acetylglucosamine O-acyltransferase %28EC 2.3.1.129%29
+TBE6-bin-03-scaffold_6593	feature	CDS	18635	19084	.	+	0	ID=TBE6-bin-03.genome.CDS.2234;Product=3-hydroxyacyl-%5Bacyl-carrier-protein%5D dehydratase%2C FabZ form %28EC 4.2.1.59%29
+TBE6-bin-03-scaffold_6593	feature	CDS	17536	18612	.	+	0	ID=TBE6-bin-03.genome.CDS.2233;Product=UDP-3-O-%5B3-hydroxymyristoyl%5D glucosamine N-acyltransferase %28EC 2.3.1.191%29
+TBE6-bin-03-scaffold_6593	feature	CDS	17003	17530	.	+	0	ID=TBE6-bin-03.genome.CDS.2232;Product=Outer membrane chaperone Skp %28OmpH%29 precursor %40 Outer membrane protein H precursor
+TBE6-bin-03-scaffold_6593	feature	CDS	14640	16985	.	+	0	ID=TBE6-bin-03.genome.CDS.2231;Product=Outer membrane protein assembly factor YaeT precursor
+TBE6-bin-03-scaffold_6593	feature	CDS	13531	14643	.	+	0	ID=TBE6-bin-03.genome.CDS.2230;Product=Intramembrane protease RasP/YluC%2C implicated in cell division based on FtsL cleavage
+TBE6-bin-03-scaffold_6593	feature	CDS	12324	13517	.	+	0	ID=TBE6-bin-03.genome.CDS.2229;Product=1-deoxy-D-xylulose 5-phosphate reductoisomerase %28EC 1.1.1.267%29
+TBE6-bin-03-scaffold_6593	feature	CDS	11500	12327	.	+	0	ID=TBE6-bin-03.genome.CDS.2228;Product=Phosphatidate cytidylyltransferase %28EC 2.7.7.41%29
+TBE6-bin-03-scaffold_6593	feature	CDS	10708	11481	.	+	0	ID=TBE6-bin-03.genome.CDS.2227;Product=Undecaprenyl diphosphate synthase %28EC 2.5.1.31%29
+TBE6-bin-03-scaffold_6593	feature	CDS	10113	10673	.	+	0	ID=TBE6-bin-03.genome.CDS.2226;Product=Ribosome recycling factor
+TBE6-bin-03-scaffold_6593	feature	CDS	9391	10101	.	+	0	ID=TBE6-bin-03.genome.CDS.2225;Product=Uridine monophosphate kinase %28EC 2.7.4.22%29
+TBE6-bin-03-scaffold_6593	feature	CDS	8322	9203	.	+	0	ID=TBE6-bin-03.genome.CDS.2224;Product=Translation elongation factor Ts
+TBE6-bin-03-scaffold_6593	feature	CDS	7648	8322	.	+	0	ID=TBE6-bin-03.genome.CDS.2223;Product=SSU ribosomal protein S2p %28SAe%29
+TBE6-bin-03-scaffold_6593	feature	CDS	6523	7437	.	-	0	ID=TBE6-bin-03.genome.CDS.2222;Product=Methionine aminopeptidase %28EC 3.4.11.18%29
+TBE6-bin-03-scaffold_6593	feature	CDS	3910	6504	.	-	0	ID=TBE6-bin-03.genome.CDS.2221;Product=%5BProtein-PII%5D uridylyltransferase %28EC 2.7.7.59%29
+TBE6-bin-03-scaffold_6593	feature	CDS	3449	3913	.	+	0	ID=TBE6-bin-03.genome.CDS.2220;Product=DNA ligase %28EC 6.5.1.2%29
+TBE6-bin-03-scaffold_6593	feature	CDS	1723	3471	.	+	0	ID=TBE6-bin-03.genome.CDS.916;Product=DNA ligase %28EC 6.5.1.2%29
+TBE6-bin-03-scaffold_6593	feature	CDS	646	1695	.	+	0	ID=TBE6-bin-03.genome.CDS.2219;Product=putative membrane protein
+TBE6-bin-03-scaffold_6593	feature	CDS	1	645	.	+	0	ID=TBE6-bin-03.genome.CDS.2218;Product=Chromosome partition protein smc
+TBE6-bin-03-scaffold_6634	feature	CDS	2548	4653	.	-	0	ID=TBE6-bin-03.genome.CDS.2049;Product=Replicative DNA helicase %28DnaB%29 %28EC 3.6.4.12%29 %40 intein-containing
+TBE6-bin-03-scaffold_6634	feature	CDS	1935	2594	.	-	0	ID=TBE6-bin-03.genome.CDS.754;Product=Replicative DNA helicase %28DnaB%29 %28EC 3.6.4.12%29
+TBE6-bin-03-scaffold_6634	feature	CDS	1447	1938	.	+	0	ID=TBE6-bin-03.genome.CDS.753;Product=NLP/P60 protein
+TBE6-bin-03-scaffold_6634	feature	CDS	3	1394	.	+	0	ID=TBE6-bin-03.genome.CDS.2046;Product=Predicted ATPase related to phosphate starvation-inducible protein PhoH
+TBE6-bin-03-scaffold_6643	feature	CDS	2347	2787	.	+	0	ID=TBE6-bin-03.genome.CDS.1364;Product=DNA repair protein RecN
+TBE6-bin-03-scaffold_6643	feature	CDS	1415	2320	.	+	0	ID=TBE6-bin-03.genome.CDS.1363;Product=NAD kinase %28EC 2.7.1.23%29
+TBE6-bin-03-scaffold_6643	feature	CDS	367	1377	.	-	0	ID=TBE6-bin-03.genome.CDS.1362;Product=Heat-inducible transcription repressor HrcA
+TBE6-bin-03-scaffold_6643	feature	CDS	3	341	.	-	0	ID=TBE6-bin-03.genome.CDS.1361;Product=Ferrochelatase%2C protoheme ferro-lyase %28EC 4.99.1.1%29
+TBE6-bin-03-scaffold_738	feature	CDS	28866	30167	.	-	0	ID=TBE6-bin-03.genome.CDS.2435;Product=Glutamate--cysteine ligase %28EC 6.3.2.2%29%2C divergent%2C of Alpha- and Beta-proteobacteria type
+TBE6-bin-03-scaffold_738	feature	CDS	27886	28827	.	-	0	ID=TBE6-bin-03.genome.CDS.2434;Product=Glutathione synthetase %28EC 6.3.2.3%29
+TBE6-bin-03-scaffold_738	feature	CDS	27443	27883	.	-	0	ID=TBE6-bin-03.genome.CDS.2433;Product=Sugar transport PTS system IIa component
+TBE6-bin-03-scaffold_738	feature	CDS	27173	27442	.	-	0	ID=TBE6-bin-03.genome.CDS.2432;Product=Phosphocarrier protein%2C nitrogen regulation associated
+TBE6-bin-03-scaffold_738	feature	CDS	25416	27170	.	-	0	ID=TBE6-bin-03.genome.CDS.2431;Product=Phosphoenolpyruvate-protein phosphotransferase of PTS system %28EC 2.7.3.9%29
+TBE6-bin-03-scaffold_738	feature	CDS	24644	25396	.	+	0	ID=TBE6-bin-03.genome.CDS.2430;Product=Dinucleotide-utilizing enzymes involved in molybdopterin and thiamine biosynthesis family 2
+TBE6-bin-03-scaffold_738	feature	CDS	23177	24616	.	+	0	ID=TBE6-bin-03.genome.CDS.2429;Product=Carboxyl-terminal protease %28EC 3.4.21.102%29
+TBE6-bin-03-scaffold_738	feature	CDS	22476	23165	.	+	0	ID=TBE6-bin-03.genome.CDS.2428;Product=Phosphoglycerate mutase %28EC 5.4.2.11%29
+TBE6-bin-03-scaffold_738	feature	CDS	22027	22440	.	-	0	ID=TBE6-bin-03.genome.CDS.2427;Product=FIG136845: Rhodanese-related sulfurtransferase
+TBE6-bin-03-scaffold_738	feature	CDS	21767	22021	.	-	0	ID=TBE6-bin-03.genome.CDS.2426;Product=Glutaredoxin 3 %28Grx3%29
+TBE6-bin-03-scaffold_738	feature	CDS	21220	21744	.	-	0	ID=TBE6-bin-03.genome.CDS.2425;Product=Protein export cytoplasm chaperone protein %28SecB%2C maintains protein to be exported in unfolded state%29
+TBE6-bin-03-scaffold_738	feature	CDS	20173	21195	.	-	0	ID=TBE6-bin-03.genome.CDS.2424;Product=Glycerol-3-phosphate dehydrogenase %5BNAD%28P%29%2B%5D %28EC 1.1.1.94%29
+TBE6-bin-03-scaffold_738	feature	CDS	19689	20159	.	+	0	ID=TBE6-bin-03.genome.CDS.2423;Product=tRNA %28cytidine%2834%29-2%27-O%29-methyltransferase %28EC 2.1.1.207%29
+TBE6-bin-03-scaffold_738	feature	CDS	18956	19696	.	+	0	ID=TBE6-bin-03.genome.CDS.2422;Product=
+TBE6-bin-03-scaffold_738	feature	CDS	18132	18932	.	-	0	ID=TBE6-bin-03.genome.CDS.2421;Product=SAM-dependent methyltransferase%2C BioC-like
+TBE6-bin-03-scaffold_738	feature	CDS	16802	17953	.	-	0	ID=TBE6-bin-03.genome.CDS.2420;Product=Cytochrome c oxidase polypeptide II %28EC 1.9.3.1%29
+TBE6-bin-03-scaffold_738	feature	CDS	15141	16760	.	-	0	ID=TBE6-bin-03.genome.CDS.2419;Product=Cytochrome c oxidase polypeptide I %28EC 1.9.3.1%29
+TBE6-bin-03-scaffold_738	feature	CDS	15026	15157	.	-	0	ID=TBE6-bin-03.genome.CDS.1115;Product=
+TBE6-bin-03-scaffold_738	feature	CDS	14418	15011	.	-	0	ID=TBE6-bin-03.genome.CDS.2418;Product=Cytochrome oxidase biogenesis protein Cox11-CtaG%2C copper delivery to Cox1
+TBE6-bin-03-scaffold_738	feature	CDS	14230	14421	.	-	0	ID=TBE6-bin-03.genome.CDS.2417;Product=Probable transmembrane protein
+TBE6-bin-03-scaffold_738	feature	CDS	13263	14099	.	-	0	ID=TBE6-bin-03.genome.CDS.2416;Product=Cytochrome c oxidase polypeptide III %28EC 1.9.3.1%29
+TBE6-bin-03-scaffold_738	feature	CDS	12993	13205	.	+	0	ID=TBE6-bin-03.genome.CDS.2415;Product=hypothetical protein
+TBE6-bin-03-scaffold_738	feature	CDS	12208	12978	.	-	0	ID=TBE6-bin-03.genome.CDS.2414;Product=Cytochrome oxidase biogenesis protein Surf1%2C facilitates heme A insertion
+TBE6-bin-03-scaffold_738	feature	CDS	11559	12215	.	-	0	ID=TBE6-bin-03.genome.CDS.2413;Product=hypothetical protein in Cytochrome oxidase biogenesis cluster
+TBE6-bin-03-scaffold_738	feature	CDS	10429	11559	.	-	0	ID=TBE6-bin-03.genome.CDS.2412;Product=Heme A synthase%2C cytochrome oxidase biogenesis protein Cox15-CtaA
+TBE6-bin-03-scaffold_738	feature	CDS	9539	10432	.	-	0	ID=TBE6-bin-03.genome.CDS.2411;Product=Heme O synthase%2C protoheme IX farnesyltransferase %28EC 2.5.1.-%29 COX10-CtaB
+TBE6-bin-03-scaffold_738	feature	CDS	8947	9507	.	-	0	ID=TBE6-bin-03.genome.CDS.2410;Product=Cytochrome oxidase biogenesis protein Sco1/SenC/PrrC%2C putative copper metallochaperone
+TBE6-bin-03-scaffold_738	feature	CDS	7995	8936	.	+	0	ID=TBE6-bin-03.genome.CDS.2409;Product=RNA polymerase sigma factor RpoH
+TBE6-bin-03-scaffold_738	feature	CDS	7012	7902	.	+	0	ID=TBE6-bin-03.genome.CDS.2408;Product=Signal recognition particle receptor protein FtsY %28%3Dalpha subunit%29 %28TC 3.A.5.1.1%29
+TBE6-bin-03-scaffold_738	feature	CDS	5581	6951	.	-	0	ID=TBE6-bin-03.genome.CDS.2407;Product=FIG015547: peptidase%2C M16 family
+TBE6-bin-03-scaffold_738	feature	CDS	4247	5584	.	-	0	ID=TBE6-bin-03.genome.CDS.2406;Product=FIG015287: Zinc protease
+TBE6-bin-03-scaffold_738	feature	CDS	3627	4244	.	-	0	ID=TBE6-bin-03.genome.CDS.2405;Product=16S rRNA %28guanine%28966%29-N%282%29%29-methyltransferase %28EC 2.1.1.171%29
+TBE6-bin-03-scaffold_738	feature	CDS	3100	3591	.	-	0	ID=TBE6-bin-03.genome.CDS.2404;Product=Phosphopantetheine adenylyltransferase %28EC 2.7.7.3%29
+TBE6-bin-03-scaffold_738	feature	CDS	2818	3081	.	-	0	ID=TBE6-bin-03.genome.CDS.2403;Product=4Fe-4S ferredoxin%2C iron-sulfur binding
+TBE6-bin-03-scaffold_738	feature	CDS	2231	2821	.	+	0	ID=TBE6-bin-03.genome.CDS.2402;Product=Peptidyl-tRNA hydrolase %28EC 3.1.1.29%29
+TBE6-bin-03-scaffold_738	feature	CDS	1493	2143	.	+	0	ID=TBE6-bin-03.genome.CDS.2401;Product=LSU ribosomal protein L25p
+TBE6-bin-03-scaffold_738	feature	CDS	147	1103	.	+	0	ID=TBE6-bin-03.genome.CDS.2400;Product=Ribose-phosphate pyrophosphokinase %28EC 2.7.6.1%29
+TBE6-bin-03-scaffold_738	feature	tRNA	4	80	.	+	.	ID=TBE6-bin-03.genome.rna.20;Product=tRNA-Gln-TTG
+TBE6-bin-03-scaffold_759	feature	CDS	9984	10943	.	-	0	ID=TBE6-bin-03.genome.CDS.1489;Product=DNA-directed RNA polymerase alpha subunit %28EC 2.7.7.6%29
+TBE6-bin-03-scaffold_759	feature	CDS	9575	9967	.	-	0	ID=TBE6-bin-03.genome.CDS.1488;Product=LSU ribosomal protein L17p
+TBE6-bin-03-scaffold_759	feature	CDS	9173	9505	.	-	0	ID=TBE6-bin-03.genome.CDS.1487;Product=Periplasmic divalent cation tolerance protein CutA
+TBE6-bin-03-scaffold_759	feature	CDS	8953	9087	.	-	0	ID=TBE6-bin-03.genome.CDS.225;Product=
+TBE6-bin-03-scaffold_759	feature	CDS	7301	8956	.	-	0	ID=TBE6-bin-03.genome.CDS.1486;Product=Cytochrome c-type biogenesis protein DsbD%2C protein-disulfide reductase %28EC 1.8.1.8%29
+TBE6-bin-03-scaffold_759	feature	CDS	6602	7300	.	+	0	ID=TBE6-bin-03.genome.CDS.223;Product=Porphobilinogen synthase %28EC 4.2.1.24%29
+TBE6-bin-03-scaffold_759	feature	CDS	6223	6597	.	+	0	ID=TBE6-bin-03.genome.CDS.1484;Product=Porphobilinogen synthase %28EC 4.2.1.24%29
+TBE6-bin-03-scaffold_759	feature	CDS	5574	6239	.	+	0	ID=TBE6-bin-03.genome.CDS.1483;Product=GTP-binding protein EngB
+TBE6-bin-03-scaffold_759	feature	CDS	5440	5553	.	+	0	ID=TBE6-bin-03.genome.CDS.219;Product=
+TBE6-bin-03-scaffold_759	feature	CDS	4743	5438	.	-	0	ID=TBE6-bin-03.genome.CDS.1482;Product=Cytochrome c4
+TBE6-bin-03-scaffold_759	feature	CDS	3379	4674	.	+	0	ID=TBE6-bin-03.genome.CDS.1481;Product=Diaminopimelate decarboxylase %28EC 4.1.1.20%29
+TBE6-bin-03-scaffold_759	feature	CDS	3184	3285	.	+	0	ID=TBE6-bin-03.genome.CDS.1480;Product=
+TBE6-bin-03-scaffold_759	feature	CDS	2790	3170	.	-	0	ID=TBE6-bin-03.genome.CDS.1479;Product=Frataxin homolog CyaY%2C facilitates iron supply for heme A synthesis or Fe-S cluster assembly
+TBE6-bin-03-scaffold_759	feature	CDS	2180	2806	.	+	0	ID=TBE6-bin-03.genome.CDS.1478;Product=3-dehydroquinate synthase %28EC 4.2.3.4%29
+TBE6-bin-03-scaffold_759	feature	CDS	1632	2183	.	+	0	ID=TBE6-bin-03.genome.CDS.1477;Product=3-dehydroquinate synthase %28EC 4.2.3.4%29
+TBE6-bin-03-scaffold_759	feature	CDS	1111	1635	.	+	0	ID=TBE6-bin-03.genome.CDS.213;Product=Shikimate kinase I %28EC 2.7.1.71%29
+TBE6-bin-03-scaffold_759	feature	CDS	1	1098	.	+	0	ID=TBE6-bin-03.genome.CDS.1475;Product=Type IV pilus biogenesis protein PilQ
+TBE6-bin-03-scaffold_837	feature	CDS	2042	2554	.	+	0	ID=TBE6-bin-03.genome.CDS.1876;Product=Outer membrane lipoprotein carrier protein LolA
+TBE6-bin-03-scaffold_837	feature	CDS	1114	2031	.	+	0	ID=TBE6-bin-03.genome.CDS.1875;Product=DNA translocase FtsK
+TBE6-bin-03-scaffold_837	feature	CDS	3	1100	.	+	0	ID=TBE6-bin-03.genome.CDS.1874;Product=DNA translocase FtsK
+TBE6-bin-03-scaffold_885	feature	CDS	2759	2980	.	-	0	ID=TBE6-bin-03.genome.CDS.1440;Product=protein of unknown function DUF1255
+TBE6-bin-03-scaffold_885	feature	CDS	2236	2694	.	+	0	ID=TBE6-bin-03.genome.CDS.1439;Product=FIG055667: Exported protein
+TBE6-bin-03-scaffold_885	feature	CDS	1927	2130	.	+	0	ID=TBE6-bin-03.genome.CDS.1438;Product=Cold shock protein CspD
+TBE6-bin-03-scaffold_885	feature	CDS	1293	1649	.	-	0	ID=TBE6-bin-03.genome.CDS.1437;Product=ATP-dependent Clp protease adaptor protein ClpS
+TBE6-bin-03-scaffold_885	feature	CDS	3	1226	.	-	0	ID=TBE6-bin-03.genome.CDS.1435;Product=ATP-dependent Clp protease ATP-binding subunit ClpA
+TBE6-bin-03-scaffold_894	feature	misc_RNA	3660	3769	.	+	.	ID=TBE6-bin-03.genome.repeat.2;Product=repeat region
+TBE6-bin-03-scaffold_894	feature	CDS	1104	3767	.	+	0	ID=TBE6-bin-03.genome.CDS.2314;Product=FAD/FMN-containing dehydrogenases
+TBE6-bin-03-scaffold_894	feature	CDS	740	1141	.	+	0	ID=TBE6-bin-03.genome.CDS.2313;Product=FAD/FMN-containing dehydrogenases
+TBE6-bin-03-scaffold_894	feature	CDS	3	605	.	-	0	ID=TBE6-bin-03.genome.CDS.2312;Product=Threonine dehydratase biosynthetic %28EC 4.3.1.19%29
+TBE6-bin-03-scaffold_9019	feature	CDS	6133	6249	.	+	0	ID=TBE6-bin-03.genome.CDS.2034;Product=
+TBE6-bin-03-scaffold_9019	feature	CDS	4661	6124	.	+	0	ID=TBE6-bin-03.genome.CDS.2033;Product=Glutamate synthase %5BNADPH%5D small chain %28EC 1.4.1.13%29
+TBE6-bin-03-scaffold_9019	feature	CDS	4211	4627	.	+	0	ID=TBE6-bin-03.genome.CDS.2032;Product=Glutamate synthase %5BNADPH%5D large chain %28EC 1.4.1.13%29
+TBE6-bin-03-scaffold_9019	feature	CDS	2676	4214	.	+	0	ID=TBE6-bin-03.genome.CDS.740;Product=Glutamate synthase %5BNADPH%5D large chain %28EC 1.4.1.13%29
+TBE6-bin-03-scaffold_9019	feature	CDS	88	2709	.	+	0	ID=TBE6-bin-03.genome.CDS.739;Product=Glutamate synthase %5BNADPH%5D large chain %28EC 1.4.1.13%29
+TBE6-bin-03-scaffold_9040	feature	tRNA	12249	12325	.	+	.	ID=TBE6-bin-03.genome.rna.8;Product=tRNA-Gln-TTG
+TBE6-bin-03-scaffold_9040	feature	CDS	11360	12244	.	+	0	ID=TBE6-bin-03.genome.CDS.1738;Product=4-diphosphocytidyl-2-C-methyl-D-erythritol kinase %28EC 2.7.1.148%29
+TBE6-bin-03-scaffold_9040	feature	CDS	9943	11367	.	+	0	ID=TBE6-bin-03.genome.CDS.1737;Product=TPR domain protein
+TBE6-bin-03-scaffold_9040	feature	CDS	9011	9847	.	-	0	ID=TBE6-bin-03.genome.CDS.1736;Product=Formamidopyrimidine-DNA glycosylase %28EC 3.2.2.23%29
+TBE6-bin-03-scaffold_9040	feature	CDS	7112	8041	.	+	0	ID=TBE6-bin-03.genome.CDS.460;Product=FIG000506: Predicted P-loop-containing kinase
+TBE6-bin-03-scaffold_9040	feature	CDS	6126	7112	.	+	0	ID=TBE6-bin-03.genome.CDS.1735;Product=HPr kinase/phosphorylase %28EC 2.7.1.-%29 %28EC 2.7.4.-%29
+TBE6-bin-03-scaffold_9040	feature	CDS	5668	6129	.	+	0	ID=TBE6-bin-03.genome.CDS.1734;Product=PTS IIA-like nitrogen-regulatory protein PtsN
+TBE6-bin-03-scaffold_9040	feature	CDS	5311	5634	.	+	0	ID=TBE6-bin-03.genome.CDS.1733;Product=Ribosome hibernation protein YhbH
+TBE6-bin-03-scaffold_9040	feature	CDS	4365	5129	.	+	0	ID=TBE6-bin-03.genome.CDS.1732;Product=Lipopolysaccharide ABC transporter%2C ATP-binding protein LptB
+TBE6-bin-03-scaffold_9040	feature	CDS	3853	4368	.	+	0	ID=TBE6-bin-03.genome.CDS.1731;Product=Protein yhbN precursor
+TBE6-bin-03-scaffold_9040	feature	CDS	3167	3805	.	+	0	ID=TBE6-bin-03.genome.CDS.1730;Product=Probable transmembrane protein
+TBE6-bin-03-scaffold_9040	feature	CDS	2968	3135	.	+	0	ID=TBE6-bin-03.genome.CDS.1729;Product=
+TBE6-bin-03-scaffold_9040	feature	CDS	2392	2964	.	+	0	ID=TBE6-bin-03.genome.CDS.1728;Product=3-deoxy-D-manno-octulosonate 8-phosphate phosphatase %28EC 3.1.3.45%29
+TBE6-bin-03-scaffold_9040	feature	CDS	1396	2388	.	+	0	ID=TBE6-bin-03.genome.CDS.1727;Product=Arabinose 5-phosphate isomerase %28EC 5.3.1.13%29
+TBE6-bin-03-scaffold_9040	feature	CDS	1154	1384	.	-	0	ID=TBE6-bin-03.genome.CDS.1726;Product=Glutathione-regulated potassium-efflux system protein KefB
+TBE6-bin-03-scaffold_9040	feature	CDS	3	1076	.	-	0	ID=TBE6-bin-03.genome.CDS.1725;Product=Glutathione-regulated potassium-efflux system protein KefB
+TBE6-bin-03-scaffold_927	feature	CDS	2582	3169	.	+	0	ID=TBE6-bin-03.genome.CDS.1434;Product=MotA/TolQ/ExbB proton channel family protein
+TBE6-bin-03-scaffold_927	feature	CDS	1858	2577	.	+	0	ID=TBE6-bin-03.genome.CDS.1433;Product=Ferric siderophore transport system%2C periplasmic binding protein TonB
+TBE6-bin-03-scaffold_927	feature	CDS	1344	1850	.	+	0	ID=TBE6-bin-03.genome.CDS.173;Product=Glutamate racemase %28EC 5.1.1.3%29
+TBE6-bin-03-scaffold_927	feature	CDS	862	1296	.	+	0	ID=TBE6-bin-03.genome.CDS.1431;Product=Glutamate racemase %28EC 5.1.1.3%29
+TBE6-bin-03-scaffold_927	feature	CDS	2	835	.	+	0	ID=TBE6-bin-03.genome.CDS.1430;Product=Fumarate hydratase class I%2C aerobic %28EC 4.2.1.2%29
+TBE6-bin-03-scaffold_978	feature	CDS	890	2530	.	+	0	ID=TBE6-bin-03.genome.CDS.2191;Product=Malate synthase G %28EC 2.3.3.9%29
+TBE6-bin-03-scaffold_978	feature	CDS	1	825	.	+	0	ID=TBE6-bin-03.genome.CDS.2190;Product=Adenylosuccinate synthetase %28EC 6.3.4.4%29
+TBE6-bin-03-scaffold_982	feature	CDS	3534	3806	.	-	0	ID=TBE6-bin-03.genome.CDS.1429;Product=Cell division protein
+TBE6-bin-03-scaffold_982	feature	CDS	2881	3537	.	-	0	ID=TBE6-bin-03.genome.CDS.1428;Product=Periplasmic thiol:disulfide interchange protein DsbA
+TBE6-bin-03-scaffold_982	feature	CDS	2081	2857	.	+	0	ID=TBE6-bin-03.genome.CDS.1427;Product=Oxidoreductase%2C short-chain dehydrogenase/reductase family %28EC 1.1.1.-%29
+TBE6-bin-03-scaffold_982	feature	CDS	1705	2067	.	+	0	ID=TBE6-bin-03.genome.CDS.1426;Product=Oxidoreductase%2C short-chain dehydrogenase/reductase family %28EC 1.1.1.-%29
+TBE6-bin-03-scaffold_982	feature	CDS	425	1708	.	+	0	ID=TBE6-bin-03.genome.CDS.1425;Product=S-adenosyl-L-methionine dependent methyltransferase%2C similar to cyclopropane-fatty-acyl-phospholipid synthase
+TBE6-bin-03-scaffold_982	feature	CDS	3	428	.	+	0	ID=TBE6-bin-03.genome.CDS.1424;Product=FIG001571: Hypothetical protein
+TBE6-bin-03-scaffold_6222	feature	CDS	16701	16796	.	+	0	ID=TBE6-bin-03.genome.CDS.2546;Product=Acyl carrier protein
+TBE6-bin-03-scaffold_6222	feature	CDS	15852	16595	.	+	0	ID=TBE6-bin-03.genome.CDS.2545;Product=3-oxoacyl-%5Bacyl-carrier protein%5D reductase %28EC 1.1.1.100%29
+TBE6-bin-03-scaffold_6222	feature	CDS	14878	15813	.	+	0	ID=TBE6-bin-03.genome.CDS.2544;Product=Malonyl CoA-acyl carrier protein transacylase %28EC 2.3.1.39%29
+TBE6-bin-03-scaffold_6222	feature	CDS	13868	14854	.	+	0	ID=TBE6-bin-03.genome.CDS.2543;Product=3-oxoacyl-%5Bacyl-carrier-protein%5D synthase%2C KASIII %28EC 2.3.1.180%29
+TBE6-bin-03-scaffold_6222	feature	CDS	12858	13871	.	+	0	ID=TBE6-bin-03.genome.CDS.2542;Product=Phosphate:acyl-ACP acyltransferase PlsX
+TBE6-bin-03-scaffold_6222	feature	CDS	12594	12773	.	+	0	ID=TBE6-bin-03.genome.CDS.2541;Product=LSU ribosomal protein L32p %40 LSU ribosomal protein L32p%2C zinc-independent
+TBE6-bin-03-scaffold_6222	feature	CDS	11910	12491	.	+	0	ID=TBE6-bin-03.genome.CDS.2540;Product=COG1399 protein%2C clustered with ribosomal protein L32p
+TBE6-bin-03-scaffold_6222	feature	CDS	11270	11878	.	-	0	ID=TBE6-bin-03.genome.CDS.2539;Product=Septum formation protein Maf
+TBE6-bin-03-scaffold_6222	feature	CDS	10500	11273	.	-	0	ID=TBE6-bin-03.genome.CDS.2538;Product=Tetrapyrrole methylase family protein
+TBE6-bin-03-scaffold_6222	feature	CDS	9550	10503	.	+	0	ID=TBE6-bin-03.genome.CDS.2537;Product=peptidase S49
+TBE6-bin-03-scaffold_6222	feature	CDS	8849	9532	.	+	0	ID=TBE6-bin-03.genome.CDS.2536;Product=Similar to phosphoglycolate phosphatase%2C clustered with ribosomal large subunit pseudouridine synthase C
+TBE6-bin-03-scaffold_6222	feature	CDS	7804	8847	.	+	0	ID=TBE6-bin-03.genome.CDS.2535;Product=Ribosomal large subunit pseudouridine synthase C %28EC 4.2.1.70%29
+TBE6-bin-03-scaffold_6222	feature	CDS	4666	7257	.	-	0	ID=TBE6-bin-03.genome.CDS.2534;Product=Ribonuclease E %28EC 3.1.26.12%29
+TBE6-bin-03-scaffold_6222	feature	CDS	4415	4669	.	-	0	ID=TBE6-bin-03.genome.CDS.2533;Product=Ribonuclease E %28EC 3.1.26.12%29
+TBE6-bin-03-scaffold_6222	feature	CDS	3756	4331	.	-	0	ID=TBE6-bin-03.genome.CDS.2532;Product=Cyclic pyranopterin monophosphate synthase %28EC 4.1.99.18%29
+TBE6-bin-03-scaffold_6222	feature	CDS	2876	3793	.	-	0	ID=TBE6-bin-03.genome.CDS.1225;Product=Cyclic pyranopterin monophosphate synthase %28EC 4.1.99.18%29
+TBE6-bin-03-scaffold_6222	feature	CDS	2271	2876	.	-	0	ID=TBE6-bin-03.genome.CDS.2530;Product=Molybdopterin-guanine dinucleotide biosynthesis protein MobA
+TBE6-bin-03-scaffold_6222	feature	CDS	976	2274	.	-	0	ID=TBE6-bin-03.genome.CDS.2529;Product=Molybdopterin biosynthesis protein MoeA
+TBE6-bin-03-scaffold_6222	feature	CDS	670	963	.	-	0	ID=TBE6-bin-03.genome.CDS.2528;Product=Permeases of the major facilitator superfamily
+TBE6-bin-03-scaffold_6222	feature	CDS	1	630	.	+	0	ID=TBE6-bin-03.genome.CDS.2527;Product=Glyoxylate reductase %28EC 1.1.1.79%29 / Glyoxylate reductase %28EC 1.1.1.26%29 / Hydroxypyruvate reductase %28EC 1.1.1.81%29%3B 2-ketoaldonate reductase%2C broad specificity %28EC 1.1.1.215%29 %28EC 1.1.1.-%29

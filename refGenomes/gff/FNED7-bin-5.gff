@@ -1,0 +1,1320 @@
+##gff-version 3
+FNED7-bin-5-scaffold_10122	feature	CDS	9790	12810	.	-	0	ID=FNED7-bin-5.genome.CDS.1694;Product=Glutamate synthase %5BNADPH%5D large chain %28EC 1.4.1.13%29
+FNED7-bin-5-scaffold_10122	feature	CDS	8340	9797	.	-	0	ID=FNED7-bin-5.genome.CDS.1693;Product=Glutamate synthase %5BNADPH%5D small chain %28EC 1.4.1.13%29
+FNED7-bin-5-scaffold_10122	feature	CDS	6864	8306	.	-	0	ID=FNED7-bin-5.genome.CDS.1692;Product=Pyruvate kinase %28EC 2.7.1.40%29
+FNED7-bin-5-scaffold_10122	feature	tRNA	6708	6780	.	-	.	ID=FNED7-bin-5.genome.rna.6;Product=tRNA-Leu-CAA
+FNED7-bin-5-scaffold_10122	feature	CDS	6095	6706	.	-	0	ID=FNED7-bin-5.genome.CDS.1691;Product=response regulator
+FNED7-bin-5-scaffold_10122	feature	CDS	4756	5919	.	-	0	ID=FNED7-bin-5.genome.CDS.1690;Product=Branched-chain amino acid ABC transporter%2C amino acid-binding protein %28TC 3.A.1.4.1%29
+FNED7-bin-5-scaffold_10122	feature	CDS	3676	4623	.	-	0	ID=FNED7-bin-5.genome.CDS.1689;Product=High-affinity branched-chain amino acid transport system permease protein LivH %28TC 3.A.1.4.1%29
+FNED7-bin-5-scaffold_10122	feature	CDS	2622	3668	.	-	0	ID=FNED7-bin-5.genome.CDS.1688;Product=Branched-chain amino acid transport system permease protein LivM %28TC 3.A.1.4.1%29
+FNED7-bin-5-scaffold_10122	feature	CDS	1853	2629	.	-	0	ID=FNED7-bin-5.genome.CDS.1687;Product=Branched-chain amino acid transport ATP-binding protein LivG %28TC 3.A.1.4.1%29
+FNED7-bin-5-scaffold_10122	feature	CDS	1144	1863	.	-	0	ID=FNED7-bin-5.genome.CDS.1686;Product=Branched-chain amino acid transport ATP-binding protein LivF %28TC 3.A.1.4.1%29
+FNED7-bin-5-scaffold_10122	feature	CDS	443	1123	.	+	0	ID=FNED7-bin-5.genome.CDS.1685;Product=salicylate esterase
+FNED7-bin-5-scaffold_10122	feature	CDS	39	443	.	+	0	ID=FNED7-bin-5.genome.CDS.1684;Product=ComA operon protein 2
+FNED7-bin-5-scaffold_1059	feature	CDS	4206	5276	.	+	0	ID=FNED7-bin-5.genome.CDS.1188;Product=Chromosome partition protein smc
+FNED7-bin-5-scaffold_1059	feature	CDS	3506	4138	.	+	0	ID=FNED7-bin-5.genome.CDS.1187;Product=Ribonuclease III %28EC 3.1.26.3%29
+FNED7-bin-5-scaffold_1059	feature	CDS	3280	3456	.	+	0	ID=FNED7-bin-5.genome.CDS.13;Product=LSU ribosomal protein L32p %40 LSU ribosomal protein L32p%2C zinc-dependent
+FNED7-bin-5-scaffold_1059	feature	CDS	2611	3174	.	+	0	ID=FNED7-bin-5.genome.CDS.1186;Product=COG1399 protein%2C clustered with ribosomal protein L32p
+FNED7-bin-5-scaffold_1059	feature	CDS	2116	2592	.	+	0	ID=FNED7-bin-5.genome.CDS.1185;Product=hypothetical protein
+FNED7-bin-5-scaffold_1059	feature	CDS	1616	2116	.	+	0	ID=FNED7-bin-5.genome.CDS.1184;Product=Phosphopantetheine adenylyltransferase %28EC 2.7.7.3%29
+FNED7-bin-5-scaffold_1059	feature	CDS	1041	1613	.	+	0	ID=FNED7-bin-5.genome.CDS.1183;Product=
+FNED7-bin-5-scaffold_1059	feature	CDS	3	1034	.	+	0	ID=FNED7-bin-5.genome.CDS.1182;Product=ATP-dependent DNA helicase RecG %28EC 3.6.1.-%29
+FNED7-bin-5-scaffold_10598	feature	CDS	2987	3469	.	+	0	ID=FNED7-bin-5.genome.CDS.1572;Product=Ribosomal RNA large subunit methyltransferase N %28EC 2.1.1.-%29
+FNED7-bin-5-scaffold_10598	feature	CDS	2130	2978	.	+	0	ID=FNED7-bin-5.genome.CDS.1571;Product=Phosphatidate cytidylyltransferase %28EC 2.7.7.41%29
+FNED7-bin-5-scaffold_10598	feature	CDS	1549	2112	.	+	0	ID=FNED7-bin-5.genome.CDS.1570;Product=Ribosome recycling factor
+FNED7-bin-5-scaffold_10598	feature	CDS	814	1530	.	+	0	ID=FNED7-bin-5.genome.CDS.1569;Product=Uridine monophosphate kinase %28EC 2.7.4.22%29
+FNED7-bin-5-scaffold_10598	feature	CDS	2	763	.	+	0	ID=FNED7-bin-5.genome.CDS.1568;Product=Translation elongation factor Ts
+FNED7-bin-5-scaffold_1060	feature	CDS	5832	6311	.	-	0	ID=FNED7-bin-5.genome.CDS.661;Product=Chaperone protein DnaK
+FNED7-bin-5-scaffold_1060	feature	CDS	5326	5823	.	-	0	ID=FNED7-bin-5.genome.CDS.1885;Product=Heat shock protein GrpE
+FNED7-bin-5-scaffold_1060	feature	CDS	4418	5326	.	-	0	ID=FNED7-bin-5.genome.CDS.1884;Product=Chaperone protein DnaJ
+FNED7-bin-5-scaffold_1060	feature	CDS	4038	4421	.	-	0	ID=FNED7-bin-5.genome.CDS.1883;Product=HspR%2C transcriptional repressor of DnaK operon
+FNED7-bin-5-scaffold_1060	feature	CDS	3495	4028	.	-	0	ID=FNED7-bin-5.genome.CDS.1882;Product=Orotate phosphoribosyltransferase %28EC 2.4.2.10%29
+FNED7-bin-5-scaffold_1060	feature	CDS	2919	3491	.	+	0	ID=FNED7-bin-5.genome.CDS.1881;Product=
+FNED7-bin-5-scaffold_1060	feature	CDS	381	2642	.	-	0	ID=FNED7-bin-5.genome.CDS.1880;Product=Pyrophosphate-energized proton pump %28EC 3.6.1.1%29
+FNED7-bin-5-scaffold_1060	feature	CDS	3	338	.	-	0	ID=FNED7-bin-5.genome.CDS.1879;Product=DNA topoisomerase I %28EC 5.99.1.2%29
+FNED7-bin-5-scaffold_10771	feature	CDS	5120	5602	.	-	0	ID=FNED7-bin-5.genome.CDS.1352;Product=Chaperone protein DnaK
+FNED7-bin-5-scaffold_10771	feature	CDS	4614	5111	.	-	0	ID=FNED7-bin-5.genome.CDS.1351;Product=Heat shock protein GrpE
+FNED7-bin-5-scaffold_10771	feature	CDS	3694	4614	.	-	0	ID=FNED7-bin-5.genome.CDS.1350;Product=Chaperone protein DnaJ
+FNED7-bin-5-scaffold_10771	feature	CDS	3314	3697	.	-	0	ID=FNED7-bin-5.genome.CDS.1349;Product=HspR%2C transcriptional repressor of DnaK operon
+FNED7-bin-5-scaffold_10771	feature	CDS	2771	3304	.	-	0	ID=FNED7-bin-5.genome.CDS.1348;Product=Orotate phosphoribosyltransferase %28EC 2.4.2.10%29
+FNED7-bin-5-scaffold_10771	feature	CDS	2129	2767	.	+	0	ID=FNED7-bin-5.genome.CDS.1347;Product=
+FNED7-bin-5-scaffold_10771	feature	CDS	3	1988	.	-	0	ID=FNED7-bin-5.genome.CDS.1346;Product=Pyrophosphate-energized proton pump %28EC 3.6.1.1%29
+FNED7-bin-5-scaffold_1092	feature	tRNA	15700	15789	.	+	.	ID=FNED7-bin-5.genome.rna.5;Product=tRNA-Ser-CGA
+FNED7-bin-5-scaffold_1092	feature	CDS	15232	15681	.	+	0	ID=FNED7-bin-5.genome.CDS.1506;Product=tRNA-specific adenosine-34 deaminase %28EC 3.5.4.-%29
+FNED7-bin-5-scaffold_1092	feature	CDS	14766	15245	.	+	0	ID=FNED7-bin-5.genome.CDS.1505;Product=
+FNED7-bin-5-scaffold_1092	feature	CDS	14067	14702	.	-	0	ID=FNED7-bin-5.genome.CDS.1504;Product=Uracil phosphoribosyltransferase %28EC 2.4.2.9%29
+FNED7-bin-5-scaffold_1092	feature	CDS	12742	14067	.	-	0	ID=FNED7-bin-5.genome.CDS.1503;Product=NADP-dependent malic enzyme %28EC 1.1.1.40%29
+FNED7-bin-5-scaffold_1092	feature	CDS	11633	12739	.	-	0	ID=FNED7-bin-5.genome.CDS.1502;Product=Galactose-1-phosphate uridylyltransferase %28EC 2.7.7.10%29
+FNED7-bin-5-scaffold_1092	feature	CDS	9902	11653	.	+	0	ID=FNED7-bin-5.genome.CDS.1501;Product=COG0488: ATPase components of ABC transporters with duplicated ATPase domains
+FNED7-bin-5-scaffold_1092	feature	CDS	8754	9902	.	+	0	ID=FNED7-bin-5.genome.CDS.1500;Product=hypothetical protein
+FNED7-bin-5-scaffold_1092	feature	CDS	7454	8671	.	+	0	ID=FNED7-bin-5.genome.CDS.1499;Product=
+FNED7-bin-5-scaffold_1092	feature	CDS	7068	7454	.	+	0	ID=FNED7-bin-5.genome.CDS.1498;Product=hypothetical protein
+FNED7-bin-5-scaffold_1092	feature	CDS	6315	7058	.	+	0	ID=FNED7-bin-5.genome.CDS.1497;Product=hypothetical protein
+FNED7-bin-5-scaffold_1092	feature	CDS	5142	6284	.	-	0	ID=FNED7-bin-5.genome.CDS.1496;Product=Cell envelope-associated transcriptional attenuator LytR-CpsA-Psr%2C subfamily A1 %28as in PMID19099556%29
+FNED7-bin-5-scaffold_1092	feature	CDS	4192	5142	.	-	0	ID=FNED7-bin-5.genome.CDS.1495;Product=hypothetical protein
+FNED7-bin-5-scaffold_1092	feature	CDS	3913	4164	.	-	0	ID=FNED7-bin-5.genome.CDS.1494;Product=
+FNED7-bin-5-scaffold_1092	feature	CDS	3512	3916	.	-	0	ID=FNED7-bin-5.genome.CDS.1493;Product=hypothetical protein
+FNED7-bin-5-scaffold_1092	feature	CDS	3071	3511	.	+	0	ID=FNED7-bin-5.genome.CDS.1492;Product=
+FNED7-bin-5-scaffold_1092	feature	CDS	2567	3043	.	+	0	ID=FNED7-bin-5.genome.CDS.1491;Product=
+FNED7-bin-5-scaffold_1092	feature	CDS	1580	2470	.	-	0	ID=FNED7-bin-5.genome.CDS.1490;Product=Heme ABC transporter%2C cell surface heme and hemoprotein receptor HmuT
+FNED7-bin-5-scaffold_1092	feature	CDS	603	1583	.	-	0	ID=FNED7-bin-5.genome.CDS.1489;Product=hypothetical protein
+FNED7-bin-5-scaffold_1092	feature	CDS	5	610	.	-	0	ID=FNED7-bin-5.genome.CDS.1488;Product=
+FNED7-bin-5-scaffold_1187	feature	CDS	3498	4100	.	-	0	ID=FNED7-bin-5.genome.CDS.1878;Product=
+FNED7-bin-5-scaffold_1187	feature	CDS	2991	3485	.	-	0	ID=FNED7-bin-5.genome.CDS.1877;Product=hypothetical protein
+FNED7-bin-5-scaffold_1187	feature	CDS	1190	2974	.	-	0	ID=FNED7-bin-5.genome.CDS.1876;Product=Serine/threonine protein kinase PrkC%2C regulator of stationary phase
+FNED7-bin-5-scaffold_1187	feature	CDS	305	1180	.	-	0	ID=FNED7-bin-5.genome.CDS.1875;Product=Endonuclease IV %28EC 3.1.21.2%29
+FNED7-bin-5-scaffold_1187	feature	CDS	3	308	.	-	0	ID=FNED7-bin-5.genome.CDS.1874;Product=
+FNED7-bin-5-scaffold_12681	feature	misc_RNA	1051	1219	.	+	.	ID=FNED7-bin-5.genome.repeat.9;Product=repeat region
+FNED7-bin-5-scaffold_12681	feature	CDS	2853	4889	.	+	0	ID=FNED7-bin-5.genome.CDS.1800;Product=ATP-dependent DNA helicase UvrD/PcrA
+FNED7-bin-5-scaffold_12681	feature	CDS	1943	2668	.	-	0	ID=FNED7-bin-5.genome.CDS.1799;Product=hypothetical protein
+FNED7-bin-5-scaffold_12681	feature	CDS	1619	1942	.	+	0	ID=FNED7-bin-5.genome.CDS.1798;Product=
+FNED7-bin-5-scaffold_12681	feature	CDS	1191	1601	.	+	0	ID=FNED7-bin-5.genome.CDS.1797;Product=Probable peptidyl-prolyl cis-trans isomerase B %28EC 5.2.1.8%29 %28PPIase B%29 %28Rotamase B%29
+FNED7-bin-5-scaffold_12681	feature	CDS	1	1200	.	+	0	ID=FNED7-bin-5.genome.CDS.1796;Product=GMP synthase %5Bglutamine-hydrolyzing%5D %28EC 6.3.5.2%29
+FNED7-bin-5-scaffold_1289	feature	CDS	3439	3609	.	+	0	ID=FNED7-bin-5.genome.CDS.1181;Product=
+FNED7-bin-5-scaffold_1289	feature	CDS	2662	3327	.	-	0	ID=FNED7-bin-5.genome.CDS.1180;Product=Phosphoserine phosphatase %28EC 3.1.3.3%29
+FNED7-bin-5-scaffold_1289	feature	CDS	1989	2279	.	+	0	ID=FNED7-bin-5.genome.CDS.6;Product=
+FNED7-bin-5-scaffold_1289	feature	CDS	1107	1844	.	-	0	ID=FNED7-bin-5.genome.CDS.1179;Product=
+FNED7-bin-5-scaffold_1289	feature	CDS	1	1020	.	-	0	ID=FNED7-bin-5.genome.CDS.1178;Product=Glycyl-tRNA synthetase %28EC 6.1.1.14%29
+FNED7-bin-5-scaffold_12993	feature	CDS	2012	2962	.	-	0	ID=FNED7-bin-5.genome.CDS.1752;Product=Phosphoglucosamine mutase %28EC 5.4.2.10%29
+FNED7-bin-5-scaffold_12993	feature	CDS	164	1984	.	-	0	ID=FNED7-bin-5.genome.CDS.1751;Product=Glucosamine--fructose-6-phosphate aminotransferase %5Bisomerizing%5D %28EC 2.6.1.16%29
+FNED7-bin-5-scaffold_12993	feature	CDS	3	164	.	-	0	ID=FNED7-bin-5.genome.CDS.1750;Product=
+FNED7-bin-5-scaffold_1385	feature	CDS	1890	3035	.	+	0	ID=FNED7-bin-5.genome.CDS.1483;Product=hypothetical protein
+FNED7-bin-5-scaffold_1385	feature	CDS	1198	1806	.	+	0	ID=FNED7-bin-5.genome.CDS.1482;Product=
+FNED7-bin-5-scaffold_1385	feature	CDS	3	1139	.	+	0	ID=FNED7-bin-5.genome.CDS.1481;Product=Leucyl-tRNA synthetase %28EC 6.1.1.4%29
+FNED7-bin-5-scaffold_1398	feature	CDS	3394	4689	.	-	0	ID=FNED7-bin-5.genome.CDS.1379;Product=Cell division trigger factor %28EC 5.2.1.8%29
+FNED7-bin-5-scaffold_1398	feature	CDS	2652	3254	.	-	0	ID=FNED7-bin-5.genome.CDS.1378;Product=ATP-dependent Clp protease proteolytic subunit %28EC 3.4.21.92%29
+FNED7-bin-5-scaffold_1398	feature	CDS	2020	2655	.	-	0	ID=FNED7-bin-5.genome.CDS.1377;Product=ATP-dependent Clp protease proteolytic subunit %28EC 3.4.21.92%29
+FNED7-bin-5-scaffold_1398	feature	CDS	635	1930	.	-	0	ID=FNED7-bin-5.genome.CDS.1376;Product=ATP-dependent Clp protease ATP-binding subunit ClpX
+FNED7-bin-5-scaffold_1398	feature	CDS	2	610	.	-	0	ID=FNED7-bin-5.genome.CDS.1375;Product=Valyl-tRNA synthetase %28EC 6.1.1.9%29
+FNED7-bin-5-scaffold_15106	feature	CDS	3077	3793	.	-	0	ID=FNED7-bin-5.genome.CDS.1201;Product=
+FNED7-bin-5-scaffold_15106	feature	CDS	2517	3080	.	-	0	ID=FNED7-bin-5.genome.CDS.1200;Product=hypothetical protein
+FNED7-bin-5-scaffold_15106	feature	CDS	2074	2517	.	-	0	ID=FNED7-bin-5.genome.CDS.22;Product=FIG00820755: hypothetical protein
+FNED7-bin-5-scaffold_15106	feature	CDS	1749	2087	.	-	0	ID=FNED7-bin-5.genome.CDS.1198;Product=FIG00820755: hypothetical protein
+FNED7-bin-5-scaffold_15106	feature	CDS	469	1722	.	-	0	ID=FNED7-bin-5.genome.CDS.1197;Product=L-cysteine:1D-myo-inosityl 2-amino-2-deoxy-alpha-D-glucopyranoside ligase MshC
+FNED7-bin-5-scaffold_15106	feature	CDS	2	430	.	-	0	ID=FNED7-bin-5.genome.CDS.1196;Product=5-methyltetrahydrofolate--homocysteine methyltransferase %28EC 2.1.1.13%29
+FNED7-bin-5-scaffold_1561	feature	CDS	3884	4330	.	+	0	ID=FNED7-bin-5.genome.CDS.1177;Product=SSU ribosomal protein S16p
+FNED7-bin-5-scaffold_1561	feature	CDS	2282	3721	.	+	0	ID=FNED7-bin-5.genome.CDS.1176;Product=Signal recognition particle%2C subunit Ffh SRP54 %28TC 3.A.5.1.1%29
+FNED7-bin-5-scaffold_1561	feature	CDS	1616	2272	.	+	0	ID=FNED7-bin-5.genome.CDS.1175;Product=%5BProtein-PII%5D uridylyltransferase %28EC 2.7.7.59%29
+FNED7-bin-5-scaffold_1561	feature	CDS	1	1629	.	+	0	ID=FNED7-bin-5.genome.CDS.1174;Product=%5BProtein-PII%5D uridylyltransferase %28EC 2.7.7.59%29
+FNED7-bin-5-scaffold_157	feature	CDS	7517	7591	.	+	0	ID=FNED7-bin-5.genome.CDS.2349;Product=
+FNED7-bin-5-scaffold_157	feature	CDS	6780	7478	.	+	0	ID=FNED7-bin-5.genome.CDS.2348;Product=Orotidine 5%27-phosphate decarboxylase %28EC 4.1.1.23%29
+FNED7-bin-5-scaffold_157	feature	CDS	5843	6787	.	+	0	ID=FNED7-bin-5.genome.CDS.2347;Product=Dihydroorotate dehydrogenase%2C catalytic subunit %28EC 1.3.3.1%29
+FNED7-bin-5-scaffold_157	feature	CDS	4986	5846	.	+	0	ID=FNED7-bin-5.genome.CDS.2346;Product=Dihydroorotate dehydrogenase electron transfer subunit %28EC 1.3.3.1%29
+FNED7-bin-5-scaffold_157	feature	CDS	1716	4985	.	+	0	ID=FNED7-bin-5.genome.CDS.2345;Product=Carbamoyl-phosphate synthase large chain %28EC 6.3.5.5%29
+FNED7-bin-5-scaffold_157	feature	CDS	518	1723	.	+	0	ID=FNED7-bin-5.genome.CDS.2344;Product=Carbamoyl-phosphate synthase small chain %28EC 6.3.5.5%29
+FNED7-bin-5-scaffold_157	feature	CDS	1	525	.	+	0	ID=FNED7-bin-5.genome.CDS.2343;Product=Dihydroorotase %28EC 3.5.2.3%29
+FNED7-bin-5-scaffold_1639	feature	CDS	2678	2743	.	+	0	ID=FNED7-bin-5.genome.CDS.1891;Product=
+FNED7-bin-5-scaffold_1639	feature	CDS	1705	2634	.	-	0	ID=FNED7-bin-5.genome.CDS.1890;Product=hypothetical protein
+FNED7-bin-5-scaffold_1639	feature	CDS	1218	1712	.	-	0	ID=FNED7-bin-5.genome.CDS.1889;Product=Carbonic anhydrase %28EC 4.2.1.1%29
+FNED7-bin-5-scaffold_1639	feature	CDS	1051	1221	.	+	0	ID=FNED7-bin-5.genome.CDS.1888;Product=Replicative DNA helicase %28EC 3.6.1.-%29
+FNED7-bin-5-scaffold_1639	feature	CDS	3	1082	.	+	0	ID=FNED7-bin-5.genome.CDS.1887;Product=Replicative DNA helicase %28DnaB%29 %28EC 3.6.4.12%29
+FNED7-bin-5-scaffold_1647	feature	CDS	9033	9767	.	+	0	ID=FNED7-bin-5.genome.CDS.2158;Product=Isochorismate synthase %28EC 5.4.4.2%29 %40 Menaquinone-specific isochorismate synthase %28EC 5.4.4.2%29
+FNED7-bin-5-scaffold_1647	feature	CDS	8245	8787	.	+	0	ID=FNED7-bin-5.genome.CDS.2156;Product=Substrate-specific component BioY of biotin ECF transporter
+FNED7-bin-5-scaffold_1647	feature	CDS	7470	8171	.	-	0	ID=FNED7-bin-5.genome.CDS.919;Product=Demethylmenaquinone methyltransferase %28EC 2.1.1.163%29
+FNED7-bin-5-scaffold_1647	feature	CDS	6484	7470	.	-	0	ID=FNED7-bin-5.genome.CDS.2154;Product=Solanesyl diphosphate synthase %28EC 2.5.1.11%29
+FNED7-bin-5-scaffold_1647	feature	CDS	5626	6525	.	+	0	ID=FNED7-bin-5.genome.CDS.2153;Product=Protein rarD
+FNED7-bin-5-scaffold_1647	feature	CDS	5130	5618	.	+	0	ID=FNED7-bin-5.genome.CDS.2152;Product=UPF0234 protein YajQ
+FNED7-bin-5-scaffold_1647	feature	CDS	3659	5137	.	+	0	ID=FNED7-bin-5.genome.CDS.2151;Product=Cytosine/purine/uracil/thiamine/allantoin permease family protein
+FNED7-bin-5-scaffold_1647	feature	CDS	3233	3649	.	-	0	ID=FNED7-bin-5.genome.CDS.2150;Product=
+FNED7-bin-5-scaffold_1647	feature	CDS	2283	3236	.	+	0	ID=FNED7-bin-5.genome.CDS.2149;Product=Inosose dehydratase %28EC 4.2.1.44%29
+FNED7-bin-5-scaffold_1647	feature	CDS	369	2282	.	+	0	ID=FNED7-bin-5.genome.CDS.2148;Product=Epi-inositol hydrolase %28EC 3.7.1.-%29
+FNED7-bin-5-scaffold_1647	feature	CDS	1	354	.	+	0	ID=FNED7-bin-5.genome.CDS.2147;Product=5-deoxy-glucuronate isomerase %28EC 5.3.1.-%29
+FNED7-bin-5-scaffold_1654	feature	CDS	1896	3107	.	+	0	ID=FNED7-bin-5.genome.CDS.1173;Product=putative ABC transporter substrate-binding protein
+FNED7-bin-5-scaffold_1654	feature	CDS	797	1864	.	+	0	ID=FNED7-bin-5.genome.CDS.1172;Product=Alcohol dehydrogenase %28EC 1.1.1.1%29
+FNED7-bin-5-scaffold_1654	feature	CDS	3	680	.	-	0	ID=FNED7-bin-5.genome.CDS.1171;Product=Pca regulon regulatory protein PcaR
+FNED7-bin-5-scaffold_1715	feature	CDS	5034	5654	.	-	0	ID=FNED7-bin-5.genome.CDS.1470;Product=ATP synthase beta chain %28EC 3.6.3.14%29
+FNED7-bin-5-scaffold_1715	feature	CDS	4774	5031	.	-	0	ID=FNED7-bin-5.genome.CDS.1469;Product=ATP synthase epsilon chain %28EC 3.6.3.14%29
+FNED7-bin-5-scaffold_1715	feature	CDS	3515	4777	.	+	0	ID=FNED7-bin-5.genome.CDS.1468;Product=UDP-N-acetylglucosamine 1-carboxyvinyltransferase %28EC 2.5.1.7%29
+FNED7-bin-5-scaffold_1715	feature	CDS	2879	3454	.	-	0	ID=FNED7-bin-5.genome.CDS.1467;Product=ATP:Cob%28I%29alamin adenosyltransferase %28EC 2.5.1.17%29
+FNED7-bin-5-scaffold_1715	feature	CDS	2171	2872	.	+	0	ID=FNED7-bin-5.genome.CDS.1466;Product=hypothetical protein
+FNED7-bin-5-scaffold_1715	feature	CDS	1389	2171	.	+	0	ID=FNED7-bin-5.genome.CDS.1465;Product=ABC-type multidrug transport system%2C permease component
+FNED7-bin-5-scaffold_1715	feature	CDS	469	1392	.	+	0	ID=FNED7-bin-5.genome.CDS.1464;Product=hypothetical protein
+FNED7-bin-5-scaffold_1715	feature	CDS	67	378	.	-	0	ID=FNED7-bin-5.genome.CDS.1463;Product=
+FNED7-bin-5-scaffold_1801	feature	CDS	3522	4298	.	+	0	ID=FNED7-bin-5.genome.CDS.2174;Product=Transcription antitermination protein NusG
+FNED7-bin-5-scaffold_1801	feature	CDS	3287	3511	.	+	0	ID=FNED7-bin-5.genome.CDS.2173;Product=Preprotein translocase subunit SecE %28TC 3.A.5.1.1%29
+FNED7-bin-5-scaffold_1801	feature	CDS	3028	3261	.	+	0	ID=FNED7-bin-5.genome.CDS.935;Product=
+FNED7-bin-5-scaffold_1801	feature	CDS	1751	2962	.	-	0	ID=FNED7-bin-5.genome.CDS.2172;Product=Aspartate aminotransferase %28EC 2.6.1.1%29
+FNED7-bin-5-scaffold_1801	feature	CDS	733	1749	.	+	0	ID=FNED7-bin-5.genome.CDS.2171;Product=UDP-N-acetylenolpyruvoylglucosamine reductase %28EC 1.3.1.98%29
+FNED7-bin-5-scaffold_1801	feature	CDS	1	723	.	+	0	ID=FNED7-bin-5.genome.CDS.2170;Product=
+FNED7-bin-5-scaffold_1805	feature	CDS	9405	9710	.	-	0	ID=FNED7-bin-5.genome.CDS.2275;Product=Imidazoleglycerol-phosphate dehydratase %28EC 4.2.1.19%29
+FNED7-bin-5-scaffold_1805	feature	CDS	8812	9408	.	-	0	ID=FNED7-bin-5.genome.CDS.2274;Product=Imidazole glycerol phosphate synthase amidotransferase subunit %28EC 2.4.2.-%29
+FNED7-bin-5-scaffold_1805	feature	CDS	8078	8812	.	-	0	ID=FNED7-bin-5.genome.CDS.2273;Product=Phosphoribosylformimino-5-aminoimidazole carboxamide ribotide isomerase %28EC 5.3.1.16%29 %40 Acting phosphoribosylanthranilate isomerase %28EC 5.3.1.24%29
+FNED7-bin-5-scaffold_1805	feature	CDS	7254	8081	.	-	0	ID=FNED7-bin-5.genome.CDS.2272;Product=Imidazole glycerol phosphate synthase cyclase subunit %28EC 4.1.3.-%29
+FNED7-bin-5-scaffold_1805	feature	CDS	6879	7229	.	-	0	ID=FNED7-bin-5.genome.CDS.2271;Product=Phosphoribosyl-AMP cyclohydrolase %28EC 3.5.4.19%29
+FNED7-bin-5-scaffold_1805	feature	CDS	5390	6886	.	-	0	ID=FNED7-bin-5.genome.CDS.2270;Product=Anthranilate synthase%2C aminase component %28EC 4.1.3.27%29
+FNED7-bin-5-scaffold_1805	feature	CDS	5223	5390	.	-	0	ID=FNED7-bin-5.genome.CDS.2269;Product=
+FNED7-bin-5-scaffold_1805	feature	CDS	4954	5226	.	-	0	ID=FNED7-bin-5.genome.CDS.2268;Product=Indole-3-glycerol phosphate synthase %28EC 4.1.1.48%29
+FNED7-bin-5-scaffold_1805	feature	CDS	4338	4997	.	-	0	ID=FNED7-bin-5.genome.CDS.2267;Product=Indole-3-glycerol phosphate synthase %28EC 4.1.1.48%29
+FNED7-bin-5-scaffold_1805	feature	CDS	3118	4317	.	-	0	ID=FNED7-bin-5.genome.CDS.2266;Product=Tryptophan synthase beta chain %28EC 4.2.1.20%29
+FNED7-bin-5-scaffold_1805	feature	CDS	2320	3117	.	-	0	ID=FNED7-bin-5.genome.CDS.2265;Product=Tryptophan synthase alpha chain %28EC 4.2.1.20%29
+FNED7-bin-5-scaffold_1805	feature	CDS	1820	2323	.	-	0	ID=FNED7-bin-5.genome.CDS.2264;Product=
+FNED7-bin-5-scaffold_1805	feature	CDS	1131	1820	.	-	0	ID=FNED7-bin-5.genome.CDS.2263;Product=hypothetical protein
+FNED7-bin-5-scaffold_1805	feature	CDS	306	1088	.	-	0	ID=FNED7-bin-5.genome.CDS.2262;Product=Prolipoprotein diacylglyceryl transferase %28EC 2.4.99.-%29
+FNED7-bin-5-scaffold_1805	feature	CDS	3	284	.	-	0	ID=FNED7-bin-5.genome.CDS.2261;Product=
+FNED7-bin-5-scaffold_18459	feature	CDS	4776	5819	.	+	0	ID=FNED7-bin-5.genome.CDS.2142;Product=Glutamine synthetase type I %28EC 6.3.1.2%29
+FNED7-bin-5-scaffold_18459	feature	CDS	1424	4732	.	+	0	ID=FNED7-bin-5.genome.CDS.2141;Product=DNA polymerase III alpha subunit %28EC 2.7.7.7%29
+FNED7-bin-5-scaffold_18459	feature	CDS	1067	1411	.	+	0	ID=FNED7-bin-5.genome.CDS.2140;Product=
+FNED7-bin-5-scaffold_18459	feature	CDS	284	1012	.	+	0	ID=FNED7-bin-5.genome.CDS.2139;Product=hypothetical protein
+FNED7-bin-5-scaffold_18459	feature	CDS	3	266	.	+	0	ID=FNED7-bin-5.genome.CDS.2138;Product=Alanine dehydrogenase %28EC 1.4.1.1%29
+FNED7-bin-5-scaffold_1885	feature	CDS	3988	4500	.	+	0	ID=FNED7-bin-5.genome.CDS.2039;Product=Oligopeptide transport ATP-binding protein OppF %28TC 3.A.1.5.1%29
+FNED7-bin-5-scaffold_1885	feature	CDS	3230	3988	.	+	0	ID=FNED7-bin-5.genome.CDS.2038;Product=Oligopeptide transport ATP-binding protein OppD %28TC 3.A.1.5.1%29
+FNED7-bin-5-scaffold_1885	feature	CDS	2920	3210	.	+	0	ID=FNED7-bin-5.genome.CDS.2037;Product=Oligopeptide transport ATP-binding protein OppD %28TC 3.A.1.5.1%29
+FNED7-bin-5-scaffold_1885	feature	CDS	1925	2923	.	+	0	ID=FNED7-bin-5.genome.CDS.2036;Product=Dipeptide transport system permease protein DppB %28TC 3.A.1.5.2%29
+FNED7-bin-5-scaffold_1885	feature	CDS	46	1803	.	+	0	ID=FNED7-bin-5.genome.CDS.2035;Product=Oligopeptide ABC transporter%2C periplasmic oligopeptide-binding protein OppA %28TC 3.A.1.5.1%29
+FNED7-bin-5-scaffold_1938	feature	CDS	1512	4178	.	+	0	ID=FNED7-bin-5.genome.CDS.1450;Product=ATP-dependent DNA helicase SCO5184
+FNED7-bin-5-scaffold_1938	feature	CDS	1	1512	.	+	0	ID=FNED7-bin-5.genome.CDS.1449;Product=ATP-dependent DNA helicase SCO5183
+FNED7-bin-5-scaffold_19685	feature	CDS	5267	5710	.	-	0	ID=FNED7-bin-5.genome.CDS.1428;Product=Oligopeptide transport ATP-binding protein OppF %28TC 3.A.1.5.1%29
+FNED7-bin-5-scaffold_19685	feature	CDS	3698	5266	.	+	0	ID=FNED7-bin-5.genome.CDS.1427;Product=Metallopeptidase
+FNED7-bin-5-scaffold_19685	feature	CDS	3175	3726	.	+	0	ID=FNED7-bin-5.genome.CDS.1426;Product=Metallopeptidase
+FNED7-bin-5-scaffold_19685	feature	CDS	2648	3145	.	-	0	ID=FNED7-bin-5.genome.CDS.1425;Product=Transcriptional regulator%2C MarR family
+FNED7-bin-5-scaffold_19685	feature	CDS	902	2170	.	+	0	ID=FNED7-bin-5.genome.CDS.1424;Product=hypothetical protein
+FNED7-bin-5-scaffold_19685	feature	CDS	42	872	.	+	0	ID=FNED7-bin-5.genome.CDS.1423;Product=3-methyl-2-oxobutanoate hydroxymethyltransferase %28EC 2.1.2.11%29
+FNED7-bin-5-scaffold_1982	feature	CDS	6604	7254	.	+	0	ID=FNED7-bin-5.genome.CDS.1715;Product=NAD%28P%29 transhydrogenase alpha subunit %28EC 1.6.1.2%29
+FNED7-bin-5-scaffold_1982	feature	CDS	5722	6528	.	+	0	ID=FNED7-bin-5.genome.CDS.1714;Product=Ornithine carbamoyltransferase %28EC 2.1.3.3%29
+FNED7-bin-5-scaffold_1982	feature	CDS	5517	5681	.	+	0	ID=FNED7-bin-5.genome.CDS.1713;Product=
+FNED7-bin-5-scaffold_1982	feature	CDS	5226	5486	.	-	0	ID=FNED7-bin-5.genome.CDS.1712;Product=hypothetical protein
+FNED7-bin-5-scaffold_1982	feature	CDS	3439	5226	.	-	0	ID=FNED7-bin-5.genome.CDS.1711;Product=hypothetical protein
+FNED7-bin-5-scaffold_1982	feature	CDS	3140	3442	.	-	0	ID=FNED7-bin-5.genome.CDS.1710;Product=ATP-dependent Clp protease adaptor protein ClpS
+FNED7-bin-5-scaffold_1982	feature	CDS	2960	3130	.	-	0	ID=FNED7-bin-5.genome.CDS.1709;Product=
+FNED7-bin-5-scaffold_1982	feature	CDS	2454	2873	.	-	0	ID=FNED7-bin-5.genome.CDS.1708;Product=
+FNED7-bin-5-scaffold_1982	feature	CDS	1798	2304	.	-	0	ID=FNED7-bin-5.genome.CDS.1707;Product=
+FNED7-bin-5-scaffold_1982	feature	CDS	1209	1757	.	-	0	ID=FNED7-bin-5.genome.CDS.1706;Product=hypothetical protein
+FNED7-bin-5-scaffold_1982	feature	CDS	265	1071	.	-	0	ID=FNED7-bin-5.genome.CDS.1705;Product=Glutamate racemase %28EC 5.1.1.3%29
+FNED7-bin-5-scaffold_1982	feature	CDS	1	240	.	-	0	ID=FNED7-bin-5.genome.CDS.1704;Product=Ribonuclease PH %28EC 2.7.7.56%29
+FNED7-bin-5-scaffold_20392	feature	CDS	3297	4577	.	+	0	ID=FNED7-bin-5.genome.CDS.1556;Product=UDP-N-acetylmuramoylalanyl-D-glutamate--2%2C6-diaminopimelate ligase %28EC 6.3.2.13%29
+FNED7-bin-5-scaffold_20392	feature	CDS	1474	3294	.	+	0	ID=FNED7-bin-5.genome.CDS.1555;Product=Cell division protein FtsI %5BPeptidoglycan synthetase%5D %28EC 2.4.1.129%29
+FNED7-bin-5-scaffold_20392	feature	CDS	1082	1477	.	+	0	ID=FNED7-bin-5.genome.CDS.1554;Product=hypothetical protein
+FNED7-bin-5-scaffold_20392	feature	CDS	114	1082	.	+	0	ID=FNED7-bin-5.genome.CDS.1553;Product=rRNA small subunit methyltransferase H
+FNED7-bin-5-scaffold_212	feature	CDS	4342	4734	.	+	0	ID=FNED7-bin-5.genome.CDS.1195;Product=tRNA dimethylallyltransferase %28EC 2.5.1.75%29
+FNED7-bin-5-scaffold_212	feature	CDS	2912	4345	.	+	0	ID=FNED7-bin-5.genome.CDS.19;Product=tRNA-i%286%29A37 methylthiotransferase
+FNED7-bin-5-scaffold_212	feature	CDS	2566	2892	.	+	0	ID=FNED7-bin-5.genome.CDS.18;Product=
+FNED7-bin-5-scaffold_212	feature	CDS	2079	2522	.	+	0	ID=FNED7-bin-5.genome.CDS.1192;Product=
+FNED7-bin-5-scaffold_212	feature	CDS	993	2075	.	+	0	ID=FNED7-bin-5.genome.CDS.1191;Product=RecA protein
+FNED7-bin-5-scaffold_212	feature	CDS	622	813	.	+	0	ID=FNED7-bin-5.genome.CDS.1190;Product=
+FNED7-bin-5-scaffold_212	feature	CDS	1	570	.	-	0	ID=FNED7-bin-5.genome.CDS.1189;Product=hypothetical protein
+FNED7-bin-5-scaffold_21247	feature	misc_RNA	1	101	.	+	.	ID=FNED7-bin-5.genome.repeat.7;Product=repeat region
+FNED7-bin-5-scaffold_21247	feature	misc_RNA	5180	5280	.	+	.	ID=FNED7-bin-5.genome.repeat.8;Product=repeat region
+FNED7-bin-5-scaffold_21247	feature	CDS	5180	5278	.	-	0	ID=FNED7-bin-5.genome.CDS.1341;Product=
+FNED7-bin-5-scaffold_21247	feature	CDS	3237	5087	.	-	0	ID=FNED7-bin-5.genome.CDS.1340;Product=hypothetical protein
+FNED7-bin-5-scaffold_21247	feature	CDS	2014	3219	.	-	0	ID=FNED7-bin-5.genome.CDS.1339;Product=UDP-glucose 6-dehydrogenase %28EC 1.1.1.22%29
+FNED7-bin-5-scaffold_21247	feature	CDS	1058	2017	.	-	0	ID=FNED7-bin-5.genome.CDS.1338;Product=dTDP-glucose 4%2C6-dehydratase %28EC 4.2.1.46%29
+FNED7-bin-5-scaffold_21247	feature	CDS	305	1057	.	+	0	ID=FNED7-bin-5.genome.CDS.1337;Product=
+FNED7-bin-5-scaffold_21247	feature	CDS	3	101	.	+	0	ID=FNED7-bin-5.genome.CDS.1336;Product=
+FNED7-bin-5-scaffold_215	feature	CDS	5860	6354	.	-	0	ID=FNED7-bin-5.genome.CDS.2307;Product=Vitamin B12 ABC transporter%2C permease component BtuC
+FNED7-bin-5-scaffold_215	feature	CDS	4982	5863	.	-	0	ID=FNED7-bin-5.genome.CDS.2306;Product=
+FNED7-bin-5-scaffold_215	feature	CDS	3865	4998	.	+	0	ID=FNED7-bin-5.genome.CDS.2305;Product=Aminomethyltransferase %28glycine cleavage system T protein%29 %28EC 2.1.2.10%29
+FNED7-bin-5-scaffold_215	feature	CDS	2322	3809	.	-	0	ID=FNED7-bin-5.genome.CDS.2304;Product=Cytosol aminopeptidase PepA %28EC 3.4.11.1%29
+FNED7-bin-5-scaffold_215	feature	CDS	1672	2241	.	-	0	ID=FNED7-bin-5.genome.CDS.2303;Product=Dihydrolipoamide dehydrogenase of branched-chain alpha-keto acid dehydrogenase %28EC 1.8.1.4%29
+FNED7-bin-5-scaffold_215	feature	CDS	551	1690	.	-	0	ID=FNED7-bin-5.genome.CDS.2302;Product=Dihydrolipoamide dehydrogenase of branched-chain alpha-keto acid dehydrogenase %28EC 1.8.1.4%29
+FNED7-bin-5-scaffold_215	feature	CDS	3	536	.	-	0	ID=FNED7-bin-5.genome.CDS.2301;Product=Dihydrolipoamide acyltransferase component of branched-chain alpha-keto acid dehydrogenase complex %28EC 2.3.1.168%29
+FNED7-bin-5-scaffold_22352	feature	CDS	2686	3408	.	-	0	ID=FNED7-bin-5.genome.CDS.1766;Product=hypothetical protein
+FNED7-bin-5-scaffold_22352	feature	CDS	2199	2693	.	-	0	ID=FNED7-bin-5.genome.CDS.1765;Product=Carbonic anhydrase %28EC 4.2.1.1%29
+FNED7-bin-5-scaffold_22352	feature	CDS	802	2202	.	+	0	ID=FNED7-bin-5.genome.CDS.1764;Product=Replicative DNA helicase %28DnaB%29 %28EC 3.6.4.12%29
+FNED7-bin-5-scaffold_22352	feature	CDS	76	522	.	+	0	ID=FNED7-bin-5.genome.CDS.1763;Product=LSU ribosomal protein L9p
+FNED7-bin-5-scaffold_22448	feature	CDS	5054	5764	.	+	0	ID=FNED7-bin-5.genome.CDS.1762;Product=Rod shape-determining protein MreC
+FNED7-bin-5-scaffold_22448	feature	CDS	3990	5036	.	+	0	ID=FNED7-bin-5.genome.CDS.1761;Product=Rod shape-determining protein MreB
+FNED7-bin-5-scaffold_22448	feature	CDS	3562	3990	.	+	0	ID=FNED7-bin-5.genome.CDS.1760;Product=Nucleoside diphosphate kinase %28EC 2.7.4.6%29
+FNED7-bin-5-scaffold_22448	feature	CDS	3257	3583	.	+	0	ID=FNED7-bin-5.genome.CDS.1759;Product=
+FNED7-bin-5-scaffold_22448	feature	CDS	1878	3239	.	+	0	ID=FNED7-bin-5.genome.CDS.1758;Product=Dihydrofolate synthase %28EC 6.3.2.12%29 %40 Folylpolyglutamate synthase %28EC 6.3.2.17%29
+FNED7-bin-5-scaffold_22448	feature	CDS	1	1875	.	+	0	ID=FNED7-bin-5.genome.CDS.1757;Product=Valyl-tRNA synthetase %28EC 6.1.1.9%29
+FNED7-bin-5-scaffold_22637	feature	misc_RNA	3439	3607	.	+	.	ID=FNED7-bin-5.genome.repeat.15;Product=repeat region
+FNED7-bin-5-scaffold_22637	feature	CDS	2678	3607	.	+	0	ID=FNED7-bin-5.genome.CDS.2246;Product=SSU ribosomal protein S1p
+FNED7-bin-5-scaffold_22637	feature	CDS	1393	2574	.	-	0	ID=FNED7-bin-5.genome.CDS.2245;Product=hypothetical protein
+FNED7-bin-5-scaffold_22637	feature	CDS	1	1407	.	+	0	ID=FNED7-bin-5.genome.CDS.2244;Product=DNA polymerase I %28EC 2.7.7.7%29
+FNED7-bin-5-scaffold_23049	feature	CDS	5279	5680	.	+	0	ID=FNED7-bin-5.genome.CDS.1335;Product=
+FNED7-bin-5-scaffold_23049	feature	CDS	4360	5286	.	+	0	ID=FNED7-bin-5.genome.CDS.1334;Product=1-phosphofructokinase %28EC 2.7.1.56%29
+FNED7-bin-5-scaffold_23049	feature	CDS	3219	4187	.	+	0	ID=FNED7-bin-5.genome.CDS.1333;Product=ribose ABC transporter%2C periplasmic binding protein
+FNED7-bin-5-scaffold_23049	feature	CDS	2128	3207	.	+	0	ID=FNED7-bin-5.genome.CDS.1332;Product=Ribose ABC transport system%2C permease protein RbsC %28TC 3.A.1.2.1%29
+FNED7-bin-5-scaffold_23049	feature	CDS	1369	2127	.	+	0	ID=FNED7-bin-5.genome.CDS.1331;Product=Fructose ABC transporter%2C ATP-binding component FrcA
+FNED7-bin-5-scaffold_23049	feature	CDS	712	1242	.	+	0	ID=FNED7-bin-5.genome.CDS.1330;Product=
+FNED7-bin-5-scaffold_23049	feature	CDS	1	711	.	+	0	ID=FNED7-bin-5.genome.CDS.1329;Product=hypothetical protein
+FNED7-bin-5-scaffold_2311	feature	misc_RNA	8720	8924	.	+	.	ID=FNED7-bin-5.genome.repeat.3;Product=repeat region
+FNED7-bin-5-scaffold_2311	feature	CDS	8022	8747	.	+	0	ID=FNED7-bin-5.genome.CDS.2096;Product=Uracil-DNA glycosylase%2C family 5
+FNED7-bin-5-scaffold_2311	feature	CDS	7129	8040	.	+	0	ID=FNED7-bin-5.genome.CDS.2095;Product=Exopolyphosphatase %28EC 3.6.1.11%29
+FNED7-bin-5-scaffold_2311	feature	CDS	7028	7138	.	+	0	ID=FNED7-bin-5.genome.CDS.2094;Product=Exopolyphosphatase %28EC 3.6.1.11%29
+FNED7-bin-5-scaffold_2311	feature	CDS	6546	7037	.	+	0	ID=FNED7-bin-5.genome.CDS.2093;Product=FIG004853: possible toxin to DivIC
+FNED7-bin-5-scaffold_2311	feature	CDS	6160	6549	.	+	0	ID=FNED7-bin-5.genome.CDS.2092;Product=
+FNED7-bin-5-scaffold_2311	feature	CDS	4862	6142	.	+	0	ID=FNED7-bin-5.genome.CDS.2091;Product=Enolase %28EC 4.2.1.11%29
+FNED7-bin-5-scaffold_2311	feature	CDS	4208	4852	.	+	0	ID=FNED7-bin-5.genome.CDS.2090;Product=Nucleoside triphosphate pyrophosphohydrolase MazG %28EC 3.6.1.8%29
+FNED7-bin-5-scaffold_2311	feature	CDS	3589	4200	.	+	0	ID=FNED7-bin-5.genome.CDS.2089;Product=
+FNED7-bin-5-scaffold_2311	feature	CDS	2962	3576	.	+	0	ID=FNED7-bin-5.genome.CDS.855;Product=Transcription-repair coupling factor
+FNED7-bin-5-scaffold_2311	feature	CDS	3	2891	.	+	0	ID=FNED7-bin-5.genome.CDS.2087;Product=Transcription-repair coupling factor
+FNED7-bin-5-scaffold_23216	feature	CDS	4830	5288	.	+	0	ID=FNED7-bin-5.genome.CDS.1328;Product=
+FNED7-bin-5-scaffold_23216	feature	CDS	4549	4830	.	+	0	ID=FNED7-bin-5.genome.CDS.1327;Product=
+FNED7-bin-5-scaffold_23216	feature	CDS	3759	4436	.	+	0	ID=FNED7-bin-5.genome.CDS.1326;Product=hypothetical protein
+FNED7-bin-5-scaffold_23216	feature	CDS	3138	3755	.	+	0	ID=FNED7-bin-5.genome.CDS.1325;Product=hypothetical protein
+FNED7-bin-5-scaffold_23216	feature	CDS	2834	3094	.	+	0	ID=FNED7-bin-5.genome.CDS.1324;Product=
+FNED7-bin-5-scaffold_23216	feature	CDS	2226	2756	.	+	0	ID=FNED7-bin-5.genome.CDS.1323;Product=
+FNED7-bin-5-scaffold_23216	feature	CDS	1	2037	.	-	0	ID=FNED7-bin-5.genome.CDS.1322;Product=hypothetical protein
+FNED7-bin-5-scaffold_233	feature	misc_RNA	1775	1903	.	+	.	ID=FNED7-bin-5.genome.repeat.26;Product=repeat region
+FNED7-bin-5-scaffold_233	feature	CDS	9700	9945	.	+	0	ID=FNED7-bin-5.genome.CDS.1598;Product=Ribonuclease PH %28EC 2.7.7.56%29
+FNED7-bin-5-scaffold_233	feature	CDS	8875	9681	.	+	0	ID=FNED7-bin-5.genome.CDS.1597;Product=Glutamate racemase %28EC 5.1.1.3%29
+FNED7-bin-5-scaffold_233	feature	CDS	8267	8833	.	+	0	ID=FNED7-bin-5.genome.CDS.1596;Product=
+FNED7-bin-5-scaffold_233	feature	CDS	7955	8257	.	+	0	ID=FNED7-bin-5.genome.CDS.1595;Product=ATP-dependent Clp protease adaptor protein ClpS
+FNED7-bin-5-scaffold_233	feature	CDS	7458	7958	.	+	0	ID=FNED7-bin-5.genome.CDS.1594;Product=
+FNED7-bin-5-scaffold_233	feature	CDS	6040	7374	.	+	0	ID=FNED7-bin-5.genome.CDS.1593;Product=hypothetical protein
+FNED7-bin-5-scaffold_233	feature	CDS	5780	6040	.	+	0	ID=FNED7-bin-5.genome.CDS.1592;Product=hypothetical protein
+FNED7-bin-5-scaffold_233	feature	CDS	4811	5749	.	-	0	ID=FNED7-bin-5.genome.CDS.1591;Product=Ornithine carbamoyltransferase %28EC 2.1.3.3%29
+FNED7-bin-5-scaffold_233	feature	CDS	3620	4735	.	-	0	ID=FNED7-bin-5.genome.CDS.1590;Product=NAD%28P%29 transhydrogenase alpha subunit %28EC 1.6.1.2%29
+FNED7-bin-5-scaffold_233	feature	CDS	3295	3609	.	-	0	ID=FNED7-bin-5.genome.CDS.1589;Product=NAD%28P%29 transhydrogenase alpha subunit %28EC 1.6.1.2%29
+FNED7-bin-5-scaffold_233	feature	CDS	1919	3298	.	-	0	ID=FNED7-bin-5.genome.CDS.1588;Product=NAD%28P%29 transhydrogenase subunit beta %28EC 1.6.1.2%29
+FNED7-bin-5-scaffold_233	feature	CDS	642	1784	.	-	0	ID=FNED7-bin-5.genome.CDS.1587;Product=Carboxyl-terminal protease %28EC 3.4.21.102%29
+FNED7-bin-5-scaffold_233	feature	CDS	113	592	.	-	0	ID=FNED7-bin-5.genome.CDS.1586;Product=tmRNA-binding protein SmpB
+FNED7-bin-5-scaffold_23705	feature	CDS	5069	6214	.	+	0	ID=FNED7-bin-5.genome.CDS.1771;Product=hypothetical protein
+FNED7-bin-5-scaffold_23705	feature	CDS	4145	5017	.	+	0	ID=FNED7-bin-5.genome.CDS.1770;Product=Large exoproteins involved in heme utilization or adhesion
+FNED7-bin-5-scaffold_23705	feature	CDS	2972	3919	.	+	0	ID=FNED7-bin-5.genome.CDS.1769;Product=hypothetical protein
+FNED7-bin-5-scaffold_23705	feature	CDS	913	2742	.	+	0	ID=FNED7-bin-5.genome.CDS.1768;Product=hypothetical protein
+FNED7-bin-5-scaffold_23705	feature	CDS	3	764	.	+	0	ID=FNED7-bin-5.genome.CDS.1767;Product=
+FNED7-bin-5-scaffold_2446	feature	CDS	15250	17001	.	-	0	ID=FNED7-bin-5.genome.CDS.2224;Product=Aconitate hydratase %28EC 4.2.1.3%29
+FNED7-bin-5-scaffold_2446	feature	CDS	13260	15185	.	-	0	ID=FNED7-bin-5.genome.CDS.2223;Product=1-deoxy-D-xylulose 5-phosphate synthase %28EC 2.2.1.7%29
+FNED7-bin-5-scaffold_2446	feature	CDS	11173	12441	.	+	0	ID=FNED7-bin-5.genome.CDS.2221;Product=Ribonuclease D %28EC 3.1.26.3%29
+FNED7-bin-5-scaffold_2446	feature	CDS	10606	11163	.	+	0	ID=FNED7-bin-5.genome.CDS.2220;Product=Uncharacterized protein Q1 colocalized with Q
+FNED7-bin-5-scaffold_2446	feature	CDS	10065	10577	.	+	0	ID=FNED7-bin-5.genome.CDS.2219;Product=
+FNED7-bin-5-scaffold_2446	feature	CDS	9522	10037	.	-	0	ID=FNED7-bin-5.genome.CDS.2218;Product=hypothetical protein
+FNED7-bin-5-scaffold_2446	feature	CDS	8872	9501	.	-	0	ID=FNED7-bin-5.genome.CDS.978;Product=
+FNED7-bin-5-scaffold_2446	feature	CDS	8160	8858	.	-	0	ID=FNED7-bin-5.genome.CDS.977;Product=
+FNED7-bin-5-scaffold_2446	feature	CDS	7081	7647	.	+	0	ID=FNED7-bin-5.genome.CDS.2214;Product=
+FNED7-bin-5-scaffold_2446	feature	CDS	5259	7043	.	+	0	ID=FNED7-bin-5.genome.CDS.2213;Product=Long-chain-fatty-acid--CoA ligase %28EC 6.2.1.3%29
+FNED7-bin-5-scaffold_2446	feature	CDS	4266	5222	.	-	0	ID=FNED7-bin-5.genome.CDS.2212;Product=Putative sugar kinase
+FNED7-bin-5-scaffold_2446	feature	CDS	3169	4245	.	+	0	ID=FNED7-bin-5.genome.CDS.2211;Product=hypothetical protein
+FNED7-bin-5-scaffold_2446	feature	CDS	2369	3013	.	-	0	ID=FNED7-bin-5.genome.CDS.2210;Product=1-acyl-sn-glycerol-3-phosphate acyltransferase %28EC 2.3.1.51%29
+FNED7-bin-5-scaffold_2446	feature	CDS	1698	2372	.	+	0	ID=FNED7-bin-5.genome.CDS.2209;Product=hypothetical protein
+FNED7-bin-5-scaffold_2446	feature	CDS	1016	1666	.	+	0	ID=FNED7-bin-5.genome.CDS.2208;Product=hypothetical protein
+FNED7-bin-5-scaffold_2446	feature	CDS	3	989	.	+	0	ID=FNED7-bin-5.genome.CDS.2207;Product=HoxN/HupN/NixA family nickel/cobalt transporter
+FNED7-bin-5-scaffold_24574	feature	CDS	2856	3956	.	+	0	ID=FNED7-bin-5.genome.CDS.1756;Product=Prolyl-tRNA synthetase %28EC 6.1.1.15%29%2C bacterial type
+FNED7-bin-5-scaffold_24574	feature	CDS	1676	2827	.	+	0	ID=FNED7-bin-5.genome.CDS.1755;Product=1-hydroxy-2-methyl-2-%28E%29-butenyl 4-diphosphate synthase %28EC 1.17.7.1%29
+FNED7-bin-5-scaffold_24574	feature	CDS	469	1656	.	+	0	ID=FNED7-bin-5.genome.CDS.1754;Product=Membrane-associated zinc metalloprotease
+FNED7-bin-5-scaffold_24574	feature	CDS	2	469	.	+	0	ID=FNED7-bin-5.genome.CDS.1753;Product=1-deoxy-D-xylulose 5-phosphate reductoisomerase %28EC 1.1.1.267%29
+FNED7-bin-5-scaffold_25417	feature	CDS	7153	8400	.	-	0	ID=FNED7-bin-5.genome.CDS.1567;Product=Serine hydroxymethyltransferase %28EC 2.1.2.1%29
+FNED7-bin-5-scaffold_25417	feature	CDS	6019	7128	.	-	0	ID=FNED7-bin-5.genome.CDS.1566;Product=Undecaprenyl-phosphate N-acetylglucosaminyl 1-phosphate transferase %28EC 2.7.8.-%29
+FNED7-bin-5-scaffold_25417	feature	CDS	5797	5988	.	-	0	ID=FNED7-bin-5.genome.CDS.1565;Product=
+FNED7-bin-5-scaffold_25417	feature	CDS	5375	5794	.	-	0	ID=FNED7-bin-5.genome.CDS.1564;Product=
+FNED7-bin-5-scaffold_25417	feature	CDS	5168	5365	.	-	0	ID=FNED7-bin-5.genome.CDS.1563;Product=
+FNED7-bin-5-scaffold_25417	feature	CDS	4254	5018	.	-	0	ID=FNED7-bin-5.genome.CDS.1562;Product=ATP synthase F0 sector subunit a %28EC 3.6.3.14%29
+FNED7-bin-5-scaffold_25417	feature	CDS	3983	4189	.	-	0	ID=FNED7-bin-5.genome.CDS.1561;Product=ATP synthase F0 sector subunit c %28EC 3.6.3.14%29
+FNED7-bin-5-scaffold_25417	feature	CDS	3407	3967	.	-	0	ID=FNED7-bin-5.genome.CDS.1560;Product=ATP synthase F0 sector subunit b %28EC 3.6.3.14%29
+FNED7-bin-5-scaffold_25417	feature	CDS	2583	3410	.	-	0	ID=FNED7-bin-5.genome.CDS.1559;Product=hypothetical protein
+FNED7-bin-5-scaffold_25417	feature	CDS	970	2526	.	-	0	ID=FNED7-bin-5.genome.CDS.1558;Product=ATP synthase alpha chain %28EC 3.6.3.14%29
+FNED7-bin-5-scaffold_25417	feature	CDS	36	962	.	-	0	ID=FNED7-bin-5.genome.CDS.1557;Product=ATP synthase gamma chain %28EC 3.6.3.14%29
+FNED7-bin-5-scaffold_26001	feature	misc_RNA	9643	9847	.	+	.	ID=FNED7-bin-5.genome.repeat.23;Product=repeat region
+FNED7-bin-5-scaffold_26001	feature	CDS	9162	9839	.	+	0	ID=FNED7-bin-5.genome.CDS.2186;Product=putative integral membrane protein
+FNED7-bin-5-scaffold_26001	feature	CDS	7811	9169	.	+	0	ID=FNED7-bin-5.genome.CDS.2185;Product=Aminotransferase class-III
+FNED7-bin-5-scaffold_26001	feature	CDS	6429	7736	.	-	0	ID=FNED7-bin-5.genome.CDS.2184;Product=Enoyl-%5Bacyl-carrier-protein%5D reductase %5BFMN%5D %28EC 1.3.1.9%29
+FNED7-bin-5-scaffold_26001	feature	CDS	6236	6394	.	-	0	ID=FNED7-bin-5.genome.CDS.946;Product=
+FNED7-bin-5-scaffold_26001	feature	CDS	5295	6188	.	-	0	ID=FNED7-bin-5.genome.CDS.2182;Product=
+FNED7-bin-5-scaffold_26001	feature	CDS	5064	5255	.	-	0	ID=FNED7-bin-5.genome.CDS.2181;Product=
+FNED7-bin-5-scaffold_26001	feature	CDS	4490	5062	.	+	0	ID=FNED7-bin-5.genome.CDS.2180;Product=
+FNED7-bin-5-scaffold_26001	feature	CDS	3156	4409	.	-	0	ID=FNED7-bin-5.genome.CDS.2179;Product=Ammonium transporter
+FNED7-bin-5-scaffold_26001	feature	CDS	2809	3147	.	-	0	ID=FNED7-bin-5.genome.CDS.2178;Product=Nitrogen regulatory protein P-II
+FNED7-bin-5-scaffold_26001	feature	CDS	2459	2812	.	+	0	ID=FNED7-bin-5.genome.CDS.2177;Product=hypothetical protein
+FNED7-bin-5-scaffold_26001	feature	CDS	1812	2456	.	+	0	ID=FNED7-bin-5.genome.CDS.2176;Product=hypothetical protein
+FNED7-bin-5-scaffold_26001	feature	CDS	130	1683	.	-	0	ID=FNED7-bin-5.genome.CDS.2175;Product=hypothetical protein
+FNED7-bin-5-scaffold_26372	feature	CDS	5161	6291	.	-	0	ID=FNED7-bin-5.genome.CDS.2257;Product=Ribonuclease D %28EC 3.1.26.3%29
+FNED7-bin-5-scaffold_26372	feature	CDS	4929	5096	.	-	0	ID=FNED7-bin-5.genome.CDS.2256;Product=Ferrous iron transport permease EfeU
+FNED7-bin-5-scaffold_26372	feature	CDS	2256	4253	.	+	0	ID=FNED7-bin-5.genome.CDS.2254;Product=1-deoxy-D-xylulose 5-phosphate synthase %28EC 2.2.1.7%29
+FNED7-bin-5-scaffold_26372	feature	CDS	1811	2191	.	+	0	ID=FNED7-bin-5.genome.CDS.2253;Product=Aconitate hydratase %28EC 4.2.1.3%29
+FNED7-bin-5-scaffold_26372	feature	CDS	28	1746	.	+	0	ID=FNED7-bin-5.genome.CDS.1008;Product=Aconitate hydratase %28EC 4.2.1.3%29
+FNED7-bin-5-scaffold_26546	feature	CDS	4008	4961	.	+	0	ID=FNED7-bin-5.genome.CDS.1550;Product=Branched-chain amino acid aminotransferase %28EC 2.6.1.42%29
+FNED7-bin-5-scaffold_26546	feature	CDS	3222	4007	.	+	0	ID=FNED7-bin-5.genome.CDS.1549;Product=3-isopropylmalate dehydrogenase %28EC 1.1.1.85%29
+FNED7-bin-5-scaffold_26546	feature	CDS	2806	3198	.	+	0	ID=FNED7-bin-5.genome.CDS.1548;Product=3-isopropylmalate dehydrogenase %28EC 1.1.1.85%29
+FNED7-bin-5-scaffold_26546	feature	CDS	1937	2806	.	+	0	ID=FNED7-bin-5.genome.CDS.1547;Product=D-3-phosphoglycerate dehydrogenase %28EC 1.1.1.95%29
+FNED7-bin-5-scaffold_26546	feature	CDS	1137	1982	.	+	0	ID=FNED7-bin-5.genome.CDS.343;Product=D-3-phosphoglycerate dehydrogenase %28EC 1.1.1.95%29
+FNED7-bin-5-scaffold_26546	feature	CDS	113	1144	.	+	0	ID=FNED7-bin-5.genome.CDS.1545;Product=Ketol-acid reductoisomerase %28EC 1.1.1.86%29
+FNED7-bin-5-scaffold_27290	feature	CDS	5247	5354	.	-	0	ID=FNED7-bin-5.genome.CDS.1683;Product=tRNA-guanine transglycosylase %28EC 2.4.2.29%29
+FNED7-bin-5-scaffold_27290	feature	CDS	4479	5240	.	+	0	ID=FNED7-bin-5.genome.CDS.1682;Product=Putative cytoplasmic protein
+FNED7-bin-5-scaffold_27290	feature	CDS	3905	4441	.	+	0	ID=FNED7-bin-5.genome.CDS.1681;Product=
+FNED7-bin-5-scaffold_27290	feature	CDS	3513	3920	.	+	0	ID=FNED7-bin-5.genome.CDS.1680;Product=
+FNED7-bin-5-scaffold_27290	feature	CDS	2355	3494	.	-	0	ID=FNED7-bin-5.genome.CDS.1679;Product=hypothetical protein
+FNED7-bin-5-scaffold_27290	feature	CDS	1883	2353	.	+	0	ID=FNED7-bin-5.genome.CDS.1678;Product=
+FNED7-bin-5-scaffold_27290	feature	CDS	881	1849	.	+	0	ID=FNED7-bin-5.genome.CDS.1677;Product=
+FNED7-bin-5-scaffold_27290	feature	CDS	243	884	.	+	0	ID=FNED7-bin-5.genome.CDS.1676;Product=Ubiquinol--cytochrome c reductase%2C cytochrome B subunit %28EC 1.10.2.2%29
+FNED7-bin-5-scaffold_27290	feature	CDS	85	246	.	+	0	ID=FNED7-bin-5.genome.CDS.1675;Product=
+FNED7-bin-5-scaffold_27568	feature	CDS	2852	3235	.	+	0	ID=FNED7-bin-5.genome.CDS.1321;Product=Shikimate DH-like protein associated with RibB / Shikimate 5-dehydrogenase I alpha %28EC 1.1.1.25%29
+FNED7-bin-5-scaffold_27568	feature	CDS	2172	2804	.	-	0	ID=FNED7-bin-5.genome.CDS.1320;Product=Pantothenate kinase %28EC 2.7.1.33%29
+FNED7-bin-5-scaffold_27568	feature	CDS	685	2172	.	-	0	ID=FNED7-bin-5.genome.CDS.1319;Product=Glucose-methanol-choline %28GMC%29 oxidoreductase:NAD binding site
+FNED7-bin-5-scaffold_27568	feature	CDS	3	674	.	+	0	ID=FNED7-bin-5.genome.CDS.1318;Product=Fructose ABC transporter%2C ATP-binding component FrcA
+FNED7-bin-5-scaffold_2789	feature	CDS	1790	2818	.	-	0	ID=FNED7-bin-5.genome.CDS.1523;Product=Aspartokinase %28EC 2.7.2.4%29
+FNED7-bin-5-scaffold_2789	feature	CDS	669	1793	.	-	0	ID=FNED7-bin-5.genome.CDS.1522;Product=Aspartate-semialdehyde dehydrogenase %28EC 1.2.1.11%29
+FNED7-bin-5-scaffold_2789	feature	CDS	3	665	.	+	0	ID=FNED7-bin-5.genome.CDS.1521;Product=putative secreted protein
+FNED7-bin-5-scaffold_2799	feature	CDS	3187	3657	.	+	0	ID=FNED7-bin-5.genome.CDS.1225;Product=Ribosomal RNA small subunit methyltransferase E %28EC 2.1.1.-%29
+FNED7-bin-5-scaffold_2799	feature	CDS	2153	3187	.	+	0	ID=FNED7-bin-5.genome.CDS.1224;Product=Chaperone protein DnaJ
+FNED7-bin-5-scaffold_2799	feature	CDS	1807	2199	.	+	0	ID=FNED7-bin-5.genome.CDS.1223;Product=Chaperone protein DnaJ
+FNED7-bin-5-scaffold_2799	feature	CDS	930	1814	.	+	0	ID=FNED7-bin-5.genome.CDS.1222;Product=Heat-inducible transcription repressor HrcA
+FNED7-bin-5-scaffold_2799	feature	CDS	1	915	.	+	0	ID=FNED7-bin-5.genome.CDS.1221;Product=Hypothetical radical SAM family enzyme in heat shock gene cluster%2C similarity with CPO of BS HemN-type
+FNED7-bin-5-scaffold_28605	feature	CDS	8424	9509	.	-	0	ID=FNED7-bin-5.genome.CDS.1643;Product=Glycerol-3-phosphate ABC transporter%2C ATP-binding protein UgpC %28TC 3.A.1.1.3%29
+FNED7-bin-5-scaffold_28605	feature	CDS	8263	8367	.	+	0	ID=FNED7-bin-5.genome.CDS.1642;Product=Isocitrate dehydrogenase %5BNADP%5D %28EC 1.1.1.42%29
+FNED7-bin-5-scaffold_28605	feature	CDS	7052	8266	.	+	0	ID=FNED7-bin-5.genome.CDS.1641;Product=Isocitrate dehydrogenase %5BNADP%5D %28EC 1.1.1.42%29
+FNED7-bin-5-scaffold_28605	feature	CDS	6657	7052	.	+	0	ID=FNED7-bin-5.genome.CDS.430;Product=Malate dehydrogenase %28EC 1.1.1.37%29
+FNED7-bin-5-scaffold_28605	feature	CDS	6100	6702	.	+	0	ID=FNED7-bin-5.genome.CDS.429;Product=Malate dehydrogenase %28EC 1.1.1.37%29
+FNED7-bin-5-scaffold_28605	feature	CDS	5851	6069	.	+	0	ID=FNED7-bin-5.genome.CDS.1638;Product=
+FNED7-bin-5-scaffold_28605	feature	CDS	4980	5813	.	+	0	ID=FNED7-bin-5.genome.CDS.1637;Product=Methylenetetrahydrofolate dehydrogenase %28NADP%2B%29 %28EC 1.5.1.5%29 / Methenyltetrahydrofolate cyclohydrolase %28EC 3.5.4.9%29
+FNED7-bin-5-scaffold_28605	feature	CDS	3399	4943	.	+	0	ID=FNED7-bin-5.genome.CDS.1636;Product=IMP cyclohydrolase %28EC 3.5.4.10%29 / Phosphoribosylaminoimidazolecarboxamide formyltransferase %28EC 2.1.2.3%29
+FNED7-bin-5-scaffold_28605	feature	CDS	2833	3402	.	+	0	ID=FNED7-bin-5.genome.CDS.1635;Product=Phosphoribosylglycinamide formyltransferase %28EC 2.1.2.2%29
+FNED7-bin-5-scaffold_28605	feature	CDS	1755	2840	.	+	0	ID=FNED7-bin-5.genome.CDS.1634;Product=hypothetical protein
+FNED7-bin-5-scaffold_28605	feature	CDS	870	1751	.	+	0	ID=FNED7-bin-5.genome.CDS.1633;Product=Succinyl-CoA ligase %5BADP-forming%5D alpha chain %28EC 6.2.1.5%29
+FNED7-bin-5-scaffold_28605	feature	CDS	3	869	.	+	0	ID=FNED7-bin-5.genome.CDS.1632;Product=Succinyl-CoA ligase %5BADP-forming%5D beta chain %28EC 6.2.1.5%29
+FNED7-bin-5-scaffold_28612	feature	misc_RNA	5205	5802	.	+	.	ID=FNED7-bin-5.genome.repeat.20;Product=repeat region
+FNED7-bin-5-scaffold_28612	feature	CDS	5246	5800	.	+	0	ID=FNED7-bin-5.genome.CDS.2082;Product=
+FNED7-bin-5-scaffold_28612	feature	CDS	4666	5256	.	+	0	ID=FNED7-bin-5.genome.CDS.2081;Product=hypothetical protein
+FNED7-bin-5-scaffold_28612	feature	CDS	3895	4491	.	-	0	ID=FNED7-bin-5.genome.CDS.2080;Product=
+FNED7-bin-5-scaffold_28612	feature	CDS	3231	3890	.	+	0	ID=FNED7-bin-5.genome.CDS.2079;Product=Protein export cytoplasm protein SecA ATPase RNA helicase %28TC 3.A.5.1.1%29
+FNED7-bin-5-scaffold_28612	feature	CDS	952	3234	.	+	0	ID=FNED7-bin-5.genome.CDS.2078;Product=Protein export cytoplasm protein SecA ATPase RNA helicase %28TC 3.A.5.1.1%29
+FNED7-bin-5-scaffold_28612	feature	CDS	241	939	.	+	0	ID=FNED7-bin-5.genome.CDS.2077;Product=Competence protein F homolog%2C phosphoribosyltransferase domain%3B protein YhgH required for utilization of DNA as sole source of carbon and energy
+FNED7-bin-5-scaffold_28612	feature	CDS	1	222	.	+	0	ID=FNED7-bin-5.genome.CDS.2076;Product=
+FNED7-bin-5-scaffold_28620	feature	CDS	7497	7583	.	+	0	ID=FNED7-bin-5.genome.CDS.1873;Product=
+FNED7-bin-5-scaffold_28620	feature	CDS	6896	7492	.	+	0	ID=FNED7-bin-5.genome.CDS.1872;Product=hypothetical protein
+FNED7-bin-5-scaffold_28620	feature	CDS	5540	6868	.	+	0	ID=FNED7-bin-5.genome.CDS.1871;Product=Flavodoxin reductases %28ferredoxin-NADPH reductases%29 family 1
+FNED7-bin-5-scaffold_28620	feature	CDS	4582	5343	.	-	0	ID=FNED7-bin-5.genome.CDS.1870;Product=hypothetical protein
+FNED7-bin-5-scaffold_28620	feature	CDS	4469	4585	.	-	0	ID=FNED7-bin-5.genome.CDS.647;Product=
+FNED7-bin-5-scaffold_28620	feature	CDS	3065	4414	.	-	0	ID=FNED7-bin-5.genome.CDS.1869;Product=Various polyols ABC transporter%2C periplasmic substrate-binding protein
+FNED7-bin-5-scaffold_28620	feature	CDS	2026	2937	.	-	0	ID=FNED7-bin-5.genome.CDS.1868;Product=Various polyols ABC transporter%2C permease component 1
+FNED7-bin-5-scaffold_28620	feature	CDS	1199	2029	.	-	0	ID=FNED7-bin-5.genome.CDS.1867;Product=Various polyols ABC transporter%2C permease component 2
+FNED7-bin-5-scaffold_28620	feature	CDS	3	1199	.	-	0	ID=FNED7-bin-5.genome.CDS.1866;Product=Multiple polyol-specific dehydrogenase %28EC 1.1.1.-%29
+FNED7-bin-5-scaffold_28639	feature	CDS	4154	5164	.	-	0	ID=FNED7-bin-5.genome.CDS.1313;Product=COG0488: ATPase components of ABC transporters with duplicated ATPase domains
+FNED7-bin-5-scaffold_28639	feature	CDS	3113	4174	.	+	0	ID=FNED7-bin-5.genome.CDS.1312;Product=Galactose-1-phosphate uridylyltransferase %28EC 2.7.7.10%29
+FNED7-bin-5-scaffold_28639	feature	CDS	1740	3065	.	+	0	ID=FNED7-bin-5.genome.CDS.1311;Product=NADP-dependent malic enzyme %28EC 1.1.1.40%29
+FNED7-bin-5-scaffold_28639	feature	CDS	1105	1740	.	+	0	ID=FNED7-bin-5.genome.CDS.1310;Product=Uracil phosphoribosyltransferase %28EC 2.4.2.9%29
+FNED7-bin-5-scaffold_28639	feature	CDS	562	1041	.	-	0	ID=FNED7-bin-5.genome.CDS.1309;Product=
+FNED7-bin-5-scaffold_28639	feature	CDS	126	575	.	-	0	ID=FNED7-bin-5.genome.CDS.1308;Product=tRNA-specific adenosine-34 deaminase %28EC 3.5.4.-%29
+FNED7-bin-5-scaffold_28639	feature	tRNA	18	107	.	-	.	ID=FNED7-bin-5.genome.rna.1;Product=tRNA-Ser-CGA
+FNED7-bin-5-scaffold_2873	feature	CDS	1720	2601	.	-	0	ID=FNED7-bin-5.genome.CDS.1462;Product=Undecaprenyl-phosphate N-acetylglucosaminyl 1-phosphate transferase %28EC 2.7.8.-%29
+FNED7-bin-5-scaffold_2873	feature	CDS	1281	1727	.	-	0	ID=FNED7-bin-5.genome.CDS.1461;Product=
+FNED7-bin-5-scaffold_2873	feature	CDS	1085	1276	.	-	0	ID=FNED7-bin-5.genome.CDS.1460;Product=ATP synthase protein I
+FNED7-bin-5-scaffold_2873	feature	CDS	182	970	.	-	0	ID=FNED7-bin-5.genome.CDS.1459;Product=ATP synthase F0 sector subunit a %28EC 3.6.3.14%29
+FNED7-bin-5-scaffold_2873	feature	CDS	3	119	.	-	0	ID=FNED7-bin-5.genome.CDS.1458;Product=ATP synthase F0 sector subunit c %28EC 3.6.3.14%29
+FNED7-bin-5-scaffold_29601	feature	CDS	8335	8580	.	+	0	ID=FNED7-bin-5.genome.CDS.1307;Product=
+FNED7-bin-5-scaffold_29601	feature	CDS	7582	8325	.	+	0	ID=FNED7-bin-5.genome.CDS.1306;Product=hypothetical protein
+FNED7-bin-5-scaffold_29601	feature	CDS	6406	7551	.	-	0	ID=FNED7-bin-5.genome.CDS.1305;Product=Cell envelope-associated transcriptional attenuator LytR-CpsA-Psr%2C subfamily A1 %28as in PMID19099556%29
+FNED7-bin-5-scaffold_29601	feature	CDS	5471	6406	.	-	0	ID=FNED7-bin-5.genome.CDS.1304;Product=hypothetical protein
+FNED7-bin-5-scaffold_29601	feature	CDS	4839	5426	.	-	0	ID=FNED7-bin-5.genome.CDS.1303;Product=
+FNED7-bin-5-scaffold_29601	feature	CDS	4398	4838	.	+	0	ID=FNED7-bin-5.genome.CDS.1302;Product=
+FNED7-bin-5-scaffold_29601	feature	CDS	3921	4370	.	+	0	ID=FNED7-bin-5.genome.CDS.1301;Product=hypothetical protein
+FNED7-bin-5-scaffold_29601	feature	CDS	2908	3798	.	-	0	ID=FNED7-bin-5.genome.CDS.1300;Product=Heme ABC transporter%2C cell surface heme and hemoprotein receptor HmuT
+FNED7-bin-5-scaffold_29601	feature	CDS	1931	2911	.	-	0	ID=FNED7-bin-5.genome.CDS.1299;Product=hypothetical protein
+FNED7-bin-5-scaffold_29601	feature	CDS	1333	1938	.	-	0	ID=FNED7-bin-5.genome.CDS.1298;Product=
+FNED7-bin-5-scaffold_29601	feature	CDS	3	1346	.	+	0	ID=FNED7-bin-5.genome.CDS.1297;Product=ATP-dependent RNA helicase
+FNED7-bin-5-scaffold_29685	feature	CDS	7004	7231	.	-	0	ID=FNED7-bin-5.genome.CDS.1818;Product=ATP synthase beta chain %28EC 3.6.3.14%29
+FNED7-bin-5-scaffold_29685	feature	CDS	6744	7001	.	-	0	ID=FNED7-bin-5.genome.CDS.1817;Product=ATP synthase epsilon chain %28EC 3.6.3.14%29
+FNED7-bin-5-scaffold_29685	feature	CDS	5485	6747	.	+	0	ID=FNED7-bin-5.genome.CDS.1816;Product=UDP-N-acetylglucosamine 1-carboxyvinyltransferase %28EC 2.5.1.7%29
+FNED7-bin-5-scaffold_29685	feature	CDS	4849	5424	.	-	0	ID=FNED7-bin-5.genome.CDS.1815;Product=ATP:Cob%28I%29alamin adenosyltransferase %28EC 2.5.1.17%29
+FNED7-bin-5-scaffold_29685	feature	CDS	4117	4842	.	+	0	ID=FNED7-bin-5.genome.CDS.1814;Product=hypothetical protein
+FNED7-bin-5-scaffold_29685	feature	CDS	3335	4117	.	+	0	ID=FNED7-bin-5.genome.CDS.1813;Product=ABC-type multidrug transport system%2C permease component
+FNED7-bin-5-scaffold_29685	feature	CDS	2487	3338	.	+	0	ID=FNED7-bin-5.genome.CDS.1812;Product=ABC-type multidrug transport system%2C ATPase component
+FNED7-bin-5-scaffold_29685	feature	CDS	2085	2396	.	-	0	ID=FNED7-bin-5.genome.CDS.1811;Product=putative ATP/GTP-binding protein%2C doubtful CDS
+FNED7-bin-5-scaffold_29685	feature	CDS	620	2074	.	+	0	ID=FNED7-bin-5.genome.CDS.1810;Product=Aldehyde dehydrogenase %28EC 1.2.1.3%29
+FNED7-bin-5-scaffold_29685	feature	CDS	1	432	.	-	0	ID=FNED7-bin-5.genome.CDS.1809;Product=FIG01173569: hypothetical protein
+FNED7-bin-5-scaffold_29709	feature	CDS	2557	3168	.	-	0	ID=FNED7-bin-5.genome.CDS.1578;Product=Trk system potassium uptake protein TrkA
+FNED7-bin-5-scaffold_29709	feature	CDS	1903	2553	.	+	0	ID=FNED7-bin-5.genome.CDS.1577;Product=
+FNED7-bin-5-scaffold_29709	feature	CDS	1451	1906	.	+	0	ID=FNED7-bin-5.genome.CDS.1576;Product=Deoxyuridine 5%27-triphosphate nucleotidohydrolase %28EC 3.6.1.23%29
+FNED7-bin-5-scaffold_29709	feature	CDS	964	1422	.	-	0	ID=FNED7-bin-5.genome.CDS.1575;Product=
+FNED7-bin-5-scaffold_29709	feature	CDS	659	955	.	+	0	ID=FNED7-bin-5.genome.CDS.1574;Product=FIG01121218: hypothetical protein
+FNED7-bin-5-scaffold_29709	feature	CDS	3	524	.	+	0	ID=FNED7-bin-5.genome.CDS.1573;Product=Probable acyl-ACP desaturase%2C Stearoyl-ACP desaturase %28EC 1.14.19.2%29
+FNED7-bin-5-scaffold_298	feature	misc_RNA	2356	2456	.	+	.	ID=FNED7-bin-5.genome.repeat.4;Product=repeat region
+FNED7-bin-5-scaffold_298	feature	CDS	7348	8124	.	+	0	ID=FNED7-bin-5.genome.CDS.2201;Product=Transcription antitermination protein NusG
+FNED7-bin-5-scaffold_298	feature	CDS	7113	7337	.	+	0	ID=FNED7-bin-5.genome.CDS.2200;Product=Preprotein translocase subunit SecE %28TC 3.A.5.1.1%29
+FNED7-bin-5-scaffold_298	feature	CDS	6854	7087	.	+	0	ID=FNED7-bin-5.genome.CDS.961;Product=
+FNED7-bin-5-scaffold_298	feature	CDS	5578	6789	.	-	0	ID=FNED7-bin-5.genome.CDS.2199;Product=Aspartate aminotransferase %28EC 2.6.1.1%29
+FNED7-bin-5-scaffold_298	feature	CDS	4554	5576	.	+	0	ID=FNED7-bin-5.genome.CDS.2198;Product=UDP-N-acetylenolpyruvoylglucosamine reductase %28EC 1.3.1.98%29
+FNED7-bin-5-scaffold_298	feature	CDS	3795	4544	.	+	0	ID=FNED7-bin-5.genome.CDS.2197;Product=
+FNED7-bin-5-scaffold_298	feature	CDS	3383	3781	.	+	0	ID=FNED7-bin-5.genome.CDS.2196;Product=
+FNED7-bin-5-scaffold_298	feature	CDS	3003	3386	.	+	0	ID=FNED7-bin-5.genome.CDS.2195;Product=
+FNED7-bin-5-scaffold_298	feature	CDS	2829	2999	.	+	0	ID=FNED7-bin-5.genome.CDS.2194;Product=LSU ribosomal protein L33p %40 LSU ribosomal protein L33p%2C zinc-dependent
+FNED7-bin-5-scaffold_298	feature	tRNA	2644	2720	.	+	.	ID=FNED7-bin-5.genome.rna.13;Product=tRNA-Met-CAT
+FNED7-bin-5-scaffold_298	feature	tRNA	2550	2626	.	+	.	ID=FNED7-bin-5.genome.rna.12;Product=tRNA-Met-CAT
+FNED7-bin-5-scaffold_298	feature	tRNA	2417	2492	.	+	.	ID=FNED7-bin-5.genome.rna.11;Product=tRNA-Thr-GGT
+FNED7-bin-5-scaffold_298	feature	CDS	704	2371	.	-	0	ID=FNED7-bin-5.genome.CDS.2193;Product=hypothetical protein
+FNED7-bin-5-scaffold_298	feature	CDS	236	673	.	-	0	ID=FNED7-bin-5.genome.CDS.2192;Product=Peptide methionine sulfoxide reductase MsrB %28EC 1.8.4.12%29
+FNED7-bin-5-scaffold_298	feature	CDS	2	235	.	+	0	ID=FNED7-bin-5.genome.CDS.2191;Product=
+FNED7-bin-5-scaffold_31348	feature	CDS	2127	3788	.	-	0	ID=FNED7-bin-5.genome.CDS.1720;Product=ABC transporter ATP-binding protein
+FNED7-bin-5-scaffold_31348	feature	CDS	1722	2114	.	-	0	ID=FNED7-bin-5.genome.CDS.1719;Product=Hemoglobin-like protein HbO
+FNED7-bin-5-scaffold_31348	feature	CDS	1091	1621	.	-	0	ID=FNED7-bin-5.genome.CDS.1718;Product=HNH endonuclease family protein
+FNED7-bin-5-scaffold_31348	feature	CDS	799	987	.	-	0	ID=FNED7-bin-5.genome.CDS.1717;Product=
+FNED7-bin-5-scaffold_31348	feature	CDS	1	798	.	+	0	ID=FNED7-bin-5.genome.CDS.1716;Product=
+FNED7-bin-5-scaffold_31551	feature	CDS	12256	12522	.	-	0	ID=FNED7-bin-5.genome.CDS.1841;Product=Argininosuccinate synthase %28EC 6.3.4.5%29
+FNED7-bin-5-scaffold_31551	feature	CDS	11463	12197	.	-	0	ID=FNED7-bin-5.genome.CDS.1840;Product=hypothetical protein
+FNED7-bin-5-scaffold_31551	feature	CDS	10266	11216	.	-	0	ID=FNED7-bin-5.genome.CDS.1839;Product=Cysteine synthase %28EC 2.5.1.47%29
+FNED7-bin-5-scaffold_31551	feature	CDS	9999	10250	.	-	0	ID=FNED7-bin-5.genome.CDS.1838;Product=Serine acetyltransferase %28EC 2.3.1.30%29
+FNED7-bin-5-scaffold_31551	feature	CDS	9455	9958	.	-	0	ID=FNED7-bin-5.genome.CDS.1837;Product=Serine acetyltransferase %28EC 2.3.1.30%29
+FNED7-bin-5-scaffold_31551	feature	CDS	8150	9349	.	-	0	ID=FNED7-bin-5.genome.CDS.1836;Product=hypothetical protein
+FNED7-bin-5-scaffold_31551	feature	CDS	7220	8146	.	+	0	ID=FNED7-bin-5.genome.CDS.1835;Product=hypothetical protein
+FNED7-bin-5-scaffold_31551	feature	CDS	6992	7198	.	+	0	ID=FNED7-bin-5.genome.CDS.610;Product=
+FNED7-bin-5-scaffold_31551	feature	CDS	6832	6981	.	-	0	ID=FNED7-bin-5.genome.CDS.609;Product=
+FNED7-bin-5-scaffold_31551	feature	CDS	5897	6820	.	+	0	ID=FNED7-bin-5.genome.CDS.1833;Product=Rhodanese domain protein UPF0176%2C Actinobacterial subgroup
+FNED7-bin-5-scaffold_31551	feature	CDS	5425	5823	.	-	0	ID=FNED7-bin-5.genome.CDS.1832;Product=
+FNED7-bin-5-scaffold_31551	feature	CDS	4552	5217	.	-	0	ID=FNED7-bin-5.genome.CDS.1831;Product=
+FNED7-bin-5-scaffold_31551	feature	CDS	3868	4512	.	+	0	ID=FNED7-bin-5.genome.CDS.1830;Product=
+FNED7-bin-5-scaffold_31551	feature	CDS	2699	3802	.	-	0	ID=FNED7-bin-5.genome.CDS.1829;Product=Peptide chain release factor 2
+FNED7-bin-5-scaffold_31551	feature	CDS	1909	2598	.	-	0	ID=FNED7-bin-5.genome.CDS.1828;Product=Cell division transporter%2C ATP-binding protein FtsE %28TC 3.A.5.1.1%29
+FNED7-bin-5-scaffold_31551	feature	CDS	997	1899	.	-	0	ID=FNED7-bin-5.genome.CDS.1827;Product=Cell division protein FtsX
+FNED7-bin-5-scaffold_31551	feature	CDS	3	845	.	-	0	ID=FNED7-bin-5.genome.CDS.1826;Product=Uracil permease
+FNED7-bin-5-scaffold_31652	feature	CDS	1803	4067	.	-	0	ID=FNED7-bin-5.genome.CDS.1296;Product=Phosphoenolpyruvate carboxylase %28EC 4.1.1.31%29
+FNED7-bin-5-scaffold_31652	feature	CDS	909	1820	.	+	0	ID=FNED7-bin-5.genome.CDS.1295;Product=Permease of the drug/metabolite transporter %28DMT%29 superfamily
+FNED7-bin-5-scaffold_31652	feature	CDS	346	912	.	+	0	ID=FNED7-bin-5.genome.CDS.1294;Product=Peptidyl-tRNA hydrolase %28EC 3.1.1.29%29
+FNED7-bin-5-scaffold_31652	feature	CDS	1	336	.	+	0	ID=FNED7-bin-5.genome.CDS.1293;Product=
+FNED7-bin-5-scaffold_32079	feature	CDS	19423	20151	.	-	0	ID=FNED7-bin-5.genome.CDS.1865;Product=DNA primase %28EC 2.7.7.-%29
+FNED7-bin-5-scaffold_32079	feature	tRNA	19277	19352	.	-	.	ID=FNED7-bin-5.genome.rna.7;Product=tRNA-Asn-GTT
+FNED7-bin-5-scaffold_32079	feature	CDS	18287	18478	.	+	0	ID=FNED7-bin-5.genome.CDS.641;Product=
+FNED7-bin-5-scaffold_32079	feature	CDS	18026	18265	.	-	0	ID=FNED7-bin-5.genome.CDS.1864;Product=
+FNED7-bin-5-scaffold_32079	feature	CDS	17081	18022	.	+	0	ID=FNED7-bin-5.genome.CDS.1863;Product=UDP-glucose 4-epimerase %28EC 5.1.3.2%29
+FNED7-bin-5-scaffold_32079	feature	CDS	15800	17071	.	+	0	ID=FNED7-bin-5.genome.CDS.638;Product=hypothetical protein
+FNED7-bin-5-scaffold_32079	feature	CDS	15531	15803	.	+	0	ID=FNED7-bin-5.genome.CDS.1861;Product=
+FNED7-bin-5-scaffold_32079	feature	CDS	14455	15393	.	-	0	ID=FNED7-bin-5.genome.CDS.1860;Product=hypothetical protein
+FNED7-bin-5-scaffold_32079	feature	CDS	12852	14090	.	-	0	ID=FNED7-bin-5.genome.CDS.1859;Product=
+FNED7-bin-5-scaffold_32079	feature	CDS	11980	12852	.	-	0	ID=FNED7-bin-5.genome.CDS.1858;Product=hypothetical protein
+FNED7-bin-5-scaffold_32079	feature	CDS	11611	11820	.	-	0	ID=FNED7-bin-5.genome.CDS.1857;Product=
+FNED7-bin-5-scaffold_32079	feature	CDS	11350	11580	.	-	0	ID=FNED7-bin-5.genome.CDS.632;Product=
+FNED7-bin-5-scaffold_32079	feature	CDS	11085	11264	.	+	0	ID=FNED7-bin-5.genome.CDS.1856;Product=
+FNED7-bin-5-scaffold_32079	feature	CDS	9227	10348	.	+	0	ID=FNED7-bin-5.genome.CDS.1855;Product=
+FNED7-bin-5-scaffold_32079	feature	CDS	8293	9225	.	+	0	ID=FNED7-bin-5.genome.CDS.1854;Product=Myo-inositol 2-dehydrogenase %28EC 1.1.1.18%29
+FNED7-bin-5-scaffold_32079	feature	CDS	7361	8293	.	+	0	ID=FNED7-bin-5.genome.CDS.1853;Product=
+FNED7-bin-5-scaffold_32079	feature	CDS	6245	7348	.	+	0	ID=FNED7-bin-5.genome.CDS.1852;Product=
+FNED7-bin-5-scaffold_32079	feature	CDS	5088	6242	.	+	0	ID=FNED7-bin-5.genome.CDS.1851;Product=hypothetical protein
+FNED7-bin-5-scaffold_32079	feature	CDS	4113	5087	.	+	0	ID=FNED7-bin-5.genome.CDS.1850;Product=
+FNED7-bin-5-scaffold_32079	feature	CDS	3318	4106	.	+	0	ID=FNED7-bin-5.genome.CDS.1849;Product=Inositol transport system ATP-binding protein
+FNED7-bin-5-scaffold_32079	feature	CDS	2270	3310	.	+	0	ID=FNED7-bin-5.genome.CDS.1848;Product=Inositol transport system permease protein
+FNED7-bin-5-scaffold_32079	feature	CDS	1221	2183	.	+	0	ID=FNED7-bin-5.genome.CDS.1847;Product=Inositol transport system sugar-binding protein
+FNED7-bin-5-scaffold_32079	feature	CDS	160	987	.	-	0	ID=FNED7-bin-5.genome.CDS.1846;Product=
+FNED7-bin-5-scaffold_3299	feature	CDS	5808	5933	.	-	0	ID=FNED7-bin-5.genome.CDS.2353;Product=
+FNED7-bin-5-scaffold_3299	feature	CDS	4778	5659	.	-	0	ID=FNED7-bin-5.genome.CDS.2352;Product=Glutamate synthase %5BNADPH%5D large chain %28EC 1.4.1.13%29
+FNED7-bin-5-scaffold_3299	feature	CDS	1108	4800	.	-	0	ID=FNED7-bin-5.genome.CDS.2351;Product=Glutamate synthase %5BNADPH%5D large chain %28EC 1.4.1.13%29
+FNED7-bin-5-scaffold_3299	feature	CDS	3	1115	.	-	0	ID=FNED7-bin-5.genome.CDS.2350;Product=Glutamate synthase %5BNADPH%5D small chain %28EC 1.4.1.13%29
+FNED7-bin-5-scaffold_33286	feature	CDS	2761	4545	.	+	0	ID=FNED7-bin-5.genome.CDS.1292;Product=Serine/threonine protein kinase PrkC%2C regulator of stationary phase
+FNED7-bin-5-scaffold_33286	feature	CDS	2250	2744	.	+	0	ID=FNED7-bin-5.genome.CDS.1291;Product=hypothetical protein
+FNED7-bin-5-scaffold_33286	feature	CDS	1635	2237	.	+	0	ID=FNED7-bin-5.genome.CDS.1290;Product=
+FNED7-bin-5-scaffold_33286	feature	CDS	636	1535	.	+	0	ID=FNED7-bin-5.genome.CDS.1289;Product=Phytoene synthase %28EC 2.5.1.32%29
+FNED7-bin-5-scaffold_33286	feature	CDS	1	633	.	+	0	ID=FNED7-bin-5.genome.CDS.1288;Product=Phytoene dehydrogenase %28EC 1.14.99.-%29
+FNED7-bin-5-scaffold_3357	feature	CDS	11357	13216	.	-	0	ID=FNED7-bin-5.genome.CDS.1988;Product=DNA topoisomerase I %28EC 5.99.1.2%29
+FNED7-bin-5-scaffold_3357	feature	CDS	9651	11324	.	-	0	ID=FNED7-bin-5.genome.CDS.755;Product=Thymidylate kinase %28EC 2.7.4.9%29
+FNED7-bin-5-scaffold_3357	feature	CDS	9305	9679	.	-	0	ID=FNED7-bin-5.genome.CDS.1986;Product=Thymidylate kinase %28EC 2.7.4.9%29
+FNED7-bin-5-scaffold_3357	feature	CDS	8163	9305	.	-	0	ID=FNED7-bin-5.genome.CDS.1985;Product=DNA polymerase III delta prime subunit %28EC 2.7.7.7%29
+FNED7-bin-5-scaffold_3357	feature	CDS	6675	8153	.	-	0	ID=FNED7-bin-5.genome.CDS.1984;Product=probable exported protease %5BEC:3.4.-.-%5D
+FNED7-bin-5-scaffold_3357	feature	CDS	5980	6624	.	-	0	ID=FNED7-bin-5.genome.CDS.1983;Product=
+FNED7-bin-5-scaffold_3357	feature	tRNA	5872	5946	.	-	.	ID=FNED7-bin-5.genome.rna.10;Product=tRNA-Thr-CGT
+FNED7-bin-5-scaffold_3357	feature	CDS	4314	5741	.	-	0	ID=FNED7-bin-5.genome.CDS.1982;Product=Amino acid permease
+FNED7-bin-5-scaffold_3357	feature	CDS	3752	4258	.	-	0	ID=FNED7-bin-5.genome.CDS.1981;Product=hypothetical protein
+FNED7-bin-5-scaffold_3357	feature	CDS	2346	3728	.	-	0	ID=FNED7-bin-5.genome.CDS.1980;Product=
+FNED7-bin-5-scaffold_3357	feature	CDS	1209	2330	.	-	0	ID=FNED7-bin-5.genome.CDS.1979;Product=
+FNED7-bin-5-scaffold_3357	feature	CDS	520	1209	.	-	0	ID=FNED7-bin-5.genome.CDS.1978;Product=Putative amidotransferase similar to cobyric acid synthase
+FNED7-bin-5-scaffold_3357	feature	CDS	2	433	.	-	0	ID=FNED7-bin-5.genome.CDS.1977;Product=ATP-dependent RNA helicase
+FNED7-bin-5-scaffold_3367	feature	CDS	4033	4389	.	-	0	ID=FNED7-bin-5.genome.CDS.1448;Product=
+FNED7-bin-5-scaffold_3367	feature	CDS	3432	3986	.	-	0	ID=FNED7-bin-5.genome.CDS.1447;Product=LemA protein
+FNED7-bin-5-scaffold_3367	feature	CDS	2527	3429	.	-	0	ID=FNED7-bin-5.genome.CDS.1446;Product=hypothetical protein
+FNED7-bin-5-scaffold_3367	feature	CDS	1709	2530	.	-	0	ID=FNED7-bin-5.genome.CDS.1445;Product=Cytochrome oxidase biogenesis protein Sco1/SenC/PrrC%2C putative copper metallochaperone
+FNED7-bin-5-scaffold_3367	feature	CDS	1339	1719	.	-	0	ID=FNED7-bin-5.genome.CDS.246;Product=
+FNED7-bin-5-scaffold_3367	feature	CDS	1	1338	.	+	0	ID=FNED7-bin-5.genome.CDS.1443;Product=sensor histidine kinase
+FNED7-bin-5-scaffold_33824	feature	CDS	841	2568	.	-	0	ID=FNED7-bin-5.genome.CDS.1287;Product=Prolyl-tRNA synthetase %28EC 6.1.1.15%29%2C bacterial type
+FNED7-bin-5-scaffold_33824	feature	CDS	71	838	.	-	0	ID=FNED7-bin-5.genome.CDS.1286;Product=FIG011065: hypothetical protein
+FNED7-bin-5-scaffold_3496	feature	CDS	6385	6567	.	+	0	ID=FNED7-bin-5.genome.CDS.2315;Product=
+FNED7-bin-5-scaffold_3496	feature	CDS	5519	6388	.	+	0	ID=FNED7-bin-5.genome.CDS.2314;Product=High-affinity branched-chain amino acid transport system permease protein LivH %28TC 3.A.1.4.1%29
+FNED7-bin-5-scaffold_3496	feature	CDS	4813	5532	.	+	0	ID=FNED7-bin-5.genome.CDS.2313;Product=Branched-chain amino acid transport ATP-binding protein LivF %28TC 3.A.1.4.1%29
+FNED7-bin-5-scaffold_3496	feature	CDS	4070	4816	.	+	0	ID=FNED7-bin-5.genome.CDS.2312;Product=Branched-chain amino acid transport ATP-binding protein LivG %28TC 3.A.1.4.1%29
+FNED7-bin-5-scaffold_3496	feature	CDS	2610	3890	.	+	0	ID=FNED7-bin-5.genome.CDS.2311;Product=putative ABC transporter substrate-binding protein
+FNED7-bin-5-scaffold_3496	feature	CDS	1511	2578	.	+	0	ID=FNED7-bin-5.genome.CDS.2310;Product=Alcohol dehydrogenase %28EC 1.1.1.1%29
+FNED7-bin-5-scaffold_3496	feature	CDS	603	1394	.	-	0	ID=FNED7-bin-5.genome.CDS.2309;Product=Pca regulon regulatory protein PcaR
+FNED7-bin-5-scaffold_3496	feature	CDS	2	613	.	+	0	ID=FNED7-bin-5.genome.CDS.2308;Product=Protein-N%285%29-glutamine methyltransferase PrmC%2C methylates polypeptide chain release factors RF1 and RF2
+FNED7-bin-5-scaffold_35496	feature	CDS	2066	2668	.	-	0	ID=FNED7-bin-5.genome.CDS.1317;Product=transcriptional regulator%2C MerR family
+FNED7-bin-5-scaffold_35496	feature	CDS	1589	2056	.	-	0	ID=FNED7-bin-5.genome.CDS.1316;Product=FIG01121484: hypothetical protein
+FNED7-bin-5-scaffold_35496	feature	CDS	939	1457	.	-	0	ID=FNED7-bin-5.genome.CDS.1315;Product=transcriptional regulator%2C MerR family
+FNED7-bin-5-scaffold_35496	feature	CDS	1	867	.	-	0	ID=FNED7-bin-5.genome.CDS.1314;Product=Glycine dehydrogenase %5Bdecarboxylating%5D %28glycine cleavage system P protein%29 %28EC 1.4.4.2%29
+FNED7-bin-5-scaffold_359	feature	CDS	12285	12662	.	-	0	ID=FNED7-bin-5.genome.CDS.2018;Product=NADH-ubiquinone oxidoreductase chain J %28EC 1.6.5.3%29
+FNED7-bin-5-scaffold_359	feature	CDS	11985	12284	.	-	0	ID=FNED7-bin-5.genome.CDS.2017;Product=NADH-ubiquinone oxidoreductase chain K %28EC 1.6.5.3%29
+FNED7-bin-5-scaffold_359	feature	CDS	10096	11985	.	-	0	ID=FNED7-bin-5.genome.CDS.2016;Product=NADH-ubiquinone oxidoreductase chain L %28EC 1.6.5.3%29
+FNED7-bin-5-scaffold_359	feature	CDS	8594	10099	.	-	0	ID=FNED7-bin-5.genome.CDS.2015;Product=NADH-ubiquinone oxidoreductase chain M %28EC 1.6.5.3%29
+FNED7-bin-5-scaffold_359	feature	CDS	7080	8594	.	-	0	ID=FNED7-bin-5.genome.CDS.2014;Product=NADH-ubiquinone oxidoreductase chain N %28EC 1.6.5.3%29
+FNED7-bin-5-scaffold_359	feature	CDS	6319	7083	.	+	0	ID=FNED7-bin-5.genome.CDS.2013;Product=
+FNED7-bin-5-scaffold_359	feature	CDS	6058	6312	.	+	0	ID=FNED7-bin-5.genome.CDS.782;Product=NADH dehydrogenase %28EC 1.6.99.3%29
+FNED7-bin-5-scaffold_359	feature	CDS	4923	6086	.	+	0	ID=FNED7-bin-5.genome.CDS.2011;Product=NADH dehydrogenase %28EC 1.6.99.3%29
+FNED7-bin-5-scaffold_359	feature	CDS	3895	4866	.	-	0	ID=FNED7-bin-5.genome.CDS.2010;Product=Putative nucleoside-diphosphate-sugar epimerase
+FNED7-bin-5-scaffold_359	feature	CDS	3252	3929	.	-	0	ID=FNED7-bin-5.genome.CDS.2009;Product=Putative nucleoside-diphosphate-sugar epimerase
+FNED7-bin-5-scaffold_359	feature	CDS	2949	3203	.	-	0	ID=FNED7-bin-5.genome.CDS.2008;Product=hypothetical protein
+FNED7-bin-5-scaffold_359	feature	CDS	2814	2939	.	+	0	ID=FNED7-bin-5.genome.CDS.2007;Product=
+FNED7-bin-5-scaffold_359	feature	CDS	2591	2809	.	+	0	ID=FNED7-bin-5.genome.CDS.2006;Product=
+FNED7-bin-5-scaffold_359	feature	CDS	1199	1411	.	+	0	ID=FNED7-bin-5.genome.CDS.775;Product=
+FNED7-bin-5-scaffold_359	feature	CDS	757	1188	.	-	0	ID=FNED7-bin-5.genome.CDS.2005;Product=Heat shock protein 60 family chaperone GroEL
+FNED7-bin-5-scaffold_359	feature	CDS	5	682	.	-	0	ID=FNED7-bin-5.genome.CDS.2004;Product=FIG01121526: hypothetical protein
+FNED7-bin-5-scaffold_3600	feature	CDS	2224	3213	.	-	0	ID=FNED7-bin-5.genome.CDS.1804;Product=Translation initiation factor 2
+FNED7-bin-5-scaffold_3600	feature	CDS	1807	2223	.	-	0	ID=FNED7-bin-5.genome.CDS.1803;Product=Ribosome-binding factor A
+FNED7-bin-5-scaffold_3600	feature	CDS	921	1799	.	-	0	ID=FNED7-bin-5.genome.CDS.1802;Product=tRNA pseudouridine synthase B %28EC 4.2.1.70%29
+FNED7-bin-5-scaffold_3600	feature	CDS	53	916	.	-	0	ID=FNED7-bin-5.genome.CDS.1801;Product=Riboflavin kinase %28EC 2.7.1.26%29 / FMN adenylyltransferase %28EC 2.7.7.2%29
+FNED7-bin-5-scaffold_3613	feature	misc_RNA	3622	3728	.	+	.	ID=FNED7-bin-5.genome.repeat.27;Product=repeat region
+FNED7-bin-5-scaffold_3613	feature	CDS	2848	3726	.	-	0	ID=FNED7-bin-5.genome.CDS.1775;Product=ATP-dependent DNA helicase SCO5184
+FNED7-bin-5-scaffold_3613	feature	CDS	2088	2867	.	+	0	ID=FNED7-bin-5.genome.CDS.1774;Product=
+FNED7-bin-5-scaffold_3613	feature	CDS	1151	2059	.	-	0	ID=FNED7-bin-5.genome.CDS.1773;Product=NADH pyrophosphatase %28EC 3.6.1.22%29
+FNED7-bin-5-scaffold_3613	feature	CDS	2	1150	.	-	0	ID=FNED7-bin-5.genome.CDS.1772;Product=ATP-dependent DNA helicase UvrD/PcrA%2C actinomycete paralog
+FNED7-bin-5-scaffold_36146	feature	CDS	4560	4655	.	+	0	ID=FNED7-bin-5.genome.CDS.1284;Product=Pyridoxine biosynthesis glutamine amidotransferase%2C synthase subunit %28EC 2.4.2.-%29
+FNED7-bin-5-scaffold_36146	feature	CDS	3486	4511	.	+	0	ID=FNED7-bin-5.genome.CDS.1283;Product=hypothetical protein
+FNED7-bin-5-scaffold_36146	feature	CDS	2983	3489	.	+	0	ID=FNED7-bin-5.genome.CDS.1282;Product=
+FNED7-bin-5-scaffold_36146	feature	CDS	1814	2986	.	+	0	ID=FNED7-bin-5.genome.CDS.1281;Product=Phosphatidylinositol alpha-mannosyltransferase %28EC 2.4.1.57%29
+FNED7-bin-5-scaffold_36146	feature	CDS	934	1821	.	+	0	ID=FNED7-bin-5.genome.CDS.1280;Product=Lauroyl/myristoyl acyltransferase involved in lipid A biosynthesis %28Lauroyl/myristoyl acyltransferase%29
+FNED7-bin-5-scaffold_36146	feature	CDS	324	929	.	+	0	ID=FNED7-bin-5.genome.CDS.1279;Product=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase %28EC 2.7.8.5%29
+FNED7-bin-5-scaffold_36146	feature	CDS	3	299	.	-	0	ID=FNED7-bin-5.genome.CDS.1278;Product=
+FNED7-bin-5-scaffold_36703	feature	misc_RNA	9220	9344	.	+	.	ID=FNED7-bin-5.genome.repeat.10;Product=repeat region
+FNED7-bin-5-scaffold_36703	feature	CDS	14421	15116	.	+	0	ID=FNED7-bin-5.genome.CDS.2418;Product=Phosphoserine aminotransferase %28EC 2.6.1.52%29
+FNED7-bin-5-scaffold_36703	feature	CDS	13665	14411	.	+	0	ID=FNED7-bin-5.genome.CDS.2417;Product=Pyridoxamine 5%27-phosphate oxidase %28EC 1.4.3.5%29
+FNED7-bin-5-scaffold_36703	feature	CDS	12528	13643	.	-	0	ID=FNED7-bin-5.genome.CDS.2416;Product=Citrate synthase %28si%29 %28EC 2.3.3.1%29
+FNED7-bin-5-scaffold_36703	feature	CDS	11164	12504	.	-	0	ID=FNED7-bin-5.genome.CDS.2415;Product=Deoxyribodipyrimidine photolyase %28EC 4.1.99.3%29
+FNED7-bin-5-scaffold_36703	feature	CDS	9767	11167	.	+	0	ID=FNED7-bin-5.genome.CDS.2414;Product=diguanylate cyclase/phosphodiesterase %28GGDEF %26 EAL domains%29 with PAS/PAC sensor%28s%29
+FNED7-bin-5-scaffold_36703	feature	CDS	9304	9738	.	-	0	ID=FNED7-bin-5.genome.CDS.2413;Product=hypothetical protein
+FNED7-bin-5-scaffold_36703	feature	tRNA	9216	9291	.	-	.	ID=FNED7-bin-5.genome.rna.16;Product=tRNA-Arg-CCT
+FNED7-bin-5-scaffold_36703	feature	CDS	8365	9138	.	+	0	ID=FNED7-bin-5.genome.CDS.2412;Product=Formyltetrahydrofolate deformylase %28EC 3.5.1.10%29
+FNED7-bin-5-scaffold_36703	feature	CDS	8160	8279	.	-	0	ID=FNED7-bin-5.genome.CDS.2411;Product=
+FNED7-bin-5-scaffold_36703	feature	CDS	7898	8152	.	+	0	ID=FNED7-bin-5.genome.CDS.2410;Product=
+FNED7-bin-5-scaffold_36703	feature	CDS	7237	7836	.	-	0	ID=FNED7-bin-5.genome.CDS.2409;Product=hypothetical protein
+FNED7-bin-5-scaffold_36703	feature	CDS	7076	7231	.	-	0	ID=FNED7-bin-5.genome.CDS.1149;Product=
+FNED7-bin-5-scaffold_36703	feature	CDS	5160	7070	.	-	0	ID=FNED7-bin-5.genome.CDS.2408;Product=Copper resistance protein D
+FNED7-bin-5-scaffold_36703	feature	CDS	4547	5098	.	+	0	ID=FNED7-bin-5.genome.CDS.2407;Product=5-formyltetrahydrofolate cyclo-ligase %28EC 6.3.3.2%29
+FNED7-bin-5-scaffold_36703	feature	CDS	3581	4513	.	-	0	ID=FNED7-bin-5.genome.CDS.2406;Product=Molybdopterin biosynthesis protein MoeA
+FNED7-bin-5-scaffold_36703	feature	CDS	2978	3556	.	-	0	ID=FNED7-bin-5.genome.CDS.2405;Product=Ribosomal-protein-S5p-alanine acetyltransferase
+FNED7-bin-5-scaffold_36703	feature	CDS	2173	2922	.	-	0	ID=FNED7-bin-5.genome.CDS.2404;Product=hypothetical protein
+FNED7-bin-5-scaffold_36703	feature	CDS	850	2157	.	+	0	ID=FNED7-bin-5.genome.CDS.2403;Product=CONSERVED MEMBRANE PROTEIN
+FNED7-bin-5-scaffold_36703	feature	CDS	2	817	.	-	0	ID=FNED7-bin-5.genome.CDS.2402;Product=rRNA small subunit methyltransferase I
+FNED7-bin-5-scaffold_36933	feature	CDS	4465	4575	.	-	0	ID=FNED7-bin-5.genome.CDS.1532;Product=
+FNED7-bin-5-scaffold_36933	feature	CDS	3686	4468	.	-	0	ID=FNED7-bin-5.genome.CDS.1531;Product=Histidinol-phosphatase %5Balternative form%5D %28EC 3.1.3.15%29
+FNED7-bin-5-scaffold_36933	feature	CDS	3210	3686	.	-	0	ID=FNED7-bin-5.genome.CDS.1530;Product=
+FNED7-bin-5-scaffold_36933	feature	CDS	2054	3208	.	+	0	ID=FNED7-bin-5.genome.CDS.1529;Product=Glucose-6-phosphate 1-dehydrogenase %28EC 1.1.1.49%29
+FNED7-bin-5-scaffold_36933	feature	CDS	1719	2000	.	+	0	ID=FNED7-bin-5.genome.CDS.329;Product=Glucose-6-phosphate 1-dehydrogenase %28EC 1.1.1.49%29
+FNED7-bin-5-scaffold_36933	feature	CDS	700	1719	.	+	0	ID=FNED7-bin-5.genome.CDS.1528;Product=6-phosphogluconate dehydrogenase%2C decarboxylating %28EC 1.1.1.44%29
+FNED7-bin-5-scaffold_36933	feature	CDS	2	703	.	+	0	ID=FNED7-bin-5.genome.CDS.1527;Product=6-phosphogluconolactonase %28EC 3.1.1.31%29%2C eukaryotic type
+FNED7-bin-5-scaffold_3726	feature	CDS	10940	11065	.	-	0	ID=FNED7-bin-5.genome.CDS.1959;Product=Ribonuclease PH %28EC 2.7.7.56%29
+FNED7-bin-5-scaffold_3726	feature	CDS	10323	10937	.	-	0	ID=FNED7-bin-5.genome.CDS.1958;Product=Nucleoside 5-triphosphatase RdgB %28dHAPTP%2C dITP%2C XTP-specific%29 %28EC 3.6.1.15%29
+FNED7-bin-5-scaffold_3726	feature	CDS	9352	10209	.	-	0	ID=FNED7-bin-5.genome.CDS.1957;Product=D-alanyl-D-alanine carboxypeptidase %28EC 3.4.16.4%29
+FNED7-bin-5-scaffold_3726	feature	CDS	7458	9302	.	+	0	ID=FNED7-bin-5.genome.CDS.1956;Product=hypothetical protein
+FNED7-bin-5-scaffold_3726	feature	CDS	6604	7458	.	+	0	ID=FNED7-bin-5.genome.CDS.1955;Product=hypothetical protein
+FNED7-bin-5-scaffold_3726	feature	tRNA	6461	6544	.	+	.	ID=FNED7-bin-5.genome.rna.8;Product=tRNA-Leu-TAG
+FNED7-bin-5-scaffold_3726	feature	CDS	5183	6340	.	-	0	ID=FNED7-bin-5.genome.CDS.1954;Product=Xylose isomerase %28EC 5.3.1.5%29
+FNED7-bin-5-scaffold_3726	feature	CDS	4454	5179	.	-	0	ID=FNED7-bin-5.genome.CDS.1953;Product=Myo-inositol 2-dehydrogenase %28EC 1.1.1.18%29
+FNED7-bin-5-scaffold_3726	feature	CDS	3868	4467	.	-	0	ID=FNED7-bin-5.genome.CDS.723;Product=Myo-inositol 2-dehydrogenase %28EC 1.1.1.18%29
+FNED7-bin-5-scaffold_3726	feature	CDS	2606	3856	.	+	0	ID=FNED7-bin-5.genome.CDS.1951;Product=putative integral membrane transport protein
+FNED7-bin-5-scaffold_3726	feature	CDS	1359	2591	.	+	0	ID=FNED7-bin-5.genome.CDS.1950;Product=Ribose ABC transport system%2C permease protein RbsC %28TC 3.A.1.2.1%29
+FNED7-bin-5-scaffold_3726	feature	CDS	1186	1362	.	+	0	ID=FNED7-bin-5.genome.CDS.1949;Product=D-xylose transport ATP-binding protein XylG
+FNED7-bin-5-scaffold_3726	feature	CDS	576	1181	.	+	0	ID=FNED7-bin-5.genome.CDS.1948;Product=D-xylose transport ATP-binding protein XylG
+FNED7-bin-5-scaffold_3726	feature	CDS	1	369	.	+	0	ID=FNED7-bin-5.genome.CDS.1947;Product=Xylose ABC transporter%2C periplasmic xylose-binding protein XylF
+FNED7-bin-5-scaffold_3728	feature	CDS	5055	5756	.	+	0	ID=FNED7-bin-5.genome.CDS.1825;Product=NADH-ubiquinone oxidoreductase chain M %28EC 1.6.5.3%29
+FNED7-bin-5-scaffold_3728	feature	CDS	3169	5058	.	+	0	ID=FNED7-bin-5.genome.CDS.1824;Product=NADH-ubiquinone oxidoreductase chain L %28EC 1.6.5.3%29
+FNED7-bin-5-scaffold_3728	feature	CDS	2870	3169	.	+	0	ID=FNED7-bin-5.genome.CDS.1823;Product=NADH-ubiquinone oxidoreductase chain K %28EC 1.6.5.3%29
+FNED7-bin-5-scaffold_3728	feature	CDS	2087	2869	.	+	0	ID=FNED7-bin-5.genome.CDS.1822;Product=NADH-ubiquinone oxidoreductase chain J %28EC 1.6.5.3%29
+FNED7-bin-5-scaffold_3728	feature	CDS	1542	2087	.	+	0	ID=FNED7-bin-5.genome.CDS.1821;Product=NADH-ubiquinone oxidoreductase chain I %28EC 1.6.5.3%29
+FNED7-bin-5-scaffold_3728	feature	CDS	308	1549	.	+	0	ID=FNED7-bin-5.genome.CDS.1820;Product=NADH-ubiquinone oxidoreductase chain H %28EC 1.6.5.3%29
+FNED7-bin-5-scaffold_3728	feature	CDS	3	311	.	+	0	ID=FNED7-bin-5.genome.CDS.1819;Product=hypothetical protein
+FNED7-bin-5-scaffold_3770	feature	CDS	9002	9184	.	-	0	ID=FNED7-bin-5.genome.CDS.2169;Product=Glycine dehydrogenase %5Bdecarboxylating%5D %28glycine cleavage system P protein%29 %28EC 1.4.4.2%29
+FNED7-bin-5-scaffold_3770	feature	CDS	8267	8977	.	+	0	ID=FNED7-bin-5.genome.CDS.2168;Product=Dolichol-phosphate mannosyltransferase %28EC 2.4.1.83%29 in lipid-linked oligosaccharide synthesis cluster
+FNED7-bin-5-scaffold_3770	feature	CDS	7364	8263	.	+	0	ID=FNED7-bin-5.genome.CDS.2167;Product=DNA polymerase I %28EC 2.7.7.7%29
+FNED7-bin-5-scaffold_3770	feature	CDS	5001	7367	.	+	0	ID=FNED7-bin-5.genome.CDS.2166;Product=FIG005666: putative helicase
+FNED7-bin-5-scaffold_3770	feature	CDS	4123	5004	.	+	0	ID=FNED7-bin-5.genome.CDS.2165;Product=hypothetical protein
+FNED7-bin-5-scaffold_3770	feature	CDS	3291	4070	.	+	0	ID=FNED7-bin-5.genome.CDS.2164;Product=Twin-arginine translocation protein TatC
+FNED7-bin-5-scaffold_3770	feature	CDS	3060	3251	.	+	0	ID=FNED7-bin-5.genome.CDS.2163;Product=Twin-arginine translocation protein TatA
+FNED7-bin-5-scaffold_3770	feature	CDS	2106	3050	.	+	0	ID=FNED7-bin-5.genome.CDS.2162;Product=hypothetical protein
+FNED7-bin-5-scaffold_3770	feature	CDS	1175	2113	.	+	0	ID=FNED7-bin-5.genome.CDS.2161;Product=FIG005453: Putative DeoR-family transcriptional regulator
+FNED7-bin-5-scaffold_3770	feature	CDS	632	1120	.	-	0	ID=FNED7-bin-5.genome.CDS.2160;Product=hypothetical protein
+FNED7-bin-5-scaffold_3770	feature	CDS	1	639	.	+	0	ID=FNED7-bin-5.genome.CDS.2159;Product=tRNA %28adenine%2858%29-N%281%29%29-methyltransferase %28EC 2.1.1.220%29
+FNED7-bin-5-scaffold_37725	feature	CDS	3023	3880	.	-	0	ID=FNED7-bin-5.genome.CDS.2398;Product=hypothetical protein
+FNED7-bin-5-scaffold_37725	feature	CDS	2214	3023	.	-	0	ID=FNED7-bin-5.genome.CDS.2397;Product=
+FNED7-bin-5-scaffold_37725	feature	CDS	1130	2254	.	-	0	ID=FNED7-bin-5.genome.CDS.2396;Product=
+FNED7-bin-5-scaffold_37725	feature	CDS	201	1055	.	+	0	ID=FNED7-bin-5.genome.CDS.2395;Product=hypothetical protein
+FNED7-bin-5-scaffold_37725	feature	CDS	3	86	.	+	0	ID=FNED7-bin-5.genome.CDS.2394;Product=Nucleoside 5-triphosphatase RdgB %28dHAPTP%2C dITP%2C XTP-specific%29 %28EC 3.6.1.15%29
+FNED7-bin-5-scaffold_37822	feature	CDS	1796	2761	.	-	0	ID=FNED7-bin-5.genome.CDS.1277;Product=Tryptophanyl-tRNA synthetase %28EC 6.1.1.2%29
+FNED7-bin-5-scaffold_37822	feature	CDS	644	1729	.	-	0	ID=FNED7-bin-5.genome.CDS.1276;Product=hypothetical protein
+FNED7-bin-5-scaffold_37822	feature	CDS	77	520	.	-	0	ID=FNED7-bin-5.genome.CDS.1275;Product=
+FNED7-bin-5-scaffold_38153	feature	CDS	2109	2573	.	-	0	ID=FNED7-bin-5.genome.CDS.1808;Product=Acetyl-coenzyme A carboxyl transferase alpha chain %28EC 6.4.1.2%29 / Acetyl-coenzyme A carboxyl transferase beta chain %28EC 6.4.1.2%29%3B Propionyl-CoA carboxylase beta chain %28EC 6.4.1.3%29
+FNED7-bin-5-scaffold_38153	feature	CDS	1897	2109	.	-	0	ID=FNED7-bin-5.genome.CDS.1807;Product=
+FNED7-bin-5-scaffold_38153	feature	CDS	1202	1900	.	-	0	ID=FNED7-bin-5.genome.CDS.1806;Product=Septum formation protein Maf
+FNED7-bin-5-scaffold_38153	feature	CDS	3	1205	.	-	0	ID=FNED7-bin-5.genome.CDS.1805;Product=Biotin carboxylase of acetyl-CoA carboxylase %28EC 6.3.4.14%29 / Biotin carboxyl carrier protein of acetyl-CoA carboxylase
+FNED7-bin-5-scaffold_3828	feature	misc_RNA	5211	5587	.	+	.	ID=FNED7-bin-5.genome.repeat.5;Product=repeat region
+FNED7-bin-5-scaffold_3828	feature	CDS	5253	5585	.	-	0	ID=FNED7-bin-5.genome.CDS.1606;Product=Short-chain dehydrogenase/reductase in hypothetical Actinobacterial gene cluster
+FNED7-bin-5-scaffold_3828	feature	CDS	4509	5234	.	-	0	ID=FNED7-bin-5.genome.CDS.1605;Product=
+FNED7-bin-5-scaffold_3828	feature	CDS	3370	4512	.	+	0	ID=FNED7-bin-5.genome.CDS.1604;Product=D-alanine--D-alanine ligase %28EC 6.3.2.4%29
+FNED7-bin-5-scaffold_3828	feature	CDS	2372	3370	.	+	0	ID=FNED7-bin-5.genome.CDS.1603;Product=Glycerol-3-phosphate dehydrogenase %5BNAD%28P%29%2B%5D %28EC 1.1.1.94%29
+FNED7-bin-5-scaffold_3828	feature	CDS	1649	2368	.	+	0	ID=FNED7-bin-5.genome.CDS.1602;Product=1-acyl-sn-glycerol-3-phosphate acyltransferase %28EC 2.3.1.51%29
+FNED7-bin-5-scaffold_3828	feature	CDS	1056	1511	.	+	0	ID=FNED7-bin-5.genome.CDS.1601;Product=
+FNED7-bin-5-scaffold_3828	feature	CDS	261	860	.	+	0	ID=FNED7-bin-5.genome.CDS.1600;Product=3-isopropylmalate dehydratase small subunit %28EC 4.2.1.33%29
+FNED7-bin-5-scaffold_3828	feature	CDS	1	249	.	+	0	ID=FNED7-bin-5.genome.CDS.1599;Product=3-isopropylmalate dehydratase large subunit %28EC 4.2.1.33%29
+FNED7-bin-5-scaffold_3833	feature	CDS	18018	18524	.	-	0	ID=FNED7-bin-5.genome.CDS.2034;Product=D-glycero-D-manno-heptose 1-phosphate guanosyltransferase
+FNED7-bin-5-scaffold_3833	feature	CDS	17604	17876	.	-	0	ID=FNED7-bin-5.genome.CDS.2033;Product=Sporulation regulatory protein WhiB
+FNED7-bin-5-scaffold_3833	feature	CDS	14251	17571	.	-	0	ID=FNED7-bin-5.genome.CDS.2032;Product=hypothetical protein
+FNED7-bin-5-scaffold_3833	feature	CDS	12902	14254	.	-	0	ID=FNED7-bin-5.genome.CDS.2031;Product=hypothetical protein
+FNED7-bin-5-scaffold_3833	feature	CDS	12479	12781	.	-	0	ID=FNED7-bin-5.genome.CDS.2030;Product=hypothetical protein
+FNED7-bin-5-scaffold_3833	feature	CDS	11096	12463	.	-	0	ID=FNED7-bin-5.genome.CDS.2029;Product=Phosphomannomutase %28EC 5.4.2.8%29
+FNED7-bin-5-scaffold_3833	feature	CDS	9775	11049	.	-	0	ID=FNED7-bin-5.genome.CDS.2028;Product=Adenosylhomocysteinase %28EC 3.3.1.1%29
+FNED7-bin-5-scaffold_3833	feature	CDS	9101	9775	.	-	0	ID=FNED7-bin-5.genome.CDS.2027;Product=Phosphate regulon transcriptional regulatory protein PhoB %28SphR%29
+FNED7-bin-5-scaffold_3833	feature	CDS	7530	9104	.	-	0	ID=FNED7-bin-5.genome.CDS.2026;Product=Sensor histidine kinase mtrB %28EC 2.7.3.-%29
+FNED7-bin-5-scaffold_3833	feature	CDS	6812	7462	.	-	0	ID=FNED7-bin-5.genome.CDS.2025;Product=Competence protein F homolog%2C phosphoribosyltransferase domain%3B protein YhgH required for utilization of DNA as sole source of carbon and energy
+FNED7-bin-5-scaffold_3833	feature	CDS	4118	6799	.	-	0	ID=FNED7-bin-5.genome.CDS.2024;Product=Protein export cytoplasm protein SecA ATPase RNA helicase %28TC 3.A.5.1.1%29
+FNED7-bin-5-scaffold_3833	feature	CDS	3517	4113	.	+	0	ID=FNED7-bin-5.genome.CDS.2023;Product=
+FNED7-bin-5-scaffold_3833	feature	CDS	2863	3453	.	-	0	ID=FNED7-bin-5.genome.CDS.2022;Product=
+FNED7-bin-5-scaffold_3833	feature	CDS	1815	2873	.	-	0	ID=FNED7-bin-5.genome.CDS.2021;Product=hypothetical protein
+FNED7-bin-5-scaffold_3833	feature	CDS	328	1791	.	-	0	ID=FNED7-bin-5.genome.CDS.2020;Product=Signal transduction histidine kinase%2C subgroup 2
+FNED7-bin-5-scaffold_3833	feature	CDS	62	331	.	+	0	ID=FNED7-bin-5.genome.CDS.2019;Product=WhiB-like transcription regulator
+FNED7-bin-5-scaffold_3850	feature	CDS	8049	8546	.	+	0	ID=FNED7-bin-5.genome.CDS.2126;Product=N-acetylglutamate synthase %28EC 2.3.1.1%29
+FNED7-bin-5-scaffold_3850	feature	CDS	6553	8052	.	+	0	ID=FNED7-bin-5.genome.CDS.2125;Product=Lysyl-tRNA synthetase %28class II%29 %28EC 6.1.1.6%29
+FNED7-bin-5-scaffold_3850	feature	CDS	5749	6528	.	+	0	ID=FNED7-bin-5.genome.CDS.2124;Product=Pantothenate kinase type III%2C CoaX-like %28EC 2.7.1.33%29
+FNED7-bin-5-scaffold_3850	feature	CDS	4840	5748	.	+	0	ID=FNED7-bin-5.genome.CDS.2123;Product=Quinolinate phosphoribosyltransferase %5Bdecarboxylating%5D %28EC 2.4.2.19%29
+FNED7-bin-5-scaffold_3850	feature	CDS	3230	4843	.	+	0	ID=FNED7-bin-5.genome.CDS.888;Product=L-aspartate oxidase %28EC 1.4.3.16%29
+FNED7-bin-5-scaffold_3850	feature	CDS	2181	3233	.	+	0	ID=FNED7-bin-5.genome.CDS.2121;Product=Pantoate--beta-alanine ligase %28EC 6.3.2.1%29
+FNED7-bin-5-scaffold_3850	feature	CDS	1686	2135	.	+	0	ID=FNED7-bin-5.genome.CDS.2120;Product=2-amino-4-hydroxy-6-hydroxymethyldihydropteridine pyrophosphokinase %28EC 2.7.6.3%29
+FNED7-bin-5-scaffold_3850	feature	CDS	1330	1689	.	+	0	ID=FNED7-bin-5.genome.CDS.2119;Product=Dihydroneopterin aldolase %28EC 4.1.2.25%29
+FNED7-bin-5-scaffold_3850	feature	CDS	527	1333	.	+	0	ID=FNED7-bin-5.genome.CDS.2118;Product=Dihydropteroate synthase %28EC 2.5.1.15%29
+FNED7-bin-5-scaffold_3850	feature	CDS	3	527	.	+	0	ID=FNED7-bin-5.genome.CDS.2117;Product=GTP cyclohydrolase I %28EC 3.5.4.16%29 type 1
+FNED7-bin-5-scaffold_3947	feature	CDS	1747	2499	.	+	0	ID=FNED7-bin-5.genome.CDS.1520;Product=Iron-sulfur cluster assembly ATPase protein SufC
+FNED7-bin-5-scaffold_3947	feature	CDS	1430	1747	.	+	0	ID=FNED7-bin-5.genome.CDS.1519;Product=Ferredoxin%2C 2Fe-2S
+FNED7-bin-5-scaffold_3947	feature	CDS	1302	1430	.	+	0	ID=FNED7-bin-5.genome.CDS.318;Product=Iron-sulfur cluster assembly protein SufD
+FNED7-bin-5-scaffold_3947	feature	CDS	248	1348	.	+	0	ID=FNED7-bin-5.genome.CDS.1518;Product=Iron-sulfur cluster assembly protein SufD
+FNED7-bin-5-scaffold_3947	feature	CDS	3	248	.	+	0	ID=FNED7-bin-5.genome.CDS.1517;Product=Iron-sulfur cluster assembly protein SufB
+FNED7-bin-5-scaffold_397	feature	CDS	9188	9973	.	+	0	ID=FNED7-bin-5.genome.CDS.2342;Product=Fructose ABC transporter%2C permease component FrcC
+FNED7-bin-5-scaffold_397	feature	CDS	7947	9017	.	+	0	ID=FNED7-bin-5.genome.CDS.2341;Product=Fructose ABC transporter%2C substrate-binding component FrcB
+FNED7-bin-5-scaffold_397	feature	CDS	7436	7825	.	+	0	ID=FNED7-bin-5.genome.CDS.2340;Product=
+FNED7-bin-5-scaffold_397	feature	CDS	6520	7320	.	-	0	ID=FNED7-bin-5.genome.CDS.2339;Product=putative aldolase
+FNED7-bin-5-scaffold_397	feature	CDS	5611	6513	.	-	0	ID=FNED7-bin-5.genome.CDS.2338;Product=Ribokinase %28EC 2.7.1.15%29
+FNED7-bin-5-scaffold_397	feature	CDS	4714	5622	.	+	0	ID=FNED7-bin-5.genome.CDS.2337;Product=Ribokinase %28EC 2.7.1.15%29
+FNED7-bin-5-scaffold_397	feature	CDS	3568	4707	.	+	0	ID=FNED7-bin-5.genome.CDS.2336;Product=putative GFO/IDH/MocA family oxidoreductase
+FNED7-bin-5-scaffold_397	feature	CDS	2732	3559	.	+	0	ID=FNED7-bin-5.genome.CDS.2335;Product=COG1830: DhnA-type fructose-1%2C6-bisphosphate aldolase and related enzymes
+FNED7-bin-5-scaffold_397	feature	CDS	1636	2658	.	-	0	ID=FNED7-bin-5.genome.CDS.2334;Product=Mannose-6-phosphate isomerase %28EC 5.3.1.8%29
+FNED7-bin-5-scaffold_397	feature	CDS	309	1613	.	-	0	ID=FNED7-bin-5.genome.CDS.2333;Product=hypothetical protein
+FNED7-bin-5-scaffold_397	feature	CDS	3	257	.	-	0	ID=FNED7-bin-5.genome.CDS.2332;Product=Polyphosphate glucokinase %28EC 2.7.1.63%29
+FNED7-bin-5-scaffold_41052	feature	CDS	17149	18141	.	-	0	ID=FNED7-bin-5.genome.CDS.1936;Product=putative Adenosine kinase %28EC 2.7.1.20%29
+FNED7-bin-5-scaffold_41052	feature	CDS	16955	17152	.	+	0	ID=FNED7-bin-5.genome.CDS.1935;Product=
+FNED7-bin-5-scaffold_41052	feature	CDS	15915	16955	.	+	0	ID=FNED7-bin-5.genome.CDS.1934;Product=hypothetical protein
+FNED7-bin-5-scaffold_41052	feature	CDS	15110	15856	.	-	0	ID=FNED7-bin-5.genome.CDS.1933;Product=Cytochrome c oxidase polypeptide II %28EC 1.9.3.1%29
+FNED7-bin-5-scaffold_41052	feature	CDS	13442	15106	.	-	0	ID=FNED7-bin-5.genome.CDS.1932;Product=Cytochrome c oxidase polypeptide I %28EC 1.9.3.1%29
+FNED7-bin-5-scaffold_41052	feature	CDS	13036	13437	.	-	0	ID=FNED7-bin-5.genome.CDS.1931;Product=hypothetical protein
+FNED7-bin-5-scaffold_41052	feature	CDS	12507	13025	.	+	0	ID=FNED7-bin-5.genome.CDS.1930;Product=hypothetical protein
+FNED7-bin-5-scaffold_41052	feature	CDS	11253	12434	.	+	0	ID=FNED7-bin-5.genome.CDS.1929;Product=PROBABLE INTEGRAL MEMBRANE PROTEIN
+FNED7-bin-5-scaffold_41052	feature	CDS	9652	11226	.	+	0	ID=FNED7-bin-5.genome.CDS.1928;Product=Ubiquinol--cytochrome c reductase%2C cytochrome B subunit %28EC 1.10.2.2%29
+FNED7-bin-5-scaffold_41052	feature	CDS	8632	9630	.	+	0	ID=FNED7-bin-5.genome.CDS.1927;Product=Ubiquinol-cytochrome C reductase iron-sulfur subunit %28EC 1.10.2.2%29
+FNED7-bin-5-scaffold_41052	feature	CDS	7836	8630	.	+	0	ID=FNED7-bin-5.genome.CDS.1926;Product=ubiquinol cytochrome C oxidoreductase%2C cytochrome C1 subunit
+FNED7-bin-5-scaffold_41052	feature	CDS	7213	7827	.	+	0	ID=FNED7-bin-5.genome.CDS.1925;Product=Cytochrome c oxidase polypeptide III %28EC 1.9.3.1%29
+FNED7-bin-5-scaffold_41052	feature	CDS	6057	7103	.	-	0	ID=FNED7-bin-5.genome.CDS.1924;Product=Anthranilate phosphoribosyltransferase %28EC 2.4.2.18%29
+FNED7-bin-5-scaffold_41052	feature	CDS	5441	6064	.	+	0	ID=FNED7-bin-5.genome.CDS.1923;Product=DNA polymerase III epsilon subunit %28EC 2.7.7.7%29
+FNED7-bin-5-scaffold_41052	feature	CDS	4731	5411	.	-	0	ID=FNED7-bin-5.genome.CDS.1922;Product=
+FNED7-bin-5-scaffold_41052	feature	CDS	3795	4721	.	-	0	ID=FNED7-bin-5.genome.CDS.1921;Product=Oxidoreductase
+FNED7-bin-5-scaffold_41052	feature	CDS	3244	3786	.	-	0	ID=FNED7-bin-5.genome.CDS.1920;Product=
+FNED7-bin-5-scaffold_41052	feature	CDS	1755	3203	.	+	0	ID=FNED7-bin-5.genome.CDS.1919;Product=hypothetical protein
+FNED7-bin-5-scaffold_41052	feature	CDS	725	1633	.	+	0	ID=FNED7-bin-5.genome.CDS.1918;Product=
+FNED7-bin-5-scaffold_41052	feature	CDS	59	664	.	+	0	ID=FNED7-bin-5.genome.CDS.1917;Product=Transporter%2C LysE family
+FNED7-bin-5-scaffold_41128	feature	CDS	5330	5839	.	+	0	ID=FNED7-bin-5.genome.CDS.1274;Product=Phage tail fiber protein
+FNED7-bin-5-scaffold_41128	feature	CDS	4473	5102	.	-	0	ID=FNED7-bin-5.genome.CDS.1273;Product=
+FNED7-bin-5-scaffold_41128	feature	CDS	3958	4407	.	-	0	ID=FNED7-bin-5.genome.CDS.1272;Product=Ribose 5-phosphate isomerase B %28EC 5.3.1.6%29 / Galactose 6-phosphate isomerase
+FNED7-bin-5-scaffold_41128	feature	CDS	3299	3961	.	+	0	ID=FNED7-bin-5.genome.CDS.1271;Product=tRNA %28guanine46-N7-%29-methyltransferase %28EC 2.1.1.33%29
+FNED7-bin-5-scaffold_41128	feature	CDS	723	3260	.	-	0	ID=FNED7-bin-5.genome.CDS.1270;Product=Membrane alanine aminopeptidase N %28EC 3.4.11.2%29
+FNED7-bin-5-scaffold_41128	feature	CDS	534	722	.	+	0	ID=FNED7-bin-5.genome.CDS.1269;Product=
+FNED7-bin-5-scaffold_41128	feature	CDS	3	512	.	+	0	ID=FNED7-bin-5.genome.CDS.1268;Product=HNH endonuclease family protein
+FNED7-bin-5-scaffold_4166	feature	CDS	3128	3520	.	+	0	ID=FNED7-bin-5.genome.CDS.1442;Product=Hemoglobin-like protein HbO
+FNED7-bin-5-scaffold_4166	feature	CDS	1449	3116	.	+	0	ID=FNED7-bin-5.genome.CDS.1441;Product=ABC transporter ATP-binding protein
+FNED7-bin-5-scaffold_4166	feature	tRNA	1314	1387	.	-	.	ID=FNED7-bin-5.genome.rna.2;Product=tRNA-Arg-TCT
+FNED7-bin-5-scaffold_4166	feature	CDS	710	1261	.	-	0	ID=FNED7-bin-5.genome.CDS.1440;Product=3%27-to-5%27 oligoribonuclease %28orn%29
+FNED7-bin-5-scaffold_4166	feature	tRNA	610	685	.	-	.	ID=FNED7-bin-5.genome.rna.3;Product=tRNA-His-GTG
+FNED7-bin-5-scaffold_4166	feature	CDS	73	558	.	-	0	ID=FNED7-bin-5.genome.CDS.1439;Product=Inorganic pyrophosphatase %28EC 3.6.1.1%29
+FNED7-bin-5-scaffold_4227	feature	CDS	6831	8045	.	+	0	ID=FNED7-bin-5.genome.CDS.2284;Product=sensor histidine kinase
+FNED7-bin-5-scaffold_4227	feature	CDS	6052	6813	.	+	0	ID=FNED7-bin-5.genome.CDS.2283;Product=DNA-binding response regulator
+FNED7-bin-5-scaffold_4227	feature	CDS	5669	5926	.	+	0	ID=FNED7-bin-5.genome.CDS.2282;Product=Cell division protein CrgA
+FNED7-bin-5-scaffold_4227	feature	CDS	5006	5632	.	-	0	ID=FNED7-bin-5.genome.CDS.2281;Product=Anthranilate synthase%2C amidotransferase component %28EC 4.1.3.27%29 %40 Para-aminobenzoate synthase%2C amidotransferase component %28EC 2.6.1.85%29
+FNED7-bin-5-scaffold_4227	feature	CDS	3472	5016	.	+	0	ID=FNED7-bin-5.genome.CDS.2280;Product=serine/threonine protein kinase
+FNED7-bin-5-scaffold_4227	feature	CDS	2678	3475	.	+	0	ID=FNED7-bin-5.genome.CDS.2279;Product=Protein serine/threonine phosphatase PrpC%2C regulation of stationary phase
+FNED7-bin-5-scaffold_4227	feature	CDS	1776	2399	.	-	0	ID=FNED7-bin-5.genome.CDS.2278;Product=Prephenate dehydratase %28EC 4.2.1.51%29
+FNED7-bin-5-scaffold_4227	feature	CDS	504	1766	.	-	0	ID=FNED7-bin-5.genome.CDS.2277;Product=Seryl-tRNA synthetase %28EC 6.1.1.11%29
+FNED7-bin-5-scaffold_4227	feature	CDS	1	354	.	-	0	ID=FNED7-bin-5.genome.CDS.2276;Product=
+FNED7-bin-5-scaffold_42349	feature	misc_RNA	2939	3130	.	+	.	ID=FNED7-bin-5.genome.repeat.22;Product=repeat region
+FNED7-bin-5-scaffold_42349	feature	CDS	3760	4626	.	-	0	ID=FNED7-bin-5.genome.CDS.2243;Product=Fructokinase %28EC 2.7.1.4%29
+FNED7-bin-5-scaffold_42349	feature	CDS	2996	3760	.	-	0	ID=FNED7-bin-5.genome.CDS.1000;Product=
+FNED7-bin-5-scaffold_42349	feature	CDS	1619	2899	.	-	0	ID=FNED7-bin-5.genome.CDS.2241;Product=Cobalt-zinc-cadmium resistance protein CzcA%3B Cation efflux system protein CusA
+FNED7-bin-5-scaffold_42349	feature	CDS	1190	1615	.	+	0	ID=FNED7-bin-5.genome.CDS.2240;Product=
+FNED7-bin-5-scaffold_42349	feature	CDS	739	1218	.	+	0	ID=FNED7-bin-5.genome.CDS.997;Product=
+FNED7-bin-5-scaffold_42349	feature	CDS	292	705	.	-	0	ID=FNED7-bin-5.genome.CDS.2238;Product=Transcriptional regulator%2C FUR family
+FNED7-bin-5-scaffold_42349	feature	CDS	2	289	.	-	0	ID=FNED7-bin-5.genome.CDS.2237;Product=Folate-dependent protein for Fe/S cluster synthesis/repair in oxidative stress
+FNED7-bin-5-scaffold_4276	feature	misc_RNA	1869	1997	.	+	.	ID=FNED7-bin-5.genome.repeat.12;Product=repeat region
+FNED7-bin-5-scaffold_4276	feature	CDS	1914	3092	.	-	0	ID=FNED7-bin-5.genome.CDS.1526;Product=NAD%28P%29 transhydrogenase subunit beta %28EC 1.6.1.2%29
+FNED7-bin-5-scaffold_4276	feature	CDS	642	1784	.	-	0	ID=FNED7-bin-5.genome.CDS.1525;Product=Carboxyl-terminal protease %28EC 3.4.21.102%29
+FNED7-bin-5-scaffold_4276	feature	CDS	113	592	.	-	0	ID=FNED7-bin-5.genome.CDS.1524;Product=tmRNA-binding protein SmpB
+FNED7-bin-5-scaffold_4303	feature	CDS	6784	9072	.	-	0	ID=FNED7-bin-5.genome.CDS.1976;Product=ATP-dependent Clp protease%2C ATP-binding subunit ClpC / Negative regulator of genetic competence clcC/mecB
+FNED7-bin-5-scaffold_4303	feature	CDS	5948	6787	.	+	0	ID=FNED7-bin-5.genome.CDS.1975;Product=A/G-specific adenine glycosylase %28EC 3.2.2.-%29
+FNED7-bin-5-scaffold_4303	feature	CDS	5578	5937	.	+	0	ID=FNED7-bin-5.genome.CDS.1974;Product=DNA repair protein RadA
+FNED7-bin-5-scaffold_4303	feature	CDS	4488	5525	.	+	0	ID=FNED7-bin-5.genome.CDS.1973;Product=DNA repair protein RadA
+FNED7-bin-5-scaffold_4303	feature	CDS	3677	4507	.	+	0	ID=FNED7-bin-5.genome.CDS.1972;Product=FIG01122970: hypothetical protein
+FNED7-bin-5-scaffold_4303	feature	CDS	2830	3645	.	-	0	ID=FNED7-bin-5.genome.CDS.1971;Product=Pyrroline-5-carboxylate reductase %28EC 1.5.1.2%29
+FNED7-bin-5-scaffold_4303	feature	CDS	2282	2833	.	-	0	ID=FNED7-bin-5.genome.CDS.1970;Product=
+FNED7-bin-5-scaffold_4303	feature	CDS	1795	2178	.	-	0	ID=FNED7-bin-5.genome.CDS.738;Product=
+FNED7-bin-5-scaffold_4303	feature	CDS	3	1793	.	+	0	ID=FNED7-bin-5.genome.CDS.1968;Product=hypothetical protein
+FNED7-bin-5-scaffold_4424	feature	misc_RNA	1	598	.	+	.	ID=FNED7-bin-5.genome.repeat.2;Product=repeat region
+FNED7-bin-5-scaffold_4424	feature	CDS	2584	2853	.	-	0	ID=FNED7-bin-5.genome.CDS.1431;Product=WhiB-like transcription regulator
+FNED7-bin-5-scaffold_4424	feature	CDS	1124	2587	.	+	0	ID=FNED7-bin-5.genome.CDS.1430;Product=Signal transduction histidine kinase%2C subgroup 2
+FNED7-bin-5-scaffold_4424	feature	CDS	42	1100	.	+	0	ID=FNED7-bin-5.genome.CDS.1429;Product=hypothetical protein
+FNED7-bin-5-scaffold_44421	feature	misc_RNA	1290	1396	.	+	.	ID=FNED7-bin-5.genome.repeat.16;Product=repeat region
+FNED7-bin-5-scaffold_44421	feature	CDS	2180	2635	.	-	0	ID=FNED7-bin-5.genome.CDS.1901;Product=
+FNED7-bin-5-scaffold_44421	feature	CDS	1543	2199	.	+	0	ID=FNED7-bin-5.genome.CDS.1900;Product=ATP-dependent DNA helicase SCO5184
+FNED7-bin-5-scaffold_44421	feature	CDS	59	1525	.	+	0	ID=FNED7-bin-5.genome.CDS.672;Product=ATP-dependent DNA helicase SCO5184
+FNED7-bin-5-scaffold_4448	feature	CDS	2712	3569	.	-	0	ID=FNED7-bin-5.genome.CDS.1845;Product=rRNA small subunit methyltransferase H
+FNED7-bin-5-scaffold_4448	feature	CDS	2317	2712	.	-	0	ID=FNED7-bin-5.genome.CDS.1844;Product=
+FNED7-bin-5-scaffold_4448	feature	CDS	500	2320	.	-	0	ID=FNED7-bin-5.genome.CDS.1843;Product=Cell division protein FtsI %5BPeptidoglycan synthetase%5D %28EC 2.4.1.129%29
+FNED7-bin-5-scaffold_4448	feature	CDS	3	497	.	-	0	ID=FNED7-bin-5.genome.CDS.1842;Product=UDP-N-acetylmuramoylalanyl-D-glutamate--2%2C6-diaminopimelate ligase %28EC 6.3.2.13%29
+FNED7-bin-5-scaffold_4455	feature	CDS	1336	3222	.	-	0	ID=FNED7-bin-5.genome.CDS.41;Product=hypothetical protein
+FNED7-bin-5-scaffold_4455	feature	CDS	2	1201	.	-	0	ID=FNED7-bin-5.genome.CDS.1216;Product=hypothetical protein
+FNED7-bin-5-scaffold_45326	feature	CDS	4688	5197	.	+	0	ID=FNED7-bin-5.genome.CDS.1267;Product=Branched-chain amino acid transport ATP-binding protein LivF %28TC 3.A.1.4.1%29
+FNED7-bin-5-scaffold_45326	feature	CDS	3922	4698	.	+	0	ID=FNED7-bin-5.genome.CDS.1266;Product=Branched-chain amino acid transport ATP-binding protein LivG %28TC 3.A.1.4.1%29
+FNED7-bin-5-scaffold_45326	feature	CDS	2883	3929	.	+	0	ID=FNED7-bin-5.genome.CDS.1265;Product=Branched-chain amino acid transport system permease protein LivM %28TC 3.A.1.4.1%29
+FNED7-bin-5-scaffold_45326	feature	CDS	1928	2875	.	+	0	ID=FNED7-bin-5.genome.CDS.1264;Product=High-affinity branched-chain amino acid transport system permease protein LivH %28TC 3.A.1.4.1%29
+FNED7-bin-5-scaffold_45326	feature	CDS	632	1795	.	+	0	ID=FNED7-bin-5.genome.CDS.1263;Product=Branched-chain amino acid ABC transporter%2C amino acid-binding protein %28TC 3.A.1.4.1%29
+FNED7-bin-5-scaffold_45326	feature	CDS	3	455	.	+	0	ID=FNED7-bin-5.genome.CDS.1262;Product=Response regulator NasT
+FNED7-bin-5-scaffold_4563	feature	CDS	3316	3759	.	-	0	ID=FNED7-bin-5.genome.CDS.1907;Product=
+FNED7-bin-5-scaffold_4563	feature	CDS	3119	3316	.	-	0	ID=FNED7-bin-5.genome.CDS.1906;Product=
+FNED7-bin-5-scaffold_4563	feature	CDS	2136	3122	.	+	0	ID=FNED7-bin-5.genome.CDS.1905;Product=putative Adenosine kinase %28EC 2.7.1.20%29
+FNED7-bin-5-scaffold_4563	feature	CDS	1754	2119	.	+	0	ID=FNED7-bin-5.genome.CDS.1904;Product=probable iron binding protein from the HesB_IscA_SufA family
+FNED7-bin-5-scaffold_4563	feature	CDS	528	1682	.	-	0	ID=FNED7-bin-5.genome.CDS.1903;Product=Quinolinate synthetase %28EC 2.5.1.72%29
+FNED7-bin-5-scaffold_4563	feature	CDS	11	523	.	-	0	ID=FNED7-bin-5.genome.CDS.1902;Product=CblZ%2C a non-orthologous displasment for Alpha-ribazole-5%27-phosphate phosphatase
+FNED7-bin-5-scaffold_4591	feature	CDS	5797	6303	.	+	0	ID=FNED7-bin-5.genome.CDS.1585;Product=SpoU rRNA methylase family protein
+FNED7-bin-5-scaffold_4591	feature	CDS	4625	5746	.	-	0	ID=FNED7-bin-5.genome.CDS.1584;Product=D-alanyl-D-alanine carboxypeptidase %28EC 3.4.16.4%29
+FNED7-bin-5-scaffold_4591	feature	CDS	3705	4595	.	-	0	ID=FNED7-bin-5.genome.CDS.1583;Product=Heme O synthase%2C protoheme IX farnesyltransferase %28EC 2.5.1.-%29 COX10-CtaB
+FNED7-bin-5-scaffold_4591	feature	CDS	2806	3708	.	-	0	ID=FNED7-bin-5.genome.CDS.1582;Product=ABC transporter%2C ATP-binding protein
+FNED7-bin-5-scaffold_4591	feature	CDS	2014	2805	.	-	0	ID=FNED7-bin-5.genome.CDS.1581;Product=
+FNED7-bin-5-scaffold_4591	feature	CDS	692	1924	.	-	0	ID=FNED7-bin-5.genome.CDS.1580;Product=hypothetical protein
+FNED7-bin-5-scaffold_4591	feature	CDS	2	688	.	-	0	ID=FNED7-bin-5.genome.CDS.1579;Product=tRNA%28Ile%29-lysidine synthetase %28EC 6.3.4.19%29
+FNED7-bin-5-scaffold_4597	feature	CDS	6499	6972	.	+	0	ID=FNED7-bin-5.genome.CDS.2393;Product=
+FNED7-bin-5-scaffold_4597	feature	CDS	5403	6533	.	+	0	ID=FNED7-bin-5.genome.CDS.2392;Product=protein of unknown function UPF0118
+FNED7-bin-5-scaffold_4597	feature	CDS	4158	5375	.	-	0	ID=FNED7-bin-5.genome.CDS.2391;Product=Chromosome segregation ATPases
+FNED7-bin-5-scaffold_4597	feature	CDS	3244	4161	.	-	0	ID=FNED7-bin-5.genome.CDS.2390;Product=hypothetical protein
+FNED7-bin-5-scaffold_4597	feature	CDS	1171	3078	.	+	0	ID=FNED7-bin-5.genome.CDS.1133;Product=Pyruvate dehydrogenase E1 component %28EC 1.2.4.1%29
+FNED7-bin-5-scaffold_4597	feature	CDS	369	1163	.	+	0	ID=FNED7-bin-5.genome.CDS.1132;Product=Pyruvate dehydrogenase E1 component %28EC 1.2.4.1%29
+FNED7-bin-5-scaffold_4597	feature	CDS	3	263	.	-	0	ID=FNED7-bin-5.genome.CDS.2388;Product=hypothetical protein
+FNED7-bin-5-scaffold_4630	feature	CDS	6210	6902	.	-	0	ID=FNED7-bin-5.genome.CDS.1967;Product=
+FNED7-bin-5-scaffold_4630	feature	CDS	5848	6159	.	-	0	ID=FNED7-bin-5.genome.CDS.1966;Product=
+FNED7-bin-5-scaffold_4630	feature	CDS	5231	5614	.	-	0	ID=FNED7-bin-5.genome.CDS.1965;Product=
+FNED7-bin-5-scaffold_4630	feature	tRNA	5123	5197	.	-	.	ID=FNED7-bin-5.genome.rna.9;Product=tRNA-Thr-CGT
+FNED7-bin-5-scaffold_4630	feature	CDS	3564	4991	.	-	0	ID=FNED7-bin-5.genome.CDS.1964;Product=Amino acid permease
+FNED7-bin-5-scaffold_4630	feature	CDS	3024	3506	.	-	0	ID=FNED7-bin-5.genome.CDS.1963;Product=DNA topoisomerase I %28EC 5.99.1.2%29
+FNED7-bin-5-scaffold_4630	feature	CDS	1624	3006	.	-	0	ID=FNED7-bin-5.genome.CDS.1962;Product=
+FNED7-bin-5-scaffold_4630	feature	CDS	487	1608	.	-	0	ID=FNED7-bin-5.genome.CDS.1961;Product=
+FNED7-bin-5-scaffold_4630	feature	CDS	2	487	.	-	0	ID=FNED7-bin-5.genome.CDS.1960;Product=Putative amidotransferase similar to cobyric acid synthase
+FNED7-bin-5-scaffold_4633	feature	misc_RNA	5045	5421	.	+	.	ID=FNED7-bin-5.genome.repeat.13;Product=repeat region
+FNED7-bin-5-scaffold_4633	feature	CDS	4606	5379	.	+	0	ID=FNED7-bin-5.genome.CDS.2423;Product=Short-chain dehydrogenase/reductase in hypothetical Actinobacterial gene cluster
+FNED7-bin-5-scaffold_4633	feature	CDS	3218	4582	.	+	0	ID=FNED7-bin-5.genome.CDS.2422;Product=Aldehyde dehydrogenase in hypothetical Actinobacterial gene cluster
+FNED7-bin-5-scaffold_4633	feature	CDS	1856	3205	.	+	0	ID=FNED7-bin-5.genome.CDS.2421;Product=Glutamine synthetase family protein in hypothetical Actinobacterial gene cluster
+FNED7-bin-5-scaffold_4633	feature	CDS	186	1676	.	-	0	ID=FNED7-bin-5.genome.CDS.2420;Product=Amino acid/metabolite permease in hypothetical Actinobacterial gene cluster%3B BAT1-like
+FNED7-bin-5-scaffold_4633	feature	CDS	1	96	.	-	0	ID=FNED7-bin-5.genome.CDS.2419;Product=
+FNED7-bin-5-scaffold_46568	feature	CDS	4488	5750	.	-	0	ID=FNED7-bin-5.genome.CDS.1403;Product=Cell division trigger factor %28EC 5.2.1.8%29
+FNED7-bin-5-scaffold_46568	feature	CDS	3684	4286	.	-	0	ID=FNED7-bin-5.genome.CDS.1402;Product=ATP-dependent Clp protease proteolytic subunit %28EC 3.4.21.92%29
+FNED7-bin-5-scaffold_46568	feature	CDS	3052	3687	.	-	0	ID=FNED7-bin-5.genome.CDS.1401;Product=ATP-dependent Clp protease proteolytic subunit %28EC 3.4.21.92%29
+FNED7-bin-5-scaffold_46568	feature	CDS	2099	2962	.	-	0	ID=FNED7-bin-5.genome.CDS.1400;Product=ATP-dependent Clp protease ATP-binding subunit ClpX
+FNED7-bin-5-scaffold_46568	feature	CDS	1566	1997	.	-	0	ID=FNED7-bin-5.genome.CDS.200;Product=ATP-dependent Clp protease ATP-binding subunit ClpX
+FNED7-bin-5-scaffold_46568	feature	CDS	3	1541	.	-	0	ID=FNED7-bin-5.genome.CDS.1398;Product=Valyl-tRNA synthetase %28EC 6.1.1.9%29
+FNED7-bin-5-scaffold_47060	feature	misc_RNA	8069	8877	.	+	.	ID=FNED7-bin-5.genome.repeat.11;Product=repeat region
+FNED7-bin-5-scaffold_47060	feature	CDS	10823	12322	.	+	0	ID=FNED7-bin-5.genome.CDS.2137;Product=Aspartyl-tRNA%28Asn%29 amidotransferase subunit B %28EC 6.3.5.6%29 %40 Glutamyl-tRNA%28Gln%29 amidotransferase subunit B %28EC 6.3.5.7%29
+FNED7-bin-5-scaffold_47060	feature	CDS	9324	10823	.	+	0	ID=FNED7-bin-5.genome.CDS.2136;Product=Aspartyl-tRNA%28Asn%29 amidotransferase subunit A %28EC 6.3.5.6%29 %40 Glutamyl-tRNA%28Gln%29 amidotransferase subunit A %28EC 6.3.5.7%29
+FNED7-bin-5-scaffold_47060	feature	CDS	9031	9327	.	+	0	ID=FNED7-bin-5.genome.CDS.2135;Product=Aspartyl-tRNA%28Asn%29 amidotransferase subunit C %28EC 6.3.5.6%29 %40 Glutamyl-tRNA%28Gln%29 amidotransferase subunit C %28EC 6.3.5.7%29
+FNED7-bin-5-scaffold_47060	feature	CDS	8144	9067	.	+	0	ID=FNED7-bin-5.genome.CDS.900;Product=Glutamate 5-kinase %28EC 2.7.2.11%29 / RNA-binding C-terminal domain PUA
+FNED7-bin-5-scaffold_47060	feature	CDS	6663	8147	.	+	0	ID=FNED7-bin-5.genome.CDS.2133;Product=GTP-binding protein Obg
+FNED7-bin-5-scaffold_47060	feature	CDS	6317	6577	.	+	0	ID=FNED7-bin-5.genome.CDS.2132;Product=LSU ribosomal protein L27p
+FNED7-bin-5-scaffold_47060	feature	CDS	5991	6299	.	+	0	ID=FNED7-bin-5.genome.CDS.2131;Product=LSU ribosomal protein L21p
+FNED7-bin-5-scaffold_47060	feature	CDS	3737	5920	.	+	0	ID=FNED7-bin-5.genome.CDS.2130;Product=Cytoplasmic axial filament protein CafA and Ribonuclease G %28EC 3.1.4.-%29
+FNED7-bin-5-scaffold_47060	feature	CDS	2405	3556	.	+	0	ID=FNED7-bin-5.genome.CDS.2129;Product=Rod shape-determining protein RodA
+FNED7-bin-5-scaffold_47060	feature	CDS	304	2391	.	+	0	ID=FNED7-bin-5.genome.CDS.2128;Product=Penicillin-binding protein 2 %28PBP-2%29
+FNED7-bin-5-scaffold_47060	feature	CDS	2	307	.	+	0	ID=FNED7-bin-5.genome.CDS.2127;Product=
+FNED7-bin-5-scaffold_4710	feature	CDS	4823	5551	.	-	0	ID=FNED7-bin-5.genome.CDS.1422;Product=
+FNED7-bin-5-scaffold_4710	feature	CDS	4219	4764	.	-	0	ID=FNED7-bin-5.genome.CDS.1421;Product=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase %28EC 2.7.8.5%29
+FNED7-bin-5-scaffold_4710	feature	CDS	3746	4222	.	-	0	ID=FNED7-bin-5.genome.CDS.1420;Product=
+FNED7-bin-5-scaffold_4710	feature	CDS	3480	3749	.	-	0	ID=FNED7-bin-5.genome.CDS.1419;Product=
+FNED7-bin-5-scaffold_4710	feature	CDS	2900	3442	.	-	0	ID=FNED7-bin-5.genome.CDS.1418;Product=hypothetical protein
+FNED7-bin-5-scaffold_4710	feature	CDS	1694	2893	.	+	0	ID=FNED7-bin-5.genome.CDS.1417;Product=
+FNED7-bin-5-scaffold_4710	feature	CDS	865	1704	.	+	0	ID=FNED7-bin-5.genome.CDS.217;Product=hypothetical protein
+FNED7-bin-5-scaffold_4710	feature	CDS	171	782	.	-	0	ID=FNED7-bin-5.genome.CDS.1416;Product=Transcriptional regulator%2C TetR family
+FNED7-bin-5-scaffold_4710	feature	CDS	1	168	.	-	0	ID=FNED7-bin-5.genome.CDS.1415;Product=
+FNED7-bin-5-scaffold_4732	feature	misc_RNA	3659	3759	.	+	.	ID=FNED7-bin-5.genome.repeat.25;Product=repeat region
+FNED7-bin-5-scaffold_4732	feature	CDS	2010	3674	.	-	0	ID=FNED7-bin-5.genome.CDS.1795;Product=hypothetical protein
+FNED7-bin-5-scaffold_4732	feature	CDS	1330	2013	.	-	0	ID=FNED7-bin-5.genome.CDS.1794;Product=hypothetical protein
+FNED7-bin-5-scaffold_4732	feature	CDS	874	1305	.	-	0	ID=FNED7-bin-5.genome.CDS.1793;Product=Peptide methionine sulfoxide reductase MsrB %28EC 1.8.4.12%29
+FNED7-bin-5-scaffold_4732	feature	CDS	448	873	.	+	0	ID=FNED7-bin-5.genome.CDS.1792;Product=
+FNED7-bin-5-scaffold_4732	feature	CDS	3	218	.	-	0	ID=FNED7-bin-5.genome.CDS.1791;Product=Proteorhodopsin
+FNED7-bin-5-scaffold_4736	feature	CDS	3417	3884	.	+	0	ID=FNED7-bin-5.genome.CDS.2190;Product=
+FNED7-bin-5-scaffold_4736	feature	CDS	2203	3420	.	+	0	ID=FNED7-bin-5.genome.CDS.2189;Product=Chromosome segregation ATPases
+FNED7-bin-5-scaffold_4736	feature	CDS	1045	2175	.	-	0	ID=FNED7-bin-5.genome.CDS.2188;Product=protein of unknown function UPF0118
+FNED7-bin-5-scaffold_4736	feature	CDS	3	1079	.	-	0	ID=FNED7-bin-5.genome.CDS.2187;Product=possible membrane protein
+FNED7-bin-5-scaffold_47657	feature	CDS	4747	5076	.	-	0	ID=FNED7-bin-5.genome.CDS.1261;Product=Response regulator NasT
+FNED7-bin-5-scaffold_47657	feature	CDS	3407	4570	.	-	0	ID=FNED7-bin-5.genome.CDS.1260;Product=Branched-chain amino acid ABC transporter%2C amino acid-binding protein %28TC 3.A.1.4.1%29
+FNED7-bin-5-scaffold_47657	feature	CDS	2325	3272	.	-	0	ID=FNED7-bin-5.genome.CDS.1259;Product=High-affinity branched-chain amino acid transport system permease protein LivH %28TC 3.A.1.4.1%29
+FNED7-bin-5-scaffold_47657	feature	CDS	1271	2317	.	-	0	ID=FNED7-bin-5.genome.CDS.1258;Product=Branched-chain amino acid transport system permease protein LivM %28TC 3.A.1.4.1%29
+FNED7-bin-5-scaffold_47657	feature	CDS	502	1278	.	-	0	ID=FNED7-bin-5.genome.CDS.1257;Product=Branched-chain amino acid transport ATP-binding protein LivG %28TC 3.A.1.4.1%29
+FNED7-bin-5-scaffold_47657	feature	CDS	3	512	.	-	0	ID=FNED7-bin-5.genome.CDS.1256;Product=Branched-chain amino acid transport ATP-binding protein LivF %28TC 3.A.1.4.1%29
+FNED7-bin-5-scaffold_47875	feature	CDS	6008	7147	.	+	0	ID=FNED7-bin-5.genome.CDS.1255;Product=Phosphate ABC transporter%2C periplasmic phosphate-binding protein PstS %28TC 3.A.1.7.1%29
+FNED7-bin-5-scaffold_47875	feature	CDS	5023	5892	.	+	0	ID=FNED7-bin-5.genome.CDS.1254;Product=Phosphate transport ATP-binding protein PstB %28TC 3.A.1.7.1%29
+FNED7-bin-5-scaffold_47875	feature	CDS	3959	5020	.	+	0	ID=FNED7-bin-5.genome.CDS.1253;Product=Phosphate transport system permease protein PstA %28TC 3.A.1.7.1%29
+FNED7-bin-5-scaffold_47875	feature	CDS	2964	3962	.	+	0	ID=FNED7-bin-5.genome.CDS.1252;Product=Phosphate transport system permease protein PstC %28TC 3.A.1.7.1%29
+FNED7-bin-5-scaffold_47875	feature	CDS	2189	2875	.	+	0	ID=FNED7-bin-5.genome.CDS.1251;Product=Phosphate regulon transcriptional regulatory protein PhoB %28SphR%29
+FNED7-bin-5-scaffold_47875	feature	CDS	1113	2192	.	+	0	ID=FNED7-bin-5.genome.CDS.1250;Product=Phosphate regulon sensor protein PhoR %28SphS%29 %28EC 2.7.13.3%29
+FNED7-bin-5-scaffold_47875	feature	CDS	324	971	.	-	0	ID=FNED7-bin-5.genome.CDS.1249;Product=Phosphate transport system regulatory protein PhoU
+FNED7-bin-5-scaffold_47875	feature	CDS	1	312	.	+	0	ID=FNED7-bin-5.genome.CDS.1248;Product=Phosphoglycerate mutase %28EC 5.4.2.11%29
+FNED7-bin-5-scaffold_48177	feature	CDS	2868	3437	.	-	0	ID=FNED7-bin-5.genome.CDS.1247;Product=3-isopropylmalate dehydrogenase %28EC 1.1.1.85%29
+FNED7-bin-5-scaffold_48177	feature	CDS	1779	2867	.	-	0	ID=FNED7-bin-5.genome.CDS.1246;Product=Branched-chain amino acid aminotransferase %28EC 2.6.1.42%29
+FNED7-bin-5-scaffold_48177	feature	CDS	187	1782	.	-	0	ID=FNED7-bin-5.genome.CDS.1245;Product=%28R%29-citramalate synthase %28EC 2.3.1.182%29
+FNED7-bin-5-scaffold_48177	feature	CDS	3	185	.	-	0	ID=FNED7-bin-5.genome.CDS.1244;Product=
+FNED7-bin-5-scaffold_4820	feature	CDS	12758	13951	.	+	0	ID=FNED7-bin-5.genome.CDS.2116;Product=S-adenosylmethionine synthetase %28EC 2.5.1.6%29
+FNED7-bin-5-scaffold_4820	feature	CDS	11566	12753	.	+	0	ID=FNED7-bin-5.genome.CDS.2115;Product=Phosphopantothenoylcysteine decarboxylase %28EC 4.1.1.36%29 / Phosphopantothenoylcysteine synthetase %28EC 6.3.2.5%29
+FNED7-bin-5-scaffold_4820	feature	CDS	11265	11546	.	+	0	ID=FNED7-bin-5.genome.CDS.2114;Product=DNA-directed RNA polymerase omega subunit %28EC 2.7.7.6%29
+FNED7-bin-5-scaffold_4820	feature	CDS	11177	11287	.	+	0	ID=FNED7-bin-5.genome.CDS.2113;Product=DNA-directed RNA polymerase omega subunit %28EC 2.7.7.6%29
+FNED7-bin-5-scaffold_4820	feature	CDS	10308	11141	.	+	0	ID=FNED7-bin-5.genome.CDS.2112;Product=Guanylate kinase %28EC 2.7.4.8%29
+FNED7-bin-5-scaffold_4820	feature	CDS	9571	10269	.	+	0	ID=FNED7-bin-5.genome.CDS.2111;Product=Orotidine 5%27-phosphate decarboxylase %28EC 4.1.1.23%29
+FNED7-bin-5-scaffold_4820	feature	CDS	8634	9578	.	+	0	ID=FNED7-bin-5.genome.CDS.2110;Product=Dihydroorotate dehydrogenase%2C catalytic subunit %28EC 1.3.3.1%29
+FNED7-bin-5-scaffold_4820	feature	CDS	8083	8637	.	+	0	ID=FNED7-bin-5.genome.CDS.2109;Product=Dihydroorotate dehydrogenase electron transfer subunit %28EC 1.3.3.1%29
+FNED7-bin-5-scaffold_4820	feature	CDS	7952	8077	.	+	0	ID=FNED7-bin-5.genome.CDS.875;Product=
+FNED7-bin-5-scaffold_4820	feature	CDS	4413	7682	.	+	0	ID=FNED7-bin-5.genome.CDS.2108;Product=Carbamoyl-phosphate synthase large chain %28EC 6.3.5.5%29
+FNED7-bin-5-scaffold_4820	feature	CDS	3284	4420	.	+	0	ID=FNED7-bin-5.genome.CDS.2107;Product=Carbamoyl-phosphate synthase small chain %28EC 6.3.5.5%29
+FNED7-bin-5-scaffold_4820	feature	CDS	1996	3291	.	+	0	ID=FNED7-bin-5.genome.CDS.2106;Product=Dihydroorotase %28EC 3.5.2.3%29
+FNED7-bin-5-scaffold_4820	feature	CDS	1073	1999	.	+	0	ID=FNED7-bin-5.genome.CDS.871;Product=Aspartate carbamoyltransferase %28EC 2.1.3.2%29
+FNED7-bin-5-scaffold_4820	feature	CDS	549	1076	.	+	0	ID=FNED7-bin-5.genome.CDS.2104;Product=Uracil phosphoribosyltransferase %28EC 2.4.2.9%29 / Pyrimidine operon regulatory protein PyrR
+FNED7-bin-5-scaffold_4820	feature	CDS	31	438	.	+	0	ID=FNED7-bin-5.genome.CDS.2103;Product=Transcription termination protein NusB
+FNED7-bin-5-scaffold_4843	feature	CDS	8817	9110	.	+	0	ID=FNED7-bin-5.genome.CDS.2363;Product=hypothetical protein
+FNED7-bin-5-scaffold_4843	feature	CDS	8012	8758	.	-	0	ID=FNED7-bin-5.genome.CDS.2362;Product=Cytochrome c oxidase polypeptide II %28EC 1.9.3.1%29
+FNED7-bin-5-scaffold_4843	feature	CDS	6344	8008	.	-	0	ID=FNED7-bin-5.genome.CDS.2361;Product=Cytochrome c oxidase polypeptide I %28EC 1.9.3.1%29
+FNED7-bin-5-scaffold_4843	feature	CDS	5854	6339	.	-	0	ID=FNED7-bin-5.genome.CDS.2360;Product=hypothetical protein
+FNED7-bin-5-scaffold_4843	feature	CDS	5326	5844	.	+	0	ID=FNED7-bin-5.genome.CDS.2359;Product=hypothetical protein
+FNED7-bin-5-scaffold_4843	feature	CDS	4071	5252	.	+	0	ID=FNED7-bin-5.genome.CDS.2358;Product=hypothetical protein
+FNED7-bin-5-scaffold_4843	feature	CDS	2470	4044	.	+	0	ID=FNED7-bin-5.genome.CDS.2357;Product=Ubiquinol--cytochrome c reductase%2C cytochrome B subunit %28EC 1.10.2.2%29
+FNED7-bin-5-scaffold_4843	feature	CDS	1450	2448	.	+	0	ID=FNED7-bin-5.genome.CDS.2356;Product=Ubiquinol-cytochrome C reductase iron-sulfur subunit %28EC 1.10.2.2%29
+FNED7-bin-5-scaffold_4843	feature	CDS	654	1448	.	+	0	ID=FNED7-bin-5.genome.CDS.2355;Product=ubiquinol cytochrome C oxidoreductase%2C cytochrome C1 subunit
+FNED7-bin-5-scaffold_4843	feature	CDS	1	645	.	+	0	ID=FNED7-bin-5.genome.CDS.2354;Product=Cytochrome c oxidase polypeptide III %28EC 1.9.3.1%29
+FNED7-bin-5-scaffold_48484	feature	CDS	4048	4416	.	-	0	ID=FNED7-bin-5.genome.CDS.1243;Product=hypothetical protein
+FNED7-bin-5-scaffold_48484	feature	CDS	3115	4068	.	+	0	ID=FNED7-bin-5.genome.CDS.1242;Product=4-hydroxy-3-methylbut-2-enyl diphosphate reductase %28EC 1.17.1.2%29
+FNED7-bin-5-scaffold_48484	feature	CDS	1927	3081	.	-	0	ID=FNED7-bin-5.genome.CDS.1241;Product=Exodeoxyribonuclease VII large subunit %28EC 3.1.11.6%29
+FNED7-bin-5-scaffold_48484	feature	CDS	1694	1894	.	-	0	ID=FNED7-bin-5.genome.CDS.1240;Product=Exodeoxyribonuclease VII small subunit %28EC 3.1.11.6%29
+FNED7-bin-5-scaffold_48484	feature	CDS	41	1693	.	-	0	ID=FNED7-bin-5.genome.CDS.1239;Product=Fumarate hydratase class I %28EC 4.2.1.2%29
+FNED7-bin-5-scaffold_48518	feature	misc_RNA	671	862	.	+	.	ID=FNED7-bin-5.genome.repeat.21;Product=repeat region
+FNED7-bin-5-scaffold_48518	feature	CDS	16928	17080	.	-	0	ID=FNED7-bin-5.genome.CDS.2331;Product=
+FNED7-bin-5-scaffold_48518	feature	CDS	15417	16694	.	-	0	ID=FNED7-bin-5.genome.CDS.2330;Product=hypothetical protein
+FNED7-bin-5-scaffold_48518	feature	CDS	15193	15405	.	-	0	ID=FNED7-bin-5.genome.CDS.2329;Product=
+FNED7-bin-5-scaffold_48518	feature	CDS	13937	15019	.	-	0	ID=FNED7-bin-5.genome.CDS.2328;Product=
+FNED7-bin-5-scaffold_48518	feature	CDS	12857	13783	.	+	0	ID=FNED7-bin-5.genome.CDS.2327;Product=Sarcosine oxidase alpha subunit %28EC 1.5.3.1%29
+FNED7-bin-5-scaffold_48518	feature	CDS	11458	12864	.	+	0	ID=FNED7-bin-5.genome.CDS.2326;Product=Glycerol-3-phosphate dehydrogenase %28EC 1.1.5.3%29
+FNED7-bin-5-scaffold_48518	feature	CDS	10019	11449	.	+	0	ID=FNED7-bin-5.genome.CDS.2325;Product=Glycerol kinase %28EC 2.7.1.30%29
+FNED7-bin-5-scaffold_48518	feature	CDS	9180	9998	.	+	0	ID=FNED7-bin-5.genome.CDS.2324;Product=3-oxoacyl-%5Bacyl-carrier protein%5D reductase %28EC 1.1.1.100%29
+FNED7-bin-5-scaffold_48518	feature	CDS	7577	8995	.	-	0	ID=FNED7-bin-5.genome.CDS.2323;Product=Urea carboxylase-related amino acid permease
+FNED7-bin-5-scaffold_48518	feature	CDS	5902	7329	.	-	0	ID=FNED7-bin-5.genome.CDS.2322;Product=4-aminobutyraldehyde dehydrogenase %28EC 1.2.1.19%29
+FNED7-bin-5-scaffold_48518	feature	CDS	4265	5905	.	+	0	ID=FNED7-bin-5.genome.CDS.2321;Product=hypothetical protein
+FNED7-bin-5-scaffold_48518	feature	CDS	2902	4242	.	-	0	ID=FNED7-bin-5.genome.CDS.2320;Product=Gamma-aminobutyrate:alpha-ketoglutarate aminotransferase %28EC 2.6.1.19%29
+FNED7-bin-5-scaffold_48518	feature	CDS	2337	2822	.	-	0	ID=FNED7-bin-5.genome.CDS.2319;Product=
+FNED7-bin-5-scaffold_48518	feature	CDS	1439	2344	.	-	0	ID=FNED7-bin-5.genome.CDS.2318;Product=Fructokinase %28EC 2.7.1.4%29
+FNED7-bin-5-scaffold_48518	feature	CDS	672	1439	.	-	0	ID=FNED7-bin-5.genome.CDS.2317;Product=
+FNED7-bin-5-scaffold_48518	feature	CDS	1	675	.	+	0	ID=FNED7-bin-5.genome.CDS.2316;Product=Transcriptional regulatory protein glnR
+FNED7-bin-5-scaffold_4879	feature	CDS	14703	15728	.	+	0	ID=FNED7-bin-5.genome.CDS.1674;Product=6-phosphofructokinase %28EC 2.7.1.11%29
+FNED7-bin-5-scaffold_4879	feature	CDS	13209	14603	.	-	0	ID=FNED7-bin-5.genome.CDS.1673;Product=Xylulose kinase %28EC 2.7.1.17%29
+FNED7-bin-5-scaffold_4879	feature	CDS	12309	13184	.	-	0	ID=FNED7-bin-5.genome.CDS.1672;Product=Permease of the drug/metabolite transporter %28DMT%29 superfamily
+FNED7-bin-5-scaffold_4879	feature	CDS	11411	12319	.	+	0	ID=FNED7-bin-5.genome.CDS.1671;Product=GTP-binding protein Era
+FNED7-bin-5-scaffold_4879	feature	CDS	10517	11392	.	+	0	ID=FNED7-bin-5.genome.CDS.1670;Product=Rossmann fold nucleotide-binding protein Smf possibly involved in DNA uptake
+FNED7-bin-5-scaffold_4879	feature	CDS	9845	10441	.	+	0	ID=FNED7-bin-5.genome.CDS.1669;Product=Ribonuclease HII %28EC 3.1.26.4%29
+FNED7-bin-5-scaffold_4879	feature	CDS	9164	9841	.	+	0	ID=FNED7-bin-5.genome.CDS.1668;Product=Signal peptidase I %28EC 3.4.21.89%29
+FNED7-bin-5-scaffold_4879	feature	CDS	8598	9152	.	+	0	ID=FNED7-bin-5.genome.CDS.1667;Product=LSU ribosomal protein L19p
+FNED7-bin-5-scaffold_4879	feature	CDS	7695	8489	.	+	0	ID=FNED7-bin-5.genome.CDS.1666;Product=Inositol-1-monophosphatase %28EC 3.1.3.25%29
+FNED7-bin-5-scaffold_4879	feature	CDS	6774	7679	.	-	0	ID=FNED7-bin-5.genome.CDS.1665;Product=hypothetical protein
+FNED7-bin-5-scaffold_4879	feature	CDS	6383	6724	.	-	0	ID=FNED7-bin-5.genome.CDS.1664;Product=
+FNED7-bin-5-scaffold_4879	feature	CDS	5548	6348	.	-	0	ID=FNED7-bin-5.genome.CDS.1663;Product=hypothetical protein
+FNED7-bin-5-scaffold_4879	feature	CDS	4919	5503	.	+	0	ID=FNED7-bin-5.genome.CDS.1662;Product=Alkaline phosphodiesterase I %28EC 3.1.4.1%29 / Nucleotide pyrophosphatase %28EC 3.6.1.9%29
+FNED7-bin-5-scaffold_4879	feature	CDS	4367	4717	.	+	0	ID=FNED7-bin-5.genome.CDS.1661;Product=Alkaline phosphodiesterase I %28EC 3.1.4.1%29 / Nucleotide pyrophosphatase %28EC 3.6.1.9%29
+FNED7-bin-5-scaffold_4879	feature	CDS	4233	4355	.	+	0	ID=FNED7-bin-5.genome.CDS.448;Product=
+FNED7-bin-5-scaffold_4879	feature	CDS	2786	4204	.	-	0	ID=FNED7-bin-5.genome.CDS.1660;Product=Topoisomerase IV subunit A %28EC 5.99.1.-%29
+FNED7-bin-5-scaffold_4879	feature	CDS	1205	2779	.	+	0	ID=FNED7-bin-5.genome.CDS.1659;Product=Topoisomerase IV subunit B %28EC 5.99.1.-%29
+FNED7-bin-5-scaffold_4879	feature	CDS	510	1163	.	+	0	ID=FNED7-bin-5.genome.CDS.1658;Product=Topoisomerase IV subunit B %28EC 5.99.1.-%29
+FNED7-bin-5-scaffold_4879	feature	CDS	117	338	.	-	0	ID=FNED7-bin-5.genome.CDS.1657;Product=hypothetical protein
+FNED7-bin-5-scaffold_4879	feature	CDS	3	116	.	+	0	ID=FNED7-bin-5.genome.CDS.1656;Product=
+FNED7-bin-5-scaffold_4892	feature	CDS	15813	16769	.	+	0	ID=FNED7-bin-5.genome.CDS.2075;Product=Iron-sulfur cluster assembly protein SufB
+FNED7-bin-5-scaffold_4892	feature	CDS	15106	15816	.	+	0	ID=FNED7-bin-5.genome.CDS.2074;Product=Iron-sulfur cluster regulator SufR
+FNED7-bin-5-scaffold_4892	feature	CDS	14187	15083	.	-	0	ID=FNED7-bin-5.genome.CDS.2073;Product=Cytochrome oxidase assembly protein
+FNED7-bin-5-scaffold_4892	feature	CDS	13215	14144	.	-	0	ID=FNED7-bin-5.genome.CDS.2072;Product=Transketolase %28EC 2.2.1.1%29
+FNED7-bin-5-scaffold_4892	feature	CDS	12031	13227	.	-	0	ID=FNED7-bin-5.genome.CDS.2071;Product=Transketolase %28EC 2.2.1.1%29
+FNED7-bin-5-scaffold_4892	feature	CDS	10943	12031	.	-	0	ID=FNED7-bin-5.genome.CDS.2070;Product=Transaldolase %28EC 2.2.1.2%29
+FNED7-bin-5-scaffold_4892	feature	CDS	9399	10940	.	-	0	ID=FNED7-bin-5.genome.CDS.2069;Product=Glucose-6-phosphate isomerase %28EC 5.3.1.9%29
+FNED7-bin-5-scaffold_4892	feature	CDS	9064	9402	.	+	0	ID=FNED7-bin-5.genome.CDS.2068;Product=putative electron transport protein
+FNED7-bin-5-scaffold_4892	feature	CDS	8783	9010	.	+	0	ID=FNED7-bin-5.genome.CDS.2067;Product=Preprotein translocase subunit SecG %28TC 3.A.5.1.1%29
+FNED7-bin-5-scaffold_4892	feature	CDS	7948	8730	.	+	0	ID=FNED7-bin-5.genome.CDS.2066;Product=Triosephosphate isomerase %28EC 5.3.1.1%29
+FNED7-bin-5-scaffold_4892	feature	CDS	6658	7854	.	+	0	ID=FNED7-bin-5.genome.CDS.2065;Product=Phosphoglycerate kinase %28EC 2.7.2.3%29
+FNED7-bin-5-scaffold_4892	feature	CDS	5657	6658	.	+	0	ID=FNED7-bin-5.genome.CDS.2064;Product=NAD-dependent glyceraldehyde-3-phosphate dehydrogenase %28EC 1.2.1.12%29
+FNED7-bin-5-scaffold_4892	feature	CDS	4562	5542	.	+	0	ID=FNED7-bin-5.genome.CDS.2063;Product=FIG001886: Cytoplasmic hypothetical protein
+FNED7-bin-5-scaffold_4892	feature	CDS	3613	4542	.	+	0	ID=FNED7-bin-5.genome.CDS.2062;Product=FIG002813: LPPG:FO 2-phospho-L-lactate transferase like%2C CofD-like
+FNED7-bin-5-scaffold_4892	feature	CDS	2744	3616	.	+	0	ID=FNED7-bin-5.genome.CDS.2061;Product=FIG000506: Predicted P-loop-containing kinase
+FNED7-bin-5-scaffold_4892	feature	CDS	791	2734	.	+	0	ID=FNED7-bin-5.genome.CDS.829;Product=Excinuclease ABC subunit C
+FNED7-bin-5-scaffold_4892	feature	CDS	1	780	.	+	0	ID=FNED7-bin-5.genome.CDS.2059;Product=Excinuclease ABC subunit A
+FNED7-bin-5-scaffold_495	feature	CDS	4526	5335	.	-	0	ID=FNED7-bin-5.genome.CDS.1232;Product=CTP synthase %28EC 6.3.4.2%29
+FNED7-bin-5-scaffold_495	feature	CDS	3628	4536	.	-	0	ID=FNED7-bin-5.genome.CDS.1231;Product=Site-specific tyrosine recombinase XerD
+FNED7-bin-5-scaffold_495	feature	CDS	3233	3631	.	+	0	ID=FNED7-bin-5.genome.CDS.1230;Product=FIG059443: hypothetical protein
+FNED7-bin-5-scaffold_495	feature	CDS	2316	3236	.	+	0	ID=FNED7-bin-5.genome.CDS.1229;Product=Chromosome %28plasmid%29 partitioning protein ParA
+FNED7-bin-5-scaffold_495	feature	CDS	1292	2254	.	-	0	ID=FNED7-bin-5.genome.CDS.1228;Product=Segregation and condensation protein A
+FNED7-bin-5-scaffold_495	feature	CDS	734	1291	.	-	0	ID=FNED7-bin-5.genome.CDS.1227;Product=Segregation and condensation protein B
+FNED7-bin-5-scaffold_495	feature	CDS	3	662	.	-	0	ID=FNED7-bin-5.genome.CDS.1226;Product=Ribosomal large subunit pseudouridine synthase B %28EC 4.2.1.70%29
+FNED7-bin-5-scaffold_4950	feature	CDS	2675	3208	.	+	0	ID=FNED7-bin-5.genome.CDS.1544;Product=Hemolysins and related proteins containing CBS domains
+FNED7-bin-5-scaffold_4950	feature	CDS	1481	2566	.	-	0	ID=FNED7-bin-5.genome.CDS.1543;Product=Glycerol-3-phosphate ABC transporter%2C ATP-binding protein UgpC %28TC 3.A.1.1.3%29
+FNED7-bin-5-scaffold_4950	feature	CDS	210	1424	.	+	0	ID=FNED7-bin-5.genome.CDS.1542;Product=Isocitrate dehydrogenase %5BNADP%5D %28EC 1.1.1.42%29
+FNED7-bin-5-scaffold_4950	feature	CDS	1	210	.	+	0	ID=FNED7-bin-5.genome.CDS.1541;Product=Malate dehydrogenase %28EC 1.1.1.37%29
+FNED7-bin-5-scaffold_49779	feature	CDS	5765	5974	.	+	0	ID=FNED7-bin-5.genome.CDS.1916;Product=UPF0246 protein YaaA
+FNED7-bin-5-scaffold_49779	feature	CDS	5058	5705	.	-	0	ID=FNED7-bin-5.genome.CDS.1915;Product=2-hydroxychromene-2-carboxylate isomerase/DsbA-like thioredoxin domain
+FNED7-bin-5-scaffold_49779	feature	CDS	4555	5052	.	-	0	ID=FNED7-bin-5.genome.CDS.1914;Product=
+FNED7-bin-5-scaffold_49779	feature	CDS	3944	4558	.	-	0	ID=FNED7-bin-5.genome.CDS.1913;Product=
+FNED7-bin-5-scaffold_49779	feature	CDS	2948	3934	.	-	0	ID=FNED7-bin-5.genome.CDS.1912;Product=
+FNED7-bin-5-scaffold_49779	feature	CDS	2026	2970	.	+	0	ID=FNED7-bin-5.genome.CDS.1911;Product=Inosine-uridine preferring nucleoside hydrolase %28EC 3.2.2.1%29
+FNED7-bin-5-scaffold_49779	feature	CDS	1327	1878	.	-	0	ID=FNED7-bin-5.genome.CDS.1910;Product=hypothetical protein
+FNED7-bin-5-scaffold_49779	feature	CDS	577	1011	.	-	0	ID=FNED7-bin-5.genome.CDS.1909;Product=
+FNED7-bin-5-scaffold_49779	feature	CDS	147	521	.	+	0	ID=FNED7-bin-5.genome.CDS.1908;Product=
+FNED7-bin-5-scaffold_5010	feature	CDS	2245	3297	.	+	0	ID=FNED7-bin-5.genome.CDS.2260;Product=Aldehyde dehydrogenase %28EC 1.2.1.3%29
+FNED7-bin-5-scaffold_5010	feature	CDS	1512	2057	.	-	0	ID=FNED7-bin-5.genome.CDS.2259;Product=FIG01173569: hypothetical protein
+FNED7-bin-5-scaffold_5010	feature	CDS	1	1515	.	+	0	ID=FNED7-bin-5.genome.CDS.2258;Product=hypothetical protein
+FNED7-bin-5-scaffold_5013	feature	CDS	3819	5882	.	-	0	ID=FNED7-bin-5.genome.CDS.2086;Product=DNA topoisomerase I %28EC 5.99.1.2%29
+FNED7-bin-5-scaffold_5013	feature	CDS	1776	3716	.	-	0	ID=FNED7-bin-5.genome.CDS.2085;Product=Thymidylate kinase %28EC 2.7.4.9%29
+FNED7-bin-5-scaffold_5013	feature	CDS	634	1776	.	-	0	ID=FNED7-bin-5.genome.CDS.2084;Product=DNA polymerase III delta prime subunit %28EC 2.7.7.7%29
+FNED7-bin-5-scaffold_5013	feature	CDS	1	624	.	-	0	ID=FNED7-bin-5.genome.CDS.2083;Product=probable exported protease %5BEC:3.4.-.-%5D
+FNED7-bin-5-scaffold_5024	feature	CDS	10321	11076	.	+	0	ID=FNED7-bin-5.genome.CDS.1414;Product=3-oxoacyl-%5Bacyl-carrier protein%5D reductase %28EC 1.1.1.100%29
+FNED7-bin-5-scaffold_5024	feature	CDS	9848	10324	.	+	0	ID=FNED7-bin-5.genome.CDS.1413;Product=Ribose 5-phosphate isomerase B %28EC 5.3.1.6%29
+FNED7-bin-5-scaffold_5024	feature	CDS	8135	9823	.	+	0	ID=FNED7-bin-5.genome.CDS.1412;Product=Dihydroxyacetone kinase%2C ATP-dependent %28EC 2.7.1.29%29
+FNED7-bin-5-scaffold_5024	feature	CDS	6379	7905	.	-	0	ID=FNED7-bin-5.genome.CDS.1411;Product=Inositol transport system ATP-binding protein
+FNED7-bin-5-scaffold_5024	feature	CDS	5379	6386	.	-	0	ID=FNED7-bin-5.genome.CDS.1410;Product=Inositol transport system permease protein
+FNED7-bin-5-scaffold_5024	feature	CDS	4293	5315	.	-	0	ID=FNED7-bin-5.genome.CDS.1409;Product=Inositol transport system sugar-binding protein
+FNED7-bin-5-scaffold_5024	feature	CDS	3362	4192	.	-	0	ID=FNED7-bin-5.genome.CDS.1408;Product=
+FNED7-bin-5-scaffold_5024	feature	CDS	2003	3031	.	-	0	ID=FNED7-bin-5.genome.CDS.1407;Product=
+FNED7-bin-5-scaffold_5024	feature	CDS	1212	2000	.	+	0	ID=FNED7-bin-5.genome.CDS.1406;Product=hypothetical protein
+FNED7-bin-5-scaffold_5024	feature	CDS	164	1183	.	-	0	ID=FNED7-bin-5.genome.CDS.1405;Product=
+FNED7-bin-5-scaffold_5024	feature	CDS	3	122	.	-	0	ID=FNED7-bin-5.genome.CDS.1404;Product=
+FNED7-bin-5-scaffold_5050	feature	CDS	10378	11025	.	-	0	ID=FNED7-bin-5.genome.CDS.1619;Product=hypothetical protein
+FNED7-bin-5-scaffold_5050	feature	CDS	9545	10378	.	-	0	ID=FNED7-bin-5.genome.CDS.1618;Product=Catechol 1%2C2-dioxygenase 1 %28EC 1.13.11.1%29
+FNED7-bin-5-scaffold_5050	feature	CDS	8776	9540	.	-	0	ID=FNED7-bin-5.genome.CDS.1617;Product=Succinyl-CoA:3-ketoacid-coenzyme A transferase subunit A %28EC 2.8.3.5%29
+FNED7-bin-5-scaffold_5050	feature	CDS	8138	8776	.	-	0	ID=FNED7-bin-5.genome.CDS.1616;Product=Succinyl-CoA:3-ketoacid-coenzyme A transferase subunit B %28EC 2.8.3.5%29
+FNED7-bin-5-scaffold_5050	feature	CDS	6375	8135	.	-	0	ID=FNED7-bin-5.genome.CDS.1615;Product=FAD-binding monooxygenase%2C PheA/TfdB family%2C similarity to 2%2C4-dichlorophenol 6-monooxygenase
+FNED7-bin-5-scaffold_5050	feature	CDS	5132	6373	.	-	0	ID=FNED7-bin-5.genome.CDS.1614;Product=3-ketoacyl-CoA thiolase %28EC 2.3.1.16%29 %40 Acetyl-CoA acetyltransferase %28EC 2.3.1.9%29
+FNED7-bin-5-scaffold_5050	feature	CDS	4442	4963	.	-	0	ID=FNED7-bin-5.genome.CDS.1613;Product=hypothetical protein
+FNED7-bin-5-scaffold_5050	feature	CDS	3698	4360	.	-	0	ID=FNED7-bin-5.genome.CDS.1612;Product=hypothetical protein
+FNED7-bin-5-scaffold_5050	feature	CDS	3461	3694	.	-	0	ID=FNED7-bin-5.genome.CDS.1611;Product=
+FNED7-bin-5-scaffold_5050	feature	CDS	2343	3452	.	+	0	ID=FNED7-bin-5.genome.CDS.1610;Product=Cyclopropane-fatty-acyl-phospholipid synthase %28EC 2.1.1.79%29
+FNED7-bin-5-scaffold_5050	feature	CDS	1133	2281	.	-	0	ID=FNED7-bin-5.genome.CDS.1609;Product=hypothetical protein
+FNED7-bin-5-scaffold_5050	feature	CDS	1	825	.	+	0	ID=FNED7-bin-5.genome.CDS.1607;Product=Beta-carotene ketolase
+FNED7-bin-5-scaffold_50938	feature	CDS	7321	7536	.	+	0	ID=FNED7-bin-5.genome.CDS.1540;Product=Ribosome small subunit-stimulated GTPase EngC
+FNED7-bin-5-scaffold_50938	feature	CDS	6014	7303	.	+	0	ID=FNED7-bin-5.genome.CDS.1539;Product=5-Enolpyruvylshikimate-3-phosphate synthase %28EC 2.5.1.19%29
+FNED7-bin-5-scaffold_50938	feature	CDS	5266	5919	.	-	0	ID=FNED7-bin-5.genome.CDS.1538;Product=RNA polymerase sigma-54 factor RpoN
+FNED7-bin-5-scaffold_50938	feature	CDS	4883	5257	.	-	0	ID=FNED7-bin-5.genome.CDS.1537;Product=
+FNED7-bin-5-scaffold_50938	feature	CDS	4412	4795	.	-	0	ID=FNED7-bin-5.genome.CDS.1536;Product=hypothetical protein
+FNED7-bin-5-scaffold_50938	feature	CDS	4022	4411	.	+	0	ID=FNED7-bin-5.genome.CDS.1535;Product=Nickel-dependent superoxide dismutase %28EC 1.15.1.1%29
+FNED7-bin-5-scaffold_50938	feature	CDS	3644	4021	.	-	0	ID=FNED7-bin-5.genome.CDS.1534;Product=Signal peptidase I %28EC 3.4.21.89%29
+FNED7-bin-5-scaffold_50938	feature	CDS	3	3647	.	+	0	ID=FNED7-bin-5.genome.CDS.1533;Product=2-oxoglutarate dehydrogenase E1 component %28EC 1.2.4.2%29
+FNED7-bin-5-scaffold_5094	feature	CDS	7188	7541	.	-	0	ID=FNED7-bin-5.genome.CDS.766;Product=Protein serine/threonine phosphatase PrpC%2C regulation of stationary phase
+FNED7-bin-5-scaffold_5094	feature	CDS	5644	7191	.	-	0	ID=FNED7-bin-5.genome.CDS.1996;Product=Serine/threonine protein kinase PrkC%2C regulator of stationary phase
+FNED7-bin-5-scaffold_5094	feature	CDS	5028	5654	.	+	0	ID=FNED7-bin-5.genome.CDS.1995;Product=Anthranilate synthase%2C amidotransferase component %28EC 4.1.3.27%29 %40 Para-aminobenzoate synthase%2C amidotransferase component %28EC 2.6.1.85%29
+FNED7-bin-5-scaffold_5094	feature	CDS	4734	4991	.	-	0	ID=FNED7-bin-5.genome.CDS.1994;Product=Cell division protein CrgA
+FNED7-bin-5-scaffold_5094	feature	CDS	3846	4607	.	-	0	ID=FNED7-bin-5.genome.CDS.1993;Product=DNA-binding response regulator
+FNED7-bin-5-scaffold_5094	feature	CDS	2304	3827	.	-	0	ID=FNED7-bin-5.genome.CDS.761;Product=sensor histidine kinase
+FNED7-bin-5-scaffold_5094	feature	CDS	1936	2301	.	+	0	ID=FNED7-bin-5.genome.CDS.1992;Product=
+FNED7-bin-5-scaffold_5094	feature	CDS	1105	1932	.	+	0	ID=FNED7-bin-5.genome.CDS.1991;Product=Cytochrome oxidase biogenesis protein Sco1/SenC/PrrC%2C putative copper metallochaperone
+FNED7-bin-5-scaffold_5094	feature	CDS	206	1108	.	+	0	ID=FNED7-bin-5.genome.CDS.1990;Product=hypothetical protein
+FNED7-bin-5-scaffold_5094	feature	CDS	3	203	.	+	0	ID=FNED7-bin-5.genome.CDS.1989;Product=LemA protein
+FNED7-bin-5-scaffold_50958	feature	CDS	8425	8859	.	+	0	ID=FNED7-bin-5.genome.CDS.1790;Product=
+FNED7-bin-5-scaffold_50958	feature	CDS	7656	8345	.	+	0	ID=FNED7-bin-5.genome.CDS.1789;Product=salicylate esterase
+FNED7-bin-5-scaffold_50958	feature	CDS	7016	7438	.	-	0	ID=FNED7-bin-5.genome.CDS.1788;Product=
+FNED7-bin-5-scaffold_50958	feature	CDS	5290	6963	.	+	0	ID=FNED7-bin-5.genome.CDS.1787;Product=Multidrug resistance protein B
+FNED7-bin-5-scaffold_50958	feature	CDS	3843	5177	.	-	0	ID=FNED7-bin-5.genome.CDS.1786;Product=Methionine ABC transporter ATP-binding protein
+FNED7-bin-5-scaffold_50958	feature	CDS	3061	3846	.	-	0	ID=FNED7-bin-5.genome.CDS.1785;Product=
+FNED7-bin-5-scaffold_50958	feature	CDS	2573	3049	.	+	0	ID=FNED7-bin-5.genome.CDS.1784;Product=Transcription elongation factor GreA
+FNED7-bin-5-scaffold_50958	feature	CDS	2161	2550	.	+	0	ID=FNED7-bin-5.genome.CDS.1783;Product=
+FNED7-bin-5-scaffold_50958	feature	CDS	1979	2125	.	-	0	ID=FNED7-bin-5.genome.CDS.563;Product=
+FNED7-bin-5-scaffold_50958	feature	CDS	1270	1986	.	-	0	ID=FNED7-bin-5.genome.CDS.1782;Product=hypothetical protein
+FNED7-bin-5-scaffold_50958	feature	CDS	879	1265	.	-	0	ID=FNED7-bin-5.genome.CDS.1781;Product=
+FNED7-bin-5-scaffold_50958	feature	CDS	86	868	.	-	0	ID=FNED7-bin-5.genome.CDS.1780;Product=%282E%2C6Z%29-farnesyl diphosphate synthase %28EC 2.5.1.68%29
+FNED7-bin-5-scaffold_5109	feature	CDS	2867	3583	.	-	0	ID=FNED7-bin-5.genome.CDS.1941;Product=Uridine monophosphate kinase %28EC 2.7.4.22%29
+FNED7-bin-5-scaffold_5109	feature	CDS	2285	2848	.	-	0	ID=FNED7-bin-5.genome.CDS.1940;Product=Ribosome recycling factor
+FNED7-bin-5-scaffold_5109	feature	CDS	1419	2267	.	-	0	ID=FNED7-bin-5.genome.CDS.1939;Product=Phosphatidate cytidylyltransferase %28EC 2.7.7.41%29
+FNED7-bin-5-scaffold_5109	feature	CDS	292	1410	.	-	0	ID=FNED7-bin-5.genome.CDS.1938;Product=Ribosomal RNA large subunit methyltransferase N %28EC 2.1.1.-%29
+FNED7-bin-5-scaffold_5109	feature	CDS	2	271	.	-	0	ID=FNED7-bin-5.genome.CDS.1937;Product=1-deoxy-D-xylulose 5-phosphate reductoisomerase %28EC 1.1.1.267%29
+FNED7-bin-5-scaffold_5126	feature	CDS	6595	6966	.	+	0	ID=FNED7-bin-5.genome.CDS.1397;Product=Peptide chain release factor 1
+FNED7-bin-5-scaffold_5126	feature	CDS	6287	6505	.	+	0	ID=FNED7-bin-5.genome.CDS.1396;Product=LSU ribosomal protein L31p %40 LSU ribosomal protein L31p%2C zinc-dependent
+FNED7-bin-5-scaffold_5126	feature	CDS	5577	6218	.	+	0	ID=FNED7-bin-5.genome.CDS.198;Product=Transcription termination factor Rho
+FNED7-bin-5-scaffold_5126	feature	CDS	4511	5593	.	+	0	ID=FNED7-bin-5.genome.CDS.1394;Product=Transcription termination factor Rho
+FNED7-bin-5-scaffold_5126	feature	CDS	3963	4364	.	+	0	ID=FNED7-bin-5.genome.CDS.196;Product=Homoserine kinase %28EC 2.7.1.39%29
+FNED7-bin-5-scaffold_5126	feature	CDS	3322	3954	.	+	0	ID=FNED7-bin-5.genome.CDS.1392;Product=Homoserine kinase %28EC 2.7.1.39%29
+FNED7-bin-5-scaffold_5126	feature	CDS	2227	3309	.	+	0	ID=FNED7-bin-5.genome.CDS.1391;Product=Threonine synthase %28EC 4.2.3.1%29
+FNED7-bin-5-scaffold_5126	feature	CDS	1994	2227	.	+	0	ID=FNED7-bin-5.genome.CDS.1390;Product=
+FNED7-bin-5-scaffold_5126	feature	CDS	867	1970	.	+	0	ID=FNED7-bin-5.genome.CDS.1389;Product=Homoserine dehydrogenase %28EC 1.1.1.3%29
+FNED7-bin-5-scaffold_5126	feature	CDS	1	804	.	+	0	ID=FNED7-bin-5.genome.CDS.1388;Product=Diaminopimelate decarboxylase %28EC 4.1.1.20%29
+FNED7-bin-5-scaffold_513	feature	tRNA	3529	3600	.	+	.	ID=FNED7-bin-5.genome.rna.4;Product=tRNA-Arg-CCG
+FNED7-bin-5-scaffold_513	feature	CDS	2921	3469	.	-	0	ID=FNED7-bin-5.genome.CDS.1487;Product=Peptide methionine sulfoxide reductase MsrA %28EC 1.8.4.11%29
+FNED7-bin-5-scaffold_513	feature	CDS	2422	2931	.	+	0	ID=FNED7-bin-5.genome.CDS.1486;Product=DNA-3-methyladenine glycosylase II %28EC 3.2.2.21%29
+FNED7-bin-5-scaffold_513	feature	CDS	1274	2179	.	-	0	ID=FNED7-bin-5.genome.CDS.1485;Product=Integral membrane protein TerC
+FNED7-bin-5-scaffold_513	feature	CDS	108	1244	.	-	0	ID=FNED7-bin-5.genome.CDS.1484;Product=O-acetylhomoserine sulfhydrylase %28EC 2.5.1.49%29 / O-succinylhomoserine sulfhydrylase %28EC 2.5.1.48%29
+FNED7-bin-5-scaffold_51330	feature	CDS	3657	4730	.	+	0	ID=FNED7-bin-5.genome.CDS.2229;Product=NADH-ubiquinone oxidoreductase chain G %28EC 1.6.5.3%29
+FNED7-bin-5-scaffold_51330	feature	CDS	2818	3390	.	+	0	ID=FNED7-bin-5.genome.CDS.2228;Product=NADH-ubiquinone oxidoreductase chain G %28EC 1.6.5.3%29
+FNED7-bin-5-scaffold_51330	feature	CDS	1517	2821	.	+	0	ID=FNED7-bin-5.genome.CDS.2227;Product=NADH-ubiquinone oxidoreductase chain F %28EC 1.6.5.3%29
+FNED7-bin-5-scaffold_51330	feature	CDS	888	1517	.	+	0	ID=FNED7-bin-5.genome.CDS.2226;Product=NADH-ubiquinone oxidoreductase chain E %28EC 1.6.5.3%29
+FNED7-bin-5-scaffold_51330	feature	CDS	1	888	.	+	0	ID=FNED7-bin-5.genome.CDS.2225;Product=NADH-ubiquinone oxidoreductase chain D %28EC 1.6.5.3%29
+FNED7-bin-5-scaffold_5148	feature	CDS	4760	5116	.	-	0	ID=FNED7-bin-5.genome.CDS.2236;Product=Peptide deformylase %28EC 3.5.1.88%29
+FNED7-bin-5-scaffold_5148	feature	CDS	3834	4754	.	-	0	ID=FNED7-bin-5.genome.CDS.2235;Product=Methionyl-tRNA formyltransferase %28EC 2.1.2.9%29
+FNED7-bin-5-scaffold_5148	feature	CDS	2466	3827	.	-	0	ID=FNED7-bin-5.genome.CDS.2234;Product=16S rRNA %28cytosine%28967%29-C%285%29%29-methyltransferase %28EC 2.1.1.176%29
+FNED7-bin-5-scaffold_5148	feature	CDS	1775	2437	.	-	0	ID=FNED7-bin-5.genome.CDS.2233;Product=Ribulose-phosphate 3-epimerase %28EC 5.1.3.1%29
+FNED7-bin-5-scaffold_5148	feature	CDS	1471	1734	.	-	0	ID=FNED7-bin-5.genome.CDS.2232;Product=Phosphoribosyl-ATP pyrophosphatase %28EC 3.6.1.31%29
+FNED7-bin-5-scaffold_5148	feature	CDS	596	1441	.	-	0	ID=FNED7-bin-5.genome.CDS.2231;Product=ATP phosphoribosyltransferase %28EC 2.4.2.17%29
+FNED7-bin-5-scaffold_5148	feature	CDS	2	601	.	+	0	ID=FNED7-bin-5.genome.CDS.2230;Product=Phosphoserine phosphatase %28EC 3.1.3.3%29
+FNED7-bin-5-scaffold_52412	feature	CDS	29027	29866	.	+	0	ID=FNED7-bin-5.genome.CDS.1749;Product=A/G-specific adenine glycosylase %28EC 3.2.2.-%29
+FNED7-bin-5-scaffold_52412	feature	CDS	27645	29015	.	+	0	ID=FNED7-bin-5.genome.CDS.1748;Product=DNA repair protein RadA
+FNED7-bin-5-scaffold_52412	feature	CDS	26834	27664	.	+	0	ID=FNED7-bin-5.genome.CDS.1747;Product=FIG01122970: hypothetical protein
+FNED7-bin-5-scaffold_52412	feature	CDS	25987	26802	.	-	0	ID=FNED7-bin-5.genome.CDS.1746;Product=Pyrroline-5-carboxylate reductase %28EC 1.5.1.2%29
+FNED7-bin-5-scaffold_52412	feature	CDS	25040	25990	.	-	0	ID=FNED7-bin-5.genome.CDS.1745;Product=
+FNED7-bin-5-scaffold_52412	feature	CDS	22659	25037	.	+	0	ID=FNED7-bin-5.genome.CDS.1744;Product=hypothetical protein
+FNED7-bin-5-scaffold_52412	feature	CDS	22327	22566	.	-	0	ID=FNED7-bin-5.genome.CDS.1743;Product=
+FNED7-bin-5-scaffold_52412	feature	CDS	20691	22337	.	+	0	ID=FNED7-bin-5.genome.CDS.1742;Product=DNA repair helicase
+FNED7-bin-5-scaffold_52412	feature	CDS	19700	20698	.	+	0	ID=FNED7-bin-5.genome.CDS.1741;Product=putative peptidase
+FNED7-bin-5-scaffold_52412	feature	CDS	17435	19588	.	+	0	ID=FNED7-bin-5.genome.CDS.1740;Product=probable DNA-binding protein
+FNED7-bin-5-scaffold_52412	feature	CDS	16620	17390	.	+	0	ID=FNED7-bin-5.genome.CDS.1739;Product=Phosphoserine phosphatase %28EC 3.1.3.3%29
+FNED7-bin-5-scaffold_52412	feature	CDS	15963	16586	.	-	0	ID=FNED7-bin-5.genome.CDS.1738;Product=Hypothetical%2C related to broad specificity phosphatases COG0406
+FNED7-bin-5-scaffold_52412	feature	CDS	15394	15963	.	-	0	ID=FNED7-bin-5.genome.CDS.1737;Product=Thiol:disulfide oxidoreductase related to ResA
+FNED7-bin-5-scaffold_52412	feature	CDS	14670	15401	.	-	0	ID=FNED7-bin-5.genome.CDS.1736;Product=Cytochrome c-type biogenesis protein CcdA %28DsbD analog%29
+FNED7-bin-5-scaffold_52412	feature	CDS	13228	14670	.	-	0	ID=FNED7-bin-5.genome.CDS.1735;Product=Ccs1/ResB-related putative cytochrome C-type biogenesis protein
+FNED7-bin-5-scaffold_52412	feature	CDS	12335	13231	.	-	0	ID=FNED7-bin-5.genome.CDS.1734;Product=Cytochrome c-type biogenesis protein CcsA/ResC
+FNED7-bin-5-scaffold_52412	feature	CDS	12068	12331	.	+	0	ID=FNED7-bin-5.genome.CDS.1733;Product=
+FNED7-bin-5-scaffold_52412	feature	CDS	11160	12053	.	+	0	ID=FNED7-bin-5.genome.CDS.1732;Product=1%2C4-dihydroxy-2-naphthoate polyprenyltransferase %28EC 2.5.1.74%29
+FNED7-bin-5-scaffold_52412	feature	CDS	10078	11163	.	+	0	ID=FNED7-bin-5.genome.CDS.1731;Product=O-succinylbenzoic acid--CoA ligase %28EC 6.2.1.26%29
+FNED7-bin-5-scaffold_52412	feature	CDS	9131	10009	.	-	0	ID=FNED7-bin-5.genome.CDS.1730;Product=Naphthoate synthase %28EC 4.1.3.36%29
+FNED7-bin-5-scaffold_52412	feature	CDS	8169	9125	.	-	0	ID=FNED7-bin-5.genome.CDS.1729;Product=O-succinylbenzoate synthase %28EC 4.2.1.113%29
+FNED7-bin-5-scaffold_52412	feature	CDS	6610	8172	.	-	0	ID=FNED7-bin-5.genome.CDS.1728;Product=2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylic-acid synthase %28EC 2.2.1.9%29
+FNED7-bin-5-scaffold_52412	feature	CDS	5429	6655	.	+	0	ID=FNED7-bin-5.genome.CDS.1727;Product=Isochorismate synthase %28EC 5.4.4.2%29 %40 Menaquinone-specific isochorismate synthase %28EC 5.4.4.2%29
+FNED7-bin-5-scaffold_52412	feature	CDS	4819	5409	.	+	0	ID=FNED7-bin-5.genome.CDS.1726;Product=Substrate-specific component BioY of biotin ECF transporter
+FNED7-bin-5-scaffold_52412	feature	CDS	4043	4744	.	-	0	ID=FNED7-bin-5.genome.CDS.1725;Product=Demethylmenaquinone methyltransferase %28EC 2.1.1.163%29
+FNED7-bin-5-scaffold_52412	feature	CDS	3057	4043	.	-	0	ID=FNED7-bin-5.genome.CDS.1724;Product=Solanesyl diphosphate synthase %28EC 2.5.1.11%29
+FNED7-bin-5-scaffold_52412	feature	CDS	2199	3098	.	+	0	ID=FNED7-bin-5.genome.CDS.1723;Product=Protein rarD
+FNED7-bin-5-scaffold_52412	feature	CDS	1703	2191	.	+	0	ID=FNED7-bin-5.genome.CDS.1722;Product=UPF0234 protein YajQ
+FNED7-bin-5-scaffold_52412	feature	CDS	280	1710	.	+	0	ID=FNED7-bin-5.genome.CDS.1721;Product=Cytosine/purine/uracil/thiamine/allantoin permease family protein
+FNED7-bin-5-scaffold_5243	feature	CDS	3163	3870	.	-	0	ID=FNED7-bin-5.genome.CDS.1631;Product=Phosphoribosylaminoimidazole-succinocarboxamide synthase %28EC 6.3.2.6%29
+FNED7-bin-5-scaffold_5243	feature	CDS	2918	3163	.	-	0	ID=FNED7-bin-5.genome.CDS.1630;Product=Phosphoribosylformylglycinamidine synthase%2C PurS subunit %28EC 6.3.5.3%29
+FNED7-bin-5-scaffold_5243	feature	CDS	2247	2918	.	-	0	ID=FNED7-bin-5.genome.CDS.1629;Product=Phosphoribosylformylglycinamidine synthase%2C glutamine amidotransferase subunit %28EC 6.3.5.3%29
+FNED7-bin-5-scaffold_5243	feature	CDS	1580	1699	.	+	0	ID=FNED7-bin-5.genome.CDS.418;Product=
+FNED7-bin-5-scaffold_5243	feature	CDS	1	1572	.	-	0	ID=FNED7-bin-5.genome.CDS.1628;Product=Phosphoribosylformylglycinamidine synthase%2C synthetase subunit %28EC 6.3.5.3%29
+FNED7-bin-5-scaffold_529	feature	CDS	4346	4483	.	+	0	ID=FNED7-bin-5.genome.CDS.1898;Product=
+FNED7-bin-5-scaffold_529	feature	CDS	2820	4349	.	+	0	ID=FNED7-bin-5.genome.CDS.1897;Product=hypothetical protein
+FNED7-bin-5-scaffold_529	feature	CDS	2150	2830	.	+	0	ID=FNED7-bin-5.genome.CDS.1896;Product=
+FNED7-bin-5-scaffold_529	feature	CDS	2049	2162	.	+	0	ID=FNED7-bin-5.genome.CDS.1895;Product=
+FNED7-bin-5-scaffold_529	feature	CDS	1145	2005	.	+	0	ID=FNED7-bin-5.genome.CDS.1894;Product=
+FNED7-bin-5-scaffold_529	feature	CDS	527	1120	.	+	0	ID=FNED7-bin-5.genome.CDS.1893;Product=hypothetical protein
+FNED7-bin-5-scaffold_529	feature	CDS	1	411	.	+	0	ID=FNED7-bin-5.genome.CDS.1892;Product=
+FNED7-bin-5-scaffold_52938	feature	CDS	2899	5262	.	+	0	ID=FNED7-bin-5.genome.CDS.1511;Product=ATP-dependent Clp protease%2C ATP-binding subunit ClpC / Negative regulator of genetic competence clcC/mecB
+FNED7-bin-5-scaffold_52938	feature	CDS	2522	2788	.	+	0	ID=FNED7-bin-5.genome.CDS.1510;Product=N-acetylglutamate synthase %28EC 2.3.1.1%29
+FNED7-bin-5-scaffold_52938	feature	CDS	2199	2516	.	+	0	ID=FNED7-bin-5.genome.CDS.1509;Product=N-acetylglutamate synthase %28EC 2.3.1.1%29
+FNED7-bin-5-scaffold_52938	feature	CDS	703	2202	.	+	0	ID=FNED7-bin-5.genome.CDS.1508;Product=Lysyl-tRNA synthetase %28class II%29 %28EC 6.1.1.6%29
+FNED7-bin-5-scaffold_52938	feature	CDS	1	678	.	+	0	ID=FNED7-bin-5.genome.CDS.1507;Product=Pantothenate kinase type III%2C CoaX-like %28EC 2.7.1.33%29
+FNED7-bin-5-scaffold_53215	feature	CDS	1938	3782	.	+	0	ID=FNED7-bin-5.genome.CDS.1552;Product=
+FNED7-bin-5-scaffold_53215	feature	CDS	3	1814	.	+	0	ID=FNED7-bin-5.genome.CDS.1551;Product=hypothetical protein
+FNED7-bin-5-scaffold_5322	feature	misc_RNA	4661	4829	.	+	.	ID=FNED7-bin-5.genome.repeat.19;Product=repeat region
+FNED7-bin-5-scaffold_5322	feature	CDS	4232	4828	.	-	0	ID=FNED7-bin-5.genome.CDS.2146;Product=SSU ribosomal protein S1p
+FNED7-bin-5-scaffold_5322	feature	CDS	3521	4129	.	-	0	ID=FNED7-bin-5.genome.CDS.2145;Product=Dephospho-CoA kinase %28EC 2.7.1.24%29
+FNED7-bin-5-scaffold_5322	feature	CDS	1434	3521	.	-	0	ID=FNED7-bin-5.genome.CDS.2144;Product=Excinuclease ABC subunit B
+FNED7-bin-5-scaffold_5322	feature	CDS	1	1437	.	-	0	ID=FNED7-bin-5.genome.CDS.2143;Product=Excinuclease ABC subunit A
+FNED7-bin-5-scaffold_53474	feature	CDS	2081	3034	.	+	0	ID=FNED7-bin-5.genome.CDS.1345;Product=
+FNED7-bin-5-scaffold_53474	feature	CDS	978	2081	.	+	0	ID=FNED7-bin-5.genome.CDS.1344;Product=surface antigen gene
+FNED7-bin-5-scaffold_53474	feature	CDS	281	970	.	+	0	ID=FNED7-bin-5.genome.CDS.1343;Product=
+FNED7-bin-5-scaffold_53474	feature	CDS	3	191	.	-	0	ID=FNED7-bin-5.genome.CDS.1342;Product=
+FNED7-bin-5-scaffold_53553	feature	CDS	1959	2711	.	+	0	ID=FNED7-bin-5.genome.CDS.1238;Product=SSU rRNA %28adenine%281518%29-N%286%29/adenine%281519%29-N%286%29%29-dimethyltransferase %28EC 2.1.1.182%29
+FNED7-bin-5-scaffold_53553	feature	CDS	1102	1959	.	+	0	ID=FNED7-bin-5.genome.CDS.1237;Product=Putative deoxyribonuclease YcfH
+FNED7-bin-5-scaffold_53553	feature	CDS	1	1101	.	+	0	ID=FNED7-bin-5.genome.CDS.1236;Product=Methionyl-tRNA synthetase %28EC 6.1.1.10%29
+FNED7-bin-5-scaffold_53939	feature	CDS	9241	9849	.	-	0	ID=FNED7-bin-5.genome.CDS.1480;Product=Response regulator NasT
+FNED7-bin-5-scaffold_53939	feature	CDS	9145	9234	.	+	0	ID=FNED7-bin-5.genome.CDS.1479;Product=
+FNED7-bin-5-scaffold_53939	feature	CDS	7856	9079	.	-	0	ID=FNED7-bin-5.genome.CDS.1478;Product=hypothetical protein
+FNED7-bin-5-scaffold_53939	feature	CDS	6743	7696	.	-	0	ID=FNED7-bin-5.genome.CDS.1477;Product=High-affinity branched-chain amino acid transport system permease protein LivH %28TC 3.A.1.4.1%29
+FNED7-bin-5-scaffold_53939	feature	CDS	5706	6743	.	-	0	ID=FNED7-bin-5.genome.CDS.1476;Product=Branched-chain amino acid transport system permease protein LivM %28TC 3.A.1.4.1%29
+FNED7-bin-5-scaffold_53939	feature	CDS	4937	5713	.	-	0	ID=FNED7-bin-5.genome.CDS.1475;Product=Branched-chain amino acid transport ATP-binding protein LivG %28TC 3.A.1.4.1%29
+FNED7-bin-5-scaffold_53939	feature	CDS	4219	4947	.	-	0	ID=FNED7-bin-5.genome.CDS.1474;Product=Branched-chain amino acid transport ATP-binding protein LivF %28TC 3.A.1.4.1%29
+FNED7-bin-5-scaffold_53939	feature	CDS	3815	4222	.	+	0	ID=FNED7-bin-5.genome.CDS.1473;Product=ComA operon protein 2
+FNED7-bin-5-scaffold_53939	feature	CDS	1193	3766	.	-	0	ID=FNED7-bin-5.genome.CDS.1472;Product=DNA polymerase I %28EC 2.7.7.7%29
+FNED7-bin-5-scaffold_53939	feature	CDS	2	1207	.	+	0	ID=FNED7-bin-5.genome.CDS.1471;Product=hypothetical protein
+FNED7-bin-5-scaffold_53943	feature	CDS	2078	3382	.	-	0	ID=FNED7-bin-5.genome.CDS.1235;Product=Phosphoribosylamine--glycine ligase %28EC 6.3.4.13%29
+FNED7-bin-5-scaffold_53943	feature	CDS	671	2074	.	-	0	ID=FNED7-bin-5.genome.CDS.1234;Product=Adenylosuccinate lyase %28EC 4.3.2.2%29
+FNED7-bin-5-scaffold_53943	feature	CDS	2	658	.	-	0	ID=FNED7-bin-5.genome.CDS.1233;Product=Phosphoribosylaminoimidazole-succinocarboxamide synthase %28EC 6.3.2.6%29
+FNED7-bin-5-scaffold_5449	feature	CDS	8988	10067	.	+	0	ID=FNED7-bin-5.genome.CDS.2300;Product=Argininosuccinate synthase %28EC 6.3.4.5%29
+FNED7-bin-5-scaffold_5449	feature	CDS	8486	8929	.	+	0	ID=FNED7-bin-5.genome.CDS.2299;Product=
+FNED7-bin-5-scaffold_5449	feature	CDS	8078	8455	.	-	0	ID=FNED7-bin-5.genome.CDS.2298;Product=
+FNED7-bin-5-scaffold_5449	feature	CDS	7365	8066	.	+	0	ID=FNED7-bin-5.genome.CDS.2297;Product=3-oxoacyl-%5Bacyl-carrier protein%5D reductase %28EC 1.1.1.100%29
+FNED7-bin-5-scaffold_5449	feature	CDS	5035	7110	.	-	0	ID=FNED7-bin-5.genome.CDS.2296;Product=2-oxoglutarate decarboxylase %28EC 4.1.1.71%29
+FNED7-bin-5-scaffold_5449	feature	CDS	3387	5063	.	-	0	ID=FNED7-bin-5.genome.CDS.2295;Product=2-oxoglutarate dehydrogenase E1 component %28EC 1.2.4.2%29
+FNED7-bin-5-scaffold_5449	feature	CDS	3013	3390	.	+	0	ID=FNED7-bin-5.genome.CDS.2294;Product=
+FNED7-bin-5-scaffold_5449	feature	CDS	2573	2800	.	+	0	ID=FNED7-bin-5.genome.CDS.1046;Product=
+FNED7-bin-5-scaffold_5449	feature	CDS	2145	2561	.	+	0	ID=FNED7-bin-5.genome.CDS.2293;Product=
+FNED7-bin-5-scaffold_5449	feature	CDS	1704	2090	.	+	0	ID=FNED7-bin-5.genome.CDS.2292;Product=
+FNED7-bin-5-scaffold_5449	feature	CDS	1054	1707	.	+	0	ID=FNED7-bin-5.genome.CDS.2291;Product=RNA polymerase sigma-54 factor RpoN
+FNED7-bin-5-scaffold_5449	feature	CDS	896	1042	.	+	0	ID=FNED7-bin-5.genome.CDS.1042;Product=
+FNED7-bin-5-scaffold_5449	feature	CDS	3	863	.	-	0	ID=FNED7-bin-5.genome.CDS.2290;Product=5-Enolpyruvylshikimate-3-phosphate synthase %28EC 2.5.1.19%29
+FNED7-bin-5-scaffold_5484	feature	CDS	5573	5827	.	+	0	ID=FNED7-bin-5.genome.CDS.1703;Product=Glycine dehydrogenase %5Bdecarboxylating%5D %28glycine cleavage system P protein%29 %28EC 1.4.4.2%29
+FNED7-bin-5-scaffold_5484	feature	CDS	4983	5501	.	+	0	ID=FNED7-bin-5.genome.CDS.1702;Product=transcriptional regulator%2C MerR family
+FNED7-bin-5-scaffold_5484	feature	CDS	4386	4853	.	+	0	ID=FNED7-bin-5.genome.CDS.1701;Product=FIG01121484: hypothetical protein
+FNED7-bin-5-scaffold_5484	feature	CDS	3663	4376	.	+	0	ID=FNED7-bin-5.genome.CDS.1700;Product=transcriptional regulator%2C MerR family
+FNED7-bin-5-scaffold_5484	feature	CDS	3202	3666	.	+	0	ID=FNED7-bin-5.genome.CDS.1699;Product=
+FNED7-bin-5-scaffold_5484	feature	CDS	2761	3138	.	+	0	ID=FNED7-bin-5.genome.CDS.1698;Product=Glycine cleavage system H protein
+FNED7-bin-5-scaffold_5484	feature	CDS	2199	2768	.	+	0	ID=FNED7-bin-5.genome.CDS.1697;Product=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase %28EC 2.7.8.5%29
+FNED7-bin-5-scaffold_5484	feature	CDS	208	2190	.	+	0	ID=FNED7-bin-5.genome.CDS.1696;Product=GTP-binding protein EngA
+FNED7-bin-5-scaffold_5484	feature	CDS	1	180	.	+	0	ID=FNED7-bin-5.genome.CDS.1695;Product=
+FNED7-bin-5-scaffold_5592	feature	CDS	3410	3556	.	-	0	ID=FNED7-bin-5.genome.CDS.2102;Product=
+FNED7-bin-5-scaffold_5592	feature	CDS	2474	3400	.	-	0	ID=FNED7-bin-5.genome.CDS.2101;Product=Oxidoreductase
+FNED7-bin-5-scaffold_5592	feature	CDS	1924	2466	.	-	0	ID=FNED7-bin-5.genome.CDS.2100;Product=
+FNED7-bin-5-scaffold_5592	feature	CDS	332	1780	.	+	0	ID=FNED7-bin-5.genome.CDS.2099;Product=hypothetical protein
+FNED7-bin-5-scaffold_5592	feature	CDS	3	209	.	+	0	ID=FNED7-bin-5.genome.CDS.2098;Product=
+FNED7-bin-5-scaffold_5647	feature	CDS	1806	2870	.	+	0	ID=FNED7-bin-5.genome.CDS.2401;Product=NADH-dependent flavin oxidoreductase
+FNED7-bin-5-scaffold_5647	feature	CDS	753	1805	.	+	0	ID=FNED7-bin-5.genome.CDS.2400;Product=possible chromosome condensation protein
+FNED7-bin-5-scaffold_5647	feature	CDS	3	605	.	-	0	ID=FNED7-bin-5.genome.CDS.2399;Product=
+FNED7-bin-5-scaffold_5664	feature	misc_RNA	14941	15391	.	+	.	ID=FNED7-bin-5.genome.repeat.28;Product=repeat region
+FNED7-bin-5-scaffold_5664	feature	CDS	14882	15391	.	-	0	ID=FNED7-bin-5.genome.CDS.2058;Product=Cysteinyl-tRNA synthetase %28EC 6.1.1.16%29
+FNED7-bin-5-scaffold_5664	feature	CDS	14233	14892	.	+	0	ID=FNED7-bin-5.genome.CDS.826;Product=1D-myo-inositol 2-acetamido-2-deoxy-alpha-D-glucopyranoside deacetylase %28EC 3.5.1.103%29
+FNED7-bin-5-scaffold_5664	feature	CDS	13767	14267	.	+	0	ID=FNED7-bin-5.genome.CDS.2056;Product=1D-myo-inositol 2-acetamido-2-deoxy-alpha-D-glucopyranoside deacetylase %28EC 3.5.1.103%29
+FNED7-bin-5-scaffold_5664	feature	CDS	13438	13767	.	+	0	ID=FNED7-bin-5.genome.CDS.2055;Product=Sulfur carrier protein adenylyltransferase ThiF
+FNED7-bin-5-scaffold_5664	feature	CDS	12766	13401	.	-	0	ID=FNED7-bin-5.genome.CDS.2054;Product=Transcriptional regulator%2C TetR family
+FNED7-bin-5-scaffold_5664	feature	CDS	12498	12752	.	-	0	ID=FNED7-bin-5.genome.CDS.2053;Product=
+FNED7-bin-5-scaffold_5664	feature	CDS	11654	12511	.	+	0	ID=FNED7-bin-5.genome.CDS.2052;Product=FIG00031715: Predicted metal-dependent phosphoesterases %28PHP family%29
+FNED7-bin-5-scaffold_5664	feature	CDS	10771	11673	.	+	0	ID=FNED7-bin-5.genome.CDS.2051;Product=
+FNED7-bin-5-scaffold_5664	feature	CDS	9531	10766	.	+	0	ID=FNED7-bin-5.genome.CDS.2050;Product=Manganese transport protein MntH
+FNED7-bin-5-scaffold_5664	feature	CDS	8182	9519	.	+	0	ID=FNED7-bin-5.genome.CDS.2049;Product=hypothetical protein
+FNED7-bin-5-scaffold_5664	feature	CDS	7026	8153	.	+	0	ID=FNED7-bin-5.genome.CDS.2048;Product=Mrp protein homolog
+FNED7-bin-5-scaffold_5664	feature	CDS	5828	6997	.	+	0	ID=FNED7-bin-5.genome.CDS.2047;Product=putative protease
+FNED7-bin-5-scaffold_5664	feature	CDS	5178	5807	.	+	0	ID=FNED7-bin-5.genome.CDS.2046;Product=hypothetical protein
+FNED7-bin-5-scaffold_5664	feature	CDS	3647	5146	.	+	0	ID=FNED7-bin-5.genome.CDS.2045;Product=Cytosol aminopeptidase PepA %28EC 3.4.11.1%29
+FNED7-bin-5-scaffold_5664	feature	CDS	3458	3637	.	+	0	ID=FNED7-bin-5.genome.CDS.2044;Product=hypothetical protein
+FNED7-bin-5-scaffold_5664	feature	CDS	3236	3439	.	+	0	ID=FNED7-bin-5.genome.CDS.2043;Product=hypothetical protein
+FNED7-bin-5-scaffold_5664	feature	CDS	2229	3140	.	-	0	ID=FNED7-bin-5.genome.CDS.2042;Product=2%2C3%2C4%2C5-tetrahydropyridine-2%2C6-dicarboxylate N-succinyltransferase %28EC 2.3.1.117%29
+FNED7-bin-5-scaffold_5664	feature	CDS	1037	2236	.	+	0	ID=FNED7-bin-5.genome.CDS.2041;Product=
+FNED7-bin-5-scaffold_5664	feature	CDS	51	1040	.	+	0	ID=FNED7-bin-5.genome.CDS.2040;Product=putative glycosyl transferase
+FNED7-bin-5-scaffold_5676	feature	CDS	4941	5108	.	-	0	ID=FNED7-bin-5.genome.CDS.2003;Product=Flavodoxin reductases %28ferredoxin-NADPH reductases%29 family 1
+FNED7-bin-5-scaffold_5676	feature	CDS	4314	4913	.	-	0	ID=FNED7-bin-5.genome.CDS.2002;Product=hypothetical protein
+FNED7-bin-5-scaffold_5676	feature	CDS	3263	4309	.	-	0	ID=FNED7-bin-5.genome.CDS.2001;Product=Thiamin biosynthesis lipoprotein ApbE
+FNED7-bin-5-scaffold_5676	feature	CDS	1949	3223	.	-	0	ID=FNED7-bin-5.genome.CDS.2000;Product=Kynureninase %28EC 3.7.1.3%29
+FNED7-bin-5-scaffold_5676	feature	CDS	1161	1952	.	-	0	ID=FNED7-bin-5.genome.CDS.1999;Product=Tryptophan 2%2C3-dioxygenase %28EC 1.13.11.11%29
+FNED7-bin-5-scaffold_5676	feature	CDS	995	1144	.	+	0	ID=FNED7-bin-5.genome.CDS.767;Product=
+FNED7-bin-5-scaffold_5676	feature	CDS	3	836	.	-	0	ID=FNED7-bin-5.genome.CDS.1998;Product=Xaa-Pro aminopeptidase %28EC 3.4.11.9%29
+FNED7-bin-5-scaffold_5827	feature	CDS	3398	4135	.	+	0	ID=FNED7-bin-5.genome.CDS.2251;Product=hypothetical protein
+FNED7-bin-5-scaffold_5827	feature	CDS	2064	3389	.	+	0	ID=FNED7-bin-5.genome.CDS.2250;Product=NADH dehydrogenase %28EC 1.6.99.3%29
+FNED7-bin-5-scaffold_5827	feature	CDS	490	2007	.	-	0	ID=FNED7-bin-5.genome.CDS.2249;Product=Putative nucleoside-diphosphate-sugar epimerase
+FNED7-bin-5-scaffold_5827	feature	CDS	186	440	.	-	0	ID=FNED7-bin-5.genome.CDS.2248;Product=hypothetical protein
+FNED7-bin-5-scaffold_5827	feature	CDS	1	177	.	+	0	ID=FNED7-bin-5.genome.CDS.2247;Product=hypothetical protein
+FNED7-bin-5-scaffold_5837	feature	CDS	4350	4667	.	-	0	ID=FNED7-bin-5.genome.CDS.1387;Product=Threonyl-tRNA synthetase %28EC 6.1.1.3%29
+FNED7-bin-5-scaffold_5837	feature	CDS	3818	4321	.	-	0	ID=FNED7-bin-5.genome.CDS.1386;Product=HIT family protein
+FNED7-bin-5-scaffold_5837	feature	CDS	3139	3645	.	+	0	ID=FNED7-bin-5.genome.CDS.187;Product=
+FNED7-bin-5-scaffold_5837	feature	CDS	2509	3114	.	-	0	ID=FNED7-bin-5.genome.CDS.1383;Product=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase %28EC 2.7.8.5%29
+FNED7-bin-5-scaffold_5837	feature	CDS	1617	2504	.	-	0	ID=FNED7-bin-5.genome.CDS.1382;Product=Lauroyl/myristoyl acyltransferase involved in lipid A biosynthesis %28Lauroyl/myristoyl acyltransferase%29
+FNED7-bin-5-scaffold_5837	feature	CDS	452	1624	.	-	0	ID=FNED7-bin-5.genome.CDS.1381;Product=Phosphatidylinositol alpha-mannosyltransferase %28EC 2.4.1.57%29
+FNED7-bin-5-scaffold_5837	feature	CDS	3	455	.	-	0	ID=FNED7-bin-5.genome.CDS.1380;Product=
+FNED7-bin-5-scaffold_5881	feature	CDS	3320	5518	.	+	0	ID=FNED7-bin-5.genome.CDS.1946;Product=Excinuclease ABC subunit A
+FNED7-bin-5-scaffold_5881	feature	CDS	1626	3323	.	+	0	ID=FNED7-bin-5.genome.CDS.1945;Product=Excinuclease ABC subunit B
+FNED7-bin-5-scaffold_5881	feature	CDS	1163	1645	.	+	0	ID=FNED7-bin-5.genome.CDS.1944;Product=Excinuclease ABC subunit B
+FNED7-bin-5-scaffold_5881	feature	CDS	549	1163	.	+	0	ID=FNED7-bin-5.genome.CDS.1943;Product=Dephospho-CoA kinase %28EC 2.7.1.24%29
+FNED7-bin-5-scaffold_5881	feature	CDS	3	452	.	+	0	ID=FNED7-bin-5.genome.CDS.1942;Product=SSU ribosomal protein S1p
+FNED7-bin-5-scaffold_5924	feature	CDS	5028	5171	.	-	0	ID=FNED7-bin-5.genome.CDS.2206;Product=hypothetical protein
+FNED7-bin-5-scaffold_5924	feature	CDS	3647	5014	.	-	0	ID=FNED7-bin-5.genome.CDS.2205;Product=Phosphomannomutase %28EC 5.4.2.8%29
+FNED7-bin-5-scaffold_5924	feature	CDS	2122	3600	.	-	0	ID=FNED7-bin-5.genome.CDS.2204;Product=Adenosylhomocysteinase %28EC 3.3.1.1%29
+FNED7-bin-5-scaffold_5924	feature	CDS	1448	2122	.	-	0	ID=FNED7-bin-5.genome.CDS.2203;Product=Phosphate regulon transcriptional regulatory protein PhoB %28SphR%29
+FNED7-bin-5-scaffold_5924	feature	CDS	3	1451	.	-	0	ID=FNED7-bin-5.genome.CDS.2202;Product=Sensor histidine kinase mtrB %28EC 2.7.3.-%29
+FNED7-bin-5-scaffold_5997	feature	CDS	2693	3475	.	+	0	ID=FNED7-bin-5.genome.CDS.1646;Product=ATP-dependent DNA helicase SCO5183
+FNED7-bin-5-scaffold_5997	feature	CDS	744	2657	.	+	0	ID=FNED7-bin-5.genome.CDS.1645;Product=GTP-binding protein TypA/BipA
+FNED7-bin-5-scaffold_5997	feature	CDS	1	747	.	+	0	ID=FNED7-bin-5.genome.CDS.1644;Product=GTP-binding and nucleic acid-binding protein YchF
+FNED7-bin-5-scaffold_6082	feature	CDS	4416	4598	.	+	0	ID=FNED7-bin-5.genome.CDS.2289;Product=
+FNED7-bin-5-scaffold_6082	feature	tRNA	4294	4368	.	+	.	ID=FNED7-bin-5.genome.rna.14;Product=tRNA-Val-TAC
+FNED7-bin-5-scaffold_6082	feature	CDS	3783	4241	.	+	0	ID=FNED7-bin-5.genome.CDS.2288;Product=Alkyl hydroperoxide reductase subunit C-like protein
+FNED7-bin-5-scaffold_6082	feature	CDS	3343	3771	.	+	0	ID=FNED7-bin-5.genome.CDS.2287;Product=FIG00819990: hypothetical protein
+FNED7-bin-5-scaffold_6082	feature	CDS	2482	3237	.	-	0	ID=FNED7-bin-5.genome.CDS.1039;Product=Pyruvate dehydrogenase E1 component %28EC 1.2.4.1%29
+FNED7-bin-5-scaffold_6082	feature	CDS	444	2462	.	-	0	ID=FNED7-bin-5.genome.CDS.2286;Product=Pyruvate dehydrogenase E1 component %28EC 1.2.4.1%29
+FNED7-bin-5-scaffold_6082	feature	CDS	1	447	.	+	0	ID=FNED7-bin-5.genome.CDS.2285;Product=
+FNED7-bin-5-scaffold_611	feature	misc_RNA	1	809	.	+	.	ID=FNED7-bin-5.genome.repeat.17;Product=repeat region
+FNED7-bin-5-scaffold_611	feature	CDS	6253	7992	.	+	0	ID=FNED7-bin-5.genome.CDS.1627;Product=Acetolactate synthase large subunit %28EC 2.2.1.6%29
+FNED7-bin-5-scaffold_611	feature	CDS	4260	5945	.	+	0	ID=FNED7-bin-5.genome.CDS.1626;Product=Dihydroxy-acid dehydratase %28EC 4.2.1.9%29
+FNED7-bin-5-scaffold_611	feature	CDS	3033	4250	.	+	0	ID=FNED7-bin-5.genome.CDS.1625;Product=Aspartyl-tRNA%28Asn%29 amidotransferase subunit B %28EC 6.3.5.6%29 %40 Glutamyl-tRNA%28Gln%29 amidotransferase subunit B %28EC 6.3.5.7%29
+FNED7-bin-5-scaffold_611	feature	CDS	2693	3064	.	+	0	ID=FNED7-bin-5.genome.CDS.1624;Product=Aspartyl-tRNA%28Asn%29 amidotransferase subunit B %28EC 6.3.5.6%29 %40 Glutamyl-tRNA%28Gln%29 amidotransferase subunit B %28EC 6.3.5.7%29
+FNED7-bin-5-scaffold_611	feature	CDS	1194	2693	.	+	0	ID=FNED7-bin-5.genome.CDS.1623;Product=Aspartyl-tRNA%28Asn%29 amidotransferase subunit A %28EC 6.3.5.6%29 %40 Glutamyl-tRNA%28Gln%29 amidotransferase subunit A %28EC 6.3.5.7%29
+FNED7-bin-5-scaffold_611	feature	CDS	901	1197	.	+	0	ID=FNED7-bin-5.genome.CDS.1622;Product=Aspartyl-tRNA%28Asn%29 amidotransferase subunit C %28EC 6.3.5.6%29 %40 Glutamyl-tRNA%28Gln%29 amidotransferase subunit C %28EC 6.3.5.7%29
+FNED7-bin-5-scaffold_611	feature	CDS	76	864	.	+	0	ID=FNED7-bin-5.genome.CDS.1621;Product=Glutamate 5-kinase %28EC 2.7.2.11%29 / RNA-binding C-terminal domain PUA
+FNED7-bin-5-scaffold_611	feature	CDS	2	79	.	+	0	ID=FNED7-bin-5.genome.CDS.1620;Product=
+FNED7-bin-5-scaffold_6128	feature	CDS	3592	3717	.	-	0	ID=FNED7-bin-5.genome.CDS.1779;Product=GTP pyrophosphokinase %28EC 2.7.6.5%29%2C %28p%29ppGpp synthetase I
+FNED7-bin-5-scaffold_6128	feature	CDS	2257	3588	.	+	0	ID=FNED7-bin-5.genome.CDS.1778;Product=ATPase involved in DNA repair
+FNED7-bin-5-scaffold_6128	feature	CDS	1280	1861	.	-	0	ID=FNED7-bin-5.genome.CDS.1777;Product=Hydroxyacylglutathione hydrolase %28EC 3.1.2.6%29
+FNED7-bin-5-scaffold_6128	feature	CDS	12	1283	.	-	0	ID=FNED7-bin-5.genome.CDS.1776;Product=Histidyl-tRNA synthetase %28EC 6.1.1.21%29
+FNED7-bin-5-scaffold_6190	feature	misc_RNA	8909	9619	.	+	.	ID=FNED7-bin-5.genome.repeat.14;Product=repeat region
+FNED7-bin-5-scaffold_6190	feature	CDS	9537	9617	.	+	0	ID=FNED7-bin-5.genome.CDS.1655;Product=
+FNED7-bin-5-scaffold_6190	feature	CDS	5559	9527	.	+	0	ID=FNED7-bin-5.genome.CDS.1654;Product=5-methyltetrahydrofolate--homocysteine methyltransferase %28EC 2.1.1.13%29
+FNED7-bin-5-scaffold_6190	feature	CDS	4618	5520	.	+	0	ID=FNED7-bin-5.genome.CDS.1653;Product=L-cysteine:1D-myo-inosityl 2-amino-2-deoxy-alpha-D-glucopyranoside ligase MshC
+FNED7-bin-5-scaffold_6190	feature	CDS	4193	4621	.	+	0	ID=FNED7-bin-5.genome.CDS.1652;Product=L-cysteine:1D-myo-inosityl 2-amino-2-deoxy-alpha-D-glucopyranoside ligase MshC
+FNED7-bin-5-scaffold_6190	feature	CDS	3477	4166	.	+	0	ID=FNED7-bin-5.genome.CDS.440;Product=FIG00820755: hypothetical protein
+FNED7-bin-5-scaffold_6190	feature	CDS	2914	3477	.	+	0	ID=FNED7-bin-5.genome.CDS.1650;Product=hypothetical protein
+FNED7-bin-5-scaffold_6190	feature	CDS	2201	2917	.	+	0	ID=FNED7-bin-5.genome.CDS.1649;Product=
+FNED7-bin-5-scaffold_6190	feature	CDS	1219	1965	.	-	0	ID=FNED7-bin-5.genome.CDS.1648;Product=putative oxidoreductase
+FNED7-bin-5-scaffold_6190	feature	CDS	2	1222	.	+	0	ID=FNED7-bin-5.genome.CDS.1647;Product=FIG016551: Putative peptidase
+FNED7-bin-5-scaffold_6488	feature	CDS	5308	5712	.	-	0	ID=FNED7-bin-5.genome.CDS.1374;Product=ComA operon protein 2
+FNED7-bin-5-scaffold_6488	feature	CDS	4578	5306	.	+	0	ID=FNED7-bin-5.genome.CDS.1373;Product=Branched-chain amino acid transport ATP-binding protein LivF %28TC 3.A.1.4.1%29
+FNED7-bin-5-scaffold_6488	feature	CDS	3812	4588	.	+	0	ID=FNED7-bin-5.genome.CDS.1372;Product=Branched-chain amino acid transport ATP-binding protein LivG %28TC 3.A.1.4.1%29
+FNED7-bin-5-scaffold_6488	feature	CDS	2782	3819	.	+	0	ID=FNED7-bin-5.genome.CDS.1371;Product=Branched-chain amino acid transport system permease protein LivM %28TC 3.A.1.4.1%29
+FNED7-bin-5-scaffold_6488	feature	CDS	1829	2782	.	+	0	ID=FNED7-bin-5.genome.CDS.1370;Product=High-affinity branched-chain amino acid transport system permease protein LivH %28TC 3.A.1.4.1%29
+FNED7-bin-5-scaffold_6488	feature	CDS	492	1652	.	+	0	ID=FNED7-bin-5.genome.CDS.1369;Product=hypothetical protein
+FNED7-bin-5-scaffold_6488	feature	CDS	1	330	.	+	0	ID=FNED7-bin-5.genome.CDS.1368;Product=Response regulator NasT
+FNED7-bin-5-scaffold_6540	feature	CDS	4840	5100	.	-	0	ID=FNED7-bin-5.genome.CDS.1457;Product=
+FNED7-bin-5-scaffold_6540	feature	CDS	4422	4847	.	-	0	ID=FNED7-bin-5.genome.CDS.1456;Product=hypothetical protein
+FNED7-bin-5-scaffold_6540	feature	CDS	3438	4442	.	+	0	ID=FNED7-bin-5.genome.CDS.1455;Product=4-hydroxy-3-methylbut-2-enyl diphosphate reductase %28EC 1.17.1.2%29
+FNED7-bin-5-scaffold_6540	feature	CDS	2259	3404	.	-	0	ID=FNED7-bin-5.genome.CDS.1454;Product=Exodeoxyribonuclease VII large subunit %28EC 3.1.11.6%29
+FNED7-bin-5-scaffold_6540	feature	CDS	1820	2215	.	+	0	ID=FNED7-bin-5.genome.CDS.1453;Product=hypothetical protein
+FNED7-bin-5-scaffold_6540	feature	CDS	1530	1730	.	-	0	ID=FNED7-bin-5.genome.CDS.1452;Product=Exodeoxyribonuclease VII small subunit %28EC 3.1.11.6%29
+FNED7-bin-5-scaffold_6540	feature	CDS	3	1529	.	-	0	ID=FNED7-bin-5.genome.CDS.1451;Product=Fumarate hydratase class I %28EC 4.2.1.2%29
+FNED7-bin-5-scaffold_7836	feature	CDS	3457	3816	.	+	0	ID=FNED7-bin-5.genome.CDS.1438;Product=Heat shock protein 60 family chaperone GroEL
+FNED7-bin-5-scaffold_7836	feature	CDS	3158	3454	.	+	0	ID=FNED7-bin-5.genome.CDS.1437;Product=Heat shock protein 60 family co-chaperone GroES
+FNED7-bin-5-scaffold_7836	feature	CDS	2721	3047	.	+	0	ID=FNED7-bin-5.genome.CDS.1436;Product=Kinase-Associated Endopeptidase %28Kae1%29%2C required for threonylcarbamoyladenosine t%286%29A37 formation in tRNA
+FNED7-bin-5-scaffold_7836	feature	CDS	1958	2764	.	+	0	ID=FNED7-bin-5.genome.CDS.1435;Product=Kinase-Associated Endopeptidase %28Kae1%29%2C required for threonylcarbamoyladenosine t%286%29A37 formation in tRNA
+FNED7-bin-5-scaffold_7836	feature	CDS	1254	1961	.	+	0	ID=FNED7-bin-5.genome.CDS.1434;Product=
+FNED7-bin-5-scaffold_7836	feature	CDS	934	1266	.	+	0	ID=FNED7-bin-5.genome.CDS.236;Product=
+FNED7-bin-5-scaffold_7836	feature	CDS	518	937	.	+	0	ID=FNED7-bin-5.genome.CDS.1433;Product=TsaE protein%2C required for threonylcarbamoyladenosine t%286%29A37 formation in tRNA
+FNED7-bin-5-scaffold_7836	feature	CDS	3	521	.	+	0	ID=FNED7-bin-5.genome.CDS.1432;Product=Alanine racemase %28EC 5.1.1.1%29
+FNED7-bin-5-scaffold_8536	feature	misc_RNA	1	711	.	+	.	ID=FNED7-bin-5.genome.repeat.1;Product=repeat region
+FNED7-bin-5-scaffold_8536	feature	CDS	9781	10659	.	-	0	ID=FNED7-bin-5.genome.CDS.1213;Product=Glycine dehydrogenase %5Bdecarboxylating%5D %28glycine cleavage system P protein%29 %28EC 1.4.4.2%29
+FNED7-bin-5-scaffold_8536	feature	CDS	9046	9756	.	+	0	ID=FNED7-bin-5.genome.CDS.1212;Product=Dolichol-phosphate mannosyltransferase %28EC 2.4.1.83%29 in lipid-linked oligosaccharide synthesis cluster
+FNED7-bin-5-scaffold_8536	feature	CDS	8143	9042	.	+	0	ID=FNED7-bin-5.genome.CDS.1211;Product=DNA polymerase I %28EC 2.7.7.7%29
+FNED7-bin-5-scaffold_8536	feature	CDS	5780	8146	.	+	0	ID=FNED7-bin-5.genome.CDS.1210;Product=FIG005666: putative helicase
+FNED7-bin-5-scaffold_8536	feature	CDS	4902	5783	.	+	0	ID=FNED7-bin-5.genome.CDS.1209;Product=Diacylglycerol kinase-related protein
+FNED7-bin-5-scaffold_8536	feature	CDS	4138	4905	.	+	0	ID=FNED7-bin-5.genome.CDS.1208;Product=Twin-arginine translocation protein TatC
+FNED7-bin-5-scaffold_8536	feature	CDS	3907	4098	.	+	0	ID=FNED7-bin-5.genome.CDS.1207;Product=Twin-arginine translocation protein TatA
+FNED7-bin-5-scaffold_8536	feature	CDS	2953	3897	.	+	0	ID=FNED7-bin-5.genome.CDS.1206;Product=hypothetical protein
+FNED7-bin-5-scaffold_8536	feature	CDS	2022	2960	.	+	0	ID=FNED7-bin-5.genome.CDS.1205;Product=FIG005453: Putative DeoR-family transcriptional regulator
+FNED7-bin-5-scaffold_8536	feature	CDS	1479	1967	.	-	0	ID=FNED7-bin-5.genome.CDS.1204;Product=
+FNED7-bin-5-scaffold_8536	feature	CDS	629	1486	.	+	0	ID=FNED7-bin-5.genome.CDS.1203;Product=tRNA %28adenine%2858%29-N%281%29%29-methyltransferase %28EC 2.1.1.220%29
+FNED7-bin-5-scaffold_8536	feature	CDS	2	619	.	+	0	ID=FNED7-bin-5.genome.CDS.1202;Product=5-methyltetrahydrofolate--homocysteine methyltransferase %28EC 2.1.1.13%29
+FNED7-bin-5-scaffold_887	feature	misc_RNA	7771	7895	.	+	.	ID=FNED7-bin-5.genome.repeat.24;Product=repeat region
+FNED7-bin-5-scaffold_887	feature	CDS	20149	21069	.	+	0	ID=FNED7-bin-5.genome.CDS.2387;Product=4-diphosphocytidyl-2-C-methyl-D-erythritol kinase %28EC 2.7.1.148%29
+FNED7-bin-5-scaffold_887	feature	CDS	19979	20152	.	+	0	ID=FNED7-bin-5.genome.CDS.2386;Product=SSU rRNA %28adenine%281518%29-N%286%29/adenine%281519%29-N%286%29%29-dimethyltransferase %28EC 2.1.1.182%29
+FNED7-bin-5-scaffold_887	feature	CDS	19308	19982	.	+	0	ID=FNED7-bin-5.genome.CDS.2385;Product=SSU rRNA %28adenine%281518%29-N%286%29/adenine%281519%29-N%286%29%29-dimethyltransferase %28EC 2.1.1.182%29
+FNED7-bin-5-scaffold_887	feature	CDS	18451	19308	.	+	0	ID=FNED7-bin-5.genome.CDS.2384;Product=Putative deoxyribonuclease YcfH
+FNED7-bin-5-scaffold_887	feature	CDS	17608	18450	.	+	0	ID=FNED7-bin-5.genome.CDS.1127;Product=Methionyl-tRNA synthetase %28EC 6.1.1.10%29
+FNED7-bin-5-scaffold_887	feature	CDS	16826	17470	.	+	0	ID=FNED7-bin-5.genome.CDS.1126;Product=Methionyl-tRNA synthetase %28EC 6.1.1.10%29
+FNED7-bin-5-scaffold_887	feature	CDS	15981	16823	.	+	0	ID=FNED7-bin-5.genome.CDS.2382;Product=rRNA small subunit methyltransferase I
+FNED7-bin-5-scaffold_887	feature	CDS	14641	15948	.	-	0	ID=FNED7-bin-5.genome.CDS.2381;Product=CONSERVED MEMBRANE PROTEIN
+FNED7-bin-5-scaffold_887	feature	CDS	13891	14640	.	+	0	ID=FNED7-bin-5.genome.CDS.2380;Product=
+FNED7-bin-5-scaffold_887	feature	CDS	13257	13835	.	+	0	ID=FNED7-bin-5.genome.CDS.2379;Product=Ribosomal-protein-S5p-alanine acetyltransferase
+FNED7-bin-5-scaffold_887	feature	CDS	12300	13232	.	+	0	ID=FNED7-bin-5.genome.CDS.2378;Product=Molybdopterin biosynthesis protein MoeA
+FNED7-bin-5-scaffold_887	feature	CDS	11715	12266	.	-	0	ID=FNED7-bin-5.genome.CDS.2377;Product=5-formyltetrahydrofolate cyclo-ligase %28EC 6.3.3.2%29
+FNED7-bin-5-scaffold_887	feature	CDS	9808	11718	.	+	0	ID=FNED7-bin-5.genome.CDS.2376;Product=Copper resistance protein D
+FNED7-bin-5-scaffold_887	feature	CDS	9203	9802	.	+	0	ID=FNED7-bin-5.genome.CDS.2375;Product=hypothetical protein
+FNED7-bin-5-scaffold_887	feature	CDS	8893	9141	.	-	0	ID=FNED7-bin-5.genome.CDS.2374;Product=Type I antifreeze protein
+FNED7-bin-5-scaffold_887	feature	CDS	8766	8885	.	+	0	ID=FNED7-bin-5.genome.CDS.2373;Product=
+FNED7-bin-5-scaffold_887	feature	CDS	7907	8680	.	-	0	ID=FNED7-bin-5.genome.CDS.2372;Product=Formyltetrahydrofolate deformylase %28EC 3.5.1.10%29
+FNED7-bin-5-scaffold_887	feature	tRNA	7824	7896	.	+	.	ID=FNED7-bin-5.genome.rna.15;Product=tRNA-Arg-CCT
+FNED7-bin-5-scaffold_887	feature	CDS	7368	7811	.	+	0	ID=FNED7-bin-5.genome.CDS.2371;Product=
+FNED7-bin-5-scaffold_887	feature	CDS	5939	7339	.	-	0	ID=FNED7-bin-5.genome.CDS.2370;Product=diguanylate cyclase/phosphodiesterase %28GGDEF %26 EAL domains%29 with PAS/PAC sensor%28s%29
+FNED7-bin-5-scaffold_887	feature	CDS	4602	5942	.	+	0	ID=FNED7-bin-5.genome.CDS.2369;Product=Deoxyribodipyrimidine photolyase %28EC 4.1.99.3%29
+FNED7-bin-5-scaffold_887	feature	CDS	3463	4578	.	+	0	ID=FNED7-bin-5.genome.CDS.2368;Product=Citrate synthase %28si%29 %28EC 2.3.3.1%29
+FNED7-bin-5-scaffold_887	feature	CDS	2694	3371	.	-	0	ID=FNED7-bin-5.genome.CDS.2367;Product=Pyridoxamine 5%27-phosphate oxidase %28EC 1.4.3.5%29
+FNED7-bin-5-scaffold_887	feature	CDS	1563	2684	.	-	0	ID=FNED7-bin-5.genome.CDS.2366;Product=Phosphoserine aminotransferase %28EC 2.6.1.52%29
+FNED7-bin-5-scaffold_887	feature	CDS	260	1513	.	+	0	ID=FNED7-bin-5.genome.CDS.2365;Product=
+FNED7-bin-5-scaffold_887	feature	CDS	18	206	.	-	0	ID=FNED7-bin-5.genome.CDS.2364;Product=
+FNED7-bin-5-scaffold_8968	feature	CDS	3141	3929	.	+	0	ID=FNED7-bin-5.genome.CDS.1367;Product=ATP synthase F0 sector subunit a %28EC 3.6.3.14%29
+FNED7-bin-5-scaffold_8968	feature	CDS	2835	3026	.	+	0	ID=FNED7-bin-5.genome.CDS.1366;Product=ATP synthase protein I
+FNED7-bin-5-scaffold_8968	feature	CDS	2384	2830	.	+	0	ID=FNED7-bin-5.genome.CDS.1365;Product=hypothetical protein
+FNED7-bin-5-scaffold_8968	feature	CDS	1276	2391	.	+	0	ID=FNED7-bin-5.genome.CDS.1364;Product=Undecaprenyl-phosphate N-acetylglucosaminyl 1-phosphate transferase %28EC 2.7.8.-%29
+FNED7-bin-5-scaffold_8968	feature	CDS	1	1251	.	+	0	ID=FNED7-bin-5.genome.CDS.1363;Product=Serine hydroxymethyltransferase %28EC 2.1.2.1%29
+FNED7-bin-5-scaffold_90	feature	CDS	1819	3573	.	-	0	ID=FNED7-bin-5.genome.CDS.1215;Product=Aldehyde dehydrogenase %28EC 1.2.1.3%29
+FNED7-bin-5-scaffold_90	feature	CDS	3	1688	.	-	0	ID=FNED7-bin-5.genome.CDS.1214;Product=
+FNED7-bin-5-scaffold_9208	feature	CDS	2211	2693	.	+	0	ID=FNED7-bin-5.genome.CDS.1362;Product=NADH-ubiquinone oxidoreductase chain L %28EC 1.6.5.3%29
+FNED7-bin-5-scaffold_9208	feature	CDS	1912	2211	.	+	0	ID=FNED7-bin-5.genome.CDS.1361;Product=NADH-ubiquinone oxidoreductase chain K %28EC 1.6.5.3%29
+FNED7-bin-5-scaffold_9208	feature	CDS	1129	1911	.	+	0	ID=FNED7-bin-5.genome.CDS.1360;Product=NADH-ubiquinone oxidoreductase chain J %28EC 1.6.5.3%29
+FNED7-bin-5-scaffold_9208	feature	CDS	584	1129	.	+	0	ID=FNED7-bin-5.genome.CDS.1359;Product=NADH-ubiquinone oxidoreductase chain I %28EC 1.6.5.3%29
+FNED7-bin-5-scaffold_9208	feature	CDS	1	591	.	+	0	ID=FNED7-bin-5.genome.CDS.1358;Product=NADH-ubiquinone oxidoreductase chain H %28EC 1.6.5.3%29
+FNED7-bin-5-scaffold_9523	feature	CDS	3432	4223	.	+	0	ID=FNED7-bin-5.genome.CDS.1357;Product=UDP-4-amino-4-deoxy-L-arabinose--oxoglutarate aminotransferase %28EC 2.6.1.87%29
+FNED7-bin-5-scaffold_9523	feature	CDS	2833	3435	.	+	0	ID=FNED7-bin-5.genome.CDS.1356;Product=N-acetylglucosamine-1-phosphate uridyltransferase %28EC 2.7.7.23%29 / Glucosamine-1-phosphate N-acetyltransferase %28EC 2.3.1.157%29
+FNED7-bin-5-scaffold_9523	feature	CDS	1695	2810	.	+	0	ID=FNED7-bin-5.genome.CDS.1355;Product=probable glycosyltransferase WbpH
+FNED7-bin-5-scaffold_9523	feature	CDS	903	1682	.	+	0	ID=FNED7-bin-5.genome.CDS.161;Product=Teichoic acid export ATP-binding protein TagH %28EC 3.6.3.40%29
+FNED7-bin-5-scaffold_9523	feature	CDS	2	889	.	+	0	ID=FNED7-bin-5.genome.CDS.1353;Product=
+FNED7-bin-5-scaffold_964	feature	misc_RNA	4059	4227	.	+	.	ID=FNED7-bin-5.genome.repeat.6;Product=repeat region
+FNED7-bin-5-scaffold_964	feature	CDS	4078	4227	.	-	0	ID=FNED7-bin-5.genome.CDS.1516;Product=GMP synthase %5Bglutamine-hydrolyzing%5D %28EC 6.3.5.2%29
+FNED7-bin-5-scaffold_964	feature	CDS	3416	4075	.	-	0	ID=FNED7-bin-5.genome.CDS.1515;Product=
+FNED7-bin-5-scaffold_964	feature	CDS	2690	3415	.	+	0	ID=FNED7-bin-5.genome.CDS.1514;Product=hypothetical protein
+FNED7-bin-5-scaffold_964	feature	CDS	396	2633	.	-	0	ID=FNED7-bin-5.genome.CDS.1513;Product=ATP-dependent DNA helicase UvrD/PcrA
+FNED7-bin-5-scaffold_964	feature	CDS	1	327	.	-	0	ID=FNED7-bin-5.genome.CDS.1512;Product=Succinyl-CoA ligase %5BADP-forming%5D beta chain %28EC 6.2.1.5%29
+FNED7-bin-5-scaffold_10743	feature	misc_RNA	1	451	.	+	.	ID=FNED7-bin-5.genome.repeat.18;Product=repeat region
+FNED7-bin-5-scaffold_10743	feature	CDS	4922	5593	.	+	0	ID=FNED7-bin-5.genome.CDS.2431;Product=
+FNED7-bin-5-scaffold_10743	feature	CDS	4617	4889	.	+	0	ID=FNED7-bin-5.genome.CDS.2430;Product=Sporulation regulatory protein WhiB
+FNED7-bin-5-scaffold_10743	feature	CDS	3639	4475	.	+	0	ID=FNED7-bin-5.genome.CDS.2429;Product=D-glycero-D-manno-heptose 1-phosphate guanosyltransferase
+FNED7-bin-5-scaffold_10743	feature	CDS	3185	3670	.	+	0	ID=FNED7-bin-5.genome.CDS.2428;Product=
+FNED7-bin-5-scaffold_10743	feature	CDS	2321	3175	.	+	0	ID=FNED7-bin-5.genome.CDS.2427;Product=N-succinyl-L%2CL-diaminopimelate aminotransferase %28EC 2.6.1.17%29%2C type 2
+FNED7-bin-5-scaffold_10743	feature	CDS	1781	2104	.	+	0	ID=FNED7-bin-5.genome.CDS.2426;Product=Ferredoxin
+FNED7-bin-5-scaffold_10743	feature	CDS	1424	1660	.	-	0	ID=FNED7-bin-5.genome.CDS.2425;Product=
+FNED7-bin-5-scaffold_10743	feature	CDS	2	1366	.	-	0	ID=FNED7-bin-5.genome.CDS.2424;Product=Cysteinyl-tRNA synthetase %28EC 6.1.1.16%29

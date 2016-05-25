@@ -1,0 +1,1491 @@
+##gff-version 3
+FNEB6-bin-3-scaffold_101	feature	CDS	3876	4232	.	-	0	ID=FNEB6-bin-3.genome.CDS.2503;Product=Inner membrane protein translocase component YidC%2C long form
+FNEB6-bin-3-scaffold_101	feature	CDS	3312	3812	.	-	0	ID=FNEB6-bin-3.genome.CDS.2502;Product=RNA-binding protein Jag
+FNEB6-bin-3-scaffold_101	feature	CDS	2688	3302	.	-	0	ID=FNEB6-bin-3.genome.CDS.2501;Product=rRNA small subunit 7-methylguanosine %28m7G%29 methyltransferase GidB
+FNEB6-bin-3-scaffold_101	feature	CDS	2567	2698	.	-	0	ID=FNEB6-bin-3.genome.CDS.1104;Product=
+FNEB6-bin-3-scaffold_101	feature	CDS	1691	2548	.	-	0	ID=FNEB6-bin-3.genome.CDS.2500;Product=Chromosome %28plasmid%29 partitioning protein ParA
+FNEB6-bin-3-scaffold_101	feature	CDS	819	1691	.	-	0	ID=FNEB6-bin-3.genome.CDS.2499;Product=Chromosome %28plasmid%29 partitioning protein ParB
+FNEB6-bin-3-scaffold_101	feature	CDS	3	818	.	+	0	ID=FNEB6-bin-3.genome.CDS.2498;Product=Aspartate aminotransferase %28AspB-4%29 %28EC 2.6.1.1%29
+FNEB6-bin-3-scaffold_1014	feature	CDS	4366	4488	.	-	0	ID=FNEB6-bin-3.genome.CDS.1488;Product=Glucosamine--fructose-6-phosphate aminotransferase %5Bisomerizing%5D %28EC 2.6.1.16%29
+FNEB6-bin-3-scaffold_1014	feature	CDS	3695	4366	.	-	0	ID=FNEB6-bin-3.genome.CDS.1487;Product=
+FNEB6-bin-3-scaffold_1014	feature	CDS	3429	3698	.	-	0	ID=FNEB6-bin-3.genome.CDS.1486;Product=Holo-%5Bacyl-carrier protein%5D synthase %28EC 2.7.8.7%29
+FNEB6-bin-3-scaffold_1014	feature	CDS	3005	3349	.	-	0	ID=FNEB6-bin-3.genome.CDS.1485;Product=Holo-%5Bacyl-carrier protein%5D synthase %28EC 2.7.8.7%29
+FNEB6-bin-3-scaffold_1014	feature	CDS	1902	3002	.	-	0	ID=FNEB6-bin-3.genome.CDS.1484;Product=Alanine racemase %28EC 5.1.1.1%29
+FNEB6-bin-3-scaffold_1014	feature	CDS	1486	1905	.	-	0	ID=FNEB6-bin-3.genome.CDS.1483;Product=TsaE protein%2C required for threonylcarbamoyladenosine t%286%29A37 formation in tRNA
+FNEB6-bin-3-scaffold_1014	feature	CDS	506	1489	.	-	0	ID=FNEB6-bin-3.genome.CDS.1482;Product=TsaB protein%2C required for threonylcarbamoyladenosine %28t%286%29A%29 formation in tRNA
+FNEB6-bin-3-scaffold_1014	feature	CDS	3	509	.	-	0	ID=FNEB6-bin-3.genome.CDS.1481;Product=Kinase-Associated Endopeptidase %28Kae1%29%2C required for threonylcarbamoyladenosine t%286%29A37 formation in tRNA
+FNEB6-bin-3-scaffold_102	feature	CDS	11102	12325	.	-	0	ID=FNEB6-bin-3.genome.CDS.1532;Product=hypothetical protein
+FNEB6-bin-3-scaffold_102	feature	CDS	8543	11116	.	+	0	ID=FNEB6-bin-3.genome.CDS.1531;Product=DNA polymerase I %28EC 2.7.7.7%29
+FNEB6-bin-3-scaffold_102	feature	CDS	8087	8494	.	-	0	ID=FNEB6-bin-3.genome.CDS.1530;Product=ComA operon protein 2
+FNEB6-bin-3-scaffold_102	feature	CDS	7362	8090	.	+	0	ID=FNEB6-bin-3.genome.CDS.1529;Product=Branched-chain amino acid transport ATP-binding protein LivF %28TC 3.A.1.4.1%29
+FNEB6-bin-3-scaffold_102	feature	CDS	6596	7372	.	+	0	ID=FNEB6-bin-3.genome.CDS.1528;Product=Branched-chain amino acid transport ATP-binding protein LivG %28TC 3.A.1.4.1%29
+FNEB6-bin-3-scaffold_102	feature	CDS	5566	6603	.	+	0	ID=FNEB6-bin-3.genome.CDS.1527;Product=Branched-chain amino acid transport system permease protein LivM %28TC 3.A.1.4.1%29
+FNEB6-bin-3-scaffold_102	feature	CDS	4613	5566	.	+	0	ID=FNEB6-bin-3.genome.CDS.1526;Product=High-affinity branched-chain amino acid transport system permease protein LivH %28TC 3.A.1.4.1%29
+FNEB6-bin-3-scaffold_102	feature	CDS	3280	4440	.	+	0	ID=FNEB6-bin-3.genome.CDS.1525;Product=Branched-chain amino acid ABC transporter%2C amino acid-binding protein %28TC 3.A.1.4.1%29
+FNEB6-bin-3-scaffold_102	feature	CDS	3125	3214	.	-	0	ID=FNEB6-bin-3.genome.CDS.1524;Product=
+FNEB6-bin-3-scaffold_102	feature	CDS	2510	3118	.	+	0	ID=FNEB6-bin-3.genome.CDS.1523;Product=Response regulator NasT
+FNEB6-bin-3-scaffold_102	feature	tRNA	2433	2505	.	+	.	ID=FNEB6-bin-3.genome.rna.5;Product=tRNA-Leu-CAA
+FNEB6-bin-3-scaffold_102	feature	CDS	827	2347	.	+	0	ID=FNEB6-bin-3.genome.CDS.1522;Product=Pyruvate kinase %28EC 2.7.1.40%29
+FNEB6-bin-3-scaffold_102	feature	CDS	1	765	.	+	0	ID=FNEB6-bin-3.genome.CDS.1521;Product=Glutamate synthase %5BNADPH%5D small chain %28EC 1.4.1.13%29
+FNEB6-bin-3-scaffold_1025	feature	CDS	7291	7467	.	+	0	ID=FNEB6-bin-3.genome.CDS.2522;Product=
+FNEB6-bin-3-scaffold_1025	feature	CDS	6728	7294	.	+	0	ID=FNEB6-bin-3.genome.CDS.2521;Product=Peptidyl-tRNA hydrolase %28EC 3.1.1.29%29
+FNEB6-bin-3-scaffold_1025	feature	CDS	6554	6718	.	+	0	ID=FNEB6-bin-3.genome.CDS.2520;Product=
+FNEB6-bin-3-scaffold_1025	feature	CDS	6003	6557	.	+	0	ID=FNEB6-bin-3.genome.CDS.2519;Product=LSU ribosomal protein L25p
+FNEB6-bin-3-scaffold_1025	feature	CDS	4869	5849	.	+	0	ID=FNEB6-bin-3.genome.CDS.2518;Product=Ribose-phosphate pyrophosphokinase %28EC 2.7.6.1%29
+FNEB6-bin-3-scaffold_1025	feature	CDS	4653	4865	.	+	0	ID=FNEB6-bin-3.genome.CDS.2517;Product=N-acetylglucosamine-1-phosphate uridyltransferase %28EC 2.7.7.23%29 / Glucosamine-1-phosphate N-acetyltransferase %28EC 2.3.1.157%29
+FNEB6-bin-3-scaffold_1025	feature	CDS	3370	4587	.	+	0	ID=FNEB6-bin-3.genome.CDS.2516;Product=N-acetylglucosamine-1-phosphate uridyltransferase %28EC 2.7.7.23%29 / Glucosamine-1-phosphate N-acetyltransferase %28EC 2.3.1.157%29
+FNEB6-bin-3-scaffold_1025	feature	tRNA	3267	3341	.	+	.	ID=FNEB6-bin-3.genome.rna.22;Product=tRNA-Gln-TTG
+FNEB6-bin-3-scaffold_1025	feature	CDS	2282	3202	.	+	0	ID=FNEB6-bin-3.genome.CDS.2515;Product=4-diphosphocytidyl-2-C-methyl-D-erythritol kinase %28EC 2.7.1.148%29
+FNEB6-bin-3-scaffold_1025	feature	CDS	1452	2285	.	+	0	ID=FNEB6-bin-3.genome.CDS.2514;Product=SSU rRNA %28adenine%281518%29-N%286%29/adenine%281519%29-N%286%29%29-dimethyltransferase %28EC 2.1.1.182%29
+FNEB6-bin-3-scaffold_1025	feature	CDS	595	1452	.	+	0	ID=FNEB6-bin-3.genome.CDS.2513;Product=Putative deoxyribonuclease YcfH
+FNEB6-bin-3-scaffold_1025	feature	CDS	1	594	.	+	0	ID=FNEB6-bin-3.genome.CDS.2512;Product=Methionyl-tRNA synthetase %28EC 6.1.1.10%29
+FNEB6-bin-3-scaffold_10309	feature	misc_RNA	1	828	.	+	.	ID=FNEB6-bin-3.genome.repeat.7;Product=repeat region
+FNEB6-bin-3-scaffold_10309	feature	CDS	2205	2930	.	-	0	ID=FNEB6-bin-3.genome.CDS.1864;Product=Thymidine kinase %28EC 2.7.1.21%29
+FNEB6-bin-3-scaffold_10309	feature	CDS	1139	2179	.	-	0	ID=FNEB6-bin-3.genome.CDS.1863;Product=Alcohol dehydrogenase %28EC 1.1.1.1%29
+FNEB6-bin-3-scaffold_10309	feature	CDS	392	1126	.	+	0	ID=FNEB6-bin-3.genome.CDS.1862;Product=hypothetical protein
+FNEB6-bin-3-scaffold_10309	feature	CDS	3	392	.	+	0	ID=FNEB6-bin-3.genome.CDS.1861;Product=
+FNEB6-bin-3-scaffold_1043	feature	misc_RNA	3369	3513	.	+	.	ID=FNEB6-bin-3.genome.repeat.8;Product=repeat region
+FNEB6-bin-3-scaffold_1043	feature	tRNA	3434	3509	.	+	.	ID=FNEB6-bin-3.genome.rna.7;Product=tRNA-Thr-GGT
+FNEB6-bin-3-scaffold_1043	feature	CDS	2075	3388	.	-	0	ID=FNEB6-bin-3.genome.CDS.1710;Product=hypothetical protein
+FNEB6-bin-3-scaffold_1043	feature	CDS	1417	2058	.	-	0	ID=FNEB6-bin-3.genome.CDS.1709;Product=
+FNEB6-bin-3-scaffold_1043	feature	CDS	737	1420	.	-	0	ID=FNEB6-bin-3.genome.CDS.1708;Product=hypothetical protein
+FNEB6-bin-3-scaffold_1043	feature	CDS	281	712	.	-	0	ID=FNEB6-bin-3.genome.CDS.1707;Product=Peptide methionine sulfoxide reductase MsrB %28EC 1.8.4.12%29
+FNEB6-bin-3-scaffold_1043	feature	CDS	2	280	.	+	0	ID=FNEB6-bin-3.genome.CDS.1706;Product=
+FNEB6-bin-3-scaffold_1059	feature	CDS	14469	14741	.	-	0	ID=FNEB6-bin-3.genome.CDS.2594;Product=
+FNEB6-bin-3-scaffold_1059	feature	CDS	13006	14466	.	+	0	ID=FNEB6-bin-3.genome.CDS.2593;Product=sensor histidine kinase
+FNEB6-bin-3-scaffold_1059	feature	CDS	12226	12987	.	+	0	ID=FNEB6-bin-3.genome.CDS.2592;Product=DNA-binding response regulator
+FNEB6-bin-3-scaffold_1059	feature	CDS	11751	12008	.	+	0	ID=FNEB6-bin-3.genome.CDS.2590;Product=Cell division protein CrgA
+FNEB6-bin-3-scaffold_1059	feature	CDS	11088	11714	.	-	0	ID=FNEB6-bin-3.genome.CDS.2589;Product=Anthranilate synthase%2C amidotransferase component %28EC 4.1.3.27%29 %40 Para-aminobenzoate synthase%2C amidotransferase component %28EC 2.6.1.85%29
+FNEB6-bin-3-scaffold_1059	feature	CDS	10850	11098	.	+	0	ID=FNEB6-bin-3.genome.CDS.2588;Product=
+FNEB6-bin-3-scaffold_1059	feature	CDS	9474	10823	.	+	0	ID=FNEB6-bin-3.genome.CDS.2587;Product=Serine/threonine protein kinase PrkC%2C regulator of stationary phase
+FNEB6-bin-3-scaffold_1059	feature	CDS	8680	9477	.	+	0	ID=FNEB6-bin-3.genome.CDS.2586;Product=Protein serine/threonine phosphatase PrpC%2C regulation of stationary phase
+FNEB6-bin-3-scaffold_1059	feature	CDS	7956	8651	.	-	0	ID=FNEB6-bin-3.genome.CDS.2585;Product=Prephenate dehydratase %28EC 4.2.1.51%29
+FNEB6-bin-3-scaffold_1059	feature	CDS	7585	7923	.	-	0	ID=FNEB6-bin-3.genome.CDS.2584;Product=Prephenate dehydratase %28EC 4.2.1.51%29
+FNEB6-bin-3-scaffold_1059	feature	CDS	6313	7575	.	-	0	ID=FNEB6-bin-3.genome.CDS.2583;Product=Seryl-tRNA synthetase %28EC 6.1.1.11%29
+FNEB6-bin-3-scaffold_1059	feature	CDS	5504	6163	.	-	0	ID=FNEB6-bin-3.genome.CDS.2582;Product=HMP-PP hydrolase %28pyridoxal phosphatase%29 Cof%2C detected in genetic screen for thiamin metabolic genes %28PMID:15292217%29
+FNEB6-bin-3-scaffold_1059	feature	tRNA	5368	5453	.	-	.	ID=FNEB6-bin-3.genome.rna.26;Product=tRNA-Ser-TGA
+FNEB6-bin-3-scaffold_1059	feature	CDS	5084	5272	.	-	0	ID=FNEB6-bin-3.genome.CDS.2581;Product=
+FNEB6-bin-3-scaffold_1059	feature	CDS	4199	5020	.	-	0	ID=FNEB6-bin-3.genome.CDS.2580;Product=putative succinate dehydrogenase %5Bmembrane anchor subunit%5D %28succinic dehydrogenase%29
+FNEB6-bin-3-scaffold_1059	feature	CDS	3273	4184	.	-	0	ID=FNEB6-bin-3.genome.CDS.2579;Product=Succinate dehydrogenase flavoprotein subunit %28EC 1.3.99.1%29
+FNEB6-bin-3-scaffold_1059	feature	CDS	2005	3162	.	-	0	ID=FNEB6-bin-3.genome.CDS.2578;Product=Succinate dehydrogenase flavoprotein subunit %28EC 1.3.99.1%29
+FNEB6-bin-3-scaffold_1059	feature	CDS	1499	2005	.	-	0	ID=FNEB6-bin-3.genome.CDS.2577;Product=Succinate dehydrogenase iron-sulfur protein %28EC 1.3.99.1%29
+FNEB6-bin-3-scaffold_1059	feature	CDS	1144	1527	.	-	0	ID=FNEB6-bin-3.genome.CDS.2576;Product=Succinate dehydrogenase iron-sulfur protein %28EC 1.3.99.1%29
+FNEB6-bin-3-scaffold_1059	feature	CDS	788	1141	.	-	0	ID=FNEB6-bin-3.genome.CDS.2575;Product=
+FNEB6-bin-3-scaffold_1059	feature	CDS	375	773	.	-	0	ID=FNEB6-bin-3.genome.CDS.2574;Product=CrcB protein
+FNEB6-bin-3-scaffold_1059	feature	CDS	40	378	.	-	0	ID=FNEB6-bin-3.genome.CDS.2573;Product=
+FNEB6-bin-3-scaffold_1153	feature	CDS	7995	8120	.	-	0	ID=FNEB6-bin-3.genome.CDS.2101;Product=
+FNEB6-bin-3-scaffold_1153	feature	CDS	7731	7985	.	+	0	ID=FNEB6-bin-3.genome.CDS.2100;Product=hypothetical protein
+FNEB6-bin-3-scaffold_1153	feature	CDS	6300	7682	.	+	0	ID=FNEB6-bin-3.genome.CDS.720;Product=Putative nucleoside-diphosphate-sugar epimerase
+FNEB6-bin-3-scaffold_1153	feature	CDS	4919	6244	.	-	0	ID=FNEB6-bin-3.genome.CDS.2098;Product=NADH dehydrogenase %28EC 1.6.99.3%29
+FNEB6-bin-3-scaffold_1153	feature	CDS	3978	4556	.	-	0	ID=FNEB6-bin-3.genome.CDS.2097;Product=
+FNEB6-bin-3-scaffold_1153	feature	CDS	3262	3981	.	+	0	ID=FNEB6-bin-3.genome.CDS.2096;Product=NADH-ubiquinone oxidoreductase chain N %28EC 1.6.5.3%29
+FNEB6-bin-3-scaffold_1153	feature	CDS	2378	3253	.	+	0	ID=FNEB6-bin-3.genome.CDS.2095;Product=NADH-ubiquinone oxidoreductase chain N %28EC 1.6.5.3%29
+FNEB6-bin-3-scaffold_1153	feature	CDS	873	2378	.	+	0	ID=FNEB6-bin-3.genome.CDS.2094;Product=NADH-ubiquinone oxidoreductase chain M %28EC 1.6.5.3%29
+FNEB6-bin-3-scaffold_1153	feature	CDS	1	876	.	+	0	ID=FNEB6-bin-3.genome.CDS.2093;Product=NADH-ubiquinone oxidoreductase chain L %28EC 1.6.5.3%29
+FNEB6-bin-3-scaffold_11706	feature	CDS	3638	4624	.	+	0	ID=FNEB6-bin-3.genome.CDS.2458;Product=hypothetical protein
+FNEB6-bin-3-scaffold_11706	feature	CDS	3304	3555	.	+	0	ID=FNEB6-bin-3.genome.CDS.2457;Product=
+FNEB6-bin-3-scaffold_11706	feature	CDS	2004	3221	.	+	0	ID=FNEB6-bin-3.genome.CDS.2456;Product=
+FNEB6-bin-3-scaffold_11706	feature	CDS	1618	2004	.	+	0	ID=FNEB6-bin-3.genome.CDS.2455;Product=hypothetical protein
+FNEB6-bin-3-scaffold_11706	feature	CDS	865	1608	.	+	0	ID=FNEB6-bin-3.genome.CDS.2454;Product=hypothetical protein
+FNEB6-bin-3-scaffold_11706	feature	CDS	1	834	.	-	0	ID=FNEB6-bin-3.genome.CDS.2453;Product=Cell envelope-associated transcriptional attenuator LytR-CpsA-Psr%2C subfamily A1 %28as in PMID19099556%29
+FNEB6-bin-3-scaffold_12675	feature	CDS	4178	4330	.	-	0	ID=FNEB6-bin-3.genome.CDS.42;Product=Thioredoxin reductase %28EC 1.8.1.9%29
+FNEB6-bin-3-scaffold_12675	feature	CDS	3817	4140	.	-	0	ID=FNEB6-bin-3.genome.CDS.1380;Product=Thioredoxin
+FNEB6-bin-3-scaffold_12675	feature	CDS	2711	3796	.	-	0	ID=FNEB6-bin-3.genome.CDS.1379;Product=N-acetylmuramoyl-L-alanine amidase %28EC 3.5.1.28%29
+FNEB6-bin-3-scaffold_12675	feature	CDS	1392	2672	.	-	0	ID=FNEB6-bin-3.genome.CDS.1378;Product=Aspartate aminotransferase %28AspB-4%29 %28EC 2.6.1.1%29
+FNEB6-bin-3-scaffold_12675	feature	CDS	519	1391	.	+	0	ID=FNEB6-bin-3.genome.CDS.1377;Product=Chromosome %28plasmid%29 partitioning protein ParB
+FNEB6-bin-3-scaffold_12675	feature	CDS	1	519	.	+	0	ID=FNEB6-bin-3.genome.CDS.1376;Product=Chromosome %28plasmid%29 partitioning protein ParA
+FNEB6-bin-3-scaffold_12824	feature	CDS	3459	3734	.	+	0	ID=FNEB6-bin-3.genome.CDS.2230;Product=
+FNEB6-bin-3-scaffold_12824	feature	CDS	2397	3458	.	+	0	ID=FNEB6-bin-3.genome.CDS.2229;Product=hypothetical protein
+FNEB6-bin-3-scaffold_12824	feature	CDS	1336	2355	.	+	0	ID=FNEB6-bin-3.genome.CDS.2228;Product=
+FNEB6-bin-3-scaffold_12824	feature	CDS	519	1307	.	-	0	ID=FNEB6-bin-3.genome.CDS.2227;Product=hypothetical protein
+FNEB6-bin-3-scaffold_12824	feature	CDS	1	516	.	+	0	ID=FNEB6-bin-3.genome.CDS.2226;Product=
+FNEB6-bin-3-scaffold_1383	feature	misc_RNA	1	514	.	+	.	ID=FNEB6-bin-3.genome.repeat.17;Product=repeat region
+FNEB6-bin-3-scaffold_1383	feature	CDS	25259	26173	.	+	0	ID=FNEB6-bin-3.genome.CDS.1802;Product=
+FNEB6-bin-3-scaffold_1383	feature	CDS	24083	24847	.	+	0	ID=FNEB6-bin-3.genome.CDS.1800;Product=hypothetical protein
+FNEB6-bin-3-scaffold_1383	feature	CDS	23543	24055	.	-	0	ID=FNEB6-bin-3.genome.CDS.1799;Product=
+FNEB6-bin-3-scaffold_1383	feature	CDS	22957	23514	.	-	0	ID=FNEB6-bin-3.genome.CDS.1798;Product=Uncharacterized protein Q1 colocalized with Q
+FNEB6-bin-3-scaffold_1383	feature	CDS	21679	22947	.	-	0	ID=FNEB6-bin-3.genome.CDS.1797;Product=Ribonuclease D %28EC 3.1.26.3%29
+FNEB6-bin-3-scaffold_1383	feature	CDS	18935	20860	.	+	0	ID=FNEB6-bin-3.genome.CDS.1795;Product=1-deoxy-D-xylulose 5-phosphate synthase %28EC 2.2.1.7%29
+FNEB6-bin-3-scaffold_1383	feature	CDS	16210	18870	.	+	0	ID=FNEB6-bin-3.genome.CDS.1794;Product=Aconitate hydratase %28EC 4.2.1.3%29
+FNEB6-bin-3-scaffold_1383	feature	CDS	15891	16202	.	+	0	ID=FNEB6-bin-3.genome.CDS.1793;Product=
+FNEB6-bin-3-scaffold_1383	feature	CDS	14914	15882	.	+	0	ID=FNEB6-bin-3.genome.CDS.1792;Product=
+FNEB6-bin-3-scaffold_1383	feature	CDS	14210	14857	.	-	0	ID=FNEB6-bin-3.genome.CDS.1791;Product=Trk system potassium uptake protein TrkA
+FNEB6-bin-3-scaffold_1383	feature	CDS	13550	14209	.	-	0	ID=FNEB6-bin-3.genome.CDS.1790;Product=Trk system potassium uptake protein TrkA
+FNEB6-bin-3-scaffold_1383	feature	CDS	13253	13546	.	+	0	ID=FNEB6-bin-3.genome.CDS.1789;Product=
+FNEB6-bin-3-scaffold_1383	feature	CDS	12819	13268	.	+	0	ID=FNEB6-bin-3.genome.CDS.1788;Product=
+FNEB6-bin-3-scaffold_1383	feature	CDS	12367	12822	.	+	0	ID=FNEB6-bin-3.genome.CDS.1787;Product=Deoxyuridine 5%27-triphosphate nucleotidohydrolase %28EC 3.6.1.23%29
+FNEB6-bin-3-scaffold_1383	feature	CDS	11880	12338	.	-	0	ID=FNEB6-bin-3.genome.CDS.1786;Product=
+FNEB6-bin-3-scaffold_1383	feature	CDS	11576	11872	.	+	0	ID=FNEB6-bin-3.genome.CDS.1785;Product=FIG01121218: hypothetical protein
+FNEB6-bin-3-scaffold_1383	feature	CDS	10476	11441	.	+	0	ID=FNEB6-bin-3.genome.CDS.1784;Product=Probable acyl-ACP desaturase%2C Stearoyl-ACP desaturase %28EC 1.14.19.2%29
+FNEB6-bin-3-scaffold_1383	feature	CDS	9708	10448	.	+	0	ID=FNEB6-bin-3.genome.CDS.420;Product=tRNA %28Guanine37-N1%29 -methyltransferase %28EC 2.1.1.31%29
+FNEB6-bin-3-scaffold_1383	feature	CDS	9200	9715	.	+	0	ID=FNEB6-bin-3.genome.CDS.1782;Product=16S rRNA processing protein RimM
+FNEB6-bin-3-scaffold_1383	feature	CDS	8958	9197	.	+	0	ID=FNEB6-bin-3.genome.CDS.1781;Product=KH domain RNA binding protein YlqC
+FNEB6-bin-3-scaffold_1383	feature	CDS	8632	8955	.	+	0	ID=FNEB6-bin-3.genome.CDS.1780;Product=SSU ribosomal protein S16p
+FNEB6-bin-3-scaffold_1383	feature	CDS	8289	8678	.	+	0	ID=FNEB6-bin-3.genome.CDS.1779;Product=SSU ribosomal protein S16p
+FNEB6-bin-3-scaffold_1383	feature	CDS	6432	8126	.	+	0	ID=FNEB6-bin-3.genome.CDS.1778;Product=Signal recognition particle%2C subunit Ffh SRP54 %28TC 3.A.5.1.1%29
+FNEB6-bin-3-scaffold_1383	feature	CDS	3915	6422	.	+	0	ID=FNEB6-bin-3.genome.CDS.1777;Product=%5BProtein-PII%5D uridylyltransferase %28EC 2.7.7.59%29
+FNEB6-bin-3-scaffold_1383	feature	CDS	3553	3891	.	+	0	ID=FNEB6-bin-3.genome.CDS.1776;Product=Nitrogen regulatory protein P-II
+FNEB6-bin-3-scaffold_1383	feature	CDS	2227	3543	.	+	0	ID=FNEB6-bin-3.genome.CDS.1775;Product=Ammonium transporter
+FNEB6-bin-3-scaffold_1383	feature	CDS	1258	2094	.	+	0	ID=FNEB6-bin-3.genome.CDS.1774;Product=Signal recognition particle receptor protein FtsY %28%3Dalpha subunit%29 %28TC 3.A.5.1.1%29
+FNEB6-bin-3-scaffold_1383	feature	CDS	1	1248	.	+	0	ID=FNEB6-bin-3.genome.CDS.1773;Product=Chromosome partition protein smc
+FNEB6-bin-3-scaffold_1393	feature	CDS	2499	2780	.	-	0	ID=FNEB6-bin-3.genome.CDS.2626;Product=Protein-N%285%29-glutamine methyltransferase PrmC%2C methylates polypeptide chain release factors RF1 and RF2
+FNEB6-bin-3-scaffold_1393	feature	CDS	1845	2495	.	-	0	ID=FNEB6-bin-3.genome.CDS.2625;Product=hypothetical protein
+FNEB6-bin-3-scaffold_1393	feature	CDS	1457	1837	.	-	0	ID=FNEB6-bin-3.genome.CDS.2624;Product=
+FNEB6-bin-3-scaffold_1393	feature	CDS	1254	1460	.	-	0	ID=FNEB6-bin-3.genome.CDS.2623;Product=
+FNEB6-bin-3-scaffold_1393	feature	CDS	136	1245	.	+	0	ID=FNEB6-bin-3.genome.CDS.2622;Product=Cyclopropane-fatty-acyl-phospholipid synthase %28EC 2.1.1.79%29
+FNEB6-bin-3-scaffold_14029	feature	CDS	13024	13320	.	-	0	ID=FNEB6-bin-3.genome.CDS.1989;Product=
+FNEB6-bin-3-scaffold_14029	feature	CDS	12766	12933	.	-	0	ID=FNEB6-bin-3.genome.CDS.1988;Product=
+FNEB6-bin-3-scaffold_14029	feature	CDS	12279	12641	.	-	0	ID=FNEB6-bin-3.genome.CDS.1987;Product=WhiB-family transcriptional regulator
+FNEB6-bin-3-scaffold_14029	feature	CDS	11239	12282	.	+	0	ID=FNEB6-bin-3.genome.CDS.620;Product=
+FNEB6-bin-3-scaffold_14029	feature	CDS	11003	11161	.	+	0	ID=FNEB6-bin-3.genome.CDS.1985;Product=hypothetical protein
+FNEB6-bin-3-scaffold_14029	feature	CDS	10196	10831	.	+	0	ID=FNEB6-bin-3.genome.CDS.1984;Product=
+FNEB6-bin-3-scaffold_14029	feature	CDS	9057	9989	.	+	0	ID=FNEB6-bin-3.genome.CDS.1983;Product=hypothetical protein
+FNEB6-bin-3-scaffold_14029	feature	CDS	5348	8239	.	-	0	ID=FNEB6-bin-3.genome.CDS.1982;Product=UPF0182 protein AF1421
+FNEB6-bin-3-scaffold_14029	feature	tRNA	5221	5297	.	-	.	ID=FNEB6-bin-3.genome.rna.10;Product=tRNA-Met-CAT
+FNEB6-bin-3-scaffold_14029	feature	CDS	4496	5221	.	-	0	ID=FNEB6-bin-3.genome.CDS.1981;Product=6-phosphogluconolactonase %28EC 3.1.1.31%29%2C eukaryotic type
+FNEB6-bin-3-scaffold_14029	feature	CDS	4119	4328	.	+	0	ID=FNEB6-bin-3.genome.CDS.612;Product=
+FNEB6-bin-3-scaffold_14029	feature	CDS	3559	4107	.	-	0	ID=FNEB6-bin-3.genome.CDS.1980;Product=6-phosphogluconate dehydrogenase%2C decarboxylating %28EC 1.1.1.44%29
+FNEB6-bin-3-scaffold_14029	feature	CDS	2177	3559	.	-	0	ID=FNEB6-bin-3.genome.CDS.1979;Product=Glucose-6-phosphate 1-dehydrogenase %28EC 1.1.1.49%29
+FNEB6-bin-3-scaffold_14029	feature	CDS	1699	2175	.	+	0	ID=FNEB6-bin-3.genome.CDS.1978;Product=
+FNEB6-bin-3-scaffold_14029	feature	CDS	767	1699	.	+	0	ID=FNEB6-bin-3.genome.CDS.1977;Product=Histidinol-phosphatase %5Balternative form%5D %28EC 3.1.3.15%29
+FNEB6-bin-3-scaffold_14029	feature	CDS	3	770	.	+	0	ID=FNEB6-bin-3.genome.CDS.1976;Product=Ribosome small subunit-stimulated GTPase EngC
+FNEB6-bin-3-scaffold_1420	feature	CDS	15038	15775	.	+	0	ID=FNEB6-bin-3.genome.CDS.2168;Product=Phosphoserine aminotransferase %28EC 2.6.1.52%29
+FNEB6-bin-3-scaffold_1420	feature	CDS	14282	15028	.	+	0	ID=FNEB6-bin-3.genome.CDS.2167;Product=Pyridoxamine 5%27-phosphate oxidase %28EC 1.4.3.5%29
+FNEB6-bin-3-scaffold_1420	feature	CDS	13145	14260	.	-	0	ID=FNEB6-bin-3.genome.CDS.2166;Product=Citrate synthase %28si%29 %28EC 2.3.3.1%29
+FNEB6-bin-3-scaffold_1420	feature	CDS	11781	13121	.	-	0	ID=FNEB6-bin-3.genome.CDS.2165;Product=Deoxyribodipyrimidine photolyase %28EC 4.1.99.3%29
+FNEB6-bin-3-scaffold_1420	feature	CDS	10384	11784	.	+	0	ID=FNEB6-bin-3.genome.CDS.2164;Product=diguanylate cyclase/phosphodiesterase %28GGDEF %26 EAL domains%29 with PAS/PAC sensor%28s%29
+FNEB6-bin-3-scaffold_1420	feature	CDS	9921	10355	.	-	0	ID=FNEB6-bin-3.genome.CDS.2163;Product=hypothetical protein
+FNEB6-bin-3-scaffold_1420	feature	tRNA	9836	9908	.	-	.	ID=FNEB6-bin-3.genome.rna.12;Product=tRNA-Arg-CCT
+FNEB6-bin-3-scaffold_1420	feature	CDS	8914	9825	.	+	0	ID=FNEB6-bin-3.genome.CDS.2162;Product=Formyltetrahydrofolate deformylase %28EC 3.5.1.10%29
+FNEB6-bin-3-scaffold_1420	feature	CDS	8709	8828	.	-	0	ID=FNEB6-bin-3.genome.CDS.2161;Product=
+FNEB6-bin-3-scaffold_1420	feature	CDS	8453	8701	.	+	0	ID=FNEB6-bin-3.genome.CDS.2160;Product=Type I antifreeze protein
+FNEB6-bin-3-scaffold_1420	feature	CDS	7792	8391	.	-	0	ID=FNEB6-bin-3.genome.CDS.2159;Product=hypothetical protein
+FNEB6-bin-3-scaffold_1420	feature	CDS	5876	7786	.	-	0	ID=FNEB6-bin-3.genome.CDS.2158;Product=Copper resistance protein D
+FNEB6-bin-3-scaffold_1420	feature	CDS	5328	5879	.	+	0	ID=FNEB6-bin-3.genome.CDS.2157;Product=5-formyltetrahydrofolate cyclo-ligase %28EC 6.3.3.2%29
+FNEB6-bin-3-scaffold_1420	feature	CDS	4362	5294	.	-	0	ID=FNEB6-bin-3.genome.CDS.2156;Product=Molybdopterin biosynthesis protein MoeA
+FNEB6-bin-3-scaffold_1420	feature	CDS	3759	4337	.	-	0	ID=FNEB6-bin-3.genome.CDS.2155;Product=Ribosomal-protein-S5p-alanine acetyltransferase
+FNEB6-bin-3-scaffold_1420	feature	CDS	2954	3703	.	-	0	ID=FNEB6-bin-3.genome.CDS.2154;Product=
+FNEB6-bin-3-scaffold_1420	feature	CDS	1646	2953	.	+	0	ID=FNEB6-bin-3.genome.CDS.2153;Product=CONSERVED MEMBRANE PROTEIN
+FNEB6-bin-3-scaffold_1420	feature	CDS	771	1613	.	-	0	ID=FNEB6-bin-3.genome.CDS.2152;Product=rRNA small subunit methyltransferase I
+FNEB6-bin-3-scaffold_1420	feature	CDS	1	768	.	-	0	ID=FNEB6-bin-3.genome.CDS.2151;Product=Methionyl-tRNA synthetase %28EC 6.1.1.10%29
+FNEB6-bin-3-scaffold_1440	feature	CDS	28083	30872	.	-	0	ID=FNEB6-bin-3.genome.CDS.2379;Product=Isoleucyl-tRNA synthetase %28EC 6.1.1.5%29
+FNEB6-bin-3-scaffold_1440	feature	CDS	27403	27687	.	+	0	ID=FNEB6-bin-3.genome.CDS.2377;Product=FIG021764: Possible membrane protein
+FNEB6-bin-3-scaffold_1440	feature	CDS	26919	27380	.	+	0	ID=FNEB6-bin-3.genome.CDS.2376;Product=FIG021292: hypothetical protein
+FNEB6-bin-3-scaffold_1440	feature	CDS	26261	26908	.	+	0	ID=FNEB6-bin-3.genome.CDS.2375;Product=Hypothetical protein YggS%2C proline synthase co-transcribed bacterial homolog PROSC
+FNEB6-bin-3-scaffold_1440	feature	CDS	25638	26219	.	+	0	ID=FNEB6-bin-3.genome.CDS.2374;Product=
+FNEB6-bin-3-scaffold_1440	feature	CDS	24438	25592	.	+	0	ID=FNEB6-bin-3.genome.CDS.2373;Product=Cell division protein FtsZ %28EC 3.4.24.-%29
+FNEB6-bin-3-scaffold_1440	feature	CDS	23666	24292	.	+	0	ID=FNEB6-bin-3.genome.CDS.2372;Product=
+FNEB6-bin-3-scaffold_1440	feature	CDS	21931	23592	.	+	0	ID=FNEB6-bin-3.genome.CDS.2371;Product=UDP-N-acetylmuramate--alanine ligase %28EC 6.3.2.8%29
+FNEB6-bin-3-scaffold_1440	feature	CDS	20849	21934	.	+	0	ID=FNEB6-bin-3.genome.CDS.2370;Product=UDP-N-acetylglucosamine--N-acetylmuramyl-%28pentapeptide%29 pyrophosphoryl-undecaprenol N-acetylglucosamine transferase %28EC 2.4.1.227%29
+FNEB6-bin-3-scaffold_1440	feature	CDS	19502	20842	.	+	0	ID=FNEB6-bin-3.genome.CDS.2369;Product=Cell division protein FtsW
+FNEB6-bin-3-scaffold_1440	feature	CDS	18153	19505	.	+	0	ID=FNEB6-bin-3.genome.CDS.2368;Product=UDP-N-acetylmuramoylalanine--D-glutamate ligase %28EC 6.3.2.9%29
+FNEB6-bin-3-scaffold_1440	feature	CDS	17081	18151	.	+	0	ID=FNEB6-bin-3.genome.CDS.2367;Product=Phospho-N-acetylmuramoyl-pentapeptide-transferase %28EC 2.7.8.13%29
+FNEB6-bin-3-scaffold_1440	feature	CDS	15693	17084	.	+	0	ID=FNEB6-bin-3.genome.CDS.2366;Product=UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase %28EC 6.3.2.10%29
+FNEB6-bin-3-scaffold_1440	feature	CDS	14176	15696	.	+	0	ID=FNEB6-bin-3.genome.CDS.2365;Product=UDP-N-acetylmuramoylalanyl-D-glutamate--2%2C6-diaminopimelate ligase %28EC 6.3.2.13%29
+FNEB6-bin-3-scaffold_1440	feature	CDS	12353	14173	.	+	0	ID=FNEB6-bin-3.genome.CDS.2364;Product=Cell division protein FtsI %5BPeptidoglycan synthetase%5D %28EC 2.4.1.129%29
+FNEB6-bin-3-scaffold_1440	feature	CDS	11961	12356	.	+	0	ID=FNEB6-bin-3.genome.CDS.2363;Product=
+FNEB6-bin-3-scaffold_1440	feature	CDS	11341	11961	.	+	0	ID=FNEB6-bin-3.genome.CDS.2362;Product=rRNA small subunit methyltransferase H
+FNEB6-bin-3-scaffold_1440	feature	CDS	10914	11324	.	+	0	ID=FNEB6-bin-3.genome.CDS.2361;Product=rRNA small subunit methyltransferase H
+FNEB6-bin-3-scaffold_1440	feature	CDS	10310	10741	.	+	0	ID=FNEB6-bin-3.genome.CDS.2360;Product=Cell division protein MraZ
+FNEB6-bin-3-scaffold_1440	feature	CDS	9714	10076	.	+	0	ID=FNEB6-bin-3.genome.CDS.2359;Product=
+FNEB6-bin-3-scaffold_1440	feature	CDS	8478	9689	.	+	0	ID=FNEB6-bin-3.genome.CDS.2358;Product=DNA polymerase IV %28EC 2.7.7.7%29
+FNEB6-bin-3-scaffold_1440	feature	CDS	7375	8382	.	-	0	ID=FNEB6-bin-3.genome.CDS.2357;Product=hypothetical protein
+FNEB6-bin-3-scaffold_1440	feature	CDS	6701	7378	.	-	0	ID=FNEB6-bin-3.genome.CDS.2356;Product=Spheroidene monooxygenase
+FNEB6-bin-3-scaffold_1440	feature	CDS	5874	6686	.	-	0	ID=FNEB6-bin-3.genome.CDS.2355;Product=hypothetical protein
+FNEB6-bin-3-scaffold_1440	feature	CDS	4793	5872	.	-	0	ID=FNEB6-bin-3.genome.CDS.2354;Product=Glycosyl transferase%2C family 2
+FNEB6-bin-3-scaffold_1440	feature	CDS	3297	4823	.	-	0	ID=FNEB6-bin-3.genome.CDS.2353;Product=Phytoene dehydrogenase %28EC 1.14.99.-%29
+FNEB6-bin-3-scaffold_1440	feature	CDS	2688	3326	.	+	0	ID=FNEB6-bin-3.genome.CDS.2352;Product=
+FNEB6-bin-3-scaffold_1440	feature	CDS	1843	2691	.	+	0	ID=FNEB6-bin-3.genome.CDS.2351;Product=5%2C10-methylenetetrahydrofolate reductase %28EC 1.5.1.20%29
+FNEB6-bin-3-scaffold_1440	feature	CDS	751	1818	.	-	0	ID=FNEB6-bin-3.genome.CDS.2350;Product=Geranylgeranyl diphosphate synthase %28EC 2.5.1.29%29
+FNEB6-bin-3-scaffold_1440	feature	CDS	3	743	.	-	0	ID=FNEB6-bin-3.genome.CDS.2349;Product=Phytoene dehydrogenase %28EC 1.14.99.-%29
+FNEB6-bin-3-scaffold_15	feature	CDS	3082	3573	.	+	0	ID=FNEB6-bin-3.genome.CDS.1738;Product=
+FNEB6-bin-3-scaffold_15	feature	CDS	1912	3078	.	+	0	ID=FNEB6-bin-3.genome.CDS.1737;Product=tRNA dihydrouridine synthase B %28EC 1.-.-.-%29
+FNEB6-bin-3-scaffold_15	feature	CDS	1468	1905	.	+	0	ID=FNEB6-bin-3.genome.CDS.1736;Product=Glycyl-tRNA synthetase %28EC 6.1.1.14%29
+FNEB6-bin-3-scaffold_15	feature	CDS	279	1484	.	+	0	ID=FNEB6-bin-3.genome.CDS.1735;Product=Glycyl-tRNA synthetase %28EC 6.1.1.14%29
+FNEB6-bin-3-scaffold_15	feature	CDS	1	192	.	+	0	ID=FNEB6-bin-3.genome.CDS.1734;Product=
+FNEB6-bin-3-scaffold_15271	feature	misc_RNA	7062	7554	.	+	.	ID=FNEB6-bin-3.genome.repeat.4;Product=repeat region
+FNEB6-bin-3-scaffold_15271	feature	CDS	6617	7552	.	-	0	ID=FNEB6-bin-3.genome.CDS.1442;Product=ATP synthase beta chain %28EC 3.6.3.14%29
+FNEB6-bin-3-scaffold_15271	feature	CDS	6324	6614	.	-	0	ID=FNEB6-bin-3.genome.CDS.99;Product=ATP synthase epsilon chain %28EC 3.6.3.14%29
+FNEB6-bin-3-scaffold_15271	feature	CDS	6023	6280	.	-	0	ID=FNEB6-bin-3.genome.CDS.1441;Product=ATP synthase epsilon chain %28EC 3.6.3.14%29
+FNEB6-bin-3-scaffold_15271	feature	CDS	4764	6026	.	+	0	ID=FNEB6-bin-3.genome.CDS.1440;Product=UDP-N-acetylglucosamine 1-carboxyvinyltransferase %28EC 2.5.1.7%29
+FNEB6-bin-3-scaffold_15271	feature	CDS	4128	4703	.	-	0	ID=FNEB6-bin-3.genome.CDS.1439;Product=ATP:Cob%28I%29alamin adenosyltransferase %28EC 2.5.1.17%29
+FNEB6-bin-3-scaffold_15271	feature	CDS	3396	4121	.	+	0	ID=FNEB6-bin-3.genome.CDS.1438;Product=hypothetical protein
+FNEB6-bin-3-scaffold_15271	feature	CDS	2614	3396	.	+	0	ID=FNEB6-bin-3.genome.CDS.1437;Product=ABC-type multidrug transport system%2C permease component
+FNEB6-bin-3-scaffold_15271	feature	CDS	1766	2617	.	+	0	ID=FNEB6-bin-3.genome.CDS.1436;Product=ABC-type multidrug transport system%2C ATPase component
+FNEB6-bin-3-scaffold_15271	feature	CDS	1364	1675	.	-	0	ID=FNEB6-bin-3.genome.CDS.1435;Product=putative ATP/GTP-binding protein%2C doubtful CDS
+FNEB6-bin-3-scaffold_15271	feature	CDS	1	1353	.	+	0	ID=FNEB6-bin-3.genome.CDS.1434;Product=Aldehyde dehydrogenase %28EC 1.2.1.3%29
+FNEB6-bin-3-scaffold_15367	feature	CDS	7464	7673	.	+	0	ID=FNEB6-bin-3.genome.CDS.2053;Product=
+FNEB6-bin-3-scaffold_15367	feature	CDS	6863	7459	.	+	0	ID=FNEB6-bin-3.genome.CDS.2052;Product=hypothetical protein
+FNEB6-bin-3-scaffold_15367	feature	CDS	5420	6835	.	+	0	ID=FNEB6-bin-3.genome.CDS.2051;Product=Flavodoxin reductases %28ferredoxin-NADPH reductases%29 family 1
+FNEB6-bin-3-scaffold_15367	feature	CDS	4462	5223	.	-	0	ID=FNEB6-bin-3.genome.CDS.2050;Product=hypothetical protein
+FNEB6-bin-3-scaffold_15367	feature	CDS	4349	4465	.	-	0	ID=FNEB6-bin-3.genome.CDS.675;Product=
+FNEB6-bin-3-scaffold_15367	feature	CDS	2945	4294	.	-	0	ID=FNEB6-bin-3.genome.CDS.2049;Product=Various polyols ABC transporter%2C periplasmic substrate-binding protein
+FNEB6-bin-3-scaffold_15367	feature	CDS	2452	2817	.	-	0	ID=FNEB6-bin-3.genome.CDS.2048;Product=Various polyols ABC transporter%2C permease component 1
+FNEB6-bin-3-scaffold_15367	feature	CDS	1836	2459	.	-	0	ID=FNEB6-bin-3.genome.CDS.672;Product=Various polyols ABC transporter%2C permease component 1
+FNEB6-bin-3-scaffold_15367	feature	CDS	1009	1839	.	-	0	ID=FNEB6-bin-3.genome.CDS.2046;Product=Various polyols ABC transporter%2C permease component 2
+FNEB6-bin-3-scaffold_15367	feature	CDS	2	1009	.	-	0	ID=FNEB6-bin-3.genome.CDS.2045;Product=Multiple polyol-specific dehydrogenase %28EC 1.1.1.-%29
+FNEB6-bin-3-scaffold_1591	feature	CDS	4251	4979	.	-	0	ID=FNEB6-bin-3.genome.CDS.1480;Product=23S rRNA %28guanosine%282251%29-2%27-O%29-methyltransferase %28EC 2.1.1.185%29
+FNEB6-bin-3-scaffold_1591	feature	CDS	2061	4178	.	-	0	ID=FNEB6-bin-3.genome.CDS.1479;Product=Polyphosphate kinase %28EC 2.7.4.1%29
+FNEB6-bin-3-scaffold_1591	feature	CDS	1174	2064	.	-	0	ID=FNEB6-bin-3.genome.CDS.1478;Product=
+FNEB6-bin-3-scaffold_1591	feature	CDS	251	1177	.	+	0	ID=FNEB6-bin-3.genome.CDS.1477;Product=Exopolyphosphatase %28EC 3.6.1.11%29
+FNEB6-bin-3-scaffold_1591	feature	tRNA	96	170	.	-	.	ID=FNEB6-bin-3.genome.rna.4;Product=tRNA-Thr-TGT
+FNEB6-bin-3-scaffold_16293	feature	CDS	16022	16831	.	+	0	ID=FNEB6-bin-3.genome.CDS.1596;Product=Fructose ABC transporter%2C permease component FrcC
+FNEB6-bin-3-scaffold_16293	feature	CDS	15897	16025	.	+	0	ID=FNEB6-bin-3.genome.CDS.242;Product=
+FNEB6-bin-3-scaffold_16293	feature	CDS	15738	15851	.	+	0	ID=FNEB6-bin-3.genome.CDS.241;Product=
+FNEB6-bin-3-scaffold_16293	feature	CDS	14590	15729	.	+	0	ID=FNEB6-bin-3.genome.CDS.1594;Product=Fructose ABC transporter%2C substrate-binding component FrcB
+FNEB6-bin-3-scaffold_16293	feature	CDS	14079	14468	.	+	0	ID=FNEB6-bin-3.genome.CDS.1593;Product=
+FNEB6-bin-3-scaffold_16293	feature	CDS	13082	13963	.	-	0	ID=FNEB6-bin-3.genome.CDS.1592;Product=putative aldolase
+FNEB6-bin-3-scaffold_16293	feature	CDS	12173	13075	.	-	0	ID=FNEB6-bin-3.genome.CDS.1591;Product=Ribokinase %28EC 2.7.1.15%29
+FNEB6-bin-3-scaffold_16293	feature	CDS	11276	12184	.	+	0	ID=FNEB6-bin-3.genome.CDS.1590;Product=Ribokinase %28EC 2.7.1.15%29
+FNEB6-bin-3-scaffold_16293	feature	CDS	10130	11269	.	+	0	ID=FNEB6-bin-3.genome.CDS.1589;Product=putative GFO/IDH/MocA family oxidoreductase
+FNEB6-bin-3-scaffold_16293	feature	CDS	9294	10121	.	+	0	ID=FNEB6-bin-3.genome.CDS.1588;Product=COG1830: DhnA-type fructose-1%2C6-bisphosphate aldolase and related enzymes
+FNEB6-bin-3-scaffold_16293	feature	CDS	8198	9220	.	-	0	ID=FNEB6-bin-3.genome.CDS.1587;Product=Mannose-6-phosphate isomerase %28EC 5.3.1.8%29
+FNEB6-bin-3-scaffold_16293	feature	CDS	6871	8184	.	-	0	ID=FNEB6-bin-3.genome.CDS.1586;Product=hypothetical protein
+FNEB6-bin-3-scaffold_16293	feature	CDS	6265	6819	.	-	0	ID=FNEB6-bin-3.genome.CDS.1585;Product=Polyphosphate glucokinase %28EC 2.7.1.63%29
+FNEB6-bin-3-scaffold_16293	feature	CDS	5985	6224	.	-	0	ID=FNEB6-bin-3.genome.CDS.230;Product=Polyphosphate glucokinase %28EC 2.7.1.63%29
+FNEB6-bin-3-scaffold_16293	feature	CDS	5019	5978	.	-	0	ID=FNEB6-bin-3.genome.CDS.1583;Product=5-keto-2-deoxygluconokinase %28EC 2.7.1.92%29
+FNEB6-bin-3-scaffold_16293	feature	CDS	3433	4929	.	-	0	ID=FNEB6-bin-3.genome.CDS.1582;Product=Methylmalonate-semialdehyde dehydrogenase %5Binositol%5D %28EC 1.2.1.27%29
+FNEB6-bin-3-scaffold_16293	feature	CDS	2569	3423	.	-	0	ID=FNEB6-bin-3.genome.CDS.1581;Product=5-deoxy-glucuronate isomerase %28EC 5.3.1.-%29
+FNEB6-bin-3-scaffold_16293	feature	CDS	557	2470	.	-	0	ID=FNEB6-bin-3.genome.CDS.1580;Product=Epi-inositol hydrolase %28EC 3.7.1.-%29
+FNEB6-bin-3-scaffold_16293	feature	CDS	2	556	.	-	0	ID=FNEB6-bin-3.genome.CDS.1579;Product=Inosose dehydratase %28EC 4.2.1.44%29
+FNEB6-bin-3-scaffold_1631	feature	CDS	6508	6879	.	+	0	ID=FNEB6-bin-3.genome.CDS.2000;Product=Cysteinyl-tRNA synthetase %28EC 6.1.1.16%29
+FNEB6-bin-3-scaffold_1631	feature	CDS	6315	6515	.	+	0	ID=FNEB6-bin-3.genome.CDS.1999;Product=
+FNEB6-bin-3-scaffold_1631	feature	CDS	5870	6193	.	-	0	ID=FNEB6-bin-3.genome.CDS.1998;Product=Ferredoxin
+FNEB6-bin-3-scaffold_1631	feature	CDS	4799	5839	.	-	0	ID=FNEB6-bin-3.genome.CDS.1997;Product=N-succinyl-L%2CL-diaminopimelate aminotransferase %28EC 2.6.1.17%29%2C type 2
+FNEB6-bin-3-scaffold_1631	feature	CDS	3750	4034	.	+	0	ID=FNEB6-bin-3.genome.CDS.627;Product=
+FNEB6-bin-3-scaffold_1631	feature	CDS	3496	3690	.	-	0	ID=FNEB6-bin-3.genome.CDS.628;Product=Sporulation regulatory protein WhiB
+FNEB6-bin-3-scaffold_1631	feature	CDS	2582	3463	.	-	0	ID=FNEB6-bin-3.genome.CDS.1996;Product=Glycosyl transferase%2C family 2
+FNEB6-bin-3-scaffold_1631	feature	CDS	3	2564	.	-	0	ID=FNEB6-bin-3.genome.CDS.1995;Product=hypothetical protein
+FNEB6-bin-3-scaffold_165	feature	CDS	12011	12364	.	+	0	ID=FNEB6-bin-3.genome.CDS.1520;Product=hypothetical protein
+FNEB6-bin-3-scaffold_165	feature	CDS	11252	11989	.	+	0	ID=FNEB6-bin-3.genome.CDS.1519;Product=Prolipoprotein diacylglyceryl transferase %28EC 2.4.99.-%29
+FNEB6-bin-3-scaffold_165	feature	CDS	10475	11164	.	+	0	ID=FNEB6-bin-3.genome.CDS.1518;Product=hypothetical protein
+FNEB6-bin-3-scaffold_165	feature	CDS	9972	10475	.	+	0	ID=FNEB6-bin-3.genome.CDS.1517;Product=hypothetical protein
+FNEB6-bin-3-scaffold_165	feature	CDS	9638	9931	.	+	0	ID=FNEB6-bin-3.genome.CDS.1516;Product=
+FNEB6-bin-3-scaffold_165	feature	CDS	8844	9641	.	+	0	ID=FNEB6-bin-3.genome.CDS.1515;Product=Tryptophan synthase alpha chain %28EC 4.2.1.20%29
+FNEB6-bin-3-scaffold_165	feature	CDS	7644	8843	.	+	0	ID=FNEB6-bin-3.genome.CDS.1514;Product=Tryptophan synthase beta chain %28EC 4.2.1.20%29
+FNEB6-bin-3-scaffold_165	feature	CDS	7174	7623	.	+	0	ID=FNEB6-bin-3.genome.CDS.1513;Product=Indole-3-glycerol phosphate synthase %28EC 4.1.1.48%29
+FNEB6-bin-3-scaffold_165	feature	CDS	6699	6920	.	+	0	ID=FNEB6-bin-3.genome.CDS.1512;Product=Indole-3-glycerol phosphate synthase %28EC 4.1.1.48%29
+FNEB6-bin-3-scaffold_165	feature	CDS	6535	6702	.	+	0	ID=FNEB6-bin-3.genome.CDS.1511;Product=
+FNEB6-bin-3-scaffold_165	feature	CDS	5039	6535	.	+	0	ID=FNEB6-bin-3.genome.CDS.1510;Product=Anthranilate synthase%2C aminase component %28EC 4.1.3.27%29
+FNEB6-bin-3-scaffold_165	feature	CDS	4696	5046	.	+	0	ID=FNEB6-bin-3.genome.CDS.1509;Product=Phosphoribosyl-AMP cyclohydrolase %28EC 3.5.4.19%29
+FNEB6-bin-3-scaffold_165	feature	CDS	3889	4671	.	+	0	ID=FNEB6-bin-3.genome.CDS.158;Product=Imidazole glycerol phosphate synthase cyclase subunit %28EC 4.1.3.-%29
+FNEB6-bin-3-scaffold_165	feature	CDS	3158	3892	.	+	0	ID=FNEB6-bin-3.genome.CDS.1507;Product=Phosphoribosylformimino-5-aminoimidazole carboxamide ribotide isomerase %28EC 5.3.1.16%29 %40 Acting phosphoribosylanthranilate isomerase %28EC 5.3.1.24%29
+FNEB6-bin-3-scaffold_165	feature	CDS	2562	3158	.	+	0	ID=FNEB6-bin-3.genome.CDS.1506;Product=Imidazole glycerol phosphate synthase amidotransferase subunit %28EC 2.4.2.-%29
+FNEB6-bin-3-scaffold_165	feature	CDS	2095	2565	.	+	0	ID=FNEB6-bin-3.genome.CDS.1505;Product=Imidazoleglycerol-phosphate dehydratase %28EC 4.2.1.19%29
+FNEB6-bin-3-scaffold_165	feature	CDS	822	1922	.	+	0	ID=FNEB6-bin-3.genome.CDS.1504;Product=Histidinol-phosphate aminotransferase %28EC 2.6.1.9%29
+FNEB6-bin-3-scaffold_165	feature	CDS	1	822	.	+	0	ID=FNEB6-bin-3.genome.CDS.1503;Product=Histidinol dehydrogenase %28EC 1.1.1.23%29
+FNEB6-bin-3-scaffold_1663	feature	CDS	3998	4609	.	-	0	ID=FNEB6-bin-3.genome.CDS.2018;Product=Transcriptional regulator%2C TetR family
+FNEB6-bin-3-scaffold_1663	feature	CDS	3804	3995	.	-	0	ID=FNEB6-bin-3.genome.CDS.2017;Product=
+FNEB6-bin-3-scaffold_1663	feature	CDS	2542	3624	.	-	0	ID=FNEB6-bin-3.genome.CDS.2016;Product=RecA protein
+FNEB6-bin-3-scaffold_1663	feature	CDS	2053	2538	.	-	0	ID=FNEB6-bin-3.genome.CDS.2015;Product=
+FNEB6-bin-3-scaffold_1663	feature	CDS	600	2033	.	-	0	ID=FNEB6-bin-3.genome.CDS.2014;Product=tRNA-i%286%29A37 methylthiotransferase
+FNEB6-bin-3-scaffold_1663	feature	CDS	1	603	.	-	0	ID=FNEB6-bin-3.genome.CDS.2013;Product=tRNA dimethylallyltransferase %28EC 2.5.1.75%29
+FNEB6-bin-3-scaffold_167	feature	CDS	7262	7981	.	+	0	ID=FNEB6-bin-3.genome.CDS.2119;Product=Uracil permease
+FNEB6-bin-3-scaffold_167	feature	CDS	6148	6954	.	+	0	ID=FNEB6-bin-3.genome.CDS.2118;Product=Cell division protein FtsX
+FNEB6-bin-3-scaffold_167	feature	CDS	5449	6138	.	+	0	ID=FNEB6-bin-3.genome.CDS.2117;Product=Cell division transporter%2C ATP-binding protein FtsE %28TC 3.A.5.1.1%29
+FNEB6-bin-3-scaffold_167	feature	CDS	4246	5349	.	+	0	ID=FNEB6-bin-3.genome.CDS.2116;Product=Peptide chain release factor 2
+FNEB6-bin-3-scaffold_167	feature	CDS	3741	4229	.	+	0	ID=FNEB6-bin-3.genome.CDS.2115;Product=
+FNEB6-bin-3-scaffold_167	feature	CDS	3259	3744	.	+	0	ID=FNEB6-bin-3.genome.CDS.2114;Product=hypothetical protein
+FNEB6-bin-3-scaffold_167	feature	CDS	2933	3262	.	+	0	ID=FNEB6-bin-3.genome.CDS.2113;Product=hypothetical protein
+FNEB6-bin-3-scaffold_167	feature	CDS	2694	2936	.	+	0	ID=FNEB6-bin-3.genome.CDS.2112;Product=
+FNEB6-bin-3-scaffold_167	feature	CDS	2058	2645	.	+	0	ID=FNEB6-bin-3.genome.CDS.2111;Product=
+FNEB6-bin-3-scaffold_167	feature	CDS	1255	2061	.	+	0	ID=FNEB6-bin-3.genome.CDS.2110;Product=hypothetical protein
+FNEB6-bin-3-scaffold_167	feature	CDS	2	1258	.	+	0	ID=FNEB6-bin-3.genome.CDS.2109;Product=type II secretion system protein E
+FNEB6-bin-3-scaffold_17043	feature	CDS	7079	7372	.	-	0	ID=FNEB6-bin-3.genome.CDS.2274;Product=
+FNEB6-bin-3-scaffold_17043	feature	CDS	6318	7082	.	+	0	ID=FNEB6-bin-3.genome.CDS.2273;Product=hypothetical protein
+FNEB6-bin-3-scaffold_17043	feature	CDS	4984	6309	.	+	0	ID=FNEB6-bin-3.genome.CDS.2272;Product=NADH dehydrogenase %28EC 1.6.99.3%29
+FNEB6-bin-3-scaffold_17043	feature	CDS	3410	4927	.	-	0	ID=FNEB6-bin-3.genome.CDS.2271;Product=Putative nucleoside-diphosphate-sugar epimerase
+FNEB6-bin-3-scaffold_17043	feature	CDS	3106	3360	.	-	0	ID=FNEB6-bin-3.genome.CDS.2270;Product=hypothetical protein
+FNEB6-bin-3-scaffold_17043	feature	CDS	2807	3097	.	+	0	ID=FNEB6-bin-3.genome.CDS.884;Product=hypothetical protein
+FNEB6-bin-3-scaffold_17043	feature	CDS	2473	2658	.	+	0	ID=FNEB6-bin-3.genome.CDS.882;Product=
+FNEB6-bin-3-scaffold_17043	feature	CDS	1125	2468	.	-	0	ID=FNEB6-bin-3.genome.CDS.2268;Product=Heat shock protein 60 family chaperone GroEL
+FNEB6-bin-3-scaffold_17043	feature	CDS	373	1050	.	-	0	ID=FNEB6-bin-3.genome.CDS.2267;Product=FIG01121526: hypothetical protein
+FNEB6-bin-3-scaffold_17043	feature	CDS	3	284	.	-	0	ID=FNEB6-bin-3.genome.CDS.2266;Product=Cold shock protein CspC
+FNEB6-bin-3-scaffold_171	feature	CDS	5668	5892	.	-	0	ID=FNEB6-bin-3.genome.CDS.1540;Product=Universal stress protein family
+FNEB6-bin-3-scaffold_171	feature	CDS	5089	5652	.	-	0	ID=FNEB6-bin-3.genome.CDS.1539;Product=hypothetical protein
+FNEB6-bin-3-scaffold_171	feature	CDS	4628	4870	.	+	0	ID=FNEB6-bin-3.genome.CDS.187;Product=
+FNEB6-bin-3-scaffold_171	feature	CDS	3366	4616	.	-	0	ID=FNEB6-bin-3.genome.CDS.1538;Product=putative cholesterol oxidase
+FNEB6-bin-3-scaffold_171	feature	CDS	672	3179	.	-	0	ID=FNEB6-bin-3.genome.CDS.1537;Product=hypothetical protein
+FNEB6-bin-3-scaffold_171	feature	CDS	182	643	.	-	0	ID=FNEB6-bin-3.genome.CDS.1536;Product=
+FNEB6-bin-3-scaffold_171	feature	CDS	1	105	.	-	0	ID=FNEB6-bin-3.genome.CDS.1535;Product=NADH ubiquinone oxidoreductase chain A %28EC 1.6.5.3%29
+FNEB6-bin-3-scaffold_17221	feature	CDS	6254	6496	.	-	0	ID=FNEB6-bin-3.genome.CDS.2719;Product=SSU ribosomal protein S11p %28S14e%29
+FNEB6-bin-3-scaffold_17221	feature	CDS	5612	6238	.	-	0	ID=FNEB6-bin-3.genome.CDS.2718;Product=SSU ribosomal protein S4p %28S9e%29 %40 SSU ribosomal protein S4p %28S9e%29%2C zinc-dependent
+FNEB6-bin-3-scaffold_17221	feature	CDS	4541	5554	.	-	0	ID=FNEB6-bin-3.genome.CDS.2717;Product=DNA-directed RNA polymerase alpha subunit %28EC 2.7.7.6%29
+FNEB6-bin-3-scaffold_17221	feature	CDS	4175	4531	.	-	0	ID=FNEB6-bin-3.genome.CDS.2716;Product=LSU ribosomal protein L17p
+FNEB6-bin-3-scaffold_17221	feature	CDS	3246	4157	.	-	0	ID=FNEB6-bin-3.genome.CDS.2715;Product=tRNA pseudouridine synthase A %28EC 4.2.1.70%29
+FNEB6-bin-3-scaffold_17221	feature	CDS	2654	3109	.	-	0	ID=FNEB6-bin-3.genome.CDS.2714;Product=LSU ribosomal protein L13p %28L13Ae%29
+FNEB6-bin-3-scaffold_17221	feature	CDS	2413	2643	.	-	0	ID=FNEB6-bin-3.genome.CDS.2713;Product=SSU ribosomal protein S9p %28S16e%29
+FNEB6-bin-3-scaffold_17221	feature	CDS	710	2050	.	-	0	ID=FNEB6-bin-3.genome.CDS.2712;Product=Phosphoglucosamine mutase %28EC 5.4.2.10%29
+FNEB6-bin-3-scaffold_17221	feature	CDS	2	682	.	-	0	ID=FNEB6-bin-3.genome.CDS.2711;Product=Glucosamine--fructose-6-phosphate aminotransferase %5Bisomerizing%5D %28EC 2.6.1.16%29
+FNEB6-bin-3-scaffold_1725	feature	CDS	8415	10310	.	+	0	ID=FNEB6-bin-3.genome.CDS.1476;Product=DNA gyrase subunit A %28EC 5.99.1.3%29
+FNEB6-bin-3-scaffold_1725	feature	CDS	6460	8415	.	+	0	ID=FNEB6-bin-3.genome.CDS.1475;Product=DNA gyrase subunit B %28EC 5.99.1.3%29
+FNEB6-bin-3-scaffold_1725	feature	CDS	5826	6278	.	+	0	ID=FNEB6-bin-3.genome.CDS.1474;Product=
+FNEB6-bin-3-scaffold_1725	feature	CDS	4621	5829	.	+	0	ID=FNEB6-bin-3.genome.CDS.1473;Product=DNA recombination and repair protein RecF
+FNEB6-bin-3-scaffold_1725	feature	CDS	4187	4615	.	+	0	ID=FNEB6-bin-3.genome.CDS.1472;Product=DNA polymerase III beta subunit %28EC 2.7.7.7%29
+FNEB6-bin-3-scaffold_1725	feature	CDS	3432	4049	.	+	0	ID=FNEB6-bin-3.genome.CDS.1471;Product=DNA polymerase III beta subunit %28EC 2.7.7.7%29
+FNEB6-bin-3-scaffold_1725	feature	CDS	1658	3139	.	+	0	ID=FNEB6-bin-3.genome.CDS.1470;Product=Chromosomal replication initiator protein DnaA
+FNEB6-bin-3-scaffold_1725	feature	CDS	1249	1386	.	-	0	ID=FNEB6-bin-3.genome.CDS.1469;Product=LSU ribosomal protein L34p
+FNEB6-bin-3-scaffold_1725	feature	CDS	905	1246	.	-	0	ID=FNEB6-bin-3.genome.CDS.1468;Product=
+FNEB6-bin-3-scaffold_1725	feature	CDS	648	908	.	-	0	ID=FNEB6-bin-3.genome.CDS.1467;Product=Protein YidD
+FNEB6-bin-3-scaffold_1725	feature	CDS	1	648	.	-	0	ID=FNEB6-bin-3.genome.CDS.1466;Product=Inner membrane protein translocase component YidC%2C long form
+FNEB6-bin-3-scaffold_1776	feature	CDS	7712	7882	.	-	0	ID=FNEB6-bin-3.genome.CDS.1761;Product=LSU ribosomal protein L33p %40 LSU ribosomal protein L33p%2C zinc-dependent
+FNEB6-bin-3-scaffold_1776	feature	CDS	7325	7708	.	-	0	ID=FNEB6-bin-3.genome.CDS.1760;Product=
+FNEB6-bin-3-scaffold_1776	feature	CDS	6930	7328	.	-	0	ID=FNEB6-bin-3.genome.CDS.1759;Product=
+FNEB6-bin-3-scaffold_1776	feature	CDS	6167	6916	.	-	0	ID=FNEB6-bin-3.genome.CDS.1758;Product=
+FNEB6-bin-3-scaffold_1776	feature	CDS	5135	6157	.	-	0	ID=FNEB6-bin-3.genome.CDS.1757;Product=UDP-N-acetylenolpyruvoylglucosamine reductase %28EC 1.3.1.98%29
+FNEB6-bin-3-scaffold_1776	feature	CDS	3922	5133	.	+	0	ID=FNEB6-bin-3.genome.CDS.1756;Product=Aspartate aminotransferase %28EC 2.6.1.1%29
+FNEB6-bin-3-scaffold_1776	feature	CDS	3591	3869	.	+	0	ID=FNEB6-bin-3.genome.CDS.394;Product=
+FNEB6-bin-3-scaffold_1776	feature	CDS	3331	3555	.	-	0	ID=FNEB6-bin-3.genome.CDS.1755;Product=Preprotein translocase subunit SecE %28TC 3.A.5.1.1%29
+FNEB6-bin-3-scaffold_1776	feature	CDS	2544	3320	.	-	0	ID=FNEB6-bin-3.genome.CDS.1754;Product=Transcription antitermination protein NusG
+FNEB6-bin-3-scaffold_1776	feature	CDS	2088	2519	.	-	0	ID=FNEB6-bin-3.genome.CDS.1753;Product=LSU ribosomal protein L11p %28L12e%29
+FNEB6-bin-3-scaffold_1776	feature	CDS	1511	2014	.	-	0	ID=FNEB6-bin-3.genome.CDS.1752;Product=LSU ribosomal protein L1p %28L10Ae%29
+FNEB6-bin-3-scaffold_1776	feature	CDS	1206	1511	.	-	0	ID=FNEB6-bin-3.genome.CDS.1751;Product=LSU ribosomal protein L1p %28L10Ae%29
+FNEB6-bin-3-scaffold_1776	feature	CDS	296	955	.	-	0	ID=FNEB6-bin-3.genome.CDS.1750;Product=LSU ribosomal protein L10p %28P0%29
+FNEB6-bin-3-scaffold_1776	feature	CDS	3	281	.	-	0	ID=FNEB6-bin-3.genome.CDS.1749;Product=LSU ribosomal protein L7/L12 %28P1/P2%29
+FNEB6-bin-3-scaffold_180	feature	CDS	1758	2930	.	-	0	ID=FNEB6-bin-3.genome.CDS.1495;Product=
+FNEB6-bin-3-scaffold_180	feature	CDS	501	1772	.	+	0	ID=FNEB6-bin-3.genome.CDS.144;Product=DNA polymerase I %28EC 2.7.7.7%29
+FNEB6-bin-3-scaffold_18576	feature	CDS	2229	3086	.	+	0	ID=FNEB6-bin-3.genome.CDS.1375;Product=
+FNEB6-bin-3-scaffold_18576	feature	CDS	503	2107	.	-	0	ID=FNEB6-bin-3.genome.CDS.1374;Product=Multidrug resistance protein B
+FNEB6-bin-3-scaffold_18576	feature	CDS	3	449	.	+	0	ID=FNEB6-bin-3.genome.CDS.1373;Product=hypothetical protein
+FNEB6-bin-3-scaffold_1923	feature	misc_RNA	6443	6543	.	+	.	ID=FNEB6-bin-3.genome.repeat.6;Product=repeat region
+FNEB6-bin-3-scaffold_1923	feature	CDS	6025	6543	.	-	0	ID=FNEB6-bin-3.genome.CDS.2436;Product=hypothetical protein
+FNEB6-bin-3-scaffold_1923	feature	CDS	5319	5993	.	-	0	ID=FNEB6-bin-3.genome.CDS.2435;Product=hypothetical protein
+FNEB6-bin-3-scaffold_1923	feature	CDS	4717	5322	.	+	0	ID=FNEB6-bin-3.genome.CDS.1041;Product=1-acyl-sn-glycerol-3-phosphate acyltransferase %28EC 2.3.1.51%29
+FNEB6-bin-3-scaffold_1923	feature	CDS	4434	4622	.	-	0	ID=FNEB6-bin-3.genome.CDS.1040;Product=
+FNEB6-bin-3-scaffold_1923	feature	CDS	3282	4328	.	-	0	ID=FNEB6-bin-3.genome.CDS.2433;Product=
+FNEB6-bin-3-scaffold_1923	feature	CDS	2305	3261	.	+	0	ID=FNEB6-bin-3.genome.CDS.2432;Product=Putative sugar kinase
+FNEB6-bin-3-scaffold_1923	feature	CDS	484	2268	.	-	0	ID=FNEB6-bin-3.genome.CDS.2431;Product=Long-chain-fatty-acid--CoA ligase %28EC 6.2.1.3%29
+FNEB6-bin-3-scaffold_1923	feature	CDS	3	446	.	-	0	ID=FNEB6-bin-3.genome.CDS.2430;Product=
+FNEB6-bin-3-scaffold_202	feature	misc_RNA	1	505	.	+	.	ID=FNEB6-bin-3.genome.repeat.19;Product=repeat region
+FNEB6-bin-3-scaffold_202	feature	CDS	23737	24717	.	+	0	ID=FNEB6-bin-3.genome.CDS.1631;Product=
+FNEB6-bin-3-scaffold_202	feature	CDS	22748	23737	.	+	0	ID=FNEB6-bin-3.genome.CDS.1630;Product=putative glycosyl transferase
+FNEB6-bin-3-scaffold_202	feature	CDS	21380	22699	.	-	0	ID=FNEB6-bin-3.genome.CDS.1629;Product=UDP-glucose 6-dehydrogenase %28EC 1.1.1.22%29
+FNEB6-bin-3-scaffold_202	feature	CDS	20871	21383	.	+	0	ID=FNEB6-bin-3.genome.CDS.1628;Product=Phosphoribosylaminoimidazole carboxylase catalytic subunit %28EC 4.1.1.21%29
+FNEB6-bin-3-scaffold_202	feature	CDS	19754	20878	.	+	0	ID=FNEB6-bin-3.genome.CDS.1627;Product=Phosphoribosylaminoimidazole carboxylase ATPase subunit %28EC 4.1.1.21%29
+FNEB6-bin-3-scaffold_202	feature	CDS	18999	19757	.	+	0	ID=FNEB6-bin-3.genome.CDS.1626;Product=
+FNEB6-bin-3-scaffold_202	feature	CDS	17406	18968	.	-	0	ID=FNEB6-bin-3.genome.CDS.1625;Product=Acetyl-coenzyme A carboxyl transferase alpha chain %28EC 6.4.1.2%29 / Acetyl-coenzyme A carboxyl transferase beta chain %28EC 6.4.1.2%29%3B Propionyl-CoA carboxylase beta chain %28EC 6.4.1.3%29
+FNEB6-bin-3-scaffold_202	feature	CDS	17194	17406	.	-	0	ID=FNEB6-bin-3.genome.CDS.1624;Product=
+FNEB6-bin-3-scaffold_202	feature	CDS	16577	17197	.	-	0	ID=FNEB6-bin-3.genome.CDS.1623;Product=Septum formation protein Maf
+FNEB6-bin-3-scaffold_202	feature	CDS	15177	16580	.	-	0	ID=FNEB6-bin-3.genome.CDS.1622;Product=Biotin carboxylase of acetyl-CoA carboxylase %28EC 6.3.4.14%29 / Biotin carboxyl carrier protein of acetyl-CoA carboxylase
+FNEB6-bin-3-scaffold_202	feature	CDS	14776	15099	.	-	0	ID=FNEB6-bin-3.genome.CDS.1621;Product=Biotin carboxylase of acetyl-CoA carboxylase %28EC 6.3.4.14%29 / Biotin carboxyl carrier protein of acetyl-CoA carboxylase
+FNEB6-bin-3-scaffold_202	feature	CDS	14310	14753	.	+	0	ID=FNEB6-bin-3.genome.CDS.1620;Product=
+FNEB6-bin-3-scaffold_202	feature	CDS	13255	14259	.	+	0	ID=FNEB6-bin-3.genome.CDS.1619;Product=Tryptophanyl-tRNA synthetase %28EC 6.1.1.2%29
+FNEB6-bin-3-scaffold_202	feature	CDS	11922	13262	.	+	0	ID=FNEB6-bin-3.genome.CDS.1618;Product=Hemolysins and related proteins containing CBS domains
+FNEB6-bin-3-scaffold_202	feature	CDS	10728	11813	.	-	0	ID=FNEB6-bin-3.genome.CDS.1617;Product=Glycerol-3-phosphate ABC transporter%2C ATP-binding protein UgpC %28TC 3.A.1.1.3%29
+FNEB6-bin-3-scaffold_202	feature	CDS	9379	10671	.	+	0	ID=FNEB6-bin-3.genome.CDS.1616;Product=Isocitrate dehydrogenase %5BNADP%5D %28EC 1.1.1.42%29
+FNEB6-bin-3-scaffold_202	feature	CDS	8423	9379	.	+	0	ID=FNEB6-bin-3.genome.CDS.1615;Product=Malate dehydrogenase %28EC 1.1.1.37%29
+FNEB6-bin-3-scaffold_202	feature	CDS	8138	8392	.	+	0	ID=FNEB6-bin-3.genome.CDS.1614;Product=
+FNEB6-bin-3-scaffold_202	feature	CDS	7303	8136	.	+	0	ID=FNEB6-bin-3.genome.CDS.1613;Product=Methylenetetrahydrofolate dehydrogenase %28NADP%2B%29 %28EC 1.5.1.5%29 / Methenyltetrahydrofolate cyclohydrolase %28EC 3.5.4.9%29
+FNEB6-bin-3-scaffold_202	feature	CDS	5635	7266	.	+	0	ID=FNEB6-bin-3.genome.CDS.1612;Product=IMP cyclohydrolase %28EC 3.5.4.10%29 / Phosphoribosylaminoimidazolecarboxamide formyltransferase %28EC 2.1.2.3%29
+FNEB6-bin-3-scaffold_202	feature	CDS	5069	5638	.	+	0	ID=FNEB6-bin-3.genome.CDS.1611;Product=Phosphoribosylglycinamide formyltransferase %28EC 2.1.2.2%29
+FNEB6-bin-3-scaffold_202	feature	CDS	3991	5076	.	+	0	ID=FNEB6-bin-3.genome.CDS.1610;Product=hypothetical protein
+FNEB6-bin-3-scaffold_202	feature	CDS	3019	3987	.	+	0	ID=FNEB6-bin-3.genome.CDS.1609;Product=Succinyl-CoA ligase %5BADP-forming%5D alpha chain %28EC 6.2.1.5%29
+FNEB6-bin-3-scaffold_202	feature	CDS	2161	3018	.	+	0	ID=FNEB6-bin-3.genome.CDS.1608;Product=Succinyl-CoA ligase %5BADP-forming%5D beta chain %28EC 6.2.1.5%29
+FNEB6-bin-3-scaffold_202	feature	CDS	1787	2200	.	+	0	ID=FNEB6-bin-3.genome.CDS.1607;Product=Succinyl-CoA ligase %5BADP-forming%5D beta chain %28EC 6.2.1.5%29
+FNEB6-bin-3-scaffold_202	feature	CDS	3	1718	.	+	0	ID=FNEB6-bin-3.genome.CDS.1606;Product=ATP-dependent DNA helicase UvrD/PcrA
+FNEB6-bin-3-scaffold_2031	feature	misc_RNA	30274	30374	.	+	.	ID=FNEB6-bin-3.genome.repeat.15;Product=repeat region
+FNEB6-bin-3-scaffold_2031	feature	CDS	29974	30195	.	-	0	ID=FNEB6-bin-3.genome.CDS.2497;Product=hypothetical protein
+FNEB6-bin-3-scaffold_2031	feature	CDS	29590	29922	.	+	0	ID=FNEB6-bin-3.genome.CDS.2496;Product=
+FNEB6-bin-3-scaffold_2031	feature	CDS	27883	29418	.	-	0	ID=FNEB6-bin-3.genome.CDS.2495;Product=
+FNEB6-bin-3-scaffold_2031	feature	CDS	27090	27869	.	-	0	ID=FNEB6-bin-3.genome.CDS.2494;Product=Teichoic acid export ATP-binding protein TagH %28EC 3.6.3.40%29
+FNEB6-bin-3-scaffold_2031	feature	CDS	25962	27077	.	-	0	ID=FNEB6-bin-3.genome.CDS.2493;Product=probable glycosyltransferase WbpH
+FNEB6-bin-3-scaffold_2031	feature	CDS	25337	25939	.	-	0	ID=FNEB6-bin-3.genome.CDS.2492;Product=N-acetylglucosamine-1-phosphate uridyltransferase %28EC 2.7.7.23%29 / Glucosamine-1-phosphate N-acetyltransferase %28EC 2.3.1.157%29
+FNEB6-bin-3-scaffold_2031	feature	CDS	24696	25340	.	-	0	ID=FNEB6-bin-3.genome.CDS.2491;Product=UDP-4-amino-4-deoxy-L-arabinose--oxoglutarate aminotransferase %28EC 2.6.1.87%29
+FNEB6-bin-3-scaffold_2031	feature	CDS	24170	24709	.	-	0	ID=FNEB6-bin-3.genome.CDS.2490;Product=UDP-4-amino-4-deoxy-L-arabinose--oxoglutarate aminotransferase %28EC 2.6.1.87%29
+FNEB6-bin-3-scaffold_2031	feature	CDS	23158	24168	.	-	0	ID=FNEB6-bin-3.genome.CDS.2489;Product=NAD-dependent dehydrogenase %28EC 1.1.1.18%29
+FNEB6-bin-3-scaffold_2031	feature	CDS	22567	23157	.	-	0	ID=FNEB6-bin-3.genome.CDS.2488;Product=UDP-N-acetyl-D-mannosaminuronic acid dehydrogenase
+FNEB6-bin-3-scaffold_2031	feature	CDS	21801	22574	.	-	0	ID=FNEB6-bin-3.genome.CDS.2487;Product=UDP-N-acetyl-D-mannosaminuronic acid dehydrogenase
+FNEB6-bin-3-scaffold_2031	feature	CDS	20073	21776	.	+	0	ID=FNEB6-bin-3.genome.CDS.2486;Product=hypothetical protein
+FNEB6-bin-3-scaffold_2031	feature	CDS	18962	20032	.	-	0	ID=FNEB6-bin-3.genome.CDS.2485;Product=UDP-N-acetylglucosamine 2-epimerase %28EC 5.1.3.14%29
+FNEB6-bin-3-scaffold_2031	feature	CDS	17637	18986	.	+	0	ID=FNEB6-bin-3.genome.CDS.2484;Product=
+FNEB6-bin-3-scaffold_2031	feature	CDS	17198	17590	.	+	0	ID=FNEB6-bin-3.genome.CDS.2483;Product=
+FNEB6-bin-3-scaffold_2031	feature	CDS	17040	17192	.	+	0	ID=FNEB6-bin-3.genome.CDS.2482;Product=
+FNEB6-bin-3-scaffold_2031	feature	CDS	15782	16918	.	+	0	ID=FNEB6-bin-3.genome.CDS.2481;Product=Cystathionine gamma-synthase %28EC 2.5.1.48%29
+FNEB6-bin-3-scaffold_2031	feature	CDS	14847	15752	.	+	0	ID=FNEB6-bin-3.genome.CDS.2480;Product=Integral membrane protein TerC
+FNEB6-bin-3-scaffold_2031	feature	CDS	14183	14818	.	-	0	ID=FNEB6-bin-3.genome.CDS.2479;Product=DNA-3-methyladenine glycosylase II %28EC 3.2.2.21%29
+FNEB6-bin-3-scaffold_2031	feature	CDS	13657	14193	.	+	0	ID=FNEB6-bin-3.genome.CDS.2478;Product=Peptide methionine sulfoxide reductase MsrA %28EC 1.8.4.11%29
+FNEB6-bin-3-scaffold_2031	feature	CDS	13272	13667	.	+	0	ID=FNEB6-bin-3.genome.CDS.2477;Product=Peptide methionine sulfoxide reductase MsrA %28EC 1.8.4.11%29
+FNEB6-bin-3-scaffold_2031	feature	tRNA	13141	13212	.	-	.	ID=FNEB6-bin-3.genome.rna.21;Product=tRNA-Arg-CCG
+FNEB6-bin-3-scaffold_2031	feature	CDS	12693	12962	.	-	0	ID=FNEB6-bin-3.genome.CDS.2476;Product=WhiB-like transcription regulator
+FNEB6-bin-3-scaffold_2031	feature	CDS	11233	12696	.	+	0	ID=FNEB6-bin-3.genome.CDS.2475;Product=Signal transduction histidine kinase%2C subgroup 2
+FNEB6-bin-3-scaffold_2031	feature	CDS	10151	11209	.	+	0	ID=FNEB6-bin-3.genome.CDS.2474;Product=hypothetical protein
+FNEB6-bin-3-scaffold_2031	feature	CDS	9571	10161	.	+	0	ID=FNEB6-bin-3.genome.CDS.2473;Product=hypothetical protein
+FNEB6-bin-3-scaffold_2031	feature	CDS	8911	9507	.	-	0	ID=FNEB6-bin-3.genome.CDS.2472;Product=
+FNEB6-bin-3-scaffold_2031	feature	CDS	6225	8906	.	+	0	ID=FNEB6-bin-3.genome.CDS.2471;Product=Protein export cytoplasm protein SecA ATPase RNA helicase %28TC 3.A.5.1.1%29
+FNEB6-bin-3-scaffold_2031	feature	CDS	5613	6212	.	+	0	ID=FNEB6-bin-3.genome.CDS.2470;Product=Competence protein F homolog%2C phosphoribosyltransferase domain%3B protein YhgH required for utilization of DNA as sole source of carbon and energy
+FNEB6-bin-3-scaffold_2031	feature	CDS	3920	5494	.	+	0	ID=FNEB6-bin-3.genome.CDS.2469;Product=Sensor histidine kinase mtrB %28EC 2.7.3.-%29
+FNEB6-bin-3-scaffold_2031	feature	CDS	3249	3923	.	+	0	ID=FNEB6-bin-3.genome.CDS.2468;Product=Phosphate regulon transcriptional regulatory protein PhoB %28SphR%29
+FNEB6-bin-3-scaffold_2031	feature	CDS	3046	3249	.	+	0	ID=FNEB6-bin-3.genome.CDS.2467;Product=Adenosylhomocysteinase %28EC 3.3.1.1%29
+FNEB6-bin-3-scaffold_2031	feature	CDS	2022	3011	.	+	0	ID=FNEB6-bin-3.genome.CDS.1068;Product=Adenosylhomocysteinase %28EC 3.3.1.1%29
+FNEB6-bin-3-scaffold_2031	feature	CDS	608	1975	.	+	0	ID=FNEB6-bin-3.genome.CDS.2466;Product=Phosphomannomutase %28EC 5.4.2.8%29
+FNEB6-bin-3-scaffold_2031	feature	CDS	292	594	.	+	0	ID=FNEB6-bin-3.genome.CDS.2465;Product=hypothetical protein
+FNEB6-bin-3-scaffold_2031	feature	CDS	1	171	.	+	0	ID=FNEB6-bin-3.genome.CDS.2464;Product=
+FNEB6-bin-3-scaffold_209	feature	CDS	2653	3444	.	+	0	ID=FNEB6-bin-3.genome.CDS.1733;Product=hypothetical protein
+FNEB6-bin-3-scaffold_209	feature	CDS	1848	2594	.	-	0	ID=FNEB6-bin-3.genome.CDS.1732;Product=Cytochrome c oxidase polypeptide II %28EC 1.9.3.1%29
+FNEB6-bin-3-scaffold_209	feature	CDS	1649	1831	.	-	0	ID=FNEB6-bin-3.genome.CDS.371;Product=Cytochrome c oxidase polypeptide II %28EC 1.9.3.1%29
+FNEB6-bin-3-scaffold_209	feature	CDS	2	1645	.	-	0	ID=FNEB6-bin-3.genome.CDS.1731;Product=Cytochrome c oxidase polypeptide I %28EC 1.9.3.1%29
+FNEB6-bin-3-scaffold_2198	feature	CDS	3627	3857	.	+	0	ID=FNEB6-bin-3.genome.CDS.1462;Product=Aminomethyltransferase %28glycine cleavage system T protein%29 %28EC 2.1.2.10%29
+FNEB6-bin-3-scaffold_2198	feature	CDS	2084	3571	.	-	0	ID=FNEB6-bin-3.genome.CDS.1461;Product=Cytosol aminopeptidase PepA %28EC 3.4.11.1%29
+FNEB6-bin-3-scaffold_2198	feature	CDS	1710	2003	.	-	0	ID=FNEB6-bin-3.genome.CDS.1460;Product=Dihydrolipoamide dehydrogenase of branched-chain alpha-keto acid dehydrogenase %28EC 1.8.1.4%29
+FNEB6-bin-3-scaffold_2198	feature	CDS	356	1744	.	-	0	ID=FNEB6-bin-3.genome.CDS.115;Product=Dihydrolipoamide dehydrogenase of branched-chain alpha-keto acid dehydrogenase %28EC 1.8.1.4%29
+FNEB6-bin-3-scaffold_2198	feature	CDS	3	341	.	-	0	ID=FNEB6-bin-3.genome.CDS.1458;Product=Dihydrolipoamide acyltransferase component of branched-chain alpha-keto acid dehydrogenase complex %28EC 2.3.1.168%29
+FNEB6-bin-3-scaffold_2214	feature	CDS	3584	3820	.	-	0	ID=FNEB6-bin-3.genome.CDS.2429;Product=
+FNEB6-bin-3-scaffold_2214	feature	CDS	1528	3591	.	-	0	ID=FNEB6-bin-3.genome.CDS.2428;Product=Leucyl-tRNA synthetase %28EC 6.1.1.4%29
+FNEB6-bin-3-scaffold_2214	feature	CDS	1076	1456	.	-	0	ID=FNEB6-bin-3.genome.CDS.2427;Product=Leucyl-tRNA synthetase %28EC 6.1.1.4%29
+FNEB6-bin-3-scaffold_2214	feature	CDS	409	1017	.	-	0	ID=FNEB6-bin-3.genome.CDS.2426;Product=
+FNEB6-bin-3-scaffold_2214	feature	CDS	2	325	.	-	0	ID=FNEB6-bin-3.genome.CDS.2425;Product=
+FNEB6-bin-3-scaffold_2219	feature	CDS	2563	3606	.	+	0	ID=FNEB6-bin-3.genome.CDS.1872;Product=Excinuclease ABC subunit B
+FNEB6-bin-3-scaffold_2219	feature	CDS	1203	2603	.	+	0	ID=FNEB6-bin-3.genome.CDS.1871;Product=Excinuclease ABC subunit B
+FNEB6-bin-3-scaffold_2219	feature	CDS	589	1203	.	+	0	ID=FNEB6-bin-3.genome.CDS.1870;Product=Dephospho-CoA kinase %28EC 2.7.1.24%29
+FNEB6-bin-3-scaffold_2219	feature	CDS	1	492	.	+	0	ID=FNEB6-bin-3.genome.CDS.1869;Product=SSU ribosomal protein S1p
+FNEB6-bin-3-scaffold_2222	feature	CDS	12053	12355	.	+	0	ID=FNEB6-bin-3.genome.CDS.2187;Product=
+FNEB6-bin-3-scaffold_2222	feature	CDS	11771	12007	.	-	0	ID=FNEB6-bin-3.genome.CDS.2186;Product=Transcriptional regulator%2C AsnC family
+FNEB6-bin-3-scaffold_2222	feature	CDS	11060	11767	.	-	0	ID=FNEB6-bin-3.genome.CDS.2185;Product=hypothetical protein
+FNEB6-bin-3-scaffold_2222	feature	CDS	10771	11046	.	+	0	ID=FNEB6-bin-3.genome.CDS.2184;Product=
+FNEB6-bin-3-scaffold_2222	feature	CDS	10223	10771	.	+	0	ID=FNEB6-bin-3.genome.CDS.2183;Product=3-oxoacyl-%5Bacyl-carrier protein%5D reductase %28EC 1.1.1.100%29
+FNEB6-bin-3-scaffold_2222	feature	CDS	8643	10133	.	+	0	ID=FNEB6-bin-3.genome.CDS.2182;Product=Amino acid/metabolite permease in hypothetical Actinobacterial gene cluster%3B BAT1-like
+FNEB6-bin-3-scaffold_2222	feature	CDS	7024	8463	.	-	0	ID=FNEB6-bin-3.genome.CDS.2181;Product=Glutamine synthetase family protein in hypothetical Actinobacterial gene cluster
+FNEB6-bin-3-scaffold_2222	feature	CDS	5647	7011	.	-	0	ID=FNEB6-bin-3.genome.CDS.2180;Product=Aldehyde dehydrogenase in hypothetical Actinobacterial gene cluster
+FNEB6-bin-3-scaffold_2222	feature	CDS	4850	5623	.	-	0	ID=FNEB6-bin-3.genome.CDS.2179;Product=Short-chain dehydrogenase/reductase in hypothetical Actinobacterial gene cluster
+FNEB6-bin-3-scaffold_2222	feature	CDS	4005	4730	.	-	0	ID=FNEB6-bin-3.genome.CDS.2178;Product=
+FNEB6-bin-3-scaffold_2222	feature	CDS	2953	4008	.	+	0	ID=FNEB6-bin-3.genome.CDS.2177;Product=D-alanine--D-alanine ligase %28EC 6.3.2.4%29
+FNEB6-bin-3-scaffold_2222	feature	CDS	1955	2953	.	+	0	ID=FNEB6-bin-3.genome.CDS.2176;Product=Glycerol-3-phosphate dehydrogenase %5BNAD%28P%29%2B%5D %28EC 1.1.1.94%29
+FNEB6-bin-3-scaffold_2222	feature	CDS	1232	1951	.	+	0	ID=FNEB6-bin-3.genome.CDS.2175;Product=1-acyl-sn-glycerol-3-phosphate acyltransferase %28EC 2.3.1.51%29
+FNEB6-bin-3-scaffold_2222	feature	CDS	639	1094	.	+	0	ID=FNEB6-bin-3.genome.CDS.2174;Product=
+FNEB6-bin-3-scaffold_2222	feature	CDS	1	444	.	+	0	ID=FNEB6-bin-3.genome.CDS.2173;Product=3-isopropylmalate dehydratase small subunit %28EC 4.2.1.33%29
+FNEB6-bin-3-scaffold_22482	feature	CDS	9286	9357	.	+	0	ID=FNEB6-bin-3.genome.CDS.1860;Product=tmRNA-binding protein SmpB
+FNEB6-bin-3-scaffold_22482	feature	CDS	8094	9236	.	+	0	ID=FNEB6-bin-3.genome.CDS.1859;Product=Carboxyl-terminal protease %28EC 3.4.21.102%29
+FNEB6-bin-3-scaffold_22482	feature	CDS	6679	8058	.	+	0	ID=FNEB6-bin-3.genome.CDS.1858;Product=NAD%28P%29 transhydrogenase subunit beta %28EC 1.6.1.2%29
+FNEB6-bin-3-scaffold_22482	feature	CDS	6368	6682	.	+	0	ID=FNEB6-bin-3.genome.CDS.1857;Product=NAD%28P%29 transhydrogenase alpha subunit %28EC 1.6.1.2%29
+FNEB6-bin-3-scaffold_22482	feature	CDS	5242	6357	.	+	0	ID=FNEB6-bin-3.genome.CDS.1856;Product=NAD%28P%29 transhydrogenase alpha subunit %28EC 1.6.1.2%29
+FNEB6-bin-3-scaffold_22482	feature	CDS	4228	5166	.	+	0	ID=FNEB6-bin-3.genome.CDS.1855;Product=Ornithine carbamoyltransferase %28EC 2.1.3.3%29
+FNEB6-bin-3-scaffold_22482	feature	CDS	3937	4203	.	-	0	ID=FNEB6-bin-3.genome.CDS.1854;Product=hypothetical protein
+FNEB6-bin-3-scaffold_22482	feature	CDS	3200	3937	.	-	0	ID=FNEB6-bin-3.genome.CDS.1853;Product=
+FNEB6-bin-3-scaffold_22482	feature	CDS	2073	3203	.	-	0	ID=FNEB6-bin-3.genome.CDS.1852;Product=
+FNEB6-bin-3-scaffold_22482	feature	CDS	1774	2076	.	-	0	ID=FNEB6-bin-3.genome.CDS.1851;Product=ATP-dependent Clp protease adaptor protein ClpS
+FNEB6-bin-3-scaffold_22482	feature	CDS	1108	1764	.	-	0	ID=FNEB6-bin-3.genome.CDS.1850;Product=
+FNEB6-bin-3-scaffold_22482	feature	CDS	249	1055	.	-	0	ID=FNEB6-bin-3.genome.CDS.1849;Product=Glutamate racemase %28EC 5.1.1.3%29
+FNEB6-bin-3-scaffold_22482	feature	CDS	3	230	.	-	0	ID=FNEB6-bin-3.genome.CDS.1848;Product=Ribonuclease PH %28EC 2.7.7.56%29
+FNEB6-bin-3-scaffold_2257	feature	CDS	2133	2678	.	-	0	ID=FNEB6-bin-3.genome.CDS.2004;Product=Xylose isomerase %28EC 5.3.1.5%29
+FNEB6-bin-3-scaffold_2257	feature	CDS	1362	2129	.	-	0	ID=FNEB6-bin-3.genome.CDS.2003;Product=Myo-inositol 2-dehydrogenase %28EC 1.1.1.18%29
+FNEB6-bin-3-scaffold_2257	feature	CDS	1073	1384	.	-	0	ID=FNEB6-bin-3.genome.CDS.2002;Product=
+FNEB6-bin-3-scaffold_2257	feature	CDS	3	1061	.	+	0	ID=FNEB6-bin-3.genome.CDS.2001;Product=putative integral membrane transport protein
+FNEB6-bin-3-scaffold_2260	feature	CDS	7234	7749	.	+	0	ID=FNEB6-bin-3.genome.CDS.2303;Product=hypothetical protein
+FNEB6-bin-3-scaffold_2260	feature	CDS	6416	7171	.	-	0	ID=FNEB6-bin-3.genome.CDS.2302;Product=putative ABC transporter ATP-binding protein
+FNEB6-bin-3-scaffold_2260	feature	CDS	5191	6306	.	-	0	ID=FNEB6-bin-3.genome.CDS.2301;Product=hypothetical protein
+FNEB6-bin-3-scaffold_2260	feature	CDS	4598	5191	.	-	0	ID=FNEB6-bin-3.genome.CDS.2300;Product=putative ABC transporter ATP-binding protein
+FNEB6-bin-3-scaffold_2260	feature	CDS	4140	4601	.	-	0	ID=FNEB6-bin-3.genome.CDS.2299;Product=putative integral membrane protein
+FNEB6-bin-3-scaffold_2260	feature	CDS	3497	3871	.	-	0	ID=FNEB6-bin-3.genome.CDS.2298;Product=hypothetical protein
+FNEB6-bin-3-scaffold_2260	feature	CDS	3369	3494	.	-	0	ID=FNEB6-bin-3.genome.CDS.2297;Product=
+FNEB6-bin-3-scaffold_2260	feature	CDS	2929	3366	.	+	0	ID=FNEB6-bin-3.genome.CDS.2296;Product=
+FNEB6-bin-3-scaffold_2260	feature	CDS	2638	2865	.	+	0	ID=FNEB6-bin-3.genome.CDS.2295;Product=5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase %28EC 2.1.1.14%29
+FNEB6-bin-3-scaffold_2260	feature	CDS	1367	2563	.	+	0	ID=FNEB6-bin-3.genome.CDS.2294;Product=hypothetical protein
+FNEB6-bin-3-scaffold_2260	feature	CDS	394	798	.	-	0	ID=FNEB6-bin-3.genome.CDS.2293;Product=hypothetical protein
+FNEB6-bin-3-scaffold_2260	feature	CDS	3	386	.	+	0	ID=FNEB6-bin-3.genome.CDS.2292;Product=SOS-response repressor and protease LexA %28EC 3.4.21.88%29
+FNEB6-bin-3-scaffold_23048	feature	CDS	3835	3945	.	+	0	ID=FNEB6-bin-3.genome.CDS.1372;Product=Arsenate reductase %28EC 1.20.4.1%29
+FNEB6-bin-3-scaffold_23048	feature	CDS	3180	3842	.	+	0	ID=FNEB6-bin-3.genome.CDS.1371;Product=Aquaporin Z
+FNEB6-bin-3-scaffold_23048	feature	CDS	2725	2997	.	-	0	ID=FNEB6-bin-3.genome.CDS.1370;Product=Arsenical resistance operon repressor
+FNEB6-bin-3-scaffold_23048	feature	CDS	2170	2616	.	+	0	ID=FNEB6-bin-3.genome.CDS.1369;Product=
+FNEB6-bin-3-scaffold_23048	feature	CDS	624	1754	.	+	0	ID=FNEB6-bin-3.genome.CDS.1368;Product=
+FNEB6-bin-3-scaffold_23048	feature	CDS	1	624	.	+	0	ID=FNEB6-bin-3.genome.CDS.1367;Product=hypothetical protein
+FNEB6-bin-3-scaffold_23092	feature	CDS	5957	6832	.	-	0	ID=FNEB6-bin-3.genome.CDS.1366;Product=Undecaprenyl-phosphate N-acetylglucosaminyl 1-phosphate transferase %28EC 2.7.8.-%29
+FNEB6-bin-3-scaffold_23092	feature	CDS	5735	5926	.	-	0	ID=FNEB6-bin-3.genome.CDS.1365;Product=
+FNEB6-bin-3-scaffold_23092	feature	CDS	5313	5732	.	-	0	ID=FNEB6-bin-3.genome.CDS.1364;Product=
+FNEB6-bin-3-scaffold_23092	feature	CDS	5106	5303	.	-	0	ID=FNEB6-bin-3.genome.CDS.1363;Product=
+FNEB6-bin-3-scaffold_23092	feature	CDS	4192	4956	.	-	0	ID=FNEB6-bin-3.genome.CDS.1362;Product=ATP synthase F0 sector subunit a %28EC 3.6.3.14%29
+FNEB6-bin-3-scaffold_23092	feature	CDS	3921	4127	.	-	0	ID=FNEB6-bin-3.genome.CDS.1361;Product=ATP synthase F0 sector subunit c %28EC 3.6.3.14%29
+FNEB6-bin-3-scaffold_23092	feature	CDS	3345	3905	.	-	0	ID=FNEB6-bin-3.genome.CDS.1360;Product=ATP synthase F0 sector subunit b %28EC 3.6.3.14%29
+FNEB6-bin-3-scaffold_23092	feature	CDS	2521	3348	.	-	0	ID=FNEB6-bin-3.genome.CDS.1359;Product=hypothetical protein
+FNEB6-bin-3-scaffold_23092	feature	CDS	908	2464	.	-	0	ID=FNEB6-bin-3.genome.CDS.1358;Product=ATP synthase alpha chain %28EC 3.6.3.14%29
+FNEB6-bin-3-scaffold_23092	feature	CDS	1	900	.	-	0	ID=FNEB6-bin-3.genome.CDS.1357;Product=ATP synthase gamma chain %28EC 3.6.3.14%29
+FNEB6-bin-3-scaffold_23469	feature	CDS	24696	25619	.	+	0	ID=FNEB6-bin-3.genome.CDS.2405;Product=hypothetical protein
+FNEB6-bin-3-scaffold_23469	feature	CDS	23538	24581	.	-	0	ID=FNEB6-bin-3.genome.CDS.2404;Product=Galactitol-1-phosphate 5-dehydrogenase %28EC 1.1.1.251%29
+FNEB6-bin-3-scaffold_23469	feature	CDS	23038	23541	.	-	0	ID=FNEB6-bin-3.genome.CDS.2403;Product=
+FNEB6-bin-3-scaffold_23469	feature	tRNA	22778	22853	.	+	.	ID=FNEB6-bin-3.genome.rna.19;Product=tRNA-Arg-ACG
+FNEB6-bin-3-scaffold_23469	feature	CDS	21731	22696	.	+	0	ID=FNEB6-bin-3.genome.CDS.2402;Product=Glycerate kinase %28EC 2.7.1.31%29
+FNEB6-bin-3-scaffold_23469	feature	CDS	20581	21609	.	+	0	ID=FNEB6-bin-3.genome.CDS.2401;Product=5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase %28EC 2.1.1.14%29
+FNEB6-bin-3-scaffold_23469	feature	CDS	20197	20562	.	+	0	ID=FNEB6-bin-3.genome.CDS.2400;Product=
+FNEB6-bin-3-scaffold_23469	feature	CDS	19012	20175	.	+	0	ID=FNEB6-bin-3.genome.CDS.2399;Product=
+FNEB6-bin-3-scaffold_23469	feature	CDS	18304	18954	.	+	0	ID=FNEB6-bin-3.genome.CDS.2398;Product=
+FNEB6-bin-3-scaffold_23469	feature	CDS	18075	18263	.	+	0	ID=FNEB6-bin-3.genome.CDS.2397;Product=
+FNEB6-bin-3-scaffold_23469	feature	CDS	17676	18011	.	+	0	ID=FNEB6-bin-3.genome.CDS.2396;Product=
+FNEB6-bin-3-scaffold_23469	feature	CDS	14827	17490	.	-	0	ID=FNEB6-bin-3.genome.CDS.2395;Product=Pyruvate%2Cphosphate dikinase %28EC 2.7.9.1%29
+FNEB6-bin-3-scaffold_23469	feature	CDS	13905	14819	.	+	0	ID=FNEB6-bin-3.genome.CDS.2394;Product=
+FNEB6-bin-3-scaffold_23469	feature	CDS	13582	13914	.	+	0	ID=FNEB6-bin-3.genome.CDS.2393;Product=
+FNEB6-bin-3-scaffold_23469	feature	CDS	12487	13536	.	+	0	ID=FNEB6-bin-3.genome.CDS.2392;Product=Predicted metal-dependent hydrolase of the TIM-barrel fold
+FNEB6-bin-3-scaffold_23469	feature	CDS	11232	12305	.	+	0	ID=FNEB6-bin-3.genome.CDS.2391;Product=Glycerol-3-phosphate ABC transporter%2C ATP-binding protein UgpC %28TC 3.A.1.1.3%29
+FNEB6-bin-3-scaffold_23469	feature	CDS	10149	11222	.	+	0	ID=FNEB6-bin-3.genome.CDS.2390;Product=
+FNEB6-bin-3-scaffold_23469	feature	CDS	9305	10138	.	+	0	ID=FNEB6-bin-3.genome.CDS.2389;Product=FIG01124788: hypothetical protein
+FNEB6-bin-3-scaffold_23469	feature	CDS	8430	9302	.	+	0	ID=FNEB6-bin-3.genome.CDS.2388;Product=SN-glycerol-3-phosphate transport system permease protein UgpA %28TC 3.A.1.1.3%29
+FNEB6-bin-3-scaffold_23469	feature	CDS	6645	8297	.	+	0	ID=FNEB6-bin-3.genome.CDS.2387;Product=hypothetical protein
+FNEB6-bin-3-scaffold_23469	feature	CDS	5457	6431	.	+	0	ID=FNEB6-bin-3.genome.CDS.2386;Product=Quinone oxidoreductase %28EC 1.6.5.5%29
+FNEB6-bin-3-scaffold_23469	feature	CDS	4313	5365	.	+	0	ID=FNEB6-bin-3.genome.CDS.2385;Product=blr3675%3B putative alcohol dehydrogenase %28EC 1.1.1.1%29
+FNEB6-bin-3-scaffold_23469	feature	CDS	3838	4176	.	-	0	ID=FNEB6-bin-3.genome.CDS.2384;Product=
+FNEB6-bin-3-scaffold_23469	feature	CDS	3323	3814	.	+	0	ID=FNEB6-bin-3.genome.CDS.2383;Product=
+FNEB6-bin-3-scaffold_23469	feature	CDS	2006	3322	.	+	0	ID=FNEB6-bin-3.genome.CDS.992;Product=Ferredoxin--NADP%28%2B%29 reductase%2C actinobacterial %28eukaryote-like%29 type %28EC 1.18.1.2%29
+FNEB6-bin-3-scaffold_23469	feature	CDS	978	1901	.	+	0	ID=FNEB6-bin-3.genome.CDS.2381;Product=
+FNEB6-bin-3-scaffold_23469	feature	CDS	3	941	.	+	0	ID=FNEB6-bin-3.genome.CDS.2380;Product=hypothetical protein
+FNEB6-bin-3-scaffold_23817	feature	CDS	2693	3274	.	+	0	ID=FNEB6-bin-3.genome.CDS.2506;Product=Histidinol-phosphate aminotransferase %28EC 2.6.1.9%29
+FNEB6-bin-3-scaffold_23817	feature	CDS	1260	2693	.	+	0	ID=FNEB6-bin-3.genome.CDS.2505;Product=Histidinol dehydrogenase %28EC 1.1.1.23%29
+FNEB6-bin-3-scaffold_23817	feature	CDS	2	1213	.	+	0	ID=FNEB6-bin-3.genome.CDS.2504;Product=DNA polymerase III alpha subunit %28EC 2.7.7.7%29
+FNEB6-bin-3-scaffold_2404	feature	misc_RNA	1513	1613	.	+	.	ID=FNEB6-bin-3.genome.repeat.24;Product=repeat region
+FNEB6-bin-3-scaffold_2404	feature	CDS	1610	2866	.	+	0	ID=FNEB6-bin-3.genome.CDS.1457;Product=Succinate-semialdehyde dehydrogenase %5BNAD%28P%29%2B%5D %28EC 1.2.1.16%29
+FNEB6-bin-3-scaffold_2404	feature	CDS	1351	1563	.	+	0	ID=FNEB6-bin-3.genome.CDS.1456;Product=
+FNEB6-bin-3-scaffold_2404	feature	CDS	1217	1333	.	-	0	ID=FNEB6-bin-3.genome.CDS.113;Product=
+FNEB6-bin-3-scaffold_2404	feature	CDS	1059	1172	.	+	0	ID=FNEB6-bin-3.genome.CDS.112;Product=
+FNEB6-bin-3-scaffold_2404	feature	CDS	817	1035	.	-	0	ID=FNEB6-bin-3.genome.CDS.1454;Product=
+FNEB6-bin-3-scaffold_2404	feature	CDS	434	766	.	+	0	ID=FNEB6-bin-3.genome.CDS.1453;Product=
+FNEB6-bin-3-scaffold_2404	feature	CDS	2	316	.	+	0	ID=FNEB6-bin-3.genome.CDS.1452;Product=
+FNEB6-bin-3-scaffold_2479	feature	CDS	6531	6755	.	-	0	ID=FNEB6-bin-3.genome.CDS.1641;Product=Aminomethyltransferase %28glycine cleavage system T protein%29 %28EC 2.1.2.10%29
+FNEB6-bin-3-scaffold_2479	feature	CDS	5767	6534	.	+	0	ID=FNEB6-bin-3.genome.CDS.1640;Product=
+FNEB6-bin-3-scaffold_2479	feature	CDS	4748	5770	.	+	0	ID=FNEB6-bin-3.genome.CDS.1639;Product=Vitamin B12 ABC transporter%2C permease component BtuC
+FNEB6-bin-3-scaffold_2479	feature	CDS	3806	4726	.	+	0	ID=FNEB6-bin-3.genome.CDS.1638;Product=Vitamin B12 ABC transporter%2C B12-binding component BtuF
+FNEB6-bin-3-scaffold_2479	feature	CDS	3017	3529	.	+	0	ID=FNEB6-bin-3.genome.CDS.1637;Product=CblZ%2C a non-orthologous displasment for Alpha-ribazole-5%27-phosphate phosphatase
+FNEB6-bin-3-scaffold_2479	feature	CDS	1858	3012	.	+	0	ID=FNEB6-bin-3.genome.CDS.1636;Product=Quinolinate synthetase %28EC 2.5.1.72%29
+FNEB6-bin-3-scaffold_2479	feature	CDS	1421	1786	.	-	0	ID=FNEB6-bin-3.genome.CDS.1635;Product=probable iron binding protein from the HesB_IscA_SufA family
+FNEB6-bin-3-scaffold_2479	feature	CDS	418	1404	.	-	0	ID=FNEB6-bin-3.genome.CDS.1634;Product=putative Adenosine kinase %28EC 2.7.1.20%29
+FNEB6-bin-3-scaffold_2479	feature	CDS	224	421	.	+	0	ID=FNEB6-bin-3.genome.CDS.1633;Product=
+FNEB6-bin-3-scaffold_2479	feature	CDS	3	224	.	+	0	ID=FNEB6-bin-3.genome.CDS.1632;Product=
+FNEB6-bin-3-scaffold_2507	feature	CDS	10541	10891	.	+	0	ID=FNEB6-bin-3.genome.CDS.2424;Product=Cytochrome oxidase biogenesis protein Sco1/SenC/PrrC%2C putative copper metallochaperone
+FNEB6-bin-3-scaffold_2507	feature	CDS	9642	10544	.	+	0	ID=FNEB6-bin-3.genome.CDS.2423;Product=hypothetical protein
+FNEB6-bin-3-scaffold_2507	feature	CDS	9085	9639	.	+	0	ID=FNEB6-bin-3.genome.CDS.2422;Product=LemA protein
+FNEB6-bin-3-scaffold_2507	feature	CDS	8460	9038	.	+	0	ID=FNEB6-bin-3.genome.CDS.2421;Product=Deoxycytidine triphosphate deaminase %28EC 3.5.4.13%29
+FNEB6-bin-3-scaffold_2507	feature	CDS	7658	8416	.	-	0	ID=FNEB6-bin-3.genome.CDS.2420;Product=hypothetical protein
+FNEB6-bin-3-scaffold_2507	feature	CDS	7134	7637	.	-	0	ID=FNEB6-bin-3.genome.CDS.1029;Product=hypothetical protein
+FNEB6-bin-3-scaffold_2507	feature	CDS	6647	7141	.	-	0	ID=FNEB6-bin-3.genome.CDS.2418;Product=Carbonic anhydrase %28EC 4.2.1.1%29
+FNEB6-bin-3-scaffold_2507	feature	CDS	5250	6650	.	+	0	ID=FNEB6-bin-3.genome.CDS.2417;Product=Replicative DNA helicase %28DnaB%29 %28EC 3.6.4.12%29
+FNEB6-bin-3-scaffold_2507	feature	CDS	4524	4970	.	+	0	ID=FNEB6-bin-3.genome.CDS.2416;Product=LSU ribosomal protein L9p
+FNEB6-bin-3-scaffold_2507	feature	CDS	4222	4509	.	+	0	ID=FNEB6-bin-3.genome.CDS.2415;Product=SSU ribosomal protein S18p %40 SSU ribosomal protein S18p%2C zinc-dependent
+FNEB6-bin-3-scaffold_2507	feature	CDS	3663	4157	.	+	0	ID=FNEB6-bin-3.genome.CDS.2414;Product=Single-stranded DNA-binding protein
+FNEB6-bin-3-scaffold_2507	feature	CDS	3338	3634	.	+	0	ID=FNEB6-bin-3.genome.CDS.2413;Product=SSU ribosomal protein S6p
+FNEB6-bin-3-scaffold_2507	feature	CDS	2975	3214	.	+	0	ID=FNEB6-bin-3.genome.CDS.1022;Product=
+FNEB6-bin-3-scaffold_2507	feature	CDS	1962	2954	.	+	0	ID=FNEB6-bin-3.genome.CDS.1021;Product=hypothetical protein
+FNEB6-bin-3-scaffold_2507	feature	CDS	3	1958	.	+	0	ID=FNEB6-bin-3.genome.CDS.2410;Product=Multimodular transpeptidase-transglycosylase %28EC 2.4.1.129%29 %28EC 3.4.-.-%29
+FNEB6-bin-3-scaffold_2527	feature	CDS	5564	7318	.	-	0	ID=FNEB6-bin-3.genome.CDS.1445;Product=Aldehyde dehydrogenase %28EC 1.2.1.3%29
+FNEB6-bin-3-scaffold_2527	feature	CDS	3574	5433	.	-	0	ID=FNEB6-bin-3.genome.CDS.1444;Product=hypothetical protein
+FNEB6-bin-3-scaffold_2527	feature	CDS	120	3560	.	-	0	ID=FNEB6-bin-3.genome.CDS.1443;Product=hypothetical protein
+FNEB6-bin-3-scaffold_25279	feature	CDS	1960	2799	.	+	0	ID=FNEB6-bin-3.genome.CDS.1350;Product=Shikimate DH-like protein associated with RibB / Shikimate 5-dehydrogenase I alpha %28EC 1.1.1.25%29
+FNEB6-bin-3-scaffold_25279	feature	CDS	1280	1912	.	-	0	ID=FNEB6-bin-3.genome.CDS.1349;Product=Pantothenate kinase %28EC 2.7.1.33%29
+FNEB6-bin-3-scaffold_25279	feature	CDS	3	1280	.	-	0	ID=FNEB6-bin-3.genome.CDS.1348;Product=Glucose-methanol-choline %28GMC%29 oxidoreductase:NAD binding site
+FNEB6-bin-3-scaffold_25365	feature	misc_RNA	1	111	.	+	.	ID=FNEB6-bin-3.genome.repeat.11;Product=repeat region
+FNEB6-bin-3-scaffold_25365	feature	misc_RNA	146	290	.	+	.	ID=FNEB6-bin-3.genome.repeat.12;Product=repeat region
+FNEB6-bin-3-scaffold_25365	feature	CDS	2407	2754	.	-	0	ID=FNEB6-bin-3.genome.CDS.1347;Product=
+FNEB6-bin-3-scaffold_25365	feature	CDS	1969	2406	.	+	0	ID=FNEB6-bin-3.genome.CDS.1346;Product=Peptide methionine sulfoxide reductase MsrB %28EC 1.8.4.12%29
+FNEB6-bin-3-scaffold_25365	feature	CDS	271	1938	.	+	0	ID=FNEB6-bin-3.genome.CDS.1345;Product=hypothetical protein
+FNEB6-bin-3-scaffold_25365	feature	tRNA	150	225	.	-	.	ID=FNEB6-bin-3.genome.rna.1;Product=tRNA-Thr-GGT
+FNEB6-bin-3-scaffold_25365	feature	tRNA	16	92	.	-	.	ID=FNEB6-bin-3.genome.rna.2;Product=tRNA-Met-CAT
+FNEB6-bin-3-scaffold_2557	feature	CDS	3287	4615	.	+	0	ID=FNEB6-bin-3.genome.CDS.2258;Product=Excinuclease ABC subunit A
+FNEB6-bin-3-scaffold_2557	feature	CDS	1203	3290	.	+	0	ID=FNEB6-bin-3.genome.CDS.2257;Product=Excinuclease ABC subunit B
+FNEB6-bin-3-scaffold_2557	feature	CDS	595	1203	.	+	0	ID=FNEB6-bin-3.genome.CDS.2256;Product=Dephospho-CoA kinase %28EC 2.7.1.24%29
+FNEB6-bin-3-scaffold_2557	feature	CDS	1	492	.	+	0	ID=FNEB6-bin-3.genome.CDS.2255;Product=SSU ribosomal protein S1p
+FNEB6-bin-3-scaffold_25732	feature	CDS	4135	4431	.	-	0	ID=FNEB6-bin-3.genome.CDS.2621;Product=Diaminopimelate epimerase %28EC 5.1.1.7%29
+FNEB6-bin-3-scaffold_25732	feature	CDS	2690	4138	.	-	0	ID=FNEB6-bin-3.genome.CDS.2620;Product=GTP-binding protein HflX
+FNEB6-bin-3-scaffold_25732	feature	CDS	2031	2690	.	-	0	ID=FNEB6-bin-3.genome.CDS.2619;Product=hypothetical protein
+FNEB6-bin-3-scaffold_25732	feature	CDS	438	2021	.	-	0	ID=FNEB6-bin-3.genome.CDS.2618;Product=Serine hydroxymethyltransferase %28EC 2.1.2.1%29
+FNEB6-bin-3-scaffold_25732	feature	CDS	3	413	.	-	0	ID=FNEB6-bin-3.genome.CDS.2617;Product=Undecaprenyl-phosphate N-acetylglucosaminyl 1-phosphate transferase %28EC 2.7.8.-%29
+FNEB6-bin-3-scaffold_2578	feature	CDS	4885	5067	.	-	0	ID=FNEB6-bin-3.genome.CDS.2150;Product=Response regulator NasT
+FNEB6-bin-3-scaffold_2578	feature	CDS	3545	4708	.	-	0	ID=FNEB6-bin-3.genome.CDS.2149;Product=Branched-chain amino acid ABC transporter%2C amino acid-binding protein %28TC 3.A.1.4.1%29
+FNEB6-bin-3-scaffold_2578	feature	CDS	2391	3248	.	-	0	ID=FNEB6-bin-3.genome.CDS.2148;Product=High-affinity branched-chain amino acid transport system permease protein LivH %28TC 3.A.1.4.1%29
+FNEB6-bin-3-scaffold_2578	feature	CDS	1337	2383	.	-	0	ID=FNEB6-bin-3.genome.CDS.2147;Product=Branched-chain amino acid transport system permease protein LivM %28TC 3.A.1.4.1%29
+FNEB6-bin-3-scaffold_2578	feature	CDS	568	1344	.	-	0	ID=FNEB6-bin-3.genome.CDS.2146;Product=Branched-chain amino acid transport ATP-binding protein LivG %28TC 3.A.1.4.1%29
+FNEB6-bin-3-scaffold_2578	feature	CDS	3	578	.	-	0	ID=FNEB6-bin-3.genome.CDS.2145;Product=Branched-chain amino acid transport ATP-binding protein LivF %28TC 3.A.1.4.1%29
+FNEB6-bin-3-scaffold_2612	feature	CDS	11681	11812	.	-	0	ID=FNEB6-bin-3.genome.CDS.1730;Product=Exopolyphosphatase %28EC 3.6.1.11%29
+FNEB6-bin-3-scaffold_2612	feature	CDS	10974	11675	.	-	0	ID=FNEB6-bin-3.genome.CDS.370;Product=Uracil-DNA glycosylase%2C family 5
+FNEB6-bin-3-scaffold_2612	feature	CDS	10316	10993	.	+	0	ID=FNEB6-bin-3.genome.CDS.1728;Product=putative integral membrane protein
+FNEB6-bin-3-scaffold_2612	feature	CDS	9910	10323	.	+	0	ID=FNEB6-bin-3.genome.CDS.1727;Product=
+FNEB6-bin-3-scaffold_2612	feature	CDS	8676	9923	.	+	0	ID=FNEB6-bin-3.genome.CDS.1726;Product=Aminotransferase class-III
+FNEB6-bin-3-scaffold_2612	feature	CDS	7170	8600	.	-	0	ID=FNEB6-bin-3.genome.CDS.1725;Product=Enoyl-%5Bacyl-carrier-protein%5D reductase %5BFMN%5D %28EC 1.3.1.9%29
+FNEB6-bin-3-scaffold_2612	feature	CDS	6228	7124	.	-	0	ID=FNEB6-bin-3.genome.CDS.1724;Product=
+FNEB6-bin-3-scaffold_2612	feature	CDS	5998	6189	.	-	0	ID=FNEB6-bin-3.genome.CDS.1723;Product=
+FNEB6-bin-3-scaffold_2612	feature	CDS	5697	5996	.	+	0	ID=FNEB6-bin-3.genome.CDS.1722;Product=
+FNEB6-bin-3-scaffold_2612	feature	CDS	5248	5673	.	+	0	ID=FNEB6-bin-3.genome.CDS.362;Product=
+FNEB6-bin-3-scaffold_2612	feature	CDS	4243	5196	.	-	0	ID=FNEB6-bin-3.genome.CDS.1721;Product=Fructose-1%2C6-bisphosphatase%2C GlpX type %28EC 3.1.3.11%29
+FNEB6-bin-3-scaffold_2612	feature	CDS	3678	4097	.	-	0	ID=FNEB6-bin-3.genome.CDS.1720;Product=Organic hydroperoxide resistance protein
+FNEB6-bin-3-scaffold_2612	feature	CDS	2298	3551	.	-	0	ID=FNEB6-bin-3.genome.CDS.1719;Product=Ammonium transporter
+FNEB6-bin-3-scaffold_2612	feature	CDS	1951	2289	.	-	0	ID=FNEB6-bin-3.genome.CDS.1718;Product=Nitrogen regulatory protein P-II
+FNEB6-bin-3-scaffold_2612	feature	CDS	1601	1954	.	+	0	ID=FNEB6-bin-3.genome.CDS.1717;Product=hypothetical protein
+FNEB6-bin-3-scaffold_2612	feature	CDS	41	1279	.	+	0	ID=FNEB6-bin-3.genome.CDS.1716;Product=major facilitator superfamily MFS_1
+FNEB6-bin-3-scaffold_2626	feature	CDS	15242	16795	.	-	0	ID=FNEB6-bin-3.genome.CDS.2665;Product=DNA gyrase subunit A %28EC 5.99.1.3%29
+FNEB6-bin-3-scaffold_2626	feature	CDS	14866	15219	.	-	0	ID=FNEB6-bin-3.genome.CDS.2664;Product=DNA gyrase subunit A %28EC 5.99.1.3%29
+FNEB6-bin-3-scaffold_2626	feature	tRNA	14701	14778	.	-	.	ID=FNEB6-bin-3.genome.rna.27;Product=tRNA-Ile-GAT
+FNEB6-bin-3-scaffold_2626	feature	tRNA	14553	14628	.	-	.	ID=FNEB6-bin-3.genome.rna.28;Product=tRNA-Ala-TGC
+FNEB6-bin-3-scaffold_2626	feature	CDS	14049	14516	.	-	0	ID=FNEB6-bin-3.genome.CDS.2663;Product=Peptidyl-prolyl cis-trans isomerase %28EC 5.2.1.8%29
+FNEB6-bin-3-scaffold_2626	feature	CDS	13432	14025	.	-	0	ID=FNEB6-bin-3.genome.CDS.2662;Product=
+FNEB6-bin-3-scaffold_2626	feature	CDS	11489	13309	.	-	0	ID=FNEB6-bin-3.genome.CDS.2661;Product=Chaperone protein DnaK
+FNEB6-bin-3-scaffold_2626	feature	CDS	10983	11480	.	-	0	ID=FNEB6-bin-3.genome.CDS.2660;Product=Heat shock protein GrpE
+FNEB6-bin-3-scaffold_2626	feature	CDS	9896	10585	.	-	0	ID=FNEB6-bin-3.genome.CDS.2659;Product=Chaperone protein DnaJ
+FNEB6-bin-3-scaffold_2626	feature	CDS	9516	9899	.	-	0	ID=FNEB6-bin-3.genome.CDS.2658;Product=HspR%2C transcriptional repressor of DnaK operon
+FNEB6-bin-3-scaffold_2626	feature	CDS	8973	9506	.	-	0	ID=FNEB6-bin-3.genome.CDS.2657;Product=Orotate phosphoribosyltransferase %28EC 2.4.2.10%29
+FNEB6-bin-3-scaffold_2626	feature	CDS	8568	8969	.	+	0	ID=FNEB6-bin-3.genome.CDS.1251;Product=
+FNEB6-bin-3-scaffold_2626	feature	CDS	8072	8575	.	+	0	ID=FNEB6-bin-3.genome.CDS.1250;Product=
+FNEB6-bin-3-scaffold_2626	feature	CDS	5670	7931	.	-	0	ID=FNEB6-bin-3.genome.CDS.2654;Product=Pyrophosphate-energized proton pump %28EC 3.6.1.1%29
+FNEB6-bin-3-scaffold_2626	feature	CDS	5262	5627	.	-	0	ID=FNEB6-bin-3.genome.CDS.2653;Product=DNA topoisomerase I %28EC 5.99.1.2%29
+FNEB6-bin-3-scaffold_2626	feature	CDS	2825	5269	.	-	0	ID=FNEB6-bin-3.genome.CDS.2652;Product=DNA topoisomerase I %28EC 5.99.1.2%29
+FNEB6-bin-3-scaffold_2626	feature	CDS	2616	2810	.	-	0	ID=FNEB6-bin-3.genome.CDS.2651;Product=
+FNEB6-bin-3-scaffold_2626	feature	CDS	1458	2606	.	-	0	ID=FNEB6-bin-3.genome.CDS.2650;Product=domain of unknown function / Thymidylate kinase %28EC 2.7.4.9%29
+FNEB6-bin-3-scaffold_2626	feature	CDS	344	1351	.	-	0	ID=FNEB6-bin-3.genome.CDS.1244;Product=Thymidylate kinase %28EC 2.7.4.9%29
+FNEB6-bin-3-scaffold_2626	feature	CDS	3	344	.	-	0	ID=FNEB6-bin-3.genome.CDS.2648;Product=DNA polymerase III delta prime subunit %28EC 2.7.7.7%29
+FNEB6-bin-3-scaffold_271	feature	CDS	36504	36593	.	+	0	ID=FNEB6-bin-3.genome.CDS.1705;Product=ATP phosphoribosyltransferase %28EC 2.4.2.17%29
+FNEB6-bin-3-scaffold_271	feature	CDS	36211	36474	.	+	0	ID=FNEB6-bin-3.genome.CDS.1704;Product=Phosphoribosyl-ATP pyrophosphatase %28EC 3.6.1.31%29
+FNEB6-bin-3-scaffold_271	feature	CDS	35508	36170	.	+	0	ID=FNEB6-bin-3.genome.CDS.1703;Product=Ribulose-phosphate 3-epimerase %28EC 5.1.3.1%29
+FNEB6-bin-3-scaffold_271	feature	CDS	34915	35478	.	+	0	ID=FNEB6-bin-3.genome.CDS.1702;Product=16S rRNA %28cytosine%28967%29-C%285%29%29-methyltransferase %28EC 2.1.1.176%29
+FNEB6-bin-3-scaffold_271	feature	CDS	33965	34912	.	+	0	ID=FNEB6-bin-3.genome.CDS.1701;Product=16S rRNA %28cytosine%28967%29-C%285%29%29-methyltransferase %28EC 2.1.1.176%29
+FNEB6-bin-3-scaffold_271	feature	CDS	33038	33958	.	+	0	ID=FNEB6-bin-3.genome.CDS.1700;Product=Methionyl-tRNA formyltransferase %28EC 2.1.2.9%29
+FNEB6-bin-3-scaffold_271	feature	CDS	32472	33032	.	+	0	ID=FNEB6-bin-3.genome.CDS.1699;Product=Peptide deformylase %28EC 3.5.1.88%29
+FNEB6-bin-3-scaffold_271	feature	CDS	30553	32430	.	+	0	ID=FNEB6-bin-3.genome.CDS.1698;Product=hypothetical protein
+FNEB6-bin-3-scaffold_271	feature	CDS	29279	30424	.	+	0	ID=FNEB6-bin-3.genome.CDS.1697;Product=S-adenosylmethionine synthetase %28EC 2.5.1.6%29
+FNEB6-bin-3-scaffold_271	feature	CDS	28087	29274	.	+	0	ID=FNEB6-bin-3.genome.CDS.1696;Product=Phosphopantothenoylcysteine decarboxylase %28EC 4.1.1.36%29 / Phosphopantothenoylcysteine synthetase %28EC 6.3.2.5%29
+FNEB6-bin-3-scaffold_271	feature	CDS	27789	28067	.	+	0	ID=FNEB6-bin-3.genome.CDS.1695;Product=DNA-directed RNA polymerase omega subunit %28EC 2.7.7.6%29
+FNEB6-bin-3-scaffold_271	feature	CDS	26920	27753	.	+	0	ID=FNEB6-bin-3.genome.CDS.1694;Product=Guanylate kinase %28EC 2.7.4.8%29
+FNEB6-bin-3-scaffold_271	feature	CDS	26183	26881	.	+	0	ID=FNEB6-bin-3.genome.CDS.1693;Product=Orotidine 5%27-phosphate decarboxylase %28EC 4.1.1.23%29
+FNEB6-bin-3-scaffold_271	feature	CDS	25246	26190	.	+	0	ID=FNEB6-bin-3.genome.CDS.1692;Product=Dihydroorotate dehydrogenase%2C catalytic subunit %28EC 1.3.3.1%29
+FNEB6-bin-3-scaffold_271	feature	CDS	24389	25249	.	+	0	ID=FNEB6-bin-3.genome.CDS.1691;Product=Dihydroorotate dehydrogenase electron transfer subunit %28EC 1.3.3.1%29
+FNEB6-bin-3-scaffold_271	feature	CDS	21119	24388	.	+	0	ID=FNEB6-bin-3.genome.CDS.1690;Product=Carbamoyl-phosphate synthase large chain %28EC 6.3.5.5%29
+FNEB6-bin-3-scaffold_271	feature	CDS	20053	21126	.	+	0	ID=FNEB6-bin-3.genome.CDS.331;Product=Carbamoyl-phosphate synthase small chain %28EC 6.3.5.5%29
+FNEB6-bin-3-scaffold_271	feature	CDS	18765	20060	.	+	0	ID=FNEB6-bin-3.genome.CDS.1688;Product=Dihydroorotase %28EC 3.5.2.3%29
+FNEB6-bin-3-scaffold_271	feature	CDS	17815	18768	.	+	0	ID=FNEB6-bin-3.genome.CDS.1687;Product=Aspartate carbamoyltransferase %28EC 2.1.3.2%29
+FNEB6-bin-3-scaffold_271	feature	CDS	17291	17818	.	+	0	ID=FNEB6-bin-3.genome.CDS.1686;Product=Uracil phosphoribosyltransferase %28EC 2.4.2.9%29 / Pyrimidine operon regulatory protein PyrR
+FNEB6-bin-3-scaffold_271	feature	CDS	16773	17180	.	+	0	ID=FNEB6-bin-3.genome.CDS.1685;Product=Transcription termination protein NusB
+FNEB6-bin-3-scaffold_271	feature	CDS	16191	16754	.	+	0	ID=FNEB6-bin-3.genome.CDS.1684;Product=Translation elongation factor P
+FNEB6-bin-3-scaffold_271	feature	CDS	15742	16170	.	+	0	ID=FNEB6-bin-3.genome.CDS.1683;Product=3-dehydroquinate dehydratase II %28EC 4.2.1.10%29
+FNEB6-bin-3-scaffold_271	feature	CDS	14684	15745	.	+	0	ID=FNEB6-bin-3.genome.CDS.1682;Product=3-dehydroquinate synthase %28EC 4.2.3.4%29
+FNEB6-bin-3-scaffold_271	feature	CDS	14175	14687	.	+	0	ID=FNEB6-bin-3.genome.CDS.1681;Product=Shikimate kinase I %28EC 2.7.1.71%29
+FNEB6-bin-3-scaffold_271	feature	CDS	12990	14174	.	+	0	ID=FNEB6-bin-3.genome.CDS.1680;Product=Chorismate synthase %28EC 4.2.3.5%29
+FNEB6-bin-3-scaffold_271	feature	CDS	12565	12972	.	+	0	ID=FNEB6-bin-3.genome.CDS.1679;Product=
+FNEB6-bin-3-scaffold_271	feature	CDS	11724	12515	.	+	0	ID=FNEB6-bin-3.genome.CDS.1678;Product=Shikimate 5-dehydrogenase I alpha %28EC 1.1.1.25%29
+FNEB6-bin-3-scaffold_271	feature	CDS	10690	11727	.	+	0	ID=FNEB6-bin-3.genome.CDS.1677;Product=FIG004453: protein YceG like
+FNEB6-bin-3-scaffold_271	feature	CDS	10262	10693	.	+	0	ID=FNEB6-bin-3.genome.CDS.1676;Product=
+FNEB6-bin-3-scaffold_271	feature	CDS	9057	10256	.	+	0	ID=FNEB6-bin-3.genome.CDS.1675;Product=Alanyl-tRNA synthetase %28EC 6.1.1.7%29
+FNEB6-bin-3-scaffold_271	feature	CDS	7423	9042	.	+	0	ID=FNEB6-bin-3.genome.CDS.1674;Product=Alanyl-tRNA synthetase %28EC 6.1.1.7%29
+FNEB6-bin-3-scaffold_271	feature	CDS	7134	7418	.	+	0	ID=FNEB6-bin-3.genome.CDS.1673;Product=hypothetical protein
+FNEB6-bin-3-scaffold_271	feature	CDS	5617	7092	.	+	0	ID=FNEB6-bin-3.genome.CDS.314;Product=Aspartyl-tRNA synthetase %28EC 6.1.1.12%29 %40 Aspartyl-tRNA%28Asn%29 synthetase %28EC 6.1.1.23%29
+FNEB6-bin-3-scaffold_271	feature	CDS	4943	5611	.	+	0	ID=FNEB6-bin-3.genome.CDS.1671;Product=Aspartyl-tRNA synthetase %28EC 6.1.1.12%29 %40 Aspartyl-tRNA%28Asn%29 synthetase %28EC 6.1.1.23%29
+FNEB6-bin-3-scaffold_271	feature	CDS	4337	4942	.	+	0	ID=FNEB6-bin-3.genome.CDS.1670;Product=Histidyl-tRNA synthetase %28EC 6.1.1.21%29
+FNEB6-bin-3-scaffold_271	feature	CDS	3573	4382	.	+	0	ID=FNEB6-bin-3.genome.CDS.1669;Product=Histidyl-tRNA synthetase %28EC 6.1.1.21%29
+FNEB6-bin-3-scaffold_271	feature	CDS	2995	3576	.	+	0	ID=FNEB6-bin-3.genome.CDS.1668;Product=Hydroxyacylglutathione hydrolase %28EC 3.1.2.6%29
+FNEB6-bin-3-scaffold_271	feature	CDS	1369	2700	.	-	0	ID=FNEB6-bin-3.genome.CDS.1667;Product=ATPase involved in DNA repair
+FNEB6-bin-3-scaffold_271	feature	CDS	1	1365	.	+	0	ID=FNEB6-bin-3.genome.CDS.1666;Product=GTP pyrophosphokinase %28EC 2.7.6.5%29%2C %28p%29ppGpp synthetase I
+FNEB6-bin-3-scaffold_2750	feature	misc_RNA	1	111	.	+	.	ID=FNEB6-bin-3.genome.repeat.18;Product=repeat region
+FNEB6-bin-3-scaffold_2750	feature	CDS	4766	5011	.	-	0	ID=FNEB6-bin-3.genome.CDS.2265;Product=
+FNEB6-bin-3-scaffold_2750	feature	CDS	4526	4765	.	+	0	ID=FNEB6-bin-3.genome.CDS.2264;Product=
+FNEB6-bin-3-scaffold_2750	feature	CDS	3670	4443	.	+	0	ID=FNEB6-bin-3.genome.CDS.2263;Product=Proteorhodopsin
+FNEB6-bin-3-scaffold_2750	feature	CDS	3192	3503	.	+	0	ID=FNEB6-bin-3.genome.CDS.876;Product=
+FNEB6-bin-3-scaffold_2750	feature	CDS	2645	3076	.	+	0	ID=FNEB6-bin-3.genome.CDS.2261;Product=Peptide methionine sulfoxide reductase MsrB %28EC 1.8.4.12%29
+FNEB6-bin-3-scaffold_2750	feature	CDS	1937	2620	.	+	0	ID=FNEB6-bin-3.genome.CDS.2260;Product=hypothetical protein
+FNEB6-bin-3-scaffold_2750	feature	CDS	276	1940	.	+	0	ID=FNEB6-bin-3.genome.CDS.2259;Product=hypothetical protein
+FNEB6-bin-3-scaffold_2750	feature	tRNA	155	230	.	-	.	ID=FNEB6-bin-3.genome.rna.13;Product=tRNA-Thr-GGT
+FNEB6-bin-3-scaffold_2750	feature	tRNA	16	92	.	-	.	ID=FNEB6-bin-3.genome.rna.14;Product=tRNA-Met-CAT
+FNEB6-bin-3-scaffold_27501	feature	CDS	4001	4627	.	+	0	ID=FNEB6-bin-3.genome.CDS.1344;Product=GTP cyclohydrolase I %28EC 3.5.4.16%29 type 1
+FNEB6-bin-3-scaffold_27501	feature	CDS	1922	3997	.	+	0	ID=FNEB6-bin-3.genome.CDS.1343;Product=Cell division protein FtsH %28EC 3.4.24.-%29
+FNEB6-bin-3-scaffold_27501	feature	CDS	1374	1925	.	+	0	ID=FNEB6-bin-3.genome.CDS.1342;Product=Hypoxanthine-guanine phosphoribosyltransferase %28EC 2.4.2.8%29
+FNEB6-bin-3-scaffold_27501	feature	CDS	380	1330	.	+	0	ID=FNEB6-bin-3.genome.CDS.1341;Product=tRNA%28Ile%29-lysidine synthetase %28EC 6.3.4.19%29
+FNEB6-bin-3-scaffold_27501	feature	CDS	2	376	.	+	0	ID=FNEB6-bin-3.genome.CDS.1340;Product=hypothetical protein
+FNEB6-bin-3-scaffold_2752	feature	misc_RNA	8358	8521	.	+	.	ID=FNEB6-bin-3.genome.repeat.10;Product=repeat region
+FNEB6-bin-3-scaffold_2752	feature	CDS	10220	12085	.	+	0	ID=FNEB6-bin-3.genome.CDS.1433;Product=Cytochrome c oxidase polypeptide I %28EC 1.9.3.1%29
+FNEB6-bin-3-scaffold_2752	feature	CDS	9420	10223	.	+	0	ID=FNEB6-bin-3.genome.CDS.1432;Product=
+FNEB6-bin-3-scaffold_2752	feature	CDS	8691	9419	.	+	0	ID=FNEB6-bin-3.genome.CDS.1431;Product=
+FNEB6-bin-3-scaffold_2752	feature	CDS	8305	8550	.	-	0	ID=FNEB6-bin-3.genome.CDS.1430;Product=
+FNEB6-bin-3-scaffold_2752	feature	CDS	7518	8300	.	-	0	ID=FNEB6-bin-3.genome.CDS.1429;Product=
+FNEB6-bin-3-scaffold_2752	feature	CDS	7275	7517	.	-	0	ID=FNEB6-bin-3.genome.CDS.1428;Product=
+FNEB6-bin-3-scaffold_2752	feature	CDS	6118	7221	.	-	0	ID=FNEB6-bin-3.genome.CDS.1427;Product=
+FNEB6-bin-3-scaffold_2752	feature	CDS	4454	6121	.	+	0	ID=FNEB6-bin-3.genome.CDS.1426;Product=L-O-lysylphosphatidylglycerol synthase %28EC 2.3.2.3%29
+FNEB6-bin-3-scaffold_2752	feature	CDS	4053	4454	.	+	0	ID=FNEB6-bin-3.genome.CDS.82;Product=surface antigen gene
+FNEB6-bin-3-scaffold_2752	feature	CDS	3188	4051	.	+	0	ID=FNEB6-bin-3.genome.CDS.1424;Product=surface antigen gene
+FNEB6-bin-3-scaffold_2752	feature	CDS	2487	3176	.	+	0	ID=FNEB6-bin-3.genome.CDS.1423;Product=hypothetical protein
+FNEB6-bin-3-scaffold_2752	feature	CDS	1465	2397	.	-	0	ID=FNEB6-bin-3.genome.CDS.1422;Product=
+FNEB6-bin-3-scaffold_2752	feature	CDS	836	1468	.	+	0	ID=FNEB6-bin-3.genome.CDS.1421;Product=SpoU rRNA methylase family protein
+FNEB6-bin-3-scaffold_2752	feature	CDS	3	785	.	-	0	ID=FNEB6-bin-3.genome.CDS.1420;Product=
+FNEB6-bin-3-scaffold_2771	feature	CDS	7341	8165	.	-	0	ID=FNEB6-bin-3.genome.CDS.2144;Product=hypothetical protein
+FNEB6-bin-3-scaffold_2771	feature	CDS	5240	7348	.	+	0	ID=FNEB6-bin-3.genome.CDS.765;Product=Predicted D-lactate dehydrogenase%2C Fe-S protein%2C FAD/FMN-containing
+FNEB6-bin-3-scaffold_2771	feature	CDS	4410	5120	.	+	0	ID=FNEB6-bin-3.genome.CDS.2142;Product=Predicted D-lactate dehydrogenase%2C Fe-S protein%2C FAD/FMN-containing
+FNEB6-bin-3-scaffold_2771	feature	CDS	3365	4375	.	+	0	ID=FNEB6-bin-3.genome.CDS.2141;Product=FIG00474716: hypothetical protein
+FNEB6-bin-3-scaffold_2771	feature	CDS	1009	3243	.	-	0	ID=FNEB6-bin-3.genome.CDS.2140;Product=Catalase %28EC 1.11.1.6%29 / Peroxidase %28EC 1.11.1.7%29
+FNEB6-bin-3-scaffold_2771	feature	tRNA	921	998	.	+	.	ID=FNEB6-bin-3.genome.rna.11;Product=tRNA-Pseudo-GTA
+FNEB6-bin-3-scaffold_2771	feature	CDS	447	725	.	-	0	ID=FNEB6-bin-3.genome.CDS.2139;Product=
+FNEB6-bin-3-scaffold_28252	feature	CDS	9212	9475	.	-	0	ID=FNEB6-bin-3.genome.CDS.2254;Product=
+FNEB6-bin-3-scaffold_28252	feature	CDS	8689	9207	.	+	0	ID=FNEB6-bin-3.genome.CDS.2253;Product=
+FNEB6-bin-3-scaffold_28252	feature	CDS	8364	8624	.	-	0	ID=FNEB6-bin-3.genome.CDS.2252;Product=
+FNEB6-bin-3-scaffold_28252	feature	CDS	8097	8363	.	-	0	ID=FNEB6-bin-3.genome.CDS.2251;Product=
+FNEB6-bin-3-scaffold_28252	feature	CDS	7611	8093	.	+	0	ID=FNEB6-bin-3.genome.CDS.2250;Product=
+FNEB6-bin-3-scaffold_28252	feature	CDS	7093	7614	.	+	0	ID=FNEB6-bin-3.genome.CDS.2249;Product=
+FNEB6-bin-3-scaffold_28252	feature	CDS	6395	7096	.	+	0	ID=FNEB6-bin-3.genome.CDS.2248;Product=Endonuclease III %28EC 4.2.99.18%29
+FNEB6-bin-3-scaffold_28252	feature	CDS	5533	6324	.	-	0	ID=FNEB6-bin-3.genome.CDS.2247;Product=cAMP-binding proteins - catabolite gene activator and regulatory subunit of cAMP-dependent protein kinases
+FNEB6-bin-3-scaffold_28252	feature	CDS	5066	5524	.	+	0	ID=FNEB6-bin-3.genome.CDS.2246;Product=RidA/YER057c/UK114 superfamily%2C group 1
+FNEB6-bin-3-scaffold_28252	feature	CDS	4910	5065	.	+	0	ID=FNEB6-bin-3.genome.CDS.2245;Product=FIG011121: hypothetical protein
+FNEB6-bin-3-scaffold_28252	feature	CDS	4358	4816	.	+	0	ID=FNEB6-bin-3.genome.CDS.2244;Product=Transamidase GatB domain protein
+FNEB6-bin-3-scaffold_28252	feature	CDS	3522	4343	.	-	0	ID=FNEB6-bin-3.genome.CDS.2243;Product=putative secreted protein
+FNEB6-bin-3-scaffold_28252	feature	CDS	3240	3518	.	+	0	ID=FNEB6-bin-3.genome.CDS.858;Product=Aspartate-semialdehyde dehydrogenase %28EC 1.2.1.11%29
+FNEB6-bin-3-scaffold_28252	feature	CDS	2411	3256	.	+	0	ID=FNEB6-bin-3.genome.CDS.2241;Product=Aspartate-semialdehyde dehydrogenase %28EC 1.2.1.11%29
+FNEB6-bin-3-scaffold_28252	feature	CDS	1149	2414	.	+	0	ID=FNEB6-bin-3.genome.CDS.2240;Product=Aspartokinase %28EC 2.7.2.4%29
+FNEB6-bin-3-scaffold_28252	feature	CDS	446	1042	.	+	0	ID=FNEB6-bin-3.genome.CDS.2239;Product=Recombination protein RecR
+FNEB6-bin-3-scaffold_28252	feature	CDS	3	446	.	+	0	ID=FNEB6-bin-3.genome.CDS.2238;Product=DNA polymerase III subunits gamma and tau %28EC 2.7.7.7%29
+FNEB6-bin-3-scaffold_2877	feature	CDS	6978	7304	.	+	0	ID=FNEB6-bin-3.genome.CDS.2445;Product=
+FNEB6-bin-3-scaffold_2877	feature	CDS	5490	6968	.	-	0	ID=FNEB6-bin-3.genome.CDS.2444;Product=Cytosine/purine/uracil/thiamine/allantoin permease family protein
+FNEB6-bin-3-scaffold_2877	feature	CDS	5009	5497	.	-	0	ID=FNEB6-bin-3.genome.CDS.2443;Product=UPF0234 protein YajQ
+FNEB6-bin-3-scaffold_2877	feature	CDS	4102	5001	.	-	0	ID=FNEB6-bin-3.genome.CDS.2442;Product=Protein rarD
+FNEB6-bin-3-scaffold_2877	feature	CDS	3157	4143	.	+	0	ID=FNEB6-bin-3.genome.CDS.2441;Product=Solanesyl diphosphate synthase %28EC 2.5.1.11%29
+FNEB6-bin-3-scaffold_2877	feature	CDS	2474	3157	.	+	0	ID=FNEB6-bin-3.genome.CDS.1047;Product=Demethylmenaquinone methyltransferase %28EC 2.1.1.163%29
+FNEB6-bin-3-scaffold_2877	feature	CDS	1792	2382	.	-	0	ID=FNEB6-bin-3.genome.CDS.2439;Product=Substrate-specific component BioY of biotin ECF transporter
+FNEB6-bin-3-scaffold_2877	feature	CDS	468	1772	.	-	0	ID=FNEB6-bin-3.genome.CDS.2438;Product=Isochorismate synthase %28EC 5.4.4.2%29 %40 Menaquinone-specific isochorismate synthase %28EC 5.4.4.2%29
+FNEB6-bin-3-scaffold_2877	feature	CDS	1	513	.	+	0	ID=FNEB6-bin-3.genome.CDS.2437;Product=2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylic-acid synthase %28EC 2.2.1.9%29
+FNEB6-bin-3-scaffold_28816	feature	misc_RNA	1	588	.	+	.	ID=FNEB6-bin-3.genome.repeat.2;Product=repeat region
+FNEB6-bin-3-scaffold_28816	feature	CDS	1894	2529	.	-	0	ID=FNEB6-bin-3.genome.CDS.2722;Product=Trans%2Cpolycis-decaprenyl diphosphate synthase %28EC 2.5.1.86%29
+FNEB6-bin-3-scaffold_28816	feature	CDS	723	1892	.	+	0	ID=FNEB6-bin-3.genome.CDS.2721;Product=glycosyl transferase group 1
+FNEB6-bin-3-scaffold_28816	feature	CDS	130	726	.	+	0	ID=FNEB6-bin-3.genome.CDS.1312;Product=hypothetical protein
+FNEB6-bin-3-scaffold_2899	feature	misc_RNA	1	493	.	+	.	ID=FNEB6-bin-3.genome.repeat.13;Product=repeat region
+FNEB6-bin-3-scaffold_2899	feature	CDS	6780	7895	.	-	0	ID=FNEB6-bin-3.genome.CDS.1419;Product=Undecaprenyl-phosphate N-acetylglucosaminyl 1-phosphate transferase %28EC 2.7.8.-%29
+FNEB6-bin-3-scaffold_2899	feature	CDS	6341	6787	.	-	0	ID=FNEB6-bin-3.genome.CDS.1418;Product=
+FNEB6-bin-3-scaffold_2899	feature	CDS	6145	6336	.	-	0	ID=FNEB6-bin-3.genome.CDS.1417;Product=ATP synthase protein I
+FNEB6-bin-3-scaffold_2899	feature	CDS	5242	6030	.	-	0	ID=FNEB6-bin-3.genome.CDS.1416;Product=ATP synthase F0 sector subunit a %28EC 3.6.3.14%29
+FNEB6-bin-3-scaffold_2899	feature	CDS	4973	5179	.	-	0	ID=FNEB6-bin-3.genome.CDS.1415;Product=ATP synthase F0 sector subunit c %28EC 3.6.3.14%29
+FNEB6-bin-3-scaffold_2899	feature	CDS	4414	4926	.	-	0	ID=FNEB6-bin-3.genome.CDS.1414;Product=ATP synthase F0 sector subunit b %28EC 3.6.3.14%29
+FNEB6-bin-3-scaffold_2899	feature	CDS	3590	4417	.	-	0	ID=FNEB6-bin-3.genome.CDS.1413;Product=ATP synthase delta chain %28EC 3.6.3.14%29
+FNEB6-bin-3-scaffold_2899	feature	CDS	1924	3534	.	-	0	ID=FNEB6-bin-3.genome.CDS.1412;Product=ATP synthase alpha chain %28EC 3.6.3.14%29
+FNEB6-bin-3-scaffold_2899	feature	CDS	1693	1896	.	+	0	ID=FNEB6-bin-3.genome.CDS.1411;Product=
+FNEB6-bin-3-scaffold_2899	feature	CDS	1444	1539	.	+	0	ID=FNEB6-bin-3.genome.CDS.1410;Product=
+FNEB6-bin-3-scaffold_2899	feature	CDS	3	992	.	-	0	ID=FNEB6-bin-3.genome.CDS.1409;Product=ATP synthase beta chain %28EC 3.6.3.14%29
+FNEB6-bin-3-scaffold_29756	feature	misc_RNA	8663	9176	.	+	.	ID=FNEB6-bin-3.genome.repeat.16;Product=repeat region
+FNEB6-bin-3-scaffold_29756	feature	CDS	7292	9175	.	+	0	ID=FNEB6-bin-3.genome.CDS.2199;Product=Chromosome partition protein smc
+FNEB6-bin-3-scaffold_29756	feature	CDS	6592	7224	.	+	0	ID=FNEB6-bin-3.genome.CDS.2198;Product=Ribonuclease III %28EC 3.1.26.3%29
+FNEB6-bin-3-scaffold_29756	feature	CDS	6369	6542	.	+	0	ID=FNEB6-bin-3.genome.CDS.2197;Product=LSU ribosomal protein L32p %40 LSU ribosomal protein L32p%2C zinc-dependent
+FNEB6-bin-3-scaffold_29756	feature	CDS	5700	6263	.	+	0	ID=FNEB6-bin-3.genome.CDS.2196;Product=COG1399 protein%2C clustered with ribosomal protein L32p
+FNEB6-bin-3-scaffold_29756	feature	CDS	5205	5681	.	+	0	ID=FNEB6-bin-3.genome.CDS.2195;Product=hypothetical protein
+FNEB6-bin-3-scaffold_29756	feature	CDS	4783	5205	.	+	0	ID=FNEB6-bin-3.genome.CDS.2194;Product=Phosphopantetheine adenylyltransferase %28EC 2.7.7.3%29
+FNEB6-bin-3-scaffold_29756	feature	CDS	4476	4778	.	+	0	ID=FNEB6-bin-3.genome.CDS.2193;Product=Phosphopantetheine adenylyltransferase %28EC 2.7.7.3%29
+FNEB6-bin-3-scaffold_29756	feature	CDS	3901	4473	.	+	0	ID=FNEB6-bin-3.genome.CDS.2192;Product=
+FNEB6-bin-3-scaffold_29756	feature	CDS	1696	3894	.	+	0	ID=FNEB6-bin-3.genome.CDS.2191;Product=ATP-dependent DNA helicase RecG %28EC 3.6.1.-%29
+FNEB6-bin-3-scaffold_29756	feature	CDS	1406	1591	.	-	0	ID=FNEB6-bin-3.genome.CDS.2190;Product=LSU ribosomal protein L28p %40 LSU ribosomal protein L28p%2C zinc-dependent
+FNEB6-bin-3-scaffold_29756	feature	CDS	1214	1381	.	+	0	ID=FNEB6-bin-3.genome.CDS.807;Product=
+FNEB6-bin-3-scaffold_29756	feature	CDS	417	1085	.	+	0	ID=FNEB6-bin-3.genome.CDS.2189;Product=Riboflavin transporter PnuX
+FNEB6-bin-3-scaffold_29756	feature	CDS	1	228	.	+	0	ID=FNEB6-bin-3.genome.CDS.2188;Product=
+FNEB6-bin-3-scaffold_2979	feature	misc_RNA	1	116	.	+	.	ID=FNEB6-bin-3.genome.repeat.9;Product=repeat region
+FNEB6-bin-3-scaffold_2979	feature	CDS	13179	13343	.	+	0	ID=FNEB6-bin-3.genome.CDS.2710;Product=Argininosuccinate lyase %28EC 4.3.2.1%29
+FNEB6-bin-3-scaffold_2979	feature	CDS	12700	13179	.	+	0	ID=FNEB6-bin-3.genome.CDS.2709;Product=Arginine pathway regulatory protein ArgR%2C repressor of arg regulon
+FNEB6-bin-3-scaffold_2979	feature	CDS	11517	12707	.	+	0	ID=FNEB6-bin-3.genome.CDS.2708;Product=Acetylornithine aminotransferase %28EC 2.6.1.11%29
+FNEB6-bin-3-scaffold_2979	feature	CDS	10732	11520	.	+	0	ID=FNEB6-bin-3.genome.CDS.2707;Product=Acetylglutamate kinase %28EC 2.7.2.8%29
+FNEB6-bin-3-scaffold_2979	feature	CDS	10214	10735	.	+	0	ID=FNEB6-bin-3.genome.CDS.2706;Product=N-acetyl-gamma-glutamyl-phosphate reductase %28EC 1.2.1.38%29
+FNEB6-bin-3-scaffold_2979	feature	CDS	9658	10047	.	+	0	ID=FNEB6-bin-3.genome.CDS.2705;Product=N-acetyl-gamma-glutamyl-phosphate reductase %28EC 1.2.1.38%29
+FNEB6-bin-3-scaffold_2979	feature	CDS	8720	9610	.	+	0	ID=FNEB6-bin-3.genome.CDS.2704;Product=Phenylalanyl-tRNA synthetase beta chain %28EC 6.1.1.20%29
+FNEB6-bin-3-scaffold_2979	feature	CDS	7095	8387	.	+	0	ID=FNEB6-bin-3.genome.CDS.2703;Product=Phenylalanyl-tRNA synthetase beta chain %28EC 6.1.1.20%29
+FNEB6-bin-3-scaffold_2979	feature	CDS	6067	7098	.	+	0	ID=FNEB6-bin-3.genome.CDS.2702;Product=Phenylalanyl-tRNA synthetase alpha chain %28EC 6.1.1.20%29
+FNEB6-bin-3-scaffold_2979	feature	CDS	5276	6052	.	+	0	ID=FNEB6-bin-3.genome.CDS.2701;Product=
+FNEB6-bin-3-scaffold_2979	feature	CDS	4860	5222	.	+	0	ID=FNEB6-bin-3.genome.CDS.2700;Product=LSU ribosomal protein L20p
+FNEB6-bin-3-scaffold_2979	feature	CDS	4649	4846	.	+	0	ID=FNEB6-bin-3.genome.CDS.2699;Product=LSU ribosomal protein L35p
+FNEB6-bin-3-scaffold_2979	feature	CDS	4018	4620	.	+	0	ID=FNEB6-bin-3.genome.CDS.2698;Product=Translation initiation factor 3
+FNEB6-bin-3-scaffold_2979	feature	CDS	3088	3858	.	+	0	ID=FNEB6-bin-3.genome.CDS.2697;Product=Enoyl-%5Bacyl-carrier-protein%5D reductase %5BNADH%5D %28EC 1.3.1.9%29
+FNEB6-bin-3-scaffold_2979	feature	CDS	2363	3088	.	+	0	ID=FNEB6-bin-3.genome.CDS.2696;Product=3-oxoacyl-%5Bacyl-carrier protein%5D reductase %28EC 1.1.1.100%29
+FNEB6-bin-3-scaffold_2979	feature	CDS	1997	2290	.	-	0	ID=FNEB6-bin-3.genome.CDS.2695;Product=hypothetical protein
+FNEB6-bin-3-scaffold_2979	feature	CDS	117	2000	.	+	0	ID=FNEB6-bin-3.genome.CDS.2694;Product=ABC transporter%2C ATP-binding/permease protein
+FNEB6-bin-3-scaffold_2979	feature	CDS	2	88	.	+	0	ID=FNEB6-bin-3.genome.CDS.2693;Product=PaaD-like protein %28DUF59%29 involved in Fe-S cluster assembly
+FNEB6-bin-3-scaffold_2987	feature	CDS	2751	3278	.	+	0	ID=FNEB6-bin-3.genome.CDS.2727;Product=Hypothetical protein of L-Asparaginase type 2-like superfamily
+FNEB6-bin-3-scaffold_2987	feature	CDS	2105	2605	.	+	0	ID=FNEB6-bin-3.genome.CDS.2726;Product=DUF1794
+FNEB6-bin-3-scaffold_2987	feature	CDS	1989	2105	.	+	0	ID=FNEB6-bin-3.genome.CDS.1318;Product=
+FNEB6-bin-3-scaffold_2987	feature	CDS	1602	1964	.	-	0	ID=FNEB6-bin-3.genome.CDS.2725;Product=FIG01043157: hypothetical protein
+FNEB6-bin-3-scaffold_2987	feature	CDS	1176	1595	.	+	0	ID=FNEB6-bin-3.genome.CDS.2724;Product=hypothetical protein
+FNEB6-bin-3-scaffold_2987	feature	CDS	3	1172	.	+	0	ID=FNEB6-bin-3.genome.CDS.2723;Product=hypothetical protein
+FNEB6-bin-3-scaffold_2998	feature	CDS	2639	2866	.	-	0	ID=FNEB6-bin-3.genome.CDS.1715;Product=
+FNEB6-bin-3-scaffold_2998	feature	CDS	2259	2642	.	-	0	ID=FNEB6-bin-3.genome.CDS.1714;Product=Death on curing protein%2C Doc toxin
+FNEB6-bin-3-scaffold_2998	feature	CDS	1983	2195	.	+	0	ID=FNEB6-bin-3.genome.CDS.1713;Product=
+FNEB6-bin-3-scaffold_2998	feature	CDS	1180	1890	.	+	0	ID=FNEB6-bin-3.genome.CDS.1712;Product=
+FNEB6-bin-3-scaffold_2998	feature	CDS	1	942	.	-	0	ID=FNEB6-bin-3.genome.CDS.1711;Product=4-aminobutyraldehyde dehydrogenase %28EC 1.2.1.19%29
+FNEB6-bin-3-scaffold_30053	feature	CDS	22046	23584	.	+	0	ID=FNEB6-bin-3.genome.CDS.2563;Product=GTP pyrophosphokinase %28EC 2.7.6.5%29%2C %28p%29ppGpp synthetase I
+FNEB6-bin-3-scaffold_30053	feature	CDS	20854	22014	.	+	0	ID=FNEB6-bin-3.genome.CDS.2562;Product=Protein-export membrane protein SecF %28TC 3.A.5.1.1%29
+FNEB6-bin-3-scaffold_30053	feature	CDS	20324	20854	.	+	0	ID=FNEB6-bin-3.genome.CDS.2561;Product=Protein-export membrane protein SecD %28TC 3.A.5.1.1%29
+FNEB6-bin-3-scaffold_30053	feature	CDS	19236	20369	.	+	0	ID=FNEB6-bin-3.genome.CDS.2560;Product=Protein-export membrane protein SecD %28TC 3.A.5.1.1%29
+FNEB6-bin-3-scaffold_30053	feature	CDS	18175	19224	.	+	0	ID=FNEB6-bin-3.genome.CDS.2559;Product=Holliday junction DNA helicase RuvB
+FNEB6-bin-3-scaffold_30053	feature	CDS	17588	18178	.	+	0	ID=FNEB6-bin-3.genome.CDS.2558;Product=Holliday junction DNA helicase RuvA
+FNEB6-bin-3-scaffold_30053	feature	CDS	17052	17591	.	+	0	ID=FNEB6-bin-3.genome.CDS.2557;Product=Crossover junction endodeoxyribonuclease RuvC %28EC 3.1.22.4%29
+FNEB6-bin-3-scaffold_30053	feature	CDS	16287	17039	.	+	0	ID=FNEB6-bin-3.genome.CDS.2556;Product=FIG000859: hypothetical protein YebC
+FNEB6-bin-3-scaffold_30053	feature	CDS	15652	16260	.	+	0	ID=FNEB6-bin-3.genome.CDS.2555;Product=Pyridoxine biosynthesis glutamine amidotransferase%2C glutaminase subunit %28EC 2.4.2.-%29
+FNEB6-bin-3-scaffold_30053	feature	CDS	15412	15630	.	+	0	ID=FNEB6-bin-3.genome.CDS.2554;Product=Pyridoxine biosynthesis glutamine amidotransferase%2C synthase subunit %28EC 2.4.2.-%29
+FNEB6-bin-3-scaffold_30053	feature	CDS	14681	15391	.	+	0	ID=FNEB6-bin-3.genome.CDS.1155;Product=Pyridoxine biosynthesis glutamine amidotransferase%2C synthase subunit %28EC 2.4.2.-%29
+FNEB6-bin-3-scaffold_30053	feature	CDS	13606	14631	.	+	0	ID=FNEB6-bin-3.genome.CDS.2553;Product=hypothetical protein
+FNEB6-bin-3-scaffold_30053	feature	CDS	13103	13609	.	+	0	ID=FNEB6-bin-3.genome.CDS.2552;Product=
+FNEB6-bin-3-scaffold_30053	feature	CDS	11934	13106	.	+	0	ID=FNEB6-bin-3.genome.CDS.2551;Product=Phosphatidylinositol alpha-mannosyltransferase %28EC 2.4.1.57%29
+FNEB6-bin-3-scaffold_30053	feature	CDS	11054	11941	.	+	0	ID=FNEB6-bin-3.genome.CDS.2550;Product=Lauroyl/myristoyl acyltransferase involved in lipid A biosynthesis %28Lauroyl/myristoyl acyltransferase%29
+FNEB6-bin-3-scaffold_30053	feature	CDS	10444	11049	.	+	0	ID=FNEB6-bin-3.genome.CDS.2549;Product=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase %28EC 2.7.8.5%29
+FNEB6-bin-3-scaffold_30053	feature	CDS	9769	10344	.	-	0	ID=FNEB6-bin-3.genome.CDS.2548;Product=
+FNEB6-bin-3-scaffold_30053	feature	CDS	9286	9795	.	+	0	ID=FNEB6-bin-3.genome.CDS.2547;Product=
+FNEB6-bin-3-scaffold_30053	feature	CDS	7266	9257	.	+	0	ID=FNEB6-bin-3.genome.CDS.2546;Product=Threonyl-tRNA synthetase %28EC 6.1.1.3%29
+FNEB6-bin-3-scaffold_30053	feature	tRNA	7080	7152	.	-	.	ID=FNEB6-bin-3.genome.rna.23;Product=tRNA-Gly-GCC
+FNEB6-bin-3-scaffold_30053	feature	tRNA	6948	7021	.	-	.	ID=FNEB6-bin-3.genome.rna.24;Product=tRNA-Cys-GCA
+FNEB6-bin-3-scaffold_30053	feature	CDS	6568	6912	.	-	0	ID=FNEB6-bin-3.genome.CDS.2545;Product=Mannose-1-phosphate guanylyltransferase %28GDP%29 %28EC 2.7.7.22%29
+FNEB6-bin-3-scaffold_30053	feature	CDS	5792	6571	.	+	0	ID=FNEB6-bin-3.genome.CDS.2544;Product=
+FNEB6-bin-3-scaffold_30053	feature	tRNA	5615	5686	.	-	.	ID=FNEB6-bin-3.genome.rna.25;Product=tRNA-Val-GAC
+FNEB6-bin-3-scaffold_30053	feature	CDS	4924	5529	.	-	0	ID=FNEB6-bin-3.genome.CDS.2543;Product=Transporter%2C LysE family
+FNEB6-bin-3-scaffold_30053	feature	CDS	3353	4801	.	-	0	ID=FNEB6-bin-3.genome.CDS.2542;Product=hypothetical protein
+FNEB6-bin-3-scaffold_30053	feature	CDS	3187	3312	.	+	0	ID=FNEB6-bin-3.genome.CDS.2541;Product=
+FNEB6-bin-3-scaffold_30053	feature	CDS	2712	3197	.	+	0	ID=FNEB6-bin-3.genome.CDS.2540;Product=
+FNEB6-bin-3-scaffold_30053	feature	CDS	1777	2703	.	+	0	ID=FNEB6-bin-3.genome.CDS.2539;Product=Oxidoreductase
+FNEB6-bin-3-scaffold_30053	feature	CDS	1087	1767	.	+	0	ID=FNEB6-bin-3.genome.CDS.2538;Product=
+FNEB6-bin-3-scaffold_30053	feature	CDS	434	1057	.	-	0	ID=FNEB6-bin-3.genome.CDS.2537;Product=DNA polymerase III epsilon subunit %28EC 2.7.7.7%29
+FNEB6-bin-3-scaffold_30053	feature	CDS	1	441	.	+	0	ID=FNEB6-bin-3.genome.CDS.2536;Product=Anthranilate phosphoribosyltransferase %28EC 2.4.2.18%29
+FNEB6-bin-3-scaffold_3010	feature	misc_RNA	283	1110	.	+	.	ID=FNEB6-bin-3.genome.repeat.25;Product=repeat region
+FNEB6-bin-3-scaffold_3010	feature	CDS	31392	31724	.	-	0	ID=FNEB6-bin-3.genome.CDS.1961;Product=Chorismate mutase II %28EC 5.4.99.5%29
+FNEB6-bin-3-scaffold_3010	feature	CDS	30321	31385	.	-	0	ID=FNEB6-bin-3.genome.CDS.1960;Product=Arogenate dehydrogenase %28EC 1.3.1.43%29
+FNEB6-bin-3-scaffold_3010	feature	CDS	28311	30293	.	-	0	ID=FNEB6-bin-3.genome.CDS.1959;Product=GTP-binding protein EngA
+FNEB6-bin-3-scaffold_3010	feature	CDS	27766	27939	.	+	0	ID=FNEB6-bin-3.genome.CDS.588;Product=
+FNEB6-bin-3-scaffold_3010	feature	CDS	27415	27660	.	-	0	ID=FNEB6-bin-3.genome.CDS.1958;Product=Glycine cleavage system H protein
+FNEB6-bin-3-scaffold_3010	feature	CDS	26887	27393	.	-	0	ID=FNEB6-bin-3.genome.CDS.587;Product=hypothetical protein
+FNEB6-bin-3-scaffold_3010	feature	CDS	26582	26890	.	-	0	ID=FNEB6-bin-3.genome.CDS.1956;Product=transcriptional regulator%2C MerR family
+FNEB6-bin-3-scaffold_3010	feature	CDS	26098	26610	.	-	0	ID=FNEB6-bin-3.genome.CDS.1955;Product=transcriptional regulator%2C MerR family
+FNEB6-bin-3-scaffold_3010	feature	CDS	25621	26088	.	-	0	ID=FNEB6-bin-3.genome.CDS.1954;Product=FIG01121484: hypothetical protein
+FNEB6-bin-3-scaffold_3010	feature	CDS	24971	25489	.	-	0	ID=FNEB6-bin-3.genome.CDS.1953;Product=transcriptional regulator%2C MerR family
+FNEB6-bin-3-scaffold_3010	feature	CDS	22023	24899	.	-	0	ID=FNEB6-bin-3.genome.CDS.1952;Product=Glycine dehydrogenase %5Bdecarboxylating%5D %28glycine cleavage system P protein%29 %28EC 1.4.4.2%29
+FNEB6-bin-3-scaffold_3010	feature	CDS	21745	22026	.	-	0	ID=FNEB6-bin-3.genome.CDS.1951;Product=Glycine dehydrogenase %5Bdecarboxylating%5D %28glycine cleavage system P protein%29 %28EC 1.4.4.2%29
+FNEB6-bin-3-scaffold_3010	feature	CDS	21010	21720	.	+	0	ID=FNEB6-bin-3.genome.CDS.1950;Product=Dolichol-phosphate mannosyltransferase %28EC 2.4.1.83%29 in lipid-linked oligosaccharide synthesis cluster
+FNEB6-bin-3-scaffold_3010	feature	CDS	20107	21006	.	+	0	ID=FNEB6-bin-3.genome.CDS.1949;Product=DNA polymerase I %28EC 2.7.7.7%29
+FNEB6-bin-3-scaffold_3010	feature	CDS	19286	20110	.	+	0	ID=FNEB6-bin-3.genome.CDS.1948;Product=FIG005666: putative helicase
+FNEB6-bin-3-scaffold_3010	feature	CDS	17668	19305	.	+	0	ID=FNEB6-bin-3.genome.CDS.1947;Product=FIG005666: putative helicase
+FNEB6-bin-3-scaffold_3010	feature	CDS	16790	17671	.	+	0	ID=FNEB6-bin-3.genome.CDS.1946;Product=hypothetical protein
+FNEB6-bin-3-scaffold_3010	feature	CDS	16026	16793	.	+	0	ID=FNEB6-bin-3.genome.CDS.1945;Product=Twin-arginine translocation protein TatC
+FNEB6-bin-3-scaffold_3010	feature	CDS	15795	15986	.	+	0	ID=FNEB6-bin-3.genome.CDS.1944;Product=Twin-arginine translocation protein TatA
+FNEB6-bin-3-scaffold_3010	feature	CDS	14841	15785	.	+	0	ID=FNEB6-bin-3.genome.CDS.1943;Product=hypothetical protein
+FNEB6-bin-3-scaffold_3010	feature	CDS	13910	14848	.	+	0	ID=FNEB6-bin-3.genome.CDS.1942;Product=FIG005453: Putative DeoR-family transcriptional regulator
+FNEB6-bin-3-scaffold_3010	feature	CDS	13367	13855	.	-	0	ID=FNEB6-bin-3.genome.CDS.1941;Product=hypothetical protein
+FNEB6-bin-3-scaffold_3010	feature	CDS	12517	13374	.	+	0	ID=FNEB6-bin-3.genome.CDS.1940;Product=tRNA %28adenine%2858%29-N%281%29%29-methyltransferase %28EC 2.1.1.220%29
+FNEB6-bin-3-scaffold_3010	feature	CDS	9010	12507	.	+	0	ID=FNEB6-bin-3.genome.CDS.1939;Product=5-methyltetrahydrofolate--homocysteine methyltransferase %28EC 2.1.1.13%29
+FNEB6-bin-3-scaffold_3010	feature	CDS	7718	8971	.	+	0	ID=FNEB6-bin-3.genome.CDS.1938;Product=L-cysteine:1D-myo-inosityl 2-amino-2-deoxy-alpha-D-glucopyranoside ligase MshC
+FNEB6-bin-3-scaffold_3010	feature	CDS	6972	7691	.	+	0	ID=FNEB6-bin-3.genome.CDS.1937;Product=FIG00820755: hypothetical protein
+FNEB6-bin-3-scaffold_3010	feature	CDS	6439	7002	.	+	0	ID=FNEB6-bin-3.genome.CDS.1936;Product=hypothetical protein
+FNEB6-bin-3-scaffold_3010	feature	CDS	5759	6442	.	+	0	ID=FNEB6-bin-3.genome.CDS.1935;Product=
+FNEB6-bin-3-scaffold_3010	feature	CDS	5452	5709	.	-	0	ID=FNEB6-bin-3.genome.CDS.1934;Product=putative oxidoreductase
+FNEB6-bin-3-scaffold_3010	feature	CDS	4682	5413	.	-	0	ID=FNEB6-bin-3.genome.CDS.1933;Product=putative oxidoreductase
+FNEB6-bin-3-scaffold_3010	feature	CDS	3372	4685	.	+	0	ID=FNEB6-bin-3.genome.CDS.1932;Product=FIG016551: Putative peptidase
+FNEB6-bin-3-scaffold_3010	feature	tRNA	3224	3310	.	-	.	ID=FNEB6-bin-3.genome.rna.8;Product=tRNA-Leu-GAG
+FNEB6-bin-3-scaffold_3010	feature	CDS	2526	3152	.	-	0	ID=FNEB6-bin-3.genome.CDS.1931;Product=Thymidine kinase %28EC 2.7.1.21%29
+FNEB6-bin-3-scaffold_3010	feature	CDS	1459	2499	.	-	0	ID=FNEB6-bin-3.genome.CDS.1930;Product=Alcohol dehydrogenase %28EC 1.1.1.1%29
+FNEB6-bin-3-scaffold_3010	feature	CDS	1285	1446	.	+	0	ID=FNEB6-bin-3.genome.CDS.559;Product=
+FNEB6-bin-3-scaffold_3010	feature	CDS	674	1288	.	+	0	ID=FNEB6-bin-3.genome.CDS.558;Product=
+FNEB6-bin-3-scaffold_3010	feature	CDS	3	674	.	+	0	ID=FNEB6-bin-3.genome.CDS.1929;Product=
+FNEB6-bin-3-scaffold_3022	feature	CDS	4911	5417	.	-	0	ID=FNEB6-bin-3.genome.CDS.1748;Product=LSU ribosomal protein L6p %28L9e%29
+FNEB6-bin-3-scaffold_3022	feature	CDS	4534	4911	.	-	0	ID=FNEB6-bin-3.genome.CDS.1747;Product=LSU ribosomal protein L18p %28L5e%29
+FNEB6-bin-3-scaffold_3022	feature	CDS	3902	4534	.	-	0	ID=FNEB6-bin-3.genome.CDS.1746;Product=SSU ribosomal protein S5p %28S2e%29
+FNEB6-bin-3-scaffold_3022	feature	CDS	3720	3902	.	-	0	ID=FNEB6-bin-3.genome.CDS.1745;Product=LSU ribosomal protein L30p %28L7e%29
+FNEB6-bin-3-scaffold_3022	feature	CDS	3277	3717	.	-	0	ID=FNEB6-bin-3.genome.CDS.1744;Product=LSU ribosomal protein L15p %28L27Ae%29
+FNEB6-bin-3-scaffold_3022	feature	CDS	1944	3239	.	-	0	ID=FNEB6-bin-3.genome.CDS.1743;Product=Preprotein translocase secY subunit %28TC 3.A.5.1.1%29
+FNEB6-bin-3-scaffold_3022	feature	CDS	1303	1944	.	-	0	ID=FNEB6-bin-3.genome.CDS.1742;Product=Adenylate kinase %28EC 2.7.4.3%29
+FNEB6-bin-3-scaffold_3022	feature	CDS	1079	1297	.	-	0	ID=FNEB6-bin-3.genome.CDS.1741;Product=Methionine aminopeptidase %28EC 3.4.11.18%29
+FNEB6-bin-3-scaffold_3022	feature	CDS	385	1116	.	-	0	ID=FNEB6-bin-3.genome.CDS.1740;Product=Methionine aminopeptidase %28EC 3.4.11.18%29
+FNEB6-bin-3-scaffold_3022	feature	CDS	57	278	.	-	0	ID=FNEB6-bin-3.genome.CDS.1739;Product=Translation initiation factor 1
+FNEB6-bin-3-scaffold_3047	feature	CDS	4618	4689	.	+	0	ID=FNEB6-bin-3.genome.CDS.2108;Product=
+FNEB6-bin-3-scaffold_3047	feature	CDS	3554	4600	.	+	0	ID=FNEB6-bin-3.genome.CDS.2107;Product=Rod shape-determining protein MreB
+FNEB6-bin-3-scaffold_3047	feature	CDS	3126	3554	.	+	0	ID=FNEB6-bin-3.genome.CDS.2106;Product=Nucleoside diphosphate kinase %28EC 2.7.4.6%29
+FNEB6-bin-3-scaffold_3047	feature	CDS	2800	3147	.	+	0	ID=FNEB6-bin-3.genome.CDS.2105;Product=
+FNEB6-bin-3-scaffold_3047	feature	CDS	2633	2803	.	+	0	ID=FNEB6-bin-3.genome.CDS.2104;Product=
+FNEB6-bin-3-scaffold_3047	feature	CDS	1275	2636	.	+	0	ID=FNEB6-bin-3.genome.CDS.2103;Product=Dihydrofolate synthase %28EC 6.3.2.12%29 %40 Folylpolyglutamate synthase %28EC 6.3.2.17%29
+FNEB6-bin-3-scaffold_3047	feature	CDS	1	1272	.	+	0	ID=FNEB6-bin-3.genome.CDS.2102;Product=Valyl-tRNA synthetase %28EC 6.1.1.9%29
+FNEB6-bin-3-scaffold_3100	feature	misc_RNA	1	116	.	+	.	ID=FNEB6-bin-3.genome.repeat.1;Product=repeat region
+FNEB6-bin-3-scaffold_3100	feature	CDS	9713	10600	.	+	0	ID=FNEB6-bin-3.genome.CDS.2044;Product=Transaldolase %28EC 2.2.1.2%29
+FNEB6-bin-3-scaffold_3100	feature	CDS	7659	9713	.	+	0	ID=FNEB6-bin-3.genome.CDS.2043;Product=Transketolase %28EC 2.2.1.1%29
+FNEB6-bin-3-scaffold_3100	feature	CDS	7153	7620	.	+	0	ID=FNEB6-bin-3.genome.CDS.2042;Product=Cytochrome oxidase assembly protein
+FNEB6-bin-3-scaffold_3100	feature	CDS	6536	6997	.	+	0	ID=FNEB6-bin-3.genome.CDS.2041;Product=Cytochrome oxidase assembly protein
+FNEB6-bin-3-scaffold_3100	feature	CDS	5803	6513	.	-	0	ID=FNEB6-bin-3.genome.CDS.2040;Product=Iron-sulfur cluster regulator SufR
+FNEB6-bin-3-scaffold_3100	feature	CDS	4913	5806	.	-	0	ID=FNEB6-bin-3.genome.CDS.2039;Product=Iron-sulfur cluster assembly protein SufB
+FNEB6-bin-3-scaffold_3100	feature	CDS	4324	4926	.	-	0	ID=FNEB6-bin-3.genome.CDS.2038;Product=Iron-sulfur cluster assembly protein SufB
+FNEB6-bin-3-scaffold_3100	feature	CDS	3242	4324	.	-	0	ID=FNEB6-bin-3.genome.CDS.2037;Product=Iron-sulfur cluster assembly protein SufD
+FNEB6-bin-3-scaffold_3100	feature	CDS	2925	3242	.	-	0	ID=FNEB6-bin-3.genome.CDS.2036;Product=Ferredoxin%2C 2Fe-2S
+FNEB6-bin-3-scaffold_3100	feature	CDS	2359	2925	.	-	0	ID=FNEB6-bin-3.genome.CDS.2035;Product=Iron-sulfur cluster assembly ATPase protein SufC
+FNEB6-bin-3-scaffold_3100	feature	CDS	2039	2389	.	-	0	ID=FNEB6-bin-3.genome.CDS.2034;Product=Iron-sulfur cluster assembly ATPase protein SufC
+FNEB6-bin-3-scaffold_3100	feature	CDS	782	2026	.	-	0	ID=FNEB6-bin-3.genome.CDS.2033;Product=Cysteine desulfurase %28EC 2.8.1.7%29%2C SufS subfamily
+FNEB6-bin-3-scaffold_3100	feature	CDS	342	782	.	-	0	ID=FNEB6-bin-3.genome.CDS.2032;Product=Putative iron-sulfur cluster assembly scaffold protein for SUF system%2C SufE2
+FNEB6-bin-3-scaffold_3100	feature	CDS	29	349	.	-	0	ID=FNEB6-bin-3.genome.CDS.2031;Product=PaaD-like protein %28DUF59%29 involved in Fe-S cluster assembly
+FNEB6-bin-3-scaffold_3142	feature	CDS	4905	5480	.	+	0	ID=FNEB6-bin-3.genome.CDS.2313;Product=
+FNEB6-bin-3-scaffold_3142	feature	CDS	4222	4782	.	+	0	ID=FNEB6-bin-3.genome.CDS.2312;Product=FIG006762: Phosphoglycerate mutase family
+FNEB6-bin-3-scaffold_3142	feature	CDS	3496	4221	.	+	0	ID=FNEB6-bin-3.genome.CDS.2311;Product=FIG137478: Hypothetical protein
+FNEB6-bin-3-scaffold_3142	feature	tRNA	3377	3451	.	+	.	ID=FNEB6-bin-3.genome.rna.15;Product=tRNA-Val-TAC
+FNEB6-bin-3-scaffold_3142	feature	CDS	2866	3324	.	+	0	ID=FNEB6-bin-3.genome.CDS.2310;Product=Alkyl hydroperoxide reductase subunit C-like protein
+FNEB6-bin-3-scaffold_3142	feature	CDS	2426	2854	.	+	0	ID=FNEB6-bin-3.genome.CDS.2309;Product=FIG00819990: hypothetical protein
+FNEB6-bin-3-scaffold_3142	feature	CDS	3	2000	.	-	0	ID=FNEB6-bin-3.genome.CDS.2308;Product=Pyruvate dehydrogenase E1 component %28EC 1.2.4.1%29
+FNEB6-bin-3-scaffold_3154	feature	misc_RNA	10339	10439	.	+	.	ID=FNEB6-bin-3.genome.repeat.3;Product=repeat region
+FNEB6-bin-3-scaffold_3154	feature	CDS	10207	10437	.	+	0	ID=FNEB6-bin-3.genome.CDS.2138;Product=
+FNEB6-bin-3-scaffold_3154	feature	CDS	8990	10180	.	+	0	ID=FNEB6-bin-3.genome.CDS.2137;Product=HoxN/HupN/NixA family nickel/cobalt transporter
+FNEB6-bin-3-scaffold_3154	feature	CDS	8665	8925	.	+	0	ID=FNEB6-bin-3.genome.CDS.2136;Product=
+FNEB6-bin-3-scaffold_3154	feature	CDS	7488	8609	.	+	0	ID=FNEB6-bin-3.genome.CDS.758;Product=transmembrane efflux protein
+FNEB6-bin-3-scaffold_3154	feature	CDS	5869	7101	.	-	0	ID=FNEB6-bin-3.genome.CDS.2134;Product=Glutamate-1-semialdehyde aminotransferase %28EC 5.4.3.8%29
+FNEB6-bin-3-scaffold_3154	feature	CDS	5377	5868	.	+	0	ID=FNEB6-bin-3.genome.CDS.2133;Product=ABC transporter ATP-binding protein
+FNEB6-bin-3-scaffold_3154	feature	CDS	3983	5335	.	+	0	ID=FNEB6-bin-3.genome.CDS.2132;Product=ABC transporter ATP-binding protein
+FNEB6-bin-3-scaffold_3154	feature	CDS	2384	3817	.	+	0	ID=FNEB6-bin-3.genome.CDS.2131;Product=Glutamine synthetase type I %28EC 6.3.1.2%29
+FNEB6-bin-3-scaffold_3154	feature	CDS	2113	2253	.	-	0	ID=FNEB6-bin-3.genome.CDS.752;Product=
+FNEB6-bin-3-scaffold_3154	feature	CDS	1848	2060	.	-	0	ID=FNEB6-bin-3.genome.CDS.751;Product=
+FNEB6-bin-3-scaffold_3154	feature	CDS	1461	1844	.	+	0	ID=FNEB6-bin-3.genome.CDS.2129;Product=
+FNEB6-bin-3-scaffold_3154	feature	CDS	1055	1435	.	+	0	ID=FNEB6-bin-3.genome.CDS.2128;Product=
+FNEB6-bin-3-scaffold_3154	feature	CDS	328	1062	.	+	0	ID=FNEB6-bin-3.genome.CDS.2127;Product=1-acyl-sn-glycerol-3-phosphate acyltransferase %28EC 2.3.1.51%29
+FNEB6-bin-3-scaffold_3154	feature	CDS	3	335	.	+	0	ID=FNEB6-bin-3.genome.CDS.2126;Product=Lipoate synthase
+FNEB6-bin-3-scaffold_3186	feature	CDS	1915	3699	.	+	0	ID=FNEB6-bin-3.genome.CDS.2409;Product=Serine/threonine protein kinase PrkC%2C regulator of stationary phase
+FNEB6-bin-3-scaffold_3186	feature	CDS	1404	1898	.	+	0	ID=FNEB6-bin-3.genome.CDS.2408;Product=hypothetical protein
+FNEB6-bin-3-scaffold_3186	feature	CDS	789	1391	.	+	0	ID=FNEB6-bin-3.genome.CDS.2407;Product=
+FNEB6-bin-3-scaffold_3186	feature	CDS	3	689	.	+	0	ID=FNEB6-bin-3.genome.CDS.2406;Product=Phytoene synthase %28EC 2.5.1.32%29
+FNEB6-bin-3-scaffold_3262	feature	CDS	18800	19480	.	+	0	ID=FNEB6-bin-3.genome.CDS.2692;Product=Polyribonucleotide nucleotidyltransferase %28EC 2.7.7.8%29
+FNEB6-bin-3-scaffold_3262	feature	CDS	18405	18674	.	+	0	ID=FNEB6-bin-3.genome.CDS.2691;Product=SSU ribosomal protein S15p %28S13e%29
+FNEB6-bin-3-scaffold_3262	feature	CDS	17421	18284	.	+	0	ID=FNEB6-bin-3.genome.CDS.2690;Product=Riboflavin kinase %28EC 2.7.1.26%29 / FMN adenylyltransferase %28EC 2.7.7.2%29
+FNEB6-bin-3-scaffold_3262	feature	CDS	16868	17416	.	+	0	ID=FNEB6-bin-3.genome.CDS.2689;Product=tRNA pseudouridine synthase B %28EC 4.2.1.70%29
+FNEB6-bin-3-scaffold_3262	feature	CDS	16515	16859	.	+	0	ID=FNEB6-bin-3.genome.CDS.1283;Product=tRNA pseudouridine synthase B %28EC 4.2.1.70%29
+FNEB6-bin-3-scaffold_3262	feature	CDS	16091	16507	.	+	0	ID=FNEB6-bin-3.genome.CDS.2688;Product=Ribosome-binding factor A
+FNEB6-bin-3-scaffold_3262	feature	CDS	13400	16090	.	+	0	ID=FNEB6-bin-3.genome.CDS.2687;Product=Translation initiation factor 2
+FNEB6-bin-3-scaffold_3262	feature	CDS	13017	13280	.	+	0	ID=FNEB6-bin-3.genome.CDS.2686;Product=
+FNEB6-bin-3-scaffold_3262	feature	CDS	11983	13005	.	+	0	ID=FNEB6-bin-3.genome.CDS.2685;Product=Transcription termination protein NusA
+FNEB6-bin-3-scaffold_3262	feature	CDS	11531	11986	.	+	0	ID=FNEB6-bin-3.genome.CDS.2684;Product=
+FNEB6-bin-3-scaffold_3262	feature	CDS	10744	11511	.	+	0	ID=FNEB6-bin-3.genome.CDS.2683;Product=FIG011065: hypothetical protein
+FNEB6-bin-3-scaffold_3262	feature	CDS	9014	10741	.	+	0	ID=FNEB6-bin-3.genome.CDS.2682;Product=Prolyl-tRNA synthetase %28EC 6.1.1.15%29%2C bacterial type
+FNEB6-bin-3-scaffold_3262	feature	CDS	7834	8985	.	+	0	ID=FNEB6-bin-3.genome.CDS.2681;Product=1-hydroxy-2-methyl-2-%28E%29-butenyl 4-diphosphate synthase %28EC 1.17.7.1%29
+FNEB6-bin-3-scaffold_3262	feature	CDS	6570	7814	.	+	0	ID=FNEB6-bin-3.genome.CDS.2680;Product=Membrane-associated zinc metalloprotease
+FNEB6-bin-3-scaffold_3262	feature	CDS	5419	6570	.	+	0	ID=FNEB6-bin-3.genome.CDS.1273;Product=1-deoxy-D-xylulose 5-phosphate reductoisomerase %28EC 1.1.1.267%29
+FNEB6-bin-3-scaffold_3262	feature	CDS	4280	5398	.	+	0	ID=FNEB6-bin-3.genome.CDS.2678;Product=Ribosomal RNA large subunit methyltransferase N %28EC 2.1.1.-%29
+FNEB6-bin-3-scaffold_3262	feature	CDS	3423	4271	.	+	0	ID=FNEB6-bin-3.genome.CDS.2677;Product=Phosphatidate cytidylyltransferase %28EC 2.7.7.41%29
+FNEB6-bin-3-scaffold_3262	feature	CDS	2842	3405	.	+	0	ID=FNEB6-bin-3.genome.CDS.2676;Product=Ribosome recycling factor
+FNEB6-bin-3-scaffold_3262	feature	CDS	2107	2823	.	+	0	ID=FNEB6-bin-3.genome.CDS.2675;Product=Uridine monophosphate kinase %28EC 2.7.4.22%29
+FNEB6-bin-3-scaffold_3262	feature	CDS	1736	2056	.	+	0	ID=FNEB6-bin-3.genome.CDS.2674;Product=Translation elongation factor Ts
+FNEB6-bin-3-scaffold_3262	feature	CDS	1087	1764	.	+	0	ID=FNEB6-bin-3.genome.CDS.2673;Product=Translation elongation factor Ts
+FNEB6-bin-3-scaffold_3262	feature	CDS	274	1083	.	+	0	ID=FNEB6-bin-3.genome.CDS.2672;Product=SSU ribosomal protein S2p %28SAe%29
+FNEB6-bin-3-scaffold_33088	feature	CDS	5030	5317	.	-	0	ID=FNEB6-bin-3.genome.CDS.949;Product=Cysteine desulfurase %28EC 2.8.1.7%29
+FNEB6-bin-3-scaffold_33088	feature	CDS	3957	5033	.	-	0	ID=FNEB6-bin-3.genome.CDS.2337;Product=tRNA-specific 2-thiouridylase MnmA
+FNEB6-bin-3-scaffold_33088	feature	CDS	1744	3855	.	-	0	ID=FNEB6-bin-3.genome.CDS.2336;Product=DNA ligase %28EC 6.5.1.2%29
+FNEB6-bin-3-scaffold_33088	feature	CDS	1602	1739	.	-	0	ID=FNEB6-bin-3.genome.CDS.2335;Product=
+FNEB6-bin-3-scaffold_33088	feature	CDS	1019	1579	.	-	0	ID=FNEB6-bin-3.genome.CDS.945;Product=Nicotinate-nucleotide adenylyltransferase %28EC 2.7.7.18%29
+FNEB6-bin-3-scaffold_33088	feature	CDS	670	1032	.	-	0	ID=FNEB6-bin-3.genome.CDS.2333;Product=Ribosomal silencing factor RsfA %28former Iojap%29
+FNEB6-bin-3-scaffold_33088	feature	CDS	22	666	.	-	0	ID=FNEB6-bin-3.genome.CDS.2332;Product=hypothetical protein
+FNEB6-bin-3-scaffold_33544	feature	CDS	7707	9347	.	+	0	ID=FNEB6-bin-3.genome.CDS.2639;Product=DNA repair helicase
+FNEB6-bin-3-scaffold_33544	feature	CDS	6638	7714	.	+	0	ID=FNEB6-bin-3.genome.CDS.2638;Product=putative peptidase
+FNEB6-bin-3-scaffold_33544	feature	CDS	4451	6604	.	+	0	ID=FNEB6-bin-3.genome.CDS.2637;Product=probable DNA-binding protein
+FNEB6-bin-3-scaffold_33544	feature	CDS	3636	4406	.	+	0	ID=FNEB6-bin-3.genome.CDS.2636;Product=Phosphoserine phosphatase %28EC 3.1.3.3%29
+FNEB6-bin-3-scaffold_33544	feature	CDS	3255	3602	.	-	0	ID=FNEB6-bin-3.genome.CDS.2635;Product=Hypothetical%2C related to broad specificity phosphatases COG0406
+FNEB6-bin-3-scaffold_33544	feature	CDS	2878	3204	.	-	0	ID=FNEB6-bin-3.genome.CDS.2634;Product=Hypothetical%2C related to broad specificity phosphatases COG0406
+FNEB6-bin-3-scaffold_33544	feature	CDS	2309	2878	.	-	0	ID=FNEB6-bin-3.genome.CDS.2633;Product=Thiol:disulfide oxidoreductase related to ResA
+FNEB6-bin-3-scaffold_33544	feature	CDS	1286	2017	.	-	0	ID=FNEB6-bin-3.genome.CDS.2631;Product=Cytochrome c-type biogenesis protein CcdA %28DsbD analog%29
+FNEB6-bin-3-scaffold_33544	feature	CDS	3	1286	.	-	0	ID=FNEB6-bin-3.genome.CDS.2630;Product=Ccs1/ResB-related putative cytochrome C-type biogenesis protein
+FNEB6-bin-3-scaffold_3357	feature	CDS	14489	16009	.	-	0	ID=FNEB6-bin-3.genome.CDS.1847;Product=Polyribonucleotide nucleotidyltransferase %28EC 2.7.7.8%29
+FNEB6-bin-3-scaffold_3357	feature	CDS	14128	14478	.	-	0	ID=FNEB6-bin-3.genome.CDS.1846;Product=FIG007959: peptidase%2C M16 family
+FNEB6-bin-3-scaffold_3357	feature	CDS	12382	13131	.	-	0	ID=FNEB6-bin-3.genome.CDS.1844;Product=4-hydroxy-tetrahydrodipicolinate reductase %28EC 1.17.1.8%29
+FNEB6-bin-3-scaffold_3357	feature	CDS	12097	12351	.	-	0	ID=FNEB6-bin-3.genome.CDS.1843;Product=
+FNEB6-bin-3-scaffold_3357	feature	CDS	11789	12100	.	+	0	ID=FNEB6-bin-3.genome.CDS.1842;Product=
+FNEB6-bin-3-scaffold_3357	feature	CDS	11151	11789	.	+	0	ID=FNEB6-bin-3.genome.CDS.1841;Product=FIG01121655: hypothetical protein
+FNEB6-bin-3-scaffold_3357	feature	CDS	10366	11094	.	-	0	ID=FNEB6-bin-3.genome.CDS.1840;Product=Thymidylate synthase thyX %28EC 2.1.1.-%29
+FNEB6-bin-3-scaffold_3357	feature	CDS	9829	10347	.	-	0	ID=FNEB6-bin-3.genome.CDS.1839;Product=4-hydroxy-tetrahydrodipicolinate synthase %28EC 4.3.3.7%29
+FNEB6-bin-3-scaffold_3357	feature	CDS	9354	9839	.	-	0	ID=FNEB6-bin-3.genome.CDS.1838;Product=4-hydroxy-tetrahydrodipicolinate synthase %28EC 4.3.3.7%29
+FNEB6-bin-3-scaffold_3357	feature	CDS	7672	9354	.	-	0	ID=FNEB6-bin-3.genome.CDS.1837;Product=Ribonuclease J2 %28endoribonuclease in RNA processing%29
+FNEB6-bin-3-scaffold_3357	feature	CDS	6593	7621	.	-	0	ID=FNEB6-bin-3.genome.CDS.1836;Product=Cell division protein FtsK
+FNEB6-bin-3-scaffold_3357	feature	CDS	4857	6545	.	-	0	ID=FNEB6-bin-3.genome.CDS.1835;Product=DNA translocase FtsK
+FNEB6-bin-3-scaffold_3357	feature	CDS	3993	4721	.	-	0	ID=FNEB6-bin-3.genome.CDS.1834;Product=hypothetical protein
+FNEB6-bin-3-scaffold_3357	feature	CDS	3389	3934	.	-	0	ID=FNEB6-bin-3.genome.CDS.1833;Product=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase %28EC 2.7.8.5%29
+FNEB6-bin-3-scaffold_3357	feature	CDS	2916	3392	.	-	0	ID=FNEB6-bin-3.genome.CDS.1832;Product=
+FNEB6-bin-3-scaffold_3357	feature	CDS	2650	2919	.	-	0	ID=FNEB6-bin-3.genome.CDS.1831;Product=
+FNEB6-bin-3-scaffold_3357	feature	CDS	2127	2612	.	-	0	ID=FNEB6-bin-3.genome.CDS.1830;Product=hypothetical protein
+FNEB6-bin-3-scaffold_3357	feature	CDS	3	2120	.	+	0	ID=FNEB6-bin-3.genome.CDS.1829;Product=hypothetical protein
+FNEB6-bin-3-scaffold_34300	feature	CDS	4430	4552	.	+	0	ID=FNEB6-bin-3.genome.CDS.1356;Product=
+FNEB6-bin-3-scaffold_34300	feature	CDS	3209	4222	.	-	0	ID=FNEB6-bin-3.genome.CDS.1355;Product=Phosphate regulon sensor protein PhoR %28SphS%29 %28EC 2.7.13.3%29
+FNEB6-bin-3-scaffold_34300	feature	CDS	2526	3212	.	-	0	ID=FNEB6-bin-3.genome.CDS.1354;Product=Phosphate regulon transcriptional regulatory protein PhoB %28SphR%29
+FNEB6-bin-3-scaffold_34300	feature	CDS	1438	2436	.	-	0	ID=FNEB6-bin-3.genome.CDS.1353;Product=Phosphate transport system permease protein PstC %28TC 3.A.1.7.1%29
+FNEB6-bin-3-scaffold_34300	feature	CDS	380	1441	.	-	0	ID=FNEB6-bin-3.genome.CDS.1352;Product=Phosphate transport system permease protein PstA %28TC 3.A.1.7.1%29
+FNEB6-bin-3-scaffold_34300	feature	CDS	3	377	.	-	0	ID=FNEB6-bin-3.genome.CDS.1351;Product=Phosphate transport ATP-binding protein PstB %28TC 3.A.1.7.1%29
+FNEB6-bin-3-scaffold_3464	feature	CDS	6023	6379	.	-	0	ID=FNEB6-bin-3.genome.CDS.1408;Product=
+FNEB6-bin-3-scaffold_3464	feature	CDS	4739	6019	.	+	0	ID=FNEB6-bin-3.genome.CDS.1407;Product=Cobalt-zinc-cadmium resistance protein CzcA%3B Cation efflux system protein CusA
+FNEB6-bin-3-scaffold_3464	feature	CDS	3940	4698	.	+	0	ID=FNEB6-bin-3.genome.CDS.65;Product=
+FNEB6-bin-3-scaffold_3464	feature	CDS	3035	3940	.	+	0	ID=FNEB6-bin-3.genome.CDS.1405;Product=Fructokinase %28EC 2.7.1.4%29
+FNEB6-bin-3-scaffold_3464	feature	CDS	2557	3042	.	+	0	ID=FNEB6-bin-3.genome.CDS.1404;Product=
+FNEB6-bin-3-scaffold_3464	feature	CDS	1908	2477	.	+	0	ID=FNEB6-bin-3.genome.CDS.1403;Product=Gamma-aminobutyrate:alpha-ketoglutarate aminotransferase %28EC 2.6.1.19%29
+FNEB6-bin-3-scaffold_3464	feature	CDS	1100	1774	.	+	0	ID=FNEB6-bin-3.genome.CDS.61;Product=Gamma-aminobutyrate:alpha-ketoglutarate aminotransferase %28EC 2.6.1.19%29
+FNEB6-bin-3-scaffold_3464	feature	CDS	1	1077	.	-	0	ID=FNEB6-bin-3.genome.CDS.1402;Product=
+FNEB6-bin-3-scaffold_3470	feature	CDS	4082	4810	.	+	0	ID=FNEB6-bin-3.genome.CDS.1401;Product=NAD%28P%29 transhydrogenase alpha subunit %28EC 1.6.1.2%29
+FNEB6-bin-3-scaffold_3470	feature	CDS	3068	4006	.	+	0	ID=FNEB6-bin-3.genome.CDS.1400;Product=Ornithine carbamoyltransferase %28EC 2.1.3.3%29
+FNEB6-bin-3-scaffold_3470	feature	CDS	2777	3043	.	-	0	ID=FNEB6-bin-3.genome.CDS.1399;Product=hypothetical protein
+FNEB6-bin-3-scaffold_3470	feature	CDS	2520	2777	.	-	0	ID=FNEB6-bin-3.genome.CDS.1398;Product=
+FNEB6-bin-3-scaffold_3470	feature	CDS	2195	2461	.	+	0	ID=FNEB6-bin-3.genome.CDS.1397;Product=hypothetical protein
+FNEB6-bin-3-scaffold_3470	feature	CDS	1229	1492	.	+	0	ID=FNEB6-bin-3.genome.CDS.57;Product=
+FNEB6-bin-3-scaffold_3470	feature	CDS	744	1094	.	-	0	ID=FNEB6-bin-3.genome.CDS.1396;Product=
+FNEB6-bin-3-scaffold_3470	feature	CDS	445	747	.	-	0	ID=FNEB6-bin-3.genome.CDS.1395;Product=ATP-dependent Clp protease adaptor protein ClpS
+FNEB6-bin-3-scaffold_3470	feature	CDS	1	435	.	-	0	ID=FNEB6-bin-3.genome.CDS.1394;Product=
+FNEB6-bin-3-scaffold_3499	feature	CDS	1973	2371	.	+	0	ID=FNEB6-bin-3.genome.CDS.2629;Product=
+FNEB6-bin-3-scaffold_3499	feature	CDS	144	1958	.	+	0	ID=FNEB6-bin-3.genome.CDS.1224;Product=
+FNEB6-bin-3-scaffold_3499	feature	CDS	1	141	.	+	0	ID=FNEB6-bin-3.genome.CDS.2627;Product=
+FNEB6-bin-3-scaffold_3528	feature	CDS	17724	18047	.	+	0	ID=FNEB6-bin-3.genome.CDS.2331;Product=
+FNEB6-bin-3-scaffold_3528	feature	CDS	17431	17727	.	+	0	ID=FNEB6-bin-3.genome.CDS.2330;Product=
+FNEB6-bin-3-scaffold_3528	feature	CDS	16328	17248	.	+	0	ID=FNEB6-bin-3.genome.CDS.2329;Product=
+FNEB6-bin-3-scaffold_3528	feature	CDS	15268	16035	.	+	0	ID=FNEB6-bin-3.genome.CDS.2328;Product=hypothetical protein
+FNEB6-bin-3-scaffold_3528	feature	CDS	14037	15275	.	+	0	ID=FNEB6-bin-3.genome.CDS.2327;Product=Cell division protein FtsX
+FNEB6-bin-3-scaffold_3528	feature	CDS	13342	14040	.	+	0	ID=FNEB6-bin-3.genome.CDS.2326;Product=Cell division transporter%2C ATP-binding protein FtsE %28TC 3.A.5.1.1%29
+FNEB6-bin-3-scaffold_3528	feature	CDS	11783	13342	.	+	0	ID=FNEB6-bin-3.genome.CDS.2325;Product=hypothetical protein
+FNEB6-bin-3-scaffold_3528	feature	CDS	9713	11569	.	-	0	ID=FNEB6-bin-3.genome.CDS.2324;Product=hypothetical protein
+FNEB6-bin-3-scaffold_3528	feature	CDS	8793	9602	.	+	0	ID=FNEB6-bin-3.genome.CDS.2323;Product=
+FNEB6-bin-3-scaffold_3528	feature	CDS	7850	8620	.	-	0	ID=FNEB6-bin-3.genome.CDS.2322;Product=
+FNEB6-bin-3-scaffold_3528	feature	CDS	6861	7799	.	+	0	ID=FNEB6-bin-3.genome.CDS.2321;Product=hypothetical protein
+FNEB6-bin-3-scaffold_3528	feature	CDS	4576	6675	.	+	0	ID=FNEB6-bin-3.genome.CDS.2320;Product=hypothetical protein
+FNEB6-bin-3-scaffold_3528	feature	CDS	3221	4579	.	+	0	ID=FNEB6-bin-3.genome.CDS.2319;Product=hypothetical protein
+FNEB6-bin-3-scaffold_3528	feature	CDS	2661	3089	.	+	0	ID=FNEB6-bin-3.genome.CDS.2318;Product=
+FNEB6-bin-3-scaffold_3528	feature	tRNA	2548	2623	.	+	.	ID=FNEB6-bin-3.genome.rna.16;Product=tRNA-Lys-TTT
+FNEB6-bin-3-scaffold_3528	feature	CDS	1557	2510	.	+	0	ID=FNEB6-bin-3.genome.CDS.2317;Product=TsaC protein %28YrdC-Sua5 domains%29 required for threonylcarbamoyladenosine t%286%29A37 modification in tRNA
+FNEB6-bin-3-scaffold_3528	feature	tRNA	1419	1491	.	-	.	ID=FNEB6-bin-3.genome.rna.17;Product=tRNA-Glu-TTC
+FNEB6-bin-3-scaffold_3528	feature	tRNA	1274	1350	.	-	.	ID=FNEB6-bin-3.genome.rna.18;Product=tRNA-Asp-GTC
+FNEB6-bin-3-scaffold_3528	feature	CDS	855	1055	.	+	0	ID=FNEB6-bin-3.genome.CDS.2316;Product=
+FNEB6-bin-3-scaffold_3528	feature	CDS	376	618	.	-	0	ID=FNEB6-bin-3.genome.CDS.2315;Product=
+FNEB6-bin-3-scaffold_3528	feature	CDS	74	379	.	-	0	ID=FNEB6-bin-3.genome.CDS.2314;Product=
+FNEB6-bin-3-scaffold_3531	feature	misc_RNA	3921	4021	.	+	.	ID=FNEB6-bin-3.genome.repeat.20;Product=repeat region
+FNEB6-bin-3-scaffold_3531	feature	tRNA	3936	4012	.	-	.	ID=FNEB6-bin-3.genome.rna.3;Product=tRNA-Met-CAT
+FNEB6-bin-3-scaffold_3531	feature	CDS	3656	3826	.	-	0	ID=FNEB6-bin-3.genome.CDS.1393;Product=LSU ribosomal protein L33p %40 LSU ribosomal protein L33p%2C zinc-dependent
+FNEB6-bin-3-scaffold_3531	feature	CDS	3269	3652	.	-	0	ID=FNEB6-bin-3.genome.CDS.1392;Product=
+FNEB6-bin-3-scaffold_3531	feature	CDS	2874	3272	.	-	0	ID=FNEB6-bin-3.genome.CDS.1391;Product=
+FNEB6-bin-3-scaffold_3531	feature	CDS	2111	2860	.	-	0	ID=FNEB6-bin-3.genome.CDS.1390;Product=
+FNEB6-bin-3-scaffold_3531	feature	CDS	1085	2101	.	-	0	ID=FNEB6-bin-3.genome.CDS.1389;Product=UDP-N-acetylenolpyruvoylglucosamine reductase %28EC 1.3.1.98%29
+FNEB6-bin-3-scaffold_3531	feature	CDS	1	1083	.	+	0	ID=FNEB6-bin-3.genome.CDS.1388;Product=Aspartate aminotransferase %28EC 2.6.1.1%29
+FNEB6-bin-3-scaffold_3570	feature	CDS	1853	3289	.	-	0	ID=FNEB6-bin-3.genome.CDS.1877;Product=hypothetical protein
+FNEB6-bin-3-scaffold_3570	feature	CDS	1338	1856	.	-	0	ID=FNEB6-bin-3.genome.CDS.1876;Product=hypothetical protein
+FNEB6-bin-3-scaffold_3570	feature	CDS	486	1082	.	-	0	ID=FNEB6-bin-3.genome.CDS.1875;Product=
+FNEB6-bin-3-scaffold_3570	feature	CDS	80	439	.	-	0	ID=FNEB6-bin-3.genome.CDS.1874;Product=hypothetical protein
+FNEB6-bin-3-scaffold_3570	feature	CDS	2	76	.	+	0	ID=FNEB6-bin-3.genome.CDS.1873;Product=
+FNEB6-bin-3-scaffold_35821	feature	CDS	3463	3624	.	-	0	ID=FNEB6-bin-3.genome.CDS.1339;Product=
+FNEB6-bin-3-scaffold_35821	feature	CDS	3056	3352	.	-	0	ID=FNEB6-bin-3.genome.CDS.1338;Product=Heat shock protein 60 family co-chaperone GroES
+FNEB6-bin-3-scaffold_35821	feature	CDS	2082	3053	.	-	0	ID=FNEB6-bin-3.genome.CDS.1337;Product=Heat shock protein 60 family chaperone GroEL
+FNEB6-bin-3-scaffold_35821	feature	CDS	1196	2110	.	-	0	ID=FNEB6-bin-3.genome.CDS.3;Product=Heat shock protein 60 family chaperone GroEL
+FNEB6-bin-3-scaffold_35821	feature	CDS	858	1181	.	+	0	ID=FNEB6-bin-3.genome.CDS.1335;Product=Sporulation regulatory protein WhiD
+FNEB6-bin-3-scaffold_35821	feature	CDS	3	746	.	-	0	ID=FNEB6-bin-3.genome.CDS.1334;Product=
+FNEB6-bin-3-scaffold_3611	feature	CDS	1925	2923	.	-	0	ID=FNEB6-bin-3.genome.CDS.2307;Product=Dipeptide transport system permease protein DppB %28TC 3.A.1.5.2%29
+FNEB6-bin-3-scaffold_3611	feature	CDS	1539	1928	.	-	0	ID=FNEB6-bin-3.genome.CDS.2306;Product=Oligopeptide transport ATP-binding protein OppD %28TC 3.A.1.5.1%29
+FNEB6-bin-3-scaffold_3611	feature	CDS	635	1510	.	-	0	ID=FNEB6-bin-3.genome.CDS.2305;Product=Oligopeptide transport ATP-binding protein OppD %28TC 3.A.1.5.1%29
+FNEB6-bin-3-scaffold_3611	feature	CDS	3	635	.	-	0	ID=FNEB6-bin-3.genome.CDS.2304;Product=Oligopeptide transport ATP-binding protein OppF %28TC 3.A.1.5.1%29
+FNEB6-bin-3-scaffold_3727	feature	CDS	3116	3685	.	+	0	ID=FNEB6-bin-3.genome.CDS.2511;Product=
+FNEB6-bin-3-scaffold_3727	feature	CDS	2337	3119	.	+	0	ID=FNEB6-bin-3.genome.CDS.2510;Product=Thiamin ABC transporter%2C transmembrane component
+FNEB6-bin-3-scaffold_3727	feature	CDS	1456	2337	.	+	0	ID=FNEB6-bin-3.genome.CDS.2509;Product=hypothetical protein
+FNEB6-bin-3-scaffold_3727	feature	CDS	236	1429	.	+	0	ID=FNEB6-bin-3.genome.CDS.2508;Product=extracellular solute-binding protein%2C family 1
+FNEB6-bin-3-scaffold_3727	feature	CDS	103	216	.	-	0	ID=FNEB6-bin-3.genome.CDS.1110;Product=
+FNEB6-bin-3-scaffold_3736	feature	CDS	3448	4167	.	+	0	ID=FNEB6-bin-3.genome.CDS.2172;Product=Cytoplasmic axial filament protein CafA and Ribonuclease G %28EC 3.1.4.-%29
+FNEB6-bin-3-scaffold_3736	feature	CDS	2116	3267	.	+	0	ID=FNEB6-bin-3.genome.CDS.2171;Product=Rod shape-determining protein RodA
+FNEB6-bin-3-scaffold_3736	feature	CDS	1524	2102	.	+	0	ID=FNEB6-bin-3.genome.CDS.2170;Product=Cell division protein FtsI %5BPeptidoglycan synthetase%5D %28EC 2.4.1.129%29
+FNEB6-bin-3-scaffold_3736	feature	CDS	1	1527	.	+	0	ID=FNEB6-bin-3.genome.CDS.2169;Product=Penicillin-binding protein 2 %28PBP-2%29
+FNEB6-bin-3-scaffold_3771	feature	misc_RNA	2982	3486	.	+	.	ID=FNEB6-bin-3.genome.repeat.5;Product=repeat region
+FNEB6-bin-3-scaffold_3771	feature	CDS	2462	3484	.	+	0	ID=FNEB6-bin-3.genome.CDS.2526;Product=ATP-dependent DNA helicase UvrD/PcrA
+FNEB6-bin-3-scaffold_3771	feature	CDS	1680	2405	.	-	0	ID=FNEB6-bin-3.genome.CDS.2525;Product=hypothetical protein
+FNEB6-bin-3-scaffold_3771	feature	CDS	894	1679	.	+	0	ID=FNEB6-bin-3.genome.CDS.2524;Product=Probable peptidyl-prolyl cis-trans isomerase B %28EC 5.2.1.8%29 %28PPIase B%29 %28Rotamase B%29
+FNEB6-bin-3-scaffold_3771	feature	CDS	1	903	.	+	0	ID=FNEB6-bin-3.genome.CDS.2523;Product=GMP synthase %5Bglutamine-hydrolyzing%5D %28EC 6.3.5.2%29
+FNEB6-bin-3-scaffold_3795	feature	misc_RNA	1	588	.	+	.	ID=FNEB6-bin-3.genome.repeat.23;Product=repeat region
+FNEB6-bin-3-scaffold_3795	feature	CDS	3412	3594	.	+	0	ID=FNEB6-bin-3.genome.CDS.1994;Product=
+FNEB6-bin-3-scaffold_3795	feature	CDS	2669	3355	.	+	0	ID=FNEB6-bin-3.genome.CDS.1993;Product=Glycerophosphoryl diester phosphodiesterase %28EC 3.1.4.46%29
+FNEB6-bin-3-scaffold_3795	feature	CDS	1999	2664	.	+	0	ID=FNEB6-bin-3.genome.CDS.1992;Product=Phosphoserine phosphatase %28EC 3.1.3.3%29
+FNEB6-bin-3-scaffold_3795	feature	CDS	1018	1887	.	-	0	ID=FNEB6-bin-3.genome.CDS.1991;Product=
+FNEB6-bin-3-scaffold_3795	feature	CDS	1	1002	.	-	0	ID=FNEB6-bin-3.genome.CDS.1990;Product=Glycosyltransferase
+FNEB6-bin-3-scaffold_3804	feature	CDS	9655	9759	.	+	0	ID=FNEB6-bin-3.genome.CDS.2291;Product=UPF0246 protein YaaA
+FNEB6-bin-3-scaffold_3804	feature	CDS	8948	9595	.	-	0	ID=FNEB6-bin-3.genome.CDS.2290;Product=2-hydroxychromene-2-carboxylate isomerase/DsbA-like thioredoxin domain
+FNEB6-bin-3-scaffold_3804	feature	CDS	8445	8942	.	-	0	ID=FNEB6-bin-3.genome.CDS.2289;Product=
+FNEB6-bin-3-scaffold_3804	feature	CDS	7745	7987	.	+	0	ID=FNEB6-bin-3.genome.CDS.900;Product=
+FNEB6-bin-3-scaffold_3804	feature	CDS	6898	7656	.	-	0	ID=FNEB6-bin-3.genome.CDS.2288;Product=
+FNEB6-bin-3-scaffold_3804	feature	CDS	5976	6920	.	+	0	ID=FNEB6-bin-3.genome.CDS.2287;Product=Inosine-uridine preferring nucleoside hydrolase %28EC 3.2.2.1%29
+FNEB6-bin-3-scaffold_3804	feature	CDS	5277	5828	.	-	0	ID=FNEB6-bin-3.genome.CDS.2286;Product=hypothetical protein
+FNEB6-bin-3-scaffold_3804	feature	CDS	4563	4997	.	-	0	ID=FNEB6-bin-3.genome.CDS.2285;Product=
+FNEB6-bin-3-scaffold_3804	feature	CDS	4133	4507	.	+	0	ID=FNEB6-bin-3.genome.CDS.2284;Product=
+FNEB6-bin-3-scaffold_3804	feature	CDS	3788	4108	.	+	0	ID=FNEB6-bin-3.genome.CDS.2283;Product=hypothetical protein
+FNEB6-bin-3-scaffold_3804	feature	CDS	3508	3669	.	-	0	ID=FNEB6-bin-3.genome.CDS.2282;Product=
+FNEB6-bin-3-scaffold_3804	feature	CDS	2870	3511	.	-	0	ID=FNEB6-bin-3.genome.CDS.2281;Product=Ubiquinol--cytochrome c reductase%2C cytochrome B subunit %28EC 1.10.2.2%29
+FNEB6-bin-3-scaffold_3804	feature	CDS	2314	2577	.	+	0	ID=FNEB6-bin-3.genome.CDS.2280;Product=
+FNEB6-bin-3-scaffold_3804	feature	CDS	875	2038	.	+	0	ID=FNEB6-bin-3.genome.CDS.892;Product=hypothetical protein
+FNEB6-bin-3-scaffold_3804	feature	CDS	2	856	.	-	0	ID=FNEB6-bin-3.genome.CDS.2278;Product=hypothetical protein
+FNEB6-bin-3-scaffold_3824	feature	CDS	4563	5513	.	-	0	ID=FNEB6-bin-3.genome.CDS.2601;Product=L-lactate dehydrogenase %28EC 1.1.2.3%29
+FNEB6-bin-3-scaffold_3824	feature	CDS	3750	4511	.	+	0	ID=FNEB6-bin-3.genome.CDS.2600;Product=3-oxoacyl-%5Bacyl-carrier protein%5D reductase %28EC 1.1.1.100%29
+FNEB6-bin-3-scaffold_3824	feature	CDS	2719	3723	.	+	0	ID=FNEB6-bin-3.genome.CDS.2599;Product=AMIDASE
+FNEB6-bin-3-scaffold_3824	feature	CDS	2075	2635	.	+	0	ID=FNEB6-bin-3.genome.CDS.2598;Product=hypothetical protein
+FNEB6-bin-3-scaffold_3824	feature	CDS	1925	2047	.	-	0	ID=FNEB6-bin-3.genome.CDS.1197;Product=
+FNEB6-bin-3-scaffold_3824	feature	CDS	1511	1834	.	+	0	ID=FNEB6-bin-3.genome.CDS.2597;Product=hypothetical protein
+FNEB6-bin-3-scaffold_3824	feature	CDS	359	1507	.	+	0	ID=FNEB6-bin-3.genome.CDS.2596;Product=hypothetical protein
+FNEB6-bin-3-scaffold_3824	feature	CDS	1	297	.	-	0	ID=FNEB6-bin-3.genome.CDS.2595;Product=Cyclopropane-fatty-acyl-phospholipid synthase %28EC 2.1.1.79%29
+FNEB6-bin-3-scaffold_3840	feature	CDS	2217	3431	.	-	0	ID=FNEB6-bin-3.genome.CDS.2277;Product=Kynureninase %28EC 3.7.1.3%29
+FNEB6-bin-3-scaffold_3840	feature	CDS	1429	2220	.	-	0	ID=FNEB6-bin-3.genome.CDS.2276;Product=Tryptophan 2%2C3-dioxygenase %28EC 1.13.11.11%29
+FNEB6-bin-3-scaffold_3840	feature	CDS	1	1410	.	-	0	ID=FNEB6-bin-3.genome.CDS.2275;Product=Xaa-Pro aminopeptidase %28EC 3.4.11.9%29
+FNEB6-bin-3-scaffold_3877	feature	CDS	17673	18620	.	+	0	ID=FNEB6-bin-3.genome.CDS.1907;Product=6-phosphofructokinase %28EC 2.7.1.11%29
+FNEB6-bin-3-scaffold_3877	feature	CDS	16179	17573	.	-	0	ID=FNEB6-bin-3.genome.CDS.1906;Product=Xylulose kinase %28EC 2.7.1.17%29
+FNEB6-bin-3-scaffold_3877	feature	CDS	15279	16154	.	-	0	ID=FNEB6-bin-3.genome.CDS.1905;Product=Permease of the drug/metabolite transporter %28DMT%29 superfamily
+FNEB6-bin-3-scaffold_3877	feature	CDS	14381	15289	.	+	0	ID=FNEB6-bin-3.genome.CDS.1904;Product=GTP-binding protein Era
+FNEB6-bin-3-scaffold_3877	feature	CDS	13487	14362	.	+	0	ID=FNEB6-bin-3.genome.CDS.1903;Product=Rossmann fold nucleotide-binding protein Smf possibly involved in DNA uptake
+FNEB6-bin-3-scaffold_3877	feature	CDS	12815	13411	.	+	0	ID=FNEB6-bin-3.genome.CDS.1902;Product=Ribonuclease HII %28EC 3.1.26.4%29
+FNEB6-bin-3-scaffold_3877	feature	CDS	12134	12811	.	+	0	ID=FNEB6-bin-3.genome.CDS.1901;Product=Signal peptidase I %28EC 3.4.21.89%29
+FNEB6-bin-3-scaffold_3877	feature	CDS	11568	12122	.	+	0	ID=FNEB6-bin-3.genome.CDS.1900;Product=LSU ribosomal protein L19p
+FNEB6-bin-3-scaffold_3877	feature	CDS	10665	11459	.	+	0	ID=FNEB6-bin-3.genome.CDS.1899;Product=Inositol-1-monophosphatase %28EC 3.1.3.25%29
+FNEB6-bin-3-scaffold_3877	feature	CDS	9156	10649	.	-	0	ID=FNEB6-bin-3.genome.CDS.1898;Product=hypothetical protein
+FNEB6-bin-3-scaffold_3877	feature	CDS	8321	9121	.	-	0	ID=FNEB6-bin-3.genome.CDS.1897;Product=hypothetical protein
+FNEB6-bin-3-scaffold_3877	feature	CDS	7176	8270	.	+	0	ID=FNEB6-bin-3.genome.CDS.1896;Product=Alkaline phosphodiesterase I %28EC 3.1.4.1%29 / Nucleotide pyrophosphatase %28EC 3.6.1.9%29
+FNEB6-bin-3-scaffold_3877	feature	CDS	5636	7135	.	-	0	ID=FNEB6-bin-3.genome.CDS.1895;Product=Topoisomerase IV subunit A %28EC 5.99.1.-%29
+FNEB6-bin-3-scaffold_3877	feature	CDS	3488	5629	.	+	0	ID=FNEB6-bin-3.genome.CDS.524;Product=Topoisomerase IV subunit B %28EC 5.99.1.-%29
+FNEB6-bin-3-scaffold_3877	feature	CDS	3095	3316	.	-	0	ID=FNEB6-bin-3.genome.CDS.1893;Product=hypothetical protein
+FNEB6-bin-3-scaffold_3877	feature	CDS	2954	3094	.	+	0	ID=FNEB6-bin-3.genome.CDS.1892;Product=
+FNEB6-bin-3-scaffold_3877	feature	CDS	2626	2901	.	+	0	ID=FNEB6-bin-3.genome.CDS.1891;Product=RNA polymerase sigma factor RpoD
+FNEB6-bin-3-scaffold_3877	feature	CDS	1452	2624	.	+	0	ID=FNEB6-bin-3.genome.CDS.1890;Product=RNA polymerase sigma factor RpoD
+FNEB6-bin-3-scaffold_3877	feature	CDS	1199	1483	.	+	0	ID=FNEB6-bin-3.genome.CDS.1889;Product=hypothetical protein
+FNEB6-bin-3-scaffold_3877	feature	CDS	3	1079	.	+	0	ID=FNEB6-bin-3.genome.CDS.1888;Product=Homoserine O-acetyltransferase %28EC 2.3.1.31%29
+FNEB6-bin-3-scaffold_3887	feature	CDS	6184	8178	.	+	0	ID=FNEB6-bin-3.genome.CDS.2671;Product=Isoleucyl-tRNA synthetase %28EC 6.1.1.5%29
+FNEB6-bin-3-scaffold_3887	feature	CDS	5253	6044	.	-	0	ID=FNEB6-bin-3.genome.CDS.2670;Product=putative DNA-binding protein
+FNEB6-bin-3-scaffold_3887	feature	CDS	4747	5064	.	-	0	ID=FNEB6-bin-3.genome.CDS.1264;Product=Lipoprotein signal peptidase %28EC 3.4.23.36%29
+FNEB6-bin-3-scaffold_3887	feature	CDS	3801	4760	.	-	0	ID=FNEB6-bin-3.genome.CDS.2668;Product=Ribosomal large subunit pseudouridine synthase D %28EC 4.2.1.70%29
+FNEB6-bin-3-scaffold_3887	feature	CDS	175	3726	.	-	0	ID=FNEB6-bin-3.genome.CDS.2667;Product=DNA polymerase III alpha subunit %28EC 2.7.7.7%29
+FNEB6-bin-3-scaffold_3887	feature	CDS	3	128	.	-	0	ID=FNEB6-bin-3.genome.CDS.2666;Product=
+FNEB6-bin-3-scaffold_3894	feature	CDS	9798	10127	.	-	0	ID=FNEB6-bin-3.genome.CDS.2030;Product=
+FNEB6-bin-3-scaffold_3894	feature	CDS	9641	9784	.	-	0	ID=FNEB6-bin-3.genome.CDS.2029;Product=
+FNEB6-bin-3-scaffold_3894	feature	CDS	8846	9634	.	-	0	ID=FNEB6-bin-3.genome.CDS.2028;Product=RNA binding methyltransferase FtsJ like
+FNEB6-bin-3-scaffold_3894	feature	CDS	7970	8815	.	-	0	ID=FNEB6-bin-3.genome.CDS.2027;Product=NAD kinase %28EC 2.7.1.23%29
+FNEB6-bin-3-scaffold_3894	feature	CDS	5956	7977	.	-	0	ID=FNEB6-bin-3.genome.CDS.2026;Product=DNA repair protein RecN
+FNEB6-bin-3-scaffold_3894	feature	CDS	4303	5949	.	-	0	ID=FNEB6-bin-3.genome.CDS.2025;Product=CTP synthase %28EC 6.3.4.2%29
+FNEB6-bin-3-scaffold_3894	feature	CDS	3405	4313	.	-	0	ID=FNEB6-bin-3.genome.CDS.2024;Product=Site-specific tyrosine recombinase XerD
+FNEB6-bin-3-scaffold_3894	feature	CDS	3010	3408	.	+	0	ID=FNEB6-bin-3.genome.CDS.2023;Product=FIG059443: hypothetical protein
+FNEB6-bin-3-scaffold_3894	feature	CDS	2093	3013	.	+	0	ID=FNEB6-bin-3.genome.CDS.2022;Product=Chromosome %28plasmid%29 partitioning protein ParA
+FNEB6-bin-3-scaffold_3894	feature	CDS	1168	2031	.	-	0	ID=FNEB6-bin-3.genome.CDS.2021;Product=Segregation and condensation protein A
+FNEB6-bin-3-scaffold_3894	feature	CDS	610	1167	.	-	0	ID=FNEB6-bin-3.genome.CDS.2020;Product=Segregation and condensation protein B
+FNEB6-bin-3-scaffold_3894	feature	CDS	2	538	.	-	0	ID=FNEB6-bin-3.genome.CDS.2019;Product=Ribosomal large subunit pseudouridine synthase B %28EC 4.2.1.70%29
+FNEB6-bin-3-scaffold_3904	feature	CDS	11818	12078	.	-	0	ID=FNEB6-bin-3.genome.CDS.2092;Product=
+FNEB6-bin-3-scaffold_3904	feature	CDS	11082	11735	.	-	0	ID=FNEB6-bin-3.genome.CDS.2091;Product=
+FNEB6-bin-3-scaffold_3904	feature	CDS	10375	11037	.	-	0	ID=FNEB6-bin-3.genome.CDS.2090;Product=
+FNEB6-bin-3-scaffold_3904	feature	CDS	9922	10200	.	-	0	ID=FNEB6-bin-3.genome.CDS.2089;Product=HigB toxin protein
+FNEB6-bin-3-scaffold_3904	feature	CDS	9563	9901	.	-	0	ID=FNEB6-bin-3.genome.CDS.2088;Product=HigA protein %28antitoxin to HigB%29
+FNEB6-bin-3-scaffold_3904	feature	CDS	9221	9481	.	-	0	ID=FNEB6-bin-3.genome.CDS.2087;Product=
+FNEB6-bin-3-scaffold_3904	feature	CDS	8644	9162	.	-	0	ID=FNEB6-bin-3.genome.CDS.2086;Product=hypothetical protein
+FNEB6-bin-3-scaffold_3904	feature	CDS	7790	8533	.	-	0	ID=FNEB6-bin-3.genome.CDS.2085;Product=
+FNEB6-bin-3-scaffold_3904	feature	CDS	7509	7727	.	-	0	ID=FNEB6-bin-3.genome.CDS.2084;Product=
+FNEB6-bin-3-scaffold_3904	feature	CDS	6805	7488	.	-	0	ID=FNEB6-bin-3.genome.CDS.2083;Product=
+FNEB6-bin-3-scaffold_3904	feature	CDS	5732	6535	.	-	0	ID=FNEB6-bin-3.genome.CDS.2082;Product=
+FNEB6-bin-3-scaffold_3904	feature	CDS	4249	5727	.	-	0	ID=FNEB6-bin-3.genome.CDS.2081;Product=Xylulose kinase %28EC 2.7.1.17%29
+FNEB6-bin-3-scaffold_3904	feature	CDS	3474	4238	.	-	0	ID=FNEB6-bin-3.genome.CDS.2080;Product=COG1028: Dehydrogenases with different specificities %28related to short-chain alcohol dehydrogenases%29
+FNEB6-bin-3-scaffold_3904	feature	CDS	1888	3351	.	-	0	ID=FNEB6-bin-3.genome.CDS.2079;Product=Urea carboxylase-related amino acid permease
+FNEB6-bin-3-scaffold_3904	feature	CDS	1406	1657	.	-	0	ID=FNEB6-bin-3.genome.CDS.2078;Product=
+FNEB6-bin-3-scaffold_3904	feature	CDS	1106	1402	.	-	0	ID=FNEB6-bin-3.genome.CDS.2077;Product=
+FNEB6-bin-3-scaffold_3904	feature	CDS	3	1046	.	-	0	ID=FNEB6-bin-3.genome.CDS.2076;Product=hypothetical protein
+FNEB6-bin-3-scaffold_3918	feature	CDS	4762	5826	.	-	0	ID=FNEB6-bin-3.genome.CDS.1547;Product=COG0488: ATPase components of ABC transporters with duplicated ATPase domains
+FNEB6-bin-3-scaffold_3918	feature	CDS	3643	4782	.	+	0	ID=FNEB6-bin-3.genome.CDS.1546;Product=Galactose-1-phosphate uridylyltransferase %28EC 2.7.7.10%29
+FNEB6-bin-3-scaffold_3918	feature	CDS	2270	3595	.	+	0	ID=FNEB6-bin-3.genome.CDS.1545;Product=NADP-dependent malic enzyme %28EC 1.1.1.40%29
+FNEB6-bin-3-scaffold_3918	feature	CDS	1635	2270	.	+	0	ID=FNEB6-bin-3.genome.CDS.1544;Product=Uracil phosphoribosyltransferase %28EC 2.4.2.9%29
+FNEB6-bin-3-scaffold_3918	feature	CDS	1092	1571	.	-	0	ID=FNEB6-bin-3.genome.CDS.1543;Product=
+FNEB6-bin-3-scaffold_3918	feature	CDS	656	1105	.	-	0	ID=FNEB6-bin-3.genome.CDS.191;Product=tRNA-specific adenosine-34 deaminase %28EC 3.5.4.-%29
+FNEB6-bin-3-scaffold_3918	feature	tRNA	548	637	.	-	.	ID=FNEB6-bin-3.genome.rna.6;Product=tRNA-Ser-CGA
+FNEB6-bin-3-scaffold_3918	feature	CDS	3	545	.	+	0	ID=FNEB6-bin-3.genome.CDS.1541;Product=
+FNEB6-bin-3-scaffold_3942	feature	misc_RNA	5554	5707	.	+	.	ID=FNEB6-bin-3.genome.repeat.22;Product=repeat region
+FNEB6-bin-3-scaffold_3942	feature	CDS	5556	5885	.	-	0	ID=FNEB6-bin-3.genome.CDS.2237;Product=Response regulator NasT
+FNEB6-bin-3-scaffold_3942	feature	CDS	4234	5394	.	-	0	ID=FNEB6-bin-3.genome.CDS.2236;Product=hypothetical protein
+FNEB6-bin-3-scaffold_3942	feature	CDS	3104	4057	.	-	0	ID=FNEB6-bin-3.genome.CDS.2235;Product=High-affinity branched-chain amino acid transport system permease protein LivH %28TC 3.A.1.4.1%29
+FNEB6-bin-3-scaffold_3942	feature	CDS	2067	3104	.	-	0	ID=FNEB6-bin-3.genome.CDS.2234;Product=Branched-chain amino acid transport system permease protein LivM %28TC 3.A.1.4.1%29
+FNEB6-bin-3-scaffold_3942	feature	CDS	1298	2074	.	-	0	ID=FNEB6-bin-3.genome.CDS.2233;Product=Branched-chain amino acid transport ATP-binding protein LivG %28TC 3.A.1.4.1%29
+FNEB6-bin-3-scaffold_3942	feature	CDS	580	1308	.	-	0	ID=FNEB6-bin-3.genome.CDS.2232;Product=Branched-chain amino acid transport ATP-binding protein LivF %28TC 3.A.1.4.1%29
+FNEB6-bin-3-scaffold_3942	feature	CDS	174	578	.	+	0	ID=FNEB6-bin-3.genome.CDS.2231;Product=ComA operon protein 2
+FNEB6-bin-3-scaffold_3973	feature	CDS	3399	4406	.	-	0	ID=FNEB6-bin-3.genome.CDS.2059;Product=NAD-dependent glyceraldehyde-3-phosphate dehydrogenase %28EC 1.2.1.12%29
+FNEB6-bin-3-scaffold_3973	feature	CDS	2203	3399	.	-	0	ID=FNEB6-bin-3.genome.CDS.2058;Product=Phosphoglycerate kinase %28EC 2.7.2.3%29
+FNEB6-bin-3-scaffold_3973	feature	CDS	1428	2210	.	-	0	ID=FNEB6-bin-3.genome.CDS.2057;Product=Triosephosphate isomerase %28EC 5.3.1.1%29
+FNEB6-bin-3-scaffold_3973	feature	CDS	1148	1375	.	-	0	ID=FNEB6-bin-3.genome.CDS.2056;Product=Preprotein translocase subunit SecG %28TC 3.A.5.1.1%29
+FNEB6-bin-3-scaffold_3973	feature	CDS	756	1094	.	-	0	ID=FNEB6-bin-3.genome.CDS.2055;Product=putative electron transport protein
+FNEB6-bin-3-scaffold_3973	feature	CDS	1	759	.	+	0	ID=FNEB6-bin-3.genome.CDS.2054;Product=Glucose-6-phosphate isomerase %28EC 5.3.1.9%29
+FNEB6-bin-3-scaffold_3980	feature	CDS	11012	11272	.	+	0	ID=FNEB6-bin-3.genome.CDS.1975;Product=
+FNEB6-bin-3-scaffold_3980	feature	CDS	9341	10750	.	+	0	ID=FNEB6-bin-3.genome.CDS.1974;Product=Predicted ATPase related to phosphate starvation-inducible protein PhoH
+FNEB6-bin-3-scaffold_3980	feature	CDS	8476	9258	.	+	0	ID=FNEB6-bin-3.genome.CDS.1973;Product=%282E%2C6Z%29-farnesyl diphosphate synthase %28EC 2.5.1.68%29
+FNEB6-bin-3-scaffold_3980	feature	CDS	8139	8465	.	+	0	ID=FNEB6-bin-3.genome.CDS.1972;Product=
+FNEB6-bin-3-scaffold_3980	feature	CDS	7418	8134	.	+	0	ID=FNEB6-bin-3.genome.CDS.1971;Product=hypothetical protein
+FNEB6-bin-3-scaffold_3980	feature	CDS	7279	7425	.	+	0	ID=FNEB6-bin-3.genome.CDS.603;Product=
+FNEB6-bin-3-scaffold_3980	feature	CDS	6854	7243	.	-	0	ID=FNEB6-bin-3.genome.CDS.1970;Product=
+FNEB6-bin-3-scaffold_3980	feature	CDS	6355	6831	.	-	0	ID=FNEB6-bin-3.genome.CDS.1969;Product=Transcription elongation factor GreA
+FNEB6-bin-3-scaffold_3980	feature	CDS	5434	6219	.	+	0	ID=FNEB6-bin-3.genome.CDS.1968;Product=
+FNEB6-bin-3-scaffold_3980	feature	CDS	4448	5437	.	+	0	ID=FNEB6-bin-3.genome.CDS.1967;Product=hypothetical protein
+FNEB6-bin-3-scaffold_3980	feature	CDS	2731	4335	.	-	0	ID=FNEB6-bin-3.genome.CDS.1966;Product=Multidrug resistance protein B
+FNEB6-bin-3-scaffold_3980	feature	CDS	2256	2678	.	+	0	ID=FNEB6-bin-3.genome.CDS.1965;Product=
+FNEB6-bin-3-scaffold_3980	feature	CDS	2017	2139	.	-	0	ID=FNEB6-bin-3.genome.CDS.1964;Product=
+FNEB6-bin-3-scaffold_3980	feature	CDS	1331	2020	.	-	0	ID=FNEB6-bin-3.genome.CDS.1963;Product=salicylate esterase
+FNEB6-bin-3-scaffold_3980	feature	CDS	88	1251	.	-	0	ID=FNEB6-bin-3.genome.CDS.1962;Product=
+FNEB6-bin-3-scaffold_3980	feature	tRNA	3	75	.	+	.	ID=FNEB6-bin-3.genome.rna.9;Product=tRNA-Leu-TAA
+FNEB6-bin-3-scaffold_40	feature	CDS	1953	2720	.	+	0	ID=FNEB6-bin-3.genome.CDS.1333;Product=CDP-4-dehydro-6-deoxy-D-glucose 3-dehydratase %28EC 4.2.1.-%29
+FNEB6-bin-3-scaffold_40	feature	CDS	79	1917	.	+	0	ID=FNEB6-bin-3.genome.CDS.1332;Product=
+FNEB6-bin-3-scaffold_4002	feature	CDS	8234	8494	.	-	0	ID=FNEB6-bin-3.genome.CDS.1812;Product=Cell division protein FtsI %5BPeptidoglycan synthetase%5D %28EC 2.4.1.129%29
+FNEB6-bin-3-scaffold_4002	feature	CDS	7069	8220	.	-	0	ID=FNEB6-bin-3.genome.CDS.1811;Product=Rod shape-determining protein RodA
+FNEB6-bin-3-scaffold_4002	feature	CDS	4706	6889	.	-	0	ID=FNEB6-bin-3.genome.CDS.1810;Product=Cytoplasmic axial filament protein CafA and Ribonuclease G %28EC 3.1.4.-%29
+FNEB6-bin-3-scaffold_4002	feature	CDS	4327	4635	.	-	0	ID=FNEB6-bin-3.genome.CDS.1809;Product=LSU ribosomal protein L21p
+FNEB6-bin-3-scaffold_4002	feature	CDS	4048	4308	.	-	0	ID=FNEB6-bin-3.genome.CDS.1808;Product=LSU ribosomal protein L27p
+FNEB6-bin-3-scaffold_4002	feature	CDS	3249	3962	.	-	0	ID=FNEB6-bin-3.genome.CDS.1807;Product=GTP-binding protein Obg
+FNEB6-bin-3-scaffold_4002	feature	CDS	2257	3252	.	-	0	ID=FNEB6-bin-3.genome.CDS.1806;Product=GTP-binding protein Obg
+FNEB6-bin-3-scaffold_4002	feature	CDS	1472	2260	.	-	0	ID=FNEB6-bin-3.genome.CDS.1805;Product=Glutamate 5-kinase %28EC 2.7.2.11%29 / RNA-binding C-terminal domain PUA
+FNEB6-bin-3-scaffold_4002	feature	CDS	1139	1435	.	-	0	ID=FNEB6-bin-3.genome.CDS.1804;Product=Aspartyl-tRNA%28Asn%29 amidotransferase subunit C %28EC 6.3.5.6%29 %40 Glutamyl-tRNA%28Gln%29 amidotransferase subunit C %28EC 6.3.5.7%29
+FNEB6-bin-3-scaffold_4002	feature	CDS	3	1142	.	-	0	ID=FNEB6-bin-3.genome.CDS.1803;Product=Aspartyl-tRNA%28Asn%29 amidotransferase subunit A %28EC 6.3.5.6%29 %40 Glutamyl-tRNA%28Gln%29 amidotransferase subunit A %28EC 6.3.5.7%29
+FNEB6-bin-3-scaffold_4023	feature	misc_RNA	1593	1756	.	+	.	ID=FNEB6-bin-3.genome.repeat.21;Product=repeat region
+FNEB6-bin-3-scaffold_4023	feature	CDS	7456	7698	.	+	0	ID=FNEB6-bin-3.genome.CDS.1652;Product=Inosine-5%27-monophosphate dehydrogenase %28EC 1.1.1.205%29
+FNEB6-bin-3-scaffold_4023	feature	CDS	7042	7368	.	-	0	ID=FNEB6-bin-3.genome.CDS.1651;Product=
+FNEB6-bin-3-scaffold_4023	feature	CDS	6359	7045	.	+	0	ID=FNEB6-bin-3.genome.CDS.1650;Product=
+FNEB6-bin-3-scaffold_4023	feature	CDS	6178	6285	.	+	0	ID=FNEB6-bin-3.genome.CDS.1649;Product=
+FNEB6-bin-3-scaffold_4023	feature	CDS	5321	5929	.	+	0	ID=FNEB6-bin-3.genome.CDS.1648;Product=
+FNEB6-bin-3-scaffold_4023	feature	CDS	3425	5320	.	+	0	ID=FNEB6-bin-3.genome.CDS.1647;Product=Cytochrome c oxidase polypeptide I %28EC 1.9.3.1%29
+FNEB6-bin-3-scaffold_4023	feature	CDS	2625	3428	.	+	0	ID=FNEB6-bin-3.genome.CDS.1646;Product=Cytochrome c oxidase polypeptide II %28EC 1.9.3.1%29
+FNEB6-bin-3-scaffold_4023	feature	CDS	1911	2624	.	+	0	ID=FNEB6-bin-3.genome.CDS.1645;Product=hypothetical protein
+FNEB6-bin-3-scaffold_4023	feature	CDS	1003	1812	.	-	0	ID=FNEB6-bin-3.genome.CDS.1644;Product=
+FNEB6-bin-3-scaffold_4023	feature	CDS	760	1002	.	-	0	ID=FNEB6-bin-3.genome.CDS.1643;Product=
+FNEB6-bin-3-scaffold_4023	feature	CDS	2	718	.	-	0	ID=FNEB6-bin-3.genome.CDS.1642;Product=
+FNEB6-bin-3-scaffold_4025	feature	CDS	3985	4335	.	-	0	ID=FNEB6-bin-3.genome.CDS.1502;Product=
+FNEB6-bin-3-scaffold_4025	feature	CDS	3384	3938	.	-	0	ID=FNEB6-bin-3.genome.CDS.1501;Product=LemA protein
+FNEB6-bin-3-scaffold_4025	feature	CDS	2500	3381	.	-	0	ID=FNEB6-bin-3.genome.CDS.1500;Product=hypothetical protein
+FNEB6-bin-3-scaffold_4025	feature	CDS	2154	2444	.	-	0	ID=FNEB6-bin-3.genome.CDS.1499;Product=
+FNEB6-bin-3-scaffold_4025	feature	CDS	1384	2157	.	-	0	ID=FNEB6-bin-3.genome.CDS.1498;Product=Cytochrome oxidase biogenesis protein Sco1/SenC/PrrC%2C putative copper metallochaperone
+FNEB6-bin-3-scaffold_4025	feature	CDS	1014	1361	.	-	0	ID=FNEB6-bin-3.genome.CDS.147;Product=
+FNEB6-bin-3-scaffold_4025	feature	CDS	3	1013	.	+	0	ID=FNEB6-bin-3.genome.CDS.1496;Product=sensor histidine kinase
+FNEB6-bin-3-scaffold_4027	feature	CDS	2513	3187	.	-	0	ID=FNEB6-bin-3.genome.CDS.2125;Product=Phosphoserine phosphatase %28EC 3.1.3.3%29
+FNEB6-bin-3-scaffold_4027	feature	CDS	2057	2518	.	+	0	ID=FNEB6-bin-3.genome.CDS.2124;Product=ATP phosphoribosyltransferase %28EC 2.4.2.17%29
+FNEB6-bin-3-scaffold_4027	feature	CDS	1443	2009	.	+	0	ID=FNEB6-bin-3.genome.CDS.2123;Product=ATP phosphoribosyltransferase %28EC 2.4.2.17%29
+FNEB6-bin-3-scaffold_4027	feature	CDS	1150	1413	.	+	0	ID=FNEB6-bin-3.genome.CDS.2122;Product=Phosphoribosyl-ATP pyrophosphatase %28EC 3.6.1.31%29
+FNEB6-bin-3-scaffold_4027	feature	CDS	447	1109	.	+	0	ID=FNEB6-bin-3.genome.CDS.2121;Product=Ribulose-phosphate 3-epimerase %28EC 5.1.3.1%29
+FNEB6-bin-3-scaffold_4027	feature	CDS	2	418	.	+	0	ID=FNEB6-bin-3.genome.CDS.2120;Product=16S rRNA %28cytosine%28967%29-C%285%29%29-methyltransferase %28EC 2.1.1.176%29
+FNEB6-bin-3-scaffold_4041	feature	CDS	3588	4352	.	-	0	ID=FNEB6-bin-3.genome.CDS.1465;Product=
+FNEB6-bin-3-scaffold_4041	feature	CDS	2437	3555	.	-	0	ID=FNEB6-bin-3.genome.CDS.1464;Product=Inosine-5%27-monophosphate dehydrogenase %28EC 1.1.1.205%29 / CBS domain
+FNEB6-bin-3-scaffold_4041	feature	CDS	1243	1461	.	+	0	ID=FNEB6-bin-3.genome.CDS.118;Product=
+FNEB6-bin-3-scaffold_4041	feature	CDS	3	1190	.	-	0	ID=FNEB6-bin-3.genome.CDS.1463;Product=GMP synthase %5Bglutamine-hydrolyzing%5D %28EC 6.3.5.2%29
+FNEB6-bin-3-scaffold_4059	feature	CDS	4009	4746	.	-	0	ID=FNEB6-bin-3.genome.CDS.2206;Product=hypothetical protein
+FNEB6-bin-3-scaffold_4059	feature	CDS	3378	3965	.	-	0	ID=FNEB6-bin-3.genome.CDS.2205;Product=hypothetical protein
+FNEB6-bin-3-scaffold_4059	feature	CDS	2937	3377	.	+	0	ID=FNEB6-bin-3.genome.CDS.2204;Product=
+FNEB6-bin-3-scaffold_4059	feature	CDS	2437	2913	.	+	0	ID=FNEB6-bin-3.genome.CDS.2203;Product=
+FNEB6-bin-3-scaffold_4059	feature	CDS	1450	2340	.	-	0	ID=FNEB6-bin-3.genome.CDS.2202;Product=Heme ABC transporter%2C cell surface heme and hemoprotein receptor HmuT
+FNEB6-bin-3-scaffold_4059	feature	CDS	473	1453	.	-	0	ID=FNEB6-bin-3.genome.CDS.2201;Product=hypothetical protein
+FNEB6-bin-3-scaffold_4059	feature	CDS	1	480	.	-	0	ID=FNEB6-bin-3.genome.CDS.2200;Product=
+FNEB6-bin-3-scaffold_4061	feature	CDS	15751	16386	.	+	0	ID=FNEB6-bin-3.genome.CDS.1578;Product=ATP-dependent DNA helicase UvrD/PcrA%2C actinomycete paralog
+FNEB6-bin-3-scaffold_4061	feature	CDS	14842	15750	.	+	0	ID=FNEB6-bin-3.genome.CDS.1577;Product=NADH pyrophosphatase %28EC 3.6.1.22%29
+FNEB6-bin-3-scaffold_4061	feature	CDS	13956	14813	.	-	0	ID=FNEB6-bin-3.genome.CDS.1576;Product=hypothetical protein
+FNEB6-bin-3-scaffold_4061	feature	CDS	11312	13975	.	+	0	ID=FNEB6-bin-3.genome.CDS.223;Product=ATP-dependent DNA helicase SCO5184
+FNEB6-bin-3-scaffold_4061	feature	CDS	10522	11019	.	+	0	ID=FNEB6-bin-3.genome.CDS.222;Product=ATP-dependent DNA helicase SCO5184
+FNEB6-bin-3-scaffold_4061	feature	CDS	9467	10522	.	+	0	ID=FNEB6-bin-3.genome.CDS.1574;Product=ATP-dependent DNA helicase SCO5183
+FNEB6-bin-3-scaffold_4061	feature	CDS	8388	9485	.	+	0	ID=FNEB6-bin-3.genome.CDS.1573;Product=ATP-dependent DNA helicase SCO5183
+FNEB6-bin-3-scaffold_4061	feature	CDS	7226	8395	.	+	0	ID=FNEB6-bin-3.genome.CDS.1572;Product=ATP-dependent DNA helicase SCO5183
+FNEB6-bin-3-scaffold_4061	feature	CDS	5058	7190	.	+	0	ID=FNEB6-bin-3.genome.CDS.1571;Product=GTP-binding protein TypA/BipA
+FNEB6-bin-3-scaffold_4061	feature	CDS	4048	5061	.	+	0	ID=FNEB6-bin-3.genome.CDS.217;Product=GTP-binding and nucleic acid-binding protein YchF
+FNEB6-bin-3-scaffold_4061	feature	CDS	2682	3863	.	-	0	ID=FNEB6-bin-3.genome.CDS.1569;Product=DNA recombination protein RmuC
+FNEB6-bin-3-scaffold_4061	feature	CDS	2264	2689	.	-	0	ID=FNEB6-bin-3.genome.CDS.1568;Product=hypothetical protein
+FNEB6-bin-3-scaffold_4061	feature	CDS	1031	2284	.	+	0	ID=FNEB6-bin-3.genome.CDS.1567;Product=4-hydroxy-3-methylbut-2-enyl diphosphate reductase %28EC 1.17.1.2%29
+FNEB6-bin-3-scaffold_4061	feature	CDS	2	997	.	-	0	ID=FNEB6-bin-3.genome.CDS.1566;Product=Exodeoxyribonuclease VII large subunit %28EC 3.1.11.6%29
+FNEB6-bin-3-scaffold_4108	feature	CDS	8275	8655	.	-	0	ID=FNEB6-bin-3.genome.CDS.2348;Product=Phytoene dehydrogenase %28EC 1.14.99.-%29
+FNEB6-bin-3-scaffold_4108	feature	CDS	7373	8272	.	-	0	ID=FNEB6-bin-3.genome.CDS.2347;Product=Phytoene synthase %28EC 2.5.1.32%29
+FNEB6-bin-3-scaffold_4108	feature	CDS	6669	7271	.	-	0	ID=FNEB6-bin-3.genome.CDS.2346;Product=
+FNEB6-bin-3-scaffold_4108	feature	CDS	6162	6656	.	-	0	ID=FNEB6-bin-3.genome.CDS.2345;Product=hypothetical protein
+FNEB6-bin-3-scaffold_4108	feature	CDS	4361	6145	.	-	0	ID=FNEB6-bin-3.genome.CDS.2344;Product=Serine/threonine protein kinase PrkC%2C regulator of stationary phase
+FNEB6-bin-3-scaffold_4108	feature	CDS	3476	4351	.	-	0	ID=FNEB6-bin-3.genome.CDS.2343;Product=Endonuclease IV %28EC 3.1.21.2%29
+FNEB6-bin-3-scaffold_4108	feature	CDS	2598	3479	.	-	0	ID=FNEB6-bin-3.genome.CDS.2342;Product=
+FNEB6-bin-3-scaffold_4108	feature	CDS	1555	2601	.	-	0	ID=FNEB6-bin-3.genome.CDS.2341;Product=Low-specificity L-threonine aldolase %28EC 4.1.2.48%29
+FNEB6-bin-3-scaffold_4108	feature	CDS	1090	1584	.	+	0	ID=FNEB6-bin-3.genome.CDS.2340;Product=ADA regulatory protein / Methylated-DNA--protein-cysteine methyltransferase %28EC 2.1.1.63%29
+FNEB6-bin-3-scaffold_4108	feature	CDS	1	1071	.	+	0	ID=FNEB6-bin-3.genome.CDS.2339;Product=2-keto-3-deoxy-D-arabino-heptulosonate-7-phosphate synthase II %28EC 2.5.1.54%29
+FNEB6-bin-3-scaffold_4125	feature	CDS	5609	6214	.	+	0	ID=FNEB6-bin-3.genome.CDS.1604;Product=
+FNEB6-bin-3-scaffold_4125	feature	CDS	4636	5616	.	+	0	ID=FNEB6-bin-3.genome.CDS.1603;Product=hypothetical protein
+FNEB6-bin-3-scaffold_4125	feature	CDS	3749	4639	.	+	0	ID=FNEB6-bin-3.genome.CDS.1602;Product=Heme ABC transporter%2C cell surface heme and hemoprotein receptor HmuT
+FNEB6-bin-3-scaffold_4125	feature	CDS	3177	3626	.	-	0	ID=FNEB6-bin-3.genome.CDS.1601;Product=hypothetical protein
+FNEB6-bin-3-scaffold_4125	feature	CDS	2709	3149	.	-	0	ID=FNEB6-bin-3.genome.CDS.1600;Product=
+FNEB6-bin-3-scaffold_4125	feature	CDS	2121	2708	.	+	0	ID=FNEB6-bin-3.genome.CDS.1599;Product=
+FNEB6-bin-3-scaffold_4125	feature	CDS	1141	2076	.	+	0	ID=FNEB6-bin-3.genome.CDS.1598;Product=hypothetical protein
+FNEB6-bin-3-scaffold_4125	feature	CDS	2	1141	.	+	0	ID=FNEB6-bin-3.genome.CDS.1597;Product=Cell envelope-associated transcriptional attenuator LytR-CpsA-Psr%2C subfamily A1 %28as in PMID19099556%29
+FNEB6-bin-3-scaffold_4129	feature	CDS	12562	13023	.	+	0	ID=FNEB6-bin-3.genome.CDS.1828;Product=SSU rRNA %28adenine%281518%29-N%286%29/adenine%281519%29-N%286%29%29-dimethyltransferase %28EC 2.1.1.182%29
+FNEB6-bin-3-scaffold_4129	feature	CDS	11705	12562	.	+	0	ID=FNEB6-bin-3.genome.CDS.1827;Product=Putative deoxyribonuclease YcfH
+FNEB6-bin-3-scaffold_4129	feature	CDS	10133	11704	.	+	0	ID=FNEB6-bin-3.genome.CDS.1826;Product=Methionyl-tRNA synthetase %28EC 6.1.1.10%29
+FNEB6-bin-3-scaffold_4129	feature	CDS	9780	10130	.	+	0	ID=FNEB6-bin-3.genome.CDS.461;Product=rRNA small subunit methyltransferase I
+FNEB6-bin-3-scaffold_4129	feature	CDS	9199	9735	.	+	0	ID=FNEB6-bin-3.genome.CDS.1824;Product=rRNA small subunit methyltransferase I
+FNEB6-bin-3-scaffold_4129	feature	CDS	7859	9166	.	-	0	ID=FNEB6-bin-3.genome.CDS.1823;Product=CONSERVED MEMBRANE PROTEIN
+FNEB6-bin-3-scaffold_4129	feature	CDS	6968	7717	.	+	0	ID=FNEB6-bin-3.genome.CDS.1822;Product=
+FNEB6-bin-3-scaffold_4129	feature	CDS	6334	6912	.	+	0	ID=FNEB6-bin-3.genome.CDS.1821;Product=Ribosomal-protein-S5p-alanine acetyltransferase
+FNEB6-bin-3-scaffold_4129	feature	CDS	5377	6309	.	+	0	ID=FNEB6-bin-3.genome.CDS.1820;Product=Molybdopterin biosynthesis protein MoeA
+FNEB6-bin-3-scaffold_4129	feature	CDS	4792	5343	.	-	0	ID=FNEB6-bin-3.genome.CDS.1819;Product=5-formyltetrahydrofolate cyclo-ligase %28EC 6.3.3.2%29
+FNEB6-bin-3-scaffold_4129	feature	CDS	4250	4795	.	+	0	ID=FNEB6-bin-3.genome.CDS.454;Product=Copper resistance protein D
+FNEB6-bin-3-scaffold_4129	feature	CDS	2950	4284	.	+	0	ID=FNEB6-bin-3.genome.CDS.453;Product=
+FNEB6-bin-3-scaffold_4129	feature	CDS	2345	2944	.	+	0	ID=FNEB6-bin-3.genome.CDS.1817;Product=hypothetical protein
+FNEB6-bin-3-scaffold_4129	feature	CDS	2029	2283	.	-	0	ID=FNEB6-bin-3.genome.CDS.1816;Product=
+FNEB6-bin-3-scaffold_4129	feature	CDS	1902	2021	.	+	0	ID=FNEB6-bin-3.genome.CDS.1815;Product=
+FNEB6-bin-3-scaffold_4129	feature	CDS	1754	1882	.	-	0	ID=FNEB6-bin-3.genome.CDS.449;Product=
+FNEB6-bin-3-scaffold_4129	feature	CDS	264	1724	.	+	0	ID=FNEB6-bin-3.genome.CDS.1814;Product=hypothetical protein
+FNEB6-bin-3-scaffold_4129	feature	CDS	16	135	.	+	0	ID=FNEB6-bin-3.genome.CDS.1813;Product=
+FNEB6-bin-3-scaffold_4149	feature	CDS	7326	8453	.	-	0	ID=FNEB6-bin-3.genome.CDS.1887;Product=Mrp protein homolog
+FNEB6-bin-3-scaffold_4149	feature	CDS	5903	7297	.	-	0	ID=FNEB6-bin-3.genome.CDS.1886;Product=
+FNEB6-bin-3-scaffold_4149	feature	CDS	4656	5891	.	-	0	ID=FNEB6-bin-3.genome.CDS.1885;Product=Manganese transport protein MntH
+FNEB6-bin-3-scaffold_4149	feature	CDS	3749	4651	.	-	0	ID=FNEB6-bin-3.genome.CDS.1884;Product=
+FNEB6-bin-3-scaffold_4149	feature	CDS	2665	3756	.	-	0	ID=FNEB6-bin-3.genome.CDS.1883;Product=FIG00031715: Predicted metal-dependent phosphoesterases %28PHP family%29
+FNEB6-bin-3-scaffold_4149	feature	CDS	2424	2678	.	+	0	ID=FNEB6-bin-3.genome.CDS.1882;Product=
+FNEB6-bin-3-scaffold_4149	feature	CDS	1775	2410	.	+	0	ID=FNEB6-bin-3.genome.CDS.1881;Product=Transcriptional regulator%2C TetR family
+FNEB6-bin-3-scaffold_4149	feature	CDS	1409	1738	.	-	0	ID=FNEB6-bin-3.genome.CDS.1880;Product=Sulfur carrier protein adenylyltransferase ThiF
+FNEB6-bin-3-scaffold_4149	feature	CDS	516	1409	.	-	0	ID=FNEB6-bin-3.genome.CDS.1879;Product=1D-myo-inositol 2-acetamido-2-deoxy-alpha-D-glucopyranoside deacetylase %28EC 3.5.1.103%29
+FNEB6-bin-3-scaffold_4149	feature	CDS	2	526	.	+	0	ID=FNEB6-bin-3.genome.CDS.1878;Product=Cysteinyl-tRNA synthetase %28EC 6.1.1.16%29
+FNEB6-bin-3-scaffold_4159	feature	CDS	6449	7147	.	+	0	ID=FNEB6-bin-3.genome.CDS.2535;Product=Chaperone protein DnaJ
+FNEB6-bin-3-scaffold_4159	feature	CDS	5731	6456	.	+	0	ID=FNEB6-bin-3.genome.CDS.2534;Product=Heat-inducible transcription repressor HrcA
+FNEB6-bin-3-scaffold_4159	feature	CDS	5072	5716	.	+	0	ID=FNEB6-bin-3.genome.CDS.1133;Product=Hypothetical radical SAM family enzyme in heat shock gene cluster%2C similarity with CPO of BS HemN-type
+FNEB6-bin-3-scaffold_4159	feature	CDS	4485	5030	.	+	0	ID=FNEB6-bin-3.genome.CDS.2532;Product=Hypothetical radical SAM family enzyme in heat shock gene cluster%2C similarity with CPO of BS HemN-type
+FNEB6-bin-3-scaffold_4159	feature	CDS	2374	4479	.	+	0	ID=FNEB6-bin-3.genome.CDS.2531;Product=Translation elongation factor LepA
+FNEB6-bin-3-scaffold_4159	feature	CDS	2074	2340	.	+	0	ID=FNEB6-bin-3.genome.CDS.2530;Product=SSU ribosomal protein S20p
+FNEB6-bin-3-scaffold_4159	feature	CDS	1402	1968	.	+	0	ID=FNEB6-bin-3.genome.CDS.2529;Product=DNA polymerase III delta subunit %28EC 2.7.7.7%29
+FNEB6-bin-3-scaffold_4159	feature	CDS	965	1285	.	+	0	ID=FNEB6-bin-3.genome.CDS.2528;Product=DNA polymerase III delta subunit %28EC 2.7.7.7%29
+FNEB6-bin-3-scaffold_4159	feature	CDS	3	983	.	+	0	ID=FNEB6-bin-3.genome.CDS.2527;Product=hypothetical protein
+FNEB6-bin-3-scaffold_4163	feature	CDS	7233	7640	.	-	0	ID=FNEB6-bin-3.genome.CDS.2572;Product=
+FNEB6-bin-3-scaffold_4163	feature	CDS	6012	7169	.	+	0	ID=FNEB6-bin-3.genome.CDS.2571;Product=Phosphate ABC transporter%2C periplasmic phosphate-binding protein PstS %28TC 3.A.1.7.1%29
+FNEB6-bin-3-scaffold_4163	feature	CDS	5027	5896	.	+	0	ID=FNEB6-bin-3.genome.CDS.2570;Product=Phosphate transport ATP-binding protein PstB %28TC 3.A.1.7.1%29
+FNEB6-bin-3-scaffold_4163	feature	CDS	3963	5024	.	+	0	ID=FNEB6-bin-3.genome.CDS.2569;Product=Phosphate transport system permease protein PstA %28TC 3.A.1.7.1%29
+FNEB6-bin-3-scaffold_4163	feature	CDS	2968	3966	.	+	0	ID=FNEB6-bin-3.genome.CDS.2568;Product=Phosphate transport system permease protein PstC %28TC 3.A.1.7.1%29
+FNEB6-bin-3-scaffold_4163	feature	CDS	2193	2879	.	+	0	ID=FNEB6-bin-3.genome.CDS.2567;Product=Phosphate regulon transcriptional regulatory protein PhoB %28SphR%29
+FNEB6-bin-3-scaffold_4163	feature	CDS	1117	2196	.	+	0	ID=FNEB6-bin-3.genome.CDS.2566;Product=Phosphate regulon sensor protein PhoR %28SphS%29 %28EC 2.7.13.3%29
+FNEB6-bin-3-scaffold_4163	feature	CDS	328	975	.	-	0	ID=FNEB6-bin-3.genome.CDS.2565;Product=Phosphate transport system regulatory protein PhoU
+FNEB6-bin-3-scaffold_4163	feature	CDS	2	316	.	+	0	ID=FNEB6-bin-3.genome.CDS.2564;Product=Phosphoglycerate mutase %28EC 5.4.2.11%29
+FNEB6-bin-3-scaffold_4171	feature	CDS	11267	12862	.	+	0	ID=FNEB6-bin-3.genome.CDS.1664;Product=%28R%29-citramalate synthase %28EC 2.3.1.182%29
+FNEB6-bin-3-scaffold_4171	feature	CDS	10182	11270	.	+	0	ID=FNEB6-bin-3.genome.CDS.1663;Product=Branched-chain amino acid aminotransferase %28EC 2.6.1.42%29
+FNEB6-bin-3-scaffold_4171	feature	CDS	9147	10181	.	+	0	ID=FNEB6-bin-3.genome.CDS.1662;Product=3-isopropylmalate dehydrogenase %28EC 1.1.1.85%29
+FNEB6-bin-3-scaffold_4171	feature	CDS	7339	9147	.	+	0	ID=FNEB6-bin-3.genome.CDS.304;Product=D-3-phosphoglycerate dehydrogenase %28EC 1.1.1.95%29
+FNEB6-bin-3-scaffold_4171	feature	CDS	6315	7346	.	+	0	ID=FNEB6-bin-3.genome.CDS.1660;Product=Ketol-acid reductoisomerase %28EC 1.1.1.86%29
+FNEB6-bin-3-scaffold_4171	feature	CDS	5755	6273	.	+	0	ID=FNEB6-bin-3.genome.CDS.1659;Product=Acetolactate synthase small subunit %28EC 2.2.1.6%29
+FNEB6-bin-3-scaffold_4171	feature	CDS	4868	5755	.	+	0	ID=FNEB6-bin-3.genome.CDS.1658;Product=Acetolactate synthase large subunit %28EC 2.2.1.6%29
+FNEB6-bin-3-scaffold_4171	feature	CDS	3870	4847	.	+	0	ID=FNEB6-bin-3.genome.CDS.1657;Product=Acetolactate synthase large subunit %28EC 2.2.1.6%29
+FNEB6-bin-3-scaffold_4171	feature	CDS	3171	3653	.	+	0	ID=FNEB6-bin-3.genome.CDS.1656;Product=Dihydroxy-acid dehydratase %28EC 4.2.1.9%29
+FNEB6-bin-3-scaffold_4171	feature	CDS	1646	3214	.	+	0	ID=FNEB6-bin-3.genome.CDS.1655;Product=Dihydroxy-acid dehydratase %28EC 4.2.1.9%29
+FNEB6-bin-3-scaffold_4171	feature	CDS	1298	1636	.	+	0	ID=FNEB6-bin-3.genome.CDS.1654;Product=Aspartyl-tRNA%28Asn%29 amidotransferase subunit B %28EC 6.3.5.6%29 %40 Glutamyl-tRNA%28Gln%29 amidotransferase subunit B %28EC 6.3.5.7%29
+FNEB6-bin-3-scaffold_4171	feature	CDS	1	1347	.	+	0	ID=FNEB6-bin-3.genome.CDS.1653;Product=Aspartyl-tRNA%28Asn%29 amidotransferase subunit B %28EC 6.3.5.6%29 %40 Glutamyl-tRNA%28Gln%29 amidotransferase subunit B %28EC 6.3.5.7%29
+FNEB6-bin-3-scaffold_4175	feature	CDS	5140	5523	.	+	0	ID=FNEB6-bin-3.genome.CDS.2463;Product=UDP-glucose 4-epimerase %28EC 5.1.3.2%29
+FNEB6-bin-3-scaffold_4175	feature	CDS	3965	5140	.	+	0	ID=FNEB6-bin-3.genome.CDS.2462;Product=UDP-glucose 6-dehydrogenase %28EC 1.1.1.22%29
+FNEB6-bin-3-scaffold_4175	feature	CDS	2150	3958	.	+	0	ID=FNEB6-bin-3.genome.CDS.2461;Product=hypothetical protein
+FNEB6-bin-3-scaffold_4175	feature	CDS	610	2028	.	-	0	ID=FNEB6-bin-3.genome.CDS.2460;Product=
+FNEB6-bin-3-scaffold_4175	feature	CDS	157	558	.	-	0	ID=FNEB6-bin-3.genome.CDS.2459;Product=hypothetical protein
+FNEB6-bin-3-scaffold_4178	feature	misc_RNA	1	154	.	+	.	ID=FNEB6-bin-3.genome.repeat.14;Product=repeat region
+FNEB6-bin-3-scaffold_4178	feature	CDS	5804	6112	.	-	0	ID=FNEB6-bin-3.genome.CDS.2647;Product=ComA operon protein 2
+FNEB6-bin-3-scaffold_4178	feature	CDS	5124	5804	.	-	0	ID=FNEB6-bin-3.genome.CDS.2646;Product=salicylate esterase
+FNEB6-bin-3-scaffold_4178	feature	CDS	4384	5103	.	+	0	ID=FNEB6-bin-3.genome.CDS.2645;Product=Branched-chain amino acid transport ATP-binding protein LivF %28TC 3.A.1.4.1%29
+FNEB6-bin-3-scaffold_4178	feature	CDS	3618	4394	.	+	0	ID=FNEB6-bin-3.genome.CDS.2644;Product=Branched-chain amino acid transport ATP-binding protein LivG %28TC 3.A.1.4.1%29
+FNEB6-bin-3-scaffold_4178	feature	CDS	2579	3625	.	+	0	ID=FNEB6-bin-3.genome.CDS.2643;Product=Branched-chain amino acid transport system permease protein LivM %28TC 3.A.1.4.1%29
+FNEB6-bin-3-scaffold_4178	feature	CDS	1624	2571	.	+	0	ID=FNEB6-bin-3.genome.CDS.2642;Product=High-affinity branched-chain amino acid transport system permease protein LivH %28TC 3.A.1.4.1%29
+FNEB6-bin-3-scaffold_4178	feature	CDS	328	1491	.	+	0	ID=FNEB6-bin-3.genome.CDS.2641;Product=Branched-chain amino acid ABC transporter%2C amino acid-binding protein %28TC 3.A.1.4.1%29
+FNEB6-bin-3-scaffold_4178	feature	CDS	3	152	.	+	0	ID=FNEB6-bin-3.genome.CDS.2640;Product=
+FNEB6-bin-3-scaffold_4189	feature	CDS	16242	16355	.	+	0	ID=FNEB6-bin-3.genome.CDS.1928;Product=
+FNEB6-bin-3-scaffold_4189	feature	CDS	15286	16188	.	-	0	ID=FNEB6-bin-3.genome.CDS.1927;Product=
+FNEB6-bin-3-scaffold_4189	feature	CDS	14626	15282	.	+	0	ID=FNEB6-bin-3.genome.CDS.555;Product=hypothetical protein
+FNEB6-bin-3-scaffold_4189	feature	CDS	13968	14579	.	+	0	ID=FNEB6-bin-3.genome.CDS.1925;Product=
+FNEB6-bin-3-scaffold_4189	feature	CDS	13359	13862	.	+	0	ID=FNEB6-bin-3.genome.CDS.1924;Product=Serine acetyltransferase %28EC 2.3.1.30%29
+FNEB6-bin-3-scaffold_4189	feature	CDS	12735	13343	.	+	0	ID=FNEB6-bin-3.genome.CDS.1923;Product=Cysteine synthase %28EC 2.5.1.47%29
+FNEB6-bin-3-scaffold_4189	feature	CDS	11754	12488	.	+	0	ID=FNEB6-bin-3.genome.CDS.1922;Product=hypothetical protein
+FNEB6-bin-3-scaffold_4189	feature	CDS	10739	11743	.	-	0	ID=FNEB6-bin-3.genome.CDS.1921;Product=Aldo-keto reductase
+FNEB6-bin-3-scaffold_4189	feature	CDS	9413	10738	.	+	0	ID=FNEB6-bin-3.genome.CDS.1920;Product=Argininosuccinate synthase %28EC 6.3.4.5%29
+FNEB6-bin-3-scaffold_4189	feature	CDS	8911	9354	.	+	0	ID=FNEB6-bin-3.genome.CDS.1919;Product=
+FNEB6-bin-3-scaffold_4189	feature	CDS	8503	8880	.	-	0	ID=FNEB6-bin-3.genome.CDS.1918;Product=
+FNEB6-bin-3-scaffold_4189	feature	CDS	7790	8491	.	+	0	ID=FNEB6-bin-3.genome.CDS.1917;Product=3-oxoacyl-%5Bacyl-carrier protein%5D reductase %28EC 1.1.1.100%29
+FNEB6-bin-3-scaffold_4189	feature	CDS	3947	7666	.	-	0	ID=FNEB6-bin-3.genome.CDS.1916;Product=2-oxoglutarate dehydrogenase E1 component %28EC 1.2.4.2%29
+FNEB6-bin-3-scaffold_4189	feature	CDS	3573	3950	.	+	0	ID=FNEB6-bin-3.genome.CDS.1915;Product=
+FNEB6-bin-3-scaffold_4189	feature	CDS	3297	3572	.	-	0	ID=FNEB6-bin-3.genome.CDS.1914;Product=Nickel-dependent superoxide dismutase %28EC 1.15.1.1%29
+FNEB6-bin-3-scaffold_4189	feature	CDS	3067	3300	.	-	0	ID=FNEB6-bin-3.genome.CDS.1913;Product=Nickel-dependent superoxide dismutase %28EC 1.15.1.1%29
+FNEB6-bin-3-scaffold_4189	feature	CDS	2650	3066	.	+	0	ID=FNEB6-bin-3.genome.CDS.1912;Product=
+FNEB6-bin-3-scaffold_4189	feature	CDS	2209	2595	.	+	0	ID=FNEB6-bin-3.genome.CDS.1911;Product=
+FNEB6-bin-3-scaffold_4189	feature	CDS	1559	2212	.	+	0	ID=FNEB6-bin-3.genome.CDS.1910;Product=RNA polymerase sigma-54 factor RpoN
+FNEB6-bin-3-scaffold_4189	feature	CDS	174	1463	.	-	0	ID=FNEB6-bin-3.genome.CDS.1909;Product=5-Enolpyruvylshikimate-3-phosphate synthase %28EC 2.5.1.19%29
+FNEB6-bin-3-scaffold_4189	feature	CDS	1	156	.	-	0	ID=FNEB6-bin-3.genome.CDS.1908;Product=Ribosome small subunit-stimulated GTPase EngC
+FNEB6-bin-3-scaffold_4192	feature	CDS	13746	14039	.	+	0	ID=FNEB6-bin-3.genome.CDS.1565;Product=1D-myo-inositol 2-acetamido-2-deoxy-alpha-D-glucopyranoside deacetylase %28EC 3.5.1.103%29
+FNEB6-bin-3-scaffold_4192	feature	CDS	13417	13746	.	+	0	ID=FNEB6-bin-3.genome.CDS.1564;Product=Sulfur carrier protein adenylyltransferase ThiF
+FNEB6-bin-3-scaffold_4192	feature	CDS	12745	13380	.	-	0	ID=FNEB6-bin-3.genome.CDS.1563;Product=Transcriptional regulator%2C TetR family
+FNEB6-bin-3-scaffold_4192	feature	CDS	12477	12731	.	-	0	ID=FNEB6-bin-3.genome.CDS.1562;Product=
+FNEB6-bin-3-scaffold_4192	feature	CDS	11633	12490	.	+	0	ID=FNEB6-bin-3.genome.CDS.1561;Product=FIG00031715: Predicted metal-dependent phosphoesterases %28PHP family%29
+FNEB6-bin-3-scaffold_4192	feature	CDS	10750	11652	.	+	0	ID=FNEB6-bin-3.genome.CDS.1560;Product=
+FNEB6-bin-3-scaffold_4192	feature	CDS	9510	10745	.	+	0	ID=FNEB6-bin-3.genome.CDS.1559;Product=Manganese transport protein MntH
+FNEB6-bin-3-scaffold_4192	feature	CDS	8161	9498	.	+	0	ID=FNEB6-bin-3.genome.CDS.1558;Product=hypothetical protein
+FNEB6-bin-3-scaffold_4192	feature	CDS	7005	8132	.	+	0	ID=FNEB6-bin-3.genome.CDS.1557;Product=Mrp protein homolog
+FNEB6-bin-3-scaffold_4192	feature	CDS	5459	6976	.	+	0	ID=FNEB6-bin-3.genome.CDS.1556;Product=putative protease
+FNEB6-bin-3-scaffold_4192	feature	CDS	4809	5438	.	+	0	ID=FNEB6-bin-3.genome.CDS.1555;Product=hypothetical protein
+FNEB6-bin-3-scaffold_4192	feature	CDS	3278	4777	.	+	0	ID=FNEB6-bin-3.genome.CDS.1554;Product=Cytosol aminopeptidase PepA %28EC 3.4.11.1%29
+FNEB6-bin-3-scaffold_4192	feature	CDS	3089	3268	.	+	0	ID=FNEB6-bin-3.genome.CDS.1553;Product=hypothetical protein
+FNEB6-bin-3-scaffold_4192	feature	CDS	2808	3011	.	+	0	ID=FNEB6-bin-3.genome.CDS.1552;Product=hypothetical protein
+FNEB6-bin-3-scaffold_4192	feature	CDS	1801	2712	.	-	0	ID=FNEB6-bin-3.genome.CDS.1551;Product=2%2C3%2C4%2C5-tetrahydropyridine-2%2C6-dicarboxylate N-succinyltransferase %28EC 2.3.1.117%29
+FNEB6-bin-3-scaffold_4192	feature	CDS	1512	1808	.	+	0	ID=FNEB6-bin-3.genome.CDS.1550;Product=
+FNEB6-bin-3-scaffold_4192	feature	CDS	499	1434	.	+	0	ID=FNEB6-bin-3.genome.CDS.1549;Product=
+FNEB6-bin-3-scaffold_4192	feature	CDS	2	502	.	+	0	ID=FNEB6-bin-3.genome.CDS.1548;Product=putative glycosyl transferase
+FNEB6-bin-3-scaffold_4201	feature	CDS	7151	7984	.	+	0	ID=FNEB6-bin-3.genome.CDS.1772;Product=Uracil permease
+FNEB6-bin-3-scaffold_4201	feature	CDS	6097	6999	.	+	0	ID=FNEB6-bin-3.genome.CDS.1771;Product=Cell division protein FtsX
+FNEB6-bin-3-scaffold_4201	feature	CDS	5398	6087	.	+	0	ID=FNEB6-bin-3.genome.CDS.1770;Product=Cell division transporter%2C ATP-binding protein FtsE %28TC 3.A.5.1.1%29
+FNEB6-bin-3-scaffold_4201	feature	CDS	4194	5297	.	+	0	ID=FNEB6-bin-3.genome.CDS.1769;Product=Peptide chain release factor 2
+FNEB6-bin-3-scaffold_4201	feature	CDS	3805	4128	.	-	0	ID=FNEB6-bin-3.genome.CDS.1768;Product=
+FNEB6-bin-3-scaffold_4201	feature	CDS	3407	3808	.	-	0	ID=FNEB6-bin-3.genome.CDS.1767;Product=
+FNEB6-bin-3-scaffold_4201	feature	CDS	2835	3407	.	-	0	ID=FNEB6-bin-3.genome.CDS.1766;Product=
+FNEB6-bin-3-scaffold_4201	feature	CDS	1596	2831	.	+	0	ID=FNEB6-bin-3.genome.CDS.1765;Product=putative xylitol oxidase
+FNEB6-bin-3-scaffold_4201	feature	CDS	1186	1599	.	+	0	ID=FNEB6-bin-3.genome.CDS.1764;Product=
+FNEB6-bin-3-scaffold_4201	feature	CDS	190	1158	.	-	0	ID=FNEB6-bin-3.genome.CDS.1763;Product=Rhodanese domain protein UPF0176%2C Actinobacterial subgroup
+FNEB6-bin-3-scaffold_4201	feature	CDS	2	178	.	+	0	ID=FNEB6-bin-3.genome.CDS.1762;Product=
+FNEB6-bin-3-scaffold_45	feature	CDS	2550	3719	.	-	0	ID=FNEB6-bin-3.genome.CDS.1534;Product=Predicted ATPase related to phosphate starvation-inducible protein PhoH
+FNEB6-bin-3-scaffold_45	feature	CDS	1713	2288	.	-	0	ID=FNEB6-bin-3.genome.CDS.1533;Product=
+FNEB6-bin-3-scaffold_45	feature	CDS	43	1716	.	+	0	ID=FNEB6-bin-3.genome.CDS.181;Product=Fumarate hydratase class I %28EC 4.2.1.2%29
+FNEB6-bin-3-scaffold_463	feature	CDS	2748	3419	.	+	0	ID=FNEB6-bin-3.genome.CDS.1868;Product=Lipoate synthase
+FNEB6-bin-3-scaffold_463	feature	CDS	2101	2751	.	+	0	ID=FNEB6-bin-3.genome.CDS.1867;Product=Octanoate-%5Bacyl-carrier-protein%5D-protein-N-octanoyltransferase
+FNEB6-bin-3-scaffold_463	feature	CDS	1195	2091	.	+	0	ID=FNEB6-bin-3.genome.CDS.1866;Product=Cell division inhibitor
+FNEB6-bin-3-scaffold_463	feature	CDS	2	1189	.	+	0	ID=FNEB6-bin-3.genome.CDS.1865;Product=Dihydrolipoamide acyltransferase component of branched-chain alpha-keto acid dehydrogenase complex %28EC 2.3.1.168%29
+FNEB6-bin-3-scaffold_537	feature	CDS	2504	2599	.	-	0	ID=FNEB6-bin-3.genome.CDS.1493;Product=Threonyl-tRNA synthetase %28EC 6.1.1.3%29
+FNEB6-bin-3-scaffold_537	feature	CDS	1972	2475	.	-	0	ID=FNEB6-bin-3.genome.CDS.1492;Product=HIT family protein
+FNEB6-bin-3-scaffold_537	feature	CDS	1417	1992	.	+	0	ID=FNEB6-bin-3.genome.CDS.1491;Product=hypothetical protein
+FNEB6-bin-3-scaffold_537	feature	CDS	726	1331	.	-	0	ID=FNEB6-bin-3.genome.CDS.1490;Product=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase %28EC 2.7.8.5%29
+FNEB6-bin-3-scaffold_537	feature	CDS	2	721	.	-	0	ID=FNEB6-bin-3.genome.CDS.1489;Product=Lauroyl/myristoyl acyltransferase involved in lipid A biosynthesis %28Lauroyl/myristoyl acyltransferase%29
+FNEB6-bin-3-scaffold_6119	feature	CDS	2032	3453	.	+	0	ID=FNEB6-bin-3.genome.CDS.2012;Product=Xanthine/uracil/thiamine/ascorbate permease family protein
+FNEB6-bin-3-scaffold_6119	feature	CDS	1197	1697	.	-	0	ID=FNEB6-bin-3.genome.CDS.2011;Product=Uncharacterized protein SCO3165
+FNEB6-bin-3-scaffold_6119	feature	CDS	280	1200	.	+	0	ID=FNEB6-bin-3.genome.CDS.2010;Product=
+FNEB6-bin-3-scaffold_6119	feature	CDS	2	280	.	+	0	ID=FNEB6-bin-3.genome.CDS.2009;Product=
+FNEB6-bin-3-scaffold_638	feature	tRNA	6584	6658	.	-	.	ID=FNEB6-bin-3.genome.rna.20;Product=tRNA-Thr-CGT
+FNEB6-bin-3-scaffold_638	feature	CDS	5025	6452	.	-	0	ID=FNEB6-bin-3.genome.CDS.2452;Product=Amino acid permease
+FNEB6-bin-3-scaffold_638	feature	CDS	4485	4967	.	-	0	ID=FNEB6-bin-3.genome.CDS.2451;Product=DNA topoisomerase I %28EC 5.99.1.2%29
+FNEB6-bin-3-scaffold_638	feature	CDS	3025	4467	.	-	0	ID=FNEB6-bin-3.genome.CDS.2450;Product=hypothetical protein
+FNEB6-bin-3-scaffold_638	feature	CDS	2071	3009	.	-	0	ID=FNEB6-bin-3.genome.CDS.2449;Product=
+FNEB6-bin-3-scaffold_638	feature	CDS	1820	2074	.	-	0	ID=FNEB6-bin-3.genome.CDS.2448;Product=
+FNEB6-bin-3-scaffold_638	feature	CDS	1131	1820	.	-	0	ID=FNEB6-bin-3.genome.CDS.2447;Product=Putative amidotransferase similar to cobyric acid synthase
+FNEB6-bin-3-scaffold_638	feature	CDS	1	1044	.	-	0	ID=FNEB6-bin-3.genome.CDS.2446;Product=ATP-dependent RNA helicase
+FNEB6-bin-3-scaffold_667	feature	CDS	4129	5448	.	-	0	ID=FNEB6-bin-3.genome.CDS.1451;Product=Diaminopimelate decarboxylase %28EC 4.1.1.20%29
+FNEB6-bin-3-scaffold_667	feature	CDS	3914	4066	.	-	0	ID=FNEB6-bin-3.genome.CDS.1450;Product=
+FNEB6-bin-3-scaffold_667	feature	CDS	2655	3893	.	-	0	ID=FNEB6-bin-3.genome.CDS.1449;Product=Homoserine dehydrogenase %28EC 1.1.1.3%29
+FNEB6-bin-3-scaffold_667	feature	CDS	1573	2655	.	-	0	ID=FNEB6-bin-3.genome.CDS.1448;Product=Threonine synthase %28EC 4.2.3.1%29
+FNEB6-bin-3-scaffold_667	feature	CDS	634	1560	.	-	0	ID=FNEB6-bin-3.genome.CDS.1447;Product=Homoserine kinase %28EC 2.7.1.39%29
+FNEB6-bin-3-scaffold_667	feature	CDS	2	487	.	-	0	ID=FNEB6-bin-3.genome.CDS.1446;Product=
+FNEB6-bin-3-scaffold_702	feature	CDS	10322	10510	.	+	0	ID=FNEB6-bin-3.genome.CDS.2616;Product=
+FNEB6-bin-3-scaffold_702	feature	CDS	9388	10314	.	+	0	ID=FNEB6-bin-3.genome.CDS.2615;Product=Oxidoreductase
+FNEB6-bin-3-scaffold_702	feature	CDS	9124	9378	.	+	0	ID=FNEB6-bin-3.genome.CDS.2614;Product=
+FNEB6-bin-3-scaffold_702	feature	CDS	8314	8946	.	+	0	ID=FNEB6-bin-3.genome.CDS.2612;Product=
+FNEB6-bin-3-scaffold_702	feature	CDS	7613	8236	.	-	0	ID=FNEB6-bin-3.genome.CDS.2611;Product=DNA polymerase III epsilon subunit %28EC 2.7.7.7%29
+FNEB6-bin-3-scaffold_702	feature	CDS	6490	7620	.	+	0	ID=FNEB6-bin-3.genome.CDS.2610;Product=Anthranilate phosphoribosyltransferase %28EC 2.4.2.18%29
+FNEB6-bin-3-scaffold_702	feature	CDS	5765	6379	.	-	0	ID=FNEB6-bin-3.genome.CDS.2609;Product=Cytochrome c oxidase polypeptide III %28EC 1.9.3.1%29
+FNEB6-bin-3-scaffold_702	feature	CDS	4962	5756	.	-	0	ID=FNEB6-bin-3.genome.CDS.2608;Product=ubiquinol cytochrome C oxidoreductase%2C cytochrome C1 subunit
+FNEB6-bin-3-scaffold_702	feature	CDS	3962	4960	.	-	0	ID=FNEB6-bin-3.genome.CDS.2607;Product=Ubiquinol-cytochrome C reductase iron-sulfur subunit %28EC 1.10.2.2%29
+FNEB6-bin-3-scaffold_702	feature	CDS	2366	3940	.	-	0	ID=FNEB6-bin-3.genome.CDS.2606;Product=Ubiquinol--cytochrome c reductase%2C cytochrome B subunit %28EC 1.10.2.2%29
+FNEB6-bin-3-scaffold_702	feature	CDS	1224	2339	.	-	0	ID=FNEB6-bin-3.genome.CDS.2605;Product=hypothetical protein
+FNEB6-bin-3-scaffold_702	feature	CDS	886	1221	.	-	0	ID=FNEB6-bin-3.genome.CDS.2604;Product=
+FNEB6-bin-3-scaffold_702	feature	CDS	294	812	.	-	0	ID=FNEB6-bin-3.genome.CDS.2603;Product=hypothetical protein
+FNEB6-bin-3-scaffold_702	feature	CDS	3	284	.	+	0	ID=FNEB6-bin-3.genome.CDS.2602;Product=
+FNEB6-bin-3-scaffold_713	feature	CDS	1986	2627	.	+	0	ID=FNEB6-bin-3.genome.CDS.2008;Product=
+FNEB6-bin-3-scaffold_713	feature	CDS	1582	1983	.	+	0	ID=FNEB6-bin-3.genome.CDS.2007;Product=
+FNEB6-bin-3-scaffold_713	feature	CDS	1271	1549	.	+	0	ID=FNEB6-bin-3.genome.CDS.637;Product=
+FNEB6-bin-3-scaffold_713	feature	CDS	405	1160	.	-	0	ID=FNEB6-bin-3.genome.CDS.2006;Product=hypothetical protein
+FNEB6-bin-3-scaffold_713	feature	CDS	3	350	.	-	0	ID=FNEB6-bin-3.genome.CDS.2005;Product=hypothetical protein
+FNEB6-bin-3-scaffold_7922	feature	CDS	16674	16913	.	-	0	ID=FNEB6-bin-3.genome.CDS.2225;Product=Dihydropteroate synthase %28EC 2.5.1.15%29
+FNEB6-bin-3-scaffold_7922	feature	CDS	16318	16677	.	-	0	ID=FNEB6-bin-3.genome.CDS.2224;Product=Dihydroneopterin aldolase %28EC 4.1.2.25%29
+FNEB6-bin-3-scaffold_7922	feature	CDS	15872	16321	.	-	0	ID=FNEB6-bin-3.genome.CDS.2223;Product=2-amino-4-hydroxy-6-hydroxymethyldihydropteridine pyrophosphokinase %28EC 2.7.6.3%29
+FNEB6-bin-3-scaffold_7922	feature	CDS	15047	15826	.	-	0	ID=FNEB6-bin-3.genome.CDS.2222;Product=Pantoate--beta-alanine ligase %28EC 6.3.2.1%29
+FNEB6-bin-3-scaffold_7922	feature	CDS	13437	15050	.	-	0	ID=FNEB6-bin-3.genome.CDS.2221;Product=L-aspartate oxidase %28EC 1.4.3.16%29
+FNEB6-bin-3-scaffold_7922	feature	CDS	12607	13440	.	-	0	ID=FNEB6-bin-3.genome.CDS.2220;Product=Quinolinate phosphoribosyltransferase %5Bdecarboxylating%5D %28EC 2.4.2.19%29
+FNEB6-bin-3-scaffold_7922	feature	CDS	11827	12606	.	-	0	ID=FNEB6-bin-3.genome.CDS.2219;Product=Pantothenate kinase type III%2C CoaX-like %28EC 2.7.1.33%29
+FNEB6-bin-3-scaffold_7922	feature	CDS	10852	11802	.	-	0	ID=FNEB6-bin-3.genome.CDS.2218;Product=Lysyl-tRNA synthetase %28class II%29 %28EC 6.1.1.6%29
+FNEB6-bin-3-scaffold_7922	feature	CDS	10226	10693	.	-	0	ID=FNEB6-bin-3.genome.CDS.2217;Product=Lysyl-tRNA synthetase %28class II%29 %28EC 6.1.1.6%29
+FNEB6-bin-3-scaffold_7922	feature	CDS	9732	10229	.	-	0	ID=FNEB6-bin-3.genome.CDS.2216;Product=N-acetylglutamate synthase %28EC 2.3.1.1%29
+FNEB6-bin-3-scaffold_7922	feature	CDS	8971	9621	.	-	0	ID=FNEB6-bin-3.genome.CDS.833;Product=ATP-dependent Clp protease%2C ATP-binding subunit ClpC / Negative regulator of genetic competence clcC/mecB
+FNEB6-bin-3-scaffold_7922	feature	CDS	8036	8878	.	-	0	ID=FNEB6-bin-3.genome.CDS.832;Product=ATP-dependent Clp protease%2C ATP-binding subunit ClpC / Negative regulator of genetic competence clcC/mecB
+FNEB6-bin-3-scaffold_7922	feature	CDS	6778	8052	.	-	0	ID=FNEB6-bin-3.genome.CDS.2214;Product=ATP-dependent Clp protease%2C ATP-binding subunit ClpC / Negative regulator of genetic competence clcC/mecB
+FNEB6-bin-3-scaffold_7922	feature	CDS	5942	6781	.	+	0	ID=FNEB6-bin-3.genome.CDS.2213;Product=A/G-specific adenine glycosylase %28EC 3.2.2.-%29
+FNEB6-bin-3-scaffold_7922	feature	CDS	4561	5931	.	+	0	ID=FNEB6-bin-3.genome.CDS.2212;Product=DNA repair protein RadA
+FNEB6-bin-3-scaffold_7922	feature	CDS	3750	4580	.	+	0	ID=FNEB6-bin-3.genome.CDS.2211;Product=FIG01122970: hypothetical protein
+FNEB6-bin-3-scaffold_7922	feature	CDS	3308	3718	.	-	0	ID=FNEB6-bin-3.genome.CDS.2210;Product=Pyrroline-5-carboxylate reductase %28EC 1.5.1.2%29
+FNEB6-bin-3-scaffold_7922	feature	CDS	2734	3327	.	-	0	ID=FNEB6-bin-3.genome.CDS.2209;Product=Pyrroline-5-carboxylate reductase %28EC 1.5.1.2%29
+FNEB6-bin-3-scaffold_7922	feature	CDS	1787	2737	.	-	0	ID=FNEB6-bin-3.genome.CDS.2208;Product=
+FNEB6-bin-3-scaffold_7922	feature	CDS	1	1785	.	+	0	ID=FNEB6-bin-3.genome.CDS.2207;Product=hypothetical protein
+FNEB6-bin-3-scaffold_8559	feature	CDS	4717	5046	.	-	0	ID=FNEB6-bin-3.genome.CDS.1387;Product=Response regulator NasT
+FNEB6-bin-3-scaffold_8559	feature	CDS	3377	4540	.	-	0	ID=FNEB6-bin-3.genome.CDS.1386;Product=Branched-chain amino acid ABC transporter%2C amino acid-binding protein %28TC 3.A.1.4.1%29
+FNEB6-bin-3-scaffold_8559	feature	CDS	2296	3243	.	-	0	ID=FNEB6-bin-3.genome.CDS.1385;Product=High-affinity branched-chain amino acid transport system permease protein LivH %28TC 3.A.1.4.1%29
+FNEB6-bin-3-scaffold_8559	feature	CDS	1242	2288	.	-	0	ID=FNEB6-bin-3.genome.CDS.1384;Product=Branched-chain amino acid transport system permease protein LivM %28TC 3.A.1.4.1%29
+FNEB6-bin-3-scaffold_8559	feature	CDS	473	1249	.	-	0	ID=FNEB6-bin-3.genome.CDS.1383;Product=Branched-chain amino acid transport ATP-binding protein LivG %28TC 3.A.1.4.1%29
+FNEB6-bin-3-scaffold_8559	feature	CDS	1	483	.	-	0	ID=FNEB6-bin-3.genome.CDS.1382;Product=Branched-chain amino acid transport ATP-binding protein LivF %28TC 3.A.1.4.1%29
+FNEB6-bin-3-scaffold_883	feature	CDS	12926	13123	.	+	0	ID=FNEB6-bin-3.genome.CDS.2075;Product=UDP-N-acetylglucosamine 1-carboxyvinyltransferase %28EC 2.5.1.7%29
+FNEB6-bin-3-scaffold_883	feature	CDS	12290	12865	.	-	0	ID=FNEB6-bin-3.genome.CDS.2074;Product=ATP:Cob%28I%29alamin adenosyltransferase %28EC 2.5.1.17%29
+FNEB6-bin-3-scaffold_883	feature	CDS	11582	12283	.	+	0	ID=FNEB6-bin-3.genome.CDS.2073;Product=hypothetical protein
+FNEB6-bin-3-scaffold_883	feature	CDS	10800	11582	.	+	0	ID=FNEB6-bin-3.genome.CDS.2072;Product=ABC-type multidrug transport system%2C permease component
+FNEB6-bin-3-scaffold_883	feature	CDS	10435	10803	.	+	0	ID=FNEB6-bin-3.genome.CDS.2071;Product=
+FNEB6-bin-3-scaffold_883	feature	CDS	9855	10445	.	+	0	ID=FNEB6-bin-3.genome.CDS.2070;Product=hypothetical protein
+FNEB6-bin-3-scaffold_883	feature	CDS	9453	9764	.	-	0	ID=FNEB6-bin-3.genome.CDS.2069;Product=
+FNEB6-bin-3-scaffold_883	feature	CDS	7989	9443	.	+	0	ID=FNEB6-bin-3.genome.CDS.2068;Product=Aldehyde dehydrogenase %28EC 1.2.1.3%29
+FNEB6-bin-3-scaffold_883	feature	CDS	7256	7966	.	-	0	ID=FNEB6-bin-3.genome.CDS.691;Product=FIG01173569: hypothetical protein
+FNEB6-bin-3-scaffold_883	feature	CDS	6570	7259	.	+	0	ID=FNEB6-bin-3.genome.CDS.2066;Product=Putative membrane protein actII-3
+FNEB6-bin-3-scaffold_883	feature	CDS	4793	6613	.	+	0	ID=FNEB6-bin-3.genome.CDS.689;Product=possible membrane protein
+FNEB6-bin-3-scaffold_883	feature	CDS	3661	4791	.	+	0	ID=FNEB6-bin-3.genome.CDS.2064;Product=protein of unknown function UPF0118
+FNEB6-bin-3-scaffold_883	feature	CDS	2324	3541	.	-	0	ID=FNEB6-bin-3.genome.CDS.2063;Product=Chromosome segregation ATPases
+FNEB6-bin-3-scaffold_883	feature	CDS	1956	2327	.	-	0	ID=FNEB6-bin-3.genome.CDS.2062;Product=
+FNEB6-bin-3-scaffold_883	feature	CDS	1181	1942	.	-	0	ID=FNEB6-bin-3.genome.CDS.2061;Product=hypothetical protein
+FNEB6-bin-3-scaffold_883	feature	CDS	3	1184	.	-	0	ID=FNEB6-bin-3.genome.CDS.2060;Product=
+FNEB6-bin-3-scaffold_8796	feature	CDS	8738	9319	.	+	0	ID=FNEB6-bin-3.genome.CDS.2740;Product=3-isopropylmalate dehydratase large subunit %28EC 4.2.1.33%29
+FNEB6-bin-3-scaffold_8796	feature	CDS	7989	8708	.	-	0	ID=FNEB6-bin-3.genome.CDS.2739;Product=Transcriptional regulator%2C IclR family
+FNEB6-bin-3-scaffold_8796	feature	CDS	7435	7986	.	-	0	ID=FNEB6-bin-3.genome.CDS.2738;Product=hypothetical protein
+FNEB6-bin-3-scaffold_8796	feature	CDS	7055	7438	.	+	0	ID=FNEB6-bin-3.genome.CDS.2737;Product=
+FNEB6-bin-3-scaffold_8796	feature	CDS	6416	7024	.	+	0	ID=FNEB6-bin-3.genome.CDS.2736;Product=
+FNEB6-bin-3-scaffold_8796	feature	tRNA	6315	6387	.	+	.	ID=FNEB6-bin-3.genome.rna.30;Product=tRNA-Glu-CTC
+FNEB6-bin-3-scaffold_8796	feature	tRNA	6188	6259	.	+	.	ID=FNEB6-bin-3.genome.rna.29;Product=tRNA-Gln-CTG
+FNEB6-bin-3-scaffold_8796	feature	CDS	4707	6161	.	+	0	ID=FNEB6-bin-3.genome.CDS.2735;Product=Glutamyl-tRNA synthetase %28EC 6.1.1.17%29 %40 Glutamyl-tRNA%28Gln%29 synthetase %28EC 6.1.1.24%29
+FNEB6-bin-3-scaffold_8796	feature	CDS	3926	4714	.	+	0	ID=FNEB6-bin-3.genome.CDS.2734;Product=Fumarylacetoacetate hydrolase family protein
+FNEB6-bin-3-scaffold_8796	feature	CDS	3042	3908	.	+	0	ID=FNEB6-bin-3.genome.CDS.2733;Product=Magnesium and cobalt efflux protein CorC
+FNEB6-bin-3-scaffold_8796	feature	CDS	2608	3045	.	+	0	ID=FNEB6-bin-3.genome.CDS.2732;Product=Metal-dependent hydrolase YbeY%2C involved in rRNA and/or ribosome maturation and assembly
+FNEB6-bin-3-scaffold_8796	feature	CDS	1571	2581	.	+	0	ID=FNEB6-bin-3.genome.CDS.1323;Product=Phosphate starvation-inducible protein PhoH%2C predicted ATPase
+FNEB6-bin-3-scaffold_8796	feature	CDS	1218	1553	.	+	0	ID=FNEB6-bin-3.genome.CDS.2730;Product=
+FNEB6-bin-3-scaffold_8796	feature	CDS	369	1100	.	+	0	ID=FNEB6-bin-3.genome.CDS.2729;Product=Ribosomal RNA small subunit methyltransferase E %28EC 2.1.1.-%29
+FNEB6-bin-3-scaffold_8796	feature	CDS	1	369	.	+	0	ID=FNEB6-bin-3.genome.CDS.2728;Product=Chaperone protein DnaJ
