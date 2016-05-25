@@ -18,6 +18,7 @@ import HTSeq
 import os
 import pandas as pd
 import subprocess
+import shutil
 
 #%%#############################################################################
 ### Static folder structure
@@ -37,6 +38,9 @@ if not os.path.exists(countFolder):
         print "Creating output directory\n"
         os.makedirs(countFolder)
 
+if os.path.exists(readsDir):
+    shutil.rmtree(readsDir)
+        
 if not os.path.exists(readsDir):
         print "Creating output directory\n"
         os.makedirs(readsDir) 
