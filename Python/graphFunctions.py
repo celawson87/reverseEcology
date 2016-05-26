@@ -15,6 +15,7 @@ import networkx as nx
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
+import re
 #from collections import Counter
 
 import csv
@@ -490,36 +491,35 @@ def reduceToLargeComponent(dirList, processedDataDir, summaryStatsDir):
     
 def computeSeedSets(dirList, externalDataDir, processedDataDir):
         
-# Create lists to store seed sets
-# seedSetList is a list of lists. Each outer list contains all the seed sets
-# for that graph.
+    # Create lists to store seed sets
+    # seedSetList is a list of lists. Each outer list contains all the seed sets
+    # for that graph.
     seedSetList = []
-
-# Iterate over the list of genome directories. For each reduced digraph, 
-# identify its condensation (SCCs). For each node of the SCC, check if it
-# is a seed set by computing its in-degree. If yes, append the SCC (as a list
-# of nodes) to the list of seed sets. Then compute some summary statistics.
+    
+    # Iterate over the list of genome directories. For each reduced digraph, 
+    # identify its condensation (SCCs). For each node of the SCC, check if it
+    # is a seed set by computing its in-degree. If yes, append the SCC (as a list
+    # of nodes) to the list of seed sets. Then compute some summary statistics.
     count = 0
     print 'Computing seed sets'
-
+    
     for curDir in dirList:
-
-# Read in adjacency list and convert to digraph object
+    
+    # Read in adjacency list and convert to digraph object
         myDiGraph = nx.read_adjlist('../'+processedDataDir+'/'+curDir+'/'+curDir+'RedAdjList.txt',
                                 create_using=nx.DiGraph())                            
-
-# Compute the list of SCCs for the digraph as well as its condensation
-        mySCCList = list(nx.strongly_connected_components_recursive(myDiGraph))
+    
+    # Compute the list of SCCs for the digraph as well as its condensation
         myCondensation = nx.condensation(myDiGraph)
         nx.write_adjlist(myCondensation, '../'+processedDataDir+'/'+curDir+'/'+curDir+'SCCAdjList.txt')
-
+    
     # For some reason, the condensation cannot be written to GraphML. Instead, re-read the 
     # adjacency list and write that to GraphML.
         myTempGraph = nx.read_adjlist('../'+processedDataDir+'/'+curDir+'/'+curDir+'SCCAdjList.txt',
                                 create_using=nx.DiGraph())                            
         nx.write_graphml(myTempGraph, '../'+processedDataDir+'/'+curDir+'/'+curDir+'SCCGraph.xml')
-
-
+    
+    
     # Invert the mapping dictionary to map SCC nodes to their original compoundsm
         mapDict = dict()
         for key in myCondensation.graph.items()[0][1].keys():
@@ -530,7 +530,7 @@ def computeSeedSets(dirList, externalDataDir, processedDataDir):
         # Otherwise create it
             else:
                 mapDict[value] = [str(key)]
-
+    
         dictFile=open('../'+processedDataDir+'/'+curDir+'/'+curDir+'SCCDict.txt', "w")
         for key in mapDict.keys():
             dictFile.write(str(key)+',')
@@ -538,67 +538,42 @@ def computeSeedSets(dirList, externalDataDir, processedDataDir):
             dictFile.write('\n')
         dictFile.close()
         
-# "List of lists" of seed metabolites. Each element is a list of nodes belonging
-# to an SCC which is also a seed set.
+    # "List of lists" of seed metabolites. Each element is a list of nodes belonging
+    # to an SCC which is also a seed set.
         mySeeds = []    
-
-# For each node (SCC) of the condensation, examine each its in-degree. If the
-# in-degree is zero (only outgoing edges), the SCC is a seed set. Append the
-# SCC (as a list of nodes) to the list of seed sets.
+    
+    # For each node (SCC) of the condensation, examine each its in-degree. If the
+    # in-degree is zero (only outgoing edges), the SCC is a seed set. Append the
+    # SCC (as a list of nodes) to the list of seed sets.
         for node in myCondensation.nodes():
             inDeg = myCondensation.in_degree(node)
             if inDeg == 0:
                 mySeeds.append(mapDict[str(node)])
         seedSetList.append(mySeeds)
-
-# Record seed metabolites for each graph. Each row of the output file contains
-# the metabolites belonging to a single seed set.
-        seedSets = open('../'+processedDataDir+'/'+curDir+'/'+curDir+'SeedSets.txt', 'w')
-        writer = csv.writer(seedSets)
-        for row in mySeeds:
-            writer.writerow(list(row))
-        seedSets.close()
     
-# Update the list of seed metabolites: replace the Model SEED metabolite 
-# identifier with its common name. Note: The file metabMap.csv was created 
-# manually from the seed database, and should be updated to reflect the 
-# particulars of your data set. As above, record the seed metabolite for each
-# graph.
-
-# First read metabMap.csv in as a dictionary
+    # Update the list of seed metabolites: replace the Model SEED metabolite 
+    # identifier with its common name. Note: The file metabMap.csv was created 
+    # manually from the seed database, and should be updated to reflect the 
+    # particulars of your data set. As above, record the seed metabolite for each
+    # graph.
+    
+    # First read metabMap.csv in as a dictionary
         with open('../'+externalDataDir+'/'+'metabMap.csv', mode='rU') as inFile:
             reader = csv.reader(inFile)
             namesDict = dict((rows[0],rows[1]) for rows in reader)
-        
-# For each compound in the set of seeds, use the dictionary to replace it with
-# its common name. Then write to file.
-        mySeedsNames = [[namesDict[metab] for metab in seed] for seed in mySeeds]    
-
-        seedSets = open('../'+processedDataDir+'/'+curDir+'/'+curDir+'SeedSetsWNames.txt', 'w')
-        writer = csv.writer(seedSets)
-        writer.writerows(mySeedsNames)
-        seedSets.close()
     
-# Record weights for each seed metabolite. Each row of the output file contains
-# a metabolite and its weight (1 / size of the seed set). Construct for seeds
-# using both IDs and names.
-        seedWeights = open('../'+processedDataDir+'/'+curDir+'/'+curDir+'SeedWeights.txt', 'w')
+    # Compute weights for each seed metabolite and write to file. Each row of the 
+    # output file contains a metabolite and its weight (1 / size of the seed set). 
+    
+        seedFile = open('../'+processedDataDir+'/'+curDir+'/'+curDir+'SeedCompounds.txt', 'w')
         for seed in mySeeds:
             myWeight = 1 / float(len(seed))
             for metab in seed:
-                seedWeights.write('%s,%f\n' % (metab, myWeight) )
-        seedWeights.close()
-    
-        seedWeights = open('../'+processedDataDir+'/'+curDir+'/'+curDir+'SeedWeightsWNames.txt', 'w')
-        for seed in mySeedsNames:
-            myWeight = 1 / float(len(seed))
-            for metab in seed:
-                seedWeights.write('%s,%f\n' % (metab, myWeight) )
-        seedWeights.close()
+                seedFile.write('%s,%s,%f\n' % (metab, namesDict[re.sub('_[a-d]', '', metab)], myWeight) )
+        seedFile.close()
     
         count = count + 1
-
-#return seedSetList
+    
     return seedSetList
     
 ################################################################################
