@@ -569,7 +569,7 @@ def computeSeedSets(dirList, externalDataDir, processedDataDir):
         for seed in mySeeds:
             myWeight = 1 / float(len(seed))
             for metab in seed:
-                seedFile.write('%s,%s,%f\n' % (metab, namesDict[re.sub('_[a-d]', '', metab)], myWeight) )
+                seedFile.write('%s\t%s\t%f\n' % (metab, namesDict[re.sub('_[a-d]', '', metab)], myWeight) )
         seedFile.close()
     
         count = count + 1
