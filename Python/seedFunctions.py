@@ -296,10 +296,10 @@ def computeMetabCompete(processedDataDir, summaryStatsDir, level, taxonFile):
         for innerDir in groupList:
 
 # Read in the list of seed sets and their weights for organisms A and B
-            seedWeightOuter = pd.read_csv('../'+processedDataDir+'/'+outerDir+'/'+outerDir+'SeedWeights.txt', 
-                                          header=None, names=['Metabolite', 'Outer Weight'])
-            seedWeightInner = pd.read_csv('../'+processedDataDir+'/'+innerDir+'/'+innerDir+'SeedWeights.txt', 
-                                          header=None, names=['Metabolite', 'Inner Weight'])
+            seedWeightOuter = pd.read_csv('../'+processedDataDir+'/'+outerDir+'/'+outerDir+'SeedCompounds.txt', 
+                                          header=None, names=['Metabolite', 'Name', 'Outer Weight'], sep='\t')
+            seedWeightInner = pd.read_csv('../'+processedDataDir+'/'+innerDir+'/'+innerDir+'SeedCompounds.txt', 
+                                          header=None, names=['Metabolite', 'Name', 'Inner Weight'], sep='\t')
 
 # Compute the overlap between seed sets using an inner join
             overlapSeeds = pd.merge(seedWeightOuter, seedWeightInner, on='Metabolite')
@@ -366,10 +366,10 @@ def computeMetabComplement(processedDataDir, summaryStatsDir, level, taxonFile):
         for innerDir in groupList:
 
 # Read in the list of seed sets and their weights for organisms A and B
-            seedWeightOuter = pd.read_csv('../'+processedDataDir+'/'+outerDir+'/'+outerDir+'SeedWeights.txt', header=None, names=['Metabolite', 'Outer Weight'])
-
-# Read in the lists of seed compounds and all compounds for the inner genome
-            seedWeightInner = pd.read_csv('../'+processedDataDir+'/'+innerDir+'/'+innerDir+'SeedWeights.txt', header=None, names=['Metabolite', 'Inner Weight'])
+            seedWeightOuter = pd.read_csv('../'+processedDataDir+'/'+outerDir+'/'+outerDir+'SeedCompounds.txt', 
+                                          header=None, names=['Metabolite', 'Name', 'Outer Weight'], sep='\t')
+            seedWeightInner = pd.read_csv('../'+processedDataDir+'/'+innerDir+'/'+innerDir+'SeedCompounds.txt', 
+                                          header=None, names=['Metabolite', 'Name', 'Inner Weight'], sep='\t')
 
 # Read in the metabolic network of B via its adjancency list representation and
 # converts it to a pandas Dataframe. First, the list of nodes is extracted from
@@ -507,7 +507,7 @@ def plotDataFrame(revEcolMatrixDF, groupList, externalDataDir, summaryStatsDir, 
 # Define the size of the plot
     axmatrix = fig.add_axes([0.1, 0.1, 0.8, 0.8])
 # Plot the weight matrix
-    im = axmatrix.matshow(revEcolMatrix, aspect='auto', origin='upper', vmin=0, vmax=revEcolMatrixDF.max().max())
+    im = axmatrix.matshow(revEcolMatrix, aspect='auto', origin='upper', vmin=0, vmax=revEcolMatrixDF.max().max(), cmap='OrRd')
 # No tick marks along axes
     axmatrix.set_xticks([])
     axmatrix.set_yticks([])
