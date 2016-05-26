@@ -1,17 +1,3 @@
-ExternalData/*
-!ExternalData/ANI_out
-!ExternalData/COV_out
-!ExternalData/reactionsToRemove.txt
-!ExternalData/taxonomy.csv
-!ExternalData/taxonomySAGs.csv
-!ExternalData/taxonomyTribes.csv
-!ExternalData/tribalColors.csv
-!ExternalData/masterColors.xlsx
-!ExternalData/checkMMarkerGenes.csv
-!ExternalData/phylosiftMarkerGenes.csv
-!ExternalData/phylophlanMarkerGenes.csv
-!ExternalData/cogAbundance.csv
-
 gurobi.log
 *.pyc
 .spyderworkspace
