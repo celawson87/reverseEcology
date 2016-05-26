@@ -272,7 +272,7 @@ def getModelStats(model):
 # folder. Also returns a summary of the model sizes, in the 'summaryStatsDir'
 # folder.
 
-def processSBMLforRE(rawModelDir, processedDataDir, summaryStatsDir):
+def processSBMLforRE(rawModelDir, processedDataDir, summaryStatsDir, externalDataDir):
 
     # # Check that folders exist and create them if necessary
     if not os.path.exists('../'+processedDataDir):
@@ -284,6 +284,20 @@ def processSBMLforRE(rawModelDir, processedDataDir, summaryStatsDir):
     dirList = mf.getDirList('../'+rawModelDir)
     numSubDir = len(dirList)
     
+    # Import the list of metabolies to revise
+    metabFormDict = {}
+    metabChargeDict = {}
+    
+    with open('../'+externalDataDir+'/newFormulaDict.txt') as inFile:
+        for line in inFile:
+           (key, value) = line.split('\t')
+           metabFormDict[key] = value
+           
+    with open('../'+externalDataDir+'/newChargeDict.txt') as inFile:
+        for line in inFile:
+           (key, value) = line.split('\t')
+           metabChargeDict[key] = value
+           
     # Create an array to store results
     # Columns: genes, metabs, rxns, balanced (binary)
     modelSizeDF = pd.DataFrame(index = dirList, columns=['Genes', 'Metabolites', 'Reactions', 'Balanced'])
@@ -291,9 +305,7 @@ def processSBMLforRE(rawModelDir, processedDataDir, summaryStatsDir):
     # Intialize a counter
     count = 1
     for curDir in dirList:
-    # Establish vector for results
-        resultArray = np.zeros((4,1), dtype=int);
-    
+
     # Print the subdirectory name
         print 'Processing model ' + curDir + ', ' + str(count) + ' of ' + str(numSubDir)
     
@@ -385,22 +397,25 @@ def processSBMLforRE(rawModelDir, processedDataDir, summaryStatsDir):
     # Check for reactions known to be imbalanced and manually correct them
     # If metabolite cpd03422 exists, update its charge to +1
         for curMetab in model.metabolites:
-            if curMetab.id == 'cpd03422_c0':
-                curMetab.charge = 1
+            if curMetab.id in metabFormDict.keys():
+                curMetab.formula = cobra.core.Formula.Formula(metabFormDict[curMetab.id])
+                curMetab.formula.id = metabFormDict[curMetab.id]
+                curMetab.charge = int(metabChargeDict[curMetab.id])
     
         for curRxn in model.reactions:
+    # If reaction rxn05893 exists, update its stoichiometry
+            if curRxn.id == 'rxn05893_c0':
+                curRxn.reaction = '4.0 cpd00001_c0 + 2.0 cpd00013_c0 + 6.0 cpd11621_c0 <=> 16.0 cpd00067_c0 + 2.0 cpd00075_c0 + 6.0 cpd11620_c0'         
     # If reaction rxn07295 exists, update its stoichiometry
             if curRxn.id == 'rxn07295_c0':
                 curRxn.reaction = 'cpd00007_c0 + cpd00033_c0 <=> cpd00025_c0 + 3.0 cpd00067_c0 + cpd14545_c0'
-                print 'Manually correcting an imbalance'
     # If reaction rxn08808 exists, update its stoichiometry        
             elif curRxn.id == 'rxn08808_c0':
                 curRxn.reaction = 'cpd00001_c0 + cpd15341_c0 <=> cpd00067_c0 + cpd00908_c0 + cpd01080_c0'
-                print 'Manually correcting an imbalance'
     # If reaction rxn12822 exists, update its stoichiometry        
             elif curRxn.id == 'rxn12822_c0':
                 curRxn.reaction = '2.0 cpd00023_c0 + cpd11621_c0 <=> cpd00024_c0 + cpd00053_c0 + 2.0 cpd00067_c0 + cpd11620_c0'
-                print 'Manually correcting an imbalance'
+    # If reaction rxn12822 exists, update its stoichiometry        
     
     # Heuristic for proton balancing
         for curRxn in model.reactions:
@@ -409,10 +424,9 @@ def processSBMLforRE(rawModelDir, processedDataDir, summaryStatsDir):
             # If imbalancing due to protons alone, correct it
                 if 'H' in imbalDict and 'charge' in imbalDict and imbalDict['H'] == imbalDict['charge']:
                     curRxn.add_metabolites({model.metabolites.get_by_id('cpd00067_c0'): -1*imbalDict['H']})
-                    print 'Re-balancing on the basis of protons'
                 else:
                     imbalCounter = imbalCounter + 1                
-                    print 'Reaction ' + str(curRxn.id) + ' remains unbalanced'                
+                    print 'Reaction ' + str(curRxn.id) + ' remains unbalanced'      
                 
     # Inform of results
         if imbalCounter != 0:
@@ -454,6 +468,6 @@ def processSBMLforRE(rawModelDir, processedDataDir, summaryStatsDir):
         count = count + 1
     
     # Write the results to file
-    modelSizeDF.to_csv('../'+summaryStatsDir+'/modelStats.tsv', sep='\t')
-    
+    modelSizeDF.to_csv('../'+summaryStatsDir+'/modelStats.tsv', sep='\t')    
+
     return
