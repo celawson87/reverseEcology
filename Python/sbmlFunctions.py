@@ -12,6 +12,7 @@
 # Import python modules
 import cobra
 import cobra.core.Formula
+import collections
 import csv
 import fileinput
 import numpy as np
@@ -271,60 +272,72 @@ def getModelStats(model):
 # folder. Also returns a summary of the model sizes, in the 'summaryStatsDir'
 # folder.
 
-def processSBMLforRE(rawModelDir, processedDataDir, summaryStatsDir):
+def processSBMLforRE(rawModelDir, processedDataDir, summaryStatsDir, externalDataDir):
 
-# # Check that folders exist and create them if necessary
+    # # Check that folders exist and create them if necessary
     if not os.path.exists('../'+processedDataDir):
         os.makedirs('../'+processedDataDir)
     if not os.path.exists('../'+summaryStatsDir):
         os.makedirs('../'+summaryStatsDir)
     
-# Import the list of models
+    # Import the list of models
     dirList = mf.getDirList('../'+rawModelDir)
     numSubDir = len(dirList)
-
-# Create an array to store results
-# Columns: genes, metabs, rxns, balanced (binary)
+    
+    # Import the list of metabolies to revise
+    metabFormDict = {}
+    metabChargeDict = {}
+    
+    with open('../'+externalDataDir+'/newFormulaDict.txt') as inFile:
+        for line in inFile:
+           (key, value) = line.split('\t')
+           metabFormDict[key] = value
+           
+    with open('../'+externalDataDir+'/newChargeDict.txt') as inFile:
+        for line in inFile:
+           (key, value) = line.split('\t')
+           metabChargeDict[key] = value
+           
+    # Create an array to store results
+    # Columns: genes, metabs, rxns, balanced (binary)
     modelSizeDF = pd.DataFrame(index = dirList, columns=['Genes', 'Metabolites', 'Reactions', 'Balanced'])
-
-# Intialize a counter
+    
+    # Intialize a counter
     count = 1
     for curDir in dirList:
-    # Establish vector for results
-        resultArray = np.zeros((4,1), dtype=int);
 
     # Print the subdirectory name
         print 'Processing model ' + curDir + ', ' + str(count) + ' of ' + str(numSubDir)
-
+    
     # Import metabolite charges
         cpdData = pd.read_csv('../'+rawModelDir+'/'+curDir+'/'+curDir+'Compounds.tsv', delimiter='\t', index_col=0)
-
-################################################################################                   
-
+    
+    ################################################################################                   
+    
     # Before reading in the SBML file, update gene loci so they read in properly
     # In the old models ...
     # KBase generates gene loci of the form kb|g.######.CDS.###
     # Transform them to be of the form curDir_CDS_###
-
+    
     # In the new models ...
     # KBase generates gene loci of the form curDir.genome.CDS.###
     # Transform them to be of the form curDir_CDS_###
     
         for myLine in fileinput.FileInput('../'+rawModelDir+'/'+curDir+'/'+curDir+'.xml', inplace = True):
-#            print re.sub('kb\|g\.\d+\.CDS\.(\d+)', curDir+'_CDS_\g<1>', myLine).strip()
+    #            print re.sub('kb\|g\.\d+\.CDS\.(\d+)', curDir+'_CDS_\g<1>', myLine).strip()
             print re.sub(curDir+'\.genome\.CDS\.(\d+)', curDir+'_CDS_\g<1>', myLine).strip()
         fileinput.close()
-
-################################################################################                   
+    
+    ################################################################################                   
     
     # Read in model from SBML
         model = cobra.io.read_sbml_model('../'+rawModelDir+'/'+curDir+'/'+curDir+'.xml')
-
-################################################################################                   
-
+    
+    ################################################################################                   
+    
     # Remove undesired reactions, including:
         badRxnList = []
-#        print 'Removing bad reactions'
+    #        print 'Removing bad reactions'
         for curRxn in model.reactions:
         # Exchange reactions
             if re.match('EX_', curRxn.id):
@@ -342,62 +355,78 @@ def processSBMLforRE(rawModelDir, processedDataDir, summaryStatsDir):
             elif re.search('transport', curRxn.name) or re.search('permease', curRxn.name) or re.search('symport', curRxn.name) or re.search('diffusion', curRxn.name) or re.search('excretion', curRxn.name) or re.search('export', curRxn.name) or re.search('secretion', curRxn.name) or re.search('uptake', curRxn.name) or re.search('antiport', curRxn.name):
                 badRxnList.append(curRxn)
         # Transport reactions which don't get picked up based on keywords
-            elif curRxn.id == 'rxn05226_c0' or curRxn.id == 'rxn05292_c0' or curRxn.id == 'rxn05305_c0' or curRxn.id == 'rxn05312_c0' or curRxn.id == 'rxn05315_c0' or curRxn.id == 'rxn10945_c0':
+            elif curRxn.id == 'rxn05226_c0' or curRxn.id == 'rxn05292_c0' or curRxn.id == 'rxn05305_c0' or curRxn.id == 'rxn05312_c0' or curRxn.id == 'rxn05315_c0' or curRxn.id == 'rxn10945_c0' or curRxn.id == 'rxn10116_c0':
                 badRxnList.append(curRxn)
+        # Transport reactions, where a metabolite with the same ID is on both sides
+            metabList = []
+            for curMetab in curRxn.metabolites:
+                metabList.append(re.sub('_[a-z]\d', '', curMetab.id))
+            # Count number of appearences each list element
+            metabList = [metab for metab in metabList if metab != 'cpd00067']
+            if len(metabList) > 0:        
+                metabCounter = collections.Counter(metabList)
+                # Sort by number of appearances, find appearances of most common
+                # Any value > 1 means the metablite is on both sides
+                if metabCounter.most_common()[0][1] > 1:
+                    badRxnList.append(curRxn)
+    
+        badRxnList = list(set(badRxnList))
         model.remove_reactions(badRxnList, delete=True, remove_orphans=True)                        
-
+    
         print 'The remaining extracellular metabolites are:'
         for curMetab in model.metabolites:
             if re.search('_e0', curMetab.id):
                 print curMetab.id
-
-################################################################################                   
-
+    
+    ################################################################################                   
+    
     # Update the metabolite formulas
-#        print 'Updating metabolite formulas'
+    #        print 'Updating metabolite formulas'
         for curMetab in model.metabolites:
         # Retrieve the metabolite name w/o compartment info
         # Look up the appropriate index in the cpdData DF
             curMetab.formula = cobra.core.Formula.Formula(cpdData.loc[re.sub('_[a-z]\d', '', curMetab.id)][1])
             curMetab.formula.id = cpdData.loc[re.sub('_[a-z]\d', '', curMetab.id)][1]
-
-################################################################################                   
-
+    
+    ################################################################################                   
+    
     # Check mass- and charge- balancing   
         imbalCounter = 0
-#        print 'Correcting mass- and charge-balancing'
-
+    #        print 'Correcting mass- and charge-balancing'
+    
     # Check for reactions known to be imbalanced and manually correct them
     # If metabolite cpd03422 exists, update its charge to +1
         for curMetab in model.metabolites:
-            if curMetab.id == 'cpd03422_c0':
-                curMetab.charge = 1
-
+            if curMetab.id in metabFormDict.keys():
+                curMetab.formula = cobra.core.Formula.Formula(metabFormDict[curMetab.id])
+                curMetab.formula.id = metabFormDict[curMetab.id]
+                curMetab.charge = int(metabChargeDict[curMetab.id])
+    
         for curRxn in model.reactions:
+    # If reaction rxn05893 exists, update its stoichiometry
+            if curRxn.id == 'rxn05893_c0':
+                curRxn.reaction = '4.0 cpd00001_c0 + 2.0 cpd00013_c0 + 6.0 cpd11621_c0 <=> 16.0 cpd00067_c0 + 2.0 cpd00075_c0 + 6.0 cpd11620_c0'         
     # If reaction rxn07295 exists, update its stoichiometry
             if curRxn.id == 'rxn07295_c0':
                 curRxn.reaction = 'cpd00007_c0 + cpd00033_c0 <=> cpd00025_c0 + 3.0 cpd00067_c0 + cpd14545_c0'
-                print 'Manually correcting an imbalance'
     # If reaction rxn08808 exists, update its stoichiometry        
             elif curRxn.id == 'rxn08808_c0':
                 curRxn.reaction = 'cpd00001_c0 + cpd15341_c0 <=> cpd00067_c0 + cpd00908_c0 + cpd01080_c0'
-                print 'Manually correcting an imbalance'
     # If reaction rxn12822 exists, update its stoichiometry        
             elif curRxn.id == 'rxn12822_c0':
                 curRxn.reaction = '2.0 cpd00023_c0 + cpd11621_c0 <=> cpd00024_c0 + cpd00053_c0 + 2.0 cpd00067_c0 + cpd11620_c0'
-                print 'Manually correcting an imbalance'
-
+    # If reaction rxn12822 exists, update its stoichiometry        
+    
     # Heuristic for proton balancing
         for curRxn in model.reactions:
             imbalDict = curRxn.check_mass_balance()
             if len(imbalDict) != 0:
             # If imbalancing due to protons alone, correct it
-                if imbalDict['H'] == imbalDict['charge']:
+                if 'H' in imbalDict and 'charge' in imbalDict and imbalDict['H'] == imbalDict['charge']:
                     curRxn.add_metabolites({model.metabolites.get_by_id('cpd00067_c0'): -1*imbalDict['H']})
-                    print 'Re-balancing on the basis of protons'
                 else:
                     imbalCounter = imbalCounter + 1                
-                    print 'Reaction ' + str(curRxn.id) + ' remains unbalanced'                
+                    print 'Reaction ' + str(curRxn.id) + ' remains unbalanced'      
                 
     # Inform of results
         if imbalCounter != 0:
@@ -406,7 +435,7 @@ def processSBMLforRE(rawModelDir, processedDataDir, summaryStatsDir):
             modelSizeDF.loc[curDir][3] = 1
             print 'All reactions are balanced'              
         
-################################################################################            
+    ################################################################################            
     
     ### Update names to remove trailing zeros
         for curComp in model.compartments:
@@ -422,23 +451,23 @@ def processSBMLforRE(rawModelDir, processedDataDir, summaryStatsDir):
             curRxn.id = re.sub('\d$', '', curRxn.id)
             curRxn.name = re.sub('_[a-z]\d$', '', curRxn.name)
                 
-################################################################################                   
-
+    ################################################################################                   
+    
     # Store the model properties in the array, write the model output, and increase the counter
         modelSizeDF.loc[curDir][0] = len(model.genes)
         modelSizeDF.loc[curDir][1] = len(model.metabolites)
         modelSizeDF.loc[curDir][2] = len(model.reactions)
-
+    
     # Perform final write to file
     # Check that output dir exists and create if necessary    
         if not os.path.exists('../'+processedDataDir+'/'+curDir):
             os.makedirs('../'+processedDataDir+'/'+curDir)
     
-#        print 'Writing to file'
+    #        print 'Writing to file'
         cobra.io.write_sbml_model(model, '../'+processedDataDir+'/'+curDir+'/'+curDir+'.xml')
         count = count + 1
     
-# Write the results to file
-    modelSizeDF.to_csv('../'+summaryStatsDir+'/modelStats.tsv', sep='\t')
+    # Write the results to file
+    modelSizeDF.to_csv('../'+summaryStatsDir+'/modelStats.tsv', sep='\t')    
 
     return
