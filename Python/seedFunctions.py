@@ -375,16 +375,16 @@ def computeMetabComplement(processedDataDir, summaryStatsDir, level, taxonFile):
 # converts it to a pandas Dataframe. First, the list of nodes is extracted from
 # the graph. The list is then converted to a pandas Series, embedded in a dict,
 # and used to create a dataframe of the nodes.
-            allNodesInner = pd.DataFrame({'Metabolite' : pd.Series(nx.read_adjlist('../'+processedDataDir+'/'+innerDir+'/'+innerDir+'AdjList.txt', create_using=nx.DiGraph()).nodes())})
+            allNodesOuter = pd.DataFrame({'Metabolite' : pd.Series(nx.read_adjlist('../'+processedDataDir+'/'+outerDir+'/'+outerDir+'AdjList.txt', create_using=nx.DiGraph()).nodes())})
 
 # Compute the list of non-seed compounds for organisms B
-            nonSeedsInner = allNodesInner[~allNodesInner.Metabolite.isin(seedWeightInner.Metabolite)]
+            nonSeedsOuter = allNodesOuter[~allNodesOuter.Metabolite.isin(seedWeightOuter.Metabolite)]
 
 # Compute the overlap between A's seeds and B's non-seeds
-            overlapSeeds = pd.merge(seedWeightOuter, nonSeedsInner, on='Metabolite')
+            overlapSeeds = pd.merge(seedWeightInner, nonSeedsOuter, on='Metabolite')
 
 # Compute the ratio of these two sets
-            metabComplement.loc[outerDir, innerDir] = float(len(overlapSeeds)) / float(len(seedWeightOuter))
+            metabComplement.loc[outerDir, innerDir] = float(len(overlapSeeds)) / float(len(seedWeightInner))
 
 # When loop complete, write to file
     metabComplement.to_csv('../'+summaryStatsDir+'/'+'MetabolicComplementarityScores-'+level+'.csv')
@@ -494,39 +494,53 @@ def clusterPairwise(revEcolMatrixDF, dirList, externalDataDir, summaryStatsDir, 
 
 # This function visualizes pairwise competition scores as a heatmap.
 
-def plotDataFrame(revEcolMatrixDF, groupList, externalDataDir, summaryStatsDir, fileName):
-# Python clustering algorithms require the data to be an ndarray, with each
-# row corresponding to a set of observations.
+def plotDataFrame(revEcolMatrixDF, groupList, externalDataDir, summaryStatsDir, fileName, taxonFile, sortLevel):
+    # Python clustering algorithms require the data to be an ndarray, with each
+    # row corresponding to a set of observations.
     revEcolMatrix=pd.DataFrame.as_matrix(revEcolMatrixDF)
     revEcolMatrixT=np.transpose(pd.DataFrame.as_matrix(revEcolMatrixDF))
-
-# Create a figure to display the seed weights and dendrograms.
+    
+    # Read in taxonFile, sort by indicated column, and extract the desired sort order
+    taxonClass = pd.DataFrame.from_csv(taxonFile, sep=',')
+    taxonClass['Order'] = range(0, len(taxonClass))
+    
+    taxonClass = taxonClass.sort_values(sortLevel)
+    
+    newOrder = taxonClass['Order'].tolist()
+    
+    # Rearrange the matrix
+    revEcolMatrix = revEcolMatrix[newOrder]
+    revEcolMatrix = revEcolMatrix[:,newOrder]
+    
+    groupList = [ groupList[i] for i in newOrder]
+    
+    # Create a figure to display the seed weights and dendrograms.
     fig = plt.figure(figsize=(7.5, 7.5))
-
-# Plot the matrix of competition scores
-# Define the size of the plot
+    
+    # Plot the matrix of competition scores
+    # Define the size of the plot
     axmatrix = fig.add_axes([0.1, 0.1, 0.8, 0.8])
-# Plot the weight matrix
+    # Plot the weight matrix
     im = axmatrix.matshow(revEcolMatrix, aspect='auto', origin='upper', vmin=0, vmax=revEcolMatrixDF.max().max(), cmap='OrRd')
-# No tick marks along axes
+    # No tick marks along axes
     axmatrix.set_xticks([])
     axmatrix.set_yticks([])
-
-# Add genome names to the bottom axis
+    
+    # Add genome names to the bottom axis
     axmatrix.set_xticks(range(len(revEcolMatrixT)))
     axmatrix.set_xticklabels(groupList, minor=False)
     axmatrix.xaxis.set_label_position('bottom')
     axmatrix.xaxis.tick_bottom()
     plt.xticks(rotation=-90, fontsize=8)
-
-# Add genome names to the right axis
+    
+    # Add genome names to the right axis
     axmatrix.set_yticks(range(len(revEcolMatrix)))
     axmatrix.set_yticklabels(groupList, minor=False)
-    axmatrix.yaxis.set_label_position('right')
+    axmatrix.yaxis.set_label_position('left')
     axmatrix.yaxis.tick_right()
     plt.yticks(fontsize=8)
-
-# Plot colorbar.
+    
+    # Plot colorbar.
     axcolor = fig.add_axes([0.9, 0.9, 0.03, 0.1])
     plt.colorbar(im, cax=axcolor)
     fig.show()
