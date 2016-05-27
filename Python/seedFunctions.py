@@ -375,16 +375,16 @@ def computeMetabComplement(processedDataDir, summaryStatsDir, level, taxonFile):
 # converts it to a pandas Dataframe. First, the list of nodes is extracted from
 # the graph. The list is then converted to a pandas Series, embedded in a dict,
 # and used to create a dataframe of the nodes.
-            allNodesInner = pd.DataFrame({'Metabolite' : pd.Series(nx.read_adjlist('../'+processedDataDir+'/'+innerDir+'/'+innerDir+'AdjList.txt', create_using=nx.DiGraph()).nodes())})
+            allNodesOuter = pd.DataFrame({'Metabolite' : pd.Series(nx.read_adjlist('../'+processedDataDir+'/'+outerDir+'/'+outerDir+'AdjList.txt', create_using=nx.DiGraph()).nodes())})
 
 # Compute the list of non-seed compounds for organisms B
-            nonSeedsInner = allNodesInner[~allNodesInner.Metabolite.isin(seedWeightInner.Metabolite)]
+            nonSeedsOuter = allNodesOuter[~allNodesOuter.Metabolite.isin(seedWeightOuter.Metabolite)]
 
 # Compute the overlap between A's seeds and B's non-seeds
-            overlapSeeds = pd.merge(seedWeightOuter, nonSeedsInner, on='Metabolite')
+            overlapSeeds = pd.merge(seedWeightInner, nonSeedsOuter, on='Metabolite')
 
 # Compute the ratio of these two sets
-            metabComplement.loc[outerDir, innerDir] = float(len(overlapSeeds)) / float(len(seedWeightOuter))
+            metabComplement.loc[outerDir, innerDir] = float(len(overlapSeeds)) / float(len(seedWeightInner))
 
 # When loop complete, write to file
     metabComplement.to_csv('../'+summaryStatsDir+'/'+'MetabolicComplementarityScores-'+level+'.csv')
@@ -536,7 +536,7 @@ def plotDataFrame(revEcolMatrixDF, groupList, externalDataDir, summaryStatsDir, 
     # Add genome names to the right axis
     axmatrix.set_yticks(range(len(revEcolMatrix)))
     axmatrix.set_yticklabels(groupList, minor=False)
-    axmatrix.yaxis.set_label_position('right')
+    axmatrix.yaxis.set_label_position('left')
     axmatrix.yaxis.tick_right()
     plt.yticks(fontsize=8)
     
